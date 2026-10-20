@@ -1,0 +1,47 @@
+EPISODE 56
+
+VIDEO FILE: Published-Assets/ep56-master.mp4
+THUMBNAIL: Thumbnails/ep56-thumbnail.png
+CAPTIONS: ep56-en.srt (English)
+
+TITLE
+Bolna Open Source in Python: Agents, Examples and the Agent API
+
+DESCRIPTION
+Bolna open source has no dashboard, so you build agents in Python or as JSON. This documented walkthrough covers the repo's simple_assistant.py example (Deepgram, OpenAI and ElevenLabs in one streaming pipeline), the text-only example, the keys each one needs, the agent JSON from API.md (toolchain, tools_config, task_config, prompts), the five agent API endpoints, and the quickstart client that talks to an agent from your microphone over a websocket.
+
+This episode is a documented walkthrough built from the official Bolna documentation (links below). It does not include a live product recording. Narration uses a synthetic text-to-speech voice; visuals are motion graphics built from the docs, not screen recordings of the Bolna dashboard.
+
+CHAPTERS
+00:00 Intro
+00:24 Ears and brain
+00:53 Voice and run
+01:23 Run it
+01:45 Text only
+02:09 Agent JSON
+02:58 Agent API
+03:32 Talk to it
+04:16 Three routes
+04:36 More examples
+04:54 Recap
+
+OFFICIAL DOCS USED
+- Agent API (API.md): https://github.com/bolna-ai/bolna
+- Bolna open-source repository (README): https://github.com/bolna-ai/bolna
+
+This is the final episode of the series.
+Full playlist: Bolna AI Masterclass (Full Course)
+
+Created by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by Bolna. Features and pricing change, so check the official docs for current details.
+
+TAGS
+bolna ai, open source, python, voice ai, agent api, json, deepgram, openai, elevenlabs, omilabs, omkar ghate
+
+PLAYLIST: Bolna AI Masterclass (Full Course)
+SCHEDULE: Thu 12 Nov 2026, 12:00 PM IST (Visibility: Schedule -> Public)
+Audience: No, it's not made for kids | Category: Education | Video language: English
+Altered or synthetic content: No (narration voice is disclosed in the description; nothing depicts real people or events)
+End screen: Next episode + Playlist | Cards: none
+
+PINNED COMMENT (post after publish)
+Python assistant, agent API, or the Docker setup: which route would you start with?

@@ -1,0 +1,231 @@
+1
+00:00:00,450 --> 00:00:05,500
+Bolna open source has no dashboard. So how do you actually build an agent?
+
+2
+00:00:05,630 --> 00:00:08,785
+The no-code UI is not part of the repo.
+
+3
+00:00:08,915 --> 00:00:10,895
+You build agents in Python,
+
+4
+00:00:11,025 --> 00:00:20,367
+or as JSON, through a small agent API. This episode
+walks through both, from the repo's own examples and API docs.
+
+5
+00:00:24,617 --> 00:00:33,272
+The README's minimal example, simple assistant dot py, builds
+an agent in Python, without the local telephony setup.
+
+6
+00:00:33,402 --> 00:00:36,467
+It starts with an assistant, named demo agent.
+
+7
+00:00:36,597 --> 00:00:41,071
+Then a transcriber: Deepgram, model nova-2, streaming, in English.
+
+8
+00:00:41,201 --> 00:00:52,804
+Then the LLM agent: a simple LLM agent with
+a streaming flow, using OpenAI's gpt-4o-mini, at temperature 0.3.
+
+9
+00:00:53,454 --> 00:01:02,574
+The synthesizer is ElevenLabs, with the voice George,
+on the eleven turbo v2.5 model, streaming WAV audio.
+
+10
+00:01:02,704 --> 00:01:15,426
+Add task wires all three into one conversation task. The README calls
+it a single coherent pipeline: transcriber, LLM, synthesizer. Textual input is off.
+
+11
+00:01:15,556 --> 00:01:22,875
+And assistant dot execute is an async generator. You
+loop over it, and handle each chunk as it streams.
+
+12
+00:01:23,525 --> 00:01:26,618
+Running it takes three keys, one per provider.
+
+13
+00:01:26,748 --> 00:01:28,889
+OpenAI, for the LLM,
+
+14
+00:01:29,019 --> 00:01:30,935
+Deepgram, for transcription,
+
+15
+00:01:31,065 --> 00:01:33,029
+and ElevenLabs, for the voice.
+
+16
+00:01:33,159 --> 00:01:45,192
+Then run the script. The README says the exact keys in each chunk depend on
+your configured tools and providers. So treat the output as a stream, and process it incrementally.
+
+17
+00:01:45,842 --> 00:01:50,724
+Want to test the conversation without audio? There is a text-only example.
+
+18
+00:01:50,854 --> 00:01:56,447
+It drops the transcriber and the synthesizer, and keeps only the LLM agent.
+
+19
+00:01:56,577 --> 00:01:59,166
+It sets enable textual input to true.
+
+20
+00:01:59,296 --> 00:02:01,738
+So it needs only your OpenAI key.
+
+21
+00:02:01,868 --> 00:02:09,265
+Text only assistant dot py is a quick way
+to iterate on the conversation logic, before you add voice.
+
+22
+00:02:09,915 --> 00:02:17,847
+Over the API, an agent is one JSON document.
+Here is the example from API dot md, trimmed.
+
+23
+00:02:17,977 --> 00:02:22,110
+The agent config has a name, Alfred here, and an agent type.
+
+24
+00:02:22,240 --> 00:02:30,507
+Each task has a toolchain. Execution is parallel,
+and the pipeline lists transcriber, LLM, and synthesizer.
+
+25
+00:02:30,637 --> 00:02:44,374
+Tools config picks the provider for each piece: Twilio for input and output,
+in WAV, a Deepgram transcriber, the OpenAI LLM agent, and the ElevenLabs synthesizer.
+
+26
+00:02:44,504 --> 00:02:52,624
+The task config holds settings like hang up after silence,
+30 in the example. And the agent has a welcome message.
+
+27
+00:02:52,754 --> 00:02:58,185
+Prompts sit beside the config, keyed by task. Task one gets the system prompt.
+
+28
+00:02:58,835 --> 00:03:09,995
+API dot md documents five endpoints for agents. In the Docker
+setup, the Bolna server creates and handles agents, on port 5001.
+
+29
+00:03:10,125 --> 00:03:16,153
+Post slash agent creates one, and returns its agent ID, with the state created.
+
+30
+00:03:16,283 --> 00:03:19,588
+Get slash agent, slash the ID, reads it back.
+
+31
+00:03:19,718 --> 00:03:24,034
+Put on the same path updates it. The body is the same as create.
+
+32
+00:03:24,164 --> 00:03:27,549
+Delete removes it, and returns the state deleted.
+
+33
+00:03:27,679 --> 00:03:32,106
+And get slash all lists every agent, with its config and prompts.
+
+34
+00:03:32,756 --> 00:03:40,490
+No phone yet? The local setup folder also has a
+quickstart client, that talks to an agent from your microphone.
+
+35
+00:03:40,620 --> 00:03:44,461
+It records microphone audio at 16000 hertz.
+
+36
+00:03:44,591 --> 00:04:00,847
+Each frame is base64 encoded, and sent as an audio message over a websocket, to the chat
+endpoint for your agent, on localhost port 5001. The agent ID comes from an assistant ID environment variable.
+
+37
+00:04:00,977 --> 00:04:03,100
+The agent's audio streams back.
+
+38
+00:04:03,230 --> 00:04:09,262
+When you interrupt, the server sends a clear
+message, and the client drops the audio still queued.
+
+39
+00:04:09,392 --> 00:04:16,411
+The rest plays through your speakers. If a Bolna API
+key is set, the client sends it as a bearer header.
+
+40
+00:04:17,061 --> 00:04:18,692
+So there are three ways in.
+
+41
+00:04:18,822 --> 00:04:22,388
+The Python assistant, for building and testing in code.
+
+42
+00:04:22,518 --> 00:04:29,232
+The agent API, when agents are JSON documents you create and manage over HTTP.
+
+43
+00:04:29,362 --> 00:04:35,760
+And the Docker setup from the last episode, when
+you need real phone calls through Twilio or Plivo.
+
+44
+00:04:36,410 --> 00:04:46,741
+For more agent configurations, the README links example agents at examples
+dot bolna dot dev, to create, use, and start making calls with.
+
+45
+00:04:46,871 --> 00:04:54,625
+And if you want to contribute a larger change, the project asks
+you to open an issue first, and discuss it before you build.
+
+46
+00:04:55,275 --> 00:04:56,373
+Quick recap.
+
+47
+00:04:56,503 --> 00:05:00,972
+Simple assistant dot py runs a full voice pipeline in Python.
+
+48
+00:05:01,102 --> 00:05:06,609
+The text-only example tests the LLM side, with just an OpenAI key.
+
+49
+00:05:06,739 --> 00:05:11,606
+Over the API, an agent is JSON: a toolchain, and tools config.
+
+50
+00:05:11,736 --> 00:05:15,987
+Five endpoints create, read, update, delete, and list agents.
+
+51
+00:05:16,117 --> 00:05:19,888
+And the quickstart client talks to an agent from your microphone.
+
+52
+00:05:20,018 --> 00:05:24,751
+That completes the open source module of the Bolna AI Masterclass.
+
+53
+00:05:24,881 --> 00:05:29,999
+This masterclass is created by Omkar Ghate. Go build something great.
