@@ -1,0 +1,18 @@
+{
+ "title": "Put Your ElevenLabs Voice Agent on a Website: The Widget",
+ "desc": "The fastest way to put an ElevenLabs agent in front of users is the website widget. This episode covers the embed snippet and where it goes, the public-agent and Allowlist settings, voice-only vs voice plus text vs chat mode, the HTML attributes for layout, colors and button text, safe markdown links, passing dynamic variables and overrides from the page, the Widget tab options like feedback and terms, and a client tool that opens a link from the conversation.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:21 Before you embed\n00:52 The snippet\n01:12 Voice, text or both\n01:43 Attributes\n02:18 Links are plain text\n02:39 Personalize it\n03:12 The Widget tab\n03:56 Widget as config\n04:28 Terms first\n04:51 A client tool\n05:24 Launch checklist\n05:54 Recap\n\nOFFICIAL DOCS USED\n- Widget customization: https://elevenlabs.io/docs/eleven-agents/customization/widget\n\nNext episode: Ep 25, React, JavaScript and Python SDKs\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "elevenlabs widget",
+  "website voice agent",
+  "ai chatbot website",
+  "convai widget",
+  "voice ai website",
+  "conversational ai",
+  "ai agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Where would a voice agent help most on your website: support, sales, or onboarding? Tell us below."
+}
