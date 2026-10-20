@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Webhook Tools: Connect Your Voice Agent to Any API",
+ "desc": "Webhook tools let an ElevenLabs agent call any REST API mid-conversation, with the LLM filling in the parameters. This episode walks through the documented get_weather example step by step: name, description, method and URL, path parameters with the LLM Prompt value type, the tool config file, and the system prompt that orchestrates it. It also covers JSON vs URL-encoded bodies, the five authentication methods, and how to keep API keys out of the prompt.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 How it works\n00:56 The building blocks\n01:31 Build get_weather\n02:12 As a config file\n02:42 Orchestration\n03:19 Content type\n03:49 Authentication\n04:44 Use the response\n05:23 Keys stay secret\n05:39 Reliable calls\n06:19 Recap\n\nOFFICIAL DOCS USED\n- Webhook tools: https://elevenlabs.io/docs/eleven-agents/customization/tools/webhook-tools\n- Dynamic variables: https://elevenlabs.io/docs/eleven-agents/customization/personalization/dynamic-variables\n\nNext episode: Ep 22, System Tools\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "webhook tools",
+  "voice agent api",
+  "server tools",
+  "function calling",
+  "oauth2",
+  "conversational ai",
+  "ai agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which API would you connect first: your CRM, your calendar, or your order system? Tell us below."
+}
