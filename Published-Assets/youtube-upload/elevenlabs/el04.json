@@ -1,0 +1,18 @@
+{
+ "title": "Text to Dialogue: Multi-Speaker AI Conversations in ElevenLabs",
+ "desc": "ElevenLabs tutorial: Text to Dialogue: Multi-Speaker AI Conversations in ElevenLabs.\n\nText to Dialogue turns a script into a natural, expressive conversation between several voices, using Eleven v4 or Eleven v3. This episode explains how each turn pairs text with a voice, the three kinds of audio tags, how punctuation creates interruptions and trailing lines, the Python quickstart and CLI, the 2,000-character request guideline, and audio effects for placing the scene.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:22 What it is\n00:48 Choosing voices\n01:21 One turn, one voice\n01:44 Three kinds of tags\n02:33 Interruptions\n02:58 Set up\n03:56 Python quickstart\n04:33 Keep it short\n04:51 Getting good takes\n05:27 Set the scene\n05:51 Output formats\n06:11 Recap\n\nOFFICIAL DOCS USED\n- Text to Dialogue: https://elevenlabs.io/docs/overview/capabilities/text-to-dialogue\n- Text to Dialogue quickstart: https://elevenlabs.io/docs/eleven-api/guides/cookbooks/text-to-dialogue\n\nNext episode: Ep 5, Speech to Text with Scribe\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "text to dialogue",
+  "elevenlabs dialogue",
+  "multi speaker tts",
+  "ai podcast",
+  "audio tags",
+  "elevenlabs api",
+  "elevenlabs python",
+  "ai voice",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What would you script first with two AI voices: a podcast intro, a game scene, or an audiobook chapter? Tell us below."
+}
