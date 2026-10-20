@@ -1,0 +1,18 @@
+{
+ "title": "What Is ElevenLabs? Creative, Agents and API Explained",
+ "desc": "ElevenLabs is AI voice infrastructure: text to speech, speech to text, voice cloning, conversational agents and generative audio. In episode one of the ElevenLabs Masterclass you will see the three product areas the docs describe, ElevenCreative, ElevenAgents and ElevenAPI, the core ideas of voices, models and credits, and the full map of this 33-episode course.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:28 Four ways in\n01:21 ElevenCreative\n01:56 Creative use cases\n02:25 ElevenAgents\n03:07 Build, ship, watch\n03:46 ElevenAPI\n04:05 Three core ideas\n04:50 Credits\n05:15 Pick your door\n05:42 The course map\n06:24 Recap\n\nOFFICIAL DOCS USED\n- ElevenLabs Documentation: https://elevenlabs.io/docs/overview/intro\n- ElevenCreative: https://elevenlabs.io/docs/eleven-creative/overview\n- ElevenAgents: https://elevenlabs.io/docs/eleven-agents/overview\n- Text to Speech: https://elevenlabs.io/docs/overview/capabilities/text-to-speech\n\nNext episode: Ep 2, ElevenLabs Models Explained\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "what is elevenlabs",
+  "elevenlabs tutorial",
+  "elevenagents",
+  "elevencreative",
+  "elevenlabs api",
+  "ai voice",
+  "text to speech",
+  "ai voice agent",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which door are you walking through first: ElevenCreative, ElevenAgents or the API? Tell us what you want to build and it shapes the examples in later episodes."
+}
