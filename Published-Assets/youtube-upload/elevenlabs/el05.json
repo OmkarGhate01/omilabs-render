@@ -1,0 +1,18 @@
+{
+ "title": "Speech to Text with Scribe: Transcribe Any Audio in ElevenLabs",
+ "desc": "Scribe is the ElevenLabs speech to text model. This episode covers Scribe v2, Scribe v2 Realtime and Scribe v2 Medical, how to transcribe a file in the dashboard, what the API returns, keyterm prompting, no verbatim mode, entity detection and transcript editing, file limits and formats, accuracy by language, and the Transcript Editor with its export formats.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:27 Three models\n01:04 Transcribe a file\n01:44 What you get back\n02:18 Advanced features\n03:13 Limits\n03:40 Formats\n04:03 Accuracy by language\n04:41 Transcript Editor\n05:20 Export\n05:47 Long files\n06:13 Recap\n\nOFFICIAL DOCS USED\n- Transcription: https://elevenlabs.io/docs/overview/capabilities/speech-to-text\n- Speech to Text: https://elevenlabs.io/docs/eleven-creative/playground/speech-to-text\n- Transcripts: https://elevenlabs.io/docs/eleven-creative/products/transcripts\n\nNext episode: Ep 6, AI Dubbing\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs speech to text",
+  "scribe v2",
+  "ai transcription",
+  "speaker diarization",
+  "transcribe audio",
+  "srt subtitles",
+  "keyterm prompting",
+  "speech recognition",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What do you transcribe most: podcasts, meetings, interviews or YouTube videos? And in which language? Tell us below."
+}
