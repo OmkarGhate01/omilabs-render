@@ -1,0 +1,58 @@
+{
+  "n": 0,
+  "title": "Sample",
+  "short": "Sample Episode",
+  "module": "Foundations",
+  "moduleN": 1,
+  "icon": "wave",
+  "next": null,
+  "durationInFrames": 300,
+  "scenes": [
+    {
+      "type": "hook",
+      "label": "Intro",
+      "start": 0.3,
+      "end": 2,
+      "lines": [
+        { "t": "Sample hook line.", "cue": "1", "start": 0.3, "end": 2 }
+      ],
+      "beats": [{ "t": "Sample" }]
+    },
+    {
+      "type": "statement",
+      "label": "Sample",
+      "title": "Sample statement",
+      "start": 6,
+      "end": 9,
+      "lines": [
+        { "t": "Sample statement line.", "cue": null, "start": 6, "end": 9 }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "kind": "scene",
+      "scene": 0,
+      "from": 0,
+      "to": 70,
+      "tin": null,
+      "tout": { "type": "glitch", "d": 14, "dir": 1 }
+    },
+    {
+      "kind": "title",
+      "scene": -1,
+      "from": 70,
+      "to": 170,
+      "tin": { "type": "glitch", "d": 14, "dir": 1 },
+      "tout": { "type": "iris", "d": 22, "dir": 1 }
+    },
+    {
+      "kind": "scene",
+      "scene": 1,
+      "from": 170,
+      "to": 300,
+      "tin": { "type": "iris", "d": 22, "dir": 1 },
+      "tout": null
+    }
+  ]
+}

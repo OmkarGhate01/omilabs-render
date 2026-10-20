@@ -1,0 +1,54 @@
+episode,title,publish_at,video,thumbnail,captions,desc_chars,status
+1,What Is Bolna AI? Voice AI Agents Explained for Beginners,2026-10-15 19:00 IST,ep01-master.mp4,ep01-thumbnail.png,ep01-en.srt,1942,QA passed
+2,How Bolna AI Voice Agents Work: Inside a Real Phone Call,2026-10-16 12:00 IST,ep02-master.mp4,ep02-thumbnail.png,ep02-en.srt,1400,QA passed
+3,"Bolna AI Agent Types Explained: Conversation, Graph and IVR",2026-10-16 19:00 IST,ep03-master.mp4,ep03-thumbnail.png,ep03-en.srt,1427,QA passed
+4,"What Does a Bolna AI Call Cost? Pricing, Wallet and Plans Explained",2026-10-17 12:00 IST,ep04-master.mp4,ep04-thumbnail.png,ep04-en.srt,1614,QA passed
+5,"IVR vs Voice AI, and How to Move Your Agent to Bolna",2026-10-17 19:00 IST,ep05-master.mp4,ep05-thumbnail.png,ep05-en.srt,1348,QA passed
+6,Create Your First Bolna AI Voice Agent With Auto Build,2026-10-18 12:00 IST,ep06-master.mp4,ep06-thumbnail.png,ep06-en.srt,1353,QA passed
+7,"Bolna Agent Builder Explained: Every Tab, Step by Step",2026-10-18 19:00 IST,ep07-master.mp4,ep07-thumbnail.png,ep07-en.srt,1704,QA passed
+8,How to Write Voice AI Agent Prompts That Work (Bolna AI),2026-10-19 12:00 IST,ep08-master.mp4,ep08-thumbnail.png,ep08-en.srt,1447,QA passed
+9,Bolna AI Dynamic Variables: Personalise Every Voice Call,2026-10-19 19:00 IST,ep09-master.mp4,ep09-thumbnail.png,ep09-en.srt,1323,QA passed
+10,Stop Your Voice AI Agent Interrupting: Bolna Engine Tab Explained,2026-10-20 12:00 IST,ep10-master.mp4,ep10-thumbnail.png,ep10-en.srt,1391,QA passed
+11,How to Test a Voice AI Agent Before It Calls Real Customers,2026-10-20 19:00 IST,ep11-master.mp4,ep11-thumbnail.png,ep11-en.srt,1168,QA passed
+12,"Bolna Graph Agents Part 1: Nodes, Transitions and the Editor",2026-10-21 12:00 IST,ep12-master.mp4,ep12-thumbnail.png,ep12-en.srt,1548,QA passed
+13,"Bolna Graph Agents Part 2: Routers, Static Nodes and Real-Time Events",2026-10-21 19:00 IST,ep13-master.mp4,ep13-thumbnail.png,ep13-en.srt,1517,QA passed
+14,"Bolna Graph Agents Part 3: Testing, Validation, Debugging and Versions",2026-10-22 12:00 IST,ep14-master.mp4,ep14-thumbnail.png,ep14-en.srt,1441,QA passed
+15,Speech-to-Text for Voice AI Agents: Choose and Configure a Transcriber (Bolna),2026-10-22 19:00 IST,ep15-master.mp4,ep15-thumbnail.png,ep15-en.srt,1617,QA passed
+16,"Choosing the Right LLM for Your Voice AI Agent (Bolna, Including Custom Models)",2026-10-23 12:00 IST,ep16-master.mp4,ep16-thumbnail.png,ep16-en.srt,1389,QA passed
+17,"Voice AI Text-to-Speech on Bolna: Choose, Tune, Clone and Import Voices",2026-10-23 19:00 IST,ep17-master.mp4,ep17-thumbnail.png,ep17-en.srt,1530,QA passed
+18,Multilingual Voice AI Agents on Bolna: How Language Switching Works,2026-10-24 12:00 IST,ep18-master.mp4,ep18-thumbnail.png,ep18-en.srt,1531,QA passed
+19,Voice AI Latency Explained: Read Bolna's Metrics and Cut the Delay,2026-10-24 19:00 IST,ep19-master.mp4,ep19-thumbnail.png,ep19-en.srt,1248,QA passed
+20,Speech-to-Speech Voice Agents on Bolna: OpenAI Realtime and Gemini Live,2026-10-25 12:00 IST,ep20-master.mp4,ep20-thumbnail.png,ep20-en.srt,1355,QA passed
+21,"Bring Your Own Provider Keys to Bolna: Connect OpenAI, ElevenLabs, Twilio and More",2026-10-25 19:00 IST,ep21-master.mp4,ep21-thumbnail.png,ep21-en.srt,1369,QA passed
+22,"Telephony for Voice AI Agents: Twilio, Plivo, Exotel and Vobiz on Bolna",2026-10-26 12:00 IST,ep22-master.mp4,ep22-thumbnail.png,ep22-en.srt,1988,QA passed
+23,"Phone Numbers for Voice AI in India: Buying, DLT, 140/160 Series and Truecaller (Bolna)",2026-10-26 19:00 IST,ep23-master.mp4,ep23-thumbnail.png,ep23-en.srt,1673,QA passed
+24,Inbound Voice AI Agents on Bolna: Answer Calls and Recognise Every Caller,2026-10-27 12:00 IST,ep24-master.mp4,ep24-thumbnail.png,ep24-en.srt,1623,QA passed
+25,IVR Menus and DTMF Keypad Input for Voice AI Agents (Bolna Guide),2026-10-27 19:00 IST,ep25-master.mp4,ep25-thumbnail.png,ep25-en.srt,1244,QA passed
+26,"Outbound Voice AI Calls on Bolna: Calling Hours, Guardrails and Clean Hangups",2026-10-28 12:00 IST,ep26-master.mp4,ep26-thumbnail.png,ep26-en.srt,1410,QA passed
+27,Batch Calling With Bolna: Run Voice AI Campaigns From a CSV,2026-10-28 19:00 IST,ep27-master.mp4,ep27-thumbnail.png,ep27-en.srt,1424,QA passed
+28,"Voice AI Call Statuses, Failed Calls and Auto-Retry on Bolna, Explained",2026-10-29 12:00 IST,ep28-master.mp4,ep28-thumbnail.png,ep28-en.srt,1570,QA passed
+29,Transfer Live Calls From a Voice AI Agent to a Human (Bolna Call Transfer),2026-10-29 19:00 IST,ep29-master.mp4,ep29-thumbnail.png,ep29-en.srt,1264,QA passed
+30,"Bring Your Own SIP Trunk to Bolna Voice AI (BYOT Setup, Inbound and Outbound)",2026-10-30 12:00 IST,ep30-master.mp4,ep30-thumbnail.png,ep30-en.srt,1592,QA passed
+31,Put a Voice AI Agent on Your Website: Bolna Web Call SDK Tutorial,2026-10-30 19:00 IST,ep31-master.mp4,ep31-thumbnail.png,ep31-en.srt,1310,QA passed
+32,"Bolna API Fundamentals: Authentication, Errors, Pagination and Rate Limits",2026-10-31 12:00 IST,ep32-master.mp4,ep32-thumbnail.png,ep32-en.srt,1611,QA passed
+33,Create and Manage Voice AI Agents With the Bolna v2 API (Full Walkthrough),2026-10-31 19:00 IST,ep33-master.mp4,ep33-thumbnail.png,ep33-en.srt,1417,QA passed
+34,Place Voice AI Calls and Read Every Result Through the Bolna API,2026-11-01 12:00 IST,ep34-master.mp4,ep34-thumbnail.png,ep34-en.srt,1651,QA passed
+35,"Voice AI Webhooks Done Right: Bolna's Execution Payload, Field by Field",2026-11-01 19:00 IST,ep35-master.mp4,ep35-thumbnail.png,ep35-en.srt,1327,QA passed
+36,Extract Structured Data From Every Voice AI Call (Bolna Extractions and Dispositions),2026-11-02 12:00 IST,ep36-master.mp4,ep36-thumbnail.png,ep36-en.srt,1585,QA passed
+37,"Read Your Voice AI Call Data: Bolna Call History, Debugging and Analytics",2026-11-02 19:00 IST,ep37-master.mp4,ep37-thumbnail.png,ep37-en.srt,1343,QA passed
+38,The Bolna CLI: Manage Voice AI Agents and Calls From Your Terminal,2026-11-03 12:00 IST,ep38-master.mp4,ep38-thumbnail.png,ep38-en.srt,1554,QA passed
+39,"Build Voice AI Agents With AI: Bolna MCP Server, Bolna Skills and llms.txt",2026-11-03 19:00 IST,ep39-master.mp4,ep39-thumbnail.png,ep39-en.srt,1527,QA passed
+40,Function Calling for Voice AI Agents: Build Custom Functions on Bolna,2026-11-04 12:00 IST,ep40-master.mp4,ep40-thumbnail.png,ep40-en.srt,1706,QA passed
+41,Book Appointments During a Call: Bolna Voice AI + Cal.com Tutorial,2026-11-04 19:00 IST,ep41-master.mp4,ep41-thumbnail.png,ep41-en.srt,1234,QA passed
+42,Knowledge Bases for Voice AI Agents: Build an FAQ Agent With RAG on Bolna,2026-11-05 12:00 IST,ep42-master.mp4,ep42-thumbnail.png,ep42-en.srt,1381,QA passed
+43,"Bolna Voice AI + n8n: Community Node, Trigger and a Post-Call Email Workflow",2026-11-05 19:00 IST,ep43-master.mp4,ep43-thumbnail.png,ep43-en.srt,1377,QA passed
+44,Voice AI Calls From Google Sheets: Bolna + Apps Script Tutorial,2026-11-06 12:00 IST,ep44-master.mp4,ep44-thumbnail.png,ep44-en.srt,1157,QA passed
+45,"No-Code Voice AI Automation: Bolna With Make.com, Zapier and viaSocket",2026-11-06 19:00 IST,ep45-master.mp4,ep45-thumbnail.png,ep45-en.srt,1646,QA passed
+46,Bolna Workflows (Beta): Multi-Step Call + WhatsApp Sequences and Campaigns,2026-11-07 12:00 IST,ep46-master.mp4,ep46-thumbnail.png,ep46-en.srt,1478,QA passed
+47,"Connect Any CRM to a Voice AI Agent: Before, During and After the Call (Bolna)",2026-11-07 19:00 IST,ep47-master.mp4,ep47-thumbnail.png,ep47-en.srt,1484,QA passed
+48,Troubleshooting Voice AI Calls on Bolna: A Symptom-to-Fix Playbook,2026-11-08 12:00 IST,ep48-master.mp4,ep48-thumbnail.png,ep48-en.srt,1481,QA passed
+49,"Cut Your Voice AI Cost Per Call: Four Levers, Measured (Bolna)",2026-11-08 19:00 IST,ep49-master.mp4,ep49-thumbnail.png,ep49-en.srt,1171,QA passed
+50,"Voice AI Security on Bolna: Data Residency in India, Sub-Accounts and Enterprise Controls",2026-11-09 12:00 IST,ep50-master.mp4,ep50-thumbnail.png,ep50-en.srt,1702,QA passed
+51,Voice AI Production Readiness Checklist: Launch Your Bolna Agent Safely,2026-11-09 19:00 IST,ep51-master.mp4,ep51-thumbnail.png,ep51-en.srt,1267,QA passed
+52,Capstone: Design a Complete Voice AI Lead Qualification System on Bolna,2026-11-10 12:00 IST,ep52-master.mp4,ep52-thumbnail.png,ep52-en.srt,1610,QA passed
+53,What's New in Bolna Voice AI: September and October 2026 Updates,2026-11-10 19:00 IST,ep53-master.mp4,ep53-thumbnail.png,ep53-en.srt,1357,QA passed
