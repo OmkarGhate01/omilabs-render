@@ -7,6 +7,7 @@ from publish_check import meta
 R = "/home/claude/ElevenLabs-Masterclass/"
 G = os.environ.get("PKG_OUT", "/home/claude/omilabs-publisher/")
 os.makedirs(G + "Published-Assets/youtube-upload/elevenlabs", exist_ok=True)
+os.makedirs(G + "Thumbnails", exist_ok=True)
 # SEO audit 21 Oct: titles <= 70 chars, keyword first; "ElevenLabs" in the first description line.
 TITLES = {
     11: "ElevenLabs Professional Voice Cloning: Clone Your Own Voice",
