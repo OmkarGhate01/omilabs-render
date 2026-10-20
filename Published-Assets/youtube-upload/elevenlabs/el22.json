@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs System Tools: End Call, Transfer and Language Detection",
+ "desc": "ElevenLabs tutorial: ElevenLabs System Tools: End Call, Transfer and Language Detection.\n\nSystem tools are built into ElevenAgents and change the state of the call, not an external system. This episode covers all eight, then goes deep on the ones every phone agent needs: end call and when it is added by default, transfer to a human with Conference, Blind and SIP REFER transfers, transfer rules and post-dial digits, language detection with its two triggers and the only-at-start option, and voicemail detection with a personalized message.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:21 Eight system tools\n01:04 End call\n01:37 When to hang up\n02:00 Transfer to a human\n02:48 Transfer types\n03:41 Post-dial digits\n04:11 Language detection\n04:52 Only at the start\n05:24 Voicemail and more\n06:08 Recap\n\nOFFICIAL DOCS USED\n- System tools: https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools\n- End call: https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/end-call\n- Transfer to number: https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/transfer-to-number\n- Language detection: https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/language-detection\n- Voicemail detection: https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/voicemail-detection\n\nNext episode: Ep 23, Agent Workflows\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "system tools",
+  "call transfer",
+  "transfer to human",
+  "language detection",
+  "voicemail detection",
+  "end call",
+  "ai phone agent",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "When should your agent hand over to a human? Write your transfer condition below, in one sentence."
+}
