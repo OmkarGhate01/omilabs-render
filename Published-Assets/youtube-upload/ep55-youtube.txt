@@ -1,0 +1,46 @@
+EPISODE 55
+
+VIDEO FILE: Published-Assets/ep55-master.mp4
+THUMBNAIL: Thumbnails/ep55-thumbnail.png
+CAPTIONS: ep55-en.srt (English)
+
+TITLE
+Self-Host Bolna Open Source With Docker: Twilio or Plivo Calls Locally
+
+DESCRIPTION
+Bolna open source ships a Docker setup in local_setup: a telephony server (Twilio or Plivo), the Bolna server, ngrok and Redis. This documented walkthrough covers what each container does and which port it uses, filling .env from .env.sample, the ngrok authtoken, the start.sh quick start, the manual docker compose route, running only the telephony server you need, what the compose file mounts, how an agent is created before a call, and a checklist for a local setup that never calls.
+
+This episode is a documented walkthrough built from the official Bolna documentation (links below). It does not include a live product recording. Narration uses a synthetic text-to-speech voice; visuals are motion graphics built from the docs, not screen recordings of the Bolna dashboard.
+
+CHAPTERS
+00:00 Intro
+00:26 Four containers
+01:05 Before you start
+01:28 The .env file
+02:13 ngrok config
+02:39 Quick start
+03:07 Manual setup
+03:36 Compose details
+04:07 First call
+04:49 Not calling?
+05:27 Recap
+
+OFFICIAL DOCS USED
+- Local setup (Docker): https://github.com/bolna-ai/bolna
+
+Next episode: Ep 56, Open Source in Python
+Full playlist: Bolna AI Masterclass (Full Course)
+
+Created by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by Bolna. Features and pricing change, so check the official docs for current details.
+
+TAGS
+bolna ai, open source, docker, docker compose, self hosted, twilio, plivo, ngrok, redis, omilabs, omkar ghate
+
+PLAYLIST: Bolna AI Masterclass (Full Course)
+SCHEDULE: Wed 11 Nov 2026, 07:00 PM IST (Visibility: Schedule -> Public)
+Audience: No, it's not made for kids | Category: Education | Video language: English
+Altered or synthetic content: No (narration voice is disclosed in the description; nothing depicts real people or events)
+End screen: Next episode + Playlist | Cards: none
+
+PINNED COMMENT (post after publish)
+Twilio or Plivo for your self-hosted agent? Which one are you setting up, and where did you get stuck?
