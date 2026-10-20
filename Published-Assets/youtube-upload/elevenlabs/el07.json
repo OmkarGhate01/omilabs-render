@@ -1,0 +1,18 @@
+{
+ "title": "Sound Effects and Music with ElevenLabs",
+ "desc": "ElevenLabs can generate sound effects and full songs from text. This episode covers the Sound Effects playground and its settings (duration, looping, prompt influence), how to prompt simple and complex effects, audio terms the model understands, then Eleven Music: the song workflow, Audio Reference, Finetunes, section editing, prompting, and the Music v2.5 and v2 models.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:23 Sound Effects\n01:01 SFX settings\n01:39 Prompting SFX\n02:20 Audio terms\n03:01 Eleven Music\n03:38 Make a song\n04:21 What you can make\n04:55 Editing\n05:35 Prompting music\n06:11 Music models\n06:53 Recap\n\nOFFICIAL DOCS USED\n- Sound effects: https://elevenlabs.io/docs/overview/capabilities/sound-effects\n- Eleven Music: https://elevenlabs.io/docs/overview/capabilities/music\n- Sound effects: https://elevenlabs.io/docs/eleven-creative/playground/sound-effects\n- Music: https://elevenlabs.io/docs/eleven-creative/products/music\n- What can I generate with Eleven Music?: https://elevenlabs.io/docs/help-center/product/core-capabilities/music/what-can-i-generate-with-eleven-music\n\nNext episode: Ep 8, Voice Changer and Isolator\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs sound effects",
+  "eleven music",
+  "ai music",
+  "sound effects generator",
+  "ai sound design",
+  "text to music",
+  "background music",
+  "foley",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What sound effect or song would you generate first for your next video? Write your prompt below."
+}
