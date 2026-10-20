@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Agent Voice Settings: Speed, Expressive Mode, Pronunciation",
+ "desc": "ElevenLabs tutorial: ElevenLabs Agent Voice Settings: Speed, Expressive Mode, Pronunciation.\n\nYour agent's voice is more than picking a voice. This episode covers speed control and its 0.7 to 1.2 range, expressive mode with Eleven v3 Conversational and the new turn-taking system, how to steer emotion from the system prompt with expressive tags, pronunciation dictionaries with IPA, CMU and alias tags, and multi-voice support for tutoring and storytelling agents, including the limits and mistakes the docs warn about.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:26 What you can change\n01:02 Speed\n01:42 Expressive mode\n02:44 Smarter turn-taking\n03:25 Guide the emotion\n04:03 Tag limits\n04:29 Attach a dictionary\n05:11 The .pls file\n05:39 Phoneme or alias?\n06:16 Multi-voice\n06:58 Multi-voice rules\n07:31 Recap\n\nOFFICIAL DOCS USED\n- Voice customization: https://elevenlabs.io/docs/eleven-agents/customization/voice\n- Speed control: https://elevenlabs.io/docs/eleven-agents/customization/voice/speed-control\n- Expressive mode: https://elevenlabs.io/docs/eleven-agents/customization/voice/expressive-mode\n- Pronunciation dictionaries: https://elevenlabs.io/docs/eleven-agents/customization/voice/pronunciation-dictionary\n- Multi-voice support: https://elevenlabs.io/docs/eleven-agents/customization/voice/multi-voice-support\n\nNext episode: Ep 19, Dynamic Variables and Overrides\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "expressive mode",
+  "eleven v3 conversational",
+  "pronunciation dictionary",
+  "voice agent voice",
+  "multi voice ai",
+  "text to speech settings",
+  "ai voice agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which word does your agent always mispronounce? Drop it below, and we will see if an alias or a phoneme fixes it."
+}
