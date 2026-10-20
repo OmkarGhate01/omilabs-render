@@ -1,0 +1,18 @@
+{
+ "title": "Text to Speech in ElevenLabs: Settings That Make AI Voices Sound Human",
+ "desc": "ElevenLabs tutorial: Text to Speech in ElevenLabs: Settings That Make AI Voices Sound Human.\n\nWhy does one AI voice sound human and another robotic? This episode walks through the Text to Speech playground, the documented order of importance (voice, then model, then settings), every voice setting and the common starting values, audio tags, pauses per model, text normalization, pronunciation control and free regenerations.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:26 The playground\n00:50 What matters most\n01:24 Choosing a voice\n01:51 The sliders\n02:44 Starting point\n03:15 Model differences\n03:35 Audio tags\n04:26 Pauses\n05:02 Numbers and symbols\n05:43 Pronunciation\n06:27 Before you regenerate\n06:56 Recap\n\nOFFICIAL DOCS USED\n- Best practices: https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices\n- Text to Speech: https://elevenlabs.io/docs/eleven-creative/playground/text-to-speech\n- Text to Speech: https://elevenlabs.io/docs/overview/capabilities/text-to-speech\n\nNext episode: Ep 4, Text to Dialogue\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs text to speech",
+  "elevenlabs settings",
+  "stability",
+  "audio tags",
+  "ai voice",
+  "text to speech tutorial",
+  "voice settings",
+  "pronunciation dictionary",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What is the one word or name ElevenLabs keeps mispronouncing for you? Drop it below and we will test the fixes from this episode."
+}
