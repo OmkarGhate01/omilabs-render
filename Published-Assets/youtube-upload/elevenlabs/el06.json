@@ -1,0 +1,18 @@
+{
+ "title": "AI Dubbing in ElevenLabs: Translate a Video and Keep the Voice",
+ "desc": "ElevenLabs dubbing translates audio and video across 90+ languages while preserving each speaker's emotion, timing and tone, and keeping the background audio. This episode walks through Automatic Dubbing step by step, the Speaker similarity (cloning strength) setting, Dubbing v2 versus the legacy Dubbing Studio, how dubbing is charged, output quality, and the limits to know first.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 What it keeps\n00:54 Dub a video\n01:29 Speaker similarity\n02:01 v2 or Studio\n02:51 API editing\n03:22 What it costs\n04:01 Output quality\n04:37 Know before you dub\n05:17 Dubbing Studio\n06:04 Manual dub\n06:37 Recap\n\nOFFICIAL DOCS USED\n- Dubbing: https://elevenlabs.io/docs/overview/capabilities/dubbing\n- Dubbing: https://elevenlabs.io/docs/eleven-creative/products/dubbing\n- Dubbing Studio: https://elevenlabs.io/docs/eleven-creative/products/dubbing/dubbing-studio\n\nNext episode: Ep 7, Sound Effects and Music\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs dubbing",
+  "ai dubbing",
+  "video translation",
+  "dubbing studio",
+  "multilingual video",
+  "voice translation",
+  "youtube dubbing",
+  "ai voice",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which language would you dub your videos into first? Tell us your source and target language below."
+}
