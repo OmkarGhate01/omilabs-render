@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 33.5,
+ "wps": 2.3,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.92,
+ "max_gap": 0.0,
+ "asr_text": "noisy recording ruined your interview. Try 11 labs voice isolator. It removes background noise, music, and ambient sounds, leaving clean speech. Open audio tools, voice isolator. Upload your file and click isolate voice. Files can be up to 500 megabytes and one hour long. Video works too, so you can clean a video's audio directly. One catch, it's not specifically optimized for pulling vocals out of music. Save this and watch the full lesson in episode eight.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

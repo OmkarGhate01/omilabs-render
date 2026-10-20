@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 34.68,
+ "wps": 2.22,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 6.26,
+ "max_gap": 0.0,
+ "asr_text": "Still typing subtitles by hand, 11 labs scribe turns video into SRT. Upload the video file directly, no need to extract the audio. Leave the language on detect and add key terms for product names. Fix mistakes in the transcript editor, align words recomputes the timestamps. Wrong speaker, reassign a segment or move all of one speakers. Then click export and pick SRT or VTT. That's your caption file. Save this and watch the full lesson in episode 5.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

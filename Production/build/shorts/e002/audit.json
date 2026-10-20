@@ -1,0 +1,19 @@
+{
+ "words": 72,
+ "seconds": 30.42,
+ "wps": 2.37,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.12,
+ "max_gap": 0.0,
+ "asr_text": "11 labs credits running out fast. Here's how they're counted. Text to speech costs one credit per character of input text. Other operations are charged per second of audio processed. Credits reset monthly and unused credits roll over for up to two months. And they're the unit of consumption shared across every product. Plans and prices change, so check the official pricing page. Save this and watch the full lesson in episode one.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.6,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

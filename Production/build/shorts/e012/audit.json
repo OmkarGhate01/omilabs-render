@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 29.74,
+ "wps": 2.52,
+ "asr_match": 0.98,
+ "beats": 7,
+ "longest_beat": 5.07,
+ "max_gap": 0.0,
+ "asr_text": "Your 11 labs dubbed video looks lower quality. Here's why. You can upload source video up to 4K, but the dubbed video is a preview most often output at 1080p. Audio is mono on V1 and at most stereo on V2. The fix download the dubbed audio and replace your original's audio track. And free plan dubs are watermarked with no way to remove it. Save this and watch the full lesson in episode six.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

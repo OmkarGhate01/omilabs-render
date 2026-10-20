@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 33.05,
+ "wps": 2.24,
+ "asr_match": 0.966,
+ "beats": 7,
+ "longest_beat": 5.72,
+ "max_gap": 0.0,
+ "asr_text": "11 music output sounds generic, your prompt is too vague. Not rock music, try energetic 1980 synth pop with male vocals. Layer mood, instrumentation, tempo, and use case into one prompt. Like a slow, melancholic piano for a tragic film scene. Don't start over, begin with a 30 -second intro then add sections. And edits are only staged. Nothing changes until you click Generate. Save this and watch the full lesson in episode 7.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

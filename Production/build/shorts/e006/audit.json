@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 32.22,
+ "wps": 2.27,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 5.32,
+ "max_gap": 0.0,
+ "asr_text": "11 labs ignoring your pauses. It depends on the model. 11v4 and v3 don't support SSML break tags. Use audio tags, ellipses and the structure of your text instead. On multi -lingual v2 and flash, the break tag pauses up to three seconds. But too many break tags and one generation can cause instability. On any model dashes or ellipses add pauses, less consistently. Save this and watch the full lesson in episode 3.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

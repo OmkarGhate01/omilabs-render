@@ -1,0 +1,19 @@
+{
+ "words": 71,
+ "seconds": 29.44,
+ "wps": 2.41,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.33,
+ "max_gap": 0.0,
+ "asr_text": "11 labs text to dialogue unreliable on long scripts, check the length. Keep all text values at or below 2000 characters per request. That's the total across every turn, not per line. Longer script split it into chunks and generate each one. Then stitch the audio together in your application. And expect several takes, the seed parameter makes output more consistent. Save this and watch the full lesson in episode 4.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

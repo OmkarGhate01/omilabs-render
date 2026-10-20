@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 29.57,
+ "wps": 2.47,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.69,
+ "max_gap": 0.0,
+ "asr_text": "11 Lab's voice sounds robotic. It's rarely the sliders. The docs rank it, voice first, then model, then settings. The voice decides gender, tone, accent, cadence, and delivery. Test it first. Every model suits some voices better, so test a few with yours. Other language, use a native voice, or the accent carries over. Sliders still matter, just less than the voice and model. Save this and watch the full lesson in episode three.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

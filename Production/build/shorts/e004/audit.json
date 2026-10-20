@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 32.22,
+ "wps": 2.27,
+ "asr_match": 0.986,
+ "beats": 7,
+ "longest_beat": 6.69,
+ "max_gap": 0.0,
+ "asr_text": "11 labs reading numbers wrong, check if you're on Flash V2, 5. To keep latency low, Flash V2, 5 doesn't normalize numbers by default. So a phone number may be read in an unclear way. Fix 1, use multilingual V2 when number reading matters. Fix 2, have your LLM write numbers out first. Why keep Flash 75 milliseconds 32 languages half the a P I price per character? Save this and watch the full lesson in episode 2.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

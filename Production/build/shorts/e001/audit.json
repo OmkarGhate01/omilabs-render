@@ -1,0 +1,19 @@
+{
+ "words": 76,
+ "seconds": 35.29,
+ "wps": 2.15,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 6.07,
+ "max_gap": 0.0,
+ "asr_text": "Confused by 11 labs, creative agents or a PI, pick the right one. Make audio in the browser no code. Start with 11 creative. Want an agent that holds conversations on web or phone. 11 agents. Adding voice to your own app. 11 API with Python and TypeScript SDKs. Small business that just wants calls answered. The docs point to reception of I. Whichever you pick, credits are shared across every product. Save this and watch the full lesson in episode one.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

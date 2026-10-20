@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 32.59,
+ "wps": 2.3,
+ "asr_match": 0.995,
+ "beats": 7,
+ "longest_beat": 5.65,
+ "max_gap": 0.0,
+ "asr_text": "11 labs dub keeps a heavy accent, check speaker similarity. Speaker similarity is cloning strength. It runs zero to ten to fault seven. Higher sounds more like the original, but carries over more accent. Lower gives more natural delivery in the target language, with less resemblance. The default of seven works well for most content. Start there. And remember, you're charged for each target language you select. Save this and watch the full lesson in episode six.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

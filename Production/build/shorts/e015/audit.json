@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 32.72,
+ "wps": 2.29,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.25,
+ "max_gap": 0.0,
+ "asr_text": "Eleven Lab's voice -changer gave George an American accent, here's why. In voice -changer, your input sample determines the output characteristics. Pick British George, record with an American accent, you get George American. Upload a Portuguese -accented sample, and that language and accent are kept. Same with emotion, a flat read gives a flat result, perform it. Check your mic gain and turn on remove background noise. Save this and watch the full lesson in episode 8.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

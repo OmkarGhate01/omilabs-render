@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 32.8,
+ "wps": 2.29,
+ "asr_match": 0.981,
+ "beats": 7,
+ "longest_beat": 5.51,
+ "max_gap": 0.0,
+ "asr_text": "11 lab sound effect cuts off abruptly, turn on looping. Looping makes a seamless loop. The ending blends into the beginning. The docs example 30 seconds of soft rain looped endlessly as ambience. Duration runs from 0 .1 to 30 seconds or auto. Too much variation, raise prompt influence. The app default is 30%. Each generation gives you four sound effects. Download your favorite. Save this and watch the full lesson in episode 7.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

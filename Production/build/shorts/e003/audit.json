@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 32.7,
+ "wps": 2.39,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 5.96,
+ "max_gap": 0.0,
+ "asr_text": "Your cloned voice lost its accent in 11v4. Here's why. When reference and output share a language, the accent is preserved. A Korean voice generating English gives fluent English without the Korean accent. The docs call this a deliberate change, not a bug. Need the accent carried over, test in v4 before you migrate. And v4 cloned so accurately, noise in your training audio gets captured too. Save this and watch the full lesson in episode two.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

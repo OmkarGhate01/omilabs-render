@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 29.37,
+ "wps": 2.55,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 5.16,
+ "max_gap": 0.0,
+ "asr_text": "11 labs dialog sounds too polite, make the voices interrupt, end a line with a dash and it becomes an interruption, end with ellipses and the line trails off for the other speaker. Each turn pairs its own text with its own voice ID. Tags add emotion, audio events, or overall direction to a turn. It runs on 11 V4 and V3, and V4 is recommended. Save this and watch the full lesson in episode 4.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
