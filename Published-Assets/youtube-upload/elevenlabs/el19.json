@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Agent Personalization: Dynamic Variables and Overrides",
+ "desc": "ElevenLabs tutorial: ElevenLabs Agent Personalization: Dynamic Variables and Overrides.\n\nOne agent, personalized for every user. This episode compares the three personalization methods in ElevenAgents: dynamic variables, overrides and conversation initiation webhooks. You will see how to define variables with double curly braces, set placeholders, pass values at runtime from Python, use system and secret variables, enable overrides on the Security tab, and fetch caller data from your server for inbound calls, plus the mistakes the docs warn about.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:26 Three methods\n00:59 Define variables\n01:40 Pass at runtime\n02:12 System variables\n02:52 Secrets and tools\n03:43 Override fields\n04:24 Enable overrides\n05:11 The payload\n05:39 Initiation webhook\n06:36 Common mistakes\n07:12 Recap\n\nOFFICIAL DOCS USED\n- Personalization: https://elevenlabs.io/docs/eleven-agents/customization/personalization\n- Dynamic variables: https://elevenlabs.io/docs/eleven-agents/customization/personalization/dynamic-variables\n- Overrides: https://elevenlabs.io/docs/eleven-agents/customization/personalization/overrides\n\nNext episode: Ep 20, Agent Tools Explained\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "dynamic variables",
+  "voice agent personalization",
+  "overrides",
+  "initiation webhook",
+  "conversational ai",
+  "ai voice agent tutorial",
+  "voice ai developer",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What would you personalize first: the caller's name, their plan, or their order status? Tell us in the comments."
+}
