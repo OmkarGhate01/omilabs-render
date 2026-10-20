@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Agent Tools Explained: Client, Webhook, Code, MCP",
+ "desc": "Tools let an ElevenLabs agent act, not just talk. This episode maps the five tool types in ElevenAgents: client, webhook, code, MCP and system tools, and when to pick each. It walks through the documented logMessage client tool and how to register it in code, a code tool that converts temperatures, the ctx object and sandbox limits, connecting an MCP server with the right approval mode, and the naming and model choices that make tool calls reliable.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:25 Five tool types\n00:58 Which one?\n01:37 A client tool\n02:12 Register it\n02:44 Get data back\n03:11 A code tool\n03:53 The ctx object\n04:28 Code tool limits\n05:01 Connect MCP\n06:02 Approval modes\n06:47 Reliable tool calls\n07:32 Recap\n\nOFFICIAL DOCS USED\n- Tools: https://elevenlabs.io/docs/eleven-agents/customization/tools\n- Client tools: https://elevenlabs.io/docs/eleven-agents/customization/tools/client-tools\n- Code tools: https://elevenlabs.io/docs/eleven-agents/customization/tools/code-tools\n- Model Context Protocol: https://elevenlabs.io/docs/eleven-agents/customization/tools/mcp\n\nNext episode: Ep 21, Webhook Tools\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "agent tools",
+  "client tools",
+  "code tools",
+  "mcp server",
+  "function calling",
+  "voice ai agent",
+  "ai agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What is the first action you want your agent to take: book, look up, or update something? Tell us which tool type you would use."
+}
