@@ -1,0 +1,18 @@
+{
+ "title": "Knowledge Base and RAG for ElevenLabs Voice Agents",
+ "desc": "ElevenLabs tutorial: Knowledge Base and RAG for ElevenLabs Voice Agents.\n\nA knowledge base gives your voice agent your own documents to answer from. This episode covers what belongs in it, the three ways to add documents, full context versus RAG, usage modes, how RAG works step by step, enabling it in the dashboard and as code, index limits per plan, the crawler user agent, managing documents over time, and best practices from the docs.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 What goes in\n00:59 Add documents\n01:36 Two modes\n02:25 Usage modes\n03:04 How RAG works\n03:38 Enable RAG\n04:10 RAG as code\n04:39 Index limits\n05:08 Crawler\n05:39 Manage documents\n06:25 Best practices\n06:52 Recap\n\nOFFICIAL DOCS USED\n- Knowledge base: https://elevenlabs.io/docs/eleven-agents/customization/knowledge-base\n- Retrieval-Augmented Generation: https://elevenlabs.io/docs/eleven-agents/customization/knowledge-base/rag\n- Manage documents: https://elevenlabs.io/docs/eleven-agents/customization/knowledge-base/manage-documents\n\nNext episode: Ep 17, Turn-Taking and Timeouts\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "knowledge base",
+  "rag",
+  "retrieval augmented generation",
+  "voice agent",
+  "ai hallucinations",
+  "conversational ai",
+  "ai agents",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What would you put in your agent's knowledge base first: a product catalog, policies, or FAQs? And would you use full context or RAG?"
+}
