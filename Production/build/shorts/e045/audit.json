@@ -1,0 +1,19 @@
+{
+ "words": 69,
+ "seconds": 30.25,
+ "wps": 2.28,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 5.22,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent switching languages by accident, language detection triggers when users speak, or ask for another language. In long calls, background speech, or an unusual accent can trigger it. Enable only its start of conversation. It's off by default. Now switching only works in the first two user turns. Remember, it's not automatic. Define languages then add the tool. Save this and watch the full lesson in episode 22.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

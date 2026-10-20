@@ -1,0 +1,19 @@
+{
+ "words": 71,
+ "seconds": 31.35,
+ "wps": 2.26,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 6.16,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent -rewarding your legal disclosure. A say -node speaks one message at a specific point, then moves on. Two modes prompt lets the LLM write it. Literal speaks your exact text. For a legal disclosure, Literal is the safe choice. You can add a translation for each configured language. Typical uses, greetings, legal disclosures, and confirmations read back to users. Save this and watch the full lesson in episode 23.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

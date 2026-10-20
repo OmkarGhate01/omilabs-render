@@ -1,0 +1,19 @@
+{
+ "words": 71,
+ "seconds": 32.81,
+ "wps": 2.16,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 6.23,
+ "max_gap": 0.0,
+ "asr_text": "11 labs widget not working on your site, widgets require public agents with authentication disabled, check the advanced tab, paste the snippet into the body of your main index dot HTML. Using dynamic variables, every variable the agent requires must be passed, overrides in the widget only work for fields you've enabled, client tools must use exactly the same name, its case sensitive, save this and watch the full lesson in episode 24.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

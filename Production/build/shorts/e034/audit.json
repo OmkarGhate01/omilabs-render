@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 33.88,
+ "wps": 2.18,
+ "asr_match": 0.995,
+ "beats": 7,
+ "longest_beat": 5.34,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent interrupting your callers, check turn eagerness. Turn eagerness has three modes, eager, normal, and patient. Eager jumps in at the earliest opportunity, good for fast customer service. Collecting phone numbers or addresses, use patient so callers can finish. Reading a legal disclaimer, turn interruptions off so every word is delivered. Not sure normal weights for natural breaks, use it as your default. Save this and watch the full lesson in episode 17.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

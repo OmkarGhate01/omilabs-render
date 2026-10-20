@@ -1,0 +1,19 @@
+{
+ "words": 67,
+ "seconds": 27.49,
+ "wps": 2.44,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 4.65,
+ "max_gap": 0.0,
+ "asr_text": "11 labs widget links not clickable, here's why. The widget renders markdown, but links show as plain text by default. That's deliberate, it prevents phishing. Set markdown link allowed hosts to your own domains. A star allows all domains. Listing yours is the safer choice. And add your domains to the allow list, so only they can use it. Save this and watch the full lesson in episode 24.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

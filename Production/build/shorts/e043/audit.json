@@ -1,0 +1,19 @@
+{
+ "words": 80,
+ "seconds": 31.41,
+ "wps": 2.55,
+ "asr_match": 0.994,
+ "beats": 7,
+ "longest_beat": 5.52,
+ "max_gap": 0.0,
+ "asr_text": "11 labs Webhook a PIK in the URL. The model can see the URL and the prompt. Never put keys there. Add a header set the type to secret and click Create New Secret. The docs list five auth methods including OAuth and Basic Auth. OAuth and Basic Auth live under workspace auth connections, click Add Auth. The docs whether example needs no key. When yours does use headers, save this and watch the full lesson in episode 21.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

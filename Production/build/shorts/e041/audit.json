@@ -1,0 +1,19 @@
+{
+ "words": 70,
+ "seconds": 30.42,
+ "wps": 2.3,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.51,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent tools, which type do you need? Act in the user's browser or app, use a client tool. A single API call with no custom logic, a webhook tool. Calculations or merging APIs, a code tool, it's enterprise only. Tools from an MCP server, use MCP with always ask approval. And built -in actions like ending a call, a system tool. Save this and watch the full lesson in episode 20.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

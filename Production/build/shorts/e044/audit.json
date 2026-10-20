@@ -1,0 +1,19 @@
+{
+ "words": 72,
+ "seconds": 28.72,
+ "wps": 2.51,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 4.72,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent never hangs up, here's why. Endcall is added by default, only to agents made in the dashboard. Created through the API or SDK, you must add it yourself. Add Endcall under built -in tools with type system. Leave the description blank and the default prompt is used. Hanging up too early, only end after confirming they need nothing else. Save this and watch the full lesson in episode 22.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

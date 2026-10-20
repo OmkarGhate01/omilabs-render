@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 32.34,
+ "wps": 2.29,
+ "asr_match": 0.986,
+ "beats": 7,
+ "longest_beat": 5.34,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent mispronouncing your brand name, add a pronunciation dictionary, an XML -based .pls file, use a phone name for exact pronunciation, or an alias to swap the word. Here's why it breaks, phone name tags only work on three models. Other models skip them and use the default, use aliases there. In case matters, add separate entries for capitalized and lowercase versions. Save this and watch the full lesson in episode 18.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

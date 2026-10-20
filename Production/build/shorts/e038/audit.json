@@ -1,0 +1,19 @@
+{
+ "words": 63,
+ "seconds": 30.16,
+ "wps": 2.09,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 4.84,
+ "max_gap": 0.0,
+ "asr_text": "11 labs dynamic variables not replacing. Check this. First names must match exactly their case sensitive. Second, use double curly braces around the variable name. Third, make sure it's actually in your dynamic variables object. Fourth, type errors, values must be strings, numbers, or Booleans. Testing in preview, webhooks don't fire there, use placeholders instead. Save this and watch the full lesson in episode 19.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

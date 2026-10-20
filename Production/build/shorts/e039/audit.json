@@ -1,0 +1,19 @@
+{
+ "words": 72,
+ "seconds": 30.61,
+ "wps": 2.35,
+ "asr_match": 0.999,
+ "beats": 7,
+ "longest_beat": 5.77,
+ "max_gap": 0.0,
+ "asr_text": "11 labs auth token reaching the LLM, prefix a variable with secret to underscores, it never reaches the LLM. The docs recommend it for auth tokens and private IDS. The catch secret values come back redacted in webhooks and the API. So never use the secret prefix for anything you need to read back. And the system prefix is reserved for built -in variables. Save this and watch the full lesson in episode 19.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

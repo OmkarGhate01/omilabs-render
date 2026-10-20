@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 30.8,
+ "wps": 2.4,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.18,
+ "max_gap": 0.0,
+ "asr_text": "11 labs client tool not firing, check the name. Unlike webhook tools, client tools must be registered in your code. The name must match the agent config exactly. It's case sensitive. Still nothing, check the transcript to see if it was called. Need data back? Tick wait for response and the result joins the context. And name tools clearly with no abbreviations and describe every parameter. Save this and watch the full lesson in episode 20.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

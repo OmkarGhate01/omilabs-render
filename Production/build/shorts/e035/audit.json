@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 29.81,
+ "wps": 2.48,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 5.0,
+ "max_gap": 0.0,
+ "asr_text": "Awkward silence while your 11 labs agent thinks. Soft timeout plays a short filler while the model is still thinking. The docs recommend starting at three seconds. The default is disabled. You can set anything from half a second to eight seconds. Never put a time in the filler like one second, responses vary. Quick FAQ bought with fast replies. The docs suggest disabling it. Save this and watch the full lesson in episode 17.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

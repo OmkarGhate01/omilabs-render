@@ -1,0 +1,19 @@
+{
+ "words": 69,
+ "seconds": 30.73,
+ "wps": 2.25,
+ "asr_match": 0.999,
+ "beats": 7,
+ "longest_beat": 5.81,
+ "max_gap": 0.0,
+ "asr_text": "11 labs expressive tags stops working mid -sentence. Expressive mode turns on when you select V3 conversational. The model can output tags like laughs, whispers, slow, and excited. Here's why each tag affects only the next four to five words. So place the tag right before the moment it's meant for. Expressiveness varies across voices and languages. Test each target language. Save this and watch the full lesson in episode 18.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.4,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

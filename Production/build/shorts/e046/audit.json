@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 28.58,
+ "wps": 2.69,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 4.53,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent skipping a tool call. Inside a sub agent, the model decides whether to call a tool. A dispatch tool node is different. When the flow reaches it, it runs. It has two special edges, a success path and a failure path. On failure, route to a transfer to number node and reach a human. Then use workflow analytics to find the step where calls go wrong. Save this and watch the full lesson in episode 23.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

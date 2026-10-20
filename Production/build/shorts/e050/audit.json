@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 31.05,
+ "wps": 2.42,
+ "asr_match": 0.995,
+ "beats": 7,
+ "longest_beat": 7.37,
+ "max_gap": 0.0,
+ "asr_text": "11 labs a PIK exposed in your React app. The docs are blunt, do not expose your API key to the client. The browser asks your server. Your server calls 11 labs with the key. Only the token comes back. The browser starts the session with it. Voice uses WebRTC and a token. Text only uses WebSocket and assigned URL. Your API key never leaves the server. Save this and watch the full lesson in episode 25.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

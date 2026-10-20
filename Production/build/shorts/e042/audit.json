@@ -1,0 +1,19 @@
+{
+ "words": 70,
+ "seconds": 29.12,
+ "wps": 2.4,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 4.6,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent asking callers for coordinates, the get whether tool needs a latitude and a longitude. The tool alone isn't enough, the prompt must explain it. The docs prompt says never ask users for coordinates, work them out. Extract the location, convert it, call the tool, then answer naturally. Test a vague question too, the agent should ask for clarification, save this and watch the full lesson in episode 21.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 61,
+ "seconds": 25.02,
+ "wps": 2.44,
+ "asr_match": 1.0,
+ "beats": 6,
+ "longest_beat": 4.98,
+ "max_gap": 0.0,
+ "asr_text": "11 labs agent interrupting users while they type, call send user activity. It tells the agent the user is busy. The agent won't try to speak for at least two seconds, call it on every keystroke so the agent doesn't interrupt. Just giving context, send contextual update and no reply is triggered. Save this and watch the full lesson in episode 25.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
