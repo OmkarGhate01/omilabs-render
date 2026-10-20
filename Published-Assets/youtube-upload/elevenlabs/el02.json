@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Models Explained: Eleven v4, v3, Multilingual v2 and Flash",
+ "desc": "ElevenLabs has six speech models plus dedicated models for transcription, music and sound effects. This episode compares Eleven v4, v4 Turbo, v3, v3 Conversational, Multilingual v2 and Flash v2.5, explains what changed in Eleven v4, shows the character limits and concurrency per plan, and gives the docs' model pick for each use case.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 The lineup\n01:18 v4 or v4 Turbo\n01:58 What v4 changed\n02:45 Accent handling\n03:22 v4 settings\n03:48 Flash v2.5\n04:33 Character limits\n05:06 Pick by use case\n05:43 Beyond speech\n06:15 Concurrency\n06:54 Deprecated\n07:24 Recap\n\nOFFICIAL DOCS USED\n- Models: https://elevenlabs.io/docs/overview/models\n- How to choose the right model: https://elevenlabs.io/docs/eleven-api/choosing-the-right-model\n- Eleven v4: https://elevenlabs.io/docs/overview/capabilities/text-to-speech/eleven-v4\n\nNext episode: Ep 3, Text to Speech Settings\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs models",
+  "eleven v4",
+  "eleven v4 turbo",
+  "flash v2.5",
+  "multilingual v2",
+  "eleven v3",
+  "text to speech model",
+  "ai voice",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which model are you using today, and for what? Quality-first content or a real-time agent? Tell us below."
+}
