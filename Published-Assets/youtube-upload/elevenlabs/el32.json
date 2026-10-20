@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs API for Developers: Streaming, Latency, Speech to Text",
+ "desc": "Level up from your first ElevenLabs API call. This episode covers the three text to speech endpoint types, streaming audio in Python, what the optional voice settings do, the four documented latency principles: Flash models, streaming, geographic proximity and voice choice, the regional TTFB table, then speech to text with scribe_v2 and forced alignment for word timestamps. All code comes from the official docs.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:29 Three endpoints\n01:03 Stream in Python\n01:41 Voice settings\n02:30 Four principles\n02:44 Flash models\n03:18 Websockets\n03:49 Latency by region\n04:21 Pin the US region\n04:48 Voices and latency\n05:13 Speech to text\n05:48 Forced alignment\n06:11 Recap\n\nOFFICIAL DOCS USED\n- Streaming text to speech: https://elevenlabs.io/docs/eleven-api/guides/how-to/text-to-speech/streaming\n- Latency optimization: https://elevenlabs.io/docs/eleven-api/guides/how-to/best-practices/latency-optimization\n- Speech to Text quickstart: https://elevenlabs.io/docs/eleven-api/guides/cookbooks/speech-to-text\n- Forced Alignment quickstart: https://elevenlabs.io/docs/eleven-api/guides/cookbooks/forced-alignment\n\nNext episode: Ep 33, Capstone: A Complete Agent\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs api",
+  "streaming tts",
+  "latency",
+  "flash v2.5",
+  "speech to text",
+  "scribe",
+  "forced alignment",
+  "python",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Where are your users, and what latency do you see today? Tell us your region and which model you use."
+}
