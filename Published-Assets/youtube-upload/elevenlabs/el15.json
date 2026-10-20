@@ -1,0 +1,18 @@
+{
+ "title": "Prompting Voice Agents in ElevenLabs: The ElevenAgents Prompting Guide",
+ "desc": "ElevenLabs tutorial: Prompting Voice Agents in ElevenLabs: The ElevenAgents Prompting Guide.\n\nThe system prompt is the personality and policy blueprint of a voice agent. This episode walks through the official ElevenAgents prompting guide: clean sections, concise instructions, emphasis, text normalization, formats for tool inputs, when and how to use tools, orchestrator and specialist agents, choosing an LLM, Guardrails 2.0 with streaming and blocking modes, and how to iterate safely.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:20 What a prompt does\n00:55 Clean sections\n01:22 Be concise\n02:05 Normalization\n03:07 Tool input formats\n03:43 When to use tools\n04:27 Specialists\n05:15 Choosing the LLM\n06:12 Guardrails\n06:56 Execution mode\n07:43 Iterate\n08:28 Recap\n\nOFFICIAL DOCS USED\n- Prompting guide: https://elevenlabs.io/docs/eleven-agents/best-practices/prompting-guide\n- Guardrails: https://elevenlabs.io/docs/eleven-agents/best-practices/guardrails\n\nNext episode: Ep 16, Knowledge Base and RAG\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "system prompt",
+  "prompt engineering",
+  "voice agent",
+  "ai guardrails",
+  "conversational ai",
+  "llm",
+  "ai agents",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Paste the Guardrails section of your agent's prompt below (no secrets). What rule does your agent break most often?"
+}
