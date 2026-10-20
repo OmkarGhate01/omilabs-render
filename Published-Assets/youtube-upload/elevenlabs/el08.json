@@ -1,0 +1,18 @@
+{
+ "title": "Voice Changer and Voice Isolator in ElevenLabs",
+ "desc": "ElevenLabs tutorial: Voice Changer and Voice Isolator in ElevenLabs.\n\nVoice Changer turns your recorded performance into a different voice while keeping the emotion, timing and accent. Voice Isolator strips background noise to leave clean speech. This episode covers both: the steps, file limits, costs, models, recording best practices, supported formats, and when to use each.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:25 How it works\n00:57 Use cases\n01:25 Use Voice Changer\n02:03 Cost\n02:25 Accents\n02:56 Best practices\n03:27 Models and formats\n04:03 Voice Isolator\n04:32 Use Voice Isolator\n04:59 Isolator limits\n05:29 Which tool?\n06:16 Recap\n\nOFFICIAL DOCS USED\n- Voice changer: https://elevenlabs.io/docs/overview/capabilities/voice-changer\n- Voice isolator: https://elevenlabs.io/docs/overview/capabilities/voice-isolator\n- Voice changer: https://elevenlabs.io/docs/eleven-creative/playground/voice-changer\n- Voice isolator: https://elevenlabs.io/docs/eleven-creative/audio-tools/voice-isolator\n\nNext episode: Ep 9, The Voice Library\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "voice changer",
+  "voice isolator",
+  "speech to speech",
+  "ai voice changer",
+  "remove background noise",
+  "audio cleanup",
+  "podcast audio",
+  "ai voice",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Would you use Voice Changer for characters, or Voice Isolator to rescue a noisy recording? Tell us your use case below."
+}
