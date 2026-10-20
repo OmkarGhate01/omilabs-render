@@ -1,0 +1,19 @@
+{
+ "words": 68,
+ "seconds": 28.12,
+ "wps": 2.42,
+ "asr_match": 1.0,
+ "beats": 6,
+ "longest_beat": 5.25,
+ "max_gap": 0.0,
+ "asr_text": "11 labs voice clone got worse after you added more audio. Instant voice cloning needs about 1 to 2 minutes of clear audio. Over 3 minutes yields little improvement and can even hurt the clone. The number of samples doesn't matter. Total run time and recording quality do. Users got excellent results from 30 seconds and worse from 10 minutes. Save this and watch the full lesson in episode 10.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

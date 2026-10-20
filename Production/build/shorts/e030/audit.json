@@ -1,0 +1,19 @@
+{
+ "words": 79,
+ "seconds": 32.53,
+ "wps": 2.43,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.31,
+ "max_gap": 0.0,
+ "asr_text": "Your voice agent ignores the one rule that matters. Fix the prompt. Split the system prompt into sections with markdown headings. Models are tuned to pay extra attention to the guardrails heading. Mark Critical Lines, this step is important. Repeat the top rule twice. Then add a custom guardrail. Streaming mode is recommended for voice agents. Critical rules go in both the prompt and a guardrail. Defense in depth. Save this and watch the full lesson in episode 15.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

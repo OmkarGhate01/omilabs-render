@@ -1,0 +1,19 @@
+{
+ "words": 79,
+ "seconds": 33.05,
+ "wps": 2.39,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.5,
+ "max_gap": 0.0,
+ "asr_text": "Eleven labs voice design giving the wrong accent, check your prompt words. Don't write accent when you mean intonation. It can shift the dialect. Avoid effects words like reverb, echo, phone, or tape. They hurt quality. Skip vague words like foreign or exotic. Say a thick French accent. And state the language and regional variant first to prevent drift. One more, the docs found thick often works better than strong. Save this and watch the full lesson in episode 12.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 66,
+ "seconds": 30.61,
+ "wps": 2.16,
+ "asr_match": 1.0,
+ "beats": 6,
+ "longest_beat": 6.44,
+ "max_gap": 0.0,
+ "asr_text": "Voice agent tool calls getting the email wrong, it's text normalization. TTS mispronounces symbols, so numbers and symbols are normalized into words. Then the LLM may write emails as words and tools break. Fix it in the parameter description, say the format with an example. Or switch to the 11 labs normalizer. More reliable with minor latency. Save this and watch the full lesson in episode 15.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

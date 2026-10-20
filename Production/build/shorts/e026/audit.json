@@ -1,0 +1,19 @@
+{
+ "words": 80,
+ "seconds": 33.73,
+ "wps": 2.37,
+ "asr_match": 0.991,
+ "beats": 7,
+ "longest_beat": 5.76,
+ "max_gap": 0.0,
+ "asr_text": "11 Lab's Voice Library payouts lower than expected, check your notice period. Your default payout rate is set by the notice period you choose. It ranges from 30 days to 2 years, longer earns increased rewards. The catch, you must wait for it to expire before deleting, and only paid users count. Free tier usage is excluded from earnings. Payouts go through Stripe Connect, usually above $10 with a tax form. Save this and watch the full lesson in episode 13.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

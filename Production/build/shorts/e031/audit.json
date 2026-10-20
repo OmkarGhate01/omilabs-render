@@ -1,0 +1,19 @@
+{
+ "words": 76,
+ "seconds": 31.23,
+ "wps": 2.43,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 5.66,
+ "max_gap": 0.0,
+ "asr_text": "11 labs knowledge base imported your website, but it's empty. Pages are fetched by a crawler called 11 labs bot. Using a CDN or bot protection, allow that user agent. Otherwise, the document is created, but no content can be extracted. It also respects robots .txt. Disallowed pages are skipped. Crawling a whole site, make sure you have permission to use it. Save this and watch the full lesson in episode 16.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.6,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

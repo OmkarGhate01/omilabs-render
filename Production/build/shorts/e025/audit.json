@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 33.32,
+ "wps": 2.19,
+ "asr_match": 0.995,
+ "beats": 7,
+ "longest_beat": 5.39,
+ "max_gap": 0.0,
+ "asr_text": "Can't share your voice in the 11 labs voice library. Here's why. Only professional voice clones can be published to the voice library. Instant clones, voice design, and the I generated voices cannot be shared. Children's voices or voices that sound childlike aren't allowed either. And names get reviewed. No all caps, no emojis, 40 characters, Max. Once approved, paid users, generations, earn you cash rewards. Save this and watch the full lesson in episode 13.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

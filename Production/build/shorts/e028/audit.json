@@ -1,0 +1,19 @@
+{
+ "words": 80,
+ "seconds": 32.39,
+ "wps": 2.47,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 5.6,
+ "max_gap": 0.0,
+ "asr_text": "Want an 11 labs voice agent, but no code, five dashboard steps. Create a new assistant, enter a name, and pick the blank template. In the agent tab, set the first message and the system prompt. Add a knowledge base like documentation and FAQs, keep it updated. Pick a voice in the voice tab, then press test OI agent. Rambling answers, the quick start prompt limits responses to a couple of sentences. Save this and watch the full lesson in episode 14.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

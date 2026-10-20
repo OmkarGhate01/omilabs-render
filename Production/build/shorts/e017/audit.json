@@ -1,0 +1,19 @@
+{
+ "words": 80,
+ "seconds": 32.16,
+ "wps": 2.49,
+ "asr_match": 0.996,
+ "beats": 7,
+ "longest_beat": 5.32,
+ "max_gap": 0.0,
+ "asr_text": "11 Lab's library voice disappeared from your project. Here's why. When an owner stops sharing, the voice leaves the voice library right away. You get an email and an app notice with the end date. You keep access for the notice period, 30 days up to two years. No notice period, you lose access immediately. That's how projects break. Developers get voice returns disabled at Unix once a notice period starts. Save this and watch the full lesson in episode nine.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

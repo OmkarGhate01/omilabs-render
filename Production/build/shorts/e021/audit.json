@@ -1,0 +1,19 @@
+{
+ "words": 76,
+ "seconds": 31.73,
+ "wps": 2.4,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.62,
+ "max_gap": 0.0,
+ "asr_text": "11 labs voice verification failed on your professional voice clone. Check this. First, a professional clone can only be your own voice. Verify with the same or similar equipment you recorded samples with. Read each line only once, then press stop. Twice can fail it. Check your browser can use the microphone and you're not muted. Failed every attempt, wait 24 hours and retry or email support. Save this and watch the full lesson in episode 11.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

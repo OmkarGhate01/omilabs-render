@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 34.25,
+ "wps": 2.28,
+ "asr_match": 0.974,
+ "beats": 7,
+ "longest_beat": 5.61,
+ "max_gap": 0.0,
+ "asr_text": "11 labs voice agent making things up. Choose full context or rag. Full context puts the whole document in the system prompt every turn. Rag retrieves only relevant passages, adding around 250 milliseconds. Bigger than about 300 ,000 characters, rag is the way. Using folders, they're always rag so turn on the use rag toggle. Documents under 500 bytes skip indexing and go in the prompt. Save this and watch the full lesson in episode 16.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

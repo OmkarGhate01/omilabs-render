@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 30.01,
+ "wps": 2.6,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.46,
+ "max_gap": 0.0,
+ "asr_text": "can't find an 11 labs voice you heard in a video. Open voices then explore. Search by name, keyword, or voice ID. Or drag and drop an audio or video file onto the page. If the original is in the library, it's shown. Otherwise, similar voices. Bad match upload speech only no music or noise. Use voice isolator. And you don't need a long clip to find a match. Save this and watch the full lesson in episode nine.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 72,
+ "seconds": 25.26,
+ "wps": 2.85,
+ "asr_match": 0.992,
+ "beats": 7,
+ "longest_beat": 4.66,
+ "max_gap": 0.0,
+ "asr_text": "Need a voice over for your eye videos. Use my 11 labs voice. Open the link in the description, signed into 11 labs. The voice is added to my voices in your own account. Click the T button on it to open text to speech. It also appears in every voice selection menu. For a voice agent, open its voice tab and choose it there. Get my voice from the link in the description.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

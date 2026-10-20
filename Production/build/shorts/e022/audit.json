@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 30.65,
+ "wps": 2.45,
+ "asr_match": 0.999,
+ "beats": 7,
+ "longest_beat": 5.62,
+ "max_gap": 0.0,
+ "asr_text": "11 lab says no model found for this voice. Here's why. You tried to use your professional clone before fine -tuning finished. It moves from draft to scheduled to fine -tuning then ready. Usually three to six hours with a busy queue up to 24. Check in my voices, click view then hover over each model. Retried after an issue, no action needed, repeated failures, check the data set. Save this and watch the full lesson in episode 11.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

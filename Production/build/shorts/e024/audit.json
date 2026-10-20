@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 32.3,
+ "wps": 2.41,
+ "asr_match": 0.997,
+ "beats": 7,
+ "longest_beat": 6.29,
+ "max_gap": 0.0,
+ "asr_text": "11 lab's voice design results inconsistent, use the recommended prompt format. Start with language, then gender, age range, and equality level. Then a persona in two to five words, and two or three emotions. Finish with a sentence or two about timbre, pacing, and delivery. Match the preview text to the voice, clashing scripts sound unnatural. You get three options, but you're charged once for the preview text. Save this and watch the full lesson in episode 12.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

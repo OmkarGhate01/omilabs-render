@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 32.91,
+ "wps": 2.22,
+ "asr_match": 0.986,
+ "beats": 7,
+ "longest_beat": 6.26,
+ "max_gap": 0.0,
+ "asr_text": "How does an 11 labs voice agent actually listen and answer four parts? One, a fine -tuned speech -to -text model to hear the caller. Two, any language model you choose or a custom LLM. Three, low -latency text -to -speech with over 5 ,000 voices. Four, a turn -taking model which handles conversation timing. Slow replies, higher -quality voices models and LLMs can increase response time. Save this and watch the full lesson in episode 14.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
