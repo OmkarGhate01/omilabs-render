@@ -1,0 +1,18 @@
+{
+ "title": "Test Your ElevenLabs Voice Agent: Testing and Simulated Chats",
+ "desc": "Agent testing lets you check an ElevenLabs agent before it reaches real callers. This episode covers the three test types and when to use each, turning a bad real conversation into a test, simulation tests with max turns and tool mocking, next reply tests with success and failure examples, tool call tests with exact, regex and LLM validation, and running tests from the dashboard, CLI or Python, including repeated runs with pass rates.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:22 Three test types\n01:00 Tests from real calls\n01:21 Simulation tests\n02:05 Extra settings\n02:36 Tool mocking\n03:09 Next reply tests\n03:52 Tool call tests\n04:41 Running tests\n05:07 Repeat in Python\n05:26 Pass rates\n06:03 What to test\n06:44 Recap\n\nOFFICIAL DOCS USED\n- Agent Testing: https://elevenlabs.io/docs/eleven-agents/customization/agent-testing\n- Simulate Conversations: https://elevenlabs.io/docs/eleven-agents/guides/simulate-conversation\n\nNext episode: Ep 29, Conversation Analysis\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "agent testing",
+  "voice agent testing",
+  "simulation testing",
+  "tool call testing",
+  "llm evaluation",
+  "elevenagents",
+  "conversational ai",
+  "qa automation",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What is the one conversation your agent must never get wrong? Describe it, and we'll write it as a test."
+}
