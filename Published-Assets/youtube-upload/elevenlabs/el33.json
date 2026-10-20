@@ -1,0 +1,18 @@
+{
+ "title": "Build a Complete AI Voice Agent with ElevenLabs: End-to-End Capstone",
+ "desc": "The capstone of the ElevenLabs Masterclass: one end-to-end plan for a complete voice agent, built from the official docs. Create the agent in the dashboard or with the Python SDK, write the first message and system prompt, add a knowledge base, connect a webhook tool, put it on a Twilio phone number, add evaluation and data collection, and test it with simulation and tool call tests before launch. Each step points to the episode that covers it in depth.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:31 The plan\n00:59 1. Create\n01:37 Or with Python\n02:15 2. Prompt\n03:00 3. Knowledge\n03:37 4. A webhook tool\n04:25 Wire it in\n04:54 5. Phone number\n05:40 6a. Analysis\n06:17 6b. Tests\n06:58 Launch checklist\n07:26 Recap\n\nOFFICIAL DOCS USED\n- Quickstart: https://elevenlabs.io/docs/eleven-agents/quickstart\n- Webhook tools: https://elevenlabs.io/docs/eleven-agents/customization/tools/webhook-tools\n- Twilio native integration: https://elevenlabs.io/docs/eleven-agents/phone-numbers/twilio-integration/native-integration\n- Agent Testing: https://elevenlabs.io/docs/eleven-agents/customization/agent-testing\n\nThis is the final episode of the series.\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "ai voice agent",
+  "elevenagents",
+  "voice agent tutorial",
+  "webhook tool",
+  "knowledge base",
+  "twilio",
+  "agent testing",
+  "conversational ai",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "You made it to the capstone. What agent are you building first? Describe it in one line, and share which step took you longest."
+}
