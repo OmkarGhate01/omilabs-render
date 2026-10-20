@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Agent Conversation Flow: Turn-Taking and Interruptions",
+ "desc": "Five settings decide how an ElevenLabs voice agent takes turns: max conversation duration, take turn after silence, soft timeout, interruptions and turn eagerness. This episode explains what each one does, where it lives in the dashboard, the config field behind it, and the documented recommended setups for customer service, information collection, legal disclaimers and EdTech. It also covers the LLM settings that affect pacing: reasoning and backup LLMs.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:22 Five settings\n00:52 Call limits\n01:34 Silence timeout\n02:18 Soft timeout\n02:50 Soft timeout config\n03:42 Filler mistakes\n04:05 Interruptions\n04:39 Turn eagerness\n05:27 Recommended setups\n06:15 The LLM side\n06:57 Recap\n\nOFFICIAL DOCS USED\n- Conversation flow: https://elevenlabs.io/docs/eleven-agents/customization/conversation-flow\n- Models: https://elevenlabs.io/docs/eleven-agents/customization/llm\n\nNext episode: Ep 18, Agent Voice Settings\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "turn taking",
+  "voice agent interruptions",
+  "soft timeout",
+  "turn eagerness",
+  "conversational ai",
+  "voice ai agent",
+  "ai voice agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Does your agent jump in too fast, or wait too long? Tell us your use case and which eagerness mode you picked."
+}
