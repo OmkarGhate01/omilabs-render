@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Voice Agent SDKs: React, JavaScript and Python",
+ "desc": "When the widget is not enough, the ElevenAgents SDKs let you build your own interface. This episode covers installing @elevenlabs/react, @elevenlabs/client and the elevenlabs Python package, a minimal React agent with ConversationProvider and the granular hooks, how private agents get a conversation token or signed URL from your server without exposing the API key, WebRTC vs WebSocket, the methods for text input, context and feedback, and a complete Python script.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:26 Three SDKs\n01:02 Install\n01:35 Minimal React agent\n02:19 React hooks\n03:05 Private agents\n03:43 WebRTC or WebSocket\n04:17 Useful methods\n05:05 Python script\n05:57 Common mistakes\n06:42 Recap\n\nOFFICIAL DOCS USED\n- React SDK: https://elevenlabs.io/docs/eleven-agents/libraries/react\n- JavaScript SDK: https://elevenlabs.io/docs/eleven-agents/libraries/java-script\n- Python SDK: https://elevenlabs.io/docs/eleven-agents/libraries/python\n\nNext episode: Ep 26, Phone Calls with Twilio\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "elevenlabs sdk",
+  "react voice agent",
+  "javascript sdk",
+  "python sdk",
+  "webrtc",
+  "voice ai developer",
+  "conversational ai",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which SDK are you building with: React, plain JavaScript, or Python? Tell us what you are building."
+}
