@@ -1,0 +1,18 @@
+{
+ "title": "What Is ElevenAgents? Build Your First AI Voice Agent with ElevenLabs",
+ "desc": "ElevenLabs tutorial: What Is ElevenAgents? Build Your First AI Voice Agent with ElevenLabs.\n\nElevenAgents coordinates speech to text, a language model, text to speech and a turn-taking model into one voice agent. This episode covers the architecture, the configure, deploy and monitor lifecycle, the building blocks, the four ways to manage agents, the dashboard quickstart with the example prompt, evaluation criteria and data collection, and the same agent built with Python, the CLI and the website widget.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:23 Architecture\n00:48 The lifecycle\n01:07 Building blocks\n01:46 Four ways to build\n02:12 Dashboard build\n02:49 Example prompt\n03:28 Quality vs speed\n03:46 Analysis\n04:34 Python\n05:12 The CLI\n05:51 The widget\n06:12 Recap\n\nOFFICIAL DOCS USED\n- ElevenAgents: https://elevenlabs.io/docs/eleven-agents/overview\n- Quickstart: https://elevenlabs.io/docs/eleven-agents/quickstart\n- Build: https://elevenlabs.io/docs/eleven-agents/build/overview\n\nNext episode: Ep 15, Prompting Voice Agents\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "ai voice agent",
+  "conversational ai",
+  "voice agent tutorial",
+  "elevenlabs agents",
+  "ai agent",
+  "python",
+  "no code ai agent",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What is the first voice agent you want to build: support, bookings, sales, or something else? Tell us and we will use the best ideas as examples."
+}
