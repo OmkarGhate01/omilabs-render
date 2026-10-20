@@ -1,0 +1,19 @@
+{
+ "words": 76,
+ "seconds": 31.09,
+ "wps": 2.44,
+ "asr_match": 0.981,
+ "beats": 7,
+ "longest_beat": 5.36,
+ "max_gap": 0.0,
+ "asr_text": "Long silences on your voice agent calls, here's how they're billed. Voice only calls are charged based on call duration, but silence longer than 10 seconds gets a 95 % discount. Those periods are billed at 5 % of the usual per minute rate. The catch billing follows the connection until the call ends or window closes. Rates change so always check the official pricing page. Save this and watch the full lesson in episode 30.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 29.62,
+ "wps": 2.6,
+ "asr_match": 0.97,
+ "beats": 7,
+ "longest_beat": 4.71,
+ "max_gap": 0.0,
+ "asr_text": "Your agent passed the test once. Is it actually reliable? Agent outputs very between runs. One pass shows it can succeed. Set repeat count from 2 to 20 to run each test again. You get a pass rate green all past, amber at least 80%. Red means below 80%, something is broken. And failed runs are grouped by reason, so you see how it fails. Save this and watch the full lesson in episode 28.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

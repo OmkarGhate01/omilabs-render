@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 32.68,
+ "wps": 2.36,
+ "asr_match": 0.999,
+ "beats": 7,
+ "longest_beat": 7.1,
+ "max_gap": 0.0,
+ "asr_text": "Your batch call failed before a single phone rang. Every file needs a phone number column. It's mandatory. Every other column like name becomes a dynamic variable for the call. Four special columns override the agent. Language first message system prompt voice ID. If they aren't over -idable in security settings, the whole batch fails. Download the template and place a test call first. That's the safe way. Save this and watch the full lesson in episode 26.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

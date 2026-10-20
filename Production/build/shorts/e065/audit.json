@@ -1,0 +1,19 @@
+{
+ "words": 69,
+ "seconds": 30.11,
+ "wps": 2.29,
+ "asr_match": 0.986,
+ "beats": 7,
+ "longest_beat": 5.24,
+ "max_gap": 0.0,
+ "asr_text": "Same text, same model, but one voice is slower. Fastest, default voices, synthetic voices, and instant voice clones. Professional voice clones are slower, according to the docs. Higher quality output formats can increase latency too. Raising style or turning on speaker boost can slow things down too. And region matters, South Asia sees 150 to 200 milliseconds. Save this and watch the full lesson in episode 32.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.1,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 67,
+ "seconds": 29.92,
+ "wps": 2.24,
+ "asr_match": 0.987,
+ "beats": 7,
+ "longest_beat": 5.24,
+ "max_gap": 0.0,
+ "asr_text": "Your first 11 labs text to speech call needs just four parameters. Text the words you want spoken. Voice ID, the Quick Start uses George, swap in any library voice. Model ID, the Quick Start uses 11 V4. Output format, MP3 at 44 ,100 Hertz. Call text to speech convert, then play the audio, done, and it works. Save this and watch the full lesson in episode 31.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

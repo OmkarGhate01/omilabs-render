@@ -1,0 +1,19 @@
+{
+ "words": 80,
+ "seconds": 38.06,
+ "wps": 2.1,
+ "asr_match": 0.945,
+ "beats": 7,
+ "longest_beat": 9.86,
+ "max_gap": 0.0,
+ "asr_text": "Your sip calls to 11 labs keep failing, check the URI. The common mistake, calling the domain with no identifier before the at sign. The fix put a phone number in E164 format before it. The identifier can also be any string, like 1 ,000 or John. And match the leading plus on both sides, or calls route wrong. TCP uses port 5 ,060 TLS uses 5 ,061. UDP is for testing only. Save this and watch the full lesson in episode 27.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

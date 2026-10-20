@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 30.05,
+ "wps": 2.6,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.44,
+ "max_gap": 0.0,
+ "asr_text": "Your agent had a bad call this week, keep it. Open it in call history and click create test from this conversation. The context is prefilled. You define the behavior you expected instead. Add it to your suite and similar failures get caught later. Use simulation next reply or tool call tests, depending on what went wrong. Then run the suite from the CLI on every code change. Save this and watch the full lesson in episode 28.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -3.0,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

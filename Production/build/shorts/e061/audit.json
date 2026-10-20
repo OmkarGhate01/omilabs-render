@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 30.15,
+ "wps": 2.49,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.02,
+ "max_gap": 0.0,
+ "asr_text": "A traffic spike and calls start getting rejected. Burst pricing lets agents handle up to three times your concurrency limit. Calls above your limit are charged at double the standard rate. With a 20 -call limit, calls 21 to 60 -cost double. Burst calls get lower priority for speech processing so they can be slow. Turn it on per agent, security tab limits enable bursting. Save this and watch the full lesson in episode 30.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 31.42,
+ "wps": 2.36,
+ "asr_match": 0.994,
+ "beats": 7,
+ "longest_beat": 5.3,
+ "max_gap": 0.0,
+ "asr_text": "Did your agent's last call actually succeed? Let an LLM grade it. In the Analysis tab, add a criterion, an identifier and a prompt. An LLM reads the transcript and returns success failure or unknown. Plus a detailed rationale explaining why it shows that result. Too many unknowns make the prompt specific, that's the fix. You can add up to 30 criteria per agent. Save this and watch the full lesson in episode 29.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

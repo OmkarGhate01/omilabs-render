@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 34.04,
+ "wps": 2.26,
+ "asr_match": 0.995,
+ "beats": 7,
+ "longest_beat": 5.84,
+ "max_gap": 0.0,
+ "asr_text": "is your app waiting for the whole audio file before playing. The regular endpoint returns one complete audio file in one response. Streaming returns audio chunks as they're generated. You stream not convert. That's faster, less time to first byte when text is ready up front. Text arriving in real time like LLM output, use web sockets, and pair it with a flash model, about 75 milliseconds inference. Save this and watch the full lesson in episode 32.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.2,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

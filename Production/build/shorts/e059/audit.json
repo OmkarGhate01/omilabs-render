@@ -1,0 +1,19 @@
+{
+ "words": 70,
+ "seconds": 31.12,
+ "wps": 2.25,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.73,
+ "max_gap": 0.0,
+ "asr_text": "Still copying details out of call transcripts by hand. Data collection extracts structured data from every conversation automatically. Four types string Boolean integer and number. Example classify the issue as technical billing account or general. If the data is missing, you get null, say what to do then. You get 40 items per agent on trial and enterprise, 25 otherwise. Save this and watch the full lesson in episode 29.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

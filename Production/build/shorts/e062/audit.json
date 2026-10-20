@@ -1,0 +1,19 @@
+{
+ "words": 78,
+ "seconds": 29.38,
+ "wps": 2.66,
+ "asr_match": 0.982,
+ "beats": 7,
+ "longest_beat": 5.28,
+ "max_gap": 0.0,
+ "asr_text": "is your 11 labs a PIK pasted straight into your code. The docs say store it as a managed secret in an environment variable. Put one line in a dot and file with your key. Load it with Python DO10 and read it with OS .get10. Even better, set user keys to expire from 15 minutes to 30 days and use a separate service account for each environment. Save this and watch the full lesson in episode 31.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

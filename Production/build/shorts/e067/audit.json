@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 28.55,
+ "wps": 2.63,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 4.33,
+ "max_gap": 0.0,
+ "asr_text": "You can create an 11 labs voice agent with one python call. Start with the client using your key from an environment variable. Call agents create with a name and a test tag. The config sets the voice ID and the TTS model. And the agent section holds the first message and system prompt. You get back the agent ID, save it for tools and tests. Save this and watch the full lesson in episode 33.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

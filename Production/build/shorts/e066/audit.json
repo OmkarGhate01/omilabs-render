@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 29.58,
+ "wps": 2.6,
+ "asr_match": 1.0,
+ "beats": 7,
+ "longest_beat": 5.43,
+ "max_gap": 0.0,
+ "asr_text": "Six steps to a complete 11 labs voice agent, here's the plan. Create the agent, write a first message and prompt, add a knowledge base. Connect a webhook tool, put it on a Twilio number, then test. Tell the prompt exactly when to use each tool. Add an evaluation criterion and a data item, so every call gets graded. Then monitor your first few calls in calls history. Save this and watch the full lesson in episode 33.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

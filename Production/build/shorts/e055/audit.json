@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 40.41,
+ "wps": 1.91,
+ "asr_match": 0.999,
+ "beats": 7,
+ "longest_beat": 6.87,
+ "max_gap": 0.0,
+ "asr_text": "Securing a SIP trunk, allow list IPS or use a password, digest authentication uses a username and password, the docs strongly recommend it. ACL uses IP allow listing, which gets complex with dynamic IP addresses. 11 labs serve SIP from many servers, so requests can come from different IPS. Leave out bound authentication empty, and ACL is used instead. For production, digest auth, TLS and required media encryption, the safe setup. Save this and watch the full lesson in episode 27.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

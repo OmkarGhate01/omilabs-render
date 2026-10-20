@@ -1,0 +1,19 @@
+{
+ "words": 77,
+ "seconds": 31.97,
+ "wps": 2.41,
+ "asr_match": 0.991,
+ "beats": 7,
+ "longest_beat": 4.87,
+ "max_gap": 0.0,
+ "asr_text": "Your Twilio number can't answer your agent's calls. Here's why. A number purchased through Twilio handles inbound and outbound calls. A verified caller ID makes outbound calls, but never receives them. So it shows as disabled when you assign agents for inbound calls. The docs call it ideal for outbound a I calls from your business number. And you don't pick the type, 11 labs to text it during import. Save this and watch the full lesson in episode 26.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
