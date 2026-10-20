@@ -1,0 +1,18 @@
+{
+ "title": "Instant Voice Cloning in ElevenLabs: Clone a Voice in Minutes",
+ "desc": "ElevenLabs tutorial: Instant Voice Cloning in ElevenLabs: Clone a Voice in Minutes.\n\nInstant Voice Cloning creates a voice clone from about one to two minutes of audio, without training a custom model. This episode compares it with Professional Voice Cloning, walks through the documented steps to create a clone, explains how much audio to use, why the AI copies everything it hears, a recording checklist, room and gear advice, file formats, and the limits to know.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:22 IVC vs PVC\n01:16 Create a clone\n01:39 How much audio\n02:10 It copies everything\n02:45 Recording checklist\n03:20 Room and gear\n04:04 File format\n04:42 Limits\n05:32 Consent\n05:57 Recap\n\nOFFICIAL DOCS USED\n- Voice Cloning: https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning\n- Instant Voice Cloning: https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning/instant-voice-cloning\n\nNext episode: Ep 11, Professional Voice Cloning\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "instant voice cloning",
+  "voice cloning",
+  "ai voice clone",
+  "clone your voice",
+  "elevenlabs tutorial",
+  "voiceover recording",
+  "ai voice",
+  "text to speech",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Have you tried cloning your voice yet? What was harder: the recording, or getting a consistent performance?"
+}
