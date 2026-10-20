@@ -1,0 +1,18 @@
+{
+ "title": "SIP Trunking: Connect ElevenLabs Agents to Your Phone System",
+ "desc": "Keep your existing phone system and still put an ElevenLabs voice agent on the line. This episode explains how SIP trunking works, the requirements, the SIP URI format and its most common mistake, every inbound and outbound setting in the import dialog, digest versus ACL authentication, how X- headers become dynamic variables, and the documented fixes for connection, audio and 481 errors.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 What it gives you\n00:58 How it works\n01:34 Requirements\n02:09 The SIP URI\n02:44 Common mistake\n03:12 Import the trunk\n03:40 Inbound settings\n04:27 Outbound settings\n05:19 Securing the trunk\n06:10 Headers as variables\n06:54 Troubleshooting\n07:46 Recap\n\nOFFICIAL DOCS USED\n- SIP trunking: https://elevenlabs.io/docs/eleven-agents/phone-numbers/sip-trunking\n\nNext episode: Ep 28, Agent Testing\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "sip trunking",
+  "sip trunk",
+  "pbx",
+  "voice agent",
+  "tls",
+  "srtp",
+  "elevenagents",
+  "telephony",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which SIP provider or PBX are you connecting? Tell us, and which setting gave you trouble."
+}
