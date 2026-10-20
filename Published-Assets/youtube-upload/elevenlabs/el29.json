@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Conversation Analysis: Success Evaluation + Data",
+ "desc": "Every ElevenLabs agent conversation can be graded and mined automatically. This episode explains the four analysis capabilities, how success evaluation criteria return success, failure or unknown with a rationale, how to write good criteria, the four data collection types, the per-agent limits, example extraction prompts, and where the results go: call history, post-call webhooks, analytics and Spotlight.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 Four capabilities\n01:01 How evaluation works\n01:26 Add a criterion\n01:54 Example criteria\n02:33 Unknown results\n03:00 Four data types\n03:29 Add a data item\n04:10 Example extractions\n04:52 A worked example\n05:31 Where results go\n06:08 Performance\n06:33 Recap\n\nOFFICIAL DOCS USED\n- Conversation analysis: https://elevenlabs.io/docs/eleven-agents/customization/agent-analysis\n- Success evaluation: https://elevenlabs.io/docs/eleven-agents/customization/agent-analysis/success-evaluation\n- Data collection: https://elevenlabs.io/docs/eleven-agents/customization/agent-analysis/data-collection\n- Quickstart: https://elevenlabs.io/docs/eleven-agents/quickstart\n\nNext episode: Ep 30, Agent Cost and Limits\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "conversation analysis",
+  "success evaluation",
+  "data collection",
+  "call analytics",
+  "voice agent qa",
+  "elevenagents",
+  "post-call webhook",
+  "conversational ai",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "If your agent could fill in one field after every call, what would it be? Name it, and its data type."
+}
