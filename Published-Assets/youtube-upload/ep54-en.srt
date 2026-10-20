@@ -1,0 +1,242 @@
+1
+00:00:00,450 --> 00:00:07,680
+Bolna open source. Can you run a voice AI
+agent on your own servers, without the hosted dashboard?
+
+2
+00:00:07,810 --> 00:00:14,322
+There is a public repository on GitHub,
+under the MIT license, that holds the engine.
+
+3
+00:00:14,452 --> 00:00:19,202
+You plug in your own provider keys, and run the orchestration yourself.
+
+4
+00:00:19,332 --> 00:00:25,631
+This episode explains what the repo is, what
+it is not, and when self hosting makes sense.
+
+5
+00:00:29,881 --> 00:00:45,972
+The README calls Bolna an end-to-end, open source, production ready framework for building LLM
+based voice conversations. The repository contains the entire orchestration platform, and it is MIT licensed.
+
+6
+00:00:46,102 --> 00:00:57,228
+You describe an agent through JSON, and Bolna orchestrates the conversation. Pull
+requests are welcome, and the project says it is actively looking for maintainers.
+
+7
+00:00:57,878 --> 00:01:02,030
+The README lists three components, and only one of them is open.
+
+8
+00:01:02,160 --> 00:01:08,978
+The open repository is the orchestration platform. The
+hosted APIs are built on top of it.
+
+9
+00:01:09,108 --> 00:01:14,539
+The repo is MIT licensed. The hosted APIs are currently closed source.
+
+10
+00:01:14,669 --> 00:01:26,981
+And the no-code playground, at platform dot bolna dot ai, uses those hosted APIs.
+It is closed source too. So self hosting gives you the engine, not the dashboard.
+
+11
+00:01:27,631 --> 00:01:30,650
+The README describes a clear development order.
+
+12
+00:01:30,780 --> 00:01:41,183
+Any integration, enhancement, or feature first lands in this open source
+package, because it forms the backbone of the hosted APIs and dashboard.
+
+13
+00:01:41,313 --> 00:01:46,244
+After that, Bolna exposes new APIs, or changes existing ones.
+
+14
+00:01:46,374 --> 00:01:49,046
+And third, it reaches the UI dashboard.
+
+15
+00:01:49,176 --> 00:01:52,034
+So the repo is where the engine itself lives.
+
+16
+00:01:52,684 --> 00:02:03,802
+Under the hood, the repo orchestrates voice conversations by
+combining ASR, LLM, and TTS providers and models, over websockets.
+
+17
+00:02:03,932 --> 00:02:10,036
+A telephony provider, like Twilio or Plivo, streams the call audio over a websocket.
+
+18
+00:02:10,166 --> 00:02:15,480
+A transcriber turns speech into text. Deepgram is the documented example.
+
+19
+00:02:15,610 --> 00:02:22,860
+An LLM agent writes the reply. The examples use OpenAI's gpt-4o-mini.
+
+20
+00:02:22,990 --> 00:02:30,834
+And a synthesizer turns the reply back into audio,
+ElevenLabs in the examples, to stream back over telephony.
+
+21
+00:02:30,964 --> 00:02:38,894
+The README's own example calls it a
+single coherent pipeline: transcriber, then LLM, then synthesizer.
+
+22
+00:02:39,544 --> 00:02:41,990
+Here is the provider list from the README.
+
+23
+00:02:42,120 --> 00:02:47,417
+Telephony: Twilio and Plivo. Exotel and Vonage are marked coming soon.
+
+24
+00:02:47,547 --> 00:02:56,636
+Transcription: Deepgram and Azure, plus a self-hosted option,
+a server speaking the OpenAI Realtime transcription protocol.
+
+25
+00:02:56,766 --> 00:03:09,565
+LLMs go through the LiteLLM package, so OpenAI, DeepSeek, Llama,
+Cohere, Mistral, and more. LLMs hosted with VLLM are supported too.
+
+26
+00:03:09,695 --> 00:03:23,433
+And voices: AWS Polly, ElevenLabs, Deepgram, OpenAI, Azure, Cartesia, Smallest, Maya, and Kalpa.
+For a deep dive on every provider, the README points to the hosted docs.
+
+27
+00:03:24,083 --> 00:03:28,927
+Self hosting means you bring your own provider keys, in a .env file.
+
+28
+00:03:29,057 --> 00:03:35,031
+Deepgram reads its auth token. ElevenLabs and OpenAI read their API keys.
+
+29
+00:03:35,161 --> 00:03:46,630
+LiteLLM based models take an API key, and an API base URL
+for a hosted LLM. Azure style models also take an API version.
+
+30
+00:03:46,760 --> 00:03:50,123
+A VLLM server needs its base URL.
+
+31
+00:03:50,253 --> 00:04:00,092
+Twilio needs the account SID, the auth token, and your Twilio phone
+number. Plivo has the same three: auth ID, auth token, phone number.
+
+32
+00:04:00,222 --> 00:04:15,063
+And AWS Polly uses your system wide AWS credentials. Because every key is yours, provider usage
+is billed by each provider, on your own accounts. Check their pricing pages before you scale.
+
+33
+00:04:15,713 --> 00:04:17,912
+So when does self hosting make sense?
+
+34
+00:04:18,042 --> 00:04:26,031
+When you want the orchestration code itself, to read, change,
+and debug. The hosted UI is not part of the repo.
+
+35
+00:04:26,161 --> 00:04:29,641
+When you want every provider on your own accounts and keys.
+
+36
+00:04:29,771 --> 00:04:35,020
+When you need a provider that isn't there yet.
+You can add it yourself, as we'll see next.
+
+37
+00:04:35,150 --> 00:04:54,533
+Or when models run on your own infrastructure, like an LLM served with VLLM, or a self-hosted transcriber. If you'd rather
+not run servers at all, the hosted platform fits better, and the README invites you to contact Bolna about managed hosted offerings.
+
+38
+00:04:55,183 --> 00:05:00,850
+Extending is documented. To add a telephony provider, like Vonage or Telnyx:
+
+39
+00:05:00,980 --> 00:05:04,706
+First, make sure the provider supports bi-directional streaming.
+
+40
+00:05:04,836 --> 00:05:15,752
+Add an input handler, under input handlers, telephony providers, extending the
+telephony class. It defines how the provider's event packets are ingested.
+
+41
+00:05:15,882 --> 00:05:24,442
+Add an output handler. It converts audio from the synthesizer
+to a supported format, and streams it over the provider's websocket.
+
+42
+00:05:24,572 --> 00:05:32,583
+And write a dedicated server, like the Twilio API
+server in local setup, to initiate calls over websockets.
+
+43
+00:05:33,233 --> 00:05:50,796
+Voices follow the same idea. The synthesizer README says: four registrations, one synthesizer class, and
+one smoke run. Websocket providers subclass the stream synthesizer, and HTTP-only providers subclass the base synthesizer.
+
+44
+00:05:50,926 --> 00:06:00,968
+And if a provider's server speaks the OpenAI speech API, you
+skip the class, and point the OpenAI synthesizer at that server's URL.
+
+45
+00:06:01,618 --> 00:06:16,579
+One honest note before you build on it. The README says Bolna is actively looking for maintainers, and that
+maintenance has fluctuated, from a time crunch, not a lack of interest. Today it is maintained for the community.
+
+46
+00:06:16,709 --> 00:06:27,204
+It also says the local example setup will be moved to a different repository.
+So pin the version you build on, and check the README before you upgrade.
+
+47
+00:06:27,854 --> 00:06:28,952
+Quick recap.
+
+48
+00:06:29,082 --> 00:06:34,181
+The open repo is the orchestration engine, under the MIT license.
+
+49
+00:06:34,311 --> 00:06:38,536
+The hosted APIs and the no-code playground are closed source.
+
+50
+00:06:38,666 --> 00:06:45,113
+Telephony, transcriber, LLM, and synthesizer are orchestrated over websockets.
+
+51
+00:06:45,243 --> 00:06:48,818
+You bring your own provider keys, in a .env file.
+
+52
+00:06:48,948 --> 00:06:52,860
+And you can add telephony and TTS providers yourself.
+
+53
+00:06:52,990 --> 00:06:57,839
+Next: self-host it with Docker, and place calls through Twilio or Plivo.
+
+54
+00:06:57,969 --> 00:07:03,729
+This masterclass is created by Omkar Ghate. See you in episode fifty five.

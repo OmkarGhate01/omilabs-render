@@ -1,0 +1,47 @@
+EPISODE 54
+
+VIDEO FILE: Published-Assets/ep54-master.mp4
+THUMBNAIL: Thumbnails/ep54-thumbnail.png
+CAPTIONS: ep54-en.srt (English)
+
+TITLE
+Bolna Open Source Explained: Self-Hosted Voice AI Agents (MIT)
+
+DESCRIPTION
+Bolna open source is the orchestration engine behind Bolna's voice agents, released on GitHub under the MIT license. This episode is a documented walkthrough of the repo's README: what is open (the orchestration platform) and what is not (the hosted APIs and no-code playground), how a conversation flows from telephony through transcriber, LLM and synthesizer over websockets, every supported provider, the .env keys you bring yourself, how to add a telephony or TTS provider, and when self hosting actually makes sense.
+
+This episode is a documented walkthrough built from the official Bolna documentation (links below). It does not include a live product recording. Narration uses a synthetic text-to-speech voice; visuals are motion graphics built from the docs, not screen recordings of the Bolna dashboard.
+
+CHAPTERS
+00:00 Intro
+00:29 What it is
+00:57 Open vs hosted
+01:27 Where features land
+01:52 Architecture
+02:39 Providers
+03:23 Your keys
+04:15 When to self-host
+04:54 Add telephony
+05:32 New voices
+06:01 Honest status
+06:27 Recap
+
+OFFICIAL DOCS USED
+- Bolna open-source repository (README): https://github.com/bolna-ai/bolna
+
+Next episode: Ep 55, Self-Host With Docker
+Full playlist: Bolna AI Masterclass (Full Course)
+
+Created by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by Bolna. Features and pricing change, so check the official docs for current details.
+
+TAGS
+bolna ai, open source, self hosted, voice ai, github, mit license, voice agent, python, twilio, omilabs, omkar ghate
+
+PLAYLIST: Bolna AI Masterclass (Full Course)
+SCHEDULE: Wed 11 Nov 2026, 12:00 PM IST (Visibility: Schedule -> Public)
+Audience: No, it's not made for kids | Category: Education | Video language: English
+Altered or synthetic content: No (narration voice is disclosed in the description; nothing depicts real people or events)
+End screen: Next episode + Playlist | Cards: none
+
+PINNED COMMENT (post after publish)
+Would you self-host your voice agents, or stay on a hosted platform? What decides it for you?
