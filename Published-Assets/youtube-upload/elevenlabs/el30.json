@@ -1,0 +1,18 @@
+{
+ "title": "What Does an ElevenLabs Voice Agent Cost? Pricing and Limits",
+ "desc": "How is an ElevenLabs voice agent billed? This episode explains what the official docs say: creating an agent is free, how voice only, multimodal and text only calls are charged, the silence discount, why the billed duration follows the connection, where to see LLM costs, how burst pricing raises your concurrency and what it costs, and the documented ways to cut LLM spend. Rates change, so we point you to the official pricing page for current numbers.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:30 Three call types\n01:04 Silence discount\n01:25 What gets measured\n01:50 See LLM costs\n02:17 Going over quota\n02:37 Burst capacity\n03:14 Burst example\n03:49 Enable bursting\n04:13 Cut LLM costs\n05:02 Before you launch\n05:33 Recap\n\nOFFICIAL DOCS USED\n- How much does ElevenAgents cost?: https://elevenlabs.io/docs/help-center/product/eleven-agents/how-much-does-eleven-agents-cost\n- Burst pricing: https://elevenlabs.io/docs/eleven-agents/guides/burst-pricing\n- Optimizing LLM costs: https://elevenlabs.io/docs/eleven-agents/customization/llm/optimizing-costs\n\nNext episode: Ep 31, API Quickstart in Python\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs pricing",
+  "elevenagents pricing",
+  "voice agent cost",
+  "burst pricing",
+  "llm cost",
+  "concurrency",
+  "ai call cost",
+  "conversational ai",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What surprised you most about how agent calls are billed? And which cost lever will you try first?"
+}
