@@ -1,0 +1,18 @@
+{
+ "title": "ElevenLabs Agent Workflows: Build Multi-Step Voice Agents",
+ "desc": "ElevenLabs tutorial: ElevenLabs Agent Workflows: Build Multi-Step Voice Agents.\n\nAgent Workflows turn one long prompt into a visual graph of steps. This episode explains every node type in ElevenAgents workflows: subagents, say nodes, dispatch tool nodes, update state, agent transfer, transfer to number and end nodes. It covers forward and backward edges, LLM conditions vs expressions, a worked support-flow example, the workflow JSON for version control, and how workflow analytics shows where callers drop off.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:24 Why workflows\n00:52 Node types\n01:30 Subagent nodes\n02:16 Say nodes\n02:50 Tool nodes\n03:18 Edges\n04:01 Worked example\n04:41 As JSON\n05:25 Pair with eagerness\n05:44 Measure it\n06:14 Recap\n\nOFFICIAL DOCS USED\n- Workflows: https://elevenlabs.io/docs/eleven-agents/customization/agent-workflows\n- Conversation flow: https://elevenlabs.io/docs/eleven-agents/customization/conversation-flow\n\nNext episode: Ep 24, The Website Widget\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenagents",
+  "agent workflows",
+  "subagent",
+  "conversation design",
+  "voice agent flow",
+  "multi agent",
+  "conversational ai",
+  "ai agent tutorial",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "What are the steps of your call? Greet, verify, solve, close? List yours, and we will suggest the node types."
+}
