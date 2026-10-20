@@ -1,0 +1,18 @@
+{
+ "title": "The ElevenLabs Voice Library: Find, Save and Use Voices",
+ "desc": "The ElevenLabs Voice Library holds over 10,000 community voices. This episode covers the three voice types, how to search by name, voice ID or an audio clip, the sort options and filters, the difference between Use voice and saving to My Voices, how notice periods protect your access, the icons in My Voices, and the fine print: credit multipliers, free plan limits and Live Moderation.\n\nThis episode is a documented walkthrough built from the official ElevenLabs documentation (links below). It does not include a live product recording.\n\nCHAPTERS\n00:00 Intro\n00:27 Voice types\n01:05 Open and search\n01:36 Search by audio\n01:55 Sort and filter\n02:27 Language tags\n02:53 Use or save\n03:29 Notice period\n04:19 My Voices icons\n04:51 More actions\n05:29 Fine print\n06:23 Recap\n\nOFFICIAL DOCS USED\n- Voice Library: https://elevenlabs.io/docs/eleven-creative/voices/voice-library\n- Voices: https://elevenlabs.io/docs/overview/capabilities/voices\n- What are custom rates and credit multipliers?: https://elevenlabs.io/docs/help-center/product/voices/voice-library/what-are-custom-rates-and-credit-multipliers\n\nNext episode: Ep 10, Instant Voice Cloning\nFull playlist: ElevenLabs Masterclass: How to Create AI Agents and Voices\n\nCreated by Omkar Ghate (Omilabs). Independent educational content; not affiliated with or endorsed by ElevenLabs. Narration uses a synthetic (AI) voice.\n\nMY ELEVENLABS VOICE (use it in your projects): https://elevenlabs.io/app/voice-lab/share/0ca97729faff22ee3841f4eb985cd7e58e4a7687ba6d4afde460babdf249999d/8WqHCYyrnUqoK70Px5EJ\nTry ElevenLabs (affiliate link: I may earn a commission at no extra cost to you): https://try.elevenlabs.io/c9bnghlu9434\n\nFeatures and pricing change, so check the official docs for current details.",
+ "tags": [
+  "elevenlabs",
+  "elevenlabs voice library",
+  "ai voices",
+  "my voices",
+  "notice period",
+  "voice id",
+  "text to speech voices",
+  "ai voice search",
+  "ai voiceover",
+  "omilabs",
+  "omkar ghate"
+ ],
+ "pinned": "Which filter do you reach for first when picking a voice: language, category, or notice period? Tell us what you are voicing."
+}
