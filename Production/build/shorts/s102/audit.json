@@ -1,0 +1,19 @@
+{
+ "words": 58,
+ "seconds": 25.29,
+ "wps": 2.29,
+ "asr_match": 0.976,
+ "beats": 6,
+ "longest_beat": 5.19,
+ "max_gap": 0.0,
+ "asr_text": "Self -hosting ball in the open source, here's who actually bills you. You bring your own provider keys in a dot and file. So usage is billed by each provider on your own accounts. AWS Poly uses your system -wide AWS credentials. Check each provider's pricing page before you scale. Save this and watch the full lesson in episode 54.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -15.0,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

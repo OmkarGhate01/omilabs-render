@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 28.82,
+ "wps": 2.15,
+ "asr_match": 0.981,
+ "beats": 7,
+ "longest_beat": 4.94,
+ "max_gap": 0.0,
+ "asr_text": "Ball in the open source has no dashboard, so build your agent in Python. A transcriber, deepgram model Nova 2 streaming. An LLM agent, open AI's GPT -4 Omini. A synthesizer, 11 labs voice George. Add task wires them into one pipeline, then stream the results. Set three keys and run simple assistant .py. Save this and watch the full lesson in Episode 56.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

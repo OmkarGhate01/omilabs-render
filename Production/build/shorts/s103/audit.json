@@ -1,0 +1,19 @@
+{
+ "words": 61,
+ "seconds": 26.21,
+ "wps": 2.33,
+ "asr_match": 0.976,
+ "beats": 6,
+ "longest_beat": 5.37,
+ "max_gap": 0.0,
+ "asr_text": "Ball in the open source in Docker, but no call goes out. Start Dot SH stops early without the Docker compose V2CLI. Your end -brok config needs your real auth token, not the placeholder. Running only the Plevo app, then there's no Twilio server. Still stuck, Docker compose logs shows the failing container. Save this and watch the full lesson in episode 55.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

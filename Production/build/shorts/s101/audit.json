@@ -1,0 +1,19 @@
+{
+ "words": 59,
+ "seconds": 27.64,
+ "wps": 2.13,
+ "asr_match": 0.986,
+ "beats": 6,
+ "longest_beat": 5.21,
+ "max_gap": 0.0,
+ "asr_text": "Ball in the open source has no dashboard, here's why. The open repo is the orchestration platform, MIT licensed. The hosted APIs are built on it and currently closed source. The no code playground uses those hosted APIs, also closed. New features land in open source first, then APIs, then UI. Save this and watch the full lesson in episode 54.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 70,
+ "seconds": 29.83,
+ "wps": 2.35,
+ "asr_match": 0.983,
+ "beats": 7,
+ "longest_beat": 5.48,
+ "max_gap": 0.0,
+ "asr_text": "Managing ball in the open source agents without a UI, five and points. Post slash agent creates one, and returns its agent ID. Get reads it back, put updates it with the same body. Delete removes it, and returns the state deleted. And get slash all lists every agent with its config. The body is one JSON document. Config, tool chain, tools, and prompts. Save this and watch the full lesson in Episode 56.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

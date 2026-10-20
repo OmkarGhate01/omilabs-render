@@ -1,0 +1,19 @@
+{
+ "words": 68,
+ "seconds": 33.12,
+ "wps": 2.05,
+ "asr_match": 0.961,
+ "beats": 7,
+ "longest_beat": 6.43,
+ "max_gap": 0.0,
+ "asr_text": "Self -hosted ball in the open source is four containers. Here they are. A telephony server. Twilio app on 8001 or Plevo app on 8002. The ball in the server on 5001 creates and handles your agents. Readies on 6379 persist agents and prompt data. In In Groc Tunnels all three apps, then one script start .sh builds and starts everything. Save this and watch the full lesson in episode 55.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
