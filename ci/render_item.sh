@@ -83,5 +83,20 @@ case "$ITEM" in
       [ -f "$D/Published-Assets/shorts/$id.mp4" ] && push_media "$D/Published-Assets/shorts/$id.mp4" "$PFX$id.mp4"
     done
     push_pkg "$ITEM" ;;
+  ns-b*)
+    b=$((10#${ITEM#ns-b})); B=$(printf %02d $b)
+    NAMES=(muse el_v4 claude_motion kling)
+    BNAME="${NAMES[$((b-1))]}"
+    D=$BO; cd $D/Production
+    python3 shorts_build.py --batch "shorts/batch_${BNAME}.py" 2>/dev/null || true
+    ids=$(python3 -c "import runpy; print(' '.join(s['id'] for s in runpy.run_path('shorts/batch_${BNAME}.py')['SHORTS']))")
+    for id in $ids; do
+      python3 shorts_pipeline.py render $id || { echo "render failed $id"; continue; }
+      a=build/shorts/$id/audit.json; [ -f "$a" ] || continue
+      approve_auto "$a"
+      mkdir -p "$PKG/Production/build/shorts/$id"; cp "$a" "$PKG/Production/build/shorts/$id/"
+      [ -f "$D/Published-Assets/shorts/$id.mp4" ] && push_media "$D/Published-Assets/shorts/$id.mp4" "$id.mp4"
+    done
+    push_pkg "$ITEM" ;;
   *) echo "unknown item $ITEM"; exit 1 ;;
 esac
