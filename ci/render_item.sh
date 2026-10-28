@@ -84,7 +84,7 @@ case "$ITEM" in
     done
     push_pkg "$ITEM" ;;
   ns-b*)
-    b=$((10#${ITEM#ns-b})); B=$(printf %02d $b)
+    NUM="${ITEM#ns-b}"; NUM="${NUM%r}"; b=$((10#$NUM)); B=$(printf %02d $b)
     NAMES=(muse el_v4 claude_motion kling)
     BNAME="${NAMES[$((b-1))]}"
     D=$BO; cd $D/Production
