@@ -8,10 +8,10 @@ SHORTS = [
          tags=["kling 4.0", "kling ai", "kling ai video", "best ai video generator", "kling tutorial", "ai video 2026"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling 4.0:", "Best AI video", "generator 2026?"]), say="Kling 4.0 — kya ye 2026 ka best AI video generator hai?"),
-             dict(k="what is it", v="card", d=dict(icon="film", title="Kling 4.0", rows=[["By", "Kuaishou (China)"], ["Type", "AI video generator"], ["Quality", "photorealistic"]]), say="Kling 4.0 Kuaishou ka AI video generator hai — photorealistic quality ke liye famous."),
-             dict(k="key features", v="list", d=dict(items=["Text to video — sirf prompt se", "Image to video — photo animate karo", "5 second to 10 second clips"]), say="Text se video, image se video, aur 5 se 10 second clips — ye hain main features."),
-             dict(k="vs others", v="versus", d=dict(bad="Sora: sirf text input, expensive", good="Kling 4.0: text + image input, free credits"), say="Sora sirf text leta hai. Kling 4.0 image bhi leta hai — aur free credits bhi milte hain."),
-             dict(k="use case", v="card", d=dict(icon="video", title="Best For", rows=[["Creators", "product videos"], ["Marketing", "ad creatives"], ["AI art", "animate your art"]]), say="Product videos, marketing ads, ya apni AI art ko animate karna — sab ke liye perfect."),
+             dict(k="what is it", v="card", d=dict(icon="play", title="Kling 4.0", rows=[["By", "Kuaishou (China)"], ["Type", "AI video generator"], ["Quality", "photorealistic"]]), say="Kling 4.0 Kuaishou ka AI video generator hai — photorealistic quality ke liye."),
+             dict(k="key features", v="list", d=dict(items=["Text to video — sirf prompt se", "Image to video — photo animate karo", "5 second to 10 second clips"]), say="Text se video, image se video, aur 5 se 10 second clips —."),
+             dict(k="vs others", v="versus", d=dict(bad="Sora: sirf text input, expensive", good="Kling 4.0: text + image input, free credits"), say="Sora sirf text leta hai. Kling 4.0 image bhi leta hai — aur."),
+             dict(k="use case", v="card", d=dict(icon="play", title="Best For", rows=[["Creators", "product videos"], ["Marketing", "ad creatives"], ["AI art", "animate your art"]]), say="Product videos, marketing ads, ya apni AI art ko animate karna — sab."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -20,11 +20,11 @@ SHORTS = [
          topic="kling 4.0 free account setup and first video tutorial",
          tags=["kling 4.0", "kling free", "kling account", "kling ai tutorial", "kling ai free", "ai video free"],
          beats=[
-             dict(v="hook", d=dict(lines=["Kling 4.0", "free account", "kaise banao?"]), say="Kling 4.0 pe free account banana aur pehla video banana — step by step."),
+             dict(v="hook", d=dict(lines=["Kling 4.0", "free account", "kaise banao?"]), say="Kling 4.0 pe free account banana aur pehla video banana — step by."),
              dict(k="step 1", v="orb", d=dict(label="klingai.com pe jao"), say="Klingai.com kholо aur Sign Up click karo."),
-             dict(k="signup", v="card", d=dict(icon="mail", title="Sign Up", rows=[["Email", "ya Google se"], ["Verify", "OTP karo"], ["Free credits", "automatically milte hain"]]), say="Email ya Google se signup karo, OTP verify karo — free credits automatically milte hain."),
-             dict(k="free credits", v="stat", d=dict(value=66, label="free credits on signup", ring=0.75), say="Signup pe 66 free credits milte hain — kaafi hai kai videos ke liye."),
-             dict(k="tip", v="versus", d=dict(bad="Standard mode: 10 credits per video", good="Fast mode: 8 credits — cheaper aur faster"), say="Fast mode use karo — 8 credits per video, standard se sasta aur faster."),
+             dict(k="signup", v="card", d=dict(icon="mail", title="Sign Up", rows=[["Email", "ya Google se"], ["Verify", "OTP karo"], ["Free credits", "automatically milte hain"]]), say="Email ya Google se signup karo, OTP verify karo — free credits automatically."),
+             dict(k="free credits", v="stat", d=dict(value=66, label="free credits on signup", ring=0.75), say="Signup pe 66 free credits milte hain — kaafi hai kai videos ke."),
+             dict(k="tip", v="versus", d=dict(bad="Standard mode: 10 credits per video", good="Fast mode: 8 credits — cheaper aur faster"), say="Fast mode use karo — 8 credits per video, standard se sasta aur."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -35,8 +35,8 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Photo ko", "video bana do", "Kling se."]), say="Koi bhi photo Kling 4.0 se video mein convert kar sakte ho."),
              dict(k="step 1", v="orb", d=dict(label="Image to Video select karo"), say="Kling mein Image to Video option select karo."),
-             dict(k="step 2", v="card", d=dict(icon="image", title="Image Upload", rows=[["Upload", "apni photo daalo"], ["Supported", "JPG, PNG"], ["Size", "under 10MB"]]), say="Apni photo upload karo — JPG ya PNG, 10MB se kam."),
-             dict(k="step 3", v="card", d=dict(icon="edit", title="Motion Prompt", rows=[["Describe", "kya move karna chahiye"], ["Style", "'cinematic slow motion'"], ["Duration", "5 ya 10 seconds"]]), say="Motion prompt likho — kya move karna chahiye, cinematic slow motion ya kuch aur."),
+             dict(k="step 2", v="card", d=dict(icon="layers", title="Image Upload", rows=[["Upload", "apni photo daalo"], ["Supported", "JPG, PNG"], ["Size", "under 10MB"]]), say="Apni photo upload karo — JPG ya PNG, 10MB se kam."),
+             dict(k="step 3", v="card", d=dict(icon="doc", title="Motion Prompt", rows=[["Describe", "kya move karna chahiye"], ["Style", "'cinematic slow motion'"], ["Duration", "5 ya 10 seconds"]]), say="Motion prompt likho — kya move karna chahiye, cinematic slow motion ya kuch."),
              dict(k="result", v="stat", d=dict(value="10s", label="photorealistic animated clip ready", ring=0.85), say="Aur 10 seconds mein photorealistic animated clip ready — bilkul stunning."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -47,10 +47,10 @@ SHORTS = [
          tags=["kling 4.0", "kling free credits", "kling credits", "kling ai free", "ai video free credits", "kling tricks"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling credits", "khatam?", "3 tricks hai."], hot=1), say="Kling 4.0 ke credits khatam ho gaye? Teen kaam karo."),
-             dict(k="trick 1", v="card", d=dict(icon="gift", title="Daily Login", rows=[["Roz login karo", "+10 credits daily"], ["Automatically", "credited"]]), say="Ek: roz Kling pe login karo — 10 daily credits automatic milte hain."),
-             dict(k="trick 2", v="card", d=dict(icon="share", title="Share Videos", rows=[["Video share karo", "social pe"], ["Engagement", "bonus credits milte hain"], ["Community", "active raho"]]), say="Do: apne Kling videos share karo social media pe — engagement se bonus credits milte hain."),
-             dict(k="trick 3", v="card", d=dict(icon="star", title="Fast Mode", rows=[["Use karo", "Fast generation"], ["Cost", "8 credits vs 10"], ["Save", "20% credits bach jate hain"]]), say="Teen: Fast mode use karo — standard se 20% kam credits lagte hain."),
-             dict(k="total savings", v="stat", d=dict(value="20%", label="credits bach jate hain fast mode se", ring=0.7), say="Fast mode se 20% credits bach jate hain — zyada videos ban jaate hain."),
+             dict(k="trick 1", v="card", d=dict(icon="coin", title="Daily Login", rows=[["Roz login karo", "+10 credits daily"], ["Automatically", "credited"]]), say="Ek: roz Kling pe login karo — 10 daily credits automatic milte hain."),
+             dict(k="trick 2", v="card", d=dict(icon="link", title="Share Videos", rows=[["Video share karo", "social pe"], ["Engagement", "bonus credits milte hain"], ["Community", "active raho"]]), say="Do: apne Kling videos share karo social media pe — engagement se bonus."),
+             dict(k="trick 3", v="card", d=dict(icon="spark", title="Fast Mode", rows=[["Use karo", "Fast generation"], ["Cost", "8 credits vs 10"], ["Save", "20% credits bach jate hain"]]), say="Teen: Fast mode use karo — standard se 20% kam credits lagte hain."),
+             dict(k="total savings", v="stat", d=dict(value="20%", label="credits bach jate hain fast mode se", ring=0.7), say="Fast mode se 20% credits bach jate hain — zyada videos ban jaate."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -60,8 +60,8 @@ SHORTS = [
          tags=["kling 4.0", "kling text to video", "kling prompts", "ai video prompts", "kling ai tutorial", "best ai prompts"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling 4.0", "perfect prompt", "kaise likho?"]), say="Kling 4.0 mein perfect prompt likhna seekho — stunning videos banao."),
-             dict(k="structure", v="card", d=dict(icon="edit", title="Prompt Structure", rows=[["Subject", "kya hai scene mein"], ["Action", "kya ho raha hai"], ["Style", "cinematic, realistic etc"], ["Lighting", "golden hour, studio etc"]]), say="Prompt structure: subject, action, style aur lighting — ye chaar cheezein zaroor daalo."),
-             dict(k="example 1", v="card", d=dict(icon="star", title="Good Prompt", rows=[["Prompt", "'Woman walking in rain, slow motion, cinematic, bokeh lights, golden hour'"], ["Result", "stunning 10s clip"]]), say="Example: 'Woman walking in rain, slow motion, cinematic, bokeh lights, golden hour.' Stunning clip milegi."),
+             dict(k="structure", v="card", d=dict(icon="doc", title="Prompt Structure", rows=[["Subject", "kya hai scene mein"], ["Action", "kya ho raha hai"], ["Style", "cinematic, realistic etc"], ["Lighting", "golden hour, studio etc"]]), say="Prompt structure: subject, action, style aur lighting — ye chaar cheezein zaroor daalo."),
+             dict(k="example 1", v="card", d=dict(icon="spark", title="Good Prompt", rows=[["Prompt", "'Woman walking in rain, slow motion, cinematic, bokeh lights, golden hour'"], ["Result", "stunning 10s clip"]]), say="Example: 'Woman walking in rain, slow motion, cinematic, bokeh lights, golden hour.' Stunning."),
              dict(k="avoid", v="versus", d=dict(bad="'Make a video of rain' — too vague", good="Describe every detail — subject + action + style + lighting"), say="Vague mat raho. Har cheez describe karo — subject, action, style, lighting."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -72,10 +72,10 @@ SHORTS = [
          tags=["kling 4.0", "kling vs sora", "ai video comparison", "best ai video tool", "sora alternative", "kling ai 2026"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling 4.0", "vs Sora —", "konsa jeetega?"], hot=1), say="Kling 4.0 aur Sora — creators ke liye kya better hai? Honest comparison."),
-             dict(k="quality", v="card", d=dict(icon="film", title="Video Quality", rows=[["Kling 4.0", "photorealistic, image input"], ["Sora", "cinematic, text only"], ["Winner", "depends on use case"]]), say="Quality mein dono strong hain — Kling photorealistic, Sora cinematic."),
+             dict(k="quality", v="card", d=dict(icon="play", title="Video Quality", rows=[["Kling 4.0", "photorealistic, image input"], ["Sora", "cinematic, text only"], ["Winner", "depends on use case"]]), say="Quality mein dono strong hain — Kling photorealistic, Sora cinematic."),
              dict(k="access", v="card", d=dict(icon="key", title="Access & Pricing", rows=[["Kling 4.0", "free credits, klingai.com"], ["Sora", "ChatGPT Pro — $200/month"], ["Winner", "Kling for budget creators"]]), say="Pricing mein Kling clearly jeetta hai — free credits vs Sora ka $200/month."),
-             dict(k="image input", v="versus", d=dict(bad="Sora: sirf text input — no image to video", good="Kling: text aur image both — much more flexible"), say="Image to video feature sirf Kling mein hai — Sora mein nahi. Kling more flexible."),
-             dict(k="verdict", v="card", d=dict(icon="check", title="Verdict", rows=[["Budget creators", "Kling 4.0"], ["Cinematic films", "Sora"], ["Image animation", "Kling 4.0"]], hl=0), say="Budget creators aur image animation ke liye Kling. Cinematic film feel ke liye Sora."),
+             dict(k="image input", v="versus", d=dict(bad="Sora: sirf text input — no image to video", good="Kling: text aur image both — much more flexible"), say="Image to video feature sirf Kling mein hai — Sora mein nahi. Kling."),
+             dict(k="verdict", v="card", d=dict(icon="check", title="Verdict", rows=[["Budget creators", "Kling 4.0"], ["Cinematic films", "Sora"], ["Image animation", "Kling 4.0"]], hl=0), say="Budget creators aur image animation ke liye Kling. Cinematic film feel ke liye."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -85,9 +85,9 @@ SHORTS = [
          tags=["kling 4.0", "kling camera movement", "cinematic ai video", "kling cinematic", "ai camera shots", "kling tutorial advanced"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling 4.0 se", "cinematic shots", "banao."]), say="Kling 4.0 mein cinematic camera movements control karna seekho."),
-             dict(k="camera words", v="list", d=dict(items=["'Slow push in' — dramatic zoom", "'Pan left/right' — landscape shots", "'Dolly shot' — smooth tracking"]), say="Camera movement ke keywords: slow push in, pan left/right, dolly shot — ye words kaam karte hain."),
-             dict(k="techniques", v="card", d=dict(icon="film", title="Cinematic Techniques", rows=[["Aerial", "'bird's eye view, drone shot'"], ["Close up", "'extreme close up, macro lens'"], ["Wide", "'establishing wide shot'"]]), say="Aerial ke liye drone shot, close up ke liye macro lens, wide shot ke liye establishing shot."),
-             dict(k="tip", v="card", d=dict(icon="star", title="Pro Tip", rows=[["Combine", "camera + lighting + subject"], ["Example", "'slow push in, golden hour, subject looks at camera'"], ["Result", "professional grade"]]), say="Camera, lighting aur subject ko combine karo ek prompt mein — professional result milta hai."),
+             dict(k="camera words", v="list", d=dict(items=["'Slow push in' — dramatic zoom", "'Pan left/right' — landscape shots", "'Dolly shot' — smooth tracking"]), say="Camera movement ke keywords: slow push in, pan left/right, dolly shot — ye."),
+             dict(k="techniques", v="card", d=dict(icon="play", title="Cinematic Techniques", rows=[["Aerial", "'bird's eye view, drone shot'"], ["Close up", "'extreme close up, macro lens'"], ["Wide", "'establishing wide shot'"]]), say="Aerial ke liye drone shot, close up ke liye macro lens, wide shot."),
+             dict(k="tip", v="card", d=dict(icon="spark", title="Pro Tip", rows=[["Combine", "camera + lighting + subject"], ["Example", "'slow push in, golden hour, subject looks at camera'"], ["Result", "professional grade"]]), say="Camera, lighting aur subject ko combine karo ek prompt mein — professional result."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -97,8 +97,8 @@ SHORTS = [
          tags=["kling 4.0", "kling product video", "ai product video", "product marketing ai", "kling ai tutorial", "ai video marketing"],
          beats=[
              dict(v="hook", d=dict(lines=["Product videos", "Kling 4.0 se", "banao."]), say="Kling 4.0 se professional product videos banana ab sirf minutes ka kaam hai."),
-             dict(k="setup", v="card", d=dict(icon="image", title="Product Video Setup", rows=[["Image", "product ki clean photo lo"], ["Background", "white ya transparent best"], ["Angle", "multiple angles preferred"]]), say="Pehle product ki clean photo lo — white background, multiple angles best hain."),
-             dict(k="prompt formula", v="card", d=dict(icon="edit", title="Product Prompt", rows=[["Template", "'[Product] on [surface], [movement], [lighting], commercial style'"], ["Example", "'Perfume bottle on marble, rotating slowly, soft studio lighting, luxury commercial'"]]), say="Template: product, surface, movement, lighting, commercial style. Luxury commercial feel aata hai."),
+             dict(k="setup", v="card", d=dict(icon="layers", title="Product Video Setup", rows=[["Image", "product ki clean photo lo"], ["Background", "white ya transparent best"], ["Angle", "multiple angles preferred"]]), say="Pehle product ki clean photo lo — white background, multiple angles best hain."),
+             dict(k="prompt formula", v="card", d=dict(icon="doc", title="Product Prompt", rows=[["Template", "'[Product] on [surface], [movement], [lighting], commercial style'"], ["Example", "'Perfume bottle on marble, rotating slowly, soft studio lighting, luxury commercial'"]]), say="Template: product, surface, movement, lighting, commercial style. Luxury commercial feel aata hai."),
              dict(k="benefit", v="stat", d=dict(value="5x", label="faster than traditional product shoots", ring=0.9), say="Traditional product shoots se 5 guna fast — aur fraction of the cost."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -109,9 +109,9 @@ SHORTS = [
          tags=["kling 4.0", "kling extend video", "kling longer video", "ai video extension", "kling features", "kling tutorial"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling video", "aur lamba", "karna hai?"]), say="Kling 4.0 mein video extend karke aur lamba clip banana seekho."),
-             dict(k="extend feature", v="card", d=dict(icon="clock", title="Extend Feature", rows=[["What", "existing clip ko extend karo"], ["How much", "5 seconds aur add karo"], ["Max", "upto 3 minutes total"]]), say="Extend feature se existing clip ke baad 5 seconds aur add karo. Max 3 minutes tak ja sakte ho."),
-             dict(k="how to", v="flow", d=dict(nodes=["Video generate karo", "Extend click karo", "New prompt add karo", "Seamless clip ready"]), say="Generate karo, Extend click karo, new direction ka prompt add karo — seamless clip ready."),
-             dict(k="tip", v="versus", d=dict(bad="Naya video banao har baar — inconsistent style", good="Extend karo — consistent style, smooth transitions"), say="Naya video banate raho to style inconsistent hota hai. Extend karo — smooth aur consistent."),
+             dict(k="extend feature", v="card", d=dict(icon="clock", title="Extend Feature", rows=[["What", "existing clip ko extend karo"], ["How much", "5 seconds aur add karo"], ["Max", "upto 3 minutes total"]]), say="Extend feature se existing clip ke baad 5 seconds aur add karo. Max."),
+             dict(k="how to", v="flow", d=dict(nodes=["Video generate karo", "Extend click karo", "New prompt add karo", "Seamless clip ready"]), say="Generate karo, Extend click karo, new direction ka prompt add karo — seamless."),
+             dict(k="tip", v="versus", d=dict(bad="Naya video banao har baar — inconsistent style", good="Extend karo — consistent style, smooth transitions"), say="Naya video banate raho to style inconsistent hota hai. Extend karo — smooth."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -121,8 +121,8 @@ SHORTS = [
          tags=["kling 4.0", "kling tutorial", "kling ai 2026", "kling beginners", "kling free", "best ai video 2026"],
          beats=[
              dict(v="hook", d=dict(lines=["Kling 4.0 —", "poora guide", "30 seconds mein."], hot=1), say="Kling 4.0 ka complete guide sirf 30 seconds mein."),
-             dict(k="what is it", v="card", d=dict(icon="film", title="Kling 4.0 Kya Hai", rows=[["By", "Kuaishou"], ["Type", "AI video generator"], ["Access", "klingai.com, free credits"]]), say="Kling 4.0 Kuaishou ka AI video generator hai — klingai.com pe free credits se start karo."),
-             dict(k="best features", v="list", d=dict(items=["Text to video — prompt se", "Image to video — photo animate karo", "Camera movement control", "Video extend feature"]), say="Text to video, image to video, camera control aur video extend — ye hain best features."),
+             dict(k="what is it", v="card", d=dict(icon="play", title="Kling 4.0 Kya Hai", rows=[["By", "Kuaishou"], ["Type", "AI video generator"], ["Access", "klingai.com, free credits"]]), say="Kling 4.0 Kuaishou ka AI video generator hai — klingai.com pe free credits."),
+             dict(k="best features", v="list", d=dict(items=["Text to video — prompt se", "Image to video — photo animate karo", "Camera movement control", "Video extend feature"]), say="Text to video, image to video, camera control aur video extend — ye."),
              dict(k="free mein kya milta hai", v="card", d=dict(icon="wallet", title="Free Plan", rows=[["Credits", "66 on signup + 10 daily"], ["Quality", "standard generation"], ["Duration", "5-10 second clips"]]), say="Free mein 66 signup credits plus 10 daily, standard quality, 5-10 second clips."),
              dict(k="start karo", v="orb", d=dict(label="klingai.com pe jao — free signup"), say="Klingai.com pe jao, free signup karo aur pehla AI video banao."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),

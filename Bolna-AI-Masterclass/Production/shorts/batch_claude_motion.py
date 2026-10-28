@@ -8,9 +8,9 @@ SHORTS = [
          tags=["claude motion", "claude ai", "ai animation", "claude motion tutorial", "anthropic claude", "ai video 2026"],
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion:", "AI animation", "kya hai?"]), say="Claude Motion — Anthropic ka naya AI animation tool. Kya hai ye?"),
-             dict(k="what is it", v="card", d=dict(icon="video", title="Claude Motion", rows=[["Tool", "AI animation generator"], ["By", "Anthropic (Claude)"], ["Access", "claude.ai mein"]]), say="Claude Motion ek AI tool hai jo text prompt se animations aur motion graphics banata hai."),
+             dict(k="what is it", v="card", d=dict(icon="play", title="Claude Motion", rows=[["Tool", "AI animation generator"], ["By", "Anthropic (Claude)"], ["Access", "claude.ai mein"]]), say="Claude Motion ek AI tool hai jo text prompt se animations aur motion."),
              dict(k="how it works", v="card", d=dict(icon="cpu", title="Kaise Kaam Karta Hai", rows=[["Input", "text prompt likhо"], ["AI", "animation generate karta hai"], ["Output", "MP4 ya GIF"]]), say="Sirf text prompt likho — Claude Motion animation generate karta hai seconds mein."),
-             dict(k="vs others", v="versus", d=dict(bad="Sora, Kling: complex setup, paid", good="Claude Motion: claude.ai pe free, instant"), say="Sora aur Kling mein complex setup chahiye. Claude Motion sirf claude.ai pe — seedha."),
+             dict(k="vs others", v="versus", d=dict(bad="Sora, Kling: complex setup, paid", good="Claude Motion: claude.ai pe free, instant"), say="Sora aur Kling mein complex setup chahiye. Claude Motion sirf claude.ai pe —."),
              dict(k="use cases", v="list", d=dict(items=["Social media videos ke liye", "Product demos banao", "Explainer animations"]), say="Social videos, product demos, explainer animations — sab kuch Claude Motion se."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -23,7 +23,7 @@ SHORTS = [
              dict(v="hook", d=dict(lines=["Claude Motion:", "pehla animation", "5 min mein."]), say="Claude Motion pe pehla animation banana sirf 5 minute ka kaam hai."),
              dict(k="step 1", v="orb", d=dict(label="claude.ai kholо"), say="Pehle claude.ai kholо aur apne account mein login karo."),
              dict(k="step 2", v="card", d=dict(icon="cpu", title="Motion Select Karo", rows=[["Claude.ai", "menu kholо"], ["Select", "Motion option"], ["New", "project banao"]]), say="Menu mein Motion select karo aur new project banao."),
-             dict(k="step 3", v="card", d=dict(icon="edit", title="Prompt Likho", rows=[["Clear", "kya animate karna hai"], ["Style", "specify karo"], ["Duration", "seconds batao"]]), say="Clear prompt likho — kya animate karna hai, style kya ho, kitna lamba."),
+             dict(k="step 3", v="card", d=dict(icon="doc", title="Prompt Likho", rows=[["Clear", "kya animate karna hai"], ["Style", "specify karo"], ["Duration", "seconds batao"]]), say="Clear prompt likho — kya animate karna hai, style kya ho, kitna lamba."),
              dict(k="tip", v="versus", d=dict(bad="Vague: 'make animation'", good="Specific: 'logo reveal with blue particles, 5s'"), say="Vague prompts waste time. Specific prompts seedha kaam karte hain."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -34,9 +34,9 @@ SHORTS = [
          tags=["claude motion", "claude motion prompts", "ai animation prompts", "claude ai tips", "motion graphics ai", "ai video prompts"],
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "prompts jo", "kaam karte hain."], hot=1), say="Ye prompts Claude Motion mein actually kaam karte hain — copy karo seedha."),
-             dict(k="prompt 1", v="card", d=dict(icon="star", title="Logo Animation", rows=[["Prompt", "'Logo reveal with glow effect, dark bg, 3s'"], ["Result", "cinematic opener"]]), say="Logo ke liye: 'Logo reveal with glow effect, dark background, 3 seconds.' Clean result milta hai."),
+             dict(k="prompt 1", v="card", d=dict(icon="spark", title="Logo Animation", rows=[["Prompt", "'Logo reveal with glow effect, dark bg, 3s'"], ["Result", "cinematic opener"]]), say="Logo ke liye: 'Logo reveal with glow effect, dark background, 3 seconds.' Clean."),
              dict(k="prompt 2", v="card", d=dict(icon="chart", title="Data Visualization", rows=[["Prompt", "'Animated bar chart showing growth, 5s'"], ["Result", "clean motion chart"]]), say="Data ke liye: 'Animated bar chart showing growth, 5 seconds.' Perfect explainer."),
-             dict(k="prompt 3", v="card", d=dict(icon="text", title="Text Animation", rows=[["Prompt", "'Kinetic typography: bold word reveal, 4s'"], ["Result", "social media ready"]]), say="Text ke liye: 'Kinetic typography, bold word reveal, 4 seconds.' Social media perfect."),
+             dict(k="prompt 3", v="card", d=dict(icon="doc", title="Text Animation", rows=[["Prompt", "'Kinetic typography: bold word reveal, 4s'"], ["Result", "social media ready"]]), say="Text ke liye: 'Kinetic typography, bold word reveal, 4 seconds.' Social media perfect."),
              dict(k="formula", v="stat", d=dict(value="3x", label="better results with specific prompts", ring=0.8), say="Specific prompts se 3 guna better results aate hain compared to vague ones."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -47,9 +47,9 @@ SHORTS = [
          tags=["claude motion", "claude motion free", "claude ai free", "ai animation free", "anthropic free plan", "free motion graphics"],
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "free mein", "kya milta hai?"], hot=1), say="Claude Motion ka free plan — kya milta hai aur kya nahi?"),
-             dict(k="free includes", v="card", d=dict(icon="wallet", title="Free Plan", rows=[["Animations", "limited per day"], ["Quality", "standard output"], ["Formats", "MP4, GIF"]]), say="Free plan mein limited daily animations, standard quality aur MP4 ya GIF export milta hai."),
-             dict(k="pro benefits", v="card", d=dict(icon="star", title="Pro Plan", rows=[["Animations", "unlimited"], ["Quality", "HD output"], ["Priority", "faster generation"]]), say="Pro mein unlimited animations, HD quality aur priority generation milti hai."),
-             dict(k="tip", v="versus", d=dict(bad="Free: subah ke tokens seedha waste karo", good="Free: precise prompts se kam tokens mein zyada output"), say="Free plan mein precise prompts use karo — ek hi try mein perfect output milega."),
+             dict(k="free includes", v="card", d=dict(icon="wallet", title="Free Plan", rows=[["Animations", "limited per day"], ["Quality", "standard output"], ["Formats", "MP4, GIF"]]), say="Free plan mein limited daily animations, standard quality aur MP4 ya GIF export."),
+             dict(k="pro benefits", v="card", d=dict(icon="spark", title="Pro Plan", rows=[["Animations", "unlimited"], ["Quality", "HD output"], ["Priority", "faster generation"]]), say="Pro mein unlimited animations, HD quality aur priority generation milti hai."),
+             dict(k="tip", v="versus", d=dict(bad="Free: subah ke tokens seedha waste karo", good="Free: precise prompts se kam tokens mein zyada output"), say="Free plan mein precise prompts use karo — ek hi try mein perfect."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -60,9 +60,9 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "vs Sora vs Kling —", "konsa better?"]), say="Claude Motion, Sora aur Kling — creators ke liye konsa best hai?"),
              dict(k="claude motion", v="card", d=dict(icon="cpu", title="Claude Motion", rows=[["Ease", "easiest setup"], ["Access", "claude.ai pe seedha"], ["Price", "free tier available"]]), say="Claude Motion: easiest — claude.ai pe directly, free tier available."),
-             dict(k="sora", v="card", d=dict(icon="video", title="Sora (OpenAI)", rows=[["Quality", "cinematic"], ["Access", "ChatGPT Plus/Pro"], ["Price", "paid only"]]), say="Sora: cinematic quality, lekin ChatGPT Plus ya Pro chahiye — paid."),
-             dict(k="kling", v="card", d=dict(icon="film", title="Kling 4.0", rows=[["Quality", "high realism"], ["Access", "app download"], ["Price", "credits system"]]), say="Kling: high realism, lekin app download aur credits system."),
-             dict(k="verdict", v="card", d=dict(icon="check", title="Best For", rows=[["Quick work", "Claude Motion"], ["Cinematic", "Sora"], ["Realism", "Kling"]], hl=0), say="Quick work ke liye Claude Motion, cinematic ke liye Sora, realism ke liye Kling."),
+             dict(k="sora", v="card", d=dict(icon="play", title="Sora (OpenAI)", rows=[["Quality", "cinematic"], ["Access", "ChatGPT Plus/Pro"], ["Price", "paid only"]]), say="Sora: cinematic quality, lekin ChatGPT Plus ya Pro chahiye — paid."),
+             dict(k="kling", v="card", d=dict(icon="play", title="Kling 4.0", rows=[["Quality", "high realism"], ["Access", "app download"], ["Price", "credits system"]]), say="Kling: high realism, lekin app download aur credits system."),
+             dict(k="verdict", v="card", d=dict(icon="check", title="Best For", rows=[["Quick work", "Claude Motion"], ["Cinematic", "Sora"], ["Realism", "Kling"]], hl=0), say="Quick work ke liye Claude Motion, cinematic ke liye Sora, realism ke liye."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -72,9 +72,9 @@ SHORTS = [
          tags=["claude motion", "social media ai video", "ai instagram reels", "claude motion tutorial", "ai content creation", "social media automation"],
          beats=[
              dict(v="hook", d=dict(lines=["Social media videos", "Claude Motion se", "banao."]), say="Social media ke liye Claude Motion se videos banana ab bahut easy hai."),
-             dict(k="formats", v="card", d=dict(icon="mobile", title="Social Formats", rows=[["Reels/Shorts", "9:16 vertical"], ["Feed posts", "1:1 square"], ["Stories", "9:16 full screen"]]), say="Reels aur Shorts ke liye 9:16, feed ke liye 1:1 square — Claude Motion sab support karta hai."),
+             dict(k="formats", v="card", d=dict(icon="phone", title="Social Formats", rows=[["Reels/Shorts", "9:16 vertical"], ["Feed posts", "1:1 square"], ["Stories", "9:16 full screen"]]), say="Reels aur Shorts ke liye 9:16, feed ke liye 1:1 square — Claude."),
              dict(k="workflow", v="flow", d=dict(nodes=["Prompt likho", "Generate karo", "Download karo", "Post karo"]), say="Workflow: prompt likho, generate karo, download karo, direct post karo."),
-             dict(k="tip", v="card", d=dict(icon="star", title="Pro Tip", rows=[["Branding", "brand colors specify karo"], ["Consistency", "same style prompt rakhо"], ["Batch", "ek session mein 5-10 banao"]]), say="Brand colors specify karo, same style prompt rakhо, ek session mein batch banao."),
+             dict(k="tip", v="card", d=dict(icon="spark", title="Pro Tip", rows=[["Branding", "brand colors specify karo"], ["Consistency", "same style prompt rakhо"], ["Batch", "ek session mein 5-10 banao"]]), say="Brand colors specify karo, same style prompt rakhо, ek session mein batch banao."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -85,8 +85,8 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "style control", "karna seekho."]), say="Claude Motion mein exact style control karna chahte ho? Ye dekho."),
              dict(k="style words", v="list", d=dict(items=["'Minimalist' — clean, white space", "'Glassmorphic' — frosted glass effect", "'Neon' — dark bg, glowing colors"]), say="Style keywords: minimalist, glassmorphic, neon — ye words prompt mein daalo."),
-             dict(k="color control", v="card", d=dict(icon="palette", title="Color Prompting", rows=[["Hex codes", "'use #FF6B35 as accent'"], ["Moods", "'dark professional palette'"], ["Brands", "'blue and white, corporate'"]]), say="Hex codes seedha prompt mein daalo ya mood describe karo."),
-             dict(k="motion speed", v="card", d=dict(icon="fast", title="Speed Control", rows=[["Slow", "'slow dramatic reveal'"], ["Medium", "'smooth transition'"], ["Fast", "'quick snappy cuts'"]]), say="Speed ke liye: slow dramatic, smooth transition ya quick snappy cuts — words matter karte hain."),
+             dict(k="color control", v="card", d=dict(icon="bulb", title="Color Prompting", rows=[["Hex codes", "'use #FF6B35 as accent'"], ["Moods", "'dark professional palette'"], ["Brands", "'blue and white, corporate'"]]), say="Hex codes seedha prompt mein daalo ya mood describe karo."),
+             dict(k="motion speed", v="card", d=dict(icon="bolt", title="Speed Control", rows=[["Slow", "'slow dramatic reveal'"], ["Medium", "'smooth transition'"], ["Fast", "'quick snappy cuts'"]]), say="Speed ke liye: slow dramatic, smooth transition ya quick snappy cuts — words."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -96,8 +96,8 @@ SHORTS = [
          tags=["claude motion", "claude motion export", "ai video quality", "claude motion settings", "animation export", "best video quality"],
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "best quality", "export karo."]), say="Claude Motion se best quality export karna chahte ho? Ye settings use karo."),
-             dict(k="format choice", v="card", d=dict(icon="video", title="Export Format", rows=[["MP4", "social media ke liye best"], ["GIF", "web aur messages ke liye"], ["WebM", "website ke liye"]]), say="Social media ke liye MP4, web aur messages ke liye GIF, website ke liye WebM."),
-             dict(k="resolution", v="card", d=dict(icon="screen", title="Resolution Tips", rows=[["1080p", "Shorts aur Reels"], ["720p", "stories aur DMs"], ["4K", "pro plan mein available"]]), say="Shorts ke liye 1080p, stories ke liye 720p, aur 4K pro plan mein."),
+             dict(k="format choice", v="card", d=dict(icon="play", title="Export Format", rows=[["MP4", "social media ke liye best"], ["GIF", "web aur messages ke liye"], ["WebM", "website ke liye"]]), say="Social media ke liye MP4, web aur messages ke liye GIF, website ke."),
+             dict(k="resolution", v="card", d=dict(icon="browser", title="Resolution Tips", rows=[["1080p", "Shorts aur Reels"], ["720p", "stories aur DMs"], ["4K", "pro plan mein available"]]), say="Shorts ke liye 1080p, stories ke liye 720p, aur 4K pro plan mein."),
              dict(k="tip", v="versus", d=dict(bad="Direct download karo bina check kiye", good="Preview karo pehle, phir HD mein download"), say="Direct download mat karo — pehle preview dekho, phir HD download karo."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -108,9 +108,9 @@ SHORTS = [
          tags=["claude motion", "claude motion not working", "claude motion error", "claude ai fix", "ai animation problems", "claude motion troubleshoot"],
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion", "error aa raha?", "3 fixes hai."], hot=1), say="Claude Motion mein error aa raha hai? Teen common problems aur unka fix."),
-             dict(k="error 1", v="card", d=dict(icon="warning", title="Generation Failed", rows=[["Cause", "vague ya too long prompt"], ["Fix", "short, clear prompt likho"], ["Limit", "50 words se kam rakhо"]]), say="Generation fail hota hai jab prompt vague ya bahut lamba ho. 50 words se kam rakhо."),
+             dict(k="error 1", v="card", d=dict(icon="alert", title="Generation Failed", rows=[["Cause", "vague ya too long prompt"], ["Fix", "short, clear prompt likho"], ["Limit", "50 words se kam rakhо"]]), say="Generation fail hota hai jab prompt vague ya bahut lamba ho. 50 words."),
              dict(k="error 2", v="card", d=dict(icon="clock", title="Slow Generation", rows=[["Cause", "peak hours ya complex scene"], ["Fix", "simple scene se start karo"], ["Time", "off-peak pe try karo"]]), say="Slow generation ka matlab peak hours ya complex scene. Simple se start karo."),
-             dict(k="error 3", v="card", d=dict(icon="download", title="Export Failed", rows=[["Cause", "network issue ya file size"], ["Fix", "browser refresh karo"], ["Alt", "dusra format try karo"]]), say="Export fail ho toh browser refresh karo ya dusra format try karo."),
+             dict(k="error 3", v="card", d=dict(icon="cloud", title="Export Failed", rows=[["Cause", "network issue ya file size"], ["Fix", "browser refresh karo"], ["Alt", "dusra format try karo"]]), say="Export fail ho toh browser refresh karo ya dusra format try karo."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -121,7 +121,7 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Claude Motion —", "poora guide", "30 seconds mein."], hot=1), say="Claude Motion ka complete guide sirf 30 seconds mein."),
              dict(k="what is it", v="card", d=dict(icon="cpu", title="Claude Motion Kya Hai", rows=[["Tool", "AI animation generator"], ["By", "Anthropic"], ["Access", "claude.ai pe free"]]), say="Claude Motion Anthropic ka AI animation tool hai — claude.ai pe free access."),
-             dict(k="best features", v="list", d=dict(items=["Text prompt se animation", "Social media ready formats", "Style control with keywords", "Fast generation"]), say="Text se animation, social formats, style control, fast generation — ye hain best features."),
+             dict(k="best features", v="list", d=dict(items=["Text prompt se animation", "Social media ready formats", "Style control with keywords", "Fast generation"]), say="Text se animation, social formats, style control, fast generation — ye hain best."),
              dict(k="free mein kya milta hai", v="card", d=dict(icon="wallet", title="Free Plan", rows=[["Animations", "limited daily"], ["Quality", "standard"], ["Formats", "MP4, GIF"]]), say="Free mein daily limited animations, standard quality aur MP4/GIF export."),
              dict(k="start karo", v="orb", d=dict(label="claude.ai pe jao — Motion try karo"), say="Claude.ai pe jao, Motion select karo aur pehla animation banao."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),

@@ -21,9 +21,9 @@ SHORTS = [
          tags=["muse ai free", "muse ai tokens", "muse ai free token", "muse ai tutorial", "ai video free", "free ai credits"],
          beats=[
              dict(v="hook", d=dict(lines=["Muse AI tokens", "khatam?", "3 tricks hai."], hot=1), say="Muse AI ke tokens khatam ho gaye? Teen kaam karo."),
-             dict(k="trick 1", v="card", d=dict(icon="gift", title="Daily Login", rows=[["Roz aao", "+5 tokens free"], ["Automatically", "credited"]]), say="Ek: roz platform pe login karo — 5 daily tokens automatic milte hain."),
-             dict(k="trick 2", v="card", d=dict(icon="share", title="Referral Link", rows=[["Share karo", "apna link"], ["Har signup", "+50 tokens"]]), say="Do: apna referral link share karo — har ek signup pe 50 tokens milenge."),
-             dict(k="trick 3", v="card", d=dict(icon="star", title="Signup Bonus", rows=[["New account?", "referral use karo"], ["Instant", "+100 tokens"]]), say="Teen: naya account banate waqt kisi ka referral link use karo — 100 tokens seedha."),
+             dict(k="trick 1", v="card", d=dict(icon="coin", title="Daily Login", rows=[["Roz aao", "+5 tokens free"], ["Automatically", "credited"]]), say="Ek: roz platform pe login karo — 5 daily tokens automatic milte hain."),
+             dict(k="trick 2", v="card", d=dict(icon="link", title="Referral Link", rows=[["Share karo", "apna link"], ["Har signup", "+50 tokens"]]), say="Do: apna referral link share karo — har ek signup pe 50 tokens."),
+             dict(k="trick 3", v="card", d=dict(icon="spark", title="Signup Bonus", rows=[["New account?", "referral use karo"], ["Instant", "+100 tokens"]]), say="Teen: naya account banate waqt kisi ka referral link use karo — 100."),
              dict(k="total", v="stat", d=dict(value=155, label="tokens bina ek rupee spend kiye", ring=0.8), say="Total 155 tokens — bina ek bhi rupee spend kiye."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -35,7 +35,7 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Muse AI pe", "video upload", "kaise karo?"]), say="Muse AI pe video upload karna YouTube se bhi easy hai."),
              dict(k="step 1", v="orb", d=dict(label="Upload button click karo"), say="Dashboard mein Upload click karo ya file drag-and-drop karo."),
-             dict(k="formats", v="card", d=dict(icon="video", title="Supported formats", rows=[["MP4, MOV", "recommended"], ["Max size", "free: 5 GB"]]), say="MP4 aur MOV best hain. Free plan mein 5 GB tak upload kar sakte ho."),
+             dict(k="formats", v="card", d=dict(icon="play", title="Supported formats", rows=[["MP4, MOV", "recommended"], ["Max size", "free: 5 GB"]]), say="MP4 aur MOV best hain. Free plan mein 5 GB tak upload kar."),
              dict(k="privacy", v="list", d=dict(items=["Public — sab dekh sakte hain", "Private — sirf tum", "Unlisted — link wale"]), say="Privacy choose karo: public, private, ya unlisted."),
              dict(k="ai features", v="card", d=dict(icon="cpu", title="AI tools on upload", rows=[["Auto chapters", "yes"], ["AI summary", "yes"], ["Transcript", "auto"]]), say="Upload hote hi AI auto chapters, summary aur transcript generate karta hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
@@ -48,9 +48,9 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Muse AI", "vs YouTube —", "kya choose karo?"], hot=1), say="Muse AI aur YouTube — creators ke liye konsa better hai?"),
              dict(k="storage", v="versus", d=dict(bad="YouTube: monetization ka chakkar", good="Muse AI: 5 GB free, private hosting"), say="YouTube monetization ke liye subscribers chahiye. Muse AI pe bas upload karo."),
-             dict(k="ai features", v="card", d=dict(icon="cpu", title="Muse AI advantage", rows=[["AI chapters", "auto"], ["AI summary", "auto"], ["Smart search", "inside video"]]), say="Muse AI mein AI chapters, auto summary aur video ke andar smart search milta hai."),
+             dict(k="ai features", v="card", d=dict(icon="cpu", title="Muse AI advantage", rows=[["AI chapters", "auto"], ["AI summary", "auto"], ["Smart search", "inside video"]]), say="Muse AI mein AI chapters, auto summary aur video ke andar smart search."),
              dict(k="community", v="card", d=dict(icon="users", title="YouTube advantage", rows=[["Audience", "3 billion users"], ["Discovery", "algorithm"], ["Monetization", "ads + members"]]), say="YouTube ka 3 billion users ka audience aur discovery algorithm unbeatable hai."),
-             dict(k="verdict", v="card", d=dict(icon="check", title="Best strategy", rows=[["Private/AI work", "Muse AI"], ["Public reach", "YouTube"]], hl=0), say="Best strategy: private ya AI-heavy work ke liye Muse AI, public reach ke liye YouTube."),
+             dict(k="verdict", v="card", d=dict(icon="check", title="Best strategy", rows=[["Private/AI work", "Muse AI"], ["Public reach", "YouTube"]], hl=0), say="Best strategy: private ya AI-heavy work ke liye Muse AI, public reach ke."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -61,7 +61,7 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["Muse AI mein", "video ke ANDAR", "search hoti hai."]), say="Muse AI mein tum video ke andar baat search kar sakte ho."),
              dict(k="normal search", v="versus", d=dict(bad="YouTube: sirf title aur tags", good="Muse AI: video ke har word mein search"), say="YouTube sirf title aur tags search karta hai. Muse AI poori video mein."),
-             dict(k="how it works", v="card", d=dict(icon="mic", title="AI Transcript Search", rows=[["Auto transcript", "every video"], ["Search query", "matches spoken words"], ["Jump to", "exact moment"]]), say="Auto transcript se poori video index hoti hai. Jo bola gaya — sab searchable."),
+             dict(k="how it works", v="card", d=dict(icon="mic", title="AI Transcript Search", rows=[["Auto transcript", "every video"], ["Search query", "matches spoken words"], ["Jump to", "exact moment"]]), say="Auto transcript se poori video index hoti hai. Jo bola gaya — sab."),
              dict(k="use case", v="list", d=dict(items=["Training videos mein topic dhundo", "Client calls mein moment dhundo", "Long lectures mein answer dhundo"]), say="Training, client calls, lectures — sab mein exact moment milega."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -71,10 +71,10 @@ SHORTS = [
          topic="sharing private videos on muse ai with password protection",
          tags=["muse ai", "muse ai private video", "muse ai share", "video sharing", "muse ai tutorial", "private video hosting"],
          beats=[
-             dict(v="hook", d=dict(lines=["Private video", "share karna hai?", "Easy hai."], hot=1), say="Private video share karna hai bina login ke? Muse AI mein ye possible hai."),
+             dict(v="hook", d=dict(lines=["Private video", "share karna hai?", "Easy hai."], hot=1), say="Private video share karna hai bina login ke? Muse AI mein ye possible."),
              dict(k="step 1", v="orb", d=dict(label="Video settings kholो"), say="Video ke settings mein jao aur Sharing options kholо."),
              dict(k="options", v="list", d=dict(items=["Password protect karo", "Link share karo (unlisted)", "Domain restrict karo"]), say="Teen options hain: password, unlisted link, ya domain restriction."),
-             dict(k="password share", v="card", d=dict(icon="lock", title="Password Protection", rows=[["Set password", "koi bhi"], ["Share link", "receiver ko password bhi bhejo"], ["Viewer", "login nahi chahiye"]]), say="Password set karo, link aur password share karo — receiver ko account nahi chahiye."),
+             dict(k="password share", v="card", d=dict(icon="lock", title="Password Protection", rows=[["Set password", "koi bhi"], ["Share link", "receiver ko password bhi bhejo"], ["Viewer", "login nahi chahiye"]]), say="Password set karo, link aur password share karo — receiver ko account nahi."),
              dict(k="best use", v="card", d=dict(icon="users", title="Best for", rows=[["Client deliverables", "yes"], ["Internal training", "yes"], ["Beta content", "yes"]]), say="Client work, internal training ya beta content ke liye perfect hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -85,7 +85,7 @@ SHORTS = [
          tags=["muse ai", "muse ai chapters", "ai video chapters", "muse ai features", "muse ai tutorial", "auto chapters"],
          beats=[
              dict(v="hook", d=dict(lines=["Chapters", "khud ban jaate hain", "Muse AI mein."]), say="Muse AI mein chapters manually nahi banana padata — AI khud banata hai."),
-             dict(k="how", v="card", d=dict(icon="cpu", title="AI Chapter Flow", rows=[["Transcript", "auto generate"], ["Topics", "AI detect karta hai"], ["Timestamps", "auto set"]]), say="Upload ke baad AI transcript banata hai, topics detect karta hai aur timestamps set karta hai."),
+             dict(k="how", v="card", d=dict(icon="cpu", title="AI Chapter Flow", rows=[["Transcript", "auto generate"], ["Topics", "AI detect karta hai"], ["Timestamps", "auto set"]]), say="Upload ke baad AI transcript banata hai, topics detect karta hai aur timestamps."),
              dict(k="edit", v="list", d=dict(items=["Chapter titles edit kar sakte ho", "Add ya delete kar sakte ho", "Timestamps manually adjust karo"]), say="Chapters edit, add, delete ya timestamps adjust bhi kar sakte ho manually."),
              dict(k="benefit", v="stat", d=dict(value="3x", label="engagement jab chapters hote hain", ring=0.75), say="Research kehta hai: chapters se engagement 3 guna badhti hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
@@ -100,7 +100,7 @@ SHORTS = [
              dict(k="step 1", v="orb", d=dict(label="Share → Embed kholо"), say="Video pe Share button click karo aur Embed tab select karo."),
              dict(k="code", v="card", d=dict(icon="code", title="Embed Code", rows=[["iframe", "copy karo"], ["Paste", "website mein"], ["Size", "customize karo"]]), say="iframe code copy karo aur apni website mein paste karo — bas."),
              dict(k="options", v="list", d=dict(items=["Autoplay on/off", "Controls hide/show", "Custom thumbnail", "Password protect embed bhi"]), say="Autoplay, controls, custom thumbnail aur password protection bhi embed pe kaam karti hai."),
-             dict(k="benefit", v="versus", d=dict(bad="YouTube embed: ads aate hain viewers ko", good="Muse AI embed: no ads, clean experience"), say="YouTube embed mein ads aate hain. Muse AI embed mein koi ad nahi — clean experience."),
+             dict(k="benefit", v="versus", d=dict(bad="YouTube embed: ads aate hain viewers ko", good="Muse AI embed: no ads, clean experience"), say="YouTube embed mein ads aate hain. Muse AI embed mein koi ad nahi."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -112,7 +112,7 @@ SHORTS = [
              dict(v="hook", d=dict(lines=["Team ke saath", "Muse AI?", "Ye dekho."]), say="Team ke saath Muse AI use karna chahte ho? Collaboration features strong hain."),
              dict(k="workspace", v="card", d=dict(icon="users", title="Team Workspace", rows=[["Shared library", "sab ke liye"], ["Roles", "admin / member"], ["Comments", "video pe direct"]]), say="Team workspace mein shared library, roles aur video pe direct comments milte hain."),
              dict(k="review flow", v="flow", d=dict(nodes=["Upload", "Comment", "Approve"]), say="Simple review flow: upload karo, team comments kare, approve karo."),
-             dict(k="free plan limit", v="card", d=dict(icon="warning", title="Free Plan", rows=[["Team members", "limited"], ["Storage", "5 GB shared"], ["Upgrade", "for more"]], hl=0), say="Free plan mein team members limited hain aur storage 5 GB shared hai."),
+             dict(k="free plan limit", v="card", d=dict(icon="alert", title="Free Plan", rows=[["Team members", "limited"], ["Storage", "5 GB shared"], ["Upgrade", "for more"]], hl=0), say="Free plan mein team members limited hain aur storage 5 GB shared hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -122,7 +122,7 @@ SHORTS = [
          tags=["muse ai", "muse ai tutorial", "muse ai 2026", "muse ai beginners", "muse ai free", "ai video platform 2026"],
          beats=[
              dict(v="hook", d=dict(lines=["Muse AI —", "poora guide", "30 seconds mein."], hot=1), say="Muse AI ka complete guide sirf 30 seconds mein."),
-             dict(k="what is it", v="card", d=dict(icon="video", title="Muse AI Kya Hai", rows=[["Video hosting", "+ AI features"], ["Free plan", "available"], ["AI search", "inside videos"]]), say="Muse AI ek AI-powered video platform hai — hosting plus smart AI features."),
+             dict(k="what is it", v="card", d=dict(icon="play", title="Muse AI Kya Hai", rows=[["Video hosting", "+ AI features"], ["Free plan", "available"], ["AI search", "inside videos"]]), say="Muse AI ek AI-powered video platform hai — hosting plus smart AI features."),
              dict(k="best features", v="list", d=dict(items=["Auto AI chapters", "Video ke andar search", "Private sharing with password", "Team collaboration"]), say="Best features: auto chapters, in-video search, private sharing aur team collab."),
              dict(k="free mein kya milta hai", v="card", d=dict(icon="wallet", title="Free Plan", rows=[["5 GB", "storage"], ["Unlimited", "public videos"], ["AI features", "basic"]]), say="Free mein 5 GB storage, unlimited public videos aur basic AI features."),
              dict(k="start karo", v="orb", d=dict(label="muse.ai pe jao — free signup"), say="Referral link se signup karo — 100 bonus tokens milenge start mein hi."),
