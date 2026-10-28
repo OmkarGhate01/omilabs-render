@@ -37,7 +37,7 @@ SHORTS = [
              dict(k="step 1", v="orb", d=dict(label="Image to Video select karo"), say="Kling mein Image to Video option select karo."),
              dict(k="step 2", v="card", d=dict(icon="layers", title="Image Upload", rows=[["Upload", "apni photo daalo"], ["Supported", "JPG, PNG"], ["Size", "under 10MB"]]), say="Apni photo upload karo — JPG ya PNG, 10MB se kam."),
              dict(k="step 3", v="card", d=dict(icon="doc", title="Motion Prompt", rows=[["Describe", "kya move karna chahiye"], ["Style", "'cinematic slow motion'"], ["Duration", "5 ya 10 seconds"]]), say="Motion prompt likho — kya move karna chahiye, cinematic slow motion ya kuch."),
-             dict(k="result", v="stat", d=dict(value="10s", label="photorealistic animated clip ready", ring=0.85), say="Aur 10 seconds mein photorealistic animated clip ready — bilkul stunning."),
+             dict(k="result", v="orb", d=dict(label="10s mein photorealistic clip ready"), say="Aur 10 seconds mein photorealistic animated clip ready — bilkul stunning."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -50,7 +50,7 @@ SHORTS = [
              dict(k="trick 1", v="card", d=dict(icon="coin", title="Daily Login", rows=[["Roz login karo", "+10 credits daily"], ["Automatically", "credited"]]), say="Ek: roz Kling pe login karo — 10 daily credits automatic milte hain."),
              dict(k="trick 2", v="card", d=dict(icon="link", title="Share Videos", rows=[["Video share karo", "social pe"], ["Engagement", "bonus credits milte hain"], ["Community", "active raho"]]), say="Do: apne Kling videos share karo social media pe — engagement se bonus."),
              dict(k="trick 3", v="card", d=dict(icon="spark", title="Fast Mode", rows=[["Use karo", "Fast generation"], ["Cost", "8 credits vs 10"], ["Save", "20% credits bach jate hain"]]), say="Teen: Fast mode use karo — standard se 20% kam credits lagte hain."),
-             dict(k="total savings", v="stat", d=dict(value="20%", label="credits bach jate hain fast mode se", ring=0.7), say="Fast mode se 20% credits bach jate hain — zyada videos ban jaate."),
+             dict(k="total savings", v="orb", d=dict(label="20% credits bachte hain fast mode mein"), say="Fast mode se 20% credits bach jate hain — zyada videos ban jaate."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -99,7 +99,7 @@ SHORTS = [
              dict(v="hook", d=dict(lines=["Product videos", "Kling 4.0 se", "banao."]), say="Kling 4.0 se professional product videos banana ab sirf minutes ka kaam hai."),
              dict(k="setup", v="card", d=dict(icon="layers", title="Product Video Setup", rows=[["Image", "product ki clean photo lo"], ["Background", "white/transparent"], ["Angle", "multiple angles preferred"]]), say="Pehle product ki clean photo lo — white background, multiple angles best hain."),
              dict(k="prompt formula", v="card", d=dict(icon="doc", title="Product Prompt", rows=[["Template", "'[Product], [style]'"], ["Example", "'Perfume, marble, rotating'"]]), say="Template: product, surface, movement, lighting, commercial style. Luxury commercial feel aata hai."),
-             dict(k="benefit", v="stat", d=dict(value="5x", label="faster than traditional product shoots", ring=0.9), say="Traditional product shoots se 5 guna fast — aur fraction of the cost."),
+             dict(k="benefit", v="orb", d=dict(label="5x faster than product shoots"), say="Traditional product shoots se 5 guna fast — aur fraction of the cost."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 

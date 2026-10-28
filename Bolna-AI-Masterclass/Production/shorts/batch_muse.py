@@ -87,7 +87,7 @@ SHORTS = [
              dict(v="hook", d=dict(lines=["Chapters", "khud ban jaate hai", "Muse AI mein."]), say="Muse AI mein chapters manually nahi banana padata — AI khud banata hai."),
              dict(k="how", v="card", d=dict(icon="cpu", title="AI Chapter Flow", rows=[["Transcript", "auto generate"], ["Topics", "AI detect karta hai"], ["Timestamps", "auto set"]]), say="Upload ke baad AI transcript banata hai, topics detect karta hai aur timestamps."),
              dict(k="edit", v="list", d=dict(items=["Chapter titles edit karo", "Add ya delete kar sakte ho", "Timestamps adjust karo"]), say="Chapters edit, add, delete ya timestamps adjust bhi kar sakte ho manually."),
-             dict(k="benefit", v="stat", d=dict(value="3x", label="engagement jab chapters hote hain", ring=0.75), say="Research kehta hai: chapters se engagement 3 guna badhti hai."),
+             dict(k="benefit", v="orb", d=dict(label="3x engagement jab chapters hote hain"), say="Research kehta hai: chapters se engagement 3 guna badhti hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 

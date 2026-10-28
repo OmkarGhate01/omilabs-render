@@ -37,7 +37,7 @@ SHORTS = [
              dict(k="prompt 1", v="card", d=dict(icon="spark", title="Logo Animation", rows=[["Prompt", "'Logo reveal, glow, 3s'"], ["Result", "cinematic opener"]]), say="Logo ke liye: 'Logo reveal with glow effect, dark background, 3 seconds.' Clean."),
              dict(k="prompt 2", v="card", d=dict(icon="chart", title="Data Visualization", rows=[["Prompt", "'Bar chart, growth, 5s'"], ["Result", "clean motion chart"]]), say="Data ke liye: 'Animated bar chart showing growth, 5 seconds.' Perfect explainer."),
              dict(k="prompt 3", v="card", d=dict(icon="doc", title="Text Animation", rows=[["Prompt", "'Kinetic text, bold, 4s'"], ["Result", "social media ready"]]), say="Text ke liye: 'Kinetic typography, bold word reveal, 4 seconds.' Social media perfect."),
-             dict(k="formula", v="stat", d=dict(value="3x", label="better results with specific prompts", ring=0.8), say="Specific prompts se 3 guna better results aate hain compared to vague ones."),
+             dict(k="formula", v="orb", d=dict(label="3x better: specific prompts use karo"), say="Specific prompts se 3 guna better results aate hain compared to vague ones."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 

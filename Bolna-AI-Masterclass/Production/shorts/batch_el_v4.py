@@ -15,7 +15,7 @@ SHORTS = [
              dict(v="hook", d=dict(lines=["ElevenLabs v4 —", "kya badla?", "60 sec mein."]), say="ElevenLabs v4 aaya hai — kya naya hai? 60 seconds mein sab jaano."),
              dict(k="new in v4", v="list", d=dict(items=["Voice cloning next level", "Emotional control", "Multilingual v2 faster", "Projects: long-form audio"]), say="Voice cloning next level, emotional control, faster multilingual aur Projects feature."),
              dict(k="emotional control", v="versus", d=dict(bad="v3: ek hi tone, flat delivery", good="v4: sad, excited, whisper — sab control mein"), say="V3 mein tone flat thi. V4 mein sad, excited, whisper — sab control."),
-             dict(k="speed", v="stat", d=dict(value="2x", label="faster than ElevenLabs v2 Multilingual", ring=0.85), say="Multilingual v2 se do guna fast hai v4 ka generation."),
+             dict(k="speed", v="orb", d=dict(label="2x faster than v2 Multilingual"), say="Multilingual v2 se do guna fast hai v4 ka generation."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
