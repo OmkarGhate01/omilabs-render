@@ -1,0 +1,19 @@
+{
+ "words": 65,
+ "seconds": 32.83,
+ "wps": 1.98,
+ "asr_match": 0.904,
+ "beats": 6,
+ "longest_beat": 6.68,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion -Caw complete guide surf 30 seconds main. Claude Motion and Thropic -Caw of Eye Animation Tool High, Claude AIP Free Access. Text -C animation, social formats, style control, fast generation, yehane best. Free main daily limited animations, standard quality or MP4 slash GIF export. Claude AIP Zhao, Motion Select Caro or Pala Animation Bandau. Save this or Claude Motion Free Main Tri -Carrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

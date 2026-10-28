@@ -1,0 +1,19 @@
+{
+ "words": 59,
+ "seconds": 27.43,
+ "wps": 2.15,
+ "asr_match": 0.909,
+ "beats": 5,
+ "longest_beat": 6.9,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion Cough Free Plan, Kaya Milta High or Kaya Nahai. Free Plan Main Limited Daily Animations, Standard Quality or MP4 Yagif Export. Pro Main Unlimited Animations, HD Quality or Priority Generation, Milta High. Free Plan Main Precise prompts use Caro, Eck High Try Main Perfect. Save this or Claude Motion Free Main Tri -Caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

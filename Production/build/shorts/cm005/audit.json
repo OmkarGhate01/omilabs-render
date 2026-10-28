@@ -1,0 +1,19 @@
+{
+ "words": 65,
+ "seconds": 29.72,
+ "wps": 2.19,
+ "asr_match": 0.887,
+ "beats": 6,
+ "longest_beat": 5.85,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion, Sara or Cling, Creators Key Lei Consa Best High. Claude Motion, Easiest Claude, AIP directly free tier available. Sara, Cinematic Quality, Lecken Chat, GPT plus the approach I paid. Cling, High Realism, Lecken App Download or Credit System. Quick Work Key Lei Claude Motion, Cinematic Key Lei Sara, Realism Key Lei. Save this or Claude Motion -Free Main Tri -Carrow.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

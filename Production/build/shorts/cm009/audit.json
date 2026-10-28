@@ -1,0 +1,19 @@
+{
+ "words": 61,
+ "seconds": 28.11,
+ "wps": 2.17,
+ "asr_match": 0.9,
+ "beats": 5,
+ "longest_beat": 6.48,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion main error are Rahahai, teen common problems or uncuff fix. Generation Fail Hoda High Jab prompt vague Yabahat Lamba Ho, 50 words. Slow Generation Calm Matlab Peak Hours Yacomplexine. Simple C Start Caro. Export Fail Hoto Browser Refresh Caro Yadas Reformat Tri Caro. Save this or Claude Motion Free Main Tri Caro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.6,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
