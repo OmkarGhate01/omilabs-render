@@ -1,0 +1,19 @@
+{
+ "words": 65,
+ "seconds": 28.3,
+ "wps": 2.3,
+ "asr_match": 0.881,
+ "beats": 6,
+ "longest_beat": 5.76,
+ "max_gap": 0.0,
+ "asr_text": "MUSE A IP -free account banana surf 2 minute call com high. Pale MUSE dot AI open caro or sign up click caro. Email your Google C sign up caro, OTP verify caro. Free plan main 5 GB storage or unlimited public videos miltane. Referral link C sign up caro. Seedha 100 bonus tokens mileage. Save this or MUSE I free main use caro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

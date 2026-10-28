@@ -1,0 +1,19 @@
+{
+ "words": 71,
+ "seconds": 33.42,
+ "wps": 2.12,
+ "asr_match": 0.895,
+ "beats": 6,
+ "longest_beat": 6.92,
+ "max_gap": 0.0,
+ "asr_text": "Musa I or YouTube creators key lei consa better high youtube monetization key lei subscribers chahi i musa ip bass upload caro musa i maina i chapters auto summary or video key and our smart search youtube cost three billion users caught audience or discovery algorithm unbeatable high best strategy private yo i heavy work key lei musa i public reach key save this or musa i free main use karo",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
