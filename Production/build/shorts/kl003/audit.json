@@ -1,0 +1,19 @@
+{
+ "words": 65,
+ "seconds": 30.41,
+ "wps": 2.14,
+ "asr_match": 0.855,
+ "beats": 6,
+ "longest_beat": 5.87,
+ "max_gap": 0.0,
+ "asr_text": "Call it by photo cling4, 0C video main convert car sacked ho, cling main image to video options select carro, epney photo upload carro jpg png 10 mbc cam, motion prompt lico kaya move carna chahiye cinematic slow motion yacuch or 10 seconds main photo realistic animated clip ready bill call stunning save this or cling for zero free main tri carro",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.6,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

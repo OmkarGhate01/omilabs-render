@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 35.4,
+ "wps": 2.09,
+ "asr_match": 0.833,
+ "beats": 6,
+ "longest_beat": 7.68,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 .0, Kia Yi, 2026, Kia Yi Besta Eye Video Generator High. Cling 4 .0 QA Shuka Eye Video Generator High, Photo Realistic Quality Key Li Eye. Text C Video, Image C Video, or 5C 10 -second clips. Sora Surf Text Letter High. Cling 4 .0 Image by Letter High, or. Product videos, marketing ads, Yup Nia Eye Art Co. Animate Karna Sab. Save this or Cling 4 .0 Free Main Tri -Carrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

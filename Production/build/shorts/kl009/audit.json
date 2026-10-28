@@ -1,0 +1,19 @@
+{
+ "words": 60,
+ "seconds": 28.64,
+ "wps": 2.09,
+ "asr_match": 0.869,
+ "beats": 5,
+ "longest_beat": 6.56,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4, 0 main video, extend cark or lamba clip banana cico. Extend feature C existing clip keybawed 5 seconds or add caro. Max. Generate caro, extend click caro, new direction caw prompt add caro seamless. Nay a video bannit rojo to style inconsistent hoda high. Extend caro smooth. Save this or cling 4, 0 free main try caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

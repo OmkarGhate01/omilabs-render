@@ -1,0 +1,19 @@
+{
+ "words": 72,
+ "seconds": 35.82,
+ "wps": 2.01,
+ "asr_match": 0.856,
+ "beats": 6,
+ "longest_beat": 7.32,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 .0 or Sora, creator's key Liai Kai a better high, honest comparison. Quality main dono strong hane, cling photorealistic, Sora cinematic. Pricing main, cling clearly Jida high, free credits VS Sora ca dollar 200 slash month. Image to video feature surf, cling main high, Sora main nahai, cling. Budget creators or image animation key Liai cling. Cinematic film feel key Liai save this or cling for zero free main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

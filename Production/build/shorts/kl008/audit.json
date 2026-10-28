@@ -1,0 +1,19 @@
+{
+ "words": 61,
+ "seconds": 28.88,
+ "wps": 2.11,
+ "asr_match": 0.895,
+ "beats": 5,
+ "longest_beat": 6.98,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4, 0c professional product videos banana abs serf minutes ca com high. Pale product chi clean photo low, white background, multiple angles best hane. Template product surface movement lighting commercial style. Luxury commercial feel auto high. Traditional product shoots c5 goon a fast or fraction of the cost. Save this or cling 4, 0 free main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 69,
+ "seconds": 33.97,
+ "wps": 2.03,
+ "asr_match": 0.887,
+ "beats": 6,
+ "longest_beat": 7.44,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4, 0 -caw complete guide surf 30 seconds main. Cling 4 .0 -q -issue -caw, a i -video generator high. Clingi, com -p -free credits. Text to video, image to video, camera control, or video, extend, yee. Free main, 66 signup credits plus 10 daily. Standard quality, 5 -10 second clips. Clingi, com -p -jow, free signup, caro, or pala, i -video, bano. Save this or cling 4, 0 -free main, try caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
