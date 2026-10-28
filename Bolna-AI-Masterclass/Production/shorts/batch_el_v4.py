@@ -37,10 +37,10 @@ SHORTS = [
          topic="elevenlabs free plan features and limits 2026",
          tags=["elevenlabs free", "elevenlabs v4", "elevenlabs free plan", "free text to speech", "elevenlabs tutorial", "ai voice free"],
          beats=[
-             dict(v="hook", d=dict(lines=["ElevenLabs free mein", "kya milta hai?", "Dekho."]), say="ElevenLabs ka free plan mein exactly kya milta hai? Seedha baat karte hain."),
+             dict(v="hook", d=dict(lines=["ElevenLabs free", "mein kya milta?", "Dekho."]), say="ElevenLabs ka free plan mein exactly kya milta hai? Seedha baat karte hain."),
              dict(k="free plan", v="card", d=dict(icon="wallet", title="Free Plan (2026)", rows=[["Credits", "10,000/month"], ["Voices", "3 custom"], ["Projects", "limited"], ["Commercial use", "no"]]), say="Free plan mein 10,000 credits per month, 3 custom voices, limited Projects —."),
              dict(k="credits explained", v="stat", d=dict(value=10000, label="characters per month on free plan", ring=0.6), say="10,000 characters per month — ek 1000-word blog post ke liye kaafi hai."),
-             dict(k="upgrade why", v="versus", d=dict(bad="Free: no commercial use, limited voices", good="Starter ($5/mo): 30k chars, commercial, more voices"), say="Commercial use chahiye? Starter plan sirf 5 dollar per month mein milta hai."),
+             dict(k="upgrade why", v="versus", d=dict(bad="Free: no commercial use, limited voices", good="Starter $5: 30k chars, commercial"), say="Commercial use chahiye? Starter plan sirf 5 dollar per month mein milta hai."),
              dict(k="my voice", v="card", d=dict(icon="spark", title="Omkar Ka Voice", rows=[["Try karo", "link description mein"], ["Free mein", "sun sakte ho"]]), say="Mere khud ke AI voice ka link description mein hai — free mein."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
@@ -51,7 +51,7 @@ SHORTS = [
          tags=["elevenlabs v4", "elevenlabs emotional", "ai voice emotion", "elevenlabs style", "elevenlabs tutorial", "text to speech emotion"],
          beats=[
              dict(v="hook", d=dict(lines=["AI voice mein", "emotion control —", "ye dekho."], hot=1), say="ElevenLabs v4 mein AI voice mein emotion control possible hai."),
-             dict(k="settings", v="card", d=dict(icon="wave", title="Emotion Controls", rows=[["Stability", "0 = expressive, 1 = flat"], ["Similarity Boost", "original voice kitni close"], ["Style", "0 = natural, 1 = exaggerated"]]), say="Teen sliders hain: Stability, Similarity Boost aur Style."),
+             dict(k="settings", v="card", d=dict(icon="wave", title="Emotion Controls", rows=[["Stability", "0 = expressive, 1 = flat"], ["Similarity Boost", "voice closeness"], ["Style", "0 = natural, 1 = exaggerated"]]), say="Teen sliders hain: Stability, Similarity Boost aur Style."),
              dict(k="sad voice", v="card", d=dict(icon="chat", title="Sad/Soft ke liye", rows=[["Stability", "0.3 (low)"], ["Style", "0.2"], ["Result", "soft, slower delivery"]]), say="Sad ya soft voice ke liye Stability 0.3 aur Style 0.2 rakhna."),
              dict(k="excited voice", v="card", d=dict(icon="bolt", title="Excited ke liye", rows=[["Stability", "0.6"], ["Style", "0.8 (high)"], ["Result", "energetic, fast"]]), say="Excited voice ke liye Stability 0.6 aur Style 0.8 rakhna."),
              dict(k="experiment", v="orb", d=dict(label="Text change bhi karo — '!' se energy badhti hai"), say="Tip: text mein exclamation mark lagao — AI naturally zyada energy add karta."),
@@ -64,7 +64,7 @@ SHORTS = [
          tags=["elevenlabs projects", "elevenlabs v4", "elevenlabs audiobook", "long form tts", "elevenlabs tutorial", "ai audiobook"],
          beats=[
              dict(v="hook", d=dict(lines=["ElevenLabs mein", "puri book ka audio", "ek click mein."]), say="ElevenLabs Projects se puri book ka audio ek hi flow mein generate hota."),
-             dict(k="what is projects", v="card", d=dict(icon="book", title="Projects Feature", rows=[["Long form", "chapter by chapter"], ["Multiple voices", "different characters"], ["Export", "MP3 / WAV"]]), say="Projects feature mein chapters alag kar sakte ho, alag voices assign karo, phir."),
+             dict(k="what is projects", v="card", d=dict(icon="book", title="Projects Feature", rows=[["Long form", "chapter by chapter"], ["Multiple voices", "alag characters"], ["Export", "MP3 / WAV"]]), say="Projects feature mein chapters alag kar sakte ho, alag voices assign karo, phir."),
              dict(k="how to start", v="flow", d=dict(nodes=["Text paste karo", "Chapters set karo", "Voices assign karo", "Generate"]), say="Text paste karo, chapters set karo, voices assign karo, generate — bas itna."),
              dict(k="use case", v="list", d=dict(items=["Audiobook creation", "Long podcast script", "Course narration", "YouTube voice over"]), say="Audiobook, podcast, course narration, YouTube voice over — sab ke liye perfect hai."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
@@ -77,8 +77,8 @@ SHORTS = [
          beats=[
              dict(v="hook", d=dict(lines=["ElevenLabs API —", "developer ke liye", "5 min guide."]), say="ElevenLabs API integrate karna sirf 5 minutes ka kaam hai."),
              dict(k="api key", v="card", d=dict(icon="key", title="API Key", rows=[["Get it", "Settings → API Keys"], ["Free plan", "bhi kaam karta hai"], ["Header", "xi-api-key: <key>"]]), say="Settings mein jao, API Keys section mein key generate karo — free plan."),
-             dict(k="endpoint", v="card", d=dict(icon="code", title="Basic TTS Call", rows=[["POST", "/v1/text-to-speech/{voice_id}"], ["Body", '{"text": "...", "model_id": "eleven_multilingual_v2"}'], ["Returns", "audio/mpeg stream"]]), say="POST request bhejo, text aur model_id body mein dalo, audio stream return aata."),
-             dict(k="python example", v="card", d=dict(icon="code", title="Python — 4 lines", rows=[["import", "elevenlabs"], ["client", "ElevenLabs(api_key=...)"], ["audio", "client.generate(text=..., voice=...)"], ["save(audio)", '"output.mp3"']]), say="Python mein sirf 4 lines: import, client banao, generate karo, save karo."),
+             dict(k="endpoint", v="card", d=dict(icon="code", title="Basic TTS Call", rows=[["POST", "/v1/text-to-speech/{voice_id}"], ["Body", "{\"text\": \"...\", model_id}"], ["Returns", "audio/mpeg stream"]]), say="POST request bhejo, text aur model_id body mein dalo, audio stream return aata."),
+             dict(k="python example", v="card", d=dict(icon="code", title="Python — 4 lines", rows=[["import", "elevenlabs"], ["client", "ElevenLabs(api_key=...)"], ["audio", "client.generate(...)"], ["save(audio)", '"output.mp3"']]), say="Python mein sirf 4 lines: import, client banao, generate karo, save karo."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -101,9 +101,9 @@ SHORTS = [
          tags=["elevenlabs hindi", "elevenlabs v4", "hindi text to speech", "hindi ai voice", "elevenlabs tutorial", "ai hindi voice"],
          beats=[
              dict(v="hook", d=dict(lines=["ElevenLabs mein", "Hindi voice", "kaise best karo?"], hot=1), say="ElevenLabs mein Hindi ke liye best voice aur settings kya hain? Let's see."),
-             dict(k="best model", v="card", d=dict(icon="cpu", title="Model Choose Karo", rows=[["eleven_multilingual_v2", "best for Hindi"], ["eleven_turbo_v2_5", "fast, good Hindi"], ["eleven_v4", "latest, top quality"]]), say="Hindi ke liye eleven multilingual v2 best hai — v4 bhi excellent hai."),
+             dict(k="best model", v="card", d=dict(icon="cpu", title="Model Choose Karo", rows=[["eleven_multilingual", "best for Hindi"], ["eleven_turbo_v2_5", "fast, good Hindi"], ["eleven_v4", "latest, top quality"]]), say="Hindi ke liye eleven multilingual v2 best hai — v4 bhi excellent hai."),
              dict(k="settings", v="card", d=dict(icon="wave", title="Hindi Best Settings", rows=[["Stability", "0.5-0.7"], ["Similarity Boost", "0.7-0.8"], ["Style", "0.3-0.5"]]), say="Stability 0.5 se 0.7, Similarity Boost 0.7 se 0.8, Style 0.3 se 0.5."),
-             dict(k="voice pick", v="list", d=dict(items=["Premade voices mein 'Matilda' ya 'Aria' try karo", "Custom clone: apni Hindi awaaz upload karo", "Omkar ka voice (link in description)"]), say="Premade voices mein Matilda ya Aria try karo, ya apni Hindi awaaz clone."),
+             dict(k="voice pick", v="list", d=dict(items=["Premade: Matilda ya Aria", "Clone: Hindi awaaz upload karo", "Link description mein hai"]), say="Premade voices mein Matilda ya Aria try karo, ya apni Hindi awaaz clone."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -112,10 +112,10 @@ SHORTS = [
          topic="elevenlabs speech to speech voice conversion feature",
          tags=["elevenlabs speech to speech", "elevenlabs v4", "voice conversion ai", "elevenlabs features", "ai voice swap", "elevenlabs tutorial"],
          beats=[
-             dict(v="hook", d=dict(lines=["Ek voice record karo,", "doosri voice mein", "sunao — ElevenLabs."]), say="Ek voice record karo — ElevenLabs use mein convert karke doosri voice mein."),
+             dict(v="hook", d=dict(lines=["Ek voice record,", "doosri voice mein", "sunao — 11Labs."]), say="Ek voice record karo — ElevenLabs use mein convert karke doosri voice mein."),
              dict(k="what it is", v="card", d=dict(icon="wave", title="Speech to Speech", rows=[["Input", "tumhara audio"], ["Output", "kisi aur ki awaaz mein"], ["Tone/pace", "original hi rehti hai"]]), say="Tumhara audio input, output kisi aur ki cloned voice mein aata hai. Lekin."),
-             dict(k="use cases", v="list", d=dict(items=["Dubbing: video apni awaaz mein dub karo", "AI avatar: consistent persona ke liye", "Content localization: different voices same script"]), say="Dubbing, AI avatar, content localization — sab ke liye use ho sakta hai."),
-             dict(k="how to use", v="flow", d=dict(nodes=["Apna audio upload karo", "Target voice select karo", "Convert click karo", "Download karo"]), say="Apna audio upload karo, target voice choose karo, convert click karo, download karo."),
+             dict(k="use cases", v="list", d=dict(items=["Dubbing: video apni awaaz mein", "AI avatar: persona ke liye", "Localization: different voices"]), say="Dubbing, AI avatar, content localization — sab ke liye use ho sakta hai."),
+             dict(k="how to use", v="flow", d=dict(nodes=["Apna audio upload karo", "Target voice chunno", "Convert click karo", "Download karo"]), say="Apna audio upload karo, target voice choose karo, convert click karo, download karo."),
              dict(k="", v="cta", d=dict(title="Save this"), say=CTA),
          ]),
 
@@ -124,7 +124,7 @@ SHORTS = [
          topic="elevenlabs dubbing studio for video localization",
          tags=["elevenlabs dubbing", "elevenlabs v4", "video dubbing ai", "hindi dubbing ai", "elevenlabs tutorial", "ai video dubbing"],
          beats=[
-             dict(v="hook", d=dict(lines=["YouTube video", "Hindi mein dub karo —", "AI se."]), say="Koi bhi YouTube video Hindi ya kisi bhi language mein AI se dub."),
+             dict(v="hook", d=dict(lines=["YouTube video", "Hindi mein dub", "AI se — easy."]), say="Koi bhi YouTube video Hindi ya kisi bhi language mein AI se dub."),
              dict(k="dubbing studio", v="card", d=dict(icon="play", title="ElevenLabs Dubbing", rows=[["Input", "video URL ya file"], ["Output", "dubbed video"], ["Languages", "29+ supported"]]), say="Dubbing Studio mein video URL ya file do — 29 plus languages mein."),
              dict(k="how it works", v="flow", d=dict(nodes=["Video upload", "Target language choose", "Speaker detection", "Dub + sync"]), say="Video upload karo, language choose karo, AI speakers detect karta hai, dub karta."),
              dict(k="quality", v="versus", d=dict(bad="Manual dubbing: expensive, slow, weeks lgte hain", good="ElevenLabs: minutes mein, much cheaper"), say="Manual dubbing weeks leti hai aur costly hai. ElevenLabs minutes mein karta hai."),
