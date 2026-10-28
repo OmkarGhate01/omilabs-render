@@ -1,0 +1,19 @@
+{
+ "words": 55,
+ "seconds": 24.18,
+ "wps": 2.27,
+ "asr_match": 0.906,
+ "beats": 5,
+ "longest_beat": 5.51,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion Main Exact Style Control Carna Shot Ho, Yideko. Style Keywords Minimalist Glass Morphic Neon E -words Prompt Main Dallow. Hex Code Seed -Hup Prompt Main Dallow Yamud Describe Carro. Speed Key Liai Slow Dramatic Smooth Transition YA Quick Snappy Cuts, Words. Save this or Claude Motion Free Main Tri Carro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

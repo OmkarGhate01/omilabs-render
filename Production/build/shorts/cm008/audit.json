@@ -1,0 +1,19 @@
+{
+ "words": 61,
+ "seconds": 30.58,
+ "wps": 1.99,
+ "asr_match": 0.861,
+ "beats": 5,
+ "longest_beat": 8.46,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion C. Best Quality Export Carnichot Ho, E. Settings Use Carrot, Social Media Key Li MP4, Web or Messages Key Li Giff website key. Shorts Key Li 1 ,080P, Stories Key Li 720P or 4K Pro Plan Main. Direct Download Matte Carrot, Pale Preview Deco, Fur HD Download Carrot. Save this or Claude Motion Free Main Tri Carrot.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

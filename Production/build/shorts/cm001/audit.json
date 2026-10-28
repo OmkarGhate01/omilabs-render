@@ -1,0 +1,19 @@
+{
+ "words": 73,
+ "seconds": 34.01,
+ "wps": 2.15,
+ "asr_match": 0.89,
+ "beats": 6,
+ "longest_beat": 6.29,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion and Thropic Connea Eye Animation Tool. Kaya Hai Yi. Claude Motion, Eka I tool, high -joe text, prompt C animations or motion. Surf text, prompt Liko. Claude Motion Animation, generate card a high seconds main. Sora Orkling Main, complex setup, Chahi I. Claude Motion, Surf Claude, AIP. Social videos, product demos, explainer animations, SAB Kooch Claude Motion C. Save this Orkling Motion, free main, Tri -Caro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

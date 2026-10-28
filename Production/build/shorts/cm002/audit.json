@@ -1,0 +1,19 @@
+{
+ "words": 63,
+ "seconds": 29.1,
+ "wps": 2.17,
+ "asr_match": 0.877,
+ "beats": 6,
+ "longest_beat": 5.53,
+ "max_gap": 0.0,
+ "asr_text": "Claude Motion P. Pala Animation Banana Surf 5 -Minute -Caw -Com High Pale Claude A .I .K .H .O .L. or Apnea Count Main Log and Caro Menu Main Motion Select Caro or New Project Banau Clear Prompt Liko Kaya Animate Carna High Style Kaya Ho Kit Nalamba Vague Prompt's Waste Time Specific Prompts Seed -Haw -Com Cart Hayne Save this or Claude Motion -Free Main Tri -Caro",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.6,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
