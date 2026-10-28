@@ -88,7 +88,23 @@ case "$ITEM" in
     NAMES=(muse el_v4 claude_motion kling)
     BNAME="${NAMES[$((b-1))]}"
     D=$BO; cd $D/Production
-    python3 shorts_build.py --batch "shorts/batch_${BNAME}.py" 2>/dev/null || true
+    # Build TTS audio for each short in this custom batch file
+    python3 - "shorts/batch_${BNAME}.py" <<'PY'
+import sys, runpy, os, json, hashlib
+sys.path.insert(0, os.path.dirname(os.path.abspath("build.py")))
+import shorts_build as SB
+batch_file = sys.argv[1]
+for s in runpy.run_path(batch_file)["SHORTS"]:
+    h = hashlib.md5(json.dumps(s, sort_keys=True).encode()).hexdigest()
+    hp = SB.OUT + s["id"] + "/spec.md5"
+    if os.path.exists(hp) and open(hp).read() == h and os.path.exists(SB.OUT + s["id"] + "/props.json"):
+        print(f"{s['id']} cached, skipping")
+        continue
+    SB.build(s)
+    open(hp, "w").write(h)
+PY
+    # Create bundle.txt required by shorts_pipeline.py render
+    python3 shorts_pipeline.py bundle
     ids=$(python3 -c "import runpy; print(' '.join(s['id'] for s in runpy.run_path('shorts/batch_${BNAME}.py')['SHORTS']))")
     for id in $ids; do
       python3 shorts_pipeline.py render $id || { echo "render failed $id"; continue; }
