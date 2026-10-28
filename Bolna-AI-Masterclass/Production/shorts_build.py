@@ -144,7 +144,7 @@ def build(s):
     ev = [("impact", 0.05, 0.8), ("shimmer", beats[-1]["start"] + 0.2, None)]
     ev += [("blip", b["start"] + 0.35, None) for b in beats if b["v"] in ("list", "flow", "chat")]
     sections = [(0, beats[0]["end"], "hook"), (beats[0]["end"], beats[-1]["start"], "content"), (beats[-1]["start"], total, "end")]
-    mix, _, _ = audio.master(narr, total, 1 + int(s["id"][1:]) % 8, sections, bounds, ev, seed=int(s["id"][1:]))
+    mix, _, _ = audio.master(narr, total, 1 + int(s["id"][-3:]) % 8, sections, bounds, ev, seed=int(s["id"][-3:]))
     sf.write(d + "mix.wav", mix, audio.SR, subtype="PCM_16")
     props = dict(id=s["id"], ep=s["ep"], accent=s["accent"], durationInFrames=int(round(total * 30)), beats=beats, words=words)
     json.dump(props, open(d + "props.json", "w"))
