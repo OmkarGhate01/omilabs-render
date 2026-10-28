@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 29.15,
+ "wps": 2.13,
+ "asr_match": 0.901,
+ "beats": 6,
+ "longest_beat": 6.85,
+ "max_gap": 0.0,
+ "asr_text": "MUSE A IP video, upload karna -youtube -c by easy -high. Dashboard main, upload click -caro -yafile -dragon -drop -caro. MP4 or MOV -best -hane. Free -plan -main -5 GB -TAC, upload -car. Privacy -choose -caro, public -private -ya -unlisted. Upload -hot -high -i -auto -chapters, summary -or -transcript -generate -car -to -high. Save this, or MUSE -I -free -main -use -caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

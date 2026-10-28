@@ -1,0 +1,19 @@
+{
+ "words": 68,
+ "seconds": 32.0,
+ "wps": 2.13,
+ "asr_match": 0.919,
+ "beats": 6,
+ "longest_beat": 6.63,
+ "max_gap": 0.0,
+ "asr_text": "Music I call complete guide surf 30 seconds main. Music I -Eck a I -powered video platform high, hosting plus smart or I features. Best features, auto chapters, in video search, private sharing or team collab. Free main, five GB storage, unlimited public videos or basic I features. Referral link sees sign -up caro, 100 bonus tokens mileage start main high. Save this or muse I free main use caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

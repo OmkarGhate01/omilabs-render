@@ -1,0 +1,19 @@
+{
+ "words": 59,
+ "seconds": 26.54,
+ "wps": 2.22,
+ "asr_match": 0.901,
+ "beats": 5,
+ "longest_beat": 6.07,
+ "max_gap": 0.0,
+ "asr_text": "Team Key Soth Musa I use Carnichot Ho, collaboration features strong hane. Team workspace main shared library, roles or video P direct comments melt hane. Simple review flow, upload carotame comments care approve carot. Free plan main team members limited hane or storage 5 GB shared high. Save this or muse I free main use carot.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

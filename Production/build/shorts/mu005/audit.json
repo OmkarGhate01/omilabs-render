@@ -1,0 +1,19 @@
+{
+ "words": 58,
+ "seconds": 24.46,
+ "wps": 2.37,
+ "asr_match": 0.875,
+ "beats": 5,
+ "longest_beat": 5.94,
+ "max_gap": 0.0,
+ "asr_text": "MUSE A I main Tom video key and our bot search car sacked hoe YouTube surf title or tags search card a high MUSE A I poree video main auto transcript c poree video index hody high Jobola gaya sab training client calls lectures sab main exact moment milega save this or MUSE I free main use caro",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
