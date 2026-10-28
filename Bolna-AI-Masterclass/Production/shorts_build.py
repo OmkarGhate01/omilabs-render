@@ -76,7 +76,7 @@ def lint(s):
     for i, b in enumerate(s["beats"]):
         ic = b.get("d", {}).get("icon")
         if ic and ic not in ICONS: errs.append("beat %d unknown icon %s" % (i, ic))
-    if not re.fullmatch(r"s\d{3}", s["id"]): errs.append("id")
+    if not re.fullmatch(r"[a-z]{1,4}\d{3}", s["id"]): errs.append("id")
     if len(s["title"]) > 90: errs.append("title > 90 chars")
     if s["beats"][0]["v"] != "hook": errs.append("first beat must be hook")
     if s["beats"][-1]["v"] != "cta": errs.append("last beat must be cta")
