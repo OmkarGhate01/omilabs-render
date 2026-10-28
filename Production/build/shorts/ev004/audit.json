@@ -1,0 +1,19 @@
+{
+ "words": 63,
+ "seconds": 33.79,
+ "wps": 1.86,
+ "asr_match": 0.873,
+ "beats": 6,
+ "longest_beat": 6.44,
+ "max_gap": 0.0,
+ "asr_text": "11 labs V4 main, a i -voiced main emotion control possible high. Teen Sliders Hane, stability, similarity boost or style. Sad yesoft voice key Li stability 0, 3 or style 0 .2 rack cana. Excited voice key Li stability 0, 6 or style 0 .8 rack cana. Tip, text main exclamation mark laggo, OI naturally xiota energy add carda. Save this or 11 labs V4 free main tricarrow.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

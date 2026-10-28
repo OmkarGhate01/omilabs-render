@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 33.63,
+ "wps": 2.23,
+ "asr_match": 0.853,
+ "beats": 6,
+ "longest_beat": 6.4,
+ "max_gap": 0.0,
+ "asr_text": "11 Labs Cough Free Plan Main Exactly Kaya Milta High Seedha Bot Cart Pain Free Plan Main 10 ,000 credits per month 3 Custom Voices Limited Projects 10 ,000 Characters Per Month Egg 1 ,000 Word Blog Post Key Lei Coffee High Commercial Use Cha -Yai Starter Plan Serve $5 per month Main Milta High Mircud Key A I Voice Call Link Description Main High Free Main Save this, or 11 Labs v4 Free Main Tri -Carrow",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.7,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

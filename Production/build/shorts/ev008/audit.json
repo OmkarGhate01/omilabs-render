@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 34.62,
+ "wps": 1.79,
+ "asr_match": 0.857,
+ "beats": 5,
+ "longest_beat": 12.07,
+ "max_gap": 0.0,
+ "asr_text": "11 Labs Main Hindi Key Liai Best Voice or Settings Kaya Hain, let's see. Hindi Key Liai 11 Multilingual V2 Best High, V4 by Excellent High. Stability 0 .5C0 .7, similarity boost 0 .7C0 .8, Style 0 .3C0 .5. Promade Voices Main Mitilde Ya area Tri -Caro, Yapni Hindi Awas clone. Save this, or 11 Labs V4 Free Main Tri -Caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

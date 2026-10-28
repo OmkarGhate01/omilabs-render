@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 29.81,
+ "wps": 2.08,
+ "asr_match": 0.858,
+ "beats": 5,
+ "longest_beat": 6.29,
+ "max_gap": 0.0,
+ "asr_text": "Egg voice record carot, 11 labs use main convert cark -dusory voice main. Tamhara audio input, output kissy or chi -clone voice main auto -high. Lecken, dubbing or iAvatar content localization, SAB key Liai use hose sack to high. Epna audio upload carot, target voice choose carot, convert click carot download carot. Save this or 11 labs v4 -free main tri -carot.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
