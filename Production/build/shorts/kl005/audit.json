@@ -1,0 +1,19 @@
+{
+ "words": 59,
+ "seconds": 28.91,
+ "wps": 2.04,
+ "asr_match": 0.882,
+ "beats": 5,
+ "longest_beat": 6.74,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 .0 main perfect prompt lichenaseco, stunning videos banau. Prompt structure, subject, action, style or lighting, E -char cheese and zeror dollo. Example, woman walking in rain, slow motion, cinematic bokeh lights golden hour stunning. Vigmat rojo, heart cheese described caro subject, action style lighting. Save this or cling for, zero -free main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

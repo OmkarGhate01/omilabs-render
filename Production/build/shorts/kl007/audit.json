@@ -1,0 +1,19 @@
+{
+ "words": 58,
+ "seconds": 26.8,
+ "wps": 2.16,
+ "asr_match": 0.891,
+ "beats": 5,
+ "longest_beat": 6.04,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4, 0 main cinematic camera movements control carnessico. Camera movement key keywords, slow push in, pan left slash right dolly shot, yee. Aerial key lei drone shot, close up key lei macro lens wide shot. Camera, lighting or subject co combined caro ek prompt main, professional result. Save this or cling 4, 0 free main tri -caro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

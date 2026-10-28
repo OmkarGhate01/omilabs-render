@@ -1,0 +1,19 @@
+{
+ "words": 60,
+ "seconds": 28.64,
+ "wps": 2.09,
+ "asr_match": 0.867,
+ "beats": 5,
+ "longest_beat": 6.56,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 Zero Main Video Extend Cark or Lamba Clip Banana Cico Extend Feature C Existing Clip Keyboard 5 Seconds or Add Caro Max. Generate Caro Extend Click Caro New Direction Caw Prompt Add Caro Seamless Nay of Video Banet Raw Ho to Style Inconsistent Hoda High Extend Caro Smooth Save this or Cling 4 Zero Free Main Tri Caro",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

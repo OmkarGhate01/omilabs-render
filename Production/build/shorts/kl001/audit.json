@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 35.41,
+ "wps": 2.09,
+ "asr_match": 0.842,
+ "beats": 6,
+ "longest_beat": 7.69,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 .0, Kia Yi, 2026, call best a i -video generator high. Cling 4 .0, Q -issue, call a i -video generator high, photo -realistic quality key lei. Text -C video, image -C video, or five -C 10 -second clips. Sora Surf Text, let a high. Cling 4 .0, image by let a high, or. Product videos, marketing ads, Yupnia Eye Art Co. Animate Karna Sab. Save this or Cling 4 .0 -free main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 69,
+ "seconds": 31.68,
+ "wps": 2.18,
+ "asr_match": 0.855,
+ "beats": 6,
+ "longest_beat": 6.42,
+ "max_gap": 0.0,
+ "asr_text": "Cling 4 .0p free account banana or paleo video banana, step by. Clingi Comkey H -O -L or sign up, click Caro. Email your Google C sign up, Caro. O -T -P verify Caro, free credits automatically. Sign up P -66 free credits, milt hane, coffee high -key videos key. Fast mode use Caro 8 credits per video, standard C -SASTA OR. Save this OR Cling 4 .0 free main try Caro.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.8,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
