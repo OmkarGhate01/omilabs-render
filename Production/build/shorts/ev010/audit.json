@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 29.54,
+ "wps": 2.1,
+ "asr_match": 0.891,
+ "beats": 5,
+ "longest_beat": 6.54,
+ "max_gap": 0.0,
+ "asr_text": "Koi Bai YouTube video Hindi Akissi Bai Language Main, a IC dub. dubbing studio main video URL you file do. 29 plus languages main. Video upload caro language choose caro, a ice speakers detect car to high dub car to. Manual dubbing weeks ledi high or costly high. 11 labs minutes main car to high. Save this or 11 labs v4 free main try caro.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.9,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

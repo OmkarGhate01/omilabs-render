@@ -1,0 +1,19 @@
+{
+ "words": 58,
+ "seconds": 28.86,
+ "wps": 2.01,
+ "asr_match": 0.883,
+ "beats": 5,
+ "longest_beat": 6.83,
+ "max_gap": 0.0,
+ "asr_text": "11 labs a P I integrate Carnesur five minutes call com high settings main jau a P I key section main key generate caro free plan Post request bjoe text or model ID body main dollo audio stream return Python main surf 4 lines import client ban out generate caro save caro save this or 11 labs v4 free main tri caro",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 75,
+ "seconds": 33.63,
+ "wps": 2.23,
+ "asr_match": 0.843,
+ "beats": 6,
+ "longest_beat": 6.4,
+ "max_gap": 0.0,
+ "asr_text": "11 labs cough -free -plan main exactly chia -milta -high, seed -habot -cart -hane. Free -plan main 10 ,000 credits per month, three custom voices limited projects. 10 ,000 characters per month, egg -1 ,000 -word blog post -key -lei -coffee -high. Commercial use chia -yai, starter -plan -serve five -dollar per month main -milta -high. Mir -cud -key -a -eye -voice -call -link description main -high, free -main. Save this or 11 labs before free -main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

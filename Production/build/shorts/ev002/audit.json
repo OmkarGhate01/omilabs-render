@@ -1,0 +1,19 @@
+{
+ "words": 74,
+ "seconds": 35.82,
+ "wps": 2.07,
+ "asr_match": 0.847,
+ "beats": 6,
+ "longest_beat": 7.4,
+ "max_gap": 0.0,
+ "asr_text": "11 labs main epney aewas clone carnisurf one minute ca com high 11 labs dashboard main voices right arrow ad voice right arrow instant voice clone click caro one c five minute ca clean audio sample do quiet room main clone hone key bod evoys 29 plus languages main text to speech key lei noisy recording c artifacts hot hane clean recording c near perfect clone save this or 11 labs v four free main tricarrow",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.9,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

@@ -1,0 +1,19 @@
+{
+ "words": 62,
+ "seconds": 30.59,
+ "wps": 2.03,
+ "asr_match": 0.885,
+ "beats": 5,
+ "longest_beat": 6.49,
+ "max_gap": 0.0,
+ "asr_text": "11 Lab's Project C -Puri Book Call Audio -Ech -High Flow Main Generate Hoda. Projects feature main chapters a lag car sacked ho. A lag voice is a sine -caro fur. Text -paced -caro chapters set -caro voices a sine -caro generate bass -it -na. Audio -book podcast course narration, YouTube voice -over -sab -key -lei -perfect -high. Save this or 11 Lab's v4 -free main tricarrow.",
+ "pass_audio": true,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.6,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}

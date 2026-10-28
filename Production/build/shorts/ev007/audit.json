@@ -1,0 +1,19 @@
+{
+ "words": 70,
+ "seconds": 36.63,
+ "wps": 1.91,
+ "asr_match": 0.897,
+ "beats": 6,
+ "longest_beat": 7.63,
+ "max_gap": 0.0,
+ "asr_text": "V3 by a chai thai. Letken V4 main kai a genuinely better high. V3 low stability p -thotor robotic thaw. V4 low stability p by human -like. Multilingual 2x fast high, 32 plus languages, or Hindi -kaw quality significantly better. Cloning key Li V4 main 1 minute -kaw sample coffee high, V3. Hindi or multilingual content key Li V4 clear upgrade high. Save this or 11 labs V4 free main tricarrow.",
+ "pass_audio": false,
+ "pass_render": true,
+ "pass_visual_auto": true,
+ "render_issues": [],
+ "visual_issues": [],
+ "loudness": -14.7,
+ "true_peak": -2.8,
+ "pass_visual_review": true,
+ "review": "auto (GitHub runner)"
+}
