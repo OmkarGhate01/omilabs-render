@@ -1,0 +1,1367 @@
+{
+ "id": "cmp014b",
+ "series": "AI COMPARISON",
+ "title": "Claude Motion vs Kling 4.0: Animation Ya AI Video? Kaunsa Kab Use Karein (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp014b/voice.wav",
+ "duration": 86.424,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Motion vs Kling",
+    "pill": "AI VIDEO",
+    "stat": "2",
+    "sub": "बिलकुल अलग tools"
+   },
+   "start": 0.0,
+   "end": 7.312,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 0.097,
+     "e": 0.404,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 0.404,
+     "e": 0.875,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 0.923,
+     "e": 1.123,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 1.135,
+     "e": 1.43,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 1.453,
+     "e": 2.656,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 2.821,
+     "e": 3.199,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 3.199,
+     "e": 3.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाते",
+     "s": 3.588,
+     "e": 4.048,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 4.048,
+     "e": 4.295,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 4.484,
+     "e": 4.649,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बिलकुल",
+     "s": 4.649,
+     "e": 5.074,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अलग",
+     "s": 5.085,
+     "e": 5.368,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "तरीके",
+     "s": 5.368,
+     "e": 5.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 5.793,
+     "e": 6.088,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "कैसे बनता है"
+   },
+   "start": 7.312,
+   "end": 11.264,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 7.409,
+     "e": 7.845,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 7.94,
+     "e": 8.176,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 8.211,
+     "e": 8.624,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनता",
+     "s": 8.624,
+     "e": 9.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कैसे",
+     "s": 9.001,
+     "e": 9.378,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 9.379,
+     "e": 9.685,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "HOW",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "code",
+     "title": "Claude Motion",
+     "rows": [
+      [
+       "Method",
+       "Claude code लिखता है"
+      ],
+      [
+       "Animates",
+       "text, charts, images"
+      ],
+      [
+       "Video model",
+       "नहीं"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "video",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Method",
+       "video generation model"
+      ],
+      [
+       "Makes",
+       "realistic footage"
+      ],
+      [
+       "Inputs",
+       "text, image, keyframes"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "start": 11.264,
+   "end": 22.344,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 11.361,
+     "e": 11.656,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 11.656,
+     "e": 12.116,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 12.139,
+     "e": 12.446,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 12.446,
+     "e": 12.67,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "animation",
+     "s": 12.705,
+     "e": 13.33,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाता",
+     "s": 13.33,
+     "e": 13.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 13.79,
+     "e": 14.097,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 15.344,
+     "e": 15.592,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 15.604,
+     "e": 16.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 16.877,
+     "e": 17.089,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 17.089,
+     "e": 17.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "generation",
+     "s": 17.514,
+     "e": 18.115,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 18.115,
+     "e": 18.54,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 18.54,
+     "e": 18.799,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "realistic",
+     "s": 19.059,
+     "e": 19.613,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "footage",
+     "s": 19.625,
+     "e": 20.049,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाता",
+     "s": 20.049,
+     "e": 20.497,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 20.521,
+     "e": 20.828,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "PEOPLE",
+   "v": "versus",
+   "d": {
+    "bad": "Claude Motion से असली लोग",
+    "good": "Claude Motion = charts, explainers"
+   },
+   "start": 22.344,
+   "end": 29.584,
+   "words": [
+    {
+     "t": "इसलिए",
+     "s": 22.441,
+     "e": 22.866,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 22.889,
+     "e": 23.231,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 23.231,
+     "e": 23.656,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "realistic",
+     "s": 23.656,
+     "e": 24.222,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लोग",
+     "s": 24.245,
+     "e": 24.576,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 24.576,
+     "e": 24.847,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाता",
+     "s": 24.847,
+     "e": 25.389,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वो",
+     "s": 25.613,
+     "e": 25.826,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "explainers",
+     "s": 25.837,
+     "e": 26.557,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 26.663,
+     "e": 26.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "charts",
+     "s": 26.875,
+     "e": 27.288,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 27.3,
+     "e": 27.465,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 27.5,
+     "e": 27.736,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 27.771,
+     "e": 28.066,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Use cases"
+   },
+   "start": 29.584,
+   "end": 32.432,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 29.681,
+     "e": 30.117,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 30.118,
+     "e": 30.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 30.471,
+     "e": 30.766,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "cases",
+     "s": 30.766,
+     "e": 31.297,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "MOTION USE",
+   "v": "list",
+   "d": {
+    "items": [
+     "All-hands explainer",
+     "Board deck chart",
+     "Onboarding walkthrough"
+    ]
+   },
+   "start": 32.432,
+   "end": 37.56,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 32.529,
+     "e": 32.824,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 32.824,
+     "e": 33.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "explainer",
+     "s": 33.319,
+     "e": 33.991,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "animated",
+     "s": 34.18,
+     "e": 34.758,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chart",
+     "s": 34.77,
+     "e": 35.147,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "product",
+     "s": 35.253,
+     "e": 35.69,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "walkthrough",
+     "s": 35.713,
+     "e": 36.385,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "KLING USE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Product ads",
+     "Cinematic scenes",
+     "Character shots",
+     "30 sec single take"
+    ]
+   },
+   "start": 37.56,
+   "end": 43.408,
+   "words": [
+    {
+     "t": "Kling",
+     "s": 37.657,
+     "e": 37.94,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "product",
+     "s": 37.987,
+     "e": 38.436,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ads",
+     "s": 38.518,
+     "e": 38.872,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "cinematic",
+     "s": 39.025,
+     "e": 39.638,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "scenes",
+     "s": 39.638,
+     "e": 40.086,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 40.358,
+     "e": 40.546,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीस",
+     "s": 40.546,
+     "e": 40.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "second",
+     "s": 40.924,
+     "e": 41.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 41.313,
+     "e": 41.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "single",
+     "s": 41.49,
+     "e": 41.891,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "take",
+     "s": 41.926,
+     "e": 42.244,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Editing"
+   },
+   "start": 43.408,
+   "end": 46.04,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 43.505,
+     "e": 43.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 43.953,
+     "e": 44.272,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editing",
+     "s": 44.354,
+     "e": 44.838,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "EDIT",
+   "v": "table",
+   "d": {
+    "title": "Editing",
+    "cols": [
+     "Claude Motion",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Edit कैसे",
+      "v": [
+       "chat में Claude से",
+       "video editing"
+      ]
+     },
+     {
+      "k": "Shot control",
+      "v": [
+       "code animation",
+       "10 keyframes"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Export",
+      "v": [
+       "MP4",
+       "video file"
+      ]
+     }
+    ]
+   },
+   "start": 46.04,
+   "end": 53.4,
+   "words": [
+    {
+     "t": "Motion",
+     "s": 46.137,
+     "e": 46.503,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 46.503,
+     "e": 46.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 46.703,
+     "e": 46.998,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 46.998,
+     "e": 47.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 47.198,
+     "e": 47.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 47.576,
+     "e": 47.729,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बोलो",
+     "s": 47.729,
+     "e": 48.189,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वो",
+     "s": 48.236,
+     "e": 48.437,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदल",
+     "s": 48.437,
+     "e": 48.767,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देगा",
+     "s": 48.767,
+     "e": 49.121,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 50.097,
+     "e": 50.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 50.344,
+     "e": 50.498,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "shot",
+     "s": 50.498,
+     "e": 50.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "control",
+     "s": 50.887,
+     "e": 51.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "keyframes",
+     "s": 51.347,
+     "e": 51.924,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 51.924,
+     "e": 52.196,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Access"
+   },
+   "start": 53.4,
+   "end": 57.496,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 53.497,
+     "e": 53.969,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 53.992,
+     "e": 54.299,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 54.441,
+     "e": 54.724,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "use",
+     "s": 54.724,
+     "e": 55.03,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 55.03,
+     "e": 55.207,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 55.207,
+     "e": 55.62,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 55.62,
+     "e": 55.915,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "ACCESS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "users",
+     "title": "Claude Motion",
+     "rows": [
+      [
+       "Plans",
+       "Team, Enterprise (beta)"
+      ],
+      [
+       "Cost",
+       "plan usage में"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Where",
+       "kling.ai"
+      ],
+      [
+       "Flash",
+       "3–20 sec"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "start": 57.496,
+   "end": 68.672,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 57.593,
+     "e": 57.888,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 57.888,
+     "e": 58.348,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अभी",
+     "s": 58.371,
+     "e": 58.678,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Team",
+     "s": 58.737,
+     "e": 59.091,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 59.103,
+     "e": 59.291,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Enterprise",
+     "s": 59.374,
+     "e": 60.046,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 60.046,
+     "e": 60.447,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 60.459,
+     "e": 60.624,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "beta",
+     "s": 60.624,
+     "e": 61.001,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 61.001,
+     "e": 61.261,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 61.591,
+     "e": 61.72,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 61.732,
+     "e": 62.098,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 62.098,
+     "e": 62.522,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 62.546,
+     "e": 62.699,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "count",
+     "s": 62.699,
+     "e": 62.994,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होता",
+     "s": 62.994,
+     "e": 63.36,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 63.36,
+     "e": 63.643,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 64.902,
+     "e": 65.22,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "kling",
+     "s": 65.314,
+     "e": 65.574,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dot",
+     "s": 65.574,
+     "e": 65.845,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ai",
+     "s": 65.916,
+     "e": 66.222,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 66.222,
+     "e": 66.387,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलता",
+     "s": 66.388,
+     "e": 66.765,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 66.765,
+     "e": 67.06,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "start": 68.672,
+   "end": 70.92,
+   "words": [
+    {
+     "t": "किसके",
+     "s": 68.769,
+     "e": 69.123,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 69.17,
+     "e": 69.335,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 69.335,
+     "e": 69.654,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Claude Motion",
+      "when": "Data, explainers, reports, decks"
+     },
+     {
+      "who": "Kling 4.0",
+      "when": "Ads, cinematic, realistic footage"
+     },
+     {
+      "who": "दोनों",
+      "when": "Kling shot + Motion chart overlay"
+     }
+    ]
+   },
+   "start": 70.92,
+   "end": 78.832,
+   "words": [
+    {
+     "t": "Data",
+     "s": 71.017,
+     "e": 71.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 71.489,
+     "e": 71.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "explainers",
+     "s": 71.713,
+     "e": 72.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 72.444,
+     "e": 72.597,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 72.609,
+     "e": 72.821,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 72.869,
+     "e": 73.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Motion",
+     "s": 73.187,
+     "e": 73.659,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "realistic",
+     "s": 73.942,
+     "e": 74.496,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "footage",
+     "s": 74.496,
+     "e": 74.968,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 74.968,
+     "e": 75.145,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 75.18,
+     "e": 75.369,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 75.439,
+     "e": 75.746,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 75.899,
+     "e": 76.076,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 76.076,
+     "e": 76.454,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "साथ",
+     "s": 76.454,
+     "e": 76.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 76.819,
+     "e": 77.031,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलेंगे",
+     "s": 77.055,
+     "e": 77.609,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 78.832,
+   "end": 86.424,
+   "words": [
+    {
+     "t": "आप",
+     "s": 78.929,
+     "e": 79.153,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 79.177,
+     "e": 79.613,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "try",
+     "s": 79.613,
+     "e": 79.896,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करोगे",
+     "s": 79.896,
+     "e": 80.368,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 81.297,
+     "e": 81.698,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 81.721,
+     "e": 82.099,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 82.24,
+     "e": 82.405,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 82.488,
+     "e": 83.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 83.113,
+     "e": 83.738,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 83.761,
+     "e": 84.08,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
