@@ -1,0 +1,907 @@
+{
+ "id": "cmp001c",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "series": "AI COMPARISON",
+ "title": "ElevenLabs vs Bolna: Voice AI Agent Ke Liye Kaunsa Best? (2026)",
+ "thumb": {
+  "a": "ElevenLabs",
+  "b": "Bolna",
+  "top": "VOICE AI 2026",
+  "hook": "INDIA ke liye KAUN?",
+  "accent": "#F2542D",
+  "colorA": "#111111",
+  "colorB": "#2F6BFF"
+ },
+ "tags": [
+  "elevenlabs vs bolna",
+  "bolna ai",
+  "elevenlabs agents",
+  "voice ai agent",
+  "ai calling agent india",
+  "elevenagents"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ElevenLabs vs Bolna",
+    "pill": "VOICE AI AGENTS",
+    "stat": "2",
+    "sub": "platforms, 1 फैसला"
+   },
+   "say": "Voice AI agent बनाना है, पर ElevenLabs लें या Bolna? आज साफ़ जवाब मिलेगा।",
+   "hl": [
+    "ElevenLabs",
+    "Bolna",
+    "जवाब"
+   ],
+   "chip": "जवाब"
+  },
+  {
+   "tag": "HOOK",
+   "v": "versus",
+   "d": {
+    "bad": "गलत platform = बार-बार migration",
+    "good": "सही platform = पहले दिन से सही setup"
+   },
+   "say": "गलत platform चुना, तो बाद में पूरा setup दोबारा बनाना पड़ता है।",
+   "hl": [
+    "गलत",
+    "दोबारा"
+   ],
+   "chip": "गलत"
+  },
+  {
+   "tag": "HOOK",
+   "v": "list",
+   "d": {
+    "items": [
+     "Building",
+     "Phone calls",
+     "Languages",
+     "Pricing",
+     "Privacy",
+     "Open source"
+    ]
+   },
+   "say": "हम छह चीज़ें compare करेंगे: building, calls, languages, pricing, privacy और open source।",
+   "hl": [
+    "छह",
+    "compare"
+   ],
+   "chip": "compare"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं?"
+   },
+   "say": "पहले समझते हैं, दोनों असल में क्या हैं।",
+   "hl": [
+    "क्या"
+   ],
+   "chip": "क्या"
+  },
+  {
+   "tag": "WHAT",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "wave",
+     "title": "ElevenAgents",
+     "rows": [
+      [
+       "By",
+       "ElevenLabs"
+      ],
+      [
+       "Type",
+       "agents platform"
+      ],
+      [
+       "Channels",
+       "voice, text, multimodal"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "chat",
+     "title": "Bolna",
+     "rows": [
+      [
+       "Type",
+       "voice AI agents"
+      ],
+      [
+       "Calls",
+       "inbound, outbound, batch"
+      ],
+      [
+       "Focus",
+       "phone + web"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "ElevenAgents, ElevenLabs का agents platform है। Bolna एक voice AI agents platform है, phone और web calls के लिए।",
+   "hl": [
+    "ElevenAgents",
+    "Bolna"
+   ],
+   "chip": "Bolna"
+  },
+  {
+   "tag": "WHAT",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Build",
+     "Deploy",
+     "Monitor"
+    ]
+   },
+   "say": "दोनों का flow same है: agent build करो, deploy करो, और calls monitor करो।",
+   "hl": [
+    "build",
+    "deploy",
+    "monitor"
+   ],
+   "chip": "monitor"
+  },
+  {
+   "tag": "TWIST",
+   "v": "versus",
+   "d": {
+    "bad": "ElevenLabs या Bolna — एक ही",
+    "good": "Bolna में ElevenLabs voice भी चुन सकते हो"
+   },
+   "say": "मज़ेदार बात: Bolna के अंदर synthesizer में ElevenLabs की voice भी चुन सकते हो।",
+   "hl": [
+    "ElevenLabs",
+    "voice"
+   ],
+   "chip": "भी"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Agent बनाना"
+   },
+   "say": "Chapter दो: agent बनाना कितना आसान है।",
+   "hl": [
+    "आसान"
+   ],
+   "chip": "आसान"
+  },
+  {
+   "tag": "BOLNA BUILD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Bolna Agent Studio",
+    "rows": [
+     [
+      "Auto build",
+      "use case बताओ"
+     ],
+     [
+      "Time",
+      "5–8 min में call-ready"
+     ],
+     [
+      "Advanced",
+      "graph agents"
+     ]
+    ]
+   },
+   "say": "Bolna में Agent Studio है: use case बताओ, पाँच से आठ minute में call-ready agent।",
+   "hl": [
+    "Agent",
+    "Studio",
+    "पाँच"
+   ],
+   "chip": "Studio"
+  },
+  {
+   "tag": "BOLNA GRAPH",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Node",
+     "Routing rule",
+     "Next node"
+    ]
+   },
+   "say": "Complex calls के लिए graph agents: एक लंबे prompt की जगह nodes और routing rules।",
+   "hl": [
+    "graph",
+    "nodes"
+   ],
+   "chip": "graph"
+  },
+  {
+   "tag": "EL BUILD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "ElevenAgents",
+    "rows": [
+     [
+      "Builder",
+      "dashboard + toolkit"
+     ],
+     [
+      "Flows",
+      "visual workflow builder"
+     ],
+     [
+      "LLM",
+      "choose या custom"
+     ]
+    ]
+   },
+   "say": "ElevenAgents में dashboard, developer toolkit, और visual workflow builder मिलता है।",
+   "hl": [
+    "workflow",
+    "builder"
+   ],
+   "chip": "workflow"
+  },
+  {
+   "tag": "EL KB",
+   "v": "list",
+   "d": {
+    "items": [
+     "Knowledge base + RAG",
+     "Dynamic variables",
+     "Testing और evals"
+    ]
+   },
+   "say": "साथ में knowledge base with RAG, dynamic variables, और built-in testing।",
+   "hl": [
+    "knowledge",
+    "RAG",
+    "testing"
+   ],
+   "chip": "RAG"
+  },
+  {
+   "tag": "SCORE",
+   "v": "table",
+   "d": {
+    "title": "Building",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "Quick start",
+      "v": [
+       "dashboard",
+       "auto-build 5–8 min"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Multi-step flows",
+      "v": [
+       "workflows",
+       "graph agents"
+      ]
+     },
+     {
+      "k": "Knowledge base",
+      "v": [
+       "RAG",
+       "knowledge base"
+      ]
+     },
+     {
+      "k": "Testing",
+      "v": [
+       "tests + evals",
+       "test calls"
+      ],
+      "win": 0
+     }
+    ]
+   },
+   "say": "Building में दोनों strong हैं। Bolna का auto-build तेज़ है, ElevenLabs का testing और evals गहरा है।",
+   "hl": [
+    "auto-build",
+    "evals"
+   ],
+   "chip": "evals"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Phone calls"
+   },
+   "say": "Chapter तीन: असली phone calls।",
+   "hl": [
+    "phone"
+   ],
+   "chip": "phone"
+  },
+  {
+   "tag": "BOLNA PHONE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Bolna telephony",
+    "rows": [
+     [
+      "Plivo",
+      "India + global (default)"
+     ],
+     [
+      "Exotel",
+      "India, DLT built in"
+     ],
+     [
+      "Twilio",
+      "US / global"
+     ],
+     [
+      "Vobiz",
+      "India"
+     ]
+    ]
+   },
+   "say": "Bolna में Plivo default है, साथ में Exotel, Twilio, Vobiz, और अपना SIP trunk भी।",
+   "hl": [
+    "Plivo",
+    "Exotel",
+    "SIP"
+   ],
+   "chip": "Exotel"
+  },
+  {
+   "tag": "BOLNA INDIA",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "India extras",
+    "rows": [
+     [
+      "Numbers",
+      "140/160 series guide"
+     ],
+     [
+      "Batch",
+      "CSV campaigns"
+     ],
+     [
+      "Transfer",
+      "live human handoff"
+     ]
+    ]
+   },
+   "say": "India के लिए 140 और 160 series numbers का guide, CSV से batch calls, और human transfer।",
+   "hl": [
+    "India",
+    "batch"
+   ],
+   "chip": "India"
+  },
+  {
+   "tag": "EL PHONE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "ElevenAgents telephony",
+    "rows": [
+     [
+      "Twilio",
+      "native integration"
+     ],
+     [
+      "SIP",
+      "trunking"
+     ],
+     [
+      "Batch",
+      "batch calls"
+     ]
+    ]
+   },
+   "say": "ElevenAgents में Twilio native integration, SIP trunking, और batch calls हैं।",
+   "hl": [
+    "Twilio",
+    "SIP"
+   ],
+   "chip": "Twilio"
+  },
+  {
+   "tag": "EL TOOLS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Transfer to number",
+     "Voicemail detection",
+     "End call",
+     "Language detection"
+    ]
+   },
+   "say": "System tools भी हैं: transfer, voicemail detection, end call, और language detection।",
+   "hl": [
+    "voicemail",
+    "transfer"
+   ],
+   "chip": "voicemail"
+  },
+  {
+   "tag": "SCORE",
+   "v": "table",
+   "d": {
+    "title": "Phone calls",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "Indian carriers",
+      "v": [
+       "SIP / Twilio",
+       "Plivo, Exotel, Vobiz"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Own SIP trunk",
+      "v": [
+       "yes",
+       "yes (BYOT)"
+      ]
+     },
+     {
+      "k": "Batch calling",
+      "v": [
+       "yes",
+       "yes (CSV)"
+      ]
+     },
+     {
+      "k": "Human transfer",
+      "v": [
+       "system tool",
+       "yes"
+      ]
+     }
+    ]
+   },
+   "say": "India की phone calls में Bolna आगे है, क्योंकि Indian carriers सीधे मिलते हैं।",
+   "hl": [
+    "India",
+    "Bolna"
+   ],
+   "chip": "Bolna"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Languages और voice"
+   },
+   "say": "Chapter चार: languages और voice quality।",
+   "hl": [
+    "languages"
+   ],
+   "chip": "languages"
+  },
+  {
+   "tag": "EL VOICE",
+   "v": "stat",
+   "d": {
+    "value": "90+",
+    "label": "languages — Eleven v4 / v4 Turbo"
+   },
+   "say": "ElevenLabs का नया v4 Turbo, नब्बे से ज़्यादा languages support करता है।",
+   "hl": [
+    "नब्बे",
+    "v4"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "EL TURBO",
+   "v": "stat",
+   "d": {
+    "value": "~100ms",
+    "label": "v4 Turbo median inference"
+   },
+   "say": "और v4 Turbo की median latency लगभग सौ milliseconds, voice agents के लिए बना है।",
+   "hl": [
+    "सौ",
+    "milliseconds"
+   ],
+   "chip": "Turbo"
+  },
+  {
+   "tag": "BOLNA LANG",
+   "v": "stat",
+   "d": {
+    "value": "40+",
+    "label": "languages — Bolna agents"
+   },
+   "say": "Bolna चालीस से ज़्यादा languages में calls करता है, और call के बीच language switch भी।",
+   "hl": [
+    "चालीस",
+    "switch"
+   ],
+   "chip": "switch"
+  },
+  {
+   "tag": "BOLNA PROVIDERS",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Indian languages setup",
+    "rows": [
+     [
+      "Transcriber",
+      "Sarvam"
+     ],
+     [
+      "LLM",
+      "gpt-5.4-mini"
+     ],
+     [
+      "Voice",
+      "Sarvam"
+     ]
+    ]
+   },
+   "say": "Bolna के docs Indian languages के लिए Sarvam transcriber और Sarvam voice suggest करते हैं।",
+   "hl": [
+    "Sarvam"
+   ],
+   "chip": "Sarvam"
+  },
+  {
+   "tag": "SCORE",
+   "v": "versus",
+   "d": {
+    "bad": "Voice quality ही सब कुछ नहीं",
+    "good": "Language + latency + provider choice देखो"
+   },
+   "say": "Voice quality में ElevenLabs की पहचान है, provider choice में Bolna flexible है।",
+   "hl": [
+    "ElevenLabs",
+    "flexible"
+   ],
+   "chip": "flexible"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Pricing"
+   },
+   "say": "Chapter पाँच: पैसा कैसे कटता है।",
+   "hl": [
+    "पैसा"
+   ],
+   "chip": "पैसा"
+  },
+  {
+   "tag": "BOLNA PRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Bolna pricing",
+    "rows": [
+     [
+      "Voice AI",
+      "flat per-minute (preferred models)"
+     ],
+     [
+      "Telephony",
+      "carrier per minute"
+     ],
+     [
+      "Platform",
+      "per-minute fee"
+     ],
+     [
+      "Wallet",
+      "prepaid"
+     ]
+    ]
+   },
+   "say": "Bolna में preferred models पे flat per-minute rate, ऊपर से telephony और platform fee, prepaid wallet से।",
+   "hl": [
+    "flat",
+    "per-minute",
+    "wallet"
+   ],
+   "chip": "flat"
+  },
+  {
+   "tag": "BOLNA COST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Non-preferred model → variable rate",
+     "लंबी calls",
+     "Verbose LLM output",
+     "Premium voices"
+    ]
+   },
+   "say": "Cost बढ़ता है जब preferred list से बाहर का model चुनो, या calls लंबी हों।",
+   "hl": [
+    "preferred",
+    "लंबी"
+   ],
+   "chip": "preferred"
+  },
+  {
+   "tag": "EL PRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "ElevenAgents pricing",
+    "rows": [
+     [
+      "Agent बनाना",
+      "free"
+     ],
+     [
+      "Voice calls",
+      "per duration"
+     ],
+     [
+      "Silence >10s",
+      "95% discount"
+     ],
+     [
+      "LLM",
+      "अलग pass-through"
+     ]
+    ]
+   },
+   "say": "ElevenLabs में agent बनाना free है, calls duration से charge होती हैं, और दस second से लंबी silence पे पचानवे percent discount।",
+   "hl": [
+    "free",
+    "पचानवे"
+   ],
+   "chip": "पचानवे"
+  },
+  {
+   "tag": "PRICE TIP",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ per-minute rate देखना",
+    "good": "Telephony + LLM + silence भी जोड़ो"
+   },
+   "say": "Compare करते वक्त सिर्फ rate नहीं, telephony और LLM cost भी जोड़ो।",
+   "hl": [
+    "telephony",
+    "LLM"
+   ],
+   "chip": "LLM"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Privacy और open source"
+   },
+   "say": "Chapter छह: data कहाँ रहता है।",
+   "hl": [
+    "data"
+   ],
+   "chip": "data"
+  },
+  {
+   "tag": "BOLNA DATA",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Bolna data residency",
+    "rows": [
+     [
+      "Default",
+      "US (us-east-1)"
+     ],
+     [
+      "India option",
+      "Mumbai (ap-south-1)"
+     ],
+     [
+      "Enterprise",
+      "on-premise"
+     ]
+    ]
+   },
+   "say": "Bolna default में US में चलता है, पर Indian data residency, Mumbai servers पे, available है।",
+   "hl": [
+    "Mumbai",
+    "India"
+   ],
+   "chip": "Mumbai"
+  },
+  {
+   "tag": "BOLNA OSS",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Bolna open source",
+    "rows": [
+     [
+      "License",
+      "MIT"
+     ],
+     [
+      "Run",
+      "खुद host करो"
+     ],
+     [
+      "Setup",
+      "Docker"
+     ]
+    ]
+   },
+   "say": "और Bolna का open source version MIT license में है, Docker से खुद host कर सकते हो।",
+   "hl": [
+    "MIT",
+    "Docker"
+   ],
+   "chip": "MIT"
+  },
+  {
+   "tag": "EL DATA",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "ElevenAgents access",
+    "rows": [
+     [
+      "Auth",
+      "custom authentication"
+     ],
+     [
+      "Deploy",
+      "web, mobile, telephony"
+     ]
+    ]
+   },
+   "say": "ElevenAgents में agent access के लिए custom authentication मिलता है।",
+   "hl": [
+    "authentication"
+   ],
+   "chip": "authentication"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Final verdict"
+   },
+   "say": "अब final verdict।",
+   "hl": [
+    "verdict"
+   ],
+   "chip": "verdict"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Bolna",
+      "when": "India calling, Indian carriers, data residency, open source"
+     },
+     {
+      "who": "ElevenLabs",
+      "when": "Best voices, 90+ languages, web/app agents, low latency"
+     },
+     {
+      "who": "दोनों",
+      "when": "Bolna agent + ElevenLabs voice"
+     }
+    ]
+   },
+   "say": "India में phone calling, Indian carriers या data residency चाहिए, तो Bolna। Global voices और web agents के लिए ElevenLabs। और चाहो तो दोनों साथ।",
+   "hl": [
+    "Bolna",
+    "ElevenLabs",
+    "दोनों"
+   ],
+   "chip": "दोनों"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Summary",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "India phone calls",
+      "v": [
+       "ok",
+       "best"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Voice + languages",
+      "v": [
+       "best",
+       "provider choice"
+      ],
+      "win": 0
+     },
+     {
+      "k": "India data option",
+      "v": [
+       "check plan",
+       "Mumbai servers"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Open source",
+      "v": [
+       "no",
+       "MIT"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Testing / evals",
+      "v": [
+       "built-in",
+       "test calls"
+      ],
+      "win": 0
+     }
+    ]
+   },
+   "say": "ये रहा पूरा summary, screenshot ले लो।",
+   "hl": [
+    "screenshot"
+   ],
+   "chip": "screenshot"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप कौनसा use करोगे? Comment में लिखो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

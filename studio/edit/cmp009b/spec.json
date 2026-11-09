@@ -1,0 +1,289 @@
+{
+ "id": "cmp009b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "series": "AI COMPARISON",
+ "title": "Kling 4.0 vs Kling 3.0: Kya Badla? 30 Second Video, 10 Keyframes (2026)",
+ "thumb": {
+  "a": "Kling 3.0",
+  "b": "Kling 4.0",
+  "top": "AI VIDEO 2026",
+  "hook": "DOUBLE LENGTH!",
+  "accent": "#F2542D",
+  "colorA": "#3B3B3B",
+  "colorB": "#0B8F5A"
+ },
+ "tags": [
+  "kling 4.0 vs 3.0",
+  "kling 4.0",
+  "kling ai",
+  "ai video generator",
+  "kling keyframes",
+  "kling omni reference"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0 vs 3.0",
+    "pill": "AI VIDEO",
+    "stat": "30",
+    "sub": "seconds per generation"
+   },
+   "say": "Kling 4.0 आ गया। 3.0 से क्या सच में बेहतर है? पूरा फर्क देखो।",
+   "hl": [
+    "Kling",
+    "4.0",
+    "फर्क"
+   ],
+   "chip": "फर्क"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Length"
+   },
+   "say": "Chapter एक: video length।",
+   "hl": [
+    "length"
+   ],
+   "chip": "length"
+  },
+  {
+   "tag": "LEN",
+   "v": "table",
+   "d": {
+    "title": "Video length",
+    "cols": [
+     "Kling 3.0",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Per generation",
+      "v": [
+       "3–15 sec",
+       "3–30 sec"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "Kling 3.0 पंद्रह second तक, Kling 4.0 एक ही pass में तीस second तक।",
+   "hl": [
+    "पंद्रह",
+    "तीस"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "WHY",
+   "v": "versus",
+   "d": {
+    "bad": "15 sec clips जोड़ना",
+    "good": "30 sec का पूरा scene एक बार में"
+   },
+   "say": "मतलब पूरा ad या scene बिना जोड़-तोड़ के एक ही बार में।",
+   "hl": [
+    "पूरा",
+    "scene"
+   ],
+   "chip": "scene"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Control"
+   },
+   "say": "Chapter दो: control।",
+   "hl": [
+    "control"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "KEY",
+   "v": "table",
+   "d": {
+    "title": "Control",
+    "cols": [
+     "Kling 3.0",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Keyframes",
+      "v": [
+       "start + end frame",
+       "10 keyframes तक"
+      ],
+      "win": 1
+     },
+     {
+      "k": "References",
+      "v": [
+       "image, subject, video",
+       "15 combined"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "3.0 में start और end frame थे, 4.0 में दस keyframes तक, और पंद्रह references।",
+   "hl": [
+    "दस",
+    "keyframes",
+    "पंद्रह"
+   ],
+   "chip": "keyframes"
+  },
+  {
+   "tag": "OMNI",
+   "v": "list",
+   "d": {
+    "items": [
+     "10 images तक",
+     "5 videos (30 sec total)",
+     "7 elements",
+     "15 combined total"
+    ]
+   },
+   "say": "Omni Reference में दस images, पाँच videos, सात elements, कुल पंद्रह references।",
+   "hl": [
+    "Omni",
+    "Reference"
+   ],
+   "chip": "Omni"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Audio और editing"
+   },
+   "say": "Chapter तीन: audio और editing।",
+   "hl": [
+    "audio"
+   ],
+   "chip": "audio"
+  },
+  {
+   "tag": "AUDIO",
+   "v": "list",
+   "d": {
+    "items": [
+     "Stereo audio",
+     "Multilingual lip sync",
+     "Video editing"
+    ]
+   },
+   "say": "4.0 में stereo audio, multilingual lip sync, और video editing भी।",
+   "hl": [
+    "stereo",
+    "lip",
+    "sync"
+   ],
+   "chip": "stereo"
+  },
+  {
+   "tag": "FLASH",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "video",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Length",
+       "3–30 sec"
+      ],
+      [
+       "Keyframes",
+       "10 तक"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "4.0 Flash",
+     "rows": [
+      [
+       "Length",
+       "3–20 sec"
+      ],
+      [
+       "Keyframes",
+       "first frame only"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "say": "और 4.0 Flash तेज़ version है: बीस second तक, पर सिर्फ first frame।",
+   "hl": [
+    "Flash",
+    "बीस"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "say": "Upgrade करें?",
+   "hl": [
+    "Upgrade"
+   ],
+   "chip": "Upgrade"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Kling 4.0",
+      "when": "लंबे scenes, storyboard control, ads"
+     },
+     {
+      "who": "4.0 Flash",
+      "when": "जल्दी drafts, छोटे clips"
+     }
+    ]
+   },
+   "say": "लंबे scenes और control के लिए 4.0, जल्दी drafts के लिए Flash।",
+   "hl": [
+    "4.0",
+    "Flash"
+   ],
+   "chip": "4.0"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save करो, और ऐसे ही comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Save",
+    "subscribe"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

@@ -99,7 +99,8 @@ const LongVisual: React.FC<{ b: Beat; accent: string }> = ({ b, accent }) => {
 const LongBeat: React.FC<{ b: Beat; accent: string; len: number }> = ({ b, accent, len }) => {
   const f = useCurrentFrame();
   const out = interpolate(f, [len - 8, len], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const big = ["card", "list", "versus", "hook", "cta", "browser"].includes(b.v) ? 1.3 : ["table", "verdict", "duo"].includes(b.v) ? 1.1 : 1;   // cards read well on a phone
+  const nRows = ((b.d as any)?.rows?.length ?? (b.d as any)?.items?.length ?? 0) as number;
+  const big = b.v === "cta" ? 0.95 : ["card", "list"].includes(b.v) ? (nRows >= 4 ? 1.0 : 1.2) : ["versus", "hook", "browser"].includes(b.v) ? 1.25 : ["table", "verdict", "duo"].includes(b.v) ? 1.05 : 1;   // cards read well on a phone
   const zoom = big * (1 + 0.03 * interpolate(f, [0, len], [0, 1], { extrapolateRight: "clamp" }));   // slow push-in
   return (
     <AbsoluteFill style={{ opacity: out }}>

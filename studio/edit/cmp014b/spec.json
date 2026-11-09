@@ -1,0 +1,333 @@
+{
+ "id": "cmp014b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "CLAUDE MOTION",
+ "series": "AI COMPARISON",
+ "title": "Claude Motion vs Kling 4.0: Animation Ya AI Video? Kaunsa Kab Use Karein (2026)",
+ "thumb": {
+  "a": "Claude Motion",
+  "b": "Kling 4.0",
+  "top": "AI VIDEO 2026",
+  "hook": "DONO ALAG hai!",
+  "accent": "#F2542D",
+  "colorA": "#C2410C",
+  "colorB": "#0B8F5A"
+ },
+ "tags": [
+  "claude motion vs kling",
+  "claude motion",
+  "kling 4.0",
+  "ai animation",
+  "ai video generator",
+  "anthropic claude"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Motion vs Kling",
+    "pill": "AI VIDEO",
+    "stat": "2",
+    "sub": "बिलकुल अलग tools"
+   },
+   "say": "Claude Motion और Kling 4.0, दोनों video बनाते हैं, पर बिलकुल अलग तरीके से।",
+   "hl": [
+    "Claude",
+    "Motion",
+    "Kling"
+   ],
+   "chip": "अलग"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "कैसे बनता है"
+   },
+   "say": "Chapter एक: video बनता कैसे है।",
+   "hl": [
+    "कैसे"
+   ],
+   "chip": "कैसे"
+  },
+  {
+   "tag": "HOW",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "code",
+     "title": "Claude Motion",
+     "rows": [
+      [
+       "Method",
+       "Claude code लिखता है"
+      ],
+      [
+       "Animates",
+       "text, charts, images"
+      ],
+      [
+       "Video model",
+       "नहीं"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "video",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Method",
+       "video generation model"
+      ],
+      [
+       "Makes",
+       "realistic footage"
+      ],
+      [
+       "Inputs",
+       "text, image, keyframes"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "say": "Claude Motion code से animation बनाता है। Kling 4.0 एक video generation model है, realistic footage बनाता है।",
+   "hl": [
+    "code",
+    "realistic"
+   ],
+   "chip": "realistic"
+  },
+  {
+   "tag": "PEOPLE",
+   "v": "versus",
+   "d": {
+    "bad": "Claude Motion से असली लोग",
+    "good": "Claude Motion = charts, explainers"
+   },
+   "say": "इसलिए Claude Motion realistic लोग नहीं बनाता, वो explainers और charts के लिए है।",
+   "hl": [
+    "explainers",
+    "charts"
+   ],
+   "chip": "charts"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Use cases"
+   },
+   "say": "Chapter दो: use cases।",
+   "hl": [
+    "use"
+   ],
+   "chip": "use"
+  },
+  {
+   "tag": "MOTION USE",
+   "v": "list",
+   "d": {
+    "items": [
+     "All-hands explainer",
+     "Board deck chart",
+     "Onboarding walkthrough"
+    ]
+   },
+   "say": "Claude Motion: explainer, animated chart, product walkthrough।",
+   "hl": [
+    "explainer",
+    "chart"
+   ],
+   "chip": "chart"
+  },
+  {
+   "tag": "KLING USE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Product ads",
+     "Cinematic scenes",
+     "Character shots",
+     "30 sec single take"
+    ]
+   },
+   "say": "Kling: product ads, cinematic scenes, और तीस second का single take।",
+   "hl": [
+    "ads",
+    "cinematic"
+   ],
+   "chip": "cinematic"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Editing"
+   },
+   "say": "Chapter तीन: editing।",
+   "hl": [
+    "editing"
+   ],
+   "chip": "editing"
+  },
+  {
+   "tag": "EDIT",
+   "v": "table",
+   "d": {
+    "title": "Editing",
+    "cols": [
+     "Claude Motion",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Edit कैसे",
+      "v": [
+       "chat में Claude से",
+       "video editing"
+      ]
+     },
+     {
+      "k": "Shot control",
+      "v": [
+       "code animation",
+       "10 keyframes"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Export",
+      "v": [
+       "MP4",
+       "video file"
+      ]
+     }
+    ]
+   },
+   "say": "Motion में chat से Claude को बोलो, वो बदल देगा। Kling में shot control keyframes से।",
+   "hl": [
+    "chat",
+    "keyframes"
+   ],
+   "chip": "keyframes"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Access"
+   },
+   "say": "Chapter चार: कौन use कर सकता है।",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "ACCESS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "users",
+     "title": "Claude Motion",
+     "rows": [
+      [
+       "Plans",
+       "Team, Enterprise (beta)"
+      ],
+      [
+       "Cost",
+       "plan usage में"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Where",
+       "kling.ai"
+      ],
+      [
+       "Flash",
+       "3–20 sec"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "say": "Claude Motion अभी Team और Enterprise plans पे beta है, और plan usage में count होता है। Kling, kling dot ai पे मिलता है।",
+   "hl": [
+    "Team",
+    "Enterprise"
+   ],
+   "chip": "beta"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "say": "किसके लिए कौन?",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Claude Motion",
+      "when": "Data, explainers, reports, decks"
+     },
+     {
+      "who": "Kling 4.0",
+      "when": "Ads, cinematic, realistic footage"
+     },
+     {
+      "who": "दोनों",
+      "when": "Kling shot + Motion chart overlay"
+     }
+    ]
+   },
+   "say": "Data और explainers के लिए Claude Motion, realistic footage के लिए Kling, और दोनों साथ भी चलेंगे।",
+   "hl": [
+    "Motion",
+    "Kling",
+    "दोनों"
+   ],
+   "chip": "दोनों"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप कौनसा try करोगे? Comment करो, और Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}
