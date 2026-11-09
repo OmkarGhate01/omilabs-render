@@ -1,0 +1,124 @@
+{
+ "id": "kl008",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Se Product Videos Kaise Banayein",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "PRODUCT",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "PRODUCT ADS",
+    "stat": "15",
+    "sub": "references"
+   },
+   "say": "Kling 4.0 से product video कैसे बनाएँ?",
+   "hl": [
+    "Kling",
+    "product",
+    "video"
+   ],
+   "chip": "product"
+  },
+  {
+   "tag": "PHOTOS",
+   "v": "card",
+   "d": {
+    "icon": "image",
+    "title": "Product photos",
+    "rows": [
+     [
+      "Angles",
+      "अलग-अलग"
+     ],
+     [
+      "Background",
+      "clean"
+     ]
+    ]
+   },
+   "say": "Product की साफ photos लो, अलग अलग angles से।",
+   "hl": [
+    "photos",
+    "angles"
+   ],
+   "chip": "angles"
+  },
+  {
+   "tag": "OMNI",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Omni Reference",
+    "rows": [
+     [
+      "Images",
+      "10 तक"
+     ],
+     [
+      "Same product",
+      "हर shot में"
+     ]
+    ]
+   },
+   "say": "Omni Reference में ये images डालो, product हर shot में same रहेगा।",
+   "hl": [
+    "Omni",
+    "same"
+   ],
+   "chip": "same"
+  },
+  {
+   "tag": "PROMPT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Product + surface",
+     "Movement (orbit)",
+     "Lighting",
+     "Commercial style"
+    ]
+   },
+   "say": "Prompt: product, surface, movement, lighting, commercial style।",
+   "hl": [
+    "movement",
+    "lighting"
+   ],
+   "chip": "lighting"
+  },
+  {
+   "tag": "LENGTH",
+   "v": "stat",
+   "d": {
+    "value": "30s",
+    "label": "पूरा ad एक generation में"
+   },
+   "say": "तीस second में पूरा ad एक ही बार में।",
+   "hl": [
+    "तीस",
+    "ad"
+   ],
+   "chip": "ad"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

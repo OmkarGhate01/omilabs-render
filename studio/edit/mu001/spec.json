@@ -1,0 +1,120 @@
+{
+ "id": "mu001",
+ "series": "MUSE AI",
+ "title": "Meta Muse AI Kya Hai? Personal AI Agent Explained",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "WHAT",
+   "v": "hook",
+   "d": {
+    "brand": "Meta Muse",
+    "pill": "PERSONAL AI AGENT",
+    "stat": "8 Sep",
+    "sub": "launch 2026"
+   },
+   "say": "Muse AI, Meta का नया personal AI agent है।",
+   "hl": [
+    "Muse",
+    "AI",
+    "agent"
+   ],
+   "chip": "agent"
+  },
+  {
+   "tag": "NOT A CHATBOT",
+   "v": "versus",
+   "d": {
+    "bad": "Chatbot — सिर्फ जवाब देता है",
+    "good": "Muse — काम खुद करता है"
+   },
+   "say": "ये सिर्फ जवाब नहीं देता, काम खुद करता है।",
+   "hl": [
+    "काम",
+    "खुद"
+   ],
+   "chip": "खुद"
+  },
+  {
+   "tag": "TASKS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Emails draft और send",
+     "Travel booking",
+     "Forms भरना",
+     "Goals → action plan"
+    ]
+   },
+   "say": "Emails, travel booking, forms भरना, और आपके goals का plan बनाना।",
+   "hl": [
+    "Emails",
+    "travel",
+    "forms",
+    "goals"
+   ],
+   "chip": "goals"
+  },
+  {
+   "tag": "WHERE",
+   "v": "card",
+   "d": {
+    "icon": "mobile",
+    "title": "कहाँ चलता है",
+    "rows": [
+     [
+      "App",
+      "iOS, Android"
+     ],
+     [
+      "Web",
+      "muse.ai"
+     ],
+     [
+      "Chat",
+      "WhatsApp"
+     ]
+    ]
+   },
+   "say": "Muse app में या सीधे WhatsApp पर chat करके काम दो।",
+   "hl": [
+    "WhatsApp",
+    "app"
+   ],
+   "chip": "WhatsApp"
+  },
+  {
+   "tag": "WHO",
+   "v": "stat",
+   "d": {
+    "value": "US",
+    "label": "अभी सिर्फ United States, 18+"
+   },
+   "say": "अभी ये सिर्फ US में, अठारह साल से ऊपर वालों के लिए है।",
+   "hl": [
+    "US",
+    "अठारह"
+   ],
+   "chip": "US"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

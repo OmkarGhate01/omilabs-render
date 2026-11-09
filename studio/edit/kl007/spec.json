@@ -1,0 +1,119 @@
+{
+ "id": "kl007",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Camera Movements: Cinematic Shots Kaise Banayein",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "CAMERA",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "CINEMATIC",
+    "stat": "10",
+    "sub": "keyframes"
+   },
+   "say": "Kling 4.0 में cinematic camera shots ऐसे बनाओ।",
+   "hl": [
+    "Kling",
+    "cinematic",
+    "camera"
+   ],
+   "chip": "camera"
+  },
+  {
+   "tag": "WORDS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Slow push in",
+     "Pan left / right",
+     "Tracking shot",
+     "Orbit shot"
+    ]
+   },
+   "say": "Prompt में लिखो: slow push in, pan, tracking या orbit shot।",
+   "hl": [
+    "push",
+    "tracking",
+    "orbit"
+   ],
+   "chip": "orbit"
+  },
+  {
+   "tag": "STABLE",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "4.0 focus",
+    "rows": [
+     [
+      "Motion",
+      "ज़्यादा stable"
+     ],
+     [
+      "Tracking/orbit",
+      "smoother"
+     ]
+    ]
+   },
+   "say": "Kling 4.0 का focus है stable motion और smooth tracking, orbit shots।",
+   "hl": [
+    "stable",
+    "smooth"
+   ],
+   "chip": "stable"
+  },
+  {
+   "tag": "KEYFRAMES",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Keyframe 1",
+     "Keyframe 2",
+     "… 10 तक"
+    ]
+   },
+   "say": "Shot कहाँ जाए, ये keyframes से pin करो।",
+   "hl": [
+    "keyframes",
+    "pin"
+   ],
+   "chip": "pin"
+  },
+  {
+   "tag": "COMBINE",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ camera word",
+    "good": "Camera + subject + light एक prompt में"
+   },
+   "say": "Camera, subject और light को एक prompt में जोड़ो।",
+   "hl": [
+    "Camera",
+    "subject",
+    "light"
+   ],
+   "chip": "जोड़ो"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

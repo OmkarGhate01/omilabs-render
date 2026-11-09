@@ -1,0 +1,121 @@
+{
+ "id": "mu005",
+ "series": "MUSE AI",
+ "title": "Meta Muse Secure VM: Har User Ka Apna Cloud Computer",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "SECURE VM",
+   "v": "hook",
+   "d": {
+    "brand": "Muse Secure VM",
+    "pill": "SECURITY",
+    "stat": "1",
+    "sub": "VM per user"
+   },
+   "say": "Muse AI हर user को अपना cloud computer देता है।",
+   "hl": [
+    "Muse",
+    "cloud",
+    "computer"
+   ],
+   "chip": "computer"
+  },
+  {
+   "tag": "WHAT",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Muse Secure VM",
+    "rows": [
+     [
+      "Type",
+      "dedicated virtual machine"
+     ],
+     [
+      "अंदर",
+      "agent + आपका data"
+     ]
+    ]
+   },
+   "say": "इसे Muse Secure VM कहते हैं, agent और आपका data इसी में रहता है।",
+   "hl": [
+    "Secure",
+    "VM",
+    "data"
+   ],
+   "chip": "VM"
+  },
+  {
+   "tag": "ISOLATED",
+   "v": "versus",
+   "d": {
+    "bad": "Shared machine",
+    "good": "किसी और का agent पहुँच नहीं सकता"
+   },
+   "say": "ये contained है, किसी और का agent इस तक नहीं पहुँच सकता।",
+   "hl": [
+    "contained",
+    "नहीं"
+   ],
+   "chip": "contained"
+  },
+  {
+   "tag": "PASSWORDS",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Credentials",
+    "rows": [
+     [
+      "Storage",
+      "secure store"
+     ],
+     [
+      "Agent",
+      "passwords देख नहीं सकता"
+     ]
+    ]
+   },
+   "say": "Logins secure storage में रहते हैं, agent उन्हें देख नहीं सकता।",
+   "hl": [
+    "secure",
+    "देख"
+   ],
+   "chip": "secure"
+  },
+  {
+   "tag": "NEXT",
+   "v": "stat",
+   "d": {
+    "value": "Soon",
+    "label": "Muse Confidential VM — सिर्फ आपकी key"
+   },
+   "say": "आगे Confidential VM आएगा, जिसकी key सिर्फ आपके पास होगी।",
+   "hl": [
+    "Confidential",
+    "key"
+   ],
+   "chip": "key"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

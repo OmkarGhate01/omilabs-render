@@ -1,0 +1,128 @@
+{
+ "id": "ev006",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs v4 API: Developer Quick Start",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "API",
+   "v": "hook",
+   "d": {
+    "brand": "ElevenAPI",
+    "pill": "DEVELOPERS",
+    "stat": "3",
+    "sub": "steps"
+   },
+   "say": "ElevenLabs v4 API, तीन steps में।",
+   "hl": [
+    "ElevenLabs",
+    "API"
+   ],
+   "chip": "API"
+  },
+  {
+   "tag": "KEY",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "API key",
+    "rows": [
+     [
+      "Dashboard",
+      "Settings → API keys"
+     ],
+     [
+      "Store",
+      ".env में secret"
+     ]
+    ]
+   },
+   "say": "Dashboard के settings में API key बनाओ, env file में रखो।",
+   "hl": [
+    "API",
+    "key"
+   ],
+   "chip": "key"
+  },
+  {
+   "tag": "SDK",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Install",
+    "rows": [
+     [
+      "Python",
+      "pip install elevenlabs"
+     ],
+     [
+      "JS",
+      "npm i @elevenlabs/elevenlabs-js"
+     ]
+    ]
+   },
+   "say": "Python में pip install elevenlabs।",
+   "hl": [
+    "pip",
+    "install"
+   ],
+   "chip": "install"
+  },
+  {
+   "tag": "MODEL",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "model_id",
+    "rows": [
+     [
+      "Quality",
+      "eleven_v4"
+     ],
+     [
+      "Agents",
+      "eleven_v4_turbo"
+     ]
+    ]
+   },
+   "say": "Model id में eleven v4 या v4 Turbo डालो।",
+   "hl": [
+    "eleven",
+    "v4"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "SECURITY",
+   "v": "versus",
+   "d": {
+    "bad": "Key code में hardcode",
+    "good": "Key managed secret में"
+   },
+   "say": "API key कभी code में hardcode मत करो।",
+   "hl": [
+    "hardcode"
+   ],
+   "chip": "hardcode"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

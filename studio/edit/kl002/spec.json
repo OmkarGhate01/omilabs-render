@@ -1,0 +1,126 @@
+{
+ "id": "kl002",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Account Kaise Banayein Aur Pehla Video",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "START",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "GET STARTED",
+    "stat": "3",
+    "sub": "steps"
+   },
+   "say": "Kling 4.0 पे पहला video, तीन steps में।",
+   "hl": [
+    "Kling",
+    "पहला",
+    "video"
+   ],
+   "chip": "video"
+  },
+  {
+   "tag": "STEP 1",
+   "v": "browser",
+   "d": {
+    "url": "kling.ai",
+    "button": "Sign In"
+   },
+   "say": "पहले kling dot ai खोलो और sign in करो।",
+   "hl": [
+    "kling",
+    "dot",
+    "ai"
+   ],
+   "chip": "kling"
+  },
+  {
+   "tag": "STEP 2",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "Model चुनो",
+    "rows": [
+     [
+      "Kling 4.0",
+      "3–30 sec"
+     ],
+     [
+      "4.0 Flash",
+      "3–20 sec, faster"
+     ]
+    ],
+    "hl": 0
+   },
+   "say": "Model में Kling 4.0 या तेज़ वाला 4.0 Flash चुनो।",
+   "hl": [
+    "4.0",
+    "Flash"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "STEP 3",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Prompt लिखो",
+     "Duration चुनो",
+     "Generate"
+    ]
+   },
+   "say": "Prompt लिखो, duration चुनो, generate करो।",
+   "hl": [
+    "Prompt",
+    "duration",
+    "generate"
+   ],
+   "chip": "generate"
+  },
+  {
+   "tag": "CREDITS",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Credits",
+    "rows": [
+     [
+      "लंबी video",
+      "ज़्यादा credits"
+     ],
+     [
+      "Check",
+      "generate से पहले estimate"
+     ]
+    ]
+   },
+   "say": "लंबी video में ज़्यादा credits लगते हैं, पहले estimate देखो।",
+   "hl": [
+    "credits",
+    "estimate"
+   ],
+   "chip": "estimate"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

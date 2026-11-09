@@ -1,0 +1,122 @@
+{
+ "id": "ev008",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs v4 Hindi Voice: Best Results Kaise Paayein",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "HINDI",
+   "v": "hook",
+   "d": {
+    "brand": "Eleven v4",
+    "pill": "HINDI",
+    "stat": "90+",
+    "sub": "languages"
+   },
+   "say": "ElevenLabs v4 में Hindi voice के best results ऐसे।",
+   "hl": [
+    "ElevenLabs",
+    "Hindi"
+   ],
+   "chip": "Hindi"
+  },
+  {
+   "tag": "LANG",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Languages",
+    "rows": [
+     [
+      "v4",
+      "90+ languages"
+     ],
+     [
+      "Hindi",
+      "supported"
+     ]
+    ]
+   },
+   "say": "v4 नब्बे plus languages support करता है।",
+   "hl": [
+    "नब्बे",
+    "languages"
+   ],
+   "chip": "languages"
+  },
+  {
+   "tag": "ACCENT",
+   "v": "versus",
+   "d": {
+    "bad": "English voice → Hindi में English accent",
+    "good": "v4: Hindi में natural, fluent"
+   },
+   "say": "English voice से भी Hindi में natural accent आता है।",
+   "hl": [
+    "natural",
+    "accent"
+   ],
+   "chip": "natural"
+  },
+  {
+   "tag": "CLONE",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "अपनी Hindi voice",
+    "rows": [
+     [
+      "Record",
+      "Hindi में, clean"
+     ],
+     [
+      "Style",
+      "एक ही tone"
+     ]
+    ]
+   },
+   "say": "अपनी voice चाहिए तो Hindi में clean audio, एक ही tone में record करो।",
+   "hl": [
+    "clean",
+    "tone"
+   ],
+   "chip": "clean"
+  },
+  {
+   "tag": "TAGS",
+   "v": "list",
+   "d": {
+    "items": [
+     "[excited]",
+     "[whispering]",
+     "[pause]"
+    ]
+   },
+   "say": "और audio tags से emotion add करो।",
+   "hl": [
+    "tags",
+    "emotion"
+   ],
+   "chip": "emotion"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

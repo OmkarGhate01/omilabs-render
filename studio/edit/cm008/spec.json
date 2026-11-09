@@ -1,0 +1,106 @@
+{
+ "id": "cm008",
+ "series": "CLAUDE MOTION",
+ "title": "Claude Motion Export Aur Share Kaise Karein",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "CLAUDE MOTION",
+ "beats": [
+  {
+   "tag": "EXPORT",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Motion",
+    "pill": "EXPORT",
+    "stat": "MP4",
+    "sub": "format"
+   },
+   "say": "Claude Motion से export और share कैसे करें?",
+   "hl": [
+    "Claude",
+    "Motion",
+    "export"
+   ],
+   "chip": "export"
+  },
+  {
+   "tag": "FORMAT",
+   "v": "stat",
+   "d": {
+    "value": "MP4",
+    "label": "Export format — सिर्फ MP4"
+   },
+   "say": "Export का format एक ही है, MP4।",
+   "hl": [
+    "MP4"
+   ],
+   "chip": "MP4"
+  },
+  {
+   "tag": "PRIVATE",
+   "v": "versus",
+   "d": {
+    "bad": "Default में सब देख सकते हैं",
+    "good": "Default में सिर्फ आप"
+   },
+   "say": "Animation default में private रहता है, सिर्फ आपके लिए।",
+   "hl": [
+    "private"
+   ],
+   "chip": "private"
+  },
+  {
+   "tag": "SHARE",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Animation खोलो",
+     "Share",
+     "Team को भेजो"
+    ]
+   },
+   "say": "Share करना है तो animation खोलो और Share click करो।",
+   "hl": [
+    "Share"
+   ],
+   "chip": "Share"
+  },
+  {
+   "tag": "NEXT TOOLS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Adobe",
+     "Descript",
+     "HeyGen",
+     "invideo",
+     "Canva (soon)"
+    ]
+   },
+   "say": "आगे edit के लिए Adobe, Descript, HeyGen में खोल सकते हो।",
+   "hl": [
+    "Adobe",
+    "Descript",
+    "HeyGen"
+   ],
+   "chip": "Adobe"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

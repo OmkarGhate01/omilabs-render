@@ -1,0 +1,124 @@
+{
+ "id": "mu002",
+ "series": "MUSE AI",
+ "title": "Meta Muse Free Hai? 100 Million Tokens Per Week Explained",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "FREE?",
+   "v": "hook",
+   "d": {
+    "brand": "Meta Muse",
+    "pill": "FREE TIER",
+    "stat": "100M",
+    "sub": "tokens per week"
+   },
+   "say": "Muse AI free है? हाँ, free tier मिलता है।",
+   "hl": [
+    "Muse",
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "ALLOWANCE",
+   "v": "stat",
+   "d": {
+    "value": "100M",
+    "label": "tokens / week (Zuckerberg)"
+   },
+   "say": "Zuckerberg के मुताबिक free में हर हफ्ते सौ million tokens तक।",
+   "hl": [
+    "सौ",
+    "million",
+    "tokens"
+   ],
+   "chip": "million"
+  },
+  {
+   "tag": "CATCH",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "ध्यान दो",
+    "rows": [
+     [
+      "Card",
+      "signup पे ज़रूरी"
+     ],
+     [
+      "Country",
+      "US only"
+     ],
+     [
+      "Age",
+      "18+"
+     ]
+    ]
+   },
+   "say": "पर signup पे payment card ज़रूरी है, और अभी सिर्फ US में।",
+   "hl": [
+    "card",
+    "US"
+   ],
+   "chip": "card"
+  },
+  {
+   "tag": "TOKENS",
+   "v": "versus",
+   "d": {
+    "bad": "Chat tokens = agent tokens",
+    "good": "Agent काम में tokens जल्दी खर्च होते हैं"
+   },
+   "say": "याद रखो, agent के लंबे tasks में tokens जल्दी खर्च होते हैं।",
+   "hl": [
+    "agent",
+    "tokens"
+   ],
+   "chip": "tokens"
+  },
+  {
+   "tag": "RESET",
+   "v": "card",
+   "d": {
+    "icon": "clock",
+    "title": "Weekly reset",
+    "rows": [
+     [
+      "Quota",
+      "हर हफ्ते reset"
+     ],
+     [
+      "ज़्यादा चाहिए?",
+      "paid plan"
+     ]
+    ]
+   },
+   "say": "Quota हर हफ्ते reset होता है, ज़्यादा चाहिए तो paid plan।",
+   "hl": [
+    "हफ्ते",
+    "reset"
+   ],
+   "chip": "reset"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

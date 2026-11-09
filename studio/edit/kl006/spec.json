@@ -1,0 +1,118 @@
+{
+ "id": "kl006",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 vs Kling 3.0: Kya Badla?",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "4 vs 3",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "VS 3.0",
+    "stat": "4",
+    "sub": "big upgrades"
+   },
+   "say": "Kling 4.0 और 3.0 में क्या बदला?",
+   "hl": [
+    "Kling",
+    "4.0",
+    "3.0"
+   ],
+   "chip": "4.0"
+  },
+  {
+   "tag": "LENGTH",
+   "v": "versus",
+   "d": {
+    "bad": "3.0: 15 sec तक",
+    "good": "4.0: 30 sec तक"
+   },
+   "say": "Length, पंद्रह से तीस second।",
+   "hl": [
+    "पंद्रह",
+    "तीस"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "KEYFRAMES",
+   "v": "versus",
+   "d": {
+    "bad": "3.0: start और end frame",
+    "good": "4.0: 10 keyframes तक"
+   },
+   "say": "Keyframes, start end से बढ़कर दस तक।",
+   "hl": [
+    "दस",
+    "keyframes"
+   ],
+   "chip": "दस"
+  },
+  {
+   "tag": "REFERENCES",
+   "v": "card",
+   "d": {
+    "icon": "image",
+    "title": "Omni Reference",
+    "rows": [
+     [
+      "Total",
+      "15 assets"
+     ],
+     [
+      "Images",
+      "10 तक"
+     ],
+     [
+      "Videos",
+      "5 (30 sec total)"
+     ]
+    ]
+   },
+   "say": "Omni Reference में पंद्रह assets, दस images, पाँच videos।",
+   "hl": [
+    "Omni",
+    "पंद्रह"
+   ],
+   "chip": "Omni"
+  },
+  {
+   "tag": "AUDIO",
+   "v": "list",
+   "d": {
+    "items": [
+     "Two-channel stereo",
+     "Multilingual lip sync",
+     "Video editing"
+    ]
+   },
+   "say": "साथ में stereo audio, lip sync और video editing।",
+   "hl": [
+    "stereo",
+    "lip",
+    "sync"
+   ],
+   "chip": "stereo"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

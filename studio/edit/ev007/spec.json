@@ -1,0 +1,118 @@
+{
+ "id": "ev007",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs v3 vs v4: Kya Naya Aaya?",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "V3 VS V4",
+   "v": "hook",
+   "d": {
+    "brand": "Eleven v4",
+    "pill": "VS V3",
+    "stat": "4",
+    "sub": "upgrades"
+   },
+   "say": "ElevenLabs v3 versus v4, क्या नया आया?",
+   "hl": [
+    "v3",
+    "v4"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "ACCURACY",
+   "v": "versus",
+   "d": {
+    "bad": "v3: clone थोड़ा अलग",
+    "good": "v4: source voice ज़्यादा faithful"
+   },
+   "say": "v4 clone को source voice के ज़्यादा करीब रखता है।",
+   "hl": [
+    "clone",
+    "करीब"
+   ],
+   "chip": "करीब"
+  },
+  {
+   "tag": "ACCENT",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Native accent",
+    "rows": [
+     [
+      "Same language",
+      "accent वही"
+     ],
+     [
+      "Other language",
+      "fluent, native"
+     ]
+    ]
+   },
+   "say": "दूसरी language में v4 fluent native accent में बोलता है।",
+   "hl": [
+    "native",
+    "accent"
+   ],
+   "chip": "native"
+  },
+  {
+   "tag": "SETTINGS",
+   "v": "card",
+   "d": {
+    "icon": "wave",
+    "title": "Settings",
+    "rows": [
+     [
+      "v4",
+      "Stability + Similarity"
+     ],
+     [
+      "Removed",
+      "Style, Speed, SSML"
+     ]
+    ]
+   },
+   "say": "v4 में Style, Speed और SSML नहीं है।",
+   "hl": [
+    "Style",
+    "SSML"
+   ],
+   "chip": "SSML"
+  },
+  {
+   "tag": "ADVICE",
+   "v": "stat",
+   "d": {
+    "value": "Test",
+    "label": "अपनी voice पे v3 vs v4 compare करो"
+   },
+   "say": "Docs की सलाह: अपनी voice पे दोनों compare करो।",
+   "hl": [
+    "compare"
+   ],
+   "chip": "compare"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

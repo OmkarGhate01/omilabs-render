@@ -1,0 +1,120 @@
+{
+ "id": "kl003",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Image To Video: Photo Ko Animate Karo",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "IMG→VIDEO",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "IMAGE TO VIDEO",
+    "stat": "10",
+    "sub": "keyframes तक"
+   },
+   "say": "Kling 4.0 से photo को video में बदलो।",
+   "hl": [
+    "Kling",
+    "photo",
+    "video"
+   ],
+   "chip": "photo"
+  },
+  {
+   "tag": "FIRST FRAME",
+   "v": "card",
+   "d": {
+    "icon": "image",
+    "title": "First frame",
+    "rows": [
+     [
+      "Upload",
+      "अपनी photo"
+     ],
+     [
+      "Kling",
+      "उसी से start"
+     ]
+    ]
+   },
+   "say": "Photo को first frame बनाओ, video वहीं से शुरू होगी।",
+   "hl": [
+    "first",
+    "frame"
+   ],
+   "chip": "frame"
+  },
+  {
+   "tag": "LAST FRAME",
+   "v": "card",
+   "d": {
+    "icon": "image",
+    "title": "Last frame",
+    "rows": [
+     [
+      "Optional",
+      "ending image"
+     ],
+     [
+      "Result",
+      "start → end motion"
+     ]
+    ]
+   },
+   "say": "चाहो तो last frame भी दो, Kling बीच की motion बनाएगा।",
+   "hl": [
+    "last",
+    "motion"
+   ],
+   "chip": "motion"
+  },
+  {
+   "tag": "PROMPT",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ photo, no prompt",
+    "good": "Photo + motion prompt (क्या हिले)"
+   },
+   "say": "साथ में लिखो क्या हिलना चाहिए, camera कैसे चले।",
+   "hl": [
+    "हिलना",
+    "camera"
+   ],
+   "chip": "camera"
+  },
+  {
+   "tag": "FLASH",
+   "v": "stat",
+   "d": {
+    "value": "Flash",
+    "label": "सिर्फ first frame support"
+   },
+   "say": "ध्यान दो, 4.0 Flash में सिर्फ first frame चलता है।",
+   "hl": [
+    "Flash",
+    "first"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

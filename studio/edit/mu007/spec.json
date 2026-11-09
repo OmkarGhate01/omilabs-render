@@ -1,0 +1,123 @@
+{
+ "id": "mu007",
+ "series": "MUSE AI",
+ "title": "Meta Muse Se Shopping Safe Hai? Payments Explained",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "PAYMENTS",
+   "v": "hook",
+   "d": {
+    "brand": "Muse Checkout",
+    "pill": "PAYMENTS",
+    "stat": "1x",
+    "sub": "one-time card"
+   },
+   "say": "Muse AI से shopping safe है? Payment ऐसे काम करता है।",
+   "hl": [
+    "Muse",
+    "shopping",
+    "safe"
+   ],
+   "chip": "safe"
+  },
+  {
+   "tag": "STRIPE LINK",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Stripe Link",
+    "rows": [
+     [
+      "Checkout",
+      "Link से"
+     ],
+     [
+      "Card",
+      "one-time number"
+     ]
+    ]
+   },
+   "say": "Checkout Stripe Link से होता है, one-time card number के साथ।",
+   "hl": [
+    "Stripe",
+    "Link",
+    "one-time"
+   ],
+   "chip": "one-time"
+  },
+  {
+   "tag": "APPROVAL",
+   "v": "versus",
+   "d": {
+    "bad": "Agent खुद pay कर दे",
+    "good": "Purchase से पहले आपकी approval"
+   },
+   "say": "Purchase से पहले approval आपसे ली जाती है।",
+   "hl": [
+    "approval"
+   ],
+   "chip": "approval"
+  },
+  {
+   "tag": "COMING",
+   "v": "list",
+   "d": {
+    "items": [
+     "Shop Pay — जल्द",
+     "1Password — जल्द"
+    ]
+   },
+   "say": "Shop Pay और 1Password support भी जल्द आ रहा है।",
+   "hl": [
+    "Shop",
+    "Pay",
+    "1Password"
+   ],
+   "chip": "जल्द"
+  },
+  {
+   "tag": "TIP",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Tip",
+    "rows": [
+     [
+      "हर purchase",
+      "review करो"
+     ],
+     [
+      "Log",
+      "audit में देखो"
+     ]
+    ]
+   },
+   "say": "Tip: हर purchase review करो, और activity log check करो।",
+   "hl": [
+    "review",
+    "log"
+   ],
+   "chip": "review"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

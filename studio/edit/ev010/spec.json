@@ -1,0 +1,123 @@
+{
+ "id": "ev010",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs Dubbing: Video Ko Hindi Mein Dub Karo",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "DUBBING",
+   "v": "hook",
+   "d": {
+    "brand": "ElevenLabs",
+    "pill": "DUBBING",
+    "stat": "90+",
+    "sub": "languages"
+   },
+   "say": "ElevenLabs dubbing से video को Hindi में dub करो।",
+   "hl": [
+    "ElevenLabs",
+    "dubbing",
+    "Hindi"
+   ],
+   "chip": "Hindi"
+  },
+  {
+   "tag": "INPUT",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "Input",
+    "rows": [
+     [
+      "File",
+      "video / audio upload"
+     ],
+     [
+      "URL",
+      "YouTube, TikTok link"
+     ]
+    ]
+   },
+   "say": "File upload करो, या YouTube का URL paste करो।",
+   "hl": [
+    "upload",
+    "URL"
+   ],
+   "chip": "URL"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Upload",
+     "Language चुनो",
+     "Speaker detection",
+     "Dub"
+    ]
+   },
+   "say": "Language चुनो, AI speakers detect करके dub करता है।",
+   "hl": [
+    "Language",
+    "speakers"
+   ],
+   "chip": "speakers"
+  },
+  {
+   "tag": "SIMILARITY",
+   "v": "card",
+   "d": {
+    "icon": "wave",
+    "title": "Speaker similarity",
+    "rows": [
+     [
+      "Scale",
+      "0–10"
+     ],
+     [
+      "Default",
+      "7"
+     ]
+    ]
+   },
+   "say": "Speaker similarity default सात पे रखो, ज़्यादातर content के लिए ठीक है।",
+   "hl": [
+    "similarity",
+    "सात"
+   ],
+   "chip": "सात"
+  },
+  {
+   "tag": "COST",
+   "v": "versus",
+   "d": {
+    "bad": "ज़्यादा languages बिना सोचे",
+    "good": "हर language का अलग charge"
+   },
+   "say": "ध्यान रहे, हर language का अलग charge लगता है।",
+   "hl": [
+    "charge"
+   ],
+   "chip": "charge"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

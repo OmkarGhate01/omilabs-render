@@ -1,0 +1,133 @@
+{
+ "id": "mu003",
+ "series": "MUSE AI",
+ "title": "Meta Muse Plans: Free vs Power $20 vs Maximum $100",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "PLANS",
+   "v": "hook",
+   "d": {
+    "brand": "Meta Muse",
+    "pill": "PRICING",
+    "stat": "3",
+    "sub": "plans"
+   },
+   "say": "Muse AI के तीन plans हैं, कौनसा लें?",
+   "hl": [
+    "Muse",
+    "तीन",
+    "plans"
+   ],
+   "chip": "plans"
+  },
+  {
+   "tag": "FREE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Free",
+    "rows": [
+     [
+      "Price",
+      "$0"
+     ],
+     [
+      "Tokens",
+      "~100M / week"
+     ]
+    ]
+   },
+   "say": "Free plan, zero dollar, लगभग सौ million tokens हर हफ्ते।",
+   "hl": [
+    "Free",
+    "zero"
+   ],
+   "chip": "Free"
+  },
+  {
+   "tag": "POWER",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Power",
+    "rows": [
+     [
+      "Price",
+      "$20 / month"
+     ],
+     [
+      "Tokens",
+      "500M / week"
+     ]
+    ],
+    "hl": 1
+   },
+   "say": "Power plan, बीस dollar महीना, पाँच सौ million tokens हर हफ्ते।",
+   "hl": [
+    "Power",
+    "बीस",
+    "dollar"
+   ],
+   "chip": "Power"
+  },
+  {
+   "tag": "MAXIMUM",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Maximum",
+    "rows": [
+     [
+      "Price",
+      "$100 / month"
+     ],
+     [
+      "Tokens",
+      "3B / week"
+     ]
+    ],
+    "hl": 1
+   },
+   "say": "Maximum plan, सौ dollar महीना, तीन billion tokens हर हफ्ते।",
+   "hl": [
+    "Maximum",
+    "billion"
+   ],
+   "chip": "Maximum"
+  },
+  {
+   "tag": "SAME FEATURES",
+   "v": "versus",
+   "d": {
+    "bad": "Paid = extra features",
+    "good": "Paid = सिर्फ ज़्यादा usage"
+   },
+   "say": "Paid plans में features वही हैं, बस usage ज़्यादा मिलता है।",
+   "hl": [
+    "features",
+    "usage"
+   ],
+   "chip": "usage"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

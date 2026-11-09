@@ -1,0 +1,132 @@
+{
+ "id": "mu004",
+ "series": "MUSE AI",
+ "title": "Meta Muse Kya Kya Kar Sakta Hai? 5 Real Tasks",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "TASKS",
+   "v": "hook",
+   "d": {
+    "brand": "Meta Muse",
+    "pill": "WHAT IT DOES",
+    "stat": "5",
+    "sub": "real tasks"
+   },
+   "say": "Muse AI असल में क्या कर सकता है? पाँच काम देखो।",
+   "hl": [
+    "Muse",
+    "पाँच"
+   ],
+   "chip": "पाँच"
+  },
+  {
+   "tag": "EMAIL",
+   "v": "card",
+   "d": {
+    "icon": "mail",
+    "title": "Email",
+    "rows": [
+     [
+      "Draft",
+      "करता है"
+     ],
+     [
+      "Send",
+      "आपकी approval से"
+     ]
+    ]
+   },
+   "say": "एक, emails draft और send करना।",
+   "hl": [
+    "emails"
+   ],
+   "chip": "emails"
+  },
+  {
+   "tag": "TRAVEL",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Travel",
+    "rows": [
+     [
+      "Flights",
+      "book"
+     ],
+     [
+      "Plans",
+      "organize"
+     ]
+    ]
+   },
+   "say": "दो, travel book करना। तीन, websites पे forms भरना।",
+   "hl": [
+    "travel",
+    "forms"
+   ],
+   "chip": "travel"
+  },
+  {
+   "tag": "SHOPPING",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Shopping",
+    "rows": [
+     [
+      "Checkout",
+      "Stripe Link से"
+     ],
+     [
+      "Approval",
+      "purchase से पहले"
+     ]
+    ]
+   },
+   "say": "चार, shopping, आपकी approval के साथ।",
+   "hl": [
+    "shopping",
+    "approval"
+   ],
+   "chip": "approval"
+  },
+  {
+   "tag": "GOALS",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Goal बताओ",
+     "Plan बनता है",
+     "Muse काम करता है"
+    ]
+   },
+   "say": "पाँच, आपका goal लेकर plan बनाना, और app बंद होने के बाद भी काम चलता रहता है।",
+   "hl": [
+    "goal",
+    "plan",
+    "बंद"
+   ],
+   "chip": "plan"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

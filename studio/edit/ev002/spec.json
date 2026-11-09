@@ -1,0 +1,125 @@
+{
+ "id": "ev002",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs v4 Voice Cloning: Apni Awaaz Clone Karo",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "CLONE",
+   "v": "hook",
+   "d": {
+    "brand": "Eleven v4",
+    "pill": "VOICE CLONE",
+    "stat": "10s",
+    "sub": "audio से start"
+   },
+   "say": "ElevenLabs v4 में voice cloning पहले से बेहतर है।",
+   "hl": [
+    "ElevenLabs",
+    "cloning",
+    "बेहतर"
+   ],
+   "chip": "बेहतर"
+  },
+  {
+   "tag": "IVC",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "Instant Voice Clone",
+    "rows": [
+     [
+      "Minimum",
+      "10 sec audio (v4)"
+     ],
+     [
+      "Best",
+      "1–2 min clean audio"
+     ]
+    ]
+   },
+   "say": "Blog के मुताबिक दस second से clone, पर docs best के लिए एक-दो minute clean audio बोलते हैं।",
+   "hl": [
+    "दस",
+    "second",
+    "clean"
+   ],
+   "chip": "clean"
+  },
+  {
+   "tag": "STEPS",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Voices",
+     "Add Voice",
+     "Instant Clone",
+     "Upload"
+    ]
+   },
+   "say": "Voices में Add Voice, फिर Instant Voice Clone, audio upload करो।",
+   "hl": [
+    "Add",
+    "Voice",
+    "Instant"
+   ],
+   "chip": "Instant"
+  },
+  {
+   "tag": "QUALITY",
+   "v": "versus",
+   "d": {
+    "bad": "Noise, echo वाली recording",
+    "good": "Quiet room, एक ही speaking style"
+   },
+   "say": "v4 noise भी copy करता है, इसलिए quiet room में record करो।",
+   "hl": [
+    "noise",
+    "quiet"
+   ],
+   "chip": "quiet"
+  },
+  {
+   "tag": "PVC",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Professional Clone",
+    "rows": [
+     [
+      "v4",
+      "supported"
+     ],
+     [
+      "Best",
+      "highest fidelity"
+     ]
+    ]
+   },
+   "say": "सबसे high fidelity चाहिए तो Professional Voice Clone।",
+   "hl": [
+    "Professional"
+   ],
+   "chip": "Professional"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

@@ -114,5 +114,13 @@ PY
       [ -f "$D/Published-Assets/shorts/$id.mp4" ] && push_media "$D/Published-Assets/shorts/$id.mp4" "$id.mp4"
     done
     push_pkg "$ITEM" ;;
+  hv-*)  # Hinglish v2 Short (reference style, Edge TTS Madhur, music + SFX) -> media/hv<id>.mp4
+    ID="${ITEM#hv-}"
+    pip install -q edge-tts==7.* >/dev/null 2>&1 || pip install -q edge-tts
+    (cd "$W/studio/reels" && npm ci --no-audit --no-fund >/dev/null)
+    (cd "$W/studio" && RENDER_CONC=100% python3 scripts/make_short.py "$ID")
+    push_media "$W/export/$ID.mp4" "hv$ID.mp4"
+    mkdir -p "$PKG/ci-pkg"; echo "{\"id\": \"$ID\"}" > "$PKG/ci-pkg/hv-$ID.json"
+    push_pkg "$ITEM" ;;
   *) echo "unknown item $ITEM"; exit 1 ;;
 esac

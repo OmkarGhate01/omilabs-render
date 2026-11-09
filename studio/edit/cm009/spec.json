@@ -1,0 +1,130 @@
+{
+ "id": "cm009",
+ "series": "CLAUDE MOTION",
+ "title": "Claude Motion Ki 3 Limits Jo Pata Honi Chahiye",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "CLAUDE MOTION",
+ "beats": [
+  {
+   "tag": "LIMITS",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Motion",
+    "pill": "LIMITS",
+    "stat": "3",
+    "sub": "things to know"
+   },
+   "say": "Claude Motion की तीन limits जो पता होनी चाहिए।",
+   "hl": [
+    "Claude",
+    "Motion",
+    "limits"
+   ],
+   "chip": "limits"
+  },
+  {
+   "tag": "LIMIT 1",
+   "v": "card",
+   "d": {
+    "icon": "warning",
+    "title": "No realistic footage",
+    "rows": [
+     [
+      "Video model",
+      "नहीं"
+     ],
+     [
+      "असली लोग",
+      "नहीं बनते"
+     ]
+    ]
+   },
+   "say": "एक, ये realistic footage या असली लोग नहीं बनाता।",
+   "hl": [
+    "realistic",
+    "असली"
+   ],
+   "chip": "realistic"
+  },
+  {
+   "tag": "LIMIT 2",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Plans",
+    "rows": [
+     [
+      "Team",
+      "beta"
+     ],
+     [
+      "Enterprise",
+      "beta"
+     ]
+    ]
+   },
+   "say": "दो, अभी सिर्फ Team और Enterprise plans पे beta में है।",
+   "hl": [
+    "Team",
+    "Enterprise"
+   ],
+   "chip": "beta"
+  },
+  {
+   "tag": "LIMIT 3",
+   "v": "card",
+   "d": {
+    "icon": "clock",
+    "title": "Usage limit",
+    "rows": [
+     [
+      "Counts",
+      "plan limit में"
+     ],
+     [
+      "Complex",
+      "ज़्यादा usage"
+     ]
+    ]
+   },
+   "say": "तीन, लंबा या complex animation ज़्यादा usage लेता है।",
+   "hl": [
+    "complex",
+    "usage"
+   ],
+   "chip": "usage"
+  },
+  {
+   "tag": "FIX",
+   "v": "versus",
+   "d": {
+    "bad": "बिना content के prompt",
+    "good": "अपना data / images attach"
+   },
+   "say": "Best result के लिए अपना content attach करो।",
+   "hl": [
+    "content",
+    "attach"
+   ],
+   "chip": "attach"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

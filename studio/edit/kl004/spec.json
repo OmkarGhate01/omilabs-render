@@ -1,0 +1,119 @@
+{
+ "id": "kl004",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Mein 30 Second Videos: 3.0 Se Double",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "30 SEC",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "LONGER CLIPS",
+    "stat": "30s",
+    "sub": "native"
+   },
+   "say": "Kling 4.0 में एक बार में तीस second की video।",
+   "hl": [
+    "Kling",
+    "तीस",
+    "second"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "BEFORE",
+   "v": "versus",
+   "d": {
+    "bad": "Kling 3.0: 3–15 sec",
+    "good": "Kling 4.0: 3–30 sec"
+   },
+   "say": "Kling 3.0 पंद्रह second तक था, 4.0 तीस तक जाता है।",
+   "hl": [
+    "पंद्रह",
+    "तीस"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "WHY",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "फायदा",
+    "rows": [
+     [
+      "Single take",
+      "बिना stitching"
+     ],
+     [
+      "Ads",
+      "पूरा spot एक में"
+     ]
+    ]
+   },
+   "say": "मतलब बिना जोड़ तोड़ के पूरा scene एक ही take में।",
+   "hl": [
+    "take",
+    "scene"
+   ],
+   "chip": "take"
+  },
+  {
+   "tag": "FLASH",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "4.0 Flash",
+    "rows": [
+     [
+      "Length",
+      "3–20 sec"
+     ],
+     [
+      "Speed",
+      "faster"
+     ]
+    ]
+   },
+   "say": "Flash version बीस second तक, पर तेज़ है।",
+   "hl": [
+    "Flash",
+    "बीस"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "TIP",
+   "v": "stat",
+   "d": {
+    "value": "5s",
+    "label": "पहले छोटा test, फिर 30s"
+   },
+   "say": "Tip: पहले छोटा test बनाओ, फिर full तीस second।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

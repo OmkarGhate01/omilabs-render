@@ -1,0 +1,120 @@
+{
+ "id": "mu006",
+ "series": "MUSE AI",
+ "title": "Meta Muse Sentinel Kya Hai? AI Agent Ka Security Guard",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "MUSE AI",
+ "beats": [
+  {
+   "tag": "SENTINEL",
+   "v": "hook",
+   "d": {
+    "brand": "Sentinel",
+    "pill": "SAFETY",
+    "stat": "100%",
+    "sub": "internet actions checked"
+   },
+   "say": "Muse AI का security guard है Sentinel।",
+   "hl": [
+    "Muse",
+    "Sentinel"
+   ],
+   "chip": "Sentinel"
+  },
+  {
+   "tag": "WHAT",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Sentinel agent",
+    "rows": [
+     [
+      "कहाँ",
+      "same VM पे"
+     ],
+     [
+      "Separate",
+      "system level पे"
+     ]
+    ]
+   },
+   "say": "Sentinel एक अलग agent है, उसी machine पे, पर Muse से अलग।",
+   "hl": [
+    "अलग",
+    "agent"
+   ],
+   "chip": "अलग"
+  },
+  {
+   "tag": "RULE",
+   "v": "versus",
+   "d": {
+    "bad": "Agent सीधे internet पे",
+    "good": "Sentinel approve करे तभी"
+   },
+   "say": "Muse का कोई भी काम internet तक तभी पहुँचता है जब Sentinel approve करे।",
+   "hl": [
+    "Sentinel",
+    "approve"
+   ],
+   "chip": "approve"
+  },
+  {
+   "tag": "PERMISSION",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Muse action",
+     "Sentinel check",
+     "आपसे permission"
+    ]
+   },
+   "say": "ज़रूरत हो तो Sentinel आपसे permission माँगता है।",
+   "hl": [
+    "permission"
+   ],
+   "chip": "permission"
+  },
+  {
+   "tag": "WHY",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "फायदा",
+    "rows": [
+     [
+      "Purchases",
+      "बिना approval नहीं"
+     ],
+     [
+      "Control",
+      "आपके हाथ में"
+     ]
+    ]
+   },
+   "say": "मतलब control हमेशा आपके हाथ में रहता है।",
+   "hl": [
+    "control"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

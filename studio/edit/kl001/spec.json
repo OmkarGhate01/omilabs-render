@@ -1,0 +1,119 @@
+{
+ "id": "kl001",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Kya Hai? 30 Second AI Video Generator",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "WHAT",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "AI VIDEO",
+    "stat": "30s",
+    "sub": "per generation"
+   },
+   "say": "Kling 4.0, Kuaishou का नया AI video model है।",
+   "hl": [
+    "Kling",
+    "4.0",
+    "AI"
+   ],
+   "chip": "4.0"
+  },
+  {
+   "tag": "LAUNCH",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "Kling 4.0",
+    "rows": [
+     [
+      "By",
+      "Kling AI (Kuaishou)"
+     ],
+     [
+      "Launch",
+      "15 Oct 2026"
+     ],
+     [
+      "Type",
+      "video generation"
+     ]
+    ]
+   },
+   "say": "पंद्रह October twenty twenty six को launch हुआ।",
+   "hl": [
+    "October",
+    "launch"
+   ],
+   "chip": "launch"
+  },
+  {
+   "tag": "LENGTH",
+   "v": "stat",
+   "d": {
+    "value": "3–30s",
+    "label": "एक generation में"
+   },
+   "say": "एक ही generation में तीन से तीस second तक की video।",
+   "hl": [
+    "तीस",
+    "second"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "CONTROL",
+   "v": "list",
+   "d": {
+    "items": [
+     "10 keyframes तक",
+     "15 references तक",
+     "Stereo audio"
+    ]
+   },
+   "say": "दस keyframes, पंद्रह references, और stereo audio।",
+   "hl": [
+    "keyframes",
+    "references",
+    "stereo"
+   ],
+   "chip": "keyframes"
+  },
+  {
+   "tag": "INPUT",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ text prompt",
+    "good": "Text + images + videos + keyframes"
+   },
+   "say": "Text के साथ images, videos और keyframes से direct करो।",
+   "hl": [
+    "images",
+    "videos",
+    "keyframes"
+   ],
+   "chip": "direct"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

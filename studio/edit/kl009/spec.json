@@ -1,0 +1,117 @@
+{
+ "id": "kl009",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Keyframes: 10 Frames Se Video Direct Karo",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "KEYFRAMES",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "MULTI-KEYFRAME",
+    "stat": "10",
+    "sub": "keyframes"
+   },
+   "say": "Kling 4.0 में दस keyframes से video direct करो।",
+   "hl": [
+    "Kling",
+    "दस",
+    "keyframes"
+   ],
+   "chip": "keyframes"
+  },
+  {
+   "tag": "WHAT",
+   "v": "card",
+   "d": {
+    "icon": "image",
+    "title": "Keyframe",
+    "rows": [
+     [
+      "Image",
+      "किसी moment की"
+     ],
+     [
+      "Kling",
+      "बीच की motion भरता है"
+     ]
+    ]
+   },
+   "say": "Keyframe मतलब किसी moment की image, बीच की motion Kling भरता है।",
+   "hl": [
+    "moment",
+    "motion"
+   ],
+   "chip": "motion"
+  },
+  {
+   "tag": "STORYBOARD",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Start",
+     "Action",
+     "Reveal",
+     "End"
+    ]
+   },
+   "say": "जैसे storyboard: start, action, reveal, end।",
+   "hl": [
+    "storyboard"
+   ],
+   "chip": "storyboard"
+  },
+  {
+   "tag": "USE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Camera moves",
+     "Shot changes",
+     "Character actions"
+    ]
+   },
+   "say": "Camera moves, shot changes और character actions control होते हैं।",
+   "hl": [
+    "Camera",
+    "shot",
+    "control"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "FLASH",
+   "v": "versus",
+   "d": {
+    "bad": "4.0 Flash: keyframes नहीं",
+    "good": "Kling 4.0: 10 keyframes"
+   },
+   "say": "Keyframes के लिए full 4.0 चुनो, Flash में ये नहीं है।",
+   "hl": [
+    "full",
+    "Flash"
+   ],
+   "chip": "full"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

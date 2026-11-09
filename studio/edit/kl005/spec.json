@@ -1,0 +1,124 @@
+{
+ "id": "kl005",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Perfect Prompt Kaise Likhein",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "PROMPT",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "PROMPTING",
+    "stat": "4",
+    "sub": "parts"
+   },
+   "say": "Kling 4.0 के लिए perfect prompt का formula।",
+   "hl": [
+    "Kling",
+    "prompt",
+    "formula"
+   ],
+   "chip": "formula"
+  },
+  {
+   "tag": "FORMULA",
+   "v": "list",
+   "d": {
+    "items": [
+     "Subject — कौन/क्या",
+     "Action — क्या हो रहा",
+     "Camera — कैसे move",
+     "Light — mood"
+    ]
+   },
+   "say": "Subject, action, camera और lighting, ये चार चीज़ें।",
+   "hl": [
+    "Subject",
+    "action",
+    "camera",
+    "lighting"
+   ],
+   "chip": "camera"
+  },
+  {
+   "tag": "EXAMPLE",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "Example",
+    "rows": [
+     [
+      "Subject",
+      "chai वाला, Mumbai"
+     ],
+     [
+      "Action",
+      "चाय डालता है"
+     ],
+     [
+      "Camera",
+      "slow push in"
+     ],
+     [
+      "Light",
+      "golden hour"
+     ]
+    ]
+   },
+   "say": "जैसे, Mumbai का चाय वाला, slow push in, golden hour।",
+   "hl": [
+    "slow",
+    "golden"
+   ],
+   "chip": "golden"
+  },
+  {
+   "tag": "VAGUE",
+   "v": "versus",
+   "d": {
+    "bad": "'एक अच्छी video बनाओ'",
+    "good": "हर detail साफ-साफ लिखो"
+   },
+   "say": "Vague prompt मत लिखो, हर detail साफ लिखो।",
+   "hl": [
+    "Vague",
+    "detail"
+   ],
+   "chip": "detail"
+  },
+  {
+   "tag": "REFS",
+   "v": "stat",
+   "d": {
+    "value": "15",
+    "label": "references तक जोड़ सकते हो"
+   },
+   "say": "और ज़रूरत हो तो पंद्रह references तक जोड़ो।",
+   "hl": [
+    "पंद्रह",
+    "references"
+   ],
+   "chip": "references"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

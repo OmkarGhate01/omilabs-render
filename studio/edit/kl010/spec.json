@@ -1,0 +1,118 @@
+{
+ "id": "kl010",
+ "series": "KLING 4.0",
+ "title": "Kling 4.0 Complete Beginners Guide 2026",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "beats": [
+  {
+   "tag": "GUIDE",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0",
+    "pill": "GUIDE 2026",
+    "stat": "30s",
+    "sub": "full guide"
+   },
+   "say": "Kling 4.0 का पूरा guide, तीस seconds में।",
+   "hl": [
+    "Kling",
+    "guide"
+   ],
+   "chip": "guide"
+  },
+  {
+   "tag": "WHAT",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "Kling 4.0",
+    "rows": [
+     [
+      "By",
+      "Kuaishou"
+     ],
+     [
+      "Launch",
+      "15 Oct 2026"
+     ],
+     [
+      "Length",
+      "3–30 sec"
+     ]
+    ]
+   },
+   "say": "Kuaishou का AI video model, तीन से तीस second clips।",
+   "hl": [
+    "Kuaishou",
+    "तीस"
+   ],
+   "chip": "तीस"
+  },
+  {
+   "tag": "FEATURES",
+   "v": "list",
+   "d": {
+    "items": [
+     "Text / image to video",
+     "10 keyframes",
+     "15 references",
+     "Stereo audio"
+    ]
+   },
+   "say": "Text और image to video, दस keyframes, पंद्रह references, stereo audio।",
+   "hl": [
+    "keyframes",
+    "references"
+   ],
+   "chip": "keyframes"
+  },
+  {
+   "tag": "MODELS",
+   "v": "versus",
+   "d": {
+    "bad": "4.0 Flash: fast, 20s, first frame",
+    "good": "Kling 4.0: full control, 30s"
+   },
+   "say": "Speed चाहिए तो Flash, full control चाहिए तो 4.0।",
+   "hl": [
+    "Flash",
+    "control"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "START",
+   "v": "browser",
+   "d": {
+    "url": "kling.ai",
+    "button": "Create"
+   },
+   "say": "kling dot ai पे जाओ और पहली video बनाओ।",
+   "hl": [
+    "kling",
+    "dot",
+    "ai"
+   ],
+   "chip": "kling"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}

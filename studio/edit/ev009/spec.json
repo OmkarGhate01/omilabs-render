@@ -1,0 +1,119 @@
+{
+ "id": "ev009",
+ "series": "ELEVENLABS V4",
+ "title": "ElevenLabs Voice Changer: Speech To Speech Kaise Karo",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "beats": [
+  {
+   "tag": "VOICE CHANGER",
+   "v": "hook",
+   "d": {
+    "brand": "ElevenLabs",
+    "pill": "SPEECH TO SPEECH",
+    "stat": "1→1",
+    "sub": "voice swap"
+   },
+   "say": "ElevenLabs voice changer से अपनी recording दूसरी voice में।",
+   "hl": [
+    "ElevenLabs",
+    "voice",
+    "changer"
+   ],
+   "chip": "changer"
+  },
+  {
+   "tag": "WHAT",
+   "v": "card",
+   "d": {
+    "icon": "wave",
+    "title": "Voice changer",
+    "rows": [
+     [
+      "Input",
+      "आपका audio"
+     ],
+     [
+      "Output",
+      "दूसरी voice"
+     ],
+     [
+      "Keeps",
+      "emotion, timing"
+     ]
+    ]
+   },
+   "say": "आपका audio, दूसरी voice में, emotion और nuance वही।",
+   "hl": [
+    "emotion",
+    "nuance"
+   ],
+   "chip": "emotion"
+  },
+  {
+   "tag": "KEEPS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Whispers",
+     "Laughs",
+     "Accents",
+     "Emotional cues"
+    ]
+   },
+   "say": "Whispers, laughs, accents, सब preserve होते हैं।",
+   "hl": [
+    "preserve"
+   ],
+   "chip": "preserve"
+  },
+  {
+   "tag": "STEPS",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Audio upload",
+     "Voice चुनो",
+     "Generate"
+    ]
+   },
+   "say": "Audio upload करो, voice चुनो, generate करो।",
+   "hl": [
+    "upload",
+    "generate"
+   ],
+   "chip": "generate"
+  },
+  {
+   "tag": "RULE",
+   "v": "versus",
+   "d": {
+    "bad": "किसी की voice बिना permission",
+    "good": "सिर्फ अपनी या licensed voices"
+   },
+   "say": "बस दूसरों की voice बिना permission use मत करो।",
+   "hl": [
+    "permission"
+   ],
+   "chip": "permission"
+  },
+  {
+   "tag": "SAVE THIS",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save this — और ऐसे ही AI updates के लिए Omilabs follow करो।",
+   "hl": [
+    "Save",
+    "this",
+    "Omilabs"
+   ],
+   "chip": "Save"
+  }
+ ]
+}
