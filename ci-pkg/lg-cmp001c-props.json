@@ -1,0 +1,4259 @@
+{
+ "id": "cmp001c",
+ "series": "AI COMPARISON",
+ "title": "ElevenLabs vs Bolna: Voice AI Agent Ke Liye Kaunsa Best? (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp001c/voice.wav",
+ "duration": 262.896,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ElevenLabs vs Bolna",
+    "pill": "VOICE AI AGENTS",
+    "stat": "2",
+    "sub": "platforms, 1 फैसला"
+   },
+   "start": 0.0,
+   "end": 7.864,
+   "words": [
+    {
+     "t": "Voice",
+     "s": 0.097,
+     "e": 0.463,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 0.533,
+     "e": 0.875,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 0.946,
+     "e": 1.335,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाना",
+     "s": 1.335,
+     "e": 1.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 1.784,
+     "e": 2.031,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 2.22,
+     "e": 2.408,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 2.479,
+     "e": 3.222,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "लें",
+     "s": 3.222,
+     "e": 3.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 3.411,
+     "e": 3.599,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 3.6,
+     "e": 4.059,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "आज",
+     "s": 5.024,
+     "e": 5.259,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साफ़",
+     "s": 5.283,
+     "e": 5.649,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 5.649,
+     "e": 6.073,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मिलेगा",
+     "s": 6.073,
+     "e": 6.604,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "HOOK",
+   "v": "versus",
+   "d": {
+    "bad": "गलत platform = बार-बार migration",
+    "good": "सही platform = पहले दिन से सही setup"
+   },
+   "start": 7.864,
+   "end": 14.024,
+   "words": [
+    {
+     "t": "गलत",
+     "s": 7.961,
+     "e": 8.291,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "platform",
+     "s": 8.303,
+     "e": 8.916,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चुना",
+     "s": 8.916,
+     "e": 9.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 9.435,
+     "e": 9.624,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाद",
+     "s": 9.624,
+     "e": 9.954,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 9.954,
+     "e": 10.143,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 10.143,
+     "e": 10.473,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "setup",
+     "s": 10.473,
+     "e": 10.874,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोबारा",
+     "s": 10.874,
+     "e": 11.357,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "बनाना",
+     "s": 11.357,
+     "e": 11.77,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पड़ता",
+     "s": 11.806,
+     "e": 12.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 12.159,
+     "e": 12.454,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "HOOK",
+   "v": "list",
+   "d": {
+    "items": [
+     "Building",
+     "Phone calls",
+     "Languages",
+     "Pricing",
+     "Privacy",
+     "Open source"
+    ]
+   },
+   "start": 14.024,
+   "end": 21.864,
+   "words": [
+    {
+     "t": "हम",
+     "s": 14.121,
+     "e": 14.345,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 14.381,
+     "e": 14.664,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "चीज़ें",
+     "s": 14.675,
+     "e": 15.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "compare",
+     "s": 15.065,
+     "e": 15.56,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करेंगे",
+     "s": 15.56,
+     "e": 16.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "building",
+     "s": 16.232,
+     "e": 16.715,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 16.857,
+     "e": 17.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 17.399,
+     "e": 18.107,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pricing",
+     "s": 18.284,
+     "e": 18.756,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "privacy",
+     "s": 18.862,
+     "e": 19.546,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 19.569,
+     "e": 19.746,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 19.876,
+     "e": 20.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 20.23,
+     "e": 20.69,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं?"
+   },
+   "start": 21.864,
+   "end": 26.296,
+   "words": [
+    {
+     "t": "पहले",
+     "s": 21.961,
+     "e": 22.221,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझते",
+     "s": 22.244,
+     "e": 22.798,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 22.798,
+     "e": 23.07,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 23.258,
+     "e": 23.647,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "असल",
+     "s": 23.659,
+     "e": 23.954,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 23.954,
+     "e": 24.107,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 24.107,
+     "e": 24.343,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "हैं",
+     "s": 24.343,
+     "e": 25.145,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "WHAT",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "wave",
+     "title": "ElevenAgents",
+     "rows": [
+      [
+       "By",
+       "ElevenLabs"
+      ],
+      [
+       "Type",
+       "agents platform"
+      ],
+      [
+       "Channels",
+       "voice, text, multimodal"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "chat",
+     "title": "Bolna",
+     "rows": [
+      [
+       "Type",
+       "voice AI agents"
+      ],
+      [
+       "Calls",
+       "inbound, outbound, batch"
+      ],
+      [
+       "Focus",
+       "phone + web"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 26.296,
+   "end": 37.256,
+   "words": [
+    {
+     "t": "ElevenAgents",
+     "s": 26.393,
+     "e": 27.278,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 27.525,
+     "e": 28.304,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 28.315,
+     "e": 28.469,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 28.551,
+     "e": 28.94,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "platform",
+     "s": 28.94,
+     "e": 29.565,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 29.565,
+     "e": 29.872,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 31.119,
+     "e": 31.591,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "एक",
+     "s": 31.673,
+     "e": 31.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 31.897,
+     "e": 32.275,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 32.346,
+     "e": 32.723,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 32.794,
+     "e": 33.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "platform",
+     "s": 33.23,
+     "e": 33.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 33.879,
+     "e": 34.114,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "phone",
+     "s": 34.268,
+     "e": 34.633,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 34.704,
+     "e": 34.904,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "web",
+     "s": 34.916,
+     "e": 35.199,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 35.223,
+     "e": 35.541,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 35.541,
+     "e": 35.706,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 35.718,
+     "e": 36.001,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "WHAT",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Build",
+     "Deploy",
+     "Monitor"
+    ]
+   },
+   "start": 37.256,
+   "end": 43.848,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 37.353,
+     "e": 37.754,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 37.754,
+     "e": 37.955,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "flow",
+     "s": 37.955,
+     "e": 38.214,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 38.214,
+     "e": 38.591,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 38.591,
+     "e": 38.827,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 39.028,
+     "e": 39.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "build",
+     "s": 39.417,
+     "e": 39.723,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 39.735,
+     "e": 40.089,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deploy",
+     "s": 40.207,
+     "e": 40.702,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 40.714,
+     "e": 41.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 41.256,
+     "e": 41.41,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 41.422,
+     "e": 41.822,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "monitor",
+     "s": 41.822,
+     "e": 42.282,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 42.282,
+     "e": 42.636,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TWIST",
+   "v": "versus",
+   "d": {
+    "bad": "ElevenLabs या Bolna — एक ही",
+    "good": "Bolna में ElevenLabs voice भी चुन सकते हो"
+   },
+   "start": 43.848,
+   "end": 50.704,
+   "words": [
+    {
+     "t": "मज़ेदार",
+     "s": 43.945,
+     "e": 44.499,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 44.499,
+     "e": 44.841,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 44.912,
+     "e": 45.372,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 45.372,
+     "e": 45.549,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अंदर",
+     "s": 45.549,
+     "e": 45.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "synthesizer",
+     "s": 45.938,
+     "e": 46.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 46.893,
+     "e": 47.106,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 47.153,
+     "e": 47.896,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 47.896,
+     "e": 48.049,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 48.061,
+     "e": 48.438,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 48.438,
+     "e": 48.627,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "चुन",
+     "s": 48.639,
+     "e": 48.827,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 48.874,
+     "e": 49.264,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 49.264,
+     "e": 49.523,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Agent बनाना"
+   },
+   "start": 50.704,
+   "end": 55.352,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 50.801,
+     "e": 51.261,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 51.261,
+     "e": 51.556,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 51.697,
+     "e": 52.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाना",
+     "s": 52.11,
+     "e": 52.546,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कितना",
+     "s": 52.546,
+     "e": 52.947,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आसान",
+     "s": 53.018,
+     "e": 53.466,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 53.478,
+     "e": 53.82,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA BUILD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Bolna Agent Studio",
+    "rows": [
+     [
+      "Auto build",
+      "use case बताओ"
+     ],
+     [
+      "Time",
+      "5–8 min में call-ready"
+     ],
+     [
+      "Advanced",
+      "graph agents"
+     ]
+    ]
+   },
+   "start": 55.352,
+   "end": 62.376,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 55.449,
+     "e": 55.885,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 55.886,
+     "e": 56.051,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Agent",
+     "s": 56.121,
+     "e": 56.475,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Studio",
+     "s": 56.475,
+     "e": 56.97,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 56.97,
+     "e": 57.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 57.525,
+     "e": 57.808,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "case",
+     "s": 57.808,
+     "e": 58.114,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बताओ",
+     "s": 58.114,
+     "e": 58.61,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 58.692,
+     "e": 59.069,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 59.069,
+     "e": 59.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आठ",
+     "s": 59.352,
+     "e": 59.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "minute",
+     "s": 59.612,
+     "e": 59.942,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 59.942,
+     "e": 60.119,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call-ready",
+     "s": 60.119,
+     "e": 60.661,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 60.732,
+     "e": 61.145,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA GRAPH",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Node",
+     "Routing rule",
+     "Next node"
+    ]
+   },
+   "start": 62.376,
+   "end": 69.088,
+   "words": [
+    {
+     "t": "Complex",
+     "s": 62.473,
+     "e": 62.968,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 62.968,
+     "e": 63.334,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 63.334,
+     "e": 63.487,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 63.511,
+     "e": 63.747,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "graph",
+     "s": 63.747,
+     "e": 64.124,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "agents",
+     "s": 64.183,
+     "e": 64.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 64.926,
+     "e": 65.138,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबे",
+     "s": 65.162,
+     "e": 65.527,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prompt",
+     "s": 65.527,
+     "e": 65.834,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 65.869,
+     "e": 66.011,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जगह",
+     "s": 66.023,
+     "e": 66.376,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "nodes",
+     "s": 66.376,
+     "e": 66.789,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 66.872,
+     "e": 67.049,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "routing",
+     "s": 67.049,
+     "e": 67.497,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "rules",
+     "s": 67.497,
+     "e": 67.921,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL BUILD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "ElevenAgents",
+    "rows": [
+     [
+      "Builder",
+      "dashboard + toolkit"
+     ],
+     [
+      "Flows",
+      "visual workflow builder"
+     ],
+     [
+      "LLM",
+      "choose या custom"
+     ]
+    ]
+   },
+   "start": 69.088,
+   "end": 76.016,
+   "words": [
+    {
+     "t": "ElevenAgents",
+     "s": 69.185,
+     "e": 70.022,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 70.022,
+     "e": 70.176,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dashboard",
+     "s": 70.176,
+     "e": 70.824,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "developer",
+     "s": 70.966,
+     "e": 71.555,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "toolkit",
+     "s": 71.555,
+     "e": 72.039,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 72.287,
+     "e": 72.452,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "visual",
+     "s": 72.452,
+     "e": 72.888,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "workflow",
+     "s": 72.888,
+     "e": 73.43,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "builder",
+     "s": 73.43,
+     "e": 73.82,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "मिलता",
+     "s": 73.82,
+     "e": 74.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 74.209,
+     "e": 74.492,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL KB",
+   "v": "list",
+   "d": {
+    "items": [
+     "Knowledge base + RAG",
+     "Dynamic variables",
+     "Testing और evals"
+    ]
+   },
+   "start": 76.016,
+   "end": 82.248,
+   "words": [
+    {
+     "t": "साथ",
+     "s": 76.113,
+     "e": 76.479,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 76.502,
+     "e": 76.691,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "knowledge",
+     "s": 76.691,
+     "e": 77.127,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "base",
+     "s": 77.127,
+     "e": 77.516,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "with",
+     "s": 77.528,
+     "e": 77.764,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "RAG",
+     "s": 77.788,
+     "e": 78.141,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "dynamic",
+     "s": 78.295,
+     "e": 78.943,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "variables",
+     "s": 78.979,
+     "e": 79.722,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 79.922,
+     "e": 80.075,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "built-in",
+     "s": 80.087,
+     "e": 80.571,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "testing",
+     "s": 80.583,
+     "e": 81.066,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SCORE",
+   "v": "table",
+   "d": {
+    "title": "Building",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "Quick start",
+      "v": [
+       "dashboard",
+       "auto-build 5–8 min"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Multi-step flows",
+      "v": [
+       "workflows",
+       "graph agents"
+      ]
+     },
+     {
+      "k": "Knowledge base",
+      "v": [
+       "RAG",
+       "knowledge base"
+      ]
+     },
+     {
+      "k": "Testing",
+      "v": [
+       "tests + evals",
+       "test calls"
+      ],
+      "win": 0
+     }
+    ]
+   },
+   "start": 82.248,
+   "end": 91.648,
+   "words": [
+    {
+     "t": "Building",
+     "s": 82.345,
+     "e": 82.758,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 82.758,
+     "e": 82.923,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 82.923,
+     "e": 83.324,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "strong",
+     "s": 83.324,
+     "e": 83.713,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 83.713,
+     "e": 84.149,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 85.125,
+     "e": 85.573,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 85.573,
+     "e": 85.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "auto-build",
+     "s": 85.809,
+     "e": 86.375,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "तेज़",
+     "s": 86.399,
+     "e": 86.729,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 86.729,
+     "e": 87.0,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 87.283,
+     "e": 88.05,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 88.062,
+     "e": 88.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "testing",
+     "s": 88.227,
+     "e": 88.687,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 88.757,
+     "e": 88.946,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "evals",
+     "s": 89.017,
+     "e": 89.441,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "गहरा",
+     "s": 89.441,
+     "e": 89.807,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 90.173,
+     "e": 90.479,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Phone calls"
+   },
+   "start": 91.648,
+   "end": 94.928,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 91.745,
+     "e": 92.205,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 92.205,
+     "e": 92.535,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "असली",
+     "s": 92.641,
+     "e": 92.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "phone",
+     "s": 92.995,
+     "e": 93.29,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "calls",
+     "s": 93.325,
+     "e": 93.75,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA PHONE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Bolna telephony",
+    "rows": [
+     [
+      "Plivo",
+      "India + global (default)"
+     ],
+     [
+      "Exotel",
+      "India, DLT built in"
+     ],
+     [
+      "Twilio",
+      "US / global"
+     ],
+     [
+      "Vobiz",
+      "India"
+     ]
+    ]
+   },
+   "start": 94.928,
+   "end": 102.264,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 95.025,
+     "e": 95.473,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 95.473,
+     "e": 95.615,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plivo",
+     "s": 95.615,
+     "e": 95.992,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "default",
+     "s": 95.992,
+     "e": 96.511,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 96.511,
+     "e": 96.77,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 96.971,
+     "e": 97.336,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 97.348,
+     "e": 97.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Exotel",
+     "s": 97.608,
+     "e": 98.28,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Twilio",
+     "s": 98.492,
+     "e": 98.905,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Vobiz",
+     "s": 98.987,
+     "e": 99.459,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 99.577,
+     "e": 99.73,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपना",
+     "s": 99.86,
+     "e": 100.19,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "SIP",
+     "s": 100.19,
+     "e": 100.438,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "trunk",
+     "s": 100.473,
+     "e": 100.733,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 100.733,
+     "e": 101.039,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA INDIA",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "India extras",
+    "rows": [
+     [
+      "Numbers",
+      "140/160 series guide"
+     ],
+     [
+      "Batch",
+      "CSV campaigns"
+     ],
+     [
+      "Transfer",
+      "live human handoff"
+     ]
+    ]
+   },
+   "start": 102.264,
+   "end": 111.424,
+   "words": [
+    {
+     "t": "India",
+     "s": 102.361,
+     "e": 102.703,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 102.703,
+     "e": 102.904,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 102.951,
+     "e": 103.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "140",
+     "s": 103.281,
+     "e": 104.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 104.354,
+     "e": 104.543,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "160",
+     "s": 104.649,
+     "e": 105.486,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "series",
+     "s": 105.498,
+     "e": 105.97,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "numbers",
+     "s": 105.97,
+     "e": 106.5,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 106.536,
+     "e": 106.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "guide",
+     "s": 106.654,
+     "e": 107.007,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "CSV",
+     "s": 107.173,
+     "e": 107.833,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 107.856,
+     "e": 108.045,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 108.045,
+     "e": 108.375,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 108.375,
+     "e": 108.835,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 109.012,
+     "e": 109.189,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "human",
+     "s": 109.189,
+     "e": 109.614,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "transfer",
+     "s": 109.614,
+     "e": 110.18,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL PHONE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "ElevenAgents telephony",
+    "rows": [
+     [
+      "Twilio",
+      "native integration"
+     ],
+     [
+      "SIP",
+      "trunking"
+     ],
+     [
+      "Batch",
+      "batch calls"
+     ]
+    ]
+   },
+   "start": 111.424,
+   "end": 118.256,
+   "words": [
+    {
+     "t": "ElevenAgents",
+     "s": 111.521,
+     "e": 112.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 112.358,
+     "e": 112.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Twilio",
+     "s": 112.547,
+     "e": 113.007,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "native",
+     "s": 113.007,
+     "e": 113.467,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "integration",
+     "s": 113.526,
+     "e": 114.245,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "SIP",
+     "s": 114.505,
+     "e": 114.799,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "trunking",
+     "s": 114.811,
+     "e": 115.318,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 115.448,
+     "e": 115.625,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 115.625,
+     "e": 115.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 115.967,
+     "e": 116.356,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 116.356,
+     "e": 117.099,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL TOOLS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Transfer to number",
+     "Voicemail detection",
+     "End call",
+     "Language detection"
+    ]
+   },
+   "start": 118.256,
+   "end": 125.328,
+   "words": [
+    {
+     "t": "System",
+     "s": 118.353,
+     "e": 118.837,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tools",
+     "s": 118.837,
+     "e": 119.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 119.167,
+     "e": 119.379,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 119.403,
+     "e": 119.686,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "transfer",
+     "s": 119.886,
+     "e": 120.476,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "voicemail",
+     "s": 120.665,
+     "e": 121.29,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "detection",
+     "s": 121.29,
+     "e": 121.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "end",
+     "s": 122.115,
+     "e": 122.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 122.292,
+     "e": 122.693,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 122.823,
+     "e": 122.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "language",
+     "s": 122.988,
+     "e": 123.506,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "detection",
+     "s": 123.542,
+     "e": 124.12,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SCORE",
+   "v": "table",
+   "d": {
+    "title": "Phone calls",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "Indian carriers",
+      "v": [
+       "SIP / Twilio",
+       "Plivo, Exotel, Vobiz"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Own SIP trunk",
+      "v": [
+       "yes",
+       "yes (BYOT)"
+      ]
+     },
+     {
+      "k": "Batch calling",
+      "v": [
+       "yes",
+       "yes (CSV)"
+      ]
+     },
+     {
+      "k": "Human transfer",
+      "v": [
+       "system tool",
+       "yes"
+      ]
+     }
+    ]
+   },
+   "start": 125.328,
+   "end": 132.256,
+   "words": [
+    {
+     "t": "India",
+     "s": 125.425,
+     "e": 125.814,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 125.814,
+     "e": 126.003,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "phone",
+     "s": 126.015,
+     "e": 126.333,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 126.369,
+     "e": 126.734,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 126.734,
+     "e": 126.887,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 126.887,
+     "e": 127.312,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "आगे",
+     "s": 127.371,
+     "e": 127.701,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 127.701,
+     "e": 127.961,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्योंकि",
+     "s": 128.196,
+     "e": 128.609,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Indian",
+     "s": 128.644,
+     "e": 128.998,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "carriers",
+     "s": 129.022,
+     "e": 129.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सीधे",
+     "s": 129.635,
+     "e": 130.012,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलते",
+     "s": 130.012,
+     "e": 130.378,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 130.402,
+     "e": 131.121,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Languages और voice"
+   },
+   "start": 132.256,
+   "end": 136.304,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 132.353,
+     "e": 132.825,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 132.848,
+     "e": 133.143,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 133.19,
+     "e": 133.945,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 134.004,
+     "e": 134.181,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 134.181,
+     "e": 134.535,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 134.558,
+     "e": 135.077,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL VOICE",
+   "v": "stat",
+   "d": {
+    "value": "90+",
+    "label": "languages — Eleven v4 / v4 Turbo"
+   },
+   "start": 136.304,
+   "end": 143.328,
+   "words": [
+    {
+     "t": "ElevenLabs",
+     "s": 136.401,
+     "e": 137.156,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 137.168,
+     "e": 137.309,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 137.309,
+     "e": 137.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 137.628,
+     "e": 138.146,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Turbo",
+     "s": 138.146,
+     "e": 138.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नब्बे",
+     "s": 138.889,
+     "e": 139.302,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 139.302,
+     "e": 139.479,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 139.479,
+     "e": 139.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 139.88,
+     "e": 140.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "support",
+     "s": 140.599,
+     "e": 141.059,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 141.071,
+     "e": 141.472,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 141.472,
+     "e": 141.767,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL TURBO",
+   "v": "stat",
+   "d": {
+    "value": "~100ms",
+    "label": "v4 Turbo median inference"
+   },
+   "start": 143.328,
+   "end": 151.216,
+   "words": [
+    {
+     "t": "और",
+     "s": 143.425,
+     "e": 143.578,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 143.626,
+     "e": 144.168,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 144.168,
+     "e": 144.593,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "की",
+     "s": 144.616,
+     "e": 144.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "median",
+     "s": 144.793,
+     "e": 145.324,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 145.324,
+     "e": 145.984,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगभग",
+     "s": 146.008,
+     "e": 146.432,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 146.432,
+     "e": 146.668,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "milliseconds",
+     "s": 146.668,
+     "e": 147.635,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 147.906,
+     "e": 148.248,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 148.307,
+     "e": 148.72,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 148.744,
+     "e": 148.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 148.932,
+     "e": 149.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 149.133,
+     "e": 149.427,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 149.758,
+     "e": 150.041,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA LANG",
+   "v": "stat",
+   "d": {
+    "value": "40+",
+    "label": "languages — Bolna agents"
+   },
+   "start": 151.216,
+   "end": 158.312,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 151.313,
+     "e": 151.761,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चालीस",
+     "s": 151.761,
+     "e": 152.245,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 152.245,
+     "e": 152.398,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 152.398,
+     "e": 152.787,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 152.787,
+     "e": 153.448,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 153.448,
+     "e": 153.589,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 153.589,
+     "e": 153.966,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 153.966,
+     "e": 154.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 154.344,
+     "e": 154.58,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 154.886,
+     "e": 155.028,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 155.04,
+     "e": 155.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 155.37,
+     "e": 155.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीच",
+     "s": 155.547,
+     "e": 155.818,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "language",
+     "s": 155.865,
+     "e": 156.36,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "switch",
+     "s": 156.419,
+     "e": 156.773,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "भी",
+     "s": 156.773,
+     "e": 157.08,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA PROVIDERS",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Indian languages setup",
+    "rows": [
+     [
+      "Transcriber",
+      "Sarvam"
+     ],
+     [
+      "LLM",
+      "gpt-5.4-mini"
+     ],
+     [
+      "Voice",
+      "Sarvam"
+     ]
+    ]
+   },
+   "start": 158.312,
+   "end": 166.128,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 158.409,
+     "e": 158.845,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 158.846,
+     "e": 158.987,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "docs",
+     "s": 158.987,
+     "e": 159.364,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Indian",
+     "s": 159.423,
+     "e": 159.836,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 159.836,
+     "e": 160.473,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 160.473,
+     "e": 160.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 160.662,
+     "e": 160.933,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Sarvam",
+     "s": 160.933,
+     "e": 161.404,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "transcriber",
+     "s": 161.416,
+     "e": 162.277,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 162.419,
+     "e": 162.595,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Sarvam",
+     "s": 162.596,
+     "e": 163.055,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "voice",
+     "s": 163.055,
+     "e": 163.386,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "suggest",
+     "s": 163.421,
+     "e": 163.857,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 163.893,
+     "e": 164.246,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 164.258,
+     "e": 164.989,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SCORE",
+   "v": "versus",
+   "d": {
+    "bad": "Voice quality ही सब कुछ नहीं",
+    "good": "Language + latency + provider choice देखो"
+   },
+   "start": 166.128,
+   "end": 173.2,
+   "words": [
+    {
+     "t": "Voice",
+     "s": 166.225,
+     "e": 166.555,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 166.567,
+     "e": 167.003,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 167.015,
+     "e": 167.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 167.251,
+     "e": 167.994,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 167.994,
+     "e": 168.136,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहचान",
+     "s": 168.147,
+     "e": 168.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 168.654,
+     "e": 168.902,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "provider",
+     "s": 169.209,
+     "e": 169.763,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "choice",
+     "s": 169.763,
+     "e": 170.176,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 170.176,
+     "e": 170.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 170.353,
+     "e": 170.753,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "flexible",
+     "s": 170.753,
+     "e": 171.367,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 171.367,
+     "e": 171.697,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Pricing"
+   },
+   "start": 173.2,
+   "end": 177.296,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 173.297,
+     "e": 173.722,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 173.722,
+     "e": 174.123,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसा",
+     "s": 174.205,
+     "e": 174.606,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कैसे",
+     "s": 174.606,
+     "e": 174.972,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कटता",
+     "s": 174.972,
+     "e": 175.384,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 175.384,
+     "e": 175.691,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA PRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Bolna pricing",
+    "rows": [
+     [
+      "Voice AI",
+      "flat per-minute (preferred models)"
+     ],
+     [
+      "Telephony",
+      "carrier per minute"
+     ],
+     [
+      "Platform",
+      "per-minute fee"
+     ],
+     [
+      "Wallet",
+      "prepaid"
+     ]
+    ]
+   },
+   "start": 177.296,
+   "end": 185.76,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 177.393,
+     "e": 177.841,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 177.841,
+     "e": 177.995,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "preferred",
+     "s": 177.995,
+     "e": 178.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 178.502,
+     "e": 179.021,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 179.021,
+     "e": 179.197,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "flat",
+     "s": 179.209,
+     "e": 179.563,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "per-minute",
+     "s": 179.563,
+     "e": 180.07,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "rate",
+     "s": 180.082,
+     "e": 180.424,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऊपर",
+     "s": 180.695,
+     "e": 181.002,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 181.002,
+     "e": 181.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 181.202,
+     "e": 181.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 182.016,
+     "e": 182.204,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "platform",
+     "s": 182.24,
+     "e": 182.924,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "fee",
+     "s": 182.924,
+     "e": 183.207,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prepaid",
+     "s": 183.407,
+     "e": 183.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "wallet",
+     "s": 183.879,
+     "e": 184.256,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 184.256,
+     "e": 184.539,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA COST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Non-preferred model → variable rate",
+     "लंबी calls",
+     "Verbose LLM output",
+     "Premium voices"
+    ]
+   },
+   "start": 185.76,
+   "end": 191.968,
+   "words": [
+    {
+     "t": "Cost",
+     "s": 185.857,
+     "e": 186.14,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बढ़ता",
+     "s": 186.176,
+     "e": 186.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 186.612,
+     "e": 186.848,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जब",
+     "s": 186.919,
+     "e": 187.166,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "preferred",
+     "s": 187.166,
+     "e": 187.65,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "list",
+     "s": 187.65,
+     "e": 187.944,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 187.968,
+     "e": 188.157,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाहर",
+     "s": 188.157,
+     "e": 188.522,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 188.522,
+     "e": 188.699,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 188.699,
+     "e": 189.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चुनो",
+     "s": 189.077,
+     "e": 189.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 189.548,
+     "e": 189.737,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 189.749,
+     "e": 190.114,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबी",
+     "s": 190.114,
+     "e": 190.48,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हों",
+     "s": 190.48,
+     "e": 190.822,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL PRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "ElevenAgents pricing",
+    "rows": [
+     [
+      "Agent बनाना",
+      "free"
+     ],
+     [
+      "Voice calls",
+      "per duration"
+     ],
+     [
+      "Silence >10s",
+      "95% discount"
+     ],
+     [
+      "LLM",
+      "अलग pass-through"
+     ]
+    ]
+   },
+   "start": 191.968,
+   "end": 202.232,
+   "words": [
+    {
+     "t": "ElevenLabs",
+     "s": 192.065,
+     "e": 192.82,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 192.82,
+     "e": 192.997,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 193.068,
+     "e": 193.445,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाना",
+     "s": 193.445,
+     "e": 193.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 193.893,
+     "e": 194.176,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 194.176,
+     "e": 194.412,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 194.707,
+     "e": 195.096,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "duration",
+     "s": 195.119,
+     "e": 195.674,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 195.674,
+     "e": 195.862,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "charge",
+     "s": 195.874,
+     "e": 196.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 196.322,
+     "e": 196.641,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 196.641,
+     "e": 196.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 197.23,
+     "e": 197.407,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 197.407,
+     "e": 197.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "second",
+     "s": 197.737,
+     "e": 198.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 198.138,
+     "e": 198.315,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबी",
+     "s": 198.315,
+     "e": 198.657,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "silence",
+     "s": 198.657,
+     "e": 199.164,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 199.164,
+     "e": 199.341,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पचानवे",
+     "s": 199.341,
+     "e": 199.884,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "percent",
+     "s": 199.907,
+     "e": 200.355,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "discount",
+     "s": 200.402,
+     "e": 201.004,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "PRICE TIP",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ per-minute rate देखना",
+    "good": "Telephony + LLM + silence भी जोड़ो"
+   },
+   "start": 202.232,
+   "end": 208.608,
+   "words": [
+    {
+     "t": "Compare",
+     "s": 202.329,
+     "e": 202.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 202.801,
+     "e": 203.178,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वक्त",
+     "s": 203.178,
+     "e": 203.497,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 203.497,
+     "e": 203.839,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "rate",
+     "s": 203.839,
+     "e": 204.145,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 204.145,
+     "e": 204.558,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 204.688,
+     "e": 205.336,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 205.454,
+     "e": 205.631,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "LLM",
+     "s": 205.737,
+     "e": 206.409,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "cost",
+     "s": 206.433,
+     "e": 206.751,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 206.775,
+     "e": 206.975,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जोड़ो",
+     "s": 206.987,
+     "e": 207.4,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Privacy और open source"
+   },
+   "start": 208.608,
+   "end": 212.56,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 208.705,
+     "e": 209.165,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 209.2,
+     "e": 209.507,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 209.59,
+     "e": 209.991,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कहाँ",
+     "s": 209.991,
+     "e": 210.285,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहता",
+     "s": 210.285,
+     "e": 210.663,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 210.663,
+     "e": 210.957,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA DATA",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Bolna data residency",
+    "rows": [
+     [
+      "Default",
+      "US (us-east-1)"
+     ],
+     [
+      "India option",
+      "Mumbai (ap-south-1)"
+     ],
+     [
+      "Enterprise",
+      "on-premise"
+     ]
+    ]
+   },
+   "start": 212.56,
+   "end": 220.976,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 212.657,
+     "e": 213.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "default",
+     "s": 213.094,
+     "e": 213.624,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 213.624,
+     "e": 213.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "US",
+     "s": 213.801,
+     "e": 214.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 214.202,
+     "e": 214.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 214.355,
+     "e": 214.756,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 214.756,
+     "e": 214.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 215.228,
+     "e": 215.405,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Indian",
+     "s": 215.476,
+     "e": 215.876,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 215.877,
+     "e": 216.254,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "residency",
+     "s": 216.254,
+     "e": 216.961,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mumbai",
+     "s": 217.162,
+     "e": 217.551,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "servers",
+     "s": 217.551,
+     "e": 218.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 218.105,
+     "e": 218.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "available",
+     "s": 218.506,
+     "e": 219.108,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 219.108,
+     "e": 219.438,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BOLNA OSS",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Bolna open source",
+    "rows": [
+     [
+      "License",
+      "MIT"
+     ],
+     [
+      "Run",
+      "खुद host करो"
+     ],
+     [
+      "Setup",
+      "Docker"
+     ]
+    ]
+   },
+   "start": 220.976,
+   "end": 227.928,
+   "words": [
+    {
+     "t": "और",
+     "s": 221.073,
+     "e": 221.25,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 221.274,
+     "e": 221.734,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 221.734,
+     "e": 221.91,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 221.993,
+     "e": 222.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 222.323,
+     "e": 222.759,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 222.807,
+     "e": 223.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "MIT",
+     "s": 223.278,
+     "e": 223.526,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "license",
+     "s": 223.526,
+     "e": 224.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 224.08,
+     "e": 224.269,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 224.269,
+     "e": 224.564,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Docker",
+     "s": 224.811,
+     "e": 225.13,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 225.13,
+     "e": 225.318,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 225.318,
+     "e": 225.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "host",
+     "s": 225.613,
+     "e": 225.932,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 225.967,
+     "e": 226.12,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 226.12,
+     "e": 226.486,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 226.486,
+     "e": 226.745,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EL DATA",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "ElevenAgents access",
+    "rows": [
+     [
+      "Auth",
+      "custom authentication"
+     ],
+     [
+      "Deploy",
+      "web, mobile, telephony"
+     ]
+    ]
+   },
+   "start": 227.928,
+   "end": 234.04,
+   "words": [
+    {
+     "t": "ElevenAgents",
+     "s": 228.025,
+     "e": 228.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 228.898,
+     "e": 229.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 229.193,
+     "e": 229.582,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "access",
+     "s": 229.641,
+     "e": 230.101,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 230.101,
+     "e": 230.266,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 230.289,
+     "e": 230.513,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "custom",
+     "s": 230.537,
+     "e": 230.985,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "authentication",
+     "s": 231.044,
+     "e": 231.822,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मिलता",
+     "s": 231.822,
+     "e": 232.211,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 232.212,
+     "e": 232.495,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Final verdict"
+   },
+   "start": 234.04,
+   "end": 236.432,
+   "words": [
+    {
+     "t": "अब",
+     "s": 234.137,
+     "e": 234.314,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "final",
+     "s": 234.338,
+     "e": 234.798,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "verdict",
+     "s": 234.798,
+     "e": 235.293,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Bolna",
+      "when": "India calling, Indian carriers, data residency, open source"
+     },
+     {
+      "who": "ElevenLabs",
+      "when": "Best voices, 90+ languages, web/app agents, low latency"
+     },
+     {
+      "who": "दोनों",
+      "when": "Bolna agent + ElevenLabs voice"
+     }
+    ]
+   },
+   "start": 236.432,
+   "end": 249.696,
+   "words": [
+    {
+     "t": "India",
+     "s": 236.529,
+     "e": 236.918,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 236.918,
+     "e": 237.083,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "phone",
+     "s": 237.083,
+     "e": 237.402,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calling",
+     "s": 237.437,
+     "e": 237.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Indian",
+     "s": 238.05,
+     "e": 238.428,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "carriers",
+     "s": 238.44,
+     "e": 239.029,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 239.135,
+     "e": 239.336,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 239.336,
+     "e": 239.748,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "residency",
+     "s": 239.749,
+     "e": 240.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 240.374,
+     "e": 240.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 240.892,
+     "e": 241.069,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 241.069,
+     "e": 241.553,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Global",
+     "s": 242.517,
+     "e": 243.012,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voices",
+     "s": 243.012,
+     "e": 243.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 243.637,
+     "e": 243.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "web",
+     "s": 243.814,
+     "e": 244.097,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 244.168,
+     "e": 244.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 244.628,
+     "e": 244.805,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 244.828,
+     "e": 245.088,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ElevenLabs",
+     "s": 245.111,
+     "e": 245.949,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 246.845,
+     "e": 247.045,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहो",
+     "s": 247.081,
+     "e": 247.493,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 247.493,
+     "e": 247.682,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 247.682,
+     "e": 248.048,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "साथ",
+     "s": 248.048,
+     "e": 248.413,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Summary",
+    "cols": [
+     "ElevenLabs",
+     "Bolna"
+    ],
+    "rows": [
+     {
+      "k": "India phone calls",
+      "v": [
+       "ok",
+       "best"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Voice + languages",
+      "v": [
+       "best",
+       "provider choice"
+      ],
+      "win": 0
+     },
+     {
+      "k": "India data option",
+      "v": [
+       "check plan",
+       "Mumbai servers"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Open source",
+      "v": [
+       "no",
+       "MIT"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Testing / evals",
+      "v": [
+       "built-in",
+       "test calls"
+      ],
+      "win": 0
+     }
+    ]
+   },
+   "start": 249.696,
+   "end": 253.552,
+   "words": [
+    {
+     "t": "ये",
+     "s": 249.793,
+     "e": 249.994,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहा",
+     "s": 249.994,
+     "e": 250.277,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 250.277,
+     "e": 250.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "summary",
+     "s": 250.619,
+     "e": 251.114,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "screenshot",
+     "s": 251.232,
+     "e": 251.904,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "ले",
+     "s": 251.904,
+     "e": 252.081,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लो",
+     "s": 252.152,
+     "e": 252.329,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 253.552,
+   "end": 262.896,
+   "words": [
+    {
+     "t": "आप",
+     "s": 253.649,
+     "e": 253.873,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 253.897,
+     "e": 254.345,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 254.345,
+     "e": 254.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करोगे",
+     "s": 254.64,
+     "e": 255.111,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 256.052,
+     "e": 256.441,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 256.441,
+     "e": 256.606,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिखो",
+     "s": 256.606,
+     "e": 257.007,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 257.184,
+     "e": 257.361,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 257.444,
+     "e": 257.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 257.738,
+     "e": 258.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 258.552,
+     "e": 258.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 258.741,
+     "e": 258.965,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 259.047,
+     "e": 259.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 259.637,
+     "e": 260.227,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 260.25,
+     "e": 260.58,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
