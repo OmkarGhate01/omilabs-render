@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { KIT_FPS, ReelCover, ReelKit, reelCoverDefaults, reelKitDefaults, reelKitMetadata } from "./ReelKit";
 import { GEN } from "./gen/registry";
 import { OmiShort, omiDefaults, omiMetadata } from "./omi/OmiShort";
+import { OmiLong, longDefaults, longMetadata, OmiThumb, thumbDefaults } from "./omi/OmiLong";
 
 // Created by kit.py new. The kit (src/ReelKit.tsx, src/kit/) is updated by kit.py update; this file is yours.
 export const RemotionRoot: React.FC = () => {
@@ -26,6 +27,9 @@ export const RemotionRoot: React.FC = () => {
       {/* Omilabs motion Shorts (scripts/make_short.py) */}
       <Composition id="OmiShort" component={OmiShort} durationInFrames={90} fps={30} width={1080} height={1920}
         defaultProps={omiDefaults} calculateMetadata={omiMetadata as any} />
+      <Composition id="OmiLong" component={OmiLong} durationInFrames={90} fps={30} width={1920} height={1080}
+        defaultProps={longDefaults} calculateMetadata={longMetadata as any} />
+      <Composition id="OmiThumb" component={OmiThumb} durationInFrames={1} fps={30} width={1280} height={720} defaultProps={thumbDefaults} />
       {/* Code scenes for B-roll (codescene.py scaffold / render) */}
       {GEN.map((g) => (
         <Composition key={g.id} id={g.id} component={g.component} durationInFrames={g.durationInFrames} fps={30} width={1080} height={1920} />

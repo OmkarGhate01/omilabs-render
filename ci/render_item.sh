@@ -122,5 +122,14 @@ PY
     push_media "$W/export/$ID.mp4" "hv$ID.mp4"
     mkdir -p "$PKG/ci-pkg"; echo "{\"id\": \"$ID\"}" > "$PKG/ci-pkg/hv-$ID.json"
     push_pkg "$ITEM" ;;
+  lg-*)  # long video (16:9, reference style) + thumbnail -> media/lg<id>.mp4 + media/lg<id>.jpg
+    ID="${ITEM#lg-}"
+    pip install -q edge-tts==7.* >/dev/null 2>&1 || pip install -q edge-tts
+    (cd "$W/studio/reels" && npm ci --no-audit --no-fund >/dev/null)
+    (cd "$W/studio" && RENDER_CONC=100% python3 scripts/make_short.py "$ID")
+    push_media "$W/export/$ID.mp4" "lg$ID.mp4"
+    [ -f "$W/export/$ID.jpg" ] && push_media "$W/export/$ID.jpg" "lg$ID.jpg"
+    mkdir -p "$PKG/ci-pkg"; cp "$W/studio/edit/$ID/props.json" "$PKG/ci-pkg/lg-$ID-props.json"
+    push_pkg "$ITEM" ;;
   *) echo "unknown item $ITEM"; exit 1 ;;
 esac

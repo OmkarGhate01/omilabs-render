@@ -23,7 +23,7 @@ const useIn = (delay = 0, damping = 200) => {
 };
 
 // ---------- floating card shell (3D tilt + soft shadow, like the reference) ----------
-const Float: React.FC<{ children: React.ReactNode; delay?: number; w?: number; dark?: boolean; tilt?: number; style?: React.CSSProperties; instant?: boolean }> =
+export const Float: React.FC<{ children: React.ReactNode; delay?: number; w?: number; dark?: boolean; tilt?: number; style?: React.CSSProperties; instant?: boolean }> =
   ({ children, delay = 0, w = 760, dark, tilt = 6, style, instant }) => {
     const f = useCurrentFrame(); const p0 = useIn(delay); const p = instant ? Math.max(p0, 0.75 + 0.25 * p0) : p0;
     const bob = Math.sin((f - delay) / 28) * 6;
@@ -42,7 +42,7 @@ const Float: React.FC<{ children: React.ReactNode; delay?: number; w?: number; d
   };
 
 // ---------- icons ----------
-const Icon: React.FC<{ name: string; color: string; size?: number }> = ({ name, color, size = 56 }) => {
+export const Icon: React.FC<{ name: string; color: string; size?: number }> = ({ name, color, size = 56 }) => {
   const p: Record<string, React.ReactNode> = {
     mail: <><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></>,
     wallet: <><rect x="3" y="6" width="18" height="13" rx="2" /><path d="M16 12h3M3 9h18" /></>,
@@ -77,7 +77,7 @@ const Icon: React.FC<{ name: string; color: string; size?: number }> = ({ name, 
 };
 
 // ---------- visuals ----------
-const Hook: React.FC<{ d: any; accent: string; first?: boolean }> = ({ d, accent, first }) => {
+export const Hook: React.FC<{ d: any; accent: string; first?: boolean }> = ({ d, accent, first }) => {
   const f = useCurrentFrame();
   const num = parseFloat(String(d.stat).replace(/,/g, ""));
   const isNum = /^[\d.]+/.test(String(d.stat)) && !isNaN(num);
@@ -98,7 +98,7 @@ const Hook: React.FC<{ d: any; accent: string; first?: boolean }> = ({ d, accent
   );
 };
 
-const Browser: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const Browser: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame();
   const cx = interpolate(f, [18, 42], [560, 330], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
   const cy = interpolate(f, [18, 42], [430, 300], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
@@ -121,7 +121,7 @@ const Browser: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   );
 };
 
-const Card: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const Card: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame();
   return (
     <Float w={800}>
@@ -142,7 +142,7 @@ const Card: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   );
 };
 
-const Versus: React.FC<{ d: any; accent: string }> = ({ d }) => {
+export const Versus: React.FC<{ d: any; accent: string }> = ({ d }) => {
   const f = useCurrentFrame();
   const strike = interpolate(f, [26, 40], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
   const row = (txt: string, good: boolean, delay: number) => (
@@ -161,7 +161,7 @@ const Versus: React.FC<{ d: any; accent: string }> = ({ d }) => {
   return <div style={{ display: "flex", flexDirection: "column", gap: 34, alignItems: "center" }}>{row(d.bad, false, 0)}{row(d.good, true, 16)}</div>;
 };
 
-const List: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const List: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame();
   return (
     <Float w={800}>
@@ -178,7 +178,7 @@ const List: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   );
 };
 
-const Stat: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const Stat: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame();
   const ring = interpolate(f, [6, 40], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
   const R = 190, C = 2 * Math.PI * R;
@@ -197,7 +197,7 @@ const Stat: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   );
 };
 
-const Flow: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const Flow: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame(); const nodes: string[] = d.nodes || [];
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -218,7 +218,7 @@ const Flow: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   );
 };
 
-const Cta: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
+export const Cta: React.FC<{ d: any; accent: string }> = ({ d, accent }) => {
   const f = useCurrentFrame(); const p = useIn(18, 14);
   const ls = interpolate(f, [0, 22], [24, 2], { extrapolateRight: "clamp", easing: ease });
   return (
@@ -250,14 +250,14 @@ const Visual: React.FC<{ b: Beat; accent: string }> = ({ b, accent }) => {
 };
 
 // ---------- kinetic caption: words appear as spoken; key words bold & bigger; one accent chip ----------
-const Caption: React.FC<{ b: Beat; accent: string }> = ({ b, accent }) => {
+export const Caption: React.FC<{ b: Beat; accent: string; width?: number; baseSize?: number; big?: number }> = ({ b, accent, width = 900, baseSize = 50, big = 66 }) => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
   const t = b.start + f / fps;
   return (
-    <div style={{ width: 900, display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "baseline", columnGap: 16, rowGap: 6, lineHeight: 1.25 }}>
+    <div style={{ width, display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "baseline", columnGap: 16, rowGap: 6, lineHeight: 1.25 }}>
       {b.words.map((w, i) => {
         const p = interpolate(t, [w.s - 0.05, w.s + 0.12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
-        const size = w.hl || w.chip ? 66 : 50;
+        const size = w.hl || w.chip ? big : baseSize;
         const base: React.CSSProperties = {
           fontSize: size, fontWeight: w.hl || w.chip ? 800 : 500, color: w.hl ? INK : "#5c5c5c",
           opacity: p, transform: `translateY(${(1 - p) * 18}px)`, display: "inline-block",
@@ -289,6 +289,8 @@ const Header: React.FC<{ series: string; tag: string; i: number; n: number; acce
   </div>
 );
 
+export const BG_FILL = BG;
+export const INK_C = INK;
 export const OmiShort: React.FC<OmiProps> = (props) => {
   const { fps } = useVideoConfig(); const f = useCurrentFrame();
   const t = f / fps;

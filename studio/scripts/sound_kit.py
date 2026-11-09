@@ -124,6 +124,14 @@ def ensure(root):
     return d
 
 
+def music_long(root, series, seconds):
+    d = os.path.join(root, "assets", "sound"); os.makedirs(d, exist_ok=True)
+    p = os.path.join(d, "music-%s-%ds.wav" % (series.lower().replace(" ", "-").replace(".", ""), int(seconds)))
+    if not os.path.exists(p):
+        save(p, music(series, seconds))
+    return p
+
+
 def music_path(root, series):
     return os.path.join(root, "assets", "sound", "music-" + series.lower().replace(" ", "-").replace(".", "") + ".wav")
 

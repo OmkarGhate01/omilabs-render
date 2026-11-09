@@ -85,7 +85,9 @@ def main():
     filt.append("".join(f"[a{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[out]")
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filt), "-map", "[out]", wav])
 
-    props = {"id": vid, "series": spec["series"], "accent": spec["accent"], "watermark": spec["watermark"],
+    LONG = spec.get("format") == "long"
+    COMP = "OmiLong" if LONG else "OmiShort"
+    props = {"id": vid, "series": spec["series"], "title": spec.get("title", ""), "accent": spec["accent"], "watermark": spec["watermark"],
              "audio": f"{vid}/voice.wav", "duration": round(t, 3), "beats": beats}
     pp = os.path.join(ed, "props.json")
     json.dump(props, open(pp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -113,7 +115,7 @@ def main():
     os.makedirs(os.path.dirname(master), exist_ok=True)
     npx = shutil.which("npx") or "npx"
     if "--reuse-render" not in sys.argv or not os.path.exists(out):
-        run([npx, "remotion", "render", "src/index.ts", "OmiShort", out, f"--props={pp}", "--concurrency=" + os.environ.get("RENDER_CONC", "50%")], cwd=REELS)
+        run([npx, "remotion", "render", "src/index.ts", COMP, out, f"--props={pp}", "--concurrency=" + os.environ.get("RENDER_CONC", "50%")], cwd=REELS)
     # make the render's audio exactly as long as its video (Remotion can leave ~0.1 s extra audio)
     nf = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-count_packets", "-show_entries", "stream=nb_read_packets",
                          "-of", "csv=p=0", out], capture_output=True, text=True, check=True).stdout.strip().split(",")[0]
@@ -124,12 +126,18 @@ def main():
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-map", "0:v:0", "-map", "0:a:0", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-bf", "0", "-pix_fmt", "yuv420p", "-r", "30",
          "-af", f"apad,atrim=0:{vdur:.3f}", "-c:a", "aac", "-b:a", "256k", "-t", f"{vdur:.3f}", fixed])
     music = sound_kit.music_path(ROOT, spec.get("music", spec["series"]))
+    if LONG or t > 44:   # long videos need a bed as long as the video
+        music = sound_kit.music_long(ROOT, spec.get("music", spec["series"]), t + 6)
     r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "master_audio.py"), fixed, "-o", master,
                         "--sfx", sfx, "--music", music, "--gap", "16", "--no-denoise"])
     if r.returncode != 0:
         if os.path.exists(master):
             os.replace(master, master.replace(".mp4", ".FAILED.mp4"))
         sys.exit(f"master failed for {vid}")
+    if spec.get("thumb"):
+        tp = os.path.join(ed, "thumb-props.json"); json.dump(spec["thumb"], open(tp, "w", encoding="utf-8"), ensure_ascii=False)
+        thumb = master.replace(".mp4", ".jpg")
+        run([npx, "remotion", "still", "src/index.ts", "OmiThumb", thumb, f"--props={tp}", "--image-format=jpeg", "--jpeg-quality=92"], cwd=REELS)
     print("DONE:", os.path.abspath(master))
 
 
