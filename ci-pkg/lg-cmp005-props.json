@@ -1,0 +1,1271 @@
+{
+ "id": "cmp005",
+ "series": "AI COMPARISON",
+ "title": "Eleven v4 vs v4 Turbo: Quality Ya Speed? Kaunsa Chunein (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp005/voice.wav",
+ "duration": 81.408,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "v4 vs v4 Turbo",
+    "pill": "ELEVENLABS",
+    "stat": "100",
+    "sub": "ms median (Turbo)"
+   },
+   "start": 0.0,
+   "end": 8.584,
+   "words": [
+    {
+     "t": "Eleven",
+     "s": 0.097,
+     "e": 0.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 0.475,
+     "e": 0.993,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 1.041,
+     "e": 1.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 1.241,
+     "e": 1.772,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 1.772,
+     "e": 2.255,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "नाम",
+     "s": 2.42,
+     "e": 2.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 2.786,
+     "e": 3.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 3.222,
+     "e": 3.541,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अलग",
+     "s": 3.541,
+     "e": 3.859,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गलत",
+     "s": 4.741,
+     "e": 5.118,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चुना",
+     "s": 5.118,
+     "e": 5.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 5.401,
+     "e": 5.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 5.59,
+     "e": 5.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 5.79,
+     "e": 6.285,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "जाएगी",
+     "s": 6.285,
+     "e": 6.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 6.769,
+     "e": 6.934,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "speed",
+     "s": 6.934,
+     "e": 7.347,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "start": 8.584,
+   "end": 11.288,
+   "words": [
+    {
+     "t": "पहले",
+     "s": 8.681,
+     "e": 8.976,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 8.988,
+     "e": 9.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 9.342,
+     "e": 9.495,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझो",
+     "s": 9.495,
+     "e": 10.037,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "star",
+     "title": "Eleven v4",
+     "rows": [
+      [
+       "ID",
+       "eleven_v4"
+      ],
+      [
+       "Focus",
+       "highest quality"
+      ],
+      [
+       "Best",
+       "content, audiobooks"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "v4 Turbo",
+     "rows": [
+      [
+       "ID",
+       "eleven_v4_turbo"
+      ],
+      [
+       "Focus",
+       "low latency"
+      ],
+      [
+       "Best",
+       "voice agents"
+      ]
+     ]
+    },
+    "accentB": "#FF5A1F"
+   },
+   "start": 11.288,
+   "end": 20.376,
+   "words": [
+    {
+     "t": "v4",
+     "s": 11.385,
+     "e": 11.869,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "highest",
+     "s": 11.869,
+     "e": 12.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 12.281,
+     "e": 12.765,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 12.765,
+     "e": 12.93,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 12.954,
+     "e": 13.237,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "content",
+     "s": 13.472,
+     "e": 13.944,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 14.003,
+     "e": 14.156,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "audiobooks",
+     "s": 14.251,
+     "e": 15.017,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 15.911,
+     "e": 16.406,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 16.406,
+     "e": 16.866,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "low",
+     "s": 16.866,
+     "e": 17.043,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 17.078,
+     "e": 17.668,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 17.691,
+     "e": 17.856,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 17.88,
+     "e": 18.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 18.281,
+     "e": 18.635,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 18.694,
+     "e": 19.165,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SAME",
+   "v": "list",
+   "d": {
+    "items": [
+     "Same new architecture",
+     "90+ languages",
+     "Stability + Similarity",
+     "Audio tags"
+    ]
+   },
+   "start": 20.376,
+   "end": 26.2,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 20.473,
+     "e": 20.874,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 20.874,
+     "e": 21.24,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "architecture",
+     "s": 21.251,
+     "e": 22.006,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 22.018,
+     "e": 22.218,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 22.218,
+     "e": 22.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नब्बे",
+     "s": 22.702,
+     "e": 23.115,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "plus",
+     "s": 23.115,
+     "e": 23.433,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 23.433,
+     "e": 24.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 24.164,
+     "e": 24.53,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "settings",
+     "s": 24.53,
+     "e": 25.025,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Speed"
+   },
+   "start": 26.2,
+   "end": 28.688,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 26.297,
+     "e": 26.733,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 26.733,
+     "e": 26.981,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "speed",
+     "s": 27.04,
+     "e": 27.476,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "LAT",
+   "v": "stat",
+   "d": {
+    "value": "~100ms",
+    "label": "v4 Turbo median inference"
+   },
+   "start": 28.688,
+   "end": 34.68,
+   "words": [
+    {
+     "t": "Turbo",
+     "s": 28.785,
+     "e": 29.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 29.174,
+     "e": 29.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "median",
+     "s": 29.351,
+     "e": 29.894,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "inference",
+     "s": 29.964,
+     "e": 30.471,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 30.53,
+     "e": 31.214,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करीब",
+     "s": 31.25,
+     "e": 31.615,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 31.615,
+     "e": 31.875,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "milliseconds",
+     "s": 31.875,
+     "e": 32.806,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 32.806,
+     "e": 33.125,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "AGENTS",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Built for real-time",
+    "rows": [
+     [
+      "Use",
+      "conversational agents"
+     ],
+     [
+      "Also",
+      "interactive voice apps"
+     ],
+     [
+      "API",
+      "Text to Dialogue websocket"
+     ]
+    ]
+   },
+   "start": 34.68,
+   "end": 41.272,
+   "words": [
+    {
+     "t": "Turbo",
+     "s": 34.777,
+     "e": 35.166,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "real-time",
+     "s": 35.19,
+     "e": 35.697,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 35.709,
+     "e": 35.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 35.874,
+     "e": 36.074,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 36.074,
+     "e": 36.393,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 36.393,
+     "e": 36.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "conversational",
+     "s": 36.9,
+     "e": 37.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 37.855,
+     "e": 38.28,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 38.362,
+     "e": 38.539,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "interactive",
+     "s": 38.622,
+     "e": 39.329,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 39.329,
+     "e": 39.659,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "apps",
+     "s": 39.718,
+     "e": 40.096,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Quality"
+   },
+   "start": 41.272,
+   "end": 44.0,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 41.369,
+     "e": 41.829,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 41.829,
+     "e": 42.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 42.218,
+     "e": 42.784,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "Q",
+   "v": "versus",
+   "d": {
+    "bad": "Audiobook के लिए Turbo",
+    "good": "Audiobook / voiceover के लिए v4"
+   },
+   "start": 44.0,
+   "end": 49.896,
+   "words": [
+    {
+     "t": "लंबा",
+     "s": 44.097,
+     "e": 44.463,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "content",
+     "s": 44.463,
+     "e": 44.982,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "audiobook",
+     "s": 45.147,
+     "e": 45.689,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 45.689,
+     "e": 45.89,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "character",
+     "s": 45.901,
+     "e": 46.42,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voiceover",
+     "s": 46.42,
+     "e": 47.057,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 47.057,
+     "e": 47.328,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 47.505,
+     "e": 47.694,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "full",
+     "s": 47.694,
+     "e": 47.942,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 47.942,
+     "e": 48.425,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "लो",
+     "s": 48.425,
+     "e": 48.684,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "Q2",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Eleven v4 best for",
+    "rows": [
+     [
+      "Content",
+      "creation"
+     ],
+     [
+      "Long-form",
+      "audiobooks"
+     ],
+     [
+      "Characters",
+      "voiceovers"
+     ]
+    ]
+   },
+   "start": 49.896,
+   "end": 58.072,
+   "words": [
+    {
+     "t": "Docs",
+     "s": 49.993,
+     "e": 50.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 50.3,
+     "e": 50.453,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुताबिक",
+     "s": 50.453,
+     "e": 50.948,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "full",
+     "s": 50.948,
+     "e": 51.196,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 51.196,
+     "e": 51.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "highest",
+     "s": 51.727,
+     "e": 52.151,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 52.163,
+     "e": 52.611,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "model",
+     "s": 52.611,
+     "e": 53.012,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 53.012,
+     "e": 53.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "content",
+     "s": 53.496,
+     "e": 53.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "audiobooks",
+     "s": 54.191,
+     "e": 54.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 54.922,
+     "e": 55.111,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "character",
+     "s": 55.123,
+     "e": 55.689,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voiceovers",
+     "s": 55.689,
+     "e": 56.361,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 56.385,
+     "e": 56.538,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 56.562,
+     "e": 56.845,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "start": 58.072,
+   "end": 60.416,
+   "words": [
+    {
+     "t": "Final",
+     "s": 58.169,
+     "e": 58.653,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "decision",
+     "s": 58.653,
+     "e": 59.183,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "v4 Turbo",
+      "when": "Phone calls, voice agents, live apps"
+     },
+     {
+      "who": "Eleven v4",
+      "when": "Videos, audiobooks, voiceovers, dubbing"
+     }
+    ]
+   },
+   "start": 60.416,
+   "end": 67.248,
+   "words": [
+    {
+     "t": "Live",
+     "s": 60.513,
+     "e": 60.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 60.832,
+     "e": 61.162,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करनी",
+     "s": 61.174,
+     "e": 61.527,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 61.527,
+     "e": 61.751,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 61.751,
+     "e": 61.952,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 61.964,
+     "e": 62.459,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Record",
+     "s": 63.435,
+     "e": 63.895,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करके",
+     "s": 63.907,
+     "e": 64.249,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "publish",
+     "s": 64.249,
+     "e": 64.697,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करना",
+     "s": 64.708,
+     "e": 65.062,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 65.062,
+     "e": 65.286,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 65.298,
+     "e": 65.487,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 65.487,
+     "e": 65.994,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP",
+   "v": "versus",
+   "d": {
+    "bad": "एक model हर जगह",
+    "good": "Agent में Turbo, content में v4"
+   },
+   "start": 67.248,
+   "end": 74.032,
+   "words": [
+    {
+     "t": "Pro",
+     "s": 67.345,
+     "e": 67.51,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "tip",
+     "s": 67.522,
+     "e": 67.817,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 67.97,
+     "e": 68.206,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 68.218,
+     "e": 68.371,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "project",
+     "s": 68.371,
+     "e": 68.831,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 68.831,
+     "e": 69.031,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 69.102,
+     "e": 69.48,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 69.48,
+     "e": 69.645,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 69.68,
+     "e": 69.833,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 69.869,
+     "e": 70.329,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 70.6,
+     "e": 70.765,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "content",
+     "s": 70.8,
+     "e": 71.272,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 71.272,
+     "e": 71.461,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 71.496,
+     "e": 71.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 71.685,
+     "e": 72.204,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 72.204,
+     "e": 72.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 72.475,
+     "e": 72.829,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "start": 74.032,
+   "end": 81.408,
+   "words": [
+    {
+     "t": "Save",
+     "s": 74.129,
+     "e": 74.507,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 74.518,
+     "e": 74.884,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 74.99,
+     "e": 75.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 75.261,
+     "e": 75.58,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 75.615,
+     "e": 75.804,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 75.827,
+     "e": 76.169,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 76.169,
+     "e": 76.995,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 76.995,
+     "e": 77.16,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 77.183,
+     "e": 77.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 77.502,
+     "e": 78.056,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 78.103,
+     "e": 78.705,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 78.728,
+     "e": 79.07,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
