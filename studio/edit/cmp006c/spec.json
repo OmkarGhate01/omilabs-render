@@ -1,0 +1,372 @@
+{
+ "id": "cmp006c",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "series": "AI COMPARISON",
+ "title": "Bolna Cloud vs Bolna Open Source: Free Self-Host Ya Paid Platform? (2026)",
+ "thumb": {
+  "a": "Cloud",
+  "b": "Open Source",
+  "top": "BOLNA AI 2026",
+  "hook": "FREE wala SAHI?",
+  "accent": "#F2542D",
+  "colorA": "#2F6BFF",
+  "colorB": "#111111"
+ },
+ "tags": [
+  "bolna open source",
+  "bolna ai",
+  "bolna self host",
+  "voice ai open source",
+  "bolna docker",
+  "ai calling agent"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Bolna Cloud vs OSS",
+    "pill": "VOICE AI",
+    "stat": "MIT",
+    "sub": "open source license"
+   },
+   "say": "Bolna का open source version free है। तो फिर लोग paid cloud क्यों use करते हैं?",
+   "hl": [
+    "open",
+    "source",
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "say": "पहले दोनों को समझो।",
+   "hl": [
+    "समझो"
+   ],
+   "chip": "समझो"
+  },
+  {
+   "tag": "PARTS",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Open source orchestration",
+     "Hosted APIs",
+     "No-code playground"
+    ]
+   },
+   "say": "Bolna के तीन हिस्से हैं: open source orchestration, उसके ऊपर hosted APIs, और no-code playground।",
+   "hl": [
+    "open",
+    "hosted",
+    "playground"
+   ],
+   "chip": "hosted"
+  },
+  {
+   "tag": "CLOSED",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "README के मुताबिक",
+    "rows": [
+     [
+      "Orchestration",
+      "open source (MIT)"
+     ],
+     [
+      "Hosted APIs",
+      "closed source"
+     ],
+     [
+      "Playground UI",
+      "closed source"
+     ]
+    ]
+   },
+   "say": "README के मुताबिक hosted APIs और playground अभी closed source हैं।",
+   "hl": [
+    "closed"
+   ],
+   "chip": "closed"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Setup"
+   },
+   "say": "Chapter दो: setup कितना मुश्किल है।",
+   "hl": [
+    "setup"
+   ],
+   "chip": "setup"
+  },
+  {
+   "tag": "OSS SETUP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Telephony server (Twilio / Plivo)",
+     "Bolna server",
+     "ngrok tunnel",
+     "Redis"
+    ]
+   },
+   "say": "Open source में Docker के चार containers चलाने होते हैं: telephony server, Bolna server, ngrok, और Redis।",
+   "hl": [
+    "Docker",
+    "चार"
+   ],
+   "chip": "Docker"
+  },
+  {
+   "tag": "OSS KEYS",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "खुद लाओ",
+    "rows": [
+     [
+      "Telephony",
+      "Twilio / Plivo account"
+     ],
+     [
+      "STT",
+      "Deepgram, Azure…"
+     ],
+     [
+      "LLM",
+      "OpenAI, DeepSeek, Llama…"
+     ],
+     [
+      "TTS",
+      "ElevenLabs, Polly, Azure…"
+     ]
+    ]
+   },
+   "say": "हर provider की key खुद लानी होती है: telephony, transcriber, LLM, और voice।",
+   "hl": [
+    "key",
+    "खुद"
+   ],
+   "chip": "खुद"
+  },
+  {
+   "tag": "CLOUD SETUP",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Bolna Cloud",
+    "rows": [
+     [
+      "Agent Studio",
+      "minutes में call-ready"
+     ],
+     [
+      "Numbers",
+      "buy या connect"
+     ],
+     [
+      "Bill",
+      "एक wallet"
+     ]
+    ]
+   },
+   "say": "Cloud में Agent Studio कुछ ही minutes में call-ready agent बना देता है, और billing एक wallet से।",
+   "hl": [
+    "Agent",
+    "Studio",
+    "wallet"
+   ],
+   "chip": "Studio"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Features"
+   },
+   "say": "Chapter तीन: features।",
+   "hl": [
+    "features"
+   ],
+   "chip": "features"
+  },
+  {
+   "tag": "FEAT",
+   "v": "table",
+   "d": {
+    "title": "Features",
+    "cols": [
+     "Cloud",
+     "Open Source"
+    ],
+    "rows": [
+     {
+      "k": "No-code builder",
+      "v": [
+       "yes",
+       "no"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Graph agents / workflows",
+      "v": [
+       "yes",
+       "—"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Batch campaigns",
+      "v": [
+       "yes",
+       "—"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Call servers",
+      "v": [
+       "Mumbai (ap-south-1)",
+       "जहाँ host करो"
+      ]
+     },
+     {
+      "k": "Code-level control",
+      "v": [
+       "API",
+       "full"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "No-code builder, graph agents, batch campaigns cloud में हैं। Open source में code पे पूरा control।",
+   "hl": [
+    "control",
+    "cloud"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Cost"
+   },
+   "say": "Chapter चार: cost।",
+   "hl": [
+    "cost"
+   ],
+   "chip": "cost"
+  },
+  {
+   "tag": "COST",
+   "v": "versus",
+   "d": {
+    "bad": "Open source = zero cost",
+    "good": "Software free, पर providers + server का बिल"
+   },
+   "say": "Open source software free है, पर telephony, LLM, voice और server का बिल आपका।",
+   "hl": [
+    "free",
+    "बिल"
+   ],
+   "chip": "बिल"
+  },
+  {
+   "tag": "COST2",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Cloud pricing",
+    "rows": [
+     [
+      "Voice AI",
+      "flat per-minute (preferred)"
+     ],
+     [
+      "Telephony",
+      "per minute"
+     ],
+     [
+      "Platform fee",
+      "per minute"
+     ]
+    ]
+   },
+   "say": "Cloud में preferred models पे flat per-minute rate, plus telephony और platform fee।",
+   "hl": [
+    "flat",
+    "per-minute"
+   ],
+   "chip": "flat"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "say": "किसके लिए कौनसा?",
+   "hl": [
+    "कौनसा"
+   ],
+   "chip": "कौनसा"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Open Source",
+      "when": "Developers, full control, अपना server"
+     },
+     {
+      "who": "Bolna Cloud",
+      "when": "Business, जल्दी launch, no-code, India numbers"
+     }
+    ]
+   },
+   "say": "Developer हो और control चाहिए, तो open source। Business को जल्दी launch करना है, तो cloud।",
+   "hl": [
+    "Developer",
+    "Business"
+   ],
+   "chip": "control"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप self-host करोगे या cloud? Comment करो, और Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}
