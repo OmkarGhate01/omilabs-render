@@ -1,0 +1,1141 @@
+{
+ "id": "cmp009b",
+ "series": "AI COMPARISON",
+ "title": "Kling 4.0 vs Kling 3.0: Kya Badla? 30 Second Video, 10 Keyframes (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp009b/voice.wav",
+ "duration": 75.776,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Kling 4.0 vs 3.0",
+    "pill": "AI VIDEO",
+    "stat": "30",
+    "sub": "seconds per generation"
+   },
+   "start": 0.0,
+   "end": 9.256,
+   "words": [
+    {
+     "t": "Kling",
+     "s": 0.097,
+     "e": 0.357,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 0.368,
+     "e": 1.559,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "आ",
+     "s": 1.63,
+     "e": 1.736,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गया",
+     "s": 1.736,
+     "e": 2.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "3.0",
+     "s": 3.031,
+     "e": 4.104,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 4.104,
+     "e": 4.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 4.292,
+     "e": 4.528,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सच",
+     "s": 4.528,
+     "e": 4.823,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 4.823,
+     "e": 4.965,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 4.965,
+     "e": 5.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 5.342,
+     "e": 5.684,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 6.934,
+     "e": 7.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फर्क",
+     "s": 7.217,
+     "e": 7.524,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "देखो",
+     "s": 7.524,
+     "e": 7.995,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Length"
+   },
+   "start": 9.256,
+   "end": 12.2,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 9.353,
+     "e": 9.778,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 9.872,
+     "e": 10.12,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 10.179,
+     "e": 10.603,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "length",
+     "s": 10.603,
+     "e": 10.945,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "LEN",
+   "v": "table",
+   "d": {
+    "title": "Video length",
+    "cols": [
+     "Kling 3.0",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Per generation",
+      "v": [
+       "3–15 sec",
+       "3–30 sec"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "start": 12.2,
+   "end": 19.8,
+   "words": [
+    {
+     "t": "Kling",
+     "s": 12.297,
+     "e": 12.545,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "3.0",
+     "s": 12.545,
+     "e": 13.724,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 13.759,
+     "e": 14.149,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "second",
+     "s": 14.149,
+     "e": 14.561,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 14.561,
+     "e": 14.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kling",
+     "s": 15.127,
+     "e": 15.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 15.351,
+     "e": 16.542,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 16.649,
+     "e": 16.873,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 16.873,
+     "e": 17.026,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pass",
+     "s": 17.038,
+     "e": 17.392,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 17.392,
+     "e": 17.557,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीस",
+     "s": 17.557,
+     "e": 17.887,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "second",
+     "s": 17.899,
+     "e": 18.264,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 18.264,
+     "e": 18.594,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "WHY",
+   "v": "versus",
+   "d": {
+    "bad": "15 sec clips जोड़ना",
+    "good": "30 sec का पूरा scene एक बार में"
+   },
+   "start": 19.8,
+   "end": 24.784,
+   "words": [
+    {
+     "t": "मतलब",
+     "s": 19.897,
+     "e": 20.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 20.334,
+     "e": 20.687,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "ad",
+     "s": 20.746,
+     "e": 20.97,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 20.97,
+     "e": 21.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scene",
+     "s": 21.159,
+     "e": 21.501,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "बिना",
+     "s": 21.501,
+     "e": 21.819,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जोड़-तोड़",
+     "s": 21.819,
+     "e": 22.35,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 22.362,
+     "e": 22.539,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 22.609,
+     "e": 22.845,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 22.845,
+     "e": 23.01,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बार",
+     "s": 23.01,
+     "e": 23.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 23.258,
+     "e": 23.576,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Control"
+   },
+   "start": 24.784,
+   "end": 27.344,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 24.881,
+     "e": 25.329,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 25.329,
+     "e": 25.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "control",
+     "s": 25.671,
+     "e": 26.202,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "KEY",
+   "v": "table",
+   "d": {
+    "title": "Control",
+    "cols": [
+     "Kling 3.0",
+     "Kling 4.0"
+    ],
+    "rows": [
+     {
+      "k": "Keyframes",
+      "v": [
+       "start + end frame",
+       "10 keyframes तक"
+      ],
+      "win": 1
+     },
+     {
+      "k": "References",
+      "v": [
+       "image, subject, video",
+       "15 combined"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "start": 27.344,
+   "end": 35.88,
+   "words": [
+    {
+     "t": "3.0",
+     "s": 27.441,
+     "e": 28.538,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 28.561,
+     "e": 28.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "start",
+     "s": 28.727,
+     "e": 29.139,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 29.21,
+     "e": 29.352,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "end",
+     "s": 29.446,
+     "e": 29.646,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "frame",
+     "s": 29.646,
+     "e": 30.012,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "थे",
+     "s": 30.012,
+     "e": 30.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 30.625,
+     "e": 31.734,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 31.769,
+     "e": 31.934,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 31.934,
+     "e": 32.241,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "keyframes",
+     "s": 32.276,
+     "e": 32.842,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तक",
+     "s": 32.842,
+     "e": 33.113,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 33.326,
+     "e": 33.479,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 33.526,
+     "e": 33.939,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "references",
+     "s": 33.939,
+     "e": 34.729,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "OMNI",
+   "v": "list",
+   "d": {
+    "items": [
+     "10 images तक",
+     "5 videos (30 sec total)",
+     "7 elements",
+     "15 combined total"
+    ]
+   },
+   "start": 35.88,
+   "end": 42.904,
+   "words": [
+    {
+     "t": "Omni",
+     "s": 35.977,
+     "e": 36.355,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Reference",
+     "s": 36.355,
+     "e": 36.873,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 36.873,
+     "e": 37.038,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 37.039,
+     "e": 37.357,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "images",
+     "s": 37.404,
+     "e": 37.923,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 38.112,
+     "e": 38.465,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "videos",
+     "s": 38.465,
+     "e": 39.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सात",
+     "s": 39.338,
+     "e": 39.656,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "elements",
+     "s": 39.727,
+     "e": 40.246,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कुल",
+     "s": 40.482,
+     "e": 40.647,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 40.659,
+     "e": 41.024,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "references",
+     "s": 41.024,
+     "e": 41.755,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Audio और editing"
+   },
+   "start": 42.904,
+   "end": 46.376,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 43.001,
+     "e": 43.461,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 43.461,
+     "e": 43.803,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "audio",
+     "s": 43.933,
+     "e": 44.346,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 44.381,
+     "e": 44.57,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editing",
+     "s": 44.64,
+     "e": 45.147,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "AUDIO",
+   "v": "list",
+   "d": {
+    "items": [
+     "Stereo audio",
+     "Multilingual lip sync",
+     "Video editing"
+    ]
+   },
+   "start": 46.376,
+   "end": 53.304,
+   "words": [
+    {
+     "t": "4.0",
+     "s": 46.473,
+     "e": 47.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 47.664,
+     "e": 47.829,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "stereo",
+     "s": 47.829,
+     "e": 48.336,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "audio",
+     "s": 48.384,
+     "e": 48.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "multilingual",
+     "s": 49.103,
+     "e": 49.834,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "lip",
+     "s": 49.834,
+     "e": 50.058,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "sync",
+     "s": 50.058,
+     "e": 50.388,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 50.66,
+     "e": 50.825,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 50.836,
+     "e": 51.308,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editing",
+     "s": 51.343,
+     "e": 51.803,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 51.803,
+     "e": 52.086,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "FLASH",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "video",
+     "title": "Kling 4.0",
+     "rows": [
+      [
+       "Length",
+       "3–30 sec"
+      ],
+      [
+       "Keyframes",
+       "10 तक"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "4.0 Flash",
+     "rows": [
+      [
+       "Length",
+       "3–20 sec"
+      ],
+      [
+       "Keyframes",
+       "first frame only"
+      ]
+     ]
+    },
+    "accentB": "#0B8F5A"
+   },
+   "start": 53.304,
+   "end": 60.112,
+   "words": [
+    {
+     "t": "और",
+     "s": 53.401,
+     "e": 53.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 53.613,
+     "e": 54.804,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 54.852,
+     "e": 55.264,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तेज़",
+     "s": 55.276,
+     "e": 55.606,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 55.606,
+     "e": 56.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 56.09,
+     "e": 56.373,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 56.503,
+     "e": 56.892,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "second",
+     "s": 56.927,
+     "e": 57.328,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 57.328,
+     "e": 57.576,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 57.646,
+     "e": 57.87,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 57.871,
+     "e": 58.236,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "first",
+     "s": 58.248,
+     "e": 58.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "frame",
+     "s": 58.602,
+     "e": 59.026,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "start": 60.112,
+   "end": 62.288,
+   "words": [
+    {
+     "t": "Upgrade",
+     "s": 60.209,
+     "e": 60.704,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करें",
+     "s": 60.704,
+     "e": 61.094,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Kling 4.0",
+      "when": "लंबे scenes, storyboard control, ads"
+     },
+     {
+      "who": "4.0 Flash",
+      "when": "जल्दी drafts, छोटे clips"
+     }
+    ]
+   },
+   "start": 62.288,
+   "end": 68.832,
+   "words": [
+    {
+     "t": "लंबे",
+     "s": 62.385,
+     "e": 62.763,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scenes",
+     "s": 62.763,
+     "e": 63.222,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 63.27,
+     "e": 63.446,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "control",
+     "s": 63.458,
+     "e": 63.954,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 63.965,
+     "e": 64.13,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 64.154,
+     "e": 64.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4.0",
+     "s": 64.449,
+     "e": 65.675,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "जल्दी",
+     "s": 65.888,
+     "e": 66.312,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "drafts",
+     "s": 66.324,
+     "e": 66.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 66.807,
+     "e": 66.972,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 67.008,
+     "e": 67.185,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 67.185,
+     "e": 67.656,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "start": 68.832,
+   "end": 75.776,
+   "words": [
+    {
+     "t": "Save",
+     "s": 68.929,
+     "e": 69.307,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 69.318,
+     "e": 69.684,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 69.802,
+     "e": 69.979,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 70.073,
+     "e": 70.391,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 70.427,
+     "e": 70.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 70.568,
+     "e": 71.394,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 71.406,
+     "e": 71.571,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 71.594,
+     "e": 71.842,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 71.924,
+     "e": 72.467,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 72.514,
+     "e": 73.08,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 73.092,
+     "e": 73.446,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
