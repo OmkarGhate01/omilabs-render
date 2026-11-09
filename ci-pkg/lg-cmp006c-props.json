@@ -1,0 +1,1577 @@
+{
+ "id": "cmp006c",
+ "series": "AI COMPARISON",
+ "title": "Bolna Cloud vs Bolna Open Source: Free Self-Host Ya Paid Platform? (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp006c/voice.wav",
+ "duration": 100.304,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Bolna Cloud vs OSS",
+    "pill": "VOICE AI",
+    "stat": "MIT",
+    "sub": "open source license"
+   },
+   "start": 0.0,
+   "end": 8.176,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 0.097,
+     "e": 0.569,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 0.569,
+     "e": 0.746,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 0.84,
+     "e": 1.182,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 1.182,
+     "e": 1.595,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 1.642,
+     "e": 2.125,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 2.125,
+     "e": 2.432,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 2.432,
+     "e": 2.762,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 4.045,
+     "e": 4.186,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 4.186,
+     "e": 4.446,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लोग",
+     "s": 4.446,
+     "e": 4.741,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 4.741,
+     "e": 5.071,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 5.071,
+     "e": 5.448,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्यों",
+     "s": 5.46,
+     "e": 5.708,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 5.708,
+     "e": 5.991,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 5.991,
+     "e": 6.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 6.344,
+     "e": 7.04,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "start": 8.176,
+   "end": 10.88,
+   "words": [
+    {
+     "t": "पहले",
+     "s": 8.273,
+     "e": 8.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 8.58,
+     "e": 8.934,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 8.934,
+     "e": 9.087,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझो",
+     "s": 9.087,
+     "e": 9.629,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "PARTS",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Open source orchestration",
+     "Hosted APIs",
+     "No-code playground"
+    ]
+   },
+   "start": 10.88,
+   "end": 19.32,
+   "words": [
+    {
+     "t": "Bolna",
+     "s": 10.977,
+     "e": 11.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 11.425,
+     "e": 11.579,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 11.602,
+     "e": 11.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्से",
+     "s": 11.921,
+     "e": 12.321,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 12.321,
+     "e": 12.604,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 12.864,
+     "e": 13.218,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 13.218,
+     "e": 13.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "orchestration",
+     "s": 13.689,
+     "e": 14.562,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उसके",
+     "s": 14.869,
+     "e": 15.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऊपर",
+     "s": 15.187,
+     "e": 15.529,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "hosted",
+     "s": 15.529,
+     "e": 15.965,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "APIs",
+     "s": 16.048,
+     "e": 16.696,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 16.826,
+     "e": 17.003,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "no-code",
+     "s": 17.003,
+     "e": 17.451,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "playground",
+     "s": 17.451,
+     "e": 18.1,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CLOSED",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "README के मुताबिक",
+    "rows": [
+     [
+      "Orchestration",
+      "open source (MIT)"
+     ],
+     [
+      "Hosted APIs",
+      "closed source"
+     ],
+     [
+      "Playground UI",
+      "closed source"
+     ]
+    ]
+   },
+   "start": 19.32,
+   "end": 25.888,
+   "words": [
+    {
+     "t": "README",
+     "s": 19.417,
+     "e": 19.924,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 19.924,
+     "e": 20.089,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुताबिक",
+     "s": 20.089,
+     "e": 20.608,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "hosted",
+     "s": 20.608,
+     "e": 21.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "APIs",
+     "s": 21.174,
+     "e": 21.882,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 21.988,
+     "e": 22.153,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "playground",
+     "s": 22.153,
+     "e": 22.802,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अभी",
+     "s": 22.849,
+     "e": 23.132,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "closed",
+     "s": 23.144,
+     "e": 23.533,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "source",
+     "s": 23.568,
+     "e": 23.957,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 23.969,
+     "e": 24.759,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Setup"
+   },
+   "start": 25.888,
+   "end": 29.912,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 25.985,
+     "e": 26.421,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 26.422,
+     "e": 26.693,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "setup",
+     "s": 26.763,
+     "e": 27.212,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कितना",
+     "s": 27.212,
+     "e": 27.577,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुश्किल",
+     "s": 27.577,
+     "e": 28.013,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 28.013,
+     "e": 28.355,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "OSS SETUP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Telephony server (Twilio / Plivo)",
+     "Bolna server",
+     "ngrok tunnel",
+     "Redis"
+    ]
+   },
+   "start": 29.912,
+   "end": 38.568,
+   "words": [
+    {
+     "t": "Open",
+     "s": 30.009,
+     "e": 30.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 30.351,
+     "e": 30.776,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 30.776,
+     "e": 30.929,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Docker",
+     "s": 30.929,
+     "e": 31.212,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 31.247,
+     "e": 31.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 31.448,
+     "e": 31.719,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "containers",
+     "s": 31.719,
+     "e": 32.427,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाने",
+     "s": 32.438,
+     "e": 32.887,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होते",
+     "s": 32.887,
+     "e": 33.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 33.217,
+     "e": 33.464,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 33.712,
+     "e": 34.266,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 34.266,
+     "e": 34.773,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bolna",
+     "s": 34.868,
+     "e": 35.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 35.292,
+     "e": 35.787,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ngrok",
+     "s": 35.976,
+     "e": 36.589,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 36.754,
+     "e": 36.92,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Redis",
+     "s": 36.92,
+     "e": 37.391,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "OSS KEYS",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "खुद लाओ",
+    "rows": [
+     [
+      "Telephony",
+      "Twilio / Plivo account"
+     ],
+     [
+      "STT",
+      "Deepgram, Azure…"
+     ],
+     [
+      "LLM",
+      "OpenAI, DeepSeek, Llama…"
+     ],
+     [
+      "TTS",
+      "ElevenLabs, Polly, Azure…"
+     ]
+    ]
+   },
+   "start": 38.568,
+   "end": 45.76,
+   "words": [
+    {
+     "t": "हर",
+     "s": 38.665,
+     "e": 38.877,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "provider",
+     "s": 38.877,
+     "e": 39.526,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 39.526,
+     "e": 39.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "key",
+     "s": 39.715,
+     "e": 39.892,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 39.927,
+     "e": 40.186,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "लानी",
+     "s": 40.186,
+     "e": 40.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 40.54,
+     "e": 40.882,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 40.882,
+     "e": 41.118,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 41.318,
+     "e": 41.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "transcriber",
+     "s": 42.12,
+     "e": 42.981,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "LLM",
+     "s": 43.146,
+     "e": 43.889,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 43.948,
+     "e": 44.137,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 44.137,
+     "e": 44.573,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CLOUD SETUP",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Bolna Cloud",
+    "rows": [
+     [
+      "Agent Studio",
+      "minutes में call-ready"
+     ],
+     [
+      "Numbers",
+      "buy या connect"
+     ],
+     [
+      "Bill",
+      "एक wallet"
+     ]
+    ]
+   },
+   "start": 45.76,
+   "end": 53.24,
+   "words": [
+    {
+     "t": "Cloud",
+     "s": 45.857,
+     "e": 46.164,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 46.164,
+     "e": 46.341,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Agent",
+     "s": 46.423,
+     "e": 46.801,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Studio",
+     "s": 46.801,
+     "e": 47.319,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कुछ",
+     "s": 47.319,
+     "e": 47.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 47.638,
+     "e": 47.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "minutes",
+     "s": 47.744,
+     "e": 48.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 48.133,
+     "e": 48.334,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call-ready",
+     "s": 48.334,
+     "e": 48.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 48.982,
+     "e": 49.336,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 49.336,
+     "e": 49.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देता",
+     "s": 49.619,
+     "e": 49.973,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 49.973,
+     "e": 50.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 50.48,
+     "e": 50.633,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "billing",
+     "s": 50.669,
+     "e": 51.058,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 51.117,
+     "e": 51.317,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "wallet",
+     "s": 51.317,
+     "e": 51.73,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 51.73,
+     "e": 52.013,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Features"
+   },
+   "start": 53.24,
+   "end": 55.992,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 53.337,
+     "e": 53.821,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 53.821,
+     "e": 54.139,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "features",
+     "s": 54.233,
+     "e": 54.835,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "FEAT",
+   "v": "table",
+   "d": {
+    "title": "Features",
+    "cols": [
+     "Cloud",
+     "Open Source"
+    ],
+    "rows": [
+     {
+      "k": "No-code builder",
+      "v": [
+       "yes",
+       "no"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Graph agents / workflows",
+      "v": [
+       "yes",
+       "—"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Batch campaigns",
+      "v": [
+       "yes",
+       "—"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Call servers",
+      "v": [
+       "Mumbai (ap-south-1)",
+       "जहाँ host करो"
+      ]
+     },
+     {
+      "k": "Code-level control",
+      "v": [
+       "API",
+       "full"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "start": 55.992,
+   "end": 64.96,
+   "words": [
+    {
+     "t": "No-code",
+     "s": 56.089,
+     "e": 56.549,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "builder",
+     "s": 56.549,
+     "e": 57.033,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "graph",
+     "s": 57.151,
+     "e": 57.516,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 57.563,
+     "e": 58.058,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 58.294,
+     "e": 58.648,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "campaigns",
+     "s": 58.648,
+     "e": 59.285,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 59.32,
+     "e": 59.603,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 59.603,
+     "e": 59.78,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 59.78,
+     "e": 60.57,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Open",
+     "s": 61.44,
+     "e": 61.794,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 61.806,
+     "e": 62.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 62.23,
+     "e": 62.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 62.419,
+     "e": 62.737,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 62.737,
+     "e": 62.95,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 62.95,
+     "e": 63.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "control",
+     "s": 63.292,
+     "e": 63.846,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Cost"
+   },
+   "start": 64.96,
+   "end": 67.496,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 65.057,
+     "e": 65.529,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 65.541,
+     "e": 65.859,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cost",
+     "s": 65.953,
+     "e": 66.319,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "COST",
+   "v": "versus",
+   "d": {
+    "bad": "Open source = zero cost",
+    "good": "Software free, पर providers + server का बिल"
+   },
+   "start": 67.496,
+   "end": 75.096,
+   "words": [
+    {
+     "t": "Open",
+     "s": 67.593,
+     "e": 67.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 67.971,
+     "e": 68.407,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "software",
+     "s": 68.454,
+     "e": 69.114,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 69.114,
+     "e": 69.433,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 69.433,
+     "e": 69.669,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 69.846,
+     "e": 70.034,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 70.034,
+     "e": 70.742,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "LLM",
+     "s": 70.966,
+     "e": 71.768,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 71.85,
+     "e": 72.228,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 72.298,
+     "e": 72.499,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 72.499,
+     "e": 72.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 72.959,
+     "e": 73.136,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बिल",
+     "s": 73.136,
+     "e": 73.313,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "आपका",
+     "s": 73.383,
+     "e": 73.831,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "COST2",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Cloud pricing",
+    "rows": [
+     [
+      "Voice AI",
+      "flat per-minute (preferred)"
+     ],
+     [
+      "Telephony",
+      "per minute"
+     ],
+     [
+      "Platform fee",
+      "per minute"
+     ]
+    ]
+   },
+   "start": 75.096,
+   "end": 81.736,
+   "words": [
+    {
+     "t": "Cloud",
+     "s": 75.193,
+     "e": 75.5,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 75.512,
+     "e": 75.688,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "preferred",
+     "s": 75.688,
+     "e": 76.184,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 76.196,
+     "e": 76.714,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 76.714,
+     "e": 76.891,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "flat",
+     "s": 76.903,
+     "e": 77.257,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "per-minute",
+     "s": 77.257,
+     "e": 77.776,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "rate",
+     "s": 77.799,
+     "e": 78.118,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plus",
+     "s": 78.33,
+     "e": 78.578,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "telephony",
+     "s": 78.589,
+     "e": 79.238,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 79.321,
+     "e": 79.521,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "platform",
+     "s": 79.545,
+     "e": 80.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "fee",
+     "s": 80.217,
+     "e": 80.523,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "start": 81.736,
+   "end": 84.152,
+   "words": [
+    {
+     "t": "किसके",
+     "s": 81.833,
+     "e": 82.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 82.222,
+     "e": 82.387,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 82.387,
+     "e": 82.93,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Open Source",
+      "when": "Developers, full control, अपना server"
+     },
+     {
+      "who": "Bolna Cloud",
+      "when": "Business, जल्दी launch, no-code, India numbers"
+     }
+    ]
+   },
+   "start": 84.152,
+   "end": 92.256,
+   "words": [
+    {
+     "t": "Developer",
+     "s": 84.249,
+     "e": 84.815,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 84.815,
+     "e": 85.075,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 85.075,
+     "e": 85.252,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "control",
+     "s": 85.263,
+     "e": 85.782,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "चाहिए",
+     "s": 85.794,
+     "e": 86.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 86.372,
+     "e": 86.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 86.631,
+     "e": 86.985,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 86.985,
+     "e": 87.445,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Business",
+     "s": 88.35,
+     "e": 88.81,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 88.81,
+     "e": 88.951,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जल्दी",
+     "s": 88.952,
+     "e": 89.329,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "launch",
+     "s": 89.341,
+     "e": 89.694,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करना",
+     "s": 89.694,
+     "e": 90.048,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 90.048,
+     "e": 90.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 90.426,
+     "e": 90.614,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 90.614,
+     "e": 91.015,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 92.256,
+   "end": 100.304,
+   "words": [
+    {
+     "t": "आप",
+     "s": 92.353,
+     "e": 92.565,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "self-host",
+     "s": 92.589,
+     "e": 93.214,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करोगे",
+     "s": 93.226,
+     "e": 93.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 93.65,
+     "e": 93.815,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 93.815,
+     "e": 94.216,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 95.181,
+     "e": 95.581,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 95.605,
+     "e": 95.982,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 96.124,
+     "e": 96.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 96.372,
+     "e": 96.949,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 96.997,
+     "e": 97.622,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 97.645,
+     "e": 97.964,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
