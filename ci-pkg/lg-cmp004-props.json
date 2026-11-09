@@ -1,0 +1,2209 @@
+{
+ "id": "cmp004",
+ "series": "AI COMPARISON",
+ "title": "ElevenLabs v4 vs v3: Kya Sach Mein Upgrade Karna Chahiye? (2026)",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp004/voice.wav",
+ "duration": 142.368,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Eleven v4 vs v3",
+    "pill": "TEXT TO SPEECH",
+    "stat": "90+",
+    "sub": "languages in v4"
+   },
+   "start": 0.0,
+   "end": 10.024,
+   "words": [
+    {
+     "t": "ElevenLabs",
+     "s": 0.097,
+     "e": 0.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 0.852,
+     "e": 1.335,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "आ",
+     "s": 1.347,
+     "e": 1.524,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गया",
+     "s": 1.524,
+     "e": 1.842,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 2.255,
+     "e": 2.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 3.361,
+     "e": 3.526,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 3.526,
+     "e": 3.762,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v3",
+     "s": 3.762,
+     "e": 4.233,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "छोड़ना",
+     "s": 4.257,
+     "e": 4.693,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सही",
+     "s": 4.693,
+     "e": 5.047,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 5.047,
+     "e": 5.354,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आज",
+     "s": 6.651,
+     "e": 6.887,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 6.934,
+     "e": 7.276,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फर्क",
+     "s": 7.276,
+     "e": 7.594,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "देखते",
+     "s": 7.606,
+     "e": 8.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 8.09,
+     "e": 8.797,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "HOOK",
+   "v": "list",
+   "d": {
+    "items": [
+     "Languages",
+     "Voice cloning",
+     "Accent",
+     "Settings",
+     "Speed"
+    ]
+   },
+   "start": 10.024,
+   "end": 16.256,
+   "words": [
+    {
+     "t": "पाँच",
+     "s": 10.121,
+     "e": 10.428,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "चीज़ें",
+     "s": 10.428,
+     "e": 10.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "compare",
+     "s": 10.793,
+     "e": 11.289,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करेंगे",
+     "s": 11.289,
+     "e": 11.772,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 11.855,
+     "e": 12.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloning",
+     "s": 12.751,
+     "e": 13.164,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "accent",
+     "s": 13.293,
+     "e": 13.765,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "settings",
+     "s": 13.859,
+     "e": 14.355,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 14.425,
+     "e": 14.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "speed",
+     "s": 14.59,
+     "e": 15.015,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Models"
+   },
+   "start": 16.256,
+   "end": 19.32,
+   "words": [
+    {
+     "t": "पहले",
+     "s": 16.353,
+     "e": 16.624,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 16.648,
+     "e": 17.143,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 17.143,
+     "e": 17.297,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नाम",
+     "s": 17.297,
+     "e": 17.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझो",
+     "s": 17.568,
+     "e": 18.075,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "IDS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "wave",
+     "title": "Eleven v3",
+     "rows": [
+      [
+       "Model ID",
+       "eleven_v3"
+      ],
+      [
+       "Realtime",
+       "v3 Conversational"
+      ],
+      [
+       "Latency",
+       "~280 ms (conv.)"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Eleven v4",
+     "rows": [
+      [
+       "Model ID",
+       "eleven_v4"
+      ],
+      [
+       "Realtime",
+       "v4 Turbo"
+      ],
+      [
+       "Latency",
+       "~100 ms (Turbo)"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "start": 19.32,
+   "end": 32.512,
+   "words": [
+    {
+     "t": "v3",
+     "s": 19.417,
+     "e": 19.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 20.019,
+     "e": 20.184,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "realtime",
+     "s": 20.184,
+     "e": 20.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 20.75,
+     "e": 21.221,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v3",
+     "s": 21.221,
+     "e": 21.776,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Conversational",
+     "s": 21.811,
+     "e": 22.754,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 22.754,
+     "e": 23.026,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करीब",
+     "s": 23.297,
+     "e": 23.686,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 23.686,
+     "e": 23.922,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 23.922,
+     "e": 24.181,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अस्सी",
+     "s": 24.24,
+     "e": 24.582,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "milliseconds",
+     "s": 24.594,
+     "e": 25.561,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 26.431,
+     "e": 26.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 26.938,
+     "e": 27.138,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "realtime",
+     "s": 27.138,
+     "e": 27.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 27.728,
+     "e": 28.188,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 28.188,
+     "e": 28.742,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Turbo",
+     "s": 28.742,
+     "e": 29.202,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 29.202,
+     "e": 29.45,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करीब",
+     "s": 29.733,
+     "e": 30.122,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 30.122,
+     "e": 30.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "milliseconds",
+     "s": 30.358,
+     "e": 31.337,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "GEN",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Docs के मुताबिक",
+    "rows": [
+     [
+      "v4",
+      "नई generation का पहला model"
+     ],
+     [
+      "Upgrade",
+      "almost every case में बेहतर"
+     ]
+    ]
+   },
+   "start": 32.512,
+   "end": 40.448,
+   "words": [
+    {
+     "t": "Docs",
+     "s": 32.609,
+     "e": 32.916,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कहते",
+     "s": 32.916,
+     "e": 33.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 33.305,
+     "e": 33.576,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 33.777,
+     "e": 34.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नई",
+     "s": 34.284,
+     "e": 34.543,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "generation",
+     "s": 34.543,
+     "e": 35.192,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 35.203,
+     "e": 35.357,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहला",
+     "s": 35.357,
+     "e": 35.734,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 35.734,
+     "e": 36.135,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 36.135,
+     "e": 36.395,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 36.701,
+     "e": 36.866,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादातर",
+     "s": 36.866,
+     "e": 37.456,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cases",
+     "s": 37.479,
+     "e": 37.928,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 37.928,
+     "e": 38.081,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v3",
+     "s": 38.081,
+     "e": 38.6,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 38.612,
+     "e": 38.8,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 38.8,
+     "e": 39.213,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Languages"
+   },
+   "start": 40.448,
+   "end": 43.224,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 40.545,
+     "e": 40.993,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 40.993,
+     "e": 41.253,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 41.312,
+     "e": 42.055,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "LANG",
+   "v": "table",
+   "d": {
+    "title": "Languages",
+    "cols": [
+     "Eleven v3",
+     "Eleven v4"
+    ],
+    "rows": [
+     {
+      "k": "Model",
+      "v": [
+       "70+",
+       "90+"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Realtime model",
+      "v": [
+       "70+",
+       "90+"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "start": 43.224,
+   "end": 51.376,
+   "words": [
+    {
+     "t": "Docs",
+     "s": 43.321,
+     "e": 43.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 43.64,
+     "e": 43.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुताबिक",
+     "s": 43.793,
+     "e": 44.312,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v3",
+     "s": 44.324,
+     "e": 44.866,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सत्तर",
+     "s": 44.866,
+     "e": 45.302,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 45.302,
+     "e": 45.467,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 45.467,
+     "e": 45.939,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 46.269,
+     "e": 46.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 46.423,
+     "e": 46.965,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नब्बे",
+     "s": 46.965,
+     "e": 47.354,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 47.354,
+     "e": 47.543,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 47.543,
+     "e": 47.944,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "languages",
+     "s": 47.944,
+     "e": 48.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "support",
+     "s": 48.687,
+     "e": 49.17,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 49.182,
+     "e": 49.559,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 49.559,
+     "e": 49.842,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "ACCENT",
+   "v": "versus",
+   "d": {
+    "bad": "v3: दूसरी language में source accent आ सकता है",
+    "good": "v4: दूसरी language में fluent, native accent"
+   },
+   "start": 51.376,
+   "end": 60.824,
+   "words": [
+    {
+     "t": "v4",
+     "s": 51.473,
+     "e": 51.992,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 51.992,
+     "e": 52.169,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 52.169,
+     "e": 52.44,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदलाव",
+     "s": 52.44,
+     "e": 52.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अगर",
+     "s": 53.077,
+     "e": 53.384,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 53.384,
+     "e": 53.749,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसी",
+     "s": 53.749,
+     "e": 54.127,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 54.15,
+     "e": 54.362,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "language",
+     "s": 54.362,
+     "e": 54.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 54.893,
+     "e": 55.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 55.093,
+     "e": 55.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 55.601,
+     "e": 55.789,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 55.789,
+     "e": 56.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "target",
+     "s": 56.285,
+     "e": 56.768,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "language",
+     "s": 56.78,
+     "e": 57.287,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 57.287,
+     "e": 57.452,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "native",
+     "s": 57.452,
+     "e": 57.865,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "accent",
+     "s": 57.935,
+     "e": 58.372,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 58.372,
+     "e": 58.549,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बोलता",
+     "s": 58.549,
+     "e": 58.997,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 58.997,
+     "e": 59.292,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "ACCENT2",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Native accent handling",
+    "rows": [
+     [
+      "Same language",
+      "accent वही"
+     ],
+     [
+      "Other language",
+      "fluent, natural"
+     ],
+     [
+      "Toggle",
+      "अभी नहीं"
+     ]
+    ]
+   },
+   "start": 60.824,
+   "end": 69.12,
+   "words": [
+    {
+     "t": "Same",
+     "s": 60.921,
+     "e": 61.287,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "language",
+     "s": 61.287,
+     "e": 61.794,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 61.794,
+     "e": 61.947,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "accent",
+     "s": 61.983,
+     "e": 62.466,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वही",
+     "s": 62.478,
+     "e": 62.773,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहता",
+     "s": 62.784,
+     "e": 63.162,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 63.162,
+     "e": 63.445,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 64.716,
+     "e": 64.94,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अभी",
+     "s": 64.951,
+     "e": 65.317,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हमेशा",
+     "s": 65.317,
+     "e": 65.824,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "on",
+     "s": 65.859,
+     "e": 66.06,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 66.06,
+     "e": 66.331,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "toggle",
+     "s": 66.543,
+     "e": 66.921,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "नहीं",
+     "s": 66.921,
+     "e": 67.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 67.216,
+     "e": 67.534,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Voice cloning"
+   },
+   "start": 69.12,
+   "end": 72.16,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 69.217,
+     "e": 69.665,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 69.665,
+     "e": 70.031,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 70.102,
+     "e": 70.455,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloning",
+     "s": 70.455,
+     "e": 70.915,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CLONE",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "v4 cloning",
+    "rows": [
+     [
+      "Instant clone",
+      "ज़्यादा accurate"
+     ],
+     [
+      "Professional clone",
+      "supported"
+     ],
+     [
+      "Source audio",
+      "पहले से ज़्यादा important"
+     ]
+    ]
+   },
+   "start": 72.16,
+   "end": 79.712,
+   "words": [
+    {
+     "t": "v4",
+     "s": 72.257,
+     "e": 72.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 72.752,
+     "e": 72.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "instant",
+     "s": 73.012,
+     "e": 73.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 73.425,
+     "e": 73.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "clone",
+     "s": 73.837,
+     "e": 74.179,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 74.179,
+     "e": 74.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "accurate",
+     "s": 74.675,
+     "e": 75.264,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 75.264,
+     "e": 75.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 75.819,
+     "e": 75.984,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "professional",
+     "s": 76.019,
+     "e": 76.726,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "clone",
+     "s": 76.75,
+     "e": 77.068,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 77.092,
+     "e": 77.257,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "supported",
+     "s": 77.257,
+     "e": 77.847,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 77.847,
+     "e": 78.177,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CLONE2",
+   "v": "versus",
+   "d": {
+    "bad": "Noisy recording → noise भी copy",
+    "good": "Clean, एक ही speaking style"
+   },
+   "start": 79.712,
+   "end": 86.976,
+   "words": [
+    {
+     "t": "पर",
+     "s": 79.809,
+     "e": 79.962,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ध्यान",
+     "s": 79.962,
+     "e": 80.328,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 80.34,
+     "e": 80.587,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 80.67,
+     "e": 81.212,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इतना",
+     "s": 81.283,
+     "e": 81.637,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "accurate",
+     "s": 81.661,
+     "e": 82.286,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 82.286,
+     "e": 82.557,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कि",
+     "s": 82.746,
+     "e": 82.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "recording",
+     "s": 82.863,
+     "e": 83.429,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 83.429,
+     "e": 83.583,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गलतियाँ",
+     "s": 83.583,
+     "e": 84.078,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 84.078,
+     "e": 84.22,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "copy",
+     "s": 84.22,
+     "e": 84.585,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कर",
+     "s": 84.597,
+     "e": 84.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लेता",
+     "s": 84.809,
+     "e": 85.151,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 85.151,
+     "e": 85.446,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CLONE3",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "Recording tip",
+    "rows": [
+     [
+      "Audio",
+      "clear, clean"
+     ],
+     [
+      "Style",
+      "एक ही speaking style"
+     ],
+     [
+      "PVC",
+      "rolling out"
+     ]
+    ]
+   },
+   "start": 86.976,
+   "end": 95.656,
+   "words": [
+    {
+     "t": "Tip",
+     "s": 87.073,
+     "e": 87.285,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "clean",
+     "s": 87.368,
+     "e": 87.698,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "audio",
+     "s": 87.745,
+     "e": 88.134,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 88.135,
+     "e": 88.441,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 88.476,
+     "e": 88.665,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 88.76,
+     "e": 88.972,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 88.984,
+     "e": 89.125,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "speaking",
+     "s": 89.125,
+     "e": 89.656,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "style",
+     "s": 89.656,
+     "e": 89.998,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "रखो",
+     "s": 89.998,
+     "e": 90.434,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Professional",
+     "s": 91.351,
+     "e": 91.964,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "clone",
+     "s": 91.964,
+     "e": 92.294,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "support",
+     "s": 92.294,
+     "e": 92.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अभी",
+     "s": 92.86,
+     "e": 93.143,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "rolling",
+     "s": 93.143,
+     "e": 93.509,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "out",
+     "s": 93.509,
+     "e": 93.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 93.721,
+     "e": 94.075,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Settings"
+   },
+   "start": 95.656,
+   "end": 99.152,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 95.753,
+     "e": 96.225,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 96.248,
+     "e": 96.543,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "settings",
+     "s": 96.614,
+     "e": 97.109,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 97.109,
+     "e": 97.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 97.263,
+     "e": 97.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदला",
+     "s": 97.475,
+     "e": 97.888,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SET",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "v4 settings",
+    "rows": [
+     [
+      "Stability",
+      "yes"
+     ],
+     [
+      "Similarity",
+      "yes"
+     ],
+     [
+      "Style / Speed",
+      "नहीं"
+     ],
+     [
+      "SSML",
+      "नहीं"
+     ]
+    ]
+   },
+   "start": 99.152,
+   "end": 109.224,
+   "words": [
+    {
+     "t": "v4",
+     "s": 99.249,
+     "e": 99.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 99.744,
+     "e": 99.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 99.921,
+     "e": 100.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Stability",
+     "s": 100.263,
+     "e": 100.971,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 101.018,
+     "e": 101.207,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Similarity",
+     "s": 101.207,
+     "e": 101.95,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 101.95,
+     "e": 102.716,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Style",
+     "s": 103.61,
+     "e": 104.022,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 104.069,
+     "e": 104.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Speed",
+     "s": 104.258,
+     "e": 104.647,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "slider",
+     "s": 104.647,
+     "e": 105.154,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 105.154,
+     "e": 105.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 105.827,
+     "e": 106.015,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "SSML",
+     "s": 106.098,
+     "e": 107.112,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "support",
+     "s": 107.112,
+     "e": 107.584,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 107.595,
+     "e": 108.008,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TAGS",
+   "v": "list",
+   "d": {
+    "items": [
+     "[whispering]",
+     "[shouting]",
+     "[laughing]",
+     "Natural language direction"
+    ]
+   },
+   "start": 109.224,
+   "end": 115.12,
+   "words": [
+    {
+     "t": "Delivery",
+     "s": 109.321,
+     "e": 109.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 109.769,
+     "e": 109.946,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 109.993,
+     "e": 110.194,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "audio",
+     "s": 110.253,
+     "e": 110.618,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tags",
+     "s": 110.618,
+     "e": 111.007,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "use",
+     "s": 111.008,
+     "e": 111.302,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 111.302,
+     "e": 111.644,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 111.798,
+     "e": 112.199,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "whispering",
+     "s": 112.199,
+     "e": 112.753,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "shouting",
+     "s": 112.859,
+     "e": 113.366,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "laughing",
+     "s": 113.413,
+     "e": 113.932,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "start": 115.12,
+   "end": 117.944,
+   "words": [
+    {
+     "t": "तो",
+     "s": 115.217,
+     "e": 115.347,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "upgrade",
+     "s": 115.382,
+     "e": 115.866,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करें",
+     "s": 115.866,
+     "e": 116.172,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 116.172,
+     "e": 116.314,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 116.314,
+     "e": 116.668,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "DOCS",
+   "v": "versus",
+   "d": {
+    "bad": "बिना test किए पूरा switch",
+    "good": "अपनी voice पे दोनों compare करो"
+   },
+   "start": 117.944,
+   "end": 125.832,
+   "words": [
+    {
+     "t": "ElevenLabs",
+     "s": 118.041,
+     "e": 118.819,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 118.855,
+     "e": 119.079,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कहता",
+     "s": 119.103,
+     "e": 119.515,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 119.515,
+     "e": 119.751,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 119.94,
+     "e": 120.506,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादातर",
+     "s": 120.506,
+     "e": 121.095,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cases",
+     "s": 121.107,
+     "e": 121.591,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 121.591,
+     "e": 121.756,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 121.756,
+     "e": 122.157,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 122.157,
+     "e": 122.416,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 122.617,
+     "e": 122.782,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपनी",
+     "s": 122.864,
+     "e": 123.171,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 123.183,
+     "e": 123.536,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 123.536,
+     "e": 123.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 123.702,
+     "e": 124.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 124.055,
+     "e": 124.303,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 124.327,
+     "e": 124.633,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Eleven v4",
+      "when": "नई languages, native accent, better clones"
+     },
+     {
+      "who": "Eleven v3",
+      "when": "जब पुरानी voice का sound ही चाहिए"
+     }
+    ]
+   },
+   "start": 125.832,
+   "end": 134.632,
+   "words": [
+    {
+     "t": "नया",
+     "s": 125.929,
+     "e": 126.248,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "project",
+     "s": 126.248,
+     "e": 126.719,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 126.719,
+     "e": 126.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 126.967,
+     "e": 127.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v4",
+     "s": 127.167,
+     "e": 127.686,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "पुरानी",
+     "s": 128.627,
+     "e": 129.016,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 129.016,
+     "e": 129.382,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 129.382,
+     "e": 129.523,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "exact",
+     "s": 129.582,
+     "e": 130.03,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sound",
+     "s": 130.03,
+     "e": 130.384,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 130.396,
+     "e": 130.891,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 131.103,
+     "e": 131.304,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "v3",
+     "s": 131.304,
+     "e": 131.787,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 131.823,
+     "e": 131.976,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 131.988,
+     "e": 132.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करके",
+     "s": 132.282,
+     "e": 132.636,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "decide",
+     "s": 132.636,
+     "e": 133.061,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 133.073,
+     "e": 133.426,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 134.632,
+   "end": 142.368,
+   "words": [
+    {
+     "t": "आपको",
+     "s": 134.729,
+     "e": 135.13,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 135.13,
+     "e": 135.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अच्छा",
+     "s": 135.602,
+     "e": 135.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगा",
+     "s": 135.967,
+     "e": 136.309,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 137.25,
+     "e": 137.651,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 137.674,
+     "e": 138.052,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 138.193,
+     "e": 138.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 138.441,
+     "e": 139.019,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 139.066,
+     "e": 139.691,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 139.715,
+     "e": 140.033,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
