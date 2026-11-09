@@ -1,0 +1,451 @@
+{
+ "id": "cmp004",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "series": "AI COMPARISON",
+ "title": "ElevenLabs v4 vs v3: Kya Sach Mein Upgrade Karna Chahiye? (2026)",
+ "thumb": {
+  "a": "Eleven v3",
+  "b": "Eleven v4",
+  "top": "ELEVENLABS 2026",
+  "hook": "UPGRADE karo ya NAHI?",
+  "accent": "#F2542D",
+  "colorA": "#3B3B3B",
+  "colorB": "#111111"
+ },
+ "tags": [
+  "elevenlabs v4 vs v3",
+  "eleven v4",
+  "eleven v3",
+  "elevenlabs new model",
+  "ai voice",
+  "text to speech"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Eleven v4 vs v3",
+    "pill": "TEXT TO SPEECH",
+    "stat": "90+",
+    "sub": "languages in v4"
+   },
+   "say": "ElevenLabs v4 आ गया है। पर क्या v3 छोड़ना सही है? आज पूरा फर्क देखते हैं।",
+   "hl": [
+    "v4",
+    "v3",
+    "फर्क"
+   ],
+   "chip": "फर्क"
+  },
+  {
+   "tag": "HOOK",
+   "v": "list",
+   "d": {
+    "items": [
+     "Languages",
+     "Voice cloning",
+     "Accent",
+     "Settings",
+     "Speed"
+    ]
+   },
+   "say": "पाँच चीज़ें compare करेंगे: languages, cloning, accent, settings और speed।",
+   "hl": [
+    "पाँच",
+    "compare"
+   ],
+   "chip": "compare"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Models"
+   },
+   "say": "पहले models के नाम समझो।",
+   "hl": [
+    "models"
+   ],
+   "chip": "models"
+  },
+  {
+   "tag": "IDS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "wave",
+     "title": "Eleven v3",
+     "rows": [
+      [
+       "Model ID",
+       "eleven_v3"
+      ],
+      [
+       "Realtime",
+       "v3 Conversational"
+      ],
+      [
+       "Latency",
+       "~280 ms (conv.)"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Eleven v4",
+     "rows": [
+      [
+       "Model ID",
+       "eleven_v4"
+      ],
+      [
+       "Realtime",
+       "v4 Turbo"
+      ],
+      [
+       "Latency",
+       "~100 ms (Turbo)"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "v3 का realtime version v3 Conversational है, करीब दो सौ अस्सी milliseconds। v4 का realtime version v4 Turbo है, करीब सौ milliseconds।",
+   "hl": [
+    "Conversational",
+    "Turbo"
+   ],
+   "chip": "Turbo"
+  },
+  {
+   "tag": "GEN",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Docs के मुताबिक",
+    "rows": [
+     [
+      "v4",
+      "नई generation का पहला model"
+     ],
+     [
+      "Upgrade",
+      "almost every case में बेहतर"
+     ]
+    ]
+   },
+   "say": "Docs कहते हैं: v4 नई generation का पहला model है, और ज़्यादातर cases में v3 से बेहतर।",
+   "hl": [
+    "generation",
+    "बेहतर"
+   ],
+   "chip": "बेहतर"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Languages"
+   },
+   "say": "Chapter दो: languages।",
+   "hl": [
+    "languages"
+   ],
+   "chip": "languages"
+  },
+  {
+   "tag": "LANG",
+   "v": "table",
+   "d": {
+    "title": "Languages",
+    "cols": [
+     "Eleven v3",
+     "Eleven v4"
+    ],
+    "rows": [
+     {
+      "k": "Model",
+      "v": [
+       "70+",
+       "90+"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Realtime model",
+      "v": [
+       "70+",
+       "90+"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "Docs के मुताबिक v3 सत्तर से ज़्यादा, और v4 नब्बे से ज़्यादा languages support करता है।",
+   "hl": [
+    "सत्तर",
+    "नब्बे"
+   ],
+   "chip": "नब्बे"
+  },
+  {
+   "tag": "ACCENT",
+   "v": "versus",
+   "d": {
+    "bad": "v3: दूसरी language में source accent आ सकता है",
+    "good": "v4: दूसरी language में fluent, native accent"
+   },
+   "say": "v4 का बड़ा बदलाव: अगर voice किसी और language की है, तो v4 target language में native accent में बोलता है।",
+   "hl": [
+    "native",
+    "accent"
+   ],
+   "chip": "native"
+  },
+  {
+   "tag": "ACCENT2",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Native accent handling",
+    "rows": [
+     [
+      "Same language",
+      "accent वही"
+     ],
+     [
+      "Other language",
+      "fluent, natural"
+     ],
+     [
+      "Toggle",
+      "अभी नहीं"
+     ]
+    ]
+   },
+   "say": "Same language में accent वही रहता है। ये अभी हमेशा on है, toggle नहीं है।",
+   "hl": [
+    "toggle"
+   ],
+   "chip": "toggle"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Voice cloning"
+   },
+   "say": "Chapter तीन: voice cloning।",
+   "hl": [
+    "cloning"
+   ],
+   "chip": "cloning"
+  },
+  {
+   "tag": "CLONE",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "v4 cloning",
+    "rows": [
+     [
+      "Instant clone",
+      "ज़्यादा accurate"
+     ],
+     [
+      "Professional clone",
+      "supported"
+     ],
+     [
+      "Source audio",
+      "पहले से ज़्यादा important"
+     ]
+    ]
+   },
+   "say": "v4 में instant voice clone ज़्यादा accurate है, और professional clone भी supported है।",
+   "hl": [
+    "accurate",
+    "professional"
+   ],
+   "chip": "accurate"
+  },
+  {
+   "tag": "CLONE2",
+   "v": "versus",
+   "d": {
+    "bad": "Noisy recording → noise भी copy",
+    "good": "Clean, एक ही speaking style"
+   },
+   "say": "पर ध्यान दो: v4 इतना accurate है कि recording की गलतियाँ भी copy कर लेता है।",
+   "hl": [
+    "गलतियाँ",
+    "copy"
+   ],
+   "chip": "copy"
+  },
+  {
+   "tag": "CLONE3",
+   "v": "card",
+   "d": {
+    "icon": "mic",
+    "title": "Recording tip",
+    "rows": [
+     [
+      "Audio",
+      "clear, clean"
+     ],
+     [
+      "Style",
+      "एक ही speaking style"
+     ],
+     [
+      "PVC",
+      "rolling out"
+     ]
+    ]
+   },
+   "say": "Tip: clean audio दो और एक ही speaking style रखो। Professional clone support अभी rolling out है।",
+   "hl": [
+    "clean",
+    "style"
+   ],
+   "chip": "clean"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Settings"
+   },
+   "say": "Chapter चार: settings में क्या बदला।",
+   "hl": [
+    "settings"
+   ],
+   "chip": "settings"
+  },
+  {
+   "tag": "SET",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "v4 settings",
+    "rows": [
+     [
+      "Stability",
+      "yes"
+     ],
+     [
+      "Similarity",
+      "yes"
+     ],
+     [
+      "Style / Speed",
+      "नहीं"
+     ],
+     [
+      "SSML",
+      "नहीं"
+     ]
+    ]
+   },
+   "say": "v4 में सिर्फ Stability और Similarity हैं। Style और Speed slider नहीं, और SSML support नहीं।",
+   "hl": [
+    "Stability",
+    "Similarity",
+    "SSML"
+   ],
+   "chip": "SSML"
+  },
+  {
+   "tag": "TAGS",
+   "v": "list",
+   "d": {
+    "items": [
+     "[whispering]",
+     "[shouting]",
+     "[laughing]",
+     "Natural language direction"
+    ]
+   },
+   "say": "Delivery के लिए audio tags use करो, जैसे whispering, shouting, laughing।",
+   "hl": [
+    "tags",
+    "whispering"
+   ],
+   "chip": "tags"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "say": "तो upgrade करें या नहीं?",
+   "hl": [
+    "upgrade"
+   ],
+   "chip": "upgrade"
+  },
+  {
+   "tag": "DOCS",
+   "v": "versus",
+   "d": {
+    "bad": "बिना test किए पूरा switch",
+    "good": "अपनी voice पे दोनों compare करो"
+   },
+   "say": "ElevenLabs खुद कहता है: v4 ज़्यादातर cases में बेहतर है, पर अपनी voice पे दोनों test करो।",
+   "hl": [
+    "test",
+    "बेहतर"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Eleven v4",
+      "when": "नई languages, native accent, better clones"
+     },
+     {
+      "who": "Eleven v3",
+      "when": "जब पुरानी voice का sound ही चाहिए"
+     }
+    ]
+   },
+   "say": "नया project है तो v4। पुरानी voice का exact sound चाहिए, तो v3 पे test करके decide करो।",
+   "hl": [
+    "v4",
+    "v3"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आपको कौनसा अच्छा लगा? Comment करो, और Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

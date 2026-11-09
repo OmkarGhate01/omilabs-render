@@ -99,10 +99,11 @@ const LongVisual: React.FC<{ b: Beat; accent: string }> = ({ b, accent }) => {
 const LongBeat: React.FC<{ b: Beat; accent: string; len: number }> = ({ b, accent, len }) => {
   const f = useCurrentFrame();
   const out = interpolate(f, [len - 8, len], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const zoom = 1 + 0.03 * interpolate(f, [0, len], [0, 1], { extrapolateRight: "clamp" });   // slow push-in
+  const big = ["card", "list", "versus", "hook", "cta", "browser"].includes(b.v) ? 1.3 : ["table", "verdict", "duo"].includes(b.v) ? 1.1 : 1;   // cards read well on a phone
+  const zoom = big * (1 + 0.03 * interpolate(f, [0, len], [0, 1], { extrapolateRight: "clamp" }));   // slow push-in
   return (
     <AbsoluteFill style={{ opacity: out }}>
-      <div style={{ position: "absolute", top: 150, height: b.v === "chapter" ? 760 : 640, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${zoom})` }}>
+      <div style={{ position: "absolute", top: 140, height: b.v === "chapter" ? 760 : 660, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${zoom})` }}>
         <LongVisual b={b} accent={accent} />
       </div>
       {b.v !== "chapter" && (
@@ -154,15 +155,16 @@ export const longMetadata = ({ props }: { props: LongProps }) => ({ durationInFr
 // ---------- thumbnail (1280x720): big text, VS split, honest curiosity hook ----------
 export type ThumbProps = { a: string; b?: string; top: string; hook: string; accent: string; colorA?: string; colorB?: string };
 export const thumbDefaults: ThumbProps = { a: "ElevenLabs", b: "Bolna", top: "VOICE AI 2026", hook: "INDIA ke liye KAUN?", accent: "#F2542D" };
+const nameSize = (n: string) => (n.length <= 5 ? 130 : n.length <= 8 ? 104 : n.length <= 11 ? 84 : 66);
 export const OmiThumb: React.FC<ThumbProps> = ({ a, b, top, hook, accent, colorA = "#111", colorB = "#2F6BFF" }) => (
   <AbsoluteFill style={{ fontFamily, background: "linear-gradient(135deg,#FAFAFA 0%,#E9E9E9 100%)" }}>
     {b ? (
       <>
         <div style={{ position: "absolute", left: 0, top: 0, width: 640, height: 720, background: colorA }} />
         <div style={{ position: "absolute", right: 0, top: 0, width: 640, height: 720, background: colorB }} />
-        <div style={{ position: "absolute", left: 0, top: 150, width: 640, textAlign: "center", color: "#fff", fontSize: a.length > 9 ? 92 : 116, fontWeight: 800, letterSpacing: -2 }}>{a}</div>
-        <div style={{ position: "absolute", right: 0, top: 150, width: 640, textAlign: "center", color: "#fff", fontSize: b.length > 9 ? 92 : 116, fontWeight: 800, letterSpacing: -2 }}>{b}</div>
-        <div style={{ position: "absolute", left: 560, top: 110, width: 160, height: 160, borderRadius: 80, background: accent, color: "#fff", display: "grid", placeItems: "center",
+        <div style={{ position: "absolute", left: 20, top: 290, width: 520, textAlign: "center", color: "#fff", fontSize: nameSize(a), fontWeight: 800, letterSpacing: -2, lineHeight: 1 }}>{a}</div>
+        <div style={{ position: "absolute", right: 20, top: 290, width: 520, textAlign: "center", color: "#fff", fontSize: nameSize(b), fontWeight: 800, letterSpacing: -2, lineHeight: 1 }}>{b}</div>
+        <div style={{ position: "absolute", left: 560, top: 250, width: 160, height: 160, borderRadius: 80, background: accent, color: "#fff", display: "grid", placeItems: "center",
           fontSize: 70, fontWeight: 800, border: "10px solid #fff", boxShadow: "0 20px 50px rgba(0,0,0,.35)" }}>VS</div>
       </>
     ) : (

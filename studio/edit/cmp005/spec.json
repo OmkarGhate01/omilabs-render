@@ -1,0 +1,300 @@
+{
+ "id": "cmp005",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "series": "AI COMPARISON",
+ "title": "Eleven v4 vs v4 Turbo: Quality Ya Speed? Kaunsa Chunein (2026)",
+ "thumb": {
+  "a": "v4",
+  "b": "v4 Turbo",
+  "top": "ELEVENLABS 2026",
+  "hook": "QUALITY ya SPEED?",
+  "accent": "#F2542D",
+  "colorA": "#111111",
+  "colorB": "#FF5A1F"
+ },
+ "tags": [
+  "eleven v4 turbo",
+  "eleven v4",
+  "elevenlabs turbo",
+  "voice agent latency",
+  "elevenlabs models",
+  "ai voice"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "v4 vs v4 Turbo",
+    "pill": "ELEVENLABS",
+    "stat": "100",
+    "sub": "ms median (Turbo)"
+   },
+   "say": "Eleven v4 और v4 Turbo, नाम same, काम अलग। गलत चुना तो या quality जाएगी या speed।",
+   "hl": [
+    "Turbo",
+    "quality",
+    "speed"
+   ],
+   "chip": "speed"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "say": "पहले दोनों को समझो।",
+   "hl": [
+    "समझो"
+   ],
+   "chip": "समझो"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "star",
+     "title": "Eleven v4",
+     "rows": [
+      [
+       "ID",
+       "eleven_v4"
+      ],
+      [
+       "Focus",
+       "highest quality"
+      ],
+      [
+       "Best",
+       "content, audiobooks"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "v4 Turbo",
+     "rows": [
+      [
+       "ID",
+       "eleven_v4_turbo"
+      ],
+      [
+       "Focus",
+       "low latency"
+      ],
+      [
+       "Best",
+       "voice agents"
+      ]
+     ]
+    },
+    "accentB": "#FF5A1F"
+   },
+   "say": "v4 highest quality के लिए, content और audiobooks। v4 Turbo low latency के लिए, voice agents।",
+   "hl": [
+    "quality",
+    "latency"
+   ],
+   "chip": "latency"
+  },
+  {
+   "tag": "SAME",
+   "v": "list",
+   "d": {
+    "items": [
+     "Same new architecture",
+     "90+ languages",
+     "Stability + Similarity",
+     "Audio tags"
+    ]
+   },
+   "say": "दोनों same architecture पे हैं, नब्बे plus languages, same settings।",
+   "hl": [
+    "same",
+    "नब्बे"
+   ],
+   "chip": "same"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Speed"
+   },
+   "say": "Chapter दो: speed।",
+   "hl": [
+    "speed"
+   ],
+   "chip": "speed"
+  },
+  {
+   "tag": "LAT",
+   "v": "stat",
+   "d": {
+    "value": "~100ms",
+    "label": "v4 Turbo median inference"
+   },
+   "say": "Turbo की median inference latency करीब सौ milliseconds है।",
+   "hl": [
+    "सौ",
+    "milliseconds"
+   ],
+   "chip": "सौ"
+  },
+  {
+   "tag": "AGENTS",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Built for real-time",
+    "rows": [
+     [
+      "Use",
+      "conversational agents"
+     ],
+     [
+      "Also",
+      "interactive voice apps"
+     ],
+     [
+      "API",
+      "Text to Dialogue websocket"
+     ]
+    ]
+   },
+   "say": "Turbo real-time के लिए बना है: conversational agents और interactive voice apps।",
+   "hl": [
+    "real-time",
+    "agents"
+   ],
+   "chip": "real-time"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Quality"
+   },
+   "say": "Chapter तीन: quality।",
+   "hl": [
+    "quality"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "Q",
+   "v": "versus",
+   "d": {
+    "bad": "Audiobook के लिए Turbo",
+    "good": "Audiobook / voiceover के लिए v4"
+   },
+   "say": "लंबा content, audiobook या character voiceover है, तो full v4 लो।",
+   "hl": [
+    "audiobook",
+    "v4"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "Q2",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Eleven v4 best for",
+    "rows": [
+     [
+      "Content",
+      "creation"
+     ],
+     [
+      "Long-form",
+      "audiobooks"
+     ],
+     [
+      "Characters",
+      "voiceovers"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक full v4 highest quality model है: content, audiobooks और character voiceovers के लिए।",
+   "hl": [
+    "highest",
+    "quality"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "say": "Final decision।",
+   "hl": [
+    "decision"
+   ],
+   "chip": "decision"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "v4 Turbo",
+      "when": "Phone calls, voice agents, live apps"
+     },
+     {
+      "who": "Eleven v4",
+      "when": "Videos, audiobooks, voiceovers, dubbing"
+     }
+    ]
+   },
+   "say": "Live बात करनी है तो Turbo। Record करके publish करना है तो v4।",
+   "hl": [
+    "Turbo",
+    "v4"
+   ],
+   "chip": "Turbo"
+  },
+  {
+   "tag": "TIP",
+   "v": "versus",
+   "d": {
+    "bad": "एक model हर जगह",
+    "good": "Agent में Turbo, content में v4"
+   },
+   "say": "Pro tip: एक ही project में agent के लिए Turbo, और content के लिए v4 use करो।",
+   "hl": [
+    "Turbo",
+    "v4"
+   ],
+   "chip": "Pro"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Save this",
+    "follow": "Omilabs"
+   },
+   "say": "Save करो, और ऐसे ही AI comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Save",
+    "subscribe"
+   ],
+   "chip": "Save"
+  }
+ ]
+}
