@@ -5,8 +5,20 @@ import asyncio, json, os, re, subprocess, sys, shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REELS = os.path.join(ROOT, "reels")
 FPS = 30
-GAP = 0.28      # silence between beats (s)
-TAIL = 1.4      # hold after the last beat (s)
+GAP_SHORT, TAIL_SHORT = 0.10, 0.35   # Shorts: no dead air, loop straight back (audit 11 Nov 2026)
+GAP_LONG, TAIL_LONG = 0.20, 1.2      # long: tight, short hold for end screen
+import qa_rules
+
+
+def edge_silence(path, th="-40dB", mn=0.05):
+    """Leading/trailing silence (s) of a TTS line, keeping 40 ms of air on each side."""
+    full = dur(path)
+    log = subprocess.run(["ffmpeg", "-i", path, "-af", f"silencedetect=n={th}:d={mn}", "-f", "null", "-"], capture_output=True, text=True).stderr
+    st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
+    en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
+    lead = en[0] if st and st[0] <= 0.01 and en else 0.0
+    trail = full - st[-1] if st and (len(en) < len(st) or (en and en[-1] >= full - 0.12)) else 0.0
+    return max(0.0, lead - 0.04), max(0.0, min(trail, 1.0) - 0.04)
 
 
 def run(cmd, **kw):
@@ -57,6 +69,10 @@ def main():
             subprocess.run([sys.executable, os.path.abspath(__file__), v] + [x for x in sys.argv[2:] if x != "--force"])
         return
     ed = os.path.join(ROOT, "edit", vid); spec = json.load(open(os.path.join(ed, "spec.json"), encoding="utf-8"))
+    errs = qa_rules.check(spec)
+    if errs and spec.get("rules", "v3") == "v3" and "--no-rules" not in sys.argv:
+        print("RULES FAILED for %s:\n  - " % vid + "\n  - ".join(errs)); sys.exit(2)
+    GAP, TAIL = (GAP_LONG, TAIL_LONG) if spec.get("format") == "long" else (GAP_SHORT, TAIL_SHORT)
     tmp = os.path.join(ed, "tts"); os.makedirs(tmp, exist_ok=True)
     pub = os.path.join(REELS, "public", vid); os.makedirs(pub, exist_ok=True)
 
@@ -64,6 +80,13 @@ def main():
     for i, b in enumerate(spec["beats"]):
         mp3 = os.path.join(tmp, f"b{i}.mp3")
         words = asyncio.run(tts(b["say"], spec["voice"], spec.get("rate", "+0%"), mp3))
+        lead, trail = edge_silence(mp3)
+        if lead + trail > 0.02:   # cut TTS dead air at both ends of every line
+            cut = mp3[:-4] + "_t.mp3"; full = dur(mp3)
+            run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", f"atrim=start={lead:.3f}:end={full - trail:.3f},asetpts=PTS-STARTPTS", cut])
+            mp3 = cut
+            for w in words:
+                w["s"] = max(0.0, w["s"] - lead); w["e"] = max(w["s"], w["e"] - lead)
         d = dur(mp3)
         if not words:
             words = even_words(b["say"], d)
