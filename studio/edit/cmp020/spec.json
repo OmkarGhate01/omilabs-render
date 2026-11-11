@@ -1,0 +1,318 @@
+{
+ "id": "cmp020",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT vs Gemini: 2026 Mein Kaunsa Lein?",
+ "search_kw": "ChatGPT vs Gemini",
+ "thumb": {
+  "a": "ChatGPT",
+  "b": "Gemini",
+  "top": "AI CHAT 2026",
+  "hook": "₹ KAHAN LAGAAO?",
+  "accent": "#F2542D",
+  "colorA": "#111111",
+  "colorB": "#2F6BFF"
+ },
+ "tags": [
+  "chatgpt vs gemini",
+  "gpt-6 vs gemini 4",
+  "chatgpt plus vs google ai pro",
+  "gemini 4 argon",
+  "gpt 6 astra",
+  "ai chatbot hindi"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT vs Gemini",
+    "pill": "AI CHAT 2026",
+    "stat": "$20",
+    "sub": "दोनों का paid plan"
+   },
+   "say": "ChatGPT या Gemini? दोनों बीस dollar के आसपास, पर आपके काम के लिए कौनसा सही?",
+   "hl": [
+    "ChatGPT",
+    "Gemini",
+    "सही"
+   ],
+   "chip": "सही"
+  },
+  {
+   "tag": "STAKES",
+   "v": "versus",
+   "d": {
+    "bad": "गलत plan = पैसे और time दोनों waste",
+    "good": "सही plan = आपके काम के tools"
+   },
+   "say": "गलत plan लिया तो पैसे भी जाएंगे, और जो feature चाहिए वो मिलेगा भी नहीं।",
+   "hl": [
+    "गलत",
+    "पैसे"
+   ],
+   "chip": "गलत"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Plans और price"
+   },
+   "say": "Chapter एक: plans और price।",
+   "hl": [
+    "price"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "PRICE",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "ChatGPT",
+     "Gemini"
+    ],
+    "rows": [
+     {
+      "k": "Free",
+      "v": [
+       "GPT-6 Luna",
+       "Flash-Lite model"
+      ]
+     },
+     {
+      "k": "सस्ता plan",
+      "v": [
+       "Go: $8*",
+       "AI Plus"
+      ]
+     },
+     {
+      "k": "Main plan",
+      "v": [
+       "Plus: $20",
+       "AI Pro: $19.99"
+      ]
+     },
+     {
+      "k": "Top plan",
+      "v": [
+       "Pro: $100 से",
+       "Ultra: $99.99 से"
+      ]
+     }
+    ]
+   },
+   "say": "ChatGPT Plus बीस dollar, Google AI Pro उन्नीस निन्यानवे। Top plans दोनों के सौ dollar से शुरू।",
+   "hl": [
+    "बीस",
+    "सौ"
+   ],
+   "chip": "Plus"
+  },
+  {
+   "tag": "NOTE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "India price",
+    "rows": [
+     [
+      "ChatGPT Go",
+      "local price"
+     ],
+     [
+      "Check",
+      "app में देखो"
+     ]
+    ]
+   },
+   "say": "Go का price कुछ देशों में local होता है, इसलिए India का price अपने app में check करो।",
+   "hl": [
+    "local",
+    "check"
+   ],
+   "chip": "check"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Models"
+   },
+   "say": "Chapter दो: models।",
+   "hl": [
+    "models"
+   ],
+   "chip": "models"
+  },
+  {
+   "tag": "MODELS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Plus",
+     "rows": [
+      [
+       "Models",
+       "GPT-6 Astra, GPT-6.1 Sol"
+      ],
+      [
+       "Reasoning context",
+       "256K"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Google AI Pro",
+     "rows": [
+      [
+       "Model",
+       "Gemini 4 Argon"
+      ],
+      [
+       "Context",
+       "1 million tokens"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "Plus में GPT-6 Astra और GPT-6.1 Sol मिलते हैं। AI Pro में Gemini 4 Argon, और दस लाख tokens का context।",
+   "hl": [
+    "GPT-6",
+    "Argon"
+   ],
+   "chip": "Argon"
+  },
+  {
+   "tag": "LONG",
+   "v": "versus",
+   "d": {
+    "bad": "बहुत लंबी files, छोटा context",
+    "good": "Gemini: 1,500 pages तक upload"
+   },
+   "say": "बहुत लंबे documents हैं? Gemini पंद्रह सौ pages तक की files पढ़ सकता है।",
+   "hl": [
+    "पंद्रह",
+    "pages"
+   ],
+   "chip": "pages"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Extra फायदे"
+   },
+   "say": "Chapter तीन: plan के साथ क्या extra मिलता है।",
+   "hl": [
+    "extra"
+   ],
+   "chip": "extra"
+  },
+  {
+   "tag": "CHATGPT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Codex (coding agent)",
+     "Deep research",
+     "Projects + scheduled tasks",
+     "ChatGPT Work"
+    ]
+   },
+   "say": "ChatGPT Plus: Codex coding agent, deep research, projects, scheduled tasks, और ChatGPT Work।",
+   "hl": [
+    "Codex",
+    "research"
+   ],
+   "chip": "Codex"
+  },
+  {
+   "tag": "GEMINI",
+   "v": "list",
+   "d": {
+    "items": [
+     "5 TB cloud storage",
+     "Gemini in Gmail, Docs",
+     "1,000 Flow credits (video)",
+     "Gemini Notebook"
+    ]
+   },
+   "say": "Google AI Pro: पाँच TB storage, Gmail और Docs में Gemini, और video के लिए Flow credits।",
+   "hl": [
+    "storage",
+    "Gmail"
+   ],
+   "chip": "storage"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "say": "तो किसके लिए कौन?",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "ChatGPT Plus",
+      "when": "Coding (Codex), agents, deep research"
+     },
+     {
+      "who": "Google AI Pro",
+      "when": "Gmail/Docs users, लंबी files, storage"
+     },
+     {
+      "who": "Free plans",
+      "when": "पहले दोनों free try करो"
+     }
+    ]
+   },
+   "say": "Coding और agents के लिए ChatGPT, Google apps और लंबी files के लिए Gemini। पहले दोनों free में try करो।",
+   "hl": [
+    "ChatGPT",
+    "Gemini",
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप कौनसा use करते हो? Comment करो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

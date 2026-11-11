@@ -1,0 +1,311 @@
+{
+ "id": "cmp024",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+6%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "Kimi K3.1 vs DeepSeek: Open AI Ka King Kaun?",
+ "search_kw": "Kimi K3.1 vs DeepSeek",
+ "thumb": {
+  "a": "Kimi K3.1",
+  "b": "DeepSeek",
+  "top": "OPEN MODELS 2026",
+  "hook": "2.8 TRILLION!",
+  "accent": "#F2542D",
+  "colorA": "#00B4D8",
+  "colorB": "#2F6BFF"
+ },
+ "tags": [
+  "kimi k3.1 vs deepseek",
+  "kimi k3.1 pro",
+  "deepseek v4.1 flash",
+  "open source ai model",
+  "open weights",
+  "cheap ai api"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Kimi K3.1 vs DeepSeek",
+    "pill": "OPEN MODELS",
+    "stat": "2.8T",
+    "sub": "parameters, open weights"
+   },
+   "say": "Kimi का 2.8 trillion parameter model download के लिए खुला। तो DeepSeek से बेहतर कौन?",
+   "hl": [
+    "Kimi",
+    "DeepSeek",
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Model size"
+   },
+   "say": "Chapter एक: model कितना बड़ा है।",
+   "hl": [
+    "बड़ा"
+   ],
+   "chip": "बड़ा"
+  },
+  {
+   "tag": "SIZE",
+   "v": "table",
+   "d": {
+    "title": "Model",
+    "cols": [
+     "Kimi K3.1 Pro",
+     "DeepSeek V4.1 Flash"
+    ],
+    "rows": [
+     {
+      "k": "Type",
+      "v": [
+       "MoE, open weights",
+       "नए architecture का सबसे छोटा model"
+      ]
+     },
+     {
+      "k": "Parameters",
+      "v": [
+       "2.8T total, 104B active",
+       "Flash family"
+      ]
+     },
+     {
+      "k": "Context",
+      "v": [
+       "1M tokens",
+       "1M tokens तक"
+      ]
+     },
+     {
+      "k": "Input",
+      "v": [
+       "Text + Image",
+       "Text + Image"
+      ]
+     }
+    ]
+   },
+   "say": "Kimi K3.1 Pro: 2.8 trillion total, हर token पे 104 billion active। दोनों में दस लाख tokens का context।",
+   "hl": [
+    "trillion",
+    "context"
+   ],
+   "chip": "trillion"
+  },
+  {
+   "tag": "MOE",
+   "v": "versus",
+   "d": {
+    "bad": "Total parameters = speed",
+    "good": "Active parameters = speed, total = memory"
+   },
+   "say": "याद रखो: speed active parameters से तय होती है, और memory total से।",
+   "hl": [
+    "active",
+    "memory"
+   ],
+   "chip": "active"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Price"
+   },
+   "say": "Chapter दो: API price।",
+   "hl": [
+    "price"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "DSPRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "DeepSeek Flash (per 1M tokens)",
+    "rows": [
+     [
+      "Input (off-peak)",
+      "$0.15"
+     ],
+     [
+      "Output (off-peak)",
+      "$0.60"
+     ],
+     [
+      "Peak",
+      "double"
+     ]
+    ]
+   },
+   "say": "DeepSeek Flash बहुत सस्ता है: off-peak में input पंद्रह cent, output साठ cent per million tokens। Peak में double।",
+   "hl": [
+    "सस्ता",
+    "off-peak"
+   ],
+   "chip": "सस्ता"
+  },
+  {
+   "tag": "OFFPEAK",
+   "v": "versus",
+   "d": {
+    "bad": "हर काम peak time पे",
+    "good": "Off-peak में चलाओ = आधा price"
+   },
+   "say": "Trick: जो काम रुक सकता है, उसे off-peak में चलाओ, price आधा।",
+   "hl": [
+    "off-peak",
+    "आधा"
+   ],
+   "chip": "आधा"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Self-host"
+   },
+   "say": "Chapter तीन: खुद के server पे चलाना।",
+   "hl": [
+    "server"
+   ],
+   "chip": "server"
+  },
+  {
+   "tag": "SELF",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "Kimi K3.1 Pro",
+     "rows": [
+      [
+       "Weights",
+       "Hugging Face पे open"
+      ],
+      [
+       "Format",
+       "MXFP4 weights"
+      ],
+      [
+       "Serve",
+       "vLLM, SGLang"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "DeepSeek",
+     "rows": [
+      [
+       "API",
+       "deepseek-flash"
+      ],
+      [
+       "Extra",
+       "Search + Fetch API"
+      ],
+      [
+       "Apps",
+       "web और app पे भी"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "Kimi के weights Hugging Face पे खुले हैं, पर इतना बड़ा model चलाने के लिए बहुत बड़ा GPU setup चाहिए।",
+   "hl": [
+    "Hugging",
+    "GPU"
+   ],
+   "chip": "GPU"
+  },
+  {
+   "tag": "LICENSE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Benchmarks company खुद बताती है",
+     "अपने काम पे test करो",
+     "Commercial use से पहले license पढ़ो"
+    ]
+   },
+   "say": "दोनों के benchmarks company के अपने हैं। अपने काम पे test करो, और business में लगाने से पहले license पढ़ो।",
+   "hl": [
+    "test",
+    "license"
+   ],
+   "chip": "license"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "say": "तो किसके लिए कौन?",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "DeepSeek Flash",
+      "when": "सस्ता API, ज़्यादा volume, off-peak jobs"
+     },
+     {
+      "who": "Kimi K3.1 Pro",
+      "when": "बड़ा open model, self-host, fine-tune"
+     },
+     {
+      "who": "दोनों",
+      "when": "छोटा test पहले, फिर scale"
+     }
+    ]
+   },
+   "say": "सस्ते API और ज़्यादा volume के लिए DeepSeek, सबसे बड़े open model के लिए Kimi। पहले छोटा test, फिर scale।",
+   "hl": [
+    "DeepSeek",
+    "Kimi",
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "Open models पे और video चाहिए? Comment करो, और Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}
