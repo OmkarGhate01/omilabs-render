@@ -1,0 +1,827 @@
+{
+ "id": "cmp022b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+0%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT Search vs Google AI Mode: Kaun Jeeta?",
+ "search_kw": "ChatGPT Search vs Google AI Mode",
+ "thumb": {
+  "a": "ChatGPT Search",
+  "b": "AI Mode",
+  "top": "AI SEARCH 2026",
+  "hook": "SEARCH BADAL GAYA?",
+  "accent": "#F2542D",
+  "colorA": "#111111",
+  "colorB": "#2F6BFF"
+ },
+ "tags": [
+  "chatgpt search vs google ai mode",
+  "google ai mode",
+  "chatgpt search",
+  "ai search",
+  "google ai mode india",
+  "deep research"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT Search vs AI Mode",
+    "pill": "AI SEARCH",
+    "stat": "2",
+    "sub": "तरीके Google करने के"
+   },
+   "say": "Google पे search करो या ChatGPT से पूछो? दोनों AI search में कौन आगे है?",
+   "hl": [
+    "Google",
+    "ChatGPT",
+    "आगे"
+   ],
+   "chip": "आगे"
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "कैसे काम करता है",
+     "कहाँ मिलता है",
+     "Sources",
+     "Deep research",
+     "Local काम",
+     "Personal context",
+     "Verdict"
+    ]
+   },
+   "say": "आज देखेंगे: ये काम कैसे करते हैं, कहाँ मिलते हैं, sources, deep research, local काम, personal context, और verdict।",
+   "hl": [
+    "sources",
+    "verdict"
+   ],
+   "chip": "verdict"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "कैसे काम करता है"
+   },
+   "say": "Chapter एक: दोनों अंदर से काम कैसे करते हैं।",
+   "hl": [
+    "कैसे"
+   ],
+   "chip": "कैसे"
+  },
+  {
+   "tag": "HOW",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Search",
+     "rows": [
+      [
+       "Method",
+       "queries बनाकर search"
+      ],
+      [
+       "Sources",
+       "search partners"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "Google AI Mode",
+     "rows": [
+      [
+       "Method",
+       "query fan-out"
+      ],
+      [
+       "Sources",
+       "Google Search"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "ChatGPT आपके सवाल को एक या ज़्यादा search queries में बदलता है। AI Mode सवाल को subtopics में तोड़कर सबको एक साथ search करता है।",
+   "hl": [
+    "queries",
+    "subtopics"
+   ],
+   "chip": "subtopics"
+  },
+  {
+   "tag": "CGEX",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "आपका सवाल",
+     "छोटी search queries",
+     "search partners",
+     "जवाब + sources"
+    ]
+   },
+   "say": "Example: आपने लंबा सवाल पूछा, ChatGPT उसे छोटी targeted queries में बदलता है, results पढ़ता है, और sources के साथ जवाब देता है।",
+   "hl": [
+    "queries",
+    "sources"
+   ],
+   "chip": "sources"
+  },
+  {
+   "tag": "AMEX",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "आपका सवाल",
+     "subtopics",
+     "एक साथ कई searches",
+     "एक जवाब + links"
+    ]
+   },
+   "say": "AI Mode वही सवाल subtopics में बाँटता है, हर एक को साथ में search करता है, और सबको जोड़कर एक जवाब बनाता है।",
+   "hl": [
+    "subtopics",
+    "साथ"
+   ],
+   "chip": "साथ"
+  },
+  {
+   "tag": "MODEL",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "AI Mode models",
+    "rows": [
+     [
+      "Default",
+      "Auto / Fast"
+     ],
+     [
+      "Choose",
+      "Gemini 4 Argon, 4 Carbon"
+     ],
+     [
+      "Limit",
+      "daily limits"
+     ]
+    ]
+   },
+   "say": "AI Mode में आप menu से Gemini 4 Argon या Carbon चुन सकते हो, पर इनकी daily limit होती है।",
+   "hl": [
+    "Argon",
+    "Carbon"
+   ],
+   "chip": "limit"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "कहाँ मिलता है"
+   },
+   "say": "Chapter दो: कहाँ और किसको मिलता है।",
+   "hl": [
+    "कहाँ"
+   ],
+   "chip": "कहाँ"
+  },
+  {
+   "tag": "ACCESS",
+   "v": "table",
+   "d": {
+    "title": "कहाँ मिलता है",
+    "cols": [
+     "ChatGPT Search",
+     "AI Mode"
+    ],
+    "rows": [
+     {
+      "k": "Free?",
+      "v": [
+       "हाँ, बिना login भी",
+       "हाँ"
+      ]
+     },
+     {
+      "k": "कहाँ",
+      "v": [
+       "chatgpt.com, apps",
+       "google.com/ai, Google app"
+      ]
+     },
+     {
+      "k": "Upload",
+      "v": [
+       "files, images",
+       "images, PDF, files"
+      ]
+     }
+    ]
+   },
+   "say": "दोनों free हैं। ChatGPT search तो बिना login के भी चलता है। AI Mode google dot com slash ai पे या Google app में।",
+   "hl": [
+    "free",
+    "login"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "MANUAL",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT में search",
+    "rows": [
+     [
+      "Auto",
+      "ज़रूरत हो तो खुद search"
+     ],
+     [
+      "Manual",
+      "Tools → Search, या /"
+     ]
+    ]
+   },
+   "say": "ChatGPT ज़रूरत लगे तो खुद search करता है, या आप tools में Search चुनो, या slash type करके।",
+   "hl": [
+    "Search",
+    "slash"
+   ],
+   "chip": "Search"
+  },
+  {
+   "tag": "PAGE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "AI Mode tricks",
+    "rows": [
+     [
+      "URL",
+      "link paste करके सवाल"
+     ],
+     [
+      "Chrome",
+      "tabs जोड़ सकते हो"
+     ]
+    ]
+   },
+   "say": "AI Mode में किसी webpage का link paste करके उसके बारे में पूछ सकते हो, और Chrome में tabs भी जोड़ सकते हो।",
+   "hl": [
+    "link",
+    "Chrome"
+   ],
+   "chip": "link"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Sources"
+   },
+   "say": "Chapter तीन: sources और भरोसा।",
+   "hl": [
+    "sources"
+   ],
+   "chip": "sources"
+  },
+  {
+   "tag": "SRC",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "book",
+     "title": "ChatGPT",
+     "rows": [
+      [
+       "Citations",
+       "जवाब के अंदर"
+      ],
+      [
+       "Sources button",
+       "सारे links"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "book",
+     "title": "AI Mode",
+     "rows": [
+      [
+       "Links",
+       "text के बगल में"
+      ],
+      [
+       "Hover",
+       "site का preview"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "दोनों sources दिखाते हैं। ChatGPT में citations और Sources button, AI Mode में text के बगल में links और hover पे preview।",
+   "hl": [
+    "citations",
+    "links"
+   ],
+   "chip": "sources"
+  },
+  {
+   "tag": "TRUST",
+   "v": "versus",
+   "d": {
+    "bad": "AI का जवाब आँख बंद करके मानना",
+    "good": "ज़रूरी बात हो तो source खोलकर check"
+   },
+   "say": "दोनों companies खुद कहती हैं कि AI गलती कर सकता है। ज़रूरी बात हो, तो source खोलकर date और बात ज़रूर check करो।",
+   "hl": [
+    "गलती",
+    "check"
+   ],
+   "chip": "check"
+  },
+  {
+   "tag": "PRIV",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "ChatGPT location",
+    "rows": [
+     [
+      "Uses",
+      "IP से approx location"
+     ],
+     [
+      "Shares",
+      "IP address नहीं"
+     ]
+    ]
+   },
+   "say": "ChatGPT local results के लिए IP से approximate location लेता है, पर आपका IP address search partners को नहीं भेजता।",
+   "hl": [
+    "location",
+    "IP"
+   ],
+   "chip": "location"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Deep research"
+   },
+   "say": "Chapter चार: गहरी research।",
+   "hl": [
+    "research"
+   ],
+   "chip": "research"
+  },
+  {
+   "tag": "DEEP",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "book",
+     "title": "ChatGPT deep research",
+     "rows": [
+      [
+       "Plan",
+       "पहले plan दिखाता"
+      ],
+      [
+       "Output",
+       "Word, PDF report"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "AI Mode Deep Search",
+     "rows": [
+      [
+       "Reach",
+       "सैकड़ों sites"
+      ],
+      [
+       "Access",
+       "Pro/Ultra, US"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "ChatGPT deep research पहले research plan दिखाता है, फिर Word या PDF report देता है। Google का Deep Search अभी US में Pro और Ultra users के लिए।",
+   "hl": [
+    "report",
+    "US"
+   ],
+   "chip": "report"
+  },
+  {
+   "tag": "DEEP2",
+   "v": "list",
+   "d": {
+    "items": [
+     "Sources आप चुनो: web, files, apps",
+     "Specific sites तक सीमित कर सकते हो",
+     "बीच में रोककर focus बदलो"
+    ]
+   },
+   "say": "ChatGPT deep research में sources आप चुनते हो, specific sites तक सीमित कर सकते हो, और बीच में रोककर focus बदल सकते हो।",
+   "hl": [
+    "sources",
+    "sites"
+   ],
+   "chip": "sites"
+  },
+  {
+   "tag": "VIS",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "AI Mode visuals",
+    "rows": [
+     [
+      "Ask",
+      "simulation, chart, calculator"
+     ],
+     [
+      "Language",
+      "English, signed-in"
+     ]
+    ]
+   },
+   "say": "AI Mode interactive charts और simulations भी बना सकता है, बस सवाल में simulation या calculator लिखो।",
+   "hl": [
+    "simulation",
+    "charts"
+   ],
+   "chip": "charts"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Local काम"
+   },
+   "say": "Chapter पाँच: रोज़ के local काम।",
+   "hl": [
+    "local"
+   ],
+   "chip": "local"
+  },
+  {
+   "tag": "LOCAL",
+   "v": "list",
+   "d": {
+    "items": [
+     "Appointments, prices, stock check",
+     "ज़रूरत हो तो business को call",
+     "Dining reservations: India में English + Hindi"
+    ]
+   },
+   "say": "AI Mode local काम में तेज़ है: price, stock, appointment check, और ज़रूरत हो तो business को call भी।",
+   "hl": [
+    "local",
+    "call"
+   ],
+   "chip": "call"
+  },
+  {
+   "tag": "CHECK",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "सवाल लिखो",
+     "Check for me",
+     "Looks good",
+     "Results (call: 30 min तक)"
+    ]
+   },
+   "say": "तरीका: सवाल लिखो, Check for me दबाओ, details देखकर Looks good करो। Web results कुछ मिनट में, call वाले results तीस मिनट तक।",
+   "hl": [
+    "Check",
+    "तीस"
+   ],
+   "chip": "Check"
+  },
+  {
+   "tag": "CGLOCAL",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT local",
+    "rows": [
+     [
+      "Results",
+      "restaurants, news, weather"
+     ],
+     [
+      "Mobile",
+      "map भी"
+     ]
+    ]
+   },
+   "say": "ChatGPT भी local results देता है: restaurants, news, weather, और mobile पे map भी।",
+   "hl": [
+    "restaurants",
+    "map"
+   ],
+   "chip": "local"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Personal context"
+   },
+   "say": "Chapter छह: आपके हिसाब से जवाब।",
+   "hl": [
+    "आपके"
+   ],
+   "chip": "आपके"
+  },
+  {
+   "tag": "PERSONAL",
+   "v": "versus",
+   "d": {
+    "bad": "हर बार अपनी पूरी बात समझाना",
+    "good": "AI Mode: Gmail, Calendar, Photos connect (optional)"
+   },
+   "say": "AI Mode को Gmail, Calendar और Photos से connect कर सकते हो, ये पूरी तरह आपकी मर्ज़ी पे है, और कभी भी disconnect कर सकते हो।",
+   "hl": [
+    "Gmail",
+    "मर्ज़ी"
+   ],
+   "chip": "Gmail"
+  },
+  {
+   "tag": "CGCTX",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT context",
+    "rows": [
+     [
+      "Follow-ups",
+      "पूरी chat याद रखकर"
+     ],
+     [
+      "Apps",
+      "connected sources"
+     ]
+    ]
+   },
+   "say": "ChatGPT में follow-up सवाल पूरी chat के context के साथ चलते हैं, जो लंबी बातचीत में बहुत काम आता है।",
+   "hl": [
+    "follow-up",
+    "context"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "say": "अब real examples से समझते हैं।",
+   "hl": [
+    "examples"
+   ],
+   "chip": "examples"
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Restaurant ढूँढना",
+    "rows": [
+     [
+      "Best",
+      "AI Mode"
+     ],
+     [
+      "क्यों",
+      "local data, reservations"
+     ]
+    ]
+   },
+   "say": "Example एक: आज रात का restaurant ढूँढना। यहाँ AI Mode अच्छा है, क्योंकि local data और dining reservations वहीं हैं।",
+   "hl": [
+    "restaurant",
+    "AI"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Market research report",
+    "rows": [
+     [
+      "Best",
+      "ChatGPT deep research"
+     ],
+     [
+      "क्यों",
+      "plan + downloadable report"
+     ]
+    ]
+   },
+   "say": "Example दो: किसी business idea पे market research। यहाँ ChatGPT deep research अच्छा, क्योंकि plan भी दिखाता है और report download भी होती है।",
+   "hl": [
+    "research",
+    "report"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "किसी topic को सीखना",
+    "rows": [
+     [
+      "दोनों",
+      "follow-up सवाल"
+     ],
+     [
+      "Plus",
+      "AI Mode visuals"
+     ]
+    ]
+   },
+   "say": "Example तीन: कोई नया topic सीखना। दोनों में follow-up सवाल पूछ सकते हो, और AI Mode interactive diagrams भी बना देता है।",
+   "hl": [
+    "follow-up",
+    "diagrams"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ एक tool पे भरोसा",
+    "good": "ज़रूरी सवाल दोनों में पूछो, जवाब मिलाओ"
+   },
+   "say": "ज़रूरी सवाल हो, जैसे पैसे या health से जुड़ा, तो दोनों में पूछो, जवाब मिलाओ, और फिर भी official source देखो।",
+   "hl": [
+    "दोनों",
+    "official"
+   ],
+   "chip": "official"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Search tips"
+   },
+   "say": "अब बेहतर जवाब पाने के तीन tips।",
+   "hl": [
+    "tips"
+   ],
+   "chip": "tips"
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "सवाल में city, date, budget लिखो",
+     "Follow-up से narrow करो",
+     "Source खोलकर date देखो"
+    ]
+   },
+   "say": "Tip: सवाल में city, date और budget साफ़ लिखो। फिर follow-up से जवाब narrow करो। और source खोलकर उसकी date देखो।",
+   "hl": [
+    "city",
+    "date"
+   ],
+   "chip": "Tip"
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "एक शब्द वाली search",
+    "good": "पूरा सवाल, जैसे किसी इंसान से पूछते हो"
+   },
+   "say": "AI search में एक शब्द नहीं, पूरा सवाल लिखो, जैसे किसी जानकार दोस्त से पूछते हो। जवाब बहुत बेहतर आता है।",
+   "hl": [
+    "पूरा",
+    "सवाल"
+   ],
+   "chip": "सवाल"
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "पुराना जवाब बार-बार",
+    "good": "नया सवाल = नया thread"
+   },
+   "say": "और नया topic हो, तो नया thread शुरू करो, ताकि पुरानी बातें नए जवाब में न मिलें।",
+   "hl": [
+    "नया",
+    "thread"
+   ],
+   "chip": "thread"
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "दोनों free",
+     "AI Mode: local + Google apps",
+     "ChatGPT: बातचीत + reports",
+     "Source हमेशा check"
+    ]
+   },
+   "say": "जल्दी recap: दोनों free। AI Mode: local + Google apps। ChatGPT: बातचीत + reports। Source हमेशा check।",
+   "hl": [
+    "recap"
+   ],
+   "chip": "recap"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "say": "तो कब कौनसा?",
+   "hl": [
+    "कब"
+   ],
+   "chip": "कब"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Google AI Mode",
+      "when": "Local, shopping, Google apps, visuals"
+     },
+     {
+      "who": "ChatGPT Search",
+      "when": "लंबी बातचीत, deep research report"
+     },
+     {
+      "who": "दोनों",
+      "when": "ज़रूरी बात का source check करो"
+     }
+    ]
+   },
+   "say": "Local और shopping के लिए AI Mode, बातचीत और reports के लिए ChatGPT। और ज़रूरी बात का source हमेशा खोलकर check करो।",
+   "hl": [
+    "AI",
+    "Mode",
+    "source"
+   ],
+   "chip": "source"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप अब Google ज़्यादा करते हो या ChatGPT? Comment करो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

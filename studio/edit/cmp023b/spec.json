@@ -1,0 +1,817 @@
+{
+ "id": "cmp023b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+0%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "CLAUDE MOTION",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "Claude Code vs Cursor vs Copilot: Kaunsa Lein?",
+ "search_kw": "Claude Code vs Cursor",
+ "thumb": {
+  "a": "Claude Code",
+  "b": "Cursor",
+  "top": "AI CODING 2026",
+  "hook": "$10 YA $200?",
+  "accent": "#F2542D",
+  "colorA": "#C2410C",
+  "colorB": "#111111"
+ },
+ "tags": [
+  "claude code vs cursor",
+  "cursor vs copilot",
+  "github copilot",
+  "claude code",
+  "ai coding tools",
+  "best ai for coding hindi"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Code vs Cursor vs Copilot",
+    "pill": "AI CODING",
+    "stat": "3",
+    "sub": "tools, 1 budget"
+   },
+   "say": "Coding के लिए Claude Code, Cursor या Copilot? गलत चुना तो हर महीने पैसे डूबेंगे।",
+   "hl": [
+    "Claude",
+    "Cursor",
+    "Copilot"
+   ],
+   "chip": "गलत"
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "तीनों क्या हैं",
+     "Free plan",
+     "Price",
+     "Usage कैसे गिनते हैं",
+     "Models",
+     "Students",
+     "Verdict"
+    ]
+   },
+   "say": "आज: तीनों क्या हैं, free plan, price, usage कैसे गिना जाता है, models, students के लिए option, और verdict।",
+   "hl": [
+    "price",
+    "verdict"
+   ],
+   "chip": "verdict"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "तीनों क्या हैं"
+   },
+   "say": "Chapter एक: तीनों हैं क्या।",
+   "hl": [
+    "क्या"
+   ],
+   "chip": "क्या"
+  },
+  {
+   "tag": "WHAT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Code: Claude plan वाला coding agent",
+     "Cursor: AI code editor",
+     "Copilot: GitHub का AI, editors + CLI में"
+    ]
+   },
+   "say": "Claude Code, Claude के plan वाला coding agent है। Cursor एक AI code editor है। Copilot, GitHub का AI है, editors और terminal दोनों में।",
+   "hl": [
+    "agent",
+    "editor"
+   ],
+   "chip": "editor"
+  },
+  {
+   "tag": "CC",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Claude Code",
+    "rows": [
+     [
+      "Plan",
+      "सारे paid Claude plans"
+     ],
+     [
+      "Limit",
+      "chat के साथ same pool"
+     ],
+     [
+      "Heavy use",
+      "API credits (Console)"
+     ]
+    ]
+   },
+   "say": "Claude Code सारे paid Claude plans में है, और chat के साथ एक ही limit share करता है। ज़्यादा coding हो, तो API credits पे भी जा सकते हो।",
+   "hl": [
+    "paid",
+    "API"
+   ],
+   "chip": "Claude"
+  },
+  {
+   "tag": "CU",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "Cursor",
+    "rows": [
+     [
+      "अब",
+      "X Subscription"
+     ],
+     [
+      "साथ में",
+      "Grok + X"
+     ],
+     [
+      "Other models",
+      "Premium+, API price"
+     ]
+    ]
+   },
+   "say": "Cursor अब X Subscription का हिस्सा है, Grok और X के साथ एक subscription।",
+   "hl": [
+    "Grok",
+    "X"
+   ],
+   "chip": "X"
+  },
+  {
+   "tag": "CP",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "GitHub Copilot",
+    "rows": [
+     [
+      "कहाँ",
+      "VS Code, JetBrains, Xcode..."
+     ],
+     [
+      "CLI",
+      "Copilot CLI"
+     ],
+     [
+      "GitHub",
+      "PR बना देता है"
+     ]
+    ]
+   },
+   "say": "Copilot VS Code, Visual Studio, JetBrains, Eclipse और Xcode में चलता है, terminal में Copilot CLI, और paid plan पे काम देकर pull request भी बनवा सकते हो।",
+   "hl": [
+    "VS",
+    "Code",
+    "pull"
+   ],
+   "chip": "pull"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Free plan"
+   },
+   "say": "Chapter दो: free में क्या।",
+   "hl": [
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "FREE",
+   "v": "table",
+   "d": {
+    "title": "Free plan",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "Free?",
+      "v": [
+       "नहीं",
+       "हाँ (limited)",
+       "हाँ"
+      ],
+      "win": 2
+     },
+     {
+      "k": "Detail",
+      "v": [
+       "Pro से शुरू",
+       "limited usage",
+       "2,000 completions/month"
+      ]
+     }
+    ]
+   },
+   "say": "Free में Copilot सबसे आगे है: हर महीने दो हज़ार completions और Copilot CLI। Claude Code के लिए paid plan चाहिए।",
+   "hl": [
+    "Copilot",
+    "दो",
+    "हज़ार"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "FREE2",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Copilot Free",
+    "rows": [
+     [
+      "Models",
+      "Haiku 4.5, GPT-5 mini"
+     ],
+     [
+      "Agent mode",
+      "हाँ"
+     ],
+     [
+      "Card",
+      "ज़रूरी नहीं"
+     ]
+    ]
+   },
+   "say": "Copilot free में Haiku 4.5 और GPT-5 mini जैसे models, agent mode भी, और credit card की ज़रूरत नहीं।",
+   "hl": [
+    "Haiku",
+    "card"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Price"
+   },
+   "say": "Chapter तीन: price।",
+   "hl": [
+    "price"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "PRICE",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "Entry",
+      "v": [
+       "Pro: $20",
+       "Plus: $8",
+       "Pro: $10"
+      ]
+     },
+     {
+      "k": "Mid",
+      "v": [
+       "Max: $100",
+       "Premium: $30",
+       "Pro+: $39"
+      ]
+     },
+     {
+      "k": "Top",
+      "v": [
+       "Ultra: $200",
+       "Ultra: $200",
+       "Max: $100"
+      ]
+     }
+    ]
+   },
+   "say": "Entry plan: Copilot दस dollar, Cursor Plus आठ dollar, Claude Pro बीस dollar। Top plans दो सौ dollar तक।",
+   "hl": [
+    "दस",
+    "आठ",
+    "बीस"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "CUPLUS",
+   "v": "versus",
+   "d": {
+    "bad": "Cursor Plus ($8) में सब कुछ",
+    "good": "Plus में Cloud Agents, third-party models नहीं"
+   },
+   "say": "पर ध्यान दो: Cursor के आठ dollar वाले Plus में cloud agents, दूसरे companies के models या अपनी API key नहीं चलती।",
+   "hl": [
+    "Plus",
+    "agents"
+   ],
+   "chip": "Plus"
+  },
+  {
+   "tag": "CUPREM",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Cursor Premium ($30)",
+    "rows": [
+     [
+      "Usage",
+      "Plus का 4x"
+     ],
+     [
+      "Adds",
+      "Cloud Agents, Bugbot"
+     ],
+     [
+      "Other models",
+      "API list price"
+     ]
+    ]
+   },
+   "say": "Cursor Premium तीस dollar: Plus का चार गुना usage, cloud agents, Bugbot code review, और दूसरे models API price पे।",
+   "hl": [
+    "Premium",
+    "Bugbot"
+   ],
+   "chip": "Premium"
+  },
+  {
+   "tag": "CPPRO",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Copilot Pro ($10)",
+    "rows": [
+     [
+      "Completions",
+      "unlimited"
+     ],
+     [
+      "Cloud",
+      "Copilot in the cloud"
+     ],
+     [
+      "Review",
+      "code review"
+     ]
+    ]
+   },
+   "say": "Copilot Pro दस dollar: unlimited completions, Copilot in the cloud, और pull request code review।",
+   "hl": [
+    "unlimited",
+    "review"
+   ],
+   "chip": "Pro"
+  },
+  {
+   "tag": "LEGACY",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Cursor पुराने plans",
+    "rows": [
+     [
+      "Pro / Pro+ / Ultra",
+      "existing users के लिए चालू"
+     ],
+     [
+      "Pro+",
+      "$60"
+     ]
+    ]
+   },
+   "say": "जो लोग पहले से Cursor के पुराने Pro, Pro plus या Ultra plan पे हैं, उनके plans वैसे ही चलते रहेंगे।",
+   "hl": [
+    "पुराने",
+    "Pro"
+   ],
+   "chip": "पुराने"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Usage कैसे गिनते हैं"
+   },
+   "say": "Chapter चार: usage कैसे गिना जाता है।",
+   "hl": [
+    "usage"
+   ],
+   "chip": "usage"
+  },
+  {
+   "tag": "USAGE",
+   "v": "table",
+   "d": {
+    "title": "Usage",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "गिनती",
+      "v": [
+       "chat के साथ same pool",
+       "weekly pool, Grok के साथ",
+       "GitHub AI Credits"
+      ]
+     },
+     {
+      "k": "Reset",
+      "v": [
+       "5 घंटे + हफ्ता",
+       "हर हफ्ते",
+       "हर महीने"
+      ]
+     }
+    ]
+   },
+   "say": "Claude Code chat की limit share करता है। Cursor का weekly pool Grok के साथ share होता है। Copilot GitHub AI Credits से चलता है।",
+   "hl": [
+    "pool",
+    "credits"
+   ],
+   "chip": "credits"
+  },
+  {
+   "tag": "CREDITS",
+   "v": "table",
+   "d": {
+    "title": "Copilot AI credits / month",
+    "cols": [
+     "Pro",
+     "Pro+"
+    ],
+    "rows": [
+     {
+      "k": "Price",
+      "v": [
+       "$10",
+       "$39"
+      ]
+     },
+     {
+      "k": "Total credits",
+      "v": [
+       "1,500",
+       "7,000"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "Copilot Pro में हर महीने पंद्रह सौ AI credits, Pro plus में सात हज़ार। Model जितना बड़ा, credits उतने जल्दी खत्म।",
+   "hl": [
+    "पंद्रह",
+    "सात",
+    "हज़ार"
+   ],
+   "chip": "credits"
+  },
+  {
+   "tag": "BURN",
+   "v": "versus",
+   "d": {
+    "bad": "सबसे बड़ा model हर छोटे काम पे",
+    "good": "छोटा काम = छोटा model, limit बचाओ"
+   },
+   "say": "Trick: छोटे कामों पे छोटा model चलाओ, बड़ा model सिर्फ मुश्किल काम के लिए। तीनों में limit ज़्यादा चलेगी।",
+   "hl": [
+    "छोटा",
+    "limit"
+   ],
+   "chip": "Trick"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Models"
+   },
+   "say": "Chapter पाँच: models।",
+   "hl": [
+    "models"
+   ],
+   "chip": "models"
+  },
+  {
+   "tag": "MODELS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Code: Opus, Sonnet, Haiku (+ Fable)",
+     "Cursor: Grok models + Composer, बाकी API price पे",
+     "Copilot Pro+: premium models, Opus भी"
+    ]
+   },
+   "say": "Claude Code में Claude के models। Cursor में Grok और Composer, बाकी API price पे। Copilot Pro plus में Opus जैसे premium models।",
+   "hl": [
+    "Opus",
+    "Grok"
+   ],
+   "chip": "models"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Students"
+   },
+   "say": "Chapter छह: students के लिए।",
+   "hl": [
+    "students"
+   ],
+   "chip": "students"
+  },
+  {
+   "tag": "STUDENT",
+   "v": "versus",
+   "d": {
+    "bad": "Student हो और पैसे नहीं?",
+    "good": "Copilot Student: verified students के लिए free"
+   },
+   "say": "Student हो? Verified students के लिए Copilot Student free है। और verified teachers और बड़े open source maintainers को Copilot Pro free मिल सकता है।",
+   "hl": [
+    "Student",
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "START",
+   "v": "list",
+   "d": {
+    "items": [
+     "सीखना शुरू: Copilot Free / Student",
+     "Project बनाना: कोई एक paid plan",
+     "Team: Business / Teams plans"
+    ]
+   },
+   "say": "मेरी सलाह: सीखते वक्त Copilot free, project बनाते वक्त कोई एक paid plan, और team के लिए business plans।",
+   "hl": [
+    "free",
+    "paid"
+   ],
+   "chip": "सलाह"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "say": "अब real examples: कौनसा काम किसमें आसान।",
+   "hl": [
+    "examples"
+   ],
+   "chip": "examples"
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "पूरा feature बनाना",
+    "rows": [
+     [
+      "देखो",
+      "agent: Claude Code / Cloud Agents"
+     ],
+     [
+      "Tip",
+      "पहले plan लिखवाओ"
+     ]
+    ]
+   },
+   "say": "Example एक: पूरा नया feature बनाना। यहाँ agent चाहिए, जैसे Claude Code या Cursor के cloud agents। पहले उससे plan लिखवाओ, फिर code।",
+   "hl": [
+    "agent",
+    "plan"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "रोज़ का typing",
+    "rows": [
+     [
+      "देखो",
+      "Tab completions"
+     ],
+     [
+      "Copilot Pro",
+      "unlimited completions"
+     ]
+    ]
+   },
+   "say": "Example दो: रोज़ का code typing। यहाँ autocomplete सबसे काम का है, और Copilot Pro में completions unlimited हैं।",
+   "hl": [
+    "autocomplete",
+    "unlimited"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "PR review",
+    "rows": [
+     [
+      "Copilot",
+      "pull request reviews"
+     ],
+     [
+      "Cursor",
+      "Bugbot (Premium+)"
+     ]
+    ]
+   },
+   "say": "Example तीन: pull request review। Copilot Pro में PR reviews हैं, और Cursor Premium में Bugbot।",
+   "hl": [
+    "review",
+    "Bugbot"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "Agent को बिना check merge",
+    "good": "हर change पढ़ो, tests चलाओ"
+   },
+   "say": "और सबसे ज़रूरी: AI का code बिना पढ़े merge मत करो। हर change पढ़ो और tests चलाओ।",
+   "hl": [
+    "पढ़ो",
+    "tests"
+   ],
+   "chip": "tests"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Money tips"
+   },
+   "say": "अब पैसे बचाने के तरीके।",
+   "hl": [
+    "पैसे"
+   ],
+   "chip": "पैसे"
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "पहले free / student plan",
+     "एक tool, एक महीना",
+     "Usage page हर हफ्ते देखो"
+    ]
+   },
+   "say": "पहले free या student plan। फिर एक tool एक महीने चलाओ। और हर हफ्ते usage page देखो, ताकि अचानक limit न आए।",
+   "hl": [
+    "free",
+    "usage"
+   ],
+   "chip": "बचाने"
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "तीनों के paid plans साथ",
+    "good": "एक paid tool + Copilot Free backup"
+   },
+   "say": "तीनों का paid plan साथ लेने की ज़रूरत नहीं। एक main tool लो, और Copilot free backup में रखो।",
+   "hl": [
+    "एक",
+    "backup"
+   ],
+   "chip": "backup"
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "Top plan पहले दिन",
+    "good": "Limit बार-बार खत्म हो तभी upgrade"
+   },
+   "say": "और दो सौ dollar वाला plan पहले दिन मत लो। जब limit हर हफ्ते खत्म होने लगे, तभी upgrade।",
+   "hl": [
+    "दो",
+    "सौ",
+    "upgrade"
+   ],
+   "chip": "upgrade"
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Free: Copilot सबसे आगे",
+     "Cursor अब X Subscription में",
+     "Claude Code: chat वाली limit",
+     "AI code पढ़ो, tests चलाओ"
+    ]
+   },
+   "say": "जल्दी recap: Free: Copilot सबसे आगे। Cursor अब X Subscription में। Claude Code: chat वाली limit। AI code पढ़ो, tests चलाओ।",
+   "hl": [
+    "recap"
+   ],
+   "chip": "recap"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "say": "तो किसे कौनसा?",
+   "hl": [
+    "किसे"
+   ],
+   "chip": "किसे"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Copilot",
+      "when": "Students, कम budget, GitHub पे काम"
+     },
+     {
+      "who": "Claude Code",
+      "when": "Terminal agent + Claude chat एक plan में"
+     },
+     {
+      "who": "Cursor",
+      "when": "AI editor चाहिए, Grok/X भी use करते हो"
+     }
+    ]
+   },
+   "say": "कम budget या student: Copilot। Terminal agent और chat एक plan में: Claude Code। Editor के साथ Grok और X भी: Cursor।",
+   "hl": [
+    "Copilot",
+    "Claude",
+    "Cursor"
+   ],
+   "chip": "budget"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आप कौनसा use करते हो? Comment करो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

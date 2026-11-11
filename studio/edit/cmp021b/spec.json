@@ -1,0 +1,874 @@
+{
+ "id": "cmp021b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+0%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "CLAUDE MOTION",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT vs Claude: Kaam Ke Liye Kaunsa Best?",
+ "search_kw": "ChatGPT vs Claude",
+ "thumb": {
+  "a": "ChatGPT",
+  "b": "Claude",
+  "top": "AI CHAT 2026",
+  "hook": "SACH JAANO!",
+  "accent": "#F2542D",
+  "colorA": "#111111",
+  "colorB": "#C2410C"
+ },
+ "tags": [
+  "chatgpt vs claude",
+  "claude vs chatgpt",
+  "claude pro vs chatgpt plus",
+  "claude code",
+  "codex",
+  "ai for work hindi"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT vs Claude",
+    "pill": "AI FOR WORK",
+    "stat": "$20",
+    "sub": "दोनों का Pro/Plus"
+   },
+   "say": "ChatGPT या Claude, काम के लिए कौनसा? दोनों बीस dollar, पर फर्क बड़ा है।",
+   "hl": [
+    "ChatGPT",
+    "Claude",
+    "फर्क"
+   ],
+   "chip": "फर्क"
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "Free plan",
+     "Price",
+     "Limits",
+     "Models",
+     "Coding",
+     "Office tools",
+     "Verdict"
+    ]
+   },
+   "say": "आज देखेंगे: free plan, price, usage limits, models, coding, office tools, और आखिर में verdict।",
+   "hl": [
+    "limits",
+    "verdict"
+   ],
+   "chip": "verdict"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Free plan"
+   },
+   "say": "Chapter एक: free में क्या मिलता है।",
+   "hl": [
+    "free"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "FREE",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Free",
+     "rows": [
+      [
+       "Model",
+       "GPT-6 Luna"
+      ],
+      [
+       "Text chats",
+       "unlimited*"
+      ],
+      [
+       "Codex",
+       "limited"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Claude Free",
+     "rows": [
+      [
+       "Models",
+       "Sonnet, Haiku"
+      ],
+      [
+       "Web search",
+       "हाँ"
+      ],
+      [
+       "Projects",
+       "5 तक"
+      ]
+     ]
+    },
+    "accentB": "#C2410C"
+   },
+   "say": "Free में ChatGPT GPT-6 Luna देता है। Claude free में Sonnet और Haiku, web search, और पाँच projects तक।",
+   "hl": [
+    "Luna",
+    "Sonnet"
+   ],
+   "chip": "Free"
+  },
+  {
+   "tag": "FREEC",
+   "v": "list",
+   "d": {
+    "items": [
+     "Files बनाना + code चलाना",
+     "Memory",
+     "Connectors (apps जोड़ना)",
+     "Artifacts, Slides, Docs"
+    ]
+   },
+   "say": "Claude free में files बनाना, code चलाना, memory, apps connect करना, और Artifacts, Slides, Docs भी मिलते हैं।",
+   "hl": [
+    "memory",
+    "connect"
+   ],
+   "chip": "Artifacts"
+  },
+  {
+   "tag": "FREECG",
+   "v": "list",
+   "d": {
+    "items": [
+     "Search",
+     "Projects",
+     "Plugins, Skills",
+     "Built-in browser"
+    ]
+   },
+   "say": "ChatGPT free में search, projects, plugins, skills और built-in browser मिलता है। दोनों free plans काफ़ी अच्छे हैं।",
+   "hl": [
+    "search",
+    "browser"
+   ],
+   "chip": "free"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Price"
+   },
+   "say": "Chapter दो: price।",
+   "hl": [
+    "price"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "PLANS",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "ChatGPT",
+     "Claude"
+    ],
+    "rows": [
+     {
+      "k": "सस्ता",
+      "v": [
+       "Go: $8*",
+       "—"
+      ]
+     },
+     {
+      "k": "Main plan",
+      "v": [
+       "Plus: $20",
+       "Pro: $20 ($17 yearly)"
+      ]
+     },
+     {
+      "k": "Heavy use",
+      "v": [
+       "Pro 100: $100",
+       "Max: $100"
+      ]
+     },
+     {
+      "k": "Power user",
+      "v": [
+       "Pro 200: $200",
+       "Ultra: $200"
+      ]
+     },
+     {
+      "k": "Top",
+      "v": [
+       "Pro 500: $500",
+       "Team, Enterprise"
+      ]
+     }
+    ]
+   },
+   "say": "दोनों का main plan बीस dollar। Claude Pro yearly लो तो सत्रह dollar महीना। ऊपर सौ और दो सौ dollar के plans दोनों में हैं।",
+   "hl": [
+    "बीस",
+    "सत्रह"
+   ],
+   "chip": "बीस"
+  },
+  {
+   "tag": "CHEAP",
+   "v": "versus",
+   "d": {
+    "bad": "Claude में $8 जैसा सस्ता plan नहीं",
+    "good": "ChatGPT Go: $8 (US price)"
+   },
+   "say": "एक फर्क: ChatGPT का आठ dollar वाला Go plan है, Claude में इतना सस्ता paid plan नहीं।",
+   "hl": [
+    "आठ",
+    "Go"
+   ],
+   "chip": "Go"
+  },
+  {
+   "tag": "YEARLY",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Billing",
+    "rows": [
+     [
+      "Claude Pro",
+      "monthly या yearly"
+     ],
+     [
+      "ChatGPT Plus/Pro",
+      "सिर्फ monthly"
+     ]
+    ]
+   },
+   "say": "और billing: Claude Pro yearly भी मिलता है, पर ChatGPT Plus और Pro अभी सिर्फ monthly billing पे हैं।",
+   "hl": [
+    "yearly",
+    "monthly"
+   ],
+   "chip": "yearly"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Usage limits"
+   },
+   "say": "Chapter तीन: usage limits।",
+   "hl": [
+    "limits"
+   ],
+   "chip": "limits"
+  },
+  {
+   "tag": "LIMITS",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Claude limits",
+    "rows": [
+     [
+      "Reset",
+      "हर 5 घंटे + हर हफ्ते"
+     ],
+     [
+      "Max",
+      "Pro का 5x"
+     ],
+     [
+      "Ultra",
+      "10x, no 5-hr limit"
+     ]
+    ]
+   },
+   "say": "Claude की limit हर पाँच घंटे और हर हफ्ते reset होती है। Max में Pro का पाँच गुना, Ultra में दस गुना।",
+   "hl": [
+    "पाँच",
+    "दस"
+   ],
+   "chip": "limit"
+  },
+  {
+   "tag": "LIMITS2",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT limits",
+    "rows": [
+     [
+      "Text chats",
+      "unlimited*"
+     ],
+     [
+      "Pro",
+      "3 usage tiers"
+     ],
+     [
+      "Pro 500",
+      "Ultrafast mode"
+     ]
+    ]
+   },
+   "say": "ChatGPT में text chats unlimited हैं, guardrails के साथ। Pro के तीन tiers हैं, और पाँच सौ वाले में Ultrafast mode।",
+   "hl": [
+    "unlimited",
+    "Ultrafast"
+   ],
+   "chip": "Ultrafast"
+  },
+  {
+   "tag": "CREDITS",
+   "v": "versus",
+   "d": {
+    "bad": "Limit खत्म = काम बंद",
+    "good": "दोनों में extra usage credits खरीद सकते हो"
+   },
+   "say": "Limit खत्म हो जाए, तो दोनों में extra usage credits लेकर काम चालू रख सकते हो।",
+   "hl": [
+    "credits",
+    "चालू"
+   ],
+   "chip": "credits"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Models"
+   },
+   "say": "Chapter चार: models।",
+   "hl": [
+    "models"
+   ],
+   "chip": "models"
+  },
+  {
+   "tag": "MODELS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Plus",
+     "rows": [
+      [
+       "Models",
+       "GPT-6 Astra, 6.1 Sol"
+      ],
+      [
+       "Pro",
+       "Astra pro reasoning"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Claude Pro",
+     "rows": [
+      [
+       "Models",
+       "Opus, Sonnet, Haiku"
+      ],
+      [
+       "Top model",
+       "Fable"
+      ]
+     ]
+    },
+    "accentB": "#C2410C"
+   },
+   "say": "ChatGPT Plus में GPT-6 Astra और 6.1 Sol। Claude Pro में Opus, Sonnet और Haiku।",
+   "hl": [
+    "Astra",
+    "Opus"
+   ],
+   "chip": "Opus"
+  },
+  {
+   "tag": "FABLE",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Claude Fable",
+    "rows": [
+     [
+      "Pro",
+      "usage credits से"
+     ],
+     [
+      "Max, Ultra",
+      "weekly limit का 50% तक"
+     ]
+    ]
+   },
+   "say": "Claude का top model Fable है। Pro में ये usage credits से चलता है, Max और Ultra में weekly limit के आधे तक included।",
+   "hl": [
+    "Fable",
+    "आधे"
+   ],
+   "chip": "Fable"
+  },
+  {
+   "tag": "CTX",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Context",
+    "rows": [
+     [
+      "Claude",
+      "1M तक (model पे depend)"
+     ],
+     [
+      "ChatGPT Plus",
+      "256K reasoning"
+     ]
+    ]
+   },
+   "say": "लंबे documents के लिए: Claude में model के हिसाब से दस लाख tokens तक context, ChatGPT Plus में reasoning पे दो लाख छप्पन हज़ार।",
+   "hl": [
+    "दस",
+    "लाख"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Coding"
+   },
+   "say": "Chapter पाँच: coding।",
+   "hl": [
+    "coding"
+   ],
+   "chip": "coding"
+  },
+  {
+   "tag": "CODE",
+   "v": "versus",
+   "d": {
+    "bad": "अलग coding tool का अलग bill",
+    "good": "दोनों में coding agent plan में शामिल"
+   },
+   "say": "अच्छी बात: ChatGPT में Codex और Claude में Claude Code, दोनों paid plan में शामिल हैं।",
+   "hl": [
+    "Codex",
+    "Claude",
+    "Code"
+   ],
+   "chip": "Code"
+  },
+  {
+   "tag": "CODE2",
+   "v": "table",
+   "d": {
+    "title": "Coding agent",
+    "cols": [
+     "ChatGPT",
+     "Claude"
+    ],
+    "rows": [
+     {
+      "k": "Agent",
+      "v": [
+       "Codex",
+       "Claude Code"
+      ]
+     },
+     {
+      "k": "Plan",
+      "v": [
+       "Plus में",
+       "Pro में"
+      ]
+     },
+     {
+      "k": "Limit",
+      "v": [
+       "plan की limit",
+       "chat के साथ same pool"
+      ]
+     }
+    ]
+   },
+   "say": "ध्यान दो: Claude Code और chat एक ही usage pool से चलते हैं। ज़्यादा coding की, तो chat की limit भी कम होगी।",
+   "hl": [
+    "same",
+    "pool"
+   ],
+   "chip": "pool"
+  },
+  {
+   "tag": "CODE3",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Codex",
+    "rows": [
+     [
+      "कहाँ",
+      "web, CLI, IDE, iOS"
+     ],
+     [
+      "Free/Go",
+      "limited"
+     ]
+    ]
+   },
+   "say": "Codex web, CLI, IDE और iOS पे चलता है, और free और Go में भी थोड़ा सा मिलता है।",
+   "hl": [
+    "Codex",
+    "free"
+   ],
+   "chip": "Codex"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Office tools"
+   },
+   "say": "Chapter छह: office का काम।",
+   "hl": [
+    "office"
+   ],
+   "chip": "office"
+  },
+  {
+   "tag": "WORK",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "edit",
+     "title": "ChatGPT Plus",
+     "rows": [
+      [
+       "Office",
+       "Excel, Word, PPT"
+      ],
+      [
+       "Extra",
+       "Deep research"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "book",
+     "title": "Claude Pro",
+     "rows": [
+      [
+       "Office",
+       "Microsoft 365"
+      ],
+      [
+       "Extra",
+       "Research, Chrome"
+      ]
+     ]
+    },
+    "accentB": "#C2410C"
+   },
+   "say": "दोनों office में आते हैं: ChatGPT के Excel, Word और PowerPoint extensions, और Claude for Microsoft 365।",
+   "hl": [
+    "Excel",
+    "Microsoft"
+   ],
+   "chip": "office"
+  },
+  {
+   "tag": "TASKS",
+   "v": "list",
+   "d": {
+    "items": [
+     "ChatGPT: scheduled tasks, custom GPTs",
+     "Claude: tasks hand off + schedule",
+     "दोनों: projects, memory"
+    ]
+   },
+   "say": "Tasks schedule करना दोनों में है। ChatGPT में custom GPTs, Claude में tasks hand off करके schedule करना।",
+   "hl": [
+    "schedule",
+    "GPTs"
+   ],
+   "chip": "schedule"
+  },
+  {
+   "tag": "TRAIN",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Privacy setting",
+    "rows": [
+     [
+      "Claude",
+      "model training: opt-out"
+     ],
+     [
+      "Tip",
+      "settings खुद check करो"
+     ]
+    ]
+   },
+   "say": "Privacy: Claude के consumer plans में model training opt-out setting है। जो भी use करो, privacy settings खुद एक बार check करो।",
+   "hl": [
+    "opt-out",
+    "privacy"
+   ],
+   "chip": "privacy"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "say": "अब कुछ real examples, कौनसा काम किसमें करना आसान है।",
+   "hl": [
+    "examples"
+   ],
+   "chip": "examples"
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "लंबा document",
+    "rows": [
+     [
+      "Task",
+      "100 page report का summary"
+     ],
+     [
+      "देखो",
+      "बड़ा context, file upload"
+     ]
+    ]
+   },
+   "say": "Example एक: सौ page की report का summary। यहाँ बड़ा context और file upload limit देखो, क्योंकि पूरा document एक बार में जाना चाहिए।",
+   "hl": [
+    "सौ",
+    "context"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Coding project",
+    "rows": [
+     [
+      "Task",
+      "bug fix, नया feature"
+     ],
+     [
+      "देखो",
+      "Codex vs Claude Code"
+     ]
+    ]
+   },
+   "say": "Example दो: coding project। यहाँ Codex और Claude Code दोनों को same bug देकर देखो, कौन कम बार में सही fix देता है।",
+   "hl": [
+    "Codex",
+    "Claude",
+    "Code"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "Office काम",
+    "rows": [
+     [
+      "Task",
+      "Excel sheet, PPT"
+     ],
+     [
+      "देखो",
+      "Office extensions"
+     ]
+    ]
+   },
+   "say": "Example तीन: Excel sheet या presentation। यहाँ office extensions काम आते हैं, जो दोनों के paid plans में हैं।",
+   "hl": [
+    "Excel",
+    "extensions"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "एक ही prompt से फैसला",
+    "good": "3-4 अलग काम, फिर फैसला"
+   },
+   "say": "एक prompt से फैसला मत करो। तीन चार अलग तरह के काम दोनों को दो, फिर देखो कौन लगातार अच्छा है।",
+   "hl": [
+    "तीन",
+    "लगातार"
+   ],
+   "chip": "फैसला"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Money tips"
+   },
+   "say": "अब पैसे बचाने के तरीके।",
+   "hl": [
+    "पैसे"
+   ],
+   "chip": "पैसे"
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Pro yearly = $17/month",
+     "ChatGPT Go = सबसे सस्ता paid",
+     "Limit आए तो credits, plan नहीं"
+    ]
+   },
+   "say": "पैसे बचाने के तरीके: Claude Pro yearly लो तो सत्रह dollar महीना। ChatGPT Go सबसे सस्ता paid plan है। और कभी-कभी limit आए, तो पूरा plan नहीं, बस credits लो।",
+   "hl": [
+    "सत्रह",
+    "credits"
+   ],
+   "chip": "बचाने"
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "दोनों का Pro plan हमेशा",
+    "good": "एक main + दूसरे का free"
+   },
+   "say": "ज़्यादातर लोगों के लिए best combo: एक का paid plan, और दूसरे का free plan backup के लिए।",
+   "hl": [
+    "paid",
+    "free"
+   ],
+   "chip": "combo"
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "बिना सोचे Max/Ultra",
+    "good": "Pro से शुरू, ज़रूरत पे upgrade"
+   },
+   "say": "और सीधे सौ या दो सौ dollar वाला plan मत लो। बीस dollar से शुरू करो, ज़रूरत पड़े तो upgrade।",
+   "hl": [
+    "बीस",
+    "upgrade"
+   ],
+   "chip": "upgrade"
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Main plan दोनों $20",
+     "Claude: limits 5 घंटे + हफ्ता",
+     "Coding agent दोनों में",
+     "सस्ता Go: सिर्फ ChatGPT"
+    ]
+   },
+   "say": "जल्दी recap: Main plan दोनों $20। Claude: limits 5 घंटे + हफ्ता। Coding agent दोनों में। सस्ता Go: सिर्फ ChatGPT।",
+   "hl": [
+    "recap"
+   ],
+   "chip": "recap"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "say": "तो किसके लिए कौन?",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "ChatGPT",
+      "when": "सस्ता Go plan, office extensions, Codex"
+     },
+     {
+      "who": "Claude",
+      "when": "लंबे documents, Claude Code, yearly discount"
+     },
+     {
+      "who": "दोनों",
+      "when": "अपने काम पे free में test करो"
+     }
+    ]
+   },
+   "say": "Budget और office extensions के लिए ChatGPT, लंबे documents और Claude Code के लिए Claude। और सबसे पहले free में test करो।",
+   "hl": [
+    "ChatGPT",
+    "Claude",
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "आपका favourite कौन है? Comment करो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}

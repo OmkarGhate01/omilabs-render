@@ -1,0 +1,809 @@
+{
+ "id": "cmp024b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+0%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "KLING 4.0",
+ "rules": "v3",
+ "series": "AI COMPARISON",
+ "title": "Kimi K3.1 vs DeepSeek: Open AI Ka King Kaun?",
+ "search_kw": "Kimi K3.1 vs DeepSeek",
+ "thumb": {
+  "a": "Kimi K3.1",
+  "b": "DeepSeek",
+  "top": "OPEN MODELS 2026",
+  "hook": "2.8 TRILLION!",
+  "accent": "#F2542D",
+  "colorA": "#00B4D8",
+  "colorB": "#2F6BFF"
+ },
+ "tags": [
+  "kimi k3.1 vs deepseek",
+  "kimi k3.1 pro",
+  "deepseek v4.1 flash",
+  "open source ai model",
+  "open weights",
+  "cheap ai api"
+ ],
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Kimi K3.1 vs DeepSeek",
+    "pill": "OPEN MODELS",
+    "stat": "2.8T",
+    "sub": "parameters, open weights"
+   },
+   "say": "Kimi का 2.8 trillion parameter model download के लिए खुला। तो DeepSeek से बेहतर कौन?",
+   "hl": [
+    "Kimi",
+    "DeepSeek",
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "दोनों क्या हैं",
+     "Size",
+     "Context",
+     "Price",
+     "Self-host",
+     "Tools और apps",
+     "Verdict"
+    ]
+   },
+   "say": "आज: दोनों models क्या हैं, size, context, price, खुद चलाना, tools, और verdict।",
+   "hl": [
+    "size",
+    "price"
+   ],
+   "chip": "verdict"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "say": "Chapter एक: दोनों हैं क्या।",
+   "hl": [
+    "क्या"
+   ],
+   "chip": "क्या"
+  },
+  {
+   "tag": "WHAT",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "Kimi K3.1 Pro",
+     "rows": [
+      [
+       "Company",
+       "Moonshot AI"
+      ],
+      [
+       "Type",
+       "open-weight agentic model"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "DeepSeek V4.1 Flash",
+     "rows": [
+      [
+       "Company",
+       "DeepSeek"
+      ],
+      [
+       "Latest",
+       "V4.1-Flash-1017"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "Kimi K3.1 Pro, Moonshot AI का open-weight agentic model है। DeepSeek V4.1 Flash, DeepSeek का नया तेज़ model, latest version सत्रह October वाला।",
+   "hl": [
+    "Moonshot",
+    "DeepSeek"
+   ],
+   "chip": "model"
+  },
+  {
+   "tag": "KIMI",
+   "v": "list",
+   "d": {
+    "items": [
+     "K3.1 series का पहला model",
+     "Kimi K3 से post-trained",
+     "Coding, 3D, finance research में सुधार"
+    ]
+   },
+   "say": "Kimi K3.1 Pro, K3.1 series का पहला model है, Kimi K3 से post-train किया गया। Company के हिसाब से coding, 3D creation और finance research में सुधार है।",
+   "hl": [
+    "K3.1",
+    "coding"
+   ],
+   "chip": "coding"
+  },
+  {
+   "tag": "DS",
+   "v": "list",
+   "d": {
+    "items": [
+     "नए architecture का सबसे छोटा model",
+     "Native image समझता है",
+     "V4-Pro धीरे-धीरे बंद"
+    ]
+   },
+   "say": "DeepSeek V4.1 Flash नए architecture का सबसे छोटा model है, images भी समझता है, और DeepSeek अपना पुराना V4-Pro phase out कर रहा है।",
+   "hl": [
+    "Flash",
+    "images"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Size"
+   },
+   "say": "Chapter दो: model कितना बड़ा है।",
+   "hl": [
+    "बड़ा"
+   ],
+   "chip": "बड़ा"
+  },
+  {
+   "tag": "SIZE",
+   "v": "table",
+   "d": {
+    "title": "Model",
+    "cols": [
+     "Kimi K3.1 Pro",
+     "DeepSeek V4.1 Flash"
+    ],
+    "rows": [
+     {
+      "k": "Type",
+      "v": [
+       "MoE, open weights",
+       "Flash (सबसे छोटा)"
+      ]
+     },
+     {
+      "k": "Parameters",
+      "v": [
+       "2.8T total, 104B active",
+       "Flash family"
+      ]
+     },
+     {
+      "k": "Input",
+      "v": [
+       "Text + Image",
+       "Text + Image"
+      ]
+     }
+    ]
+   },
+   "say": "Kimi K3.1 Pro: 2.8 trillion total parameters, पर हर token पे सिर्फ 104 billion active।",
+   "hl": [
+    "trillion",
+    "active"
+   ],
+   "chip": "trillion"
+  },
+  {
+   "tag": "MOE",
+   "v": "versus",
+   "d": {
+    "bad": "Total parameters = speed",
+    "good": "Active parameters = speed, total = memory"
+   },
+   "say": "Mixture of Experts में याद रखो: speed active parameters से तय होती है, और memory total parameters से।",
+   "hl": [
+    "active",
+    "memory"
+   ],
+   "chip": "active"
+  },
+  {
+   "tag": "MOE2",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Token आया",
+     "Router experts चुनता है",
+     "सिर्फ 104B काम करते हैं",
+     "Output"
+    ]
+   },
+   "say": "हर token पे router कुछ experts चुनता है, बस वही काम करते हैं। इसीलिए इतना बड़ा model भी चल पाता है।",
+   "hl": [
+    "router",
+    "experts"
+   ],
+   "chip": "experts"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Context"
+   },
+   "say": "Chapter तीन: context।",
+   "hl": [
+    "context"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CTX",
+   "v": "table",
+   "d": {
+    "title": "Context window",
+    "cols": [
+     "Kimi K3.1 Pro",
+     "DeepSeek"
+    ],
+    "rows": [
+     {
+      "k": "Context",
+      "v": [
+       "1M tokens",
+       "1M tokens तक"
+      ]
+     },
+     {
+      "k": "Thinking",
+      "v": [
+       "low / high / max",
+       "reasoning effort levels"
+      ]
+     }
+    ]
+   },
+   "say": "दोनों में दस लाख tokens तक का context है। Kimi में thinking effort low, high या max set कर सकते हो, default max।",
+   "hl": [
+    "दस",
+    "लाख",
+    "max"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CTXUSE",
+   "v": "list",
+   "d": {
+    "items": [
+     "पूरा codebase",
+     "लंबे reports",
+     "Multi-step agents"
+    ]
+   },
+   "say": "इतना context पूरे codebase, लंबे reports और multi-step agents के लिए काम आता है।",
+   "hl": [
+    "codebase",
+    "agents"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Price"
+   },
+   "say": "Chapter चार: API price।",
+   "hl": [
+    "price"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "DSPRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "DeepSeek Flash (per 1M tokens)",
+    "rows": [
+     [
+      "Input (off-peak)",
+      "$0.15"
+     ],
+     [
+      "Output (off-peak)",
+      "$0.60"
+     ],
+     [
+      "Peak",
+      "double"
+     ]
+    ]
+   },
+   "say": "DeepSeek Flash बहुत सस्ता है: off-peak में input पंद्रह cent, output साठ cent per million tokens। Peak time में double।",
+   "hl": [
+    "सस्ता",
+    "off-peak"
+   ],
+   "chip": "सस्ता"
+  },
+  {
+   "tag": "CACHE",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Cache hit",
+    "rows": [
+     [
+      "Input (off-peak)",
+      "$0.003 / 1M"
+     ],
+     [
+      "Use",
+      "same prompt बार-बार"
+     ]
+    ]
+   },
+   "say": "और अगर same prompt बार-बार भेजते हो, तो cache hit पे input लगभग free जैसा, off-peak में तीन दशमलव शून्य शून्य तीन cent।",
+   "hl": [
+    "cache",
+    "free"
+   ],
+   "chip": "cache"
+  },
+  {
+   "tag": "OFFPEAK",
+   "v": "versus",
+   "d": {
+    "bad": "हर काम peak time पे",
+    "good": "Off-peak में चलाओ = आधा price"
+   },
+   "say": "Trick: जो काम रुक सकता है, जैसे रात की batch jobs, उसे off-peak में चलाओ, price आधा।",
+   "hl": [
+    "off-peak",
+    "आधा"
+   ],
+   "chip": "आधा"
+  },
+  {
+   "tag": "KPRICE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Kimi K3.1 Pro",
+    "rows": [
+     [
+      "कहाँ",
+      "Kimi API, Hugging Face weights"
+     ],
+     [
+      "Price",
+      "Moonshot की site पे check"
+     ]
+    ]
+   },
+   "say": "Kimi का API price Moonshot की official site पे check करो, क्योंकि हम सिर्फ official numbers बताते हैं।",
+   "hl": [
+    "official",
+    "check"
+   ],
+   "chip": "check"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Self-host"
+   },
+   "say": "Chapter पाँच: खुद के server पे चलाना।",
+   "hl": [
+    "server"
+   ],
+   "chip": "server"
+  },
+  {
+   "tag": "SELF",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "Kimi K3.1 Pro",
+     "rows": [
+      [
+       "Weights",
+       "Hugging Face पे open"
+      ],
+      [
+       "Format",
+       "MXFP4 weights"
+      ],
+      [
+       "Serve",
+       "vLLM, SGLang"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "DeepSeek",
+     "rows": [
+      [
+       "API",
+       "deepseek-flash"
+      ],
+      [
+       "Extra",
+       "Search + Fetch API"
+      ],
+      [
+       "Apps",
+       "web और app पे भी"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "say": "Kimi के weights Hugging Face पे खुले हैं, MXFP4 format में। DeepSeek Flash API पे deepseek dash flash नाम से मिलता है।",
+   "hl": [
+    "Hugging",
+    "flash"
+   ],
+   "chip": "weights"
+  },
+  {
+   "tag": "GPU",
+   "v": "versus",
+   "d": {
+    "bad": "Laptop पे 2.8T model",
+    "good": "बड़ा GPU server, या पहले API से test"
+   },
+   "say": "पर सच ये है: 2.8 trillion का model laptop पे नहीं चलेगा, बड़ा GPU server चाहिए। इसलिए पहले API से test करो।",
+   "hl": [
+    "GPU",
+    "API"
+   ],
+   "chip": "GPU"
+  },
+  {
+   "tag": "WHYSELF",
+   "v": "list",
+   "d": {
+    "items": [
+     "Data अपने server पे",
+     "Fine-tune कर सकते हो",
+     "Vendor पे depend कम"
+    ]
+   },
+   "say": "Self-host के फायदे: data अपने server पे रहता है, model fine-tune कर सकते हो, और किसी एक company पे depend कम।",
+   "hl": [
+    "data",
+    "fine-tune"
+   ],
+   "chip": "फायदे"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Tools"
+   },
+   "say": "Chapter छह: tools और apps।",
+   "hl": [
+    "tools"
+   ],
+   "chip": "tools"
+  },
+  {
+   "tag": "DSTOOLS",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "DeepSeek Search + Fetch",
+    "rows": [
+     [
+      "Price",
+      "$0.75 / 1,000 calls"
+     ],
+     [
+      "Use",
+      "web search, page fetch"
+     ]
+    ]
+   },
+   "say": "DeepSeek की Search और Fetch API भी है, हर एक हज़ार calls पे पचहत्तर cent।",
+   "hl": [
+    "Search",
+    "Fetch"
+   ],
+   "chip": "Search"
+  },
+  {
+   "tag": "KTOOLS",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Kimi K3.1 Pro",
+    "rows": [
+     [
+      "Strong",
+      "coding, agents"
+     ],
+     [
+      "Input",
+      "text, image"
+     ]
+    ]
+   },
+   "say": "Kimi K3.1 Pro agentic काम और coding के लिए बना है, और text के साथ images भी लेता है।",
+   "hl": [
+    "agentic",
+    "coding"
+   ],
+   "chip": "coding"
+  },
+  {
+   "tag": "LICENSE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Benchmarks company खुद बताती है",
+     "अपने काम पे test करो",
+     "Commercial use से पहले license पढ़ो"
+    ]
+   },
+   "say": "दोनों के benchmarks company के अपने हैं। अपने काम पे test करो, और business में लगाने से पहले license ज़रूर पढ़ो।",
+   "hl": [
+    "test",
+    "license"
+   ],
+   "chip": "license"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "say": "अब real examples: किस काम में कौनसा।",
+   "hl": [
+    "examples"
+   ],
+   "chip": "examples"
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "लाखों छोटे tasks",
+    "rows": [
+     [
+      "Task",
+      "classification, tagging"
+     ],
+     [
+      "Best",
+      "DeepSeek Flash, off-peak"
+     ]
+    ]
+   },
+   "say": "Example एक: लाखों छोटे tasks, जैसे data tagging या classification। यहाँ DeepSeek Flash off-peak में बहुत सस्ता पड़ेगा।",
+   "hl": [
+    "लाखों",
+    "सस्ता"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Private data",
+    "rows": [
+     [
+      "Task",
+      "company का internal data"
+     ],
+     [
+      "Option",
+      "open weights, अपना server"
+     ]
+    ]
+   },
+   "say": "Example दो: company का private data, जो बाहर नहीं जाना चाहिए। यहाँ open weights को अपने server पे चलाना एक option है।",
+   "hl": [
+    "private",
+    "server"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Coding agent",
+    "rows": [
+     [
+      "Task",
+      "लंबा multi-step काम"
+     ],
+     [
+      "देखो",
+      "1M context, tool use"
+     ]
+    ]
+   },
+   "say": "Example तीन: लंबा multi-step coding agent। यहाँ दस लाख tokens का context और tool use काम आता है, दोनों को same task देकर test करो।",
+   "hl": [
+    "context",
+    "test"
+   ],
+   "chip": "Example"
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ benchmark देखकर फैसला",
+    "good": "अपने 20-30 examples पे eval"
+   },
+   "say": "Benchmark देखकर फैसला मत करो। अपने बीस तीस असली examples पे दोनों को test करो, वही असली benchmark है।",
+   "hl": [
+    "बीस",
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Cost tips"
+   },
+   "say": "अब API cost बचाने के तीन तरीके।",
+   "hl": [
+    "cost"
+   ],
+   "chip": "cost"
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "Same prompt prefix रखो (cache)",
+     "Batch jobs off-peak में",
+     "Output छोटा माँगो"
+    ]
+   },
+   "say": "तीन तरीके: prompt का शुरुआती हिस्सा same रखो ताकि cache hit हो, batch jobs off-peak में चलाओ, और output छोटा माँगो।",
+   "hl": [
+    "cache",
+    "off-peak"
+   ],
+   "chip": "तरीके"
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "हर task पे सबसे बड़ा model",
+    "good": "छोटा काम = Flash, मुश्किल काम = बड़ा model"
+   },
+   "say": "हर task पे सबसे बड़ा model मत चलाओ। आसान काम सस्ते Flash पे, मुश्किल काम बड़े model पे।",
+   "hl": [
+    "Flash",
+    "बड़े"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "बिना limit के API key",
+    "good": "Spending limit + usage alerts"
+   },
+   "say": "और API key पे हमेशा spending limit और usage alerts लगाओ, ताकि गलती से बड़ा bill न आए।",
+   "hl": [
+    "limit",
+    "bill"
+   ],
+   "chip": "limit"
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Kimi: 2.8T, open weights",
+     "DeepSeek: सस्ता, off-peak आधा",
+     "दोनों 1M context",
+     "अपने काम पे test"
+    ]
+   },
+   "say": "जल्दी recap: Kimi: 2.8T, open weights। DeepSeek: सस्ता, off-peak आधा। दोनों 1M context। अपने काम पे test।",
+   "hl": [
+    "recap"
+   ],
+   "chip": "recap"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "say": "तो किसके लिए कौन?",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "DeepSeek Flash",
+      "when": "सस्ता API, ज़्यादा volume, off-peak jobs"
+     },
+     {
+      "who": "Kimi K3.1 Pro",
+      "when": "बड़ा open model, self-host, fine-tune"
+     },
+     {
+      "who": "दोनों",
+      "when": "छोटा test पहले, फिर scale"
+     }
+    ]
+   },
+   "say": "सस्ते API और ज़्यादा volume के लिए DeepSeek, सबसे बड़े open model के लिए Kimi। पहले छोटा test, फिर scale।",
+   "hl": [
+    "DeepSeek",
+    "Kimi",
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "say": "Open models पे और video चाहिए? Comment करो, और ऐसे comparisons के लिए Omilabs subscribe करो।",
+   "hl": [
+    "Comment",
+    "subscribe"
+   ],
+   "chip": "Comment"
+  }
+ ]
+}
