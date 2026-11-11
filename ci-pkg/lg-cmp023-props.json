@@ -1,0 +1,1325 @@
+{
+ "id": "cmp023",
+ "series": "AI COMPARISON",
+ "title": "Claude Code vs Cursor vs Copilot: Kaunsa Lein?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp023/voice.wav",
+ "duration": 73.237,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Code vs Cursor vs Copilot",
+    "pill": "AI CODING",
+    "stat": "3",
+    "sub": "tools, 1 budget"
+   },
+   "start": 0.0,
+   "end": 6.486,
+   "words": [
+    {
+     "t": "Coding",
+     "s": 0.0,
+     "e": 0.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 0.258,
+     "e": 0.423,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 0.458,
+     "e": 0.635,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 0.647,
+     "e": 1.0,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 1.012,
+     "e": 1.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 1.496,
+     "e": 1.944,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 1.944,
+     "e": 2.121,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 2.133,
+     "e": 2.793,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "गलत",
+     "s": 3.698,
+     "e": 4.075,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "चुना",
+     "s": 4.075,
+     "e": 4.382,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 4.382,
+     "e": 4.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 4.547,
+     "e": 4.771,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 4.771,
+     "e": 5.219,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 5.219,
+     "e": 5.597,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "डूबेंगे",
+     "s": 5.609,
+     "e": 6.21,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "तीनों क्या हैं"
+   },
+   "start": 6.486,
+   "end": 8.469,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 6.486,
+     "e": 6.895,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 6.989,
+     "e": 7.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीनों",
+     "s": 7.284,
+     "e": 7.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 7.685,
+     "e": 7.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 7.897,
+     "e": 8.168,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "WHAT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Code: Claude plan वाला coding agent",
+     "Cursor: AI code editor",
+     "Copilot: GitHub का AI, editors + CLI में"
+    ]
+   },
+   "start": 8.469,
+   "end": 18.866,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 8.469,
+     "e": 8.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 8.749,
+     "e": 9.091,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 9.197,
+     "e": 9.539,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 9.551,
+     "e": 9.693,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 9.704,
+     "e": 10.046,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाला",
+     "s": 10.046,
+     "e": 10.377,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 10.377,
+     "e": 10.789,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 10.86,
+     "e": 11.237,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 11.237,
+     "e": 11.579,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 12.838,
+     "e": 13.251,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 13.345,
+     "e": 13.558,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 13.628,
+     "e": 14.006,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editor",
+     "s": 14.077,
+     "e": 14.584,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 14.584,
+     "e": 14.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 16.223,
+     "e": 16.824,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GitHub",
+     "s": 16.895,
+     "e": 17.379,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 17.379,
+     "e": 17.532,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 17.614,
+     "e": 17.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 17.98,
+     "e": 18.31,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Price"
+   },
+   "start": 18.866,
+   "end": 20.341,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 18.866,
+     "e": 19.259,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 19.259,
+     "e": 19.519,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 19.601,
+     "e": 20.026,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "PRICE",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "Free",
+      "v": [
+       "नहीं",
+       "Free (limited)",
+       "2,000 completions"
+      ],
+      "win": 2
+     },
+     {
+      "k": "Entry",
+      "v": [
+       "Pro: $20",
+       "Plus: $8",
+       "Pro: $10"
+      ]
+     },
+     {
+      "k": "Mid",
+      "v": [
+       "Max: $100",
+       "Premium: $30",
+       "Pro+: $39"
+      ]
+     },
+     {
+      "k": "Top",
+      "v": [
+       "Ultra: $200",
+       "Ultra: $200",
+       "Max: $100"
+      ]
+     }
+    ]
+   },
+   "start": 20.341,
+   "end": 27.595,
+   "words": [
+    {
+     "t": "Copilot",
+     "s": 20.341,
+     "e": 20.858,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 20.87,
+     "e": 21.024,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 21.024,
+     "e": 21.248,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "plan",
+     "s": 21.307,
+     "e": 21.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 21.59,
+     "e": 21.861,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 22.026,
+     "e": 22.274,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 22.274,
+     "e": 22.639,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "completions",
+     "s": 22.639,
+     "e": 23.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 23.358,
+     "e": 23.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 23.547,
+     "e": 24.019,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 24.971,
+     "e": 25.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 25.301,
+     "e": 25.608,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 25.62,
+     "e": 25.95,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 25.95,
+     "e": 26.386,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 26.386,
+     "e": 26.54,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 26.54,
+     "e": 26.775,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 26.775,
+     "e": 26.952,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शुरू",
+     "s": 26.952,
+     "e": 27.33,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CURSOR",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Cursor का नया plan",
+    "rows": [
+     [
+      "अब",
+      "X Subscription"
+     ],
+     [
+      "साथ में",
+      "Grok + X"
+     ],
+     [
+      "Other models",
+      "Premium+, API price"
+     ]
+    ]
+   },
+   "start": 27.595,
+   "end": 37.883,
+   "words": [
+    {
+     "t": "ध्यान",
+     "s": 27.595,
+     "e": 27.949,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 27.949,
+     "e": 28.185,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 28.232,
+     "e": 28.716,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अब",
+     "s": 28.822,
+     "e": 28.987,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 29.07,
+     "e": 29.294,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "Subscription",
+     "s": 29.341,
+     "e": 30.06,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 30.072,
+     "e": 30.237,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्सा",
+     "s": 30.237,
+     "e": 30.662,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 30.662,
+     "e": 30.909,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 31.074,
+     "e": 31.416,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 31.463,
+     "e": 31.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 31.746,
+     "e": 31.97,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 31.982,
+     "e": 32.112,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 32.112,
+     "e": 32.489,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दूसरे",
+     "s": 33.418,
+     "e": 33.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "companies",
+     "s": 33.866,
+     "e": 34.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 34.491,
+     "e": 34.633,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 34.633,
+     "e": 35.128,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Premium",
+     "s": 35.152,
+     "e": 35.659,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 35.659,
+     "e": 35.847,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऊपर",
+     "s": 35.859,
+     "e": 36.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 36.449,
+     "e": 36.991,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 37.015,
+     "e": 37.357,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 37.357,
+     "e": 37.628,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Usage कैसे गिनते हैं"
+   },
+   "start": 37.883,
+   "end": 41.113,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 37.883,
+     "e": 38.302,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 38.302,
+     "e": 38.632,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 38.738,
+     "e": 39.257,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कैसे",
+     "s": 39.257,
+     "e": 39.635,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गिना",
+     "s": 39.635,
+     "e": 39.941,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाता",
+     "s": 39.941,
+     "e": 40.295,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 40.295,
+     "e": 40.602,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "USAGE",
+   "v": "table",
+   "d": {
+    "title": "Usage",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "गिनती",
+      "v": [
+       "chat के साथ same pool",
+       "weekly pool, Grok के साथ",
+       "AI credits"
+      ]
+     },
+     {
+      "k": "Reset",
+      "v": [
+       "5 घंटे + हफ्ता",
+       "हर हफ्ते",
+       "हर महीने"
+      ]
+     }
+    ]
+   },
+   "start": 41.113,
+   "end": 50.718,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 41.113,
+     "e": 41.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 41.382,
+     "e": 41.7,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 41.83,
+     "e": 42.101,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 42.113,
+     "e": 42.29,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 42.29,
+     "e": 42.596,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "share",
+     "s": 42.596,
+     "e": 42.915,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 42.915,
+     "e": 43.304,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 43.304,
+     "e": 43.587,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 44.881,
+     "e": 45.306,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 45.306,
+     "e": 45.483,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weekly",
+     "s": 45.483,
+     "e": 45.907,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pool",
+     "s": 45.931,
+     "e": 46.202,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 46.202,
+     "e": 46.532,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 47.853,
+     "e": 48.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 48.466,
+     "e": 48.749,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 48.749,
+     "e": 49.268,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 49.268,
+     "e": 49.433,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 49.457,
+     "e": 49.87,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 49.87,
+     "e": 50.176,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "STUDENT",
+   "v": "versus",
+   "d": {
+    "bad": "Student हो और पैसे नहीं?",
+    "good": "Copilot Student: verified students के लिए free"
+   },
+   "start": 50.718,
+   "end": 55.979,
+   "words": [
+    {
+     "t": "Student",
+     "s": 50.718,
+     "e": 51.128,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 51.129,
+     "e": 51.388,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Verified",
+     "s": 52.211,
+     "e": 52.812,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "students",
+     "s": 52.812,
+     "e": 53.343,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 53.354,
+     "e": 53.508,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 53.531,
+     "e": 53.755,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 53.767,
+     "e": 54.38,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Student",
+     "s": 54.38,
+     "e": 54.852,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 54.852,
+     "e": 55.147,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 55.147,
+     "e": 55.477,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "start": 55.979,
+   "end": 57.233,
+   "words": [
+    {
+     "t": "तो",
+     "s": 55.979,
+     "e": 56.07,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसे",
+     "s": 56.07,
+     "e": 56.4,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कौनसा",
+     "s": 56.4,
+     "e": 56.931,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Copilot",
+      "when": "Students, कम budget, GitHub पे काम"
+     },
+     {
+      "who": "Claude Code",
+      "when": "Terminal agent + Claude chat एक ही plan में"
+     },
+     {
+      "who": "Cursor",
+      "when": "AI editor चाहिए, Grok/X भी use करते हो"
+     }
+    ]
+   },
+   "start": 57.233,
+   "end": 66.771,
+   "words": [
+    {
+     "t": "कम",
+     "s": 57.233,
+     "e": 57.385,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "budget",
+     "s": 57.385,
+     "e": 57.809,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "या",
+     "s": 57.809,
+     "e": 57.998,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "student",
+     "s": 57.998,
+     "e": 58.482,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 58.552,
+     "e": 59.213,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Terminal",
+     "s": 60.094,
+     "e": 60.578,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 60.66,
+     "e": 61.038,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 61.108,
+     "e": 61.309,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 61.309,
+     "e": 61.639,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 61.71,
+     "e": 61.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 61.899,
+     "e": 62.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 62.252,
+     "e": 62.453,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 62.535,
+     "e": 62.877,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 62.924,
+     "e": 63.231,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Editor",
+     "s": 64.163,
+     "e": 64.646,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 64.646,
+     "e": 64.799,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 64.799,
+     "e": 65.153,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 65.189,
+     "e": 65.542,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 65.554,
+     "e": 65.837,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 65.955,
+     "e": 66.474,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 66.771,
+   "end": 73.237,
+   "words": [
+    {
+     "t": "आप",
+     "s": 66.771,
+     "e": 66.946,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 66.981,
+     "e": 67.429,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 67.429,
+     "e": 67.701,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 67.701,
+     "e": 68.078,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 68.078,
+     "e": 68.326,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 69.207,
+     "e": 69.608,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 69.632,
+     "e": 70.009,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 70.151,
+     "e": 70.316,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 70.398,
+     "e": 70.976,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 71.023,
+     "e": 71.648,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 71.672,
+     "e": 71.99,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
