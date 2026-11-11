@@ -29,11 +29,19 @@ def check(spec):
     first = beats[0]
     if first.get("v") != "hook":
         errs.append("first beat must be a hook (problem on frame 0)")
+    t_kw = spec.get("search_kw", "")
+    if title and t_kw and t_kw.lower() not in title.lower():
+        errs.append("title must contain the English search keyword '%s' (search = 56%% of views)" % t_kw)
     if len(words(first.get("say", ""))) > (22 if long else 16):
         errs.append("first line too long (%d words): get to the problem faster" % len(words(first["say"])))
     if not PROBLEM.search(first.get("say", "") + " " + str(first.get("d", {}))):
         errs.append("first line has no problem/curiosity cue")
     if not long:
+        prob = (first.get("d") or {}).get("problem", "")
+        if not prob:
+            errs.append("Shorts hook needs d.problem: 2-6 word problem shown on frame 0 (76% of Shorts views swiped away, vidIQ 11 Nov)")
+        elif not 2 <= len(words(prob)) <= 6:
+            errs.append("d.problem should be 2-6 words")
         if any(b.get("v") == "cta" for b in beats):
             errs.append("Shorts end without a CTA beat (loop into replay)")
         est = sum(len(b.get("say", "")) for b in beats) / CHARS_PER_SEC + 0.12 * len(beats)

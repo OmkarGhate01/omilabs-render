@@ -81,10 +81,17 @@ export const Hook: React.FC<{ d: any; accent: string; first?: boolean }> = ({ d,
   const f = useCurrentFrame();
   const num = parseFloat(String(d.stat).replace(/,/g, ""));
   const isNum = /^[\d.]+/.test(String(d.stat)) && !isNaN(num);
-  const n = interpolate(f, [6, 34], [0, isNum ? num : 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
+  // first beat: the number is already there on frame 0 (no "0" in the thumbnail frame / swipe moment)
+  const n = first ? num : interpolate(f, [6, 34], [0, isNum ? num : 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
   const unit = isNum ? String(d.stat).replace(/^[\d.,]+\s*/, "") : "";
   return (
     <Float dark w={640} tilt={10} instant={first}>
+      {d.problem ? (
+        // v3 rule: the problem is readable on frame 0 (no fade-in), 2–6 words
+        <div style={{ marginBottom: 26, fontSize: 64, fontWeight: 800, lineHeight: 1.08, color: "#fff" }}>
+          {d.problem}<span style={{ color: accent }}>?</span>
+        </div>
+      ) : null}
       <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
         <div style={{ width: 64, height: 64, borderRadius: 18, background: accent, display: "grid", placeItems: "center", fontWeight: 800, fontSize: 34 }}>M</div>
         <div style={{ fontSize: 54, fontWeight: 700 }}>{d.brand}</div>

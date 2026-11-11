@@ -1,0 +1,78 @@
+{
+ "id": "t001",
+ "series": "AI FIX",
+ "title": "AI Call Chupke Se Fail? Ek Status Check",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "AI call chupke se fail",
+    "brand": "Voice AI",
+    "pill": "AI FIX #1",
+    "stat": "0",
+    "sub": "error dikhata hi nahi"
+   },
+   "say": "आपकी AI call बिना error के fail हो रही है?",
+   "hl": [
+    "fail"
+   ],
+   "chip": "fail"
+  },
+  {
+   "tag": "WHY",
+   "v": "versus",
+   "d": {
+    "bad": "Disconnected = done",
+    "good": "Completed = done"
+   },
+   "say": "वजह: disconnected call भी खत्म दिखती है, पर बात हुई ही नहीं।",
+   "hl": [
+    "disconnected"
+   ],
+   "chip": "disconnected"
+  },
+  {
+   "tag": "FIX",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Fix",
+    "rows": [
+     [
+      "Status",
+      "completed check करो"
+     ],
+     [
+      "Retry",
+      "सिर्फ no-answer पे"
+     ]
+    ]
+   },
+   "say": "Fix: सिर्फ completed status को success मानो।",
+   "hl": [
+    "completed"
+   ],
+   "chip": "completed"
+  },
+  {
+   "tag": "LOOP",
+   "v": "stat",
+   "d": {
+    "value": "1",
+    "label": "status जो सच बताता है"
+   },
+   "say": "वरना आपकी AI call चुपके से fail होती रहेगी।",
+   "hl": [
+    "fail"
+   ],
+   "chip": "fail"
+  }
+ ]
+}
