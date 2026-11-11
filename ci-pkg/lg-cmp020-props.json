@@ -1,0 +1,1587 @@
+{
+ "id": "cmp020",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT vs Gemini: 2026 Mein Kaunsa Lein?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp020/voice.wav",
+ "duration": 83.067,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT vs Gemini",
+    "pill": "AI CHAT 2026",
+    "stat": "$20",
+    "sub": "दोनों का paid plan"
+   },
+   "start": 0.0,
+   "end": 6.746,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 0.0,
+     "e": 0.758,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 0.758,
+     "e": 0.923,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 0.923,
+     "e": 1.418,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 2.371,
+     "e": 2.772,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 2.772,
+     "e": 3.078,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 3.078,
+     "e": 3.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 3.456,
+     "e": 3.609,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आसपास",
+     "s": 3.609,
+     "e": 4.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 4.293,
+     "e": 4.505,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपके",
+     "s": 4.611,
+     "e": 4.977,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 4.977,
+     "e": 5.236,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 5.248,
+     "e": 5.413,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 5.425,
+     "e": 5.625,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 5.625,
+     "e": 6.074,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सही",
+     "s": 6.074,
+     "e": 6.451,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "STAKES",
+   "v": "versus",
+   "d": {
+    "bad": "गलत plan = पैसे और time दोनों waste",
+    "good": "सही plan = आपके काम के tools"
+   },
+   "start": 6.746,
+   "end": 12.015,
+   "words": [
+    {
+     "t": "गलत",
+     "s": 6.746,
+     "e": 7.015,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "plan",
+     "s": 7.015,
+     "e": 7.357,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिया",
+     "s": 7.368,
+     "e": 7.651,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 7.651,
+     "e": 7.828,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 7.84,
+     "e": 8.229,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 8.229,
+     "e": 8.394,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाएंगे",
+     "s": 8.406,
+     "e": 8.937,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 9.208,
+     "e": 9.385,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जो",
+     "s": 9.385,
+     "e": 9.633,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "feature",
+     "s": 9.633,
+     "e": 10.104,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 10.128,
+     "e": 10.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वो",
+     "s": 10.588,
+     "e": 10.776,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलेगा",
+     "s": 10.776,
+     "e": 11.236,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 11.236,
+     "e": 11.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 11.401,
+     "e": 11.838,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Plans और price"
+   },
+   "start": 12.015,
+   "end": 14.249,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 12.015,
+     "e": 12.41,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 12.505,
+     "e": 12.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 12.788,
+     "e": 13.212,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 13.271,
+     "e": 13.46,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 13.46,
+     "e": 13.943,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "PRICE",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "ChatGPT",
+     "Gemini"
+    ],
+    "rows": [
+     {
+      "k": "Free",
+      "v": [
+       "GPT-6 Luna",
+       "Flash-Lite model"
+      ]
+     },
+     {
+      "k": "सस्ता plan",
+      "v": [
+       "Go: $8*",
+       "AI Plus"
+      ]
+     },
+     {
+      "k": "Main plan",
+      "v": [
+       "Plus: $20",
+       "AI Pro: $19.99"
+      ]
+     },
+     {
+      "k": "Top plan",
+      "v": [
+       "Pro: $100 से",
+       "Ultra: $99.99 से"
+      ]
+     }
+    ]
+   },
+   "start": 14.249,
+   "end": 22.233,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 14.249,
+     "e": 15.011,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 15.082,
+     "e": 15.401,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "बीस",
+     "s": 15.401,
+     "e": 15.743,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 15.743,
+     "e": 16.214,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 16.391,
+     "e": 16.792,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 16.839,
+     "e": 17.146,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 17.158,
+     "e": 17.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उन्नीस",
+     "s": 17.464,
+     "e": 17.936,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "निन्यानवे",
+     "s": 17.936,
+     "e": 18.596,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Top",
+     "s": 19.537,
+     "e": 19.773,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 19.784,
+     "e": 20.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 20.209,
+     "e": 20.575,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 20.586,
+     "e": 20.74,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 20.74,
+     "e": 20.987,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 20.987,
+     "e": 21.424,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 21.424,
+     "e": 21.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शुरू",
+     "s": 21.612,
+     "e": 21.99,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "NOTE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "India price",
+    "rows": [
+     [
+      "ChatGPT Go",
+      "local price"
+     ],
+     [
+      "Check",
+      "app में देखो"
+     ]
+    ]
+   },
+   "start": 22.233,
+   "end": 28.054,
+   "words": [
+    {
+     "t": "Go",
+     "s": 22.233,
+     "e": 22.332,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 22.367,
+     "e": 22.544,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 22.556,
+     "e": 22.91,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कुछ",
+     "s": 22.933,
+     "e": 23.169,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देशों",
+     "s": 23.169,
+     "e": 23.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 23.547,
+     "e": 23.712,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 23.712,
+     "e": 24.101,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "होता",
+     "s": 24.101,
+     "e": 24.443,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 24.443,
+     "e": 24.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इसलिए",
+     "s": 25.044,
+     "e": 25.457,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "India",
+     "s": 25.54,
+     "e": 25.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 25.893,
+     "e": 26.07,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 26.07,
+     "e": 26.448,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 26.483,
+     "e": 26.837,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "app",
+     "s": 26.837,
+     "e": 27.049,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 27.049,
+     "e": 27.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 27.25,
+     "e": 27.474,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 27.474,
+     "e": 27.827,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Models"
+   },
+   "start": 28.054,
+   "end": 29.674,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 28.054,
+     "e": 28.443,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 28.443,
+     "e": 28.714,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 28.785,
+     "e": 29.351,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "MODELS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Plus",
+     "rows": [
+      [
+       "Models",
+       "GPT-6 Astra, GPT-6.1 Sol"
+      ],
+      [
+       "Reasoning context",
+       "256K"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Google AI Pro",
+     "rows": [
+      [
+       "Model",
+       "Gemini 4 Argon"
+      ],
+      [
+       "Context",
+       "1 million tokens"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 29.674,
+   "end": 40.647,
+   "words": [
+    {
+     "t": "Plus",
+     "s": 29.674,
+     "e": 29.92,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 29.92,
+     "e": 30.097,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GPT-6",
+     "s": 30.097,
+     "e": 31.241,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Astra",
+     "s": 31.288,
+     "e": 31.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 31.831,
+     "e": 32.031,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GPT-6",
+     "s": 32.031,
+     "e": 33.211,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 33.234,
+     "e": 33.553,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 33.623,
+     "e": 33.8,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Sol",
+     "s": 33.8,
+     "e": 34.095,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलते",
+     "s": 34.095,
+     "e": 34.472,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 34.484,
+     "e": 35.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 36.003,
+     "e": 36.333,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 36.333,
+     "e": 36.545,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 36.592,
+     "e": 36.757,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 36.781,
+     "e": 37.253,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4",
+     "s": 37.276,
+     "e": 37.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Argon",
+     "s": 37.547,
+     "e": 38.09,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 38.337,
+     "e": 38.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 38.514,
+     "e": 38.833,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लाख",
+     "s": 38.833,
+     "e": 39.104,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 39.128,
+     "e": 39.635,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 39.682,
+     "e": 39.8,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 39.8,
+     "e": 40.33,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LONG",
+   "v": "versus",
+   "d": {
+    "bad": "बहुत लंबी files, छोटा context",
+    "good": "Gemini: 1,500 pages तक upload"
+   },
+   "start": 40.647,
+   "end": 47.464,
+   "words": [
+    {
+     "t": "बहुत",
+     "s": 40.647,
+     "e": 40.947,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबे",
+     "s": 40.947,
+     "e": 41.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "documents",
+     "s": 41.3,
+     "e": 41.949,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 41.949,
+     "e": 42.668,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 43.538,
+     "e": 44.045,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 44.045,
+     "e": 44.446,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 44.446,
+     "e": 44.682,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pages",
+     "s": 44.682,
+     "e": 45.177,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तक",
+     "s": 45.177,
+     "e": 45.389,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 45.389,
+     "e": 45.578,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "files",
+     "s": 45.578,
+     "e": 46.014,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़",
+     "s": 46.014,
+     "e": 46.227,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 46.227,
+     "e": 46.675,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 46.675,
+     "e": 46.97,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Extra फायदे"
+   },
+   "start": 47.464,
+   "end": 50.958,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 47.464,
+     "e": 47.871,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 47.871,
+     "e": 48.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 48.284,
+     "e": 48.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 48.567,
+     "e": 48.697,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 48.697,
+     "e": 49.074,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 49.098,
+     "e": 49.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "extra",
+     "s": 49.393,
+     "e": 49.782,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मिलता",
+     "s": 49.782,
+     "e": 50.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 50.159,
+     "e": 50.466,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CHATGPT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Codex (coding agent)",
+     "Deep research",
+     "Projects + scheduled tasks",
+     "ChatGPT Work"
+    ]
+   },
+   "start": 50.958,
+   "end": 58.318,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 50.958,
+     "e": 51.713,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 51.807,
+     "e": 52.137,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Codex",
+     "s": 52.314,
+     "e": 52.703,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "coding",
+     "s": 52.727,
+     "e": 53.081,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 53.152,
+     "e": 53.541,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deep",
+     "s": 53.729,
+     "e": 54.036,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 54.036,
+     "e": 54.567,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "projects",
+     "s": 54.791,
+     "e": 55.31,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scheduled",
+     "s": 55.439,
+     "e": 55.982,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tasks",
+     "s": 56.041,
+     "e": 56.548,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 56.677,
+     "e": 56.843,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 56.843,
+     "e": 57.668,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Work",
+     "s": 57.68,
+     "e": 58.045,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "GEMINI",
+   "v": "list",
+   "d": {
+    "items": [
+     "5 TB cloud storage",
+     "Gemini in Gmail, Docs",
+     "1,000 Flow credits (video)",
+     "Gemini Notebook"
+    ]
+   },
+   "start": 58.318,
+   "end": 65.24,
+   "words": [
+    {
+     "t": "Google",
+     "s": 58.318,
+     "e": 58.677,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 58.747,
+     "e": 59.066,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 59.066,
+     "e": 59.349,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 59.42,
+     "e": 59.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "TB",
+     "s": 59.832,
+     "e": 60.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "storage",
+     "s": 60.163,
+     "e": 60.705,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Gmail",
+     "s": 60.894,
+     "e": 61.472,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 61.53,
+     "e": 61.707,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Docs",
+     "s": 61.707,
+     "e": 62.108,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 62.108,
+     "e": 62.273,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 62.273,
+     "e": 62.839,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 63.134,
+     "e": 63.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 63.311,
+     "e": 63.712,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 63.724,
+     "e": 63.913,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 63.948,
+     "e": 64.16,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flow",
+     "s": 64.16,
+     "e": 64.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 64.408,
+     "e": 64.939,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Verdict"
+   },
+   "start": 65.24,
+   "end": 66.607,
+   "words": [
+    {
+     "t": "तो",
+     "s": 65.24,
+     "e": 65.331,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसके",
+     "s": 65.331,
+     "e": 65.732,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 65.767,
+     "e": 65.932,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 65.944,
+     "e": 66.251,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "ChatGPT Plus",
+      "when": "Coding (Codex), agents, deep research"
+     },
+     {
+      "who": "Google AI Pro",
+      "when": "Gmail/Docs users, लंबी files, storage"
+     },
+     {
+      "who": "Free plans",
+      "when": "पहले दोनों free try करो"
+     }
+    ]
+   },
+   "start": 66.607,
+   "end": 75.113,
+   "words": [
+    {
+     "t": "Coding",
+     "s": 66.607,
+     "e": 66.954,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 66.978,
+     "e": 67.155,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 67.249,
+     "e": 67.709,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 67.709,
+     "e": 67.862,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 67.886,
+     "e": 68.122,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 68.122,
+     "e": 69.042,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 69.336,
+     "e": 69.761,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "apps",
+     "s": 69.82,
+     "e": 70.138,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 70.209,
+     "e": 70.409,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबी",
+     "s": 70.409,
+     "e": 70.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "files",
+     "s": 70.751,
+     "e": 71.176,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 71.188,
+     "e": 71.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 71.388,
+     "e": 71.565,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 71.565,
+     "e": 72.119,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 73.084,
+     "e": 73.378,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 73.402,
+     "e": 73.756,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 73.756,
+     "e": 74.051,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 74.051,
+     "e": 74.18,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "try",
+     "s": 74.18,
+     "e": 74.51,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 74.522,
+     "e": 74.876,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 75.113,
+   "end": 83.067,
+   "words": [
+    {
+     "t": "आप",
+     "s": 75.113,
+     "e": 75.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 75.323,
+     "e": 75.771,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 75.771,
+     "e": 76.043,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 76.043,
+     "e": 76.42,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 76.42,
+     "e": 76.668,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 77.549,
+     "e": 77.915,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 77.927,
+     "e": 78.304,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 78.457,
+     "e": 78.634,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 78.717,
+     "e": 79.023,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 79.023,
+     "e": 79.837,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 79.837,
+     "e": 80.002,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 80.026,
+     "e": 80.273,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 80.356,
+     "e": 80.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 80.946,
+     "e": 81.512,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 81.523,
+     "e": 81.854,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
