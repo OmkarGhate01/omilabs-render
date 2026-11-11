@@ -1,0 +1,5267 @@
+{
+ "id": "cmp024b",
+ "series": "AI COMPARISON",
+ "title": "Kimi K3.1 vs DeepSeek: Open AI Ka King Kaun?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp024b/voice.wav",
+ "duration": 300.451,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Kimi K3.1 vs DeepSeek",
+    "pill": "OPEN MODELS",
+    "stat": "2.8T",
+    "sub": "parameters, open weights"
+   },
+   "start": 0.0,
+   "end": 7.63,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 0.0,
+     "e": 0.19,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 0.19,
+     "e": 0.39,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "2.8",
+     "s": 0.39,
+     "e": 1.527,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "trillion",
+     "s": 1.59,
+     "e": 2.015,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "parameter",
+     "s": 2.015,
+     "e": 2.69,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 2.69,
+     "e": 3.127,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "download",
+     "s": 3.127,
+     "e": 3.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 3.715,
+     "e": 3.915,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 3.94,
+     "e": 4.14,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुला",
+     "s": 4.152,
+     "e": 4.515,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 5.54,
+     "e": 5.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 5.702,
+     "e": 6.29,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 6.29,
+     "e": 6.502,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 6.502,
+     "e": 6.94,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 6.952,
+     "e": 7.265,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "दोनों क्या हैं",
+     "Size",
+     "Context",
+     "Price",
+     "Self-host",
+     "Tools और apps",
+     "Verdict"
+    ]
+   },
+   "start": 7.63,
+   "end": 13.883,
+   "words": [
+    {
+     "t": "आज",
+     "s": 7.63,
+     "e": 7.865,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 7.953,
+     "e": 8.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 8.353,
+     "e": 8.878,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 8.89,
+     "e": 9.103,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 9.103,
+     "e": 9.39,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "size",
+     "s": 9.603,
+     "e": 10.09,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 10.278,
+     "e": 10.778,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 10.978,
+     "e": 11.353,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 11.478,
+     "e": 11.69,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाना",
+     "s": 11.728,
+     "e": 12.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tools",
+     "s": 12.428,
+     "e": 12.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 12.94,
+     "e": 13.115,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "verdict",
+     "s": 13.153,
+     "e": 13.678,
+     "hl": false,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "दोनों क्या हैं"
+   },
+   "start": 13.883,
+   "end": 15.964,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 13.883,
+     "e": 14.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 14.4,
+     "e": 14.637,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 14.712,
+     "e": 15.15,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 15.15,
+     "e": 15.362,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 15.362,
+     "e": 15.637,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "WHAT",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "Kimi K3.1 Pro",
+     "rows": [
+      [
+       "Company",
+       "Moonshot AI"
+      ],
+      [
+       "Type",
+       "open-weight agentic model"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "DeepSeek V4.1 Flash",
+     "rows": [
+      [
+       "Company",
+       "DeepSeek"
+      ],
+      [
+       "Latest",
+       "V4.1-Flash-1017"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 15.964,
+   "end": 30.536,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 15.964,
+     "e": 16.191,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 16.191,
+     "e": 16.803,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 16.803,
+     "e": 17.141,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 17.228,
+     "e": 17.441,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 17.441,
+     "e": 17.791,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Moonshot",
+     "s": 18.078,
+     "e": 18.703,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 18.778,
+     "e": 19.128,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 19.128,
+     "e": 19.316,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open-weight",
+     "s": 19.416,
+     "e": 20.091,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agentic",
+     "s": 20.153,
+     "e": 20.691,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 20.691,
+     "e": 21.141,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 21.141,
+     "e": 21.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 22.828,
+     "e": 23.516,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "V4",
+     "s": 23.516,
+     "e": 24.091,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 24.091,
+     "e": 24.441,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 24.528,
+     "e": 24.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 24.728,
+     "e": 25.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 25.453,
+     "e": 26.078,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 26.091,
+     "e": 26.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 26.278,
+     "e": 26.591,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तेज़",
+     "s": 26.591,
+     "e": 26.928,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 26.928,
+     "e": 27.428,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "latest",
+     "s": 27.716,
+     "e": 28.228,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "version",
+     "s": 28.241,
+     "e": 28.766,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सत्रह",
+     "s": 28.766,
+     "e": 29.216,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "October",
+     "s": 29.278,
+     "e": 29.841,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाला",
+     "s": 29.841,
+     "e": 30.241,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "KIMI",
+   "v": "list",
+   "d": {
+    "items": [
+     "K3.1 series का पहला model",
+     "Kimi K3 से post-trained",
+     "Coding, 3D, finance research में सुधार"
+    ]
+   },
+   "start": 30.536,
+   "end": 45.456,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 30.536,
+     "e": 30.751,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 30.751,
+     "e": 31.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 31.351,
+     "e": 31.688,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 31.776,
+     "e": 31.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 31.988,
+     "e": 32.313,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 32.588,
+     "e": 33.138,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 33.151,
+     "e": 33.476,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 33.563,
+     "e": 33.763,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "series",
+     "s": 33.776,
+     "e": 34.276,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 34.313,
+     "e": 34.463,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहला",
+     "s": 34.488,
+     "e": 34.901,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 34.901,
+     "e": 35.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 35.338,
+     "e": 35.613,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kimi",
+     "s": 35.838,
+     "e": 36.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 36.138,
+     "e": 36.713,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 36.726,
+     "e": 36.913,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "post-train",
+     "s": 36.926,
+     "e": 37.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किया",
+     "s": 37.651,
+     "e": 37.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गया",
+     "s": 37.926,
+     "e": 38.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Company",
+     "s": 39.263,
+     "e": 39.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 39.738,
+     "e": 39.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिसाब",
+     "s": 39.926,
+     "e": 40.376,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 40.376,
+     "e": 40.563,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 40.576,
+     "e": 41.063,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "3D",
+     "s": 41.238,
+     "e": 41.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "creation",
+     "s": 41.751,
+     "e": 42.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 42.526,
+     "e": 42.713,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "finance",
+     "s": 42.713,
+     "e": 43.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 43.376,
+     "e": 43.888,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 43.888,
+     "e": 44.051,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सुधार",
+     "s": 44.051,
+     "e": 44.501,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 44.501,
+     "e": 44.876,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "DS",
+   "v": "list",
+   "d": {
+    "items": [
+     "नए architecture का सबसे छोटा model",
+     "Native image समझता है",
+     "V4-Pro धीरे-धीरे बंद"
+    ]
+   },
+   "start": 45.456,
+   "end": 57.358,
+   "words": [
+    {
+     "t": "DeepSeek",
+     "s": 45.456,
+     "e": 46.077,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "V4",
+     "s": 46.077,
+     "e": 46.639,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 46.639,
+     "e": 46.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 47.077,
+     "e": 47.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 47.289,
+     "e": 47.727,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "नए",
+     "s": 47.727,
+     "e": 47.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "architecture",
+     "s": 48.064,
+     "e": 48.864,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 48.864,
+     "e": 49.089,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 49.089,
+     "e": 49.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटा",
+     "s": 49.539,
+     "e": 49.952,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 49.952,
+     "e": 50.389,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 50.389,
+     "e": 50.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "images",
+     "s": 50.964,
+     "e": 51.477,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 51.477,
+     "e": 51.664,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझता",
+     "s": 51.664,
+     "e": 52.227,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 52.227,
+     "e": 52.477,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 52.689,
+     "e": 52.889,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 52.889,
+     "e": 53.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपना",
+     "s": 53.527,
+     "e": 53.927,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पुराना",
+     "s": 53.952,
+     "e": 54.427,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "V4-Pro",
+     "s": 54.427,
+     "e": 55.327,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "phase",
+     "s": 55.339,
+     "e": 55.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "out",
+     "s": 55.752,
+     "e": 55.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 56.002,
+     "e": 56.177,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहा",
+     "s": 56.177,
+     "e": 56.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 56.902,
+     "e": 57.189,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Size"
+   },
+   "start": 57.358,
+   "end": 60.311,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 57.358,
+     "e": 57.782,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 57.782,
+     "e": 58.069,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 58.157,
+     "e": 58.607,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कितना",
+     "s": 58.607,
+     "e": 59.007,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 59.007,
+     "e": 59.332,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 59.332,
+     "e": 59.669,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SIZE",
+   "v": "table",
+   "d": {
+    "title": "Model",
+    "cols": [
+     "Kimi K3.1 Pro",
+     "DeepSeek V4.1 Flash"
+    ],
+    "rows": [
+     {
+      "k": "Type",
+      "v": [
+       "MoE, open weights",
+       "Flash (सबसे छोटा)"
+      ]
+     },
+     {
+      "k": "Parameters",
+      "v": [
+       "2.8T total, 104B active",
+       "Flash family"
+      ]
+     },
+     {
+      "k": "Input",
+      "v": [
+       "Text + Image",
+       "Text + Image"
+      ]
+     }
+    ]
+   },
+   "start": 60.311,
+   "end": 68.885,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 60.311,
+     "e": 60.525,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 60.525,
+     "e": 61.125,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 61.125,
+     "e": 61.45,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 61.538,
+     "e": 61.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 61.75,
+     "e": 62.088,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "2.8",
+     "s": 62.325,
+     "e": 63.488,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "trillion",
+     "s": 63.55,
+     "e": 64.013,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "total",
+     "s": 64.013,
+     "e": 64.45,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "parameters",
+     "s": 64.463,
+     "e": 65.25,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 65.463,
+     "e": 65.6,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 65.6,
+     "e": 65.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "token",
+     "s": 65.863,
+     "e": 66.275,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 66.288,
+     "e": 66.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 66.475,
+     "e": 66.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "104",
+     "s": 66.925,
+     "e": 67.688,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "billion",
+     "s": 67.7,
+     "e": 68.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "active",
+     "s": 68.175,
+     "e": 68.65,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "MOE",
+   "v": "versus",
+   "d": {
+    "bad": "Total parameters = speed",
+    "good": "Active parameters = speed, total = memory"
+   },
+   "start": 68.885,
+   "end": 76.685,
+   "words": [
+    {
+     "t": "Mixture",
+     "s": 68.885,
+     "e": 69.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "of",
+     "s": 69.387,
+     "e": 69.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Experts",
+     "s": 69.625,
+     "e": 70.175,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 70.175,
+     "e": 70.35,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "याद",
+     "s": 70.35,
+     "e": 70.687,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रखो",
+     "s": 70.687,
+     "e": 71.112,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "speed",
+     "s": 71.237,
+     "e": 71.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "active",
+     "s": 71.737,
+     "e": 72.137,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "parameters",
+     "s": 72.15,
+     "e": 72.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 72.937,
+     "e": 73.112,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तय",
+     "s": 73.112,
+     "e": 73.35,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 73.362,
+     "e": 73.737,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 73.737,
+     "e": 74.0,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 74.262,
+     "e": 74.437,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "memory",
+     "s": 74.45,
+     "e": 74.95,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "total",
+     "s": 74.962,
+     "e": 75.387,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "parameters",
+     "s": 75.4,
+     "e": 76.137,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 76.15,
+     "e": 76.437,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "MOE2",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Token आया",
+     "Router experts चुनता है",
+     "सिर्फ 104B काम करते हैं",
+     "Output"
+    ]
+   },
+   "start": 76.685,
+   "end": 86.067,
+   "words": [
+    {
+     "t": "हर",
+     "s": 76.685,
+     "e": 76.808,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "token",
+     "s": 76.832,
+     "e": 77.27,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 77.27,
+     "e": 77.445,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "router",
+     "s": 77.445,
+     "e": 77.895,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "कुछ",
+     "s": 77.907,
+     "e": 78.195,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "experts",
+     "s": 78.233,
+     "e": 78.808,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "चुनता",
+     "s": 78.808,
+     "e": 79.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 79.258,
+     "e": 79.495,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बस",
+     "s": 79.657,
+     "e": 79.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वही",
+     "s": 79.983,
+     "e": 80.27,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 80.27,
+     "e": 80.558,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 80.582,
+     "e": 80.97,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 80.995,
+     "e": 81.707,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इसीलिए",
+     "s": 82.582,
+     "e": 83.12,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इतना",
+     "s": 83.207,
+     "e": 83.558,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 83.558,
+     "e": 83.845,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 83.845,
+     "e": 84.282,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 84.282,
+     "e": 84.47,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चल",
+     "s": 84.483,
+     "e": 84.733,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाता",
+     "s": 84.745,
+     "e": 85.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 85.133,
+     "e": 85.457,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Context"
+   },
+   "start": 86.067,
+   "end": 87.831,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 86.067,
+     "e": 86.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 86.491,
+     "e": 86.841,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 86.916,
+     "e": 87.503,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CTX",
+   "v": "table",
+   "d": {
+    "title": "Context window",
+    "cols": [
+     "Kimi K3.1 Pro",
+     "DeepSeek"
+    ],
+    "rows": [
+     {
+      "k": "Context",
+      "v": [
+       "1M tokens",
+       "1M tokens तक"
+      ]
+     },
+     {
+      "k": "Thinking",
+      "v": [
+       "low / high / max",
+       "reasoning effort levels"
+      ]
+     }
+    ]
+   },
+   "start": 87.831,
+   "end": 97.772,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 87.831,
+     "e": 88.179,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 88.179,
+     "e": 88.367,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 88.367,
+     "e": 88.704,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "लाख",
+     "s": 88.704,
+     "e": 89.017,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 89.054,
+     "e": 89.554,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 89.554,
+     "e": 89.792,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 89.792,
+     "e": 89.992,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 90.004,
+     "e": 90.529,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 90.529,
+     "e": 90.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kimi",
+     "s": 92.229,
+     "e": 92.492,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 92.504,
+     "e": 92.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "thinking",
+     "s": 92.704,
+     "e": 93.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "effort",
+     "s": 93.242,
+     "e": 93.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "low",
+     "s": 93.679,
+     "e": 94.004,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "high",
+     "s": 94.317,
+     "e": 94.592,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 94.592,
+     "e": 94.779,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "max",
+     "s": 94.779,
+     "e": 95.167,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "set",
+     "s": 95.204,
+     "e": 95.492,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 95.504,
+     "e": 95.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 95.679,
+     "e": 96.092,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 96.092,
+     "e": 96.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "default",
+     "s": 96.454,
+     "e": 97.004,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "max",
+     "s": 97.004,
+     "e": 97.467,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTXUSE",
+   "v": "list",
+   "d": {
+    "items": [
+     "पूरा codebase",
+     "लंबे reports",
+     "Multi-step agents"
+    ]
+   },
+   "start": 97.772,
+   "end": 104.43,
+   "words": [
+    {
+     "t": "इतना",
+     "s": 97.772,
+     "e": 98.068,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 98.068,
+     "e": 98.631,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "पूरे",
+     "s": 98.656,
+     "e": 98.981,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "codebase",
+     "s": 98.993,
+     "e": 99.706,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "लंबे",
+     "s": 99.931,
+     "e": 100.306,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reports",
+     "s": 100.306,
+     "e": 100.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 100.993,
+     "e": 101.181,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "multi-step",
+     "s": 101.218,
+     "e": 101.906,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 101.968,
+     "e": 102.418,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 102.431,
+     "e": 102.618,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 102.656,
+     "e": 102.843,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 102.843,
+     "e": 103.156,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आता",
+     "s": 103.168,
+     "e": 103.518,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 103.518,
+     "e": 103.831,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Price"
+   },
+   "start": 104.43,
+   "end": 106.663,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 104.43,
+     "e": 104.87,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 104.895,
+     "e": 105.208,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 105.37,
+     "e": 105.87,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 105.895,
+     "e": 106.345,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "DSPRICE",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "DeepSeek Flash (per 1M tokens)",
+    "rows": [
+     [
+      "Input (off-peak)",
+      "$0.15"
+     ],
+     [
+      "Output (off-peak)",
+      "$0.60"
+     ],
+     [
+      "Peak",
+      "double"
+     ]
+    ]
+   },
+   "start": 106.663,
+   "end": 116.035,
+   "words": [
+    {
+     "t": "DeepSeek",
+     "s": 106.663,
+     "e": 107.267,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 107.267,
+     "e": 107.705,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 107.705,
+     "e": 108.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सस्ता",
+     "s": 108.055,
+     "e": 108.492,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 108.492,
+     "e": 108.742,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 108.942,
+     "e": 109.48,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 109.492,
+     "e": 109.73,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "input",
+     "s": 109.792,
+     "e": 110.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 110.217,
+     "e": 110.605,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cent",
+     "s": 110.605,
+     "e": 110.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "output",
+     "s": 111.18,
+     "e": 111.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साठ",
+     "s": 111.667,
+     "e": 112.03,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cent",
+     "s": 112.042,
+     "e": 112.38,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "per",
+     "s": 112.38,
+     "e": 112.642,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "million",
+     "s": 112.642,
+     "e": 113.105,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 113.105,
+     "e": 113.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Peak",
+     "s": 114.617,
+     "e": 114.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "time",
+     "s": 114.867,
+     "e": 115.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 115.192,
+     "e": 115.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "double",
+     "s": 115.342,
+     "e": 115.805,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CACHE",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Cache hit",
+    "rows": [
+     [
+      "Input (off-peak)",
+      "$0.003 / 1M"
+     ],
+     [
+      "Use",
+      "same prompt बार-बार"
+     ]
+    ]
+   },
+   "start": 116.035,
+   "end": 125.053,
+   "words": [
+    {
+     "t": "और",
+     "s": 116.035,
+     "e": 116.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अगर",
+     "s": 116.183,
+     "e": 116.52,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 116.52,
+     "e": 116.895,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prompt",
+     "s": 116.895,
+     "e": 117.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बार-बार",
+     "s": 117.295,
+     "e": 117.858,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भेजते",
+     "s": 117.858,
+     "e": 118.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 118.358,
+     "e": 118.633,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 118.82,
+     "e": 119.02,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cache",
+     "s": 119.033,
+     "e": 119.383,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "hit",
+     "s": 119.383,
+     "e": 119.558,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 119.558,
+     "e": 119.77,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "input",
+     "s": 119.858,
+     "e": 120.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगभग",
+     "s": 120.27,
+     "e": 120.733,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 120.745,
+     "e": 121.033,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "जैसा",
+     "s": 121.033,
+     "e": 121.508,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 121.758,
+     "e": 122.27,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 122.295,
+     "e": 122.495,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 122.495,
+     "e": 122.808,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दशमलव",
+     "s": 122.808,
+     "e": 123.383,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शून्य",
+     "s": 123.383,
+     "e": 123.733,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शून्य",
+     "s": 123.733,
+     "e": 124.108,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 124.145,
+     "e": 124.483,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cent",
+     "s": 124.483,
+     "e": 124.845,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "OFFPEAK",
+   "v": "versus",
+   "d": {
+    "bad": "हर काम peak time पे",
+    "good": "Off-peak में चलाओ = आधा price"
+   },
+   "start": 125.053,
+   "end": 131.986,
+   "words": [
+    {
+     "t": "Trick",
+     "s": 125.053,
+     "e": 125.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जो",
+     "s": 125.341,
+     "e": 125.591,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 125.591,
+     "e": 125.966,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रुक",
+     "s": 125.966,
+     "e": 126.129,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 126.129,
+     "e": 126.579,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 126.579,
+     "e": 126.816,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 127.054,
+     "e": 127.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रात",
+     "s": 127.491,
+     "e": 127.829,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 127.841,
+     "e": 127.966,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 128.016,
+     "e": 128.391,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "jobs",
+     "s": 128.391,
+     "e": 128.904,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उसे",
+     "s": 129.141,
+     "e": 129.429,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 129.491,
+     "e": 130.016,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 130.054,
+     "e": 130.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 130.266,
+     "e": 130.766,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 130.929,
+     "e": 131.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आधा",
+     "s": 131.266,
+     "e": 131.666,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "KPRICE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Kimi K3.1 Pro",
+    "rows": [
+     [
+      "कहाँ",
+      "Kimi API, Hugging Face weights"
+     ],
+     [
+      "Price",
+      "Moonshot की site पे check"
+     ]
+    ]
+   },
+   "start": 131.986,
+   "end": 139.754,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 131.986,
+     "e": 132.176,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 132.188,
+     "e": 132.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 132.476,
+     "e": 133.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 133.013,
+     "e": 133.388,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Moonshot",
+     "s": 133.388,
+     "e": 134.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 134.001,
+     "e": 134.188,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "official",
+     "s": 134.188,
+     "e": 134.763,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "site",
+     "s": 134.763,
+     "e": 135.101,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 135.101,
+     "e": 135.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 135.301,
+     "e": 135.563,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 135.563,
+     "e": 135.951,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्योंकि",
+     "s": 136.151,
+     "e": 136.563,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हम",
+     "s": 136.576,
+     "e": 136.826,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 136.826,
+     "e": 137.188,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "official",
+     "s": 137.238,
+     "e": 137.738,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "numbers",
+     "s": 137.738,
+     "e": 138.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बताते",
+     "s": 138.301,
+     "e": 138.826,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 138.851,
+     "e": 139.638,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Self-host"
+   },
+   "start": 139.754,
+   "end": 142.601,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 139.754,
+     "e": 140.156,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 140.156,
+     "e": 140.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 140.656,
+     "e": 140.918,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 140.943,
+     "e": 141.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 141.093,
+     "e": 141.581,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "पे",
+     "s": 141.581,
+     "e": 141.768,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाना",
+     "s": 141.781,
+     "e": 142.318,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SELF",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "Kimi K3.1 Pro",
+     "rows": [
+      [
+       "Weights",
+       "Hugging Face पे open"
+      ],
+      [
+       "Format",
+       "MXFP4 weights"
+      ],
+      [
+       "Serve",
+       "vLLM, SGLang"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "DeepSeek",
+     "rows": [
+      [
+       "API",
+       "deepseek-flash"
+      ],
+      [
+       "Extra",
+       "Search + Fetch API"
+      ],
+      [
+       "Apps",
+       "web और app पे भी"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 142.601,
+   "end": 153.345,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 142.601,
+     "e": 142.828,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 142.828,
+     "e": 143.028,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weights",
+     "s": 143.028,
+     "e": 143.441,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "Hugging",
+     "s": 143.441,
+     "e": 143.878,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Face",
+     "s": 143.878,
+     "e": 144.291,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 144.291,
+     "e": 144.453,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुले",
+     "s": 144.453,
+     "e": 144.853,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 144.853,
+     "e": 145.128,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "MXFP4",
+     "s": 145.428,
+     "e": 146.503,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "format",
+     "s": 146.503,
+     "e": 147.053,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 147.053,
+     "e": 147.403,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 148.341,
+     "e": 149.003,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 149.003,
+     "e": 149.441,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 149.503,
+     "e": 150.066,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 150.066,
+     "e": 150.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deepseek",
+     "s": 150.241,
+     "e": 150.791,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dash",
+     "s": 150.791,
+     "e": 151.166,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "flash",
+     "s": 151.191,
+     "e": 151.591,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "नाम",
+     "s": 151.591,
+     "e": 151.903,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 151.903,
+     "e": 152.091,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलता",
+     "s": 152.091,
+     "e": 152.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 152.491,
+     "e": 152.791,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "GPU",
+   "v": "versus",
+   "d": {
+    "bad": "Laptop पे 2.8T model",
+    "good": "बड़ा GPU server, या पहले API से test"
+   },
+   "start": 153.345,
+   "end": 163.857,
+   "words": [
+    {
+     "t": "पर",
+     "s": 153.345,
+     "e": 153.445,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सच",
+     "s": 153.445,
+     "e": 153.758,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 153.77,
+     "e": 153.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 153.983,
+     "e": 154.27,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "2.8",
+     "s": 154.383,
+     "e": 155.545,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "trillion",
+     "s": 155.608,
+     "e": 156.033,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 156.033,
+     "e": 156.208,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 156.208,
+     "e": 156.62,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "laptop",
+     "s": 156.62,
+     "e": 157.208,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 157.208,
+     "e": 157.395,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 157.395,
+     "e": 157.683,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलेगा",
+     "s": 157.695,
+     "e": 158.195,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 158.345,
+     "e": 158.67,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GPU",
+     "s": 158.67,
+     "e": 159.283,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "server",
+     "s": 159.283,
+     "e": 159.758,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 159.783,
+     "e": 160.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इसलिए",
+     "s": 161.258,
+     "e": 161.708,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 161.708,
+     "e": 162.12,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 162.195,
+     "e": 162.745,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 162.745,
+     "e": 162.945,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 162.958,
+     "e": 163.245,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 163.258,
+     "e": 163.608,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "WHYSELF",
+   "v": "list",
+   "d": {
+    "items": [
+     "Data अपने server पे",
+     "Fine-tune कर सकते हो",
+     "Vendor पे depend कम"
+    ]
+   },
+   "start": 163.857,
+   "end": 172.518,
+   "words": [
+    {
+     "t": "Self-host",
+     "s": 163.857,
+     "e": 164.481,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 164.481,
+     "e": 164.644,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फायदे",
+     "s": 164.644,
+     "e": 165.156,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "data",
+     "s": 165.244,
+     "e": 165.681,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 165.731,
+     "e": 166.131,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 166.131,
+     "e": 166.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 166.619,
+     "e": 166.794,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहता",
+     "s": 166.794,
+     "e": 167.194,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 167.194,
+     "e": 167.456,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 167.894,
+     "e": 168.331,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "fine-tune",
+     "s": 168.331,
+     "e": 168.856,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 168.856,
+     "e": 169.044,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 169.044,
+     "e": 169.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 169.444,
+     "e": 169.706,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 169.894,
+     "e": 170.069,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसी",
+     "s": 170.094,
+     "e": 170.431,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 170.506,
+     "e": 170.731,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "company",
+     "s": 170.731,
+     "e": 171.244,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 171.281,
+     "e": 171.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "depend",
+     "s": 171.469,
+     "e": 171.894,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कम",
+     "s": 171.906,
+     "e": 172.256,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Tools"
+   },
+   "start": 172.518,
+   "end": 174.867,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 172.518,
+     "e": 172.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 172.976,
+     "e": 173.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tools",
+     "s": 173.476,
+     "e": 173.876,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 173.913,
+     "e": 174.076,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "apps",
+     "s": 174.163,
+     "e": 174.538,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "DSTOOLS",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "DeepSeek Search + Fetch",
+    "rows": [
+     [
+      "Price",
+      "$0.75 / 1,000 calls"
+     ],
+     [
+      "Use",
+      "web search, page fetch"
+     ]
+    ]
+   },
+   "start": 174.867,
+   "end": 181.0,
+   "words": [
+    {
+     "t": "DeepSeek",
+     "s": 174.867,
+     "e": 175.484,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 175.497,
+     "e": 175.684,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Search",
+     "s": 175.684,
+     "e": 176.147,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 176.222,
+     "e": 176.409,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Fetch",
+     "s": 176.422,
+     "e": 176.784,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 176.847,
+     "e": 177.384,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 177.384,
+     "e": 177.634,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 177.634,
+     "e": 177.909,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 178.247,
+     "e": 178.409,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 178.534,
+     "e": 178.759,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 178.759,
+     "e": 179.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 179.159,
+     "e": 179.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 179.572,
+     "e": 179.759,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पचहत्तर",
+     "s": 179.759,
+     "e": 180.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cent",
+     "s": 180.322,
+     "e": 180.709,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "KTOOLS",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Kimi K3.1 Pro",
+    "rows": [
+     [
+      "Strong",
+      "coding, agents"
+     ],
+     [
+      "Input",
+      "text, image"
+     ]
+    ]
+   },
+   "start": 181.0,
+   "end": 188.839,
+   "words": [
+    {
+     "t": "Kimi",
+     "s": 181.0,
+     "e": 181.214,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "K3",
+     "s": 181.214,
+     "e": 181.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 181.814,
+     "e": 182.152,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1",
+     "s": 182.239,
+     "e": 182.452,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 182.452,
+     "e": 182.714,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agentic",
+     "s": 182.777,
+     "e": 183.364,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 183.377,
+     "e": 183.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 183.802,
+     "e": 183.977,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 184.002,
+     "e": 184.414,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 184.427,
+     "e": 184.602,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 184.639,
+     "e": 184.802,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 184.802,
+     "e": 185.127,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 185.127,
+     "e": 185.402,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 185.702,
+     "e": 185.902,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "text",
+     "s": 185.902,
+     "e": 186.239,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 186.264,
+     "e": 186.414,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 186.414,
+     "e": 186.764,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "images",
+     "s": 186.877,
+     "e": 187.364,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 187.364,
+     "e": 187.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लेता",
+     "s": 187.614,
+     "e": 187.939,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 187.939,
+     "e": 188.252,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LICENSE",
+   "v": "list",
+   "d": {
+    "items": [
+     "Benchmarks company खुद बताती है",
+     "अपने काम पे test करो",
+     "Commercial use से पहले license पढ़ो"
+    ]
+   },
+   "start": 188.839,
+   "end": 198.348,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 188.839,
+     "e": 189.199,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 189.199,
+     "e": 189.386,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "benchmarks",
+     "s": 189.386,
+     "e": 190.136,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "company",
+     "s": 190.136,
+     "e": 190.611,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 190.611,
+     "e": 190.799,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 190.849,
+     "e": 191.261,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 191.261,
+     "e": 192.049,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 193.011,
+     "e": 193.374,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 193.374,
+     "e": 193.711,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 193.711,
+     "e": 193.886,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 193.899,
+     "e": 194.186,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 194.199,
+     "e": 194.586,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 194.786,
+     "e": 194.974,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "business",
+     "s": 194.999,
+     "e": 195.486,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 195.486,
+     "e": 195.611,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगाने",
+     "s": 195.611,
+     "e": 196.061,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 196.061,
+     "e": 196.249,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 196.249,
+     "e": 196.649,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "license",
+     "s": 196.686,
+     "e": 197.286,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "ज़रूर",
+     "s": 197.311,
+     "e": 197.649,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़ो",
+     "s": 197.649,
+     "e": 198.061,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "start": 198.348,
+   "end": 201.34,
+   "words": [
+    {
+     "t": "अब",
+     "s": 198.348,
+     "e": 198.469,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "real",
+     "s": 198.469,
+     "e": 198.806,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "examples",
+     "s": 198.869,
+     "e": 199.656,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "किस",
+     "s": 199.769,
+     "e": 200.019,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 200.031,
+     "e": 200.269,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 200.269,
+     "e": 200.456,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 200.456,
+     "e": 201.031,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "लाखों छोटे tasks",
+    "rows": [
+     [
+      "Task",
+      "classification, tagging"
+     ],
+     [
+      "Best",
+      "DeepSeek Flash, off-peak"
+     ]
+    ]
+   },
+   "start": 201.34,
+   "end": 211.174,
+   "words": [
+    {
+     "t": "Example",
+     "s": 201.34,
+     "e": 201.885,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "एक",
+     "s": 201.96,
+     "e": 202.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लाखों",
+     "s": 202.26,
+     "e": 202.735,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "छोटे",
+     "s": 202.735,
+     "e": 203.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tasks",
+     "s": 203.135,
+     "e": 203.673,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 203.973,
+     "e": 204.373,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 204.398,
+     "e": 204.773,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tagging",
+     "s": 204.798,
+     "e": 205.298,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 205.298,
+     "e": 205.473,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "classification",
+     "s": 205.485,
+     "e": 206.435,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 207.423,
+     "e": 207.798,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 207.798,
+     "e": 208.435,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 208.435,
+     "e": 208.885,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 208.885,
+     "e": 209.36,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 209.36,
+     "e": 209.573,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 209.573,
+     "e": 209.948,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सस्ता",
+     "s": 209.948,
+     "e": 210.348,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पड़ेगा",
+     "s": 210.348,
+     "e": 210.873,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Private data",
+    "rows": [
+     [
+      "Task",
+      "company का internal data"
+     ],
+     [
+      "Option",
+      "open weights, अपना server"
+     ]
+    ]
+   },
+   "start": 211.174,
+   "end": 221.56,
+   "words": [
+    {
+     "t": "Example",
+     "s": 211.174,
+     "e": 211.753,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "दो",
+     "s": 211.753,
+     "e": 212.028,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "company",
+     "s": 212.078,
+     "e": 212.553,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 212.553,
+     "e": 212.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "private",
+     "s": 212.753,
+     "e": 213.266,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 213.303,
+     "e": 213.828,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जो",
+     "s": 214.053,
+     "e": 214.303,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाहर",
+     "s": 214.303,
+     "e": 214.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 214.728,
+     "e": 215.041,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाना",
+     "s": 215.041,
+     "e": 215.366,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 215.391,
+     "e": 215.853,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 216.878,
+     "e": 217.228,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 217.316,
+     "e": 217.653,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weights",
+     "s": 217.666,
+     "e": 218.103,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 218.128,
+     "e": 218.316,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 218.316,
+     "e": 218.728,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 218.728,
+     "e": 219.216,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 219.216,
+     "e": 219.391,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाना",
+     "s": 219.403,
+     "e": 219.878,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 219.966,
+     "e": 220.153,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "option",
+     "s": 220.166,
+     "e": 220.603,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 220.616,
+     "e": 220.978,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Coding agent",
+    "rows": [
+     [
+      "Task",
+      "लंबा multi-step काम"
+     ],
+     [
+      "देखो",
+      "1M context, tool use"
+     ]
+    ]
+   },
+   "start": 221.56,
+   "end": 232.387,
+   "words": [
+    {
+     "t": "Example",
+     "s": 221.56,
+     "e": 222.152,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "तीन",
+     "s": 222.152,
+     "e": 222.477,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबा",
+     "s": 222.564,
+     "e": 222.964,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "multi-step",
+     "s": 222.964,
+     "e": 223.664,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 223.702,
+     "e": 224.064,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 224.139,
+     "e": 224.602,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 225.577,
+     "e": 225.927,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 225.927,
+     "e": 226.239,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लाख",
+     "s": 226.239,
+     "e": 226.539,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 226.577,
+     "e": 227.089,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 227.114,
+     "e": 227.227,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 227.239,
+     "e": 227.764,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 227.839,
+     "e": 228.027,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tool",
+     "s": 228.039,
+     "e": 228.364,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 228.364,
+     "e": 228.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 228.702,
+     "e": 229.002,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आता",
+     "s": 229.002,
+     "e": 229.302,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 229.302,
+     "e": 229.564,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 229.739,
+     "e": 230.139,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 230.139,
+     "e": 230.327,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 230.327,
+     "e": 230.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "task",
+     "s": 230.727,
+     "e": 231.077,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देकर",
+     "s": 231.114,
+     "e": 231.502,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 231.502,
+     "e": 231.777,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 231.802,
+     "e": 232.152,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ benchmark देखकर फैसला",
+    "good": "अपने 20-30 examples पे eval"
+   },
+   "start": 232.387,
+   "end": 242.123,
+   "words": [
+    {
+     "t": "Benchmark",
+     "s": 232.387,
+     "e": 233.015,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखकर",
+     "s": 233.065,
+     "e": 233.615,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फैसला",
+     "s": 233.615,
+     "e": 234.14,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मत",
+     "s": 234.14,
+     "e": 234.377,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 234.415,
+     "e": 234.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 235.74,
+     "e": 236.127,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 236.127,
+     "e": 236.49,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "तीस",
+     "s": 236.49,
+     "e": 236.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "असली",
+     "s": 236.89,
+     "e": 237.277,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "examples",
+     "s": 237.29,
+     "e": 238.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 238.065,
+     "e": 238.277,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 238.277,
+     "e": 238.677,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 238.677,
+     "e": 238.865,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 238.865,
+     "e": 239.177,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 239.19,
+     "e": 239.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वही",
+     "s": 239.752,
+     "e": 240.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "असली",
+     "s": 240.09,
+     "e": 240.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "benchmark",
+     "s": 240.502,
+     "e": 241.102,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 241.127,
+     "e": 241.54,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Cost tips"
+   },
+   "start": 242.123,
+   "end": 245.078,
+   "words": [
+    {
+     "t": "अब",
+     "s": 242.123,
+     "e": 242.235,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 242.335,
+     "e": 242.86,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cost",
+     "s": 242.86,
+     "e": 243.235,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "बचाने",
+     "s": 243.26,
+     "e": 243.735,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 243.735,
+     "e": 243.885,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 243.948,
+     "e": 244.21,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तरीके",
+     "s": 244.223,
+     "e": 244.76,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "Same prompt prefix रखो (cache)",
+     "Batch jobs off-peak में",
+     "Output छोटा माँगो"
+    ]
+   },
+   "start": 245.078,
+   "end": 253.854,
+   "words": [
+    {
+     "t": "तीन",
+     "s": 245.078,
+     "e": 245.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तरीके",
+     "s": 245.296,
+     "e": 245.796,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "prompt",
+     "s": 245.858,
+     "e": 246.208,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 246.246,
+     "e": 246.446,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शुरुआती",
+     "s": 246.446,
+     "e": 247.096,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्सा",
+     "s": 247.096,
+     "e": 247.496,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "same",
+     "s": 247.496,
+     "e": 247.896,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रखो",
+     "s": 247.896,
+     "e": 248.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ताकि",
+     "s": 248.271,
+     "e": 248.658,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cache",
+     "s": 248.733,
+     "e": 249.071,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "hit",
+     "s": 249.071,
+     "e": 249.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 249.271,
+     "e": 249.571,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 249.671,
+     "e": 250.046,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "jobs",
+     "s": 250.046,
+     "e": 250.496,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 250.558,
+     "e": 251.046,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 251.083,
+     "e": 251.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 251.308,
+     "e": 251.821,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 252.021,
+     "e": 252.158,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "output",
+     "s": 252.233,
+     "e": 252.708,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटा",
+     "s": 252.733,
+     "e": 253.108,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "माँगो",
+     "s": 253.108,
+     "e": 253.621,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "हर task पे सबसे बड़ा model",
+    "good": "छोटा काम = Flash, मुश्किल काम = बड़ा model"
+   },
+   "start": 253.854,
+   "end": 261.707,
+   "words": [
+    {
+     "t": "हर",
+     "s": 253.854,
+     "e": 253.977,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "task",
+     "s": 253.99,
+     "e": 254.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 254.427,
+     "e": 254.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 254.627,
+     "e": 255.077,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 255.077,
+     "e": 255.377,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 255.377,
+     "e": 255.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मत",
+     "s": 255.79,
+     "e": 256.027,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 256.04,
+     "e": 256.54,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आसान",
+     "s": 257.515,
+     "e": 258.04,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 258.065,
+     "e": 258.39,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सस्ते",
+     "s": 258.39,
+     "e": 258.802,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Flash",
+     "s": 258.802,
+     "e": 259.215,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "पे",
+     "s": 259.215,
+     "e": 259.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुश्किल",
+     "s": 259.702,
+     "e": 260.14,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 260.215,
+     "e": 260.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़े",
+     "s": 260.49,
+     "e": 260.802,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 260.802,
+     "e": 261.165,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 261.165,
+     "e": 261.427,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "बिना limit के API key",
+    "good": "Spending limit + usage alerts"
+   },
+   "start": 261.707,
+   "end": 268.605,
+   "words": [
+    {
+     "t": "और",
+     "s": 261.707,
+     "e": 261.806,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 261.918,
+     "e": 262.456,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "key",
+     "s": 262.456,
+     "e": 262.681,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 262.718,
+     "e": 262.906,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हमेशा",
+     "s": 262.906,
+     "e": 263.418,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "spending",
+     "s": 263.418,
+     "e": 263.943,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 263.981,
+     "e": 264.306,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 264.431,
+     "e": 264.631,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 264.631,
+     "e": 265.156,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "alerts",
+     "s": 265.231,
+     "e": 265.743,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगाओ",
+     "s": 265.743,
+     "e": 266.243,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ताकि",
+     "s": 266.343,
+     "e": 266.706,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गलती",
+     "s": 266.718,
+     "e": 267.106,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 267.131,
+     "e": 267.306,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 267.306,
+     "e": 267.606,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "bill",
+     "s": 267.606,
+     "e": 267.856,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "न",
+     "s": 267.856,
+     "e": 268.018,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आए",
+     "s": 268.018,
+     "e": 268.381,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Kimi: 2.8T, open weights",
+     "DeepSeek: सस्ता, off-peak आधा",
+     "दोनों 1M context",
+     "अपने काम पे test"
+    ]
+   },
+   "start": 268.605,
+   "end": 280.816,
+   "words": [
+    {
+     "t": "जल्दी",
+     "s": 268.605,
+     "e": 269.022,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "recap",
+     "s": 269.022,
+     "e": 269.535,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Kimi",
+     "s": 269.572,
+     "e": 269.947,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "2",
+     "s": 269.985,
+     "e": 270.247,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": ".",
+     "s": 270.247,
+     "e": 270.547,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "8T",
+     "s": 270.635,
+     "e": 271.247,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 271.46,
+     "e": 271.81,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weights",
+     "s": 271.822,
+     "e": 272.26,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 273.247,
+     "e": 273.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सस्ता",
+     "s": 273.972,
+     "e": 274.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "off-peak",
+     "s": 274.647,
+     "e": 275.172,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आधा",
+     "s": 275.21,
+     "e": 275.622,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 276.672,
+     "e": 277.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "1M",
+     "s": 277.197,
+     "e": 277.722,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 277.735,
+     "e": 278.272,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपने",
+     "s": 279.26,
+     "e": 279.622,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 279.622,
+     "e": 279.96,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 279.96,
+     "e": 280.122,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 280.16,
+     "e": 280.485,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "start": 280.816,
+   "end": 282.245,
+   "words": [
+    {
+     "t": "तो",
+     "s": 280.816,
+     "e": 280.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसके",
+     "s": 280.9,
+     "e": 281.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 281.362,
+     "e": 281.537,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 281.55,
+     "e": 281.875,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "DeepSeek Flash",
+      "when": "सस्ता API, ज़्यादा volume, off-peak jobs"
+     },
+     {
+      "who": "Kimi K3.1 Pro",
+      "when": "बड़ा open model, self-host, fine-tune"
+     },
+     {
+      "who": "दोनों",
+      "when": "छोटा test पहले, फिर scale"
+     }
+    ]
+   },
+   "start": 282.245,
+   "end": 291.513,
+   "words": [
+    {
+     "t": "सस्ते",
+     "s": 282.245,
+     "e": 282.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 282.7,
+     "e": 283.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 283.325,
+     "e": 283.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 283.55,
+     "e": 284.0,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "volume",
+     "s": 284.0,
+     "e": 284.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 284.425,
+     "e": 284.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 284.65,
+     "e": 284.875,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "DeepSeek",
+     "s": 284.9,
+     "e": 285.55,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 285.85,
+     "e": 286.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़े",
+     "s": 286.325,
+     "e": 286.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 286.737,
+     "e": 287.05,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 287.075,
+     "e": 287.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 287.525,
+     "e": 287.687,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 287.725,
+     "e": 287.95,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Kimi",
+     "s": 287.975,
+     "e": 288.387,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 289.375,
+     "e": 289.687,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटा",
+     "s": 289.725,
+     "e": 290.112,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 290.112,
+     "e": 290.425,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "फिर",
+     "s": 290.537,
+     "e": 290.762,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scale",
+     "s": 290.762,
+     "e": 291.237,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 291.513,
+   "end": 300.451,
+   "words": [
+    {
+     "t": "Open",
+     "s": 291.513,
+     "e": 291.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 291.802,
+     "e": 292.327,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 292.327,
+     "e": 292.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 292.552,
+     "e": 292.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 292.79,
+     "e": 293.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 293.215,
+     "e": 293.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 294.665,
+     "e": 295.052,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 295.065,
+     "e": 295.465,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 295.627,
+     "e": 295.815,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 295.902,
+     "e": 296.227,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 296.227,
+     "e": 297.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 297.09,
+     "e": 297.265,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 297.29,
+     "e": 297.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 297.64,
+     "e": 298.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 298.265,
+     "e": 298.865,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 298.877,
+     "e": 299.227,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
