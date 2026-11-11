@@ -1,0 +1,5168 @@
+{
+ "id": "cmp023b",
+ "series": "AI COMPARISON",
+ "title": "Claude Code vs Cursor vs Copilot: Kaunsa Lein?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp023b/voice.wav",
+ "duration": 294.976,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "Claude Code vs Cursor vs Copilot",
+    "pill": "AI CODING",
+    "stat": "3",
+    "sub": "tools, 1 budget"
+   },
+   "start": 0.0,
+   "end": 6.86,
+   "words": [
+    {
+     "t": "Coding",
+     "s": 0.0,
+     "e": 0.269,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 0.269,
+     "e": 0.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 0.482,
+     "e": 0.669,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 0.682,
+     "e": 1.057,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 1.069,
+     "e": 1.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 1.582,
+     "e": 2.057,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 2.057,
+     "e": 2.244,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 2.257,
+     "e": 2.957,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "गलत",
+     "s": 3.919,
+     "e": 4.319,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "चुना",
+     "s": 4.319,
+     "e": 4.644,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 4.644,
+     "e": 4.819,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 4.819,
+     "e": 5.057,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 5.057,
+     "e": 5.532,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 5.532,
+     "e": 5.932,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "डूबेंगे",
+     "s": 5.944,
+     "e": 6.582,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "तीनों क्या हैं",
+     "Free plan",
+     "Price",
+     "Usage कैसे गिनते हैं",
+     "Models",
+     "Students",
+     "Verdict"
+    ]
+   },
+   "start": 6.86,
+   "end": 15.161,
+   "words": [
+    {
+     "t": "आज",
+     "s": 6.86,
+     "e": 7.095,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीनों",
+     "s": 7.158,
+     "e": 7.533,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 7.533,
+     "e": 7.795,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 7.795,
+     "e": 8.095,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 8.245,
+     "e": 8.495,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 8.57,
+     "e": 8.895,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 9.133,
+     "e": 9.52,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 9.745,
+     "e": 10.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कैसे",
+     "s": 10.283,
+     "e": 10.67,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गिना",
+     "s": 10.67,
+     "e": 10.995,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाता",
+     "s": 10.995,
+     "e": 11.345,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 11.345,
+     "e": 11.608,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 11.82,
+     "e": 12.408,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "students",
+     "s": 12.483,
+     "e": 13.008,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 13.033,
+     "e": 13.195,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 13.233,
+     "e": 13.42,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "option",
+     "s": 13.483,
+     "e": 13.945,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 14.133,
+     "e": 14.295,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "verdict",
+     "s": 14.32,
+     "e": 14.845,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "तीनों क्या हैं"
+   },
+   "start": 15.161,
+   "end": 17.253,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 15.161,
+     "e": 15.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 15.69,
+     "e": 15.927,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीनों",
+     "s": 16.002,
+     "e": 16.427,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 16.427,
+     "e": 16.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 16.652,
+     "e": 16.94,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "WHAT",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Code: Claude plan वाला coding agent",
+     "Cursor: AI code editor",
+     "Copilot: GitHub का AI, editors + CLI में"
+    ]
+   },
+   "start": 17.253,
+   "end": 30.275,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 17.253,
+     "e": 17.521,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 17.546,
+     "e": 17.908,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 18.021,
+     "e": 18.383,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 18.396,
+     "e": 18.546,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 18.558,
+     "e": 18.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाला",
+     "s": 18.921,
+     "e": 19.271,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 19.271,
+     "e": 19.708,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 19.783,
+     "e": 20.183,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 20.183,
+     "e": 20.546,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 21.883,
+     "e": 22.321,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 22.421,
+     "e": 22.658,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 22.721,
+     "e": 23.058,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 23.058,
+     "e": 23.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editor",
+     "s": 23.483,
+     "e": 24.008,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 24.008,
+     "e": 24.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 25.721,
+     "e": 26.358,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GitHub",
+     "s": 26.458,
+     "e": 26.958,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 26.971,
+     "e": 27.108,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 27.196,
+     "e": 27.583,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 27.583,
+     "e": 27.833,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "editors",
+     "s": 28.071,
+     "e": 28.621,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 28.708,
+     "e": 28.896,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "terminal",
+     "s": 28.896,
+     "e": 29.458,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 29.458,
+     "e": 29.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 29.783,
+     "e": 30.108,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CC",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Claude Code",
+    "rows": [
+     [
+      "Plan",
+      "सारे paid Claude plans"
+     ],
+     [
+      "Limit",
+      "chat के साथ same pool"
+     ],
+     [
+      "Heavy use",
+      "API credits (Console)"
+     ]
+    ]
+   },
+   "start": 30.275,
+   "end": 41.759,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 30.275,
+     "e": 30.543,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "Code",
+     "s": 30.58,
+     "e": 30.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सारे",
+     "s": 30.893,
+     "e": 31.255,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 31.293,
+     "e": 31.593,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 31.618,
+     "e": 31.955,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "plans",
+     "s": 31.98,
+     "e": 32.393,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 32.393,
+     "e": 32.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 32.568,
+     "e": 32.855,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 33.193,
+     "e": 33.368,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 33.368,
+     "e": 33.693,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 33.718,
+     "e": 33.868,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 33.868,
+     "e": 34.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 34.43,
+     "e": 34.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 34.705,
+     "e": 34.868,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 34.918,
+     "e": 35.218,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "share",
+     "s": 35.218,
+     "e": 35.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 35.568,
+     "e": 35.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 35.98,
+     "e": 36.28,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 37.618,
+     "e": 38.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 38.055,
+     "e": 38.493,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 38.493,
+     "e": 38.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 38.893,
+     "e": 39.105,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 39.168,
+     "e": 39.73,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 39.73,
+     "e": 40.243,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 40.243,
+     "e": 40.455,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 40.468,
+     "e": 40.643,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जा",
+     "s": 40.655,
+     "e": 40.83,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 40.843,
+     "e": 41.255,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 41.255,
+     "e": 41.53,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CU",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "Cursor",
+    "rows": [
+     [
+      "अब",
+      "X Subscription"
+     ],
+     [
+      "साथ में",
+      "Grok + X"
+     ],
+     [
+      "Other models",
+      "Premium+, API price"
+     ]
+    ]
+   },
+   "start": 41.759,
+   "end": 47.468,
+   "words": [
+    {
+     "t": "Cursor",
+     "s": 41.759,
+     "e": 42.161,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अब",
+     "s": 42.261,
+     "e": 42.436,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 42.511,
+     "e": 42.748,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Subscription",
+     "s": 42.798,
+     "e": 43.523,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 43.548,
+     "e": 43.723,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्सा",
+     "s": 43.723,
+     "e": 44.161,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 44.161,
+     "e": 44.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 44.598,
+     "e": 44.961,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 45.011,
+     "e": 45.223,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 45.323,
+     "e": 45.561,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 45.573,
+     "e": 45.723,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 45.723,
+     "e": 46.073,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 46.211,
+     "e": 46.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscription",
+     "s": 46.411,
+     "e": 47.211,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CP",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "GitHub Copilot",
+    "rows": [
+     [
+      "कहाँ",
+      "VS Code, JetBrains, Xcode..."
+     ],
+     [
+      "CLI",
+      "Copilot CLI"
+     ],
+     [
+      "GitHub",
+      "PR बना देता है"
+     ]
+    ]
+   },
+   "start": 47.468,
+   "end": 59.998,
+   "words": [
+    {
+     "t": "Copilot",
+     "s": 47.468,
+     "e": 48.0,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "VS",
+     "s": 48.012,
+     "e": 48.55,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 48.562,
+     "e": 48.887,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Visual",
+     "s": 49.062,
+     "e": 49.562,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Studio",
+     "s": 49.562,
+     "e": 50.137,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "JetBrains",
+     "s": 50.325,
+     "e": 51.075,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Eclipse",
+     "s": 51.275,
+     "e": 51.812,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 51.9,
+     "e": 52.087,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Xcode",
+     "s": 52.175,
+     "e": 52.7,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 52.7,
+     "e": 52.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 52.862,
+     "e": 53.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 53.3,
+     "e": 53.537,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "terminal",
+     "s": 53.787,
+     "e": 54.237,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 54.237,
+     "e": 54.387,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 54.387,
+     "e": 55.062,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "CLI",
+     "s": 55.062,
+     "e": 55.712,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 55.912,
+     "e": 56.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 56.125,
+     "e": 56.45,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 56.475,
+     "e": 56.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 56.862,
+     "e": 57.037,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 57.05,
+     "e": 57.362,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देकर",
+     "s": 57.362,
+     "e": 57.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pull",
+     "s": 57.75,
+     "e": 57.987,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "request",
+     "s": 57.987,
+     "e": 58.487,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 58.487,
+     "e": 58.7,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनवा",
+     "s": 58.7,
+     "e": 59.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 59.1,
+     "e": 59.5,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 59.5,
+     "e": 59.775,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Free plan"
+   },
+   "start": 59.998,
+   "end": 61.843,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 59.998,
+     "e": 60.416,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 60.416,
+     "e": 60.703,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 60.753,
+     "e": 61.078,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 61.078,
+     "e": 61.228,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 61.228,
+     "e": 61.516,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "FREE",
+   "v": "table",
+   "d": {
+    "title": "Free plan",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "Free?",
+      "v": [
+       "नहीं",
+       "हाँ (limited)",
+       "हाँ"
+      ],
+      "win": 2
+     },
+     {
+      "k": "Detail",
+      "v": [
+       "Pro से शुरू",
+       "limited usage",
+       "2,000 completions/month"
+      ]
+     }
+    ]
+   },
+   "start": 61.843,
+   "end": 71.693,
+   "words": [
+    {
+     "t": "Free",
+     "s": 61.843,
+     "e": 62.063,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 62.063,
+     "e": 62.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 62.213,
+     "e": 62.863,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 62.863,
+     "e": 63.326,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आगे",
+     "s": 63.401,
+     "e": 63.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 63.726,
+     "e": 63.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 64.376,
+     "e": 64.551,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 64.551,
+     "e": 65.026,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 65.038,
+     "e": 65.301,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 65.301,
+     "e": 65.663,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "completions",
+     "s": 65.663,
+     "e": 66.476,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 66.613,
+     "e": 66.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 66.813,
+     "e": 67.463,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "CLI",
+     "s": 67.463,
+     "e": 68.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 69.076,
+     "e": 69.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 69.426,
+     "e": 69.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 69.751,
+     "e": 69.951,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 69.988,
+     "e": 70.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 70.226,
+     "e": 70.563,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 70.576,
+     "e": 70.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 70.951,
+     "e": 71.413,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "FREE2",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Copilot Free",
+    "rows": [
+     [
+      "Models",
+      "Haiku 4.5, GPT-5 mini"
+     ],
+     [
+      "Agent mode",
+      "हाँ"
+     ],
+     [
+      "Card",
+      "ज़रूरी नहीं"
+     ]
+    ]
+   },
+   "start": 71.693,
+   "end": 81.091,
+   "words": [
+    {
+     "t": "Copilot",
+     "s": 71.693,
+     "e": 72.232,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 72.232,
+     "e": 72.519,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 72.544,
+     "e": 72.694,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Haiku",
+     "s": 72.694,
+     "e": 73.132,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "4.5",
+     "s": 73.182,
+     "e": 74.494,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 74.582,
+     "e": 74.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GPT-5",
+     "s": 74.769,
+     "e": 76.107,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "mini",
+     "s": 76.107,
+     "e": 76.469,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 76.469,
+     "e": 76.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 76.832,
+     "e": 77.369,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 77.582,
+     "e": 77.982,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "mode",
+     "s": 77.982,
+     "e": 78.307,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 78.319,
+     "e": 78.607,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 78.882,
+     "e": 79.044,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credit",
+     "s": 79.069,
+     "e": 79.457,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "card",
+     "s": 79.457,
+     "e": 79.832,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 79.832,
+     "e": 79.982,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरत",
+     "s": 80.007,
+     "e": 80.432,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 80.432,
+     "e": 80.869,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Price"
+   },
+   "start": 81.091,
+   "end": 82.755,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 81.091,
+     "e": 81.527,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 81.527,
+     "e": 81.865,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 81.927,
+     "e": 82.427,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "PRICE",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "Entry",
+      "v": [
+       "Pro: $20",
+       "Plus: $8",
+       "Pro: $10"
+      ]
+     },
+     {
+      "k": "Mid",
+      "v": [
+       "Max: $100",
+       "Premium: $30",
+       "Pro+: $39"
+      ]
+     },
+     {
+      "k": "Top",
+      "v": [
+       "Ultra: $200",
+       "Ultra: $200",
+       "Max: $100"
+      ]
+     }
+    ]
+   },
+   "start": 82.755,
+   "end": 91.621,
+   "words": [
+    {
+     "t": "Entry",
+     "s": 82.755,
+     "e": 83.029,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 83.104,
+     "e": 83.442,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 83.579,
+     "e": 84.179,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 84.192,
+     "e": 84.517,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 84.517,
+     "e": 85.017,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 85.267,
+     "e": 85.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 85.679,
+     "e": 86.042,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आठ",
+     "s": 86.117,
+     "e": 86.354,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 86.379,
+     "e": 86.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 87.117,
+     "e": 87.367,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 87.367,
+     "e": 87.617,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 87.629,
+     "e": 87.942,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 87.942,
+     "e": 88.442,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Top",
+     "s": 89.417,
+     "e": 89.642,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 89.667,
+     "e": 90.104,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 90.142,
+     "e": 90.392,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 90.392,
+     "e": 90.629,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 90.629,
+     "e": 91.054,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 91.054,
+     "e": 91.342,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CUPLUS",
+   "v": "versus",
+   "d": {
+    "bad": "Cursor Plus ($8) में सब कुछ",
+    "good": "Plus में Cloud Agents, third-party models नहीं"
+   },
+   "start": 91.621,
+   "end": 100.526,
+   "words": [
+    {
+     "t": "पर",
+     "s": 91.621,
+     "e": 91.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ध्यान",
+     "s": 91.721,
+     "e": 92.121,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 92.121,
+     "e": 92.384,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 92.459,
+     "e": 92.934,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 92.934,
+     "e": 93.109,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आठ",
+     "s": 93.209,
+     "e": 93.459,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 93.496,
+     "e": 93.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाले",
+     "s": 93.959,
+     "e": 94.296,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 94.309,
+     "e": 94.671,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 94.671,
+     "e": 94.884,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 94.921,
+     "e": 95.296,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 95.396,
+     "e": 95.909,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "दूसरे",
+     "s": 96.109,
+     "e": 96.484,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "companies",
+     "s": 96.509,
+     "e": 97.171,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 97.171,
+     "e": 97.321,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 97.321,
+     "e": 97.871,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 97.971,
+     "e": 98.171,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपनी",
+     "s": 98.234,
+     "e": 98.609,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 98.671,
+     "e": 99.234,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "key",
+     "s": 99.246,
+     "e": 99.446,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 99.446,
+     "e": 99.746,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलती",
+     "s": 99.759,
+     "e": 100.259,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CUPREM",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Cursor Premium ($30)",
+    "rows": [
+     [
+      "Usage",
+      "Plus का 4x"
+     ],
+     [
+      "Adds",
+      "Cloud Agents, Bugbot"
+     ],
+     [
+      "Other models",
+      "API list price"
+     ]
+    ]
+   },
+   "start": 100.526,
+   "end": 109.659,
+   "words": [
+    {
+     "t": "Cursor",
+     "s": 100.526,
+     "e": 100.911,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Premium",
+     "s": 100.911,
+     "e": 101.486,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तीस",
+     "s": 101.486,
+     "e": 101.836,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 101.836,
+     "e": 102.286,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 102.486,
+     "e": 102.761,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 102.773,
+     "e": 102.936,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 102.948,
+     "e": 103.273,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गुना",
+     "s": 103.273,
+     "e": 103.598,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 103.598,
+     "e": 104.173,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 104.486,
+     "e": 104.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 104.873,
+     "e": 105.361,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bugbot",
+     "s": 105.523,
+     "e": 106.073,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 106.086,
+     "e": 106.348,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "review",
+     "s": 106.348,
+     "e": 106.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 107.023,
+     "e": 107.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दूसरे",
+     "s": 107.198,
+     "e": 107.661,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 107.673,
+     "e": 108.161,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 108.236,
+     "e": 108.736,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 108.761,
+     "e": 109.123,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 109.123,
+     "e": 109.411,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CPPRO",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Copilot Pro ($10)",
+    "rows": [
+     [
+      "Completions",
+      "unlimited"
+     ],
+     [
+      "Cloud",
+      "Copilot in the cloud"
+     ],
+     [
+      "Review",
+      "code review"
+     ]
+    ]
+   },
+   "start": 109.659,
+   "end": 116.32,
+   "words": [
+    {
+     "t": "Copilot",
+     "s": 109.659,
+     "e": 110.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 110.187,
+     "e": 110.425,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "दस",
+     "s": 110.425,
+     "e": 110.7,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 110.7,
+     "e": 111.162,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "unlimited",
+     "s": 111.35,
+     "e": 111.937,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "completions",
+     "s": 111.937,
+     "e": 112.762,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 112.937,
+     "e": 113.487,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "in",
+     "s": 113.562,
+     "e": 113.662,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "the",
+     "s": 113.675,
+     "e": 113.787,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 113.787,
+     "e": 114.225,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 114.4,
+     "e": 114.562,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pull",
+     "s": 114.6,
+     "e": 114.862,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "request",
+     "s": 114.862,
+     "e": 115.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 115.337,
+     "e": 115.612,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "review",
+     "s": 115.612,
+     "e": 116.037,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LEGACY",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Cursor पुराने plans",
+    "rows": [
+     [
+      "Pro / Pro+ / Ultra",
+      "existing users के लिए चालू"
+     ],
+     [
+      "Pro+",
+      "$60"
+     ]
+    ]
+   },
+   "start": 116.32,
+   "end": 124.004,
+   "words": [
+    {
+     "t": "जो",
+     "s": 116.32,
+     "e": 116.569,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लोग",
+     "s": 116.569,
+     "e": 116.919,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 116.919,
+     "e": 117.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 117.306,
+     "e": 117.494,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 117.494,
+     "e": 117.994,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 117.994,
+     "e": 118.144,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पुराने",
+     "s": 118.144,
+     "e": 118.594,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Pro",
+     "s": 118.594,
+     "e": 118.894,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 119.181,
+     "e": 119.319,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "plus",
+     "s": 119.369,
+     "e": 119.706,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 119.706,
+     "e": 119.906,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Ultra",
+     "s": 119.981,
+     "e": 120.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 120.294,
+     "e": 120.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 120.631,
+     "e": 120.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 120.844,
+     "e": 121.144,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उनके",
+     "s": 121.431,
+     "e": 121.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 121.756,
+     "e": 122.206,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वैसे",
+     "s": 122.231,
+     "e": 122.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 122.619,
+     "e": 122.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलते",
+     "s": 122.794,
+     "e": 123.206,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रहेंगे",
+     "s": 123.206,
+     "e": 123.756,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Usage कैसे गिनते हैं"
+   },
+   "start": 124.004,
+   "end": 127.412,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 124.004,
+     "e": 124.452,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 124.477,
+     "e": 124.827,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 124.902,
+     "e": 125.452,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कैसे",
+     "s": 125.452,
+     "e": 125.839,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गिना",
+     "s": 125.839,
+     "e": 126.152,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाता",
+     "s": 126.152,
+     "e": 126.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 126.514,
+     "e": 126.827,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "USAGE",
+   "v": "table",
+   "d": {
+    "title": "Usage",
+    "cols": [
+     "Claude Code",
+     "Cursor",
+     "Copilot"
+    ],
+    "rows": [
+     {
+      "k": "गिनती",
+      "v": [
+       "chat के साथ same pool",
+       "weekly pool, Grok के साथ",
+       "GitHub AI Credits"
+      ]
+     },
+     {
+      "k": "Reset",
+      "v": [
+       "5 घंटे + हफ्ता",
+       "हर हफ्ते",
+       "हर महीने"
+      ]
+     }
+    ]
+   },
+   "start": 127.412,
+   "end": 139.71,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 127.412,
+     "e": 127.671,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 127.708,
+     "e": 128.033,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 128.058,
+     "e": 128.383,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 128.396,
+     "e": 128.596,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 128.596,
+     "e": 128.908,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "share",
+     "s": 128.908,
+     "e": 129.233,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 129.233,
+     "e": 129.646,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 129.646,
+     "e": 129.946,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 131.321,
+     "e": 131.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 131.783,
+     "e": 131.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weekly",
+     "s": 131.971,
+     "e": 132.421,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pool",
+     "s": 132.471,
+     "e": 132.771,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 132.771,
+     "e": 133.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 133.146,
+     "e": 133.308,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 133.308,
+     "e": 133.671,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "share",
+     "s": 133.671,
+     "e": 134.033,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होता",
+     "s": 134.033,
+     "e": 134.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 134.396,
+     "e": 134.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 136.083,
+     "e": 136.696,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GitHub",
+     "s": 136.721,
+     "e": 137.183,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 137.258,
+     "e": 137.621,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Credits",
+     "s": 137.621,
+     "e": 138.158,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 138.158,
+     "e": 138.333,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 138.346,
+     "e": 138.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 138.783,
+     "e": 139.108,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CREDITS",
+   "v": "table",
+   "d": {
+    "title": "Copilot AI credits / month",
+    "cols": [
+     "Pro",
+     "Pro+"
+    ],
+    "rows": [
+     {
+      "k": "Price",
+      "v": [
+       "$10",
+       "$39"
+      ]
+     },
+     {
+      "k": "Total credits",
+      "v": [
+       "1,500",
+       "7,000"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "start": 139.71,
+   "end": 149.078,
+   "words": [
+    {
+     "t": "Copilot",
+     "s": 139.71,
+     "e": 140.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 140.217,
+     "e": 140.429,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 140.467,
+     "e": 140.642,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 140.642,
+     "e": 140.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 140.879,
+     "e": 141.329,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पंद्रह",
+     "s": 141.342,
+     "e": 141.779,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 141.779,
+     "e": 142.042,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 142.129,
+     "e": 142.479,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 142.479,
+     "e": 143.042,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "Pro",
+     "s": 143.329,
+     "e": 143.479,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plus",
+     "s": 143.479,
+     "e": 143.817,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 143.817,
+     "e": 143.979,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सात",
+     "s": 143.979,
+     "e": 144.329,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 144.329,
+     "e": 144.729,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Model",
+     "s": 145.692,
+     "e": 146.104,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जितना",
+     "s": 146.104,
+     "e": 146.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 146.517,
+     "e": 146.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 147.092,
+     "e": 147.567,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "उतने",
+     "s": 147.629,
+     "e": 147.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जल्दी",
+     "s": 147.967,
+     "e": 148.354,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खत्म",
+     "s": 148.354,
+     "e": 148.854,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "BURN",
+   "v": "versus",
+   "d": {
+    "bad": "सबसे बड़ा model हर छोटे काम पे",
+    "good": "छोटा काम = छोटा model, limit बचाओ"
+   },
+   "start": 149.078,
+   "end": 157.211,
+   "words": [
+    {
+     "t": "Trick",
+     "s": 149.078,
+     "e": 149.253,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "छोटे",
+     "s": 149.403,
+     "e": 149.753,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कामों",
+     "s": 149.753,
+     "e": 150.128,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 150.128,
+     "e": 150.303,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटा",
+     "s": 150.328,
+     "e": 150.715,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 150.715,
+     "e": 151.128,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 151.128,
+     "e": 151.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 151.74,
+     "e": 152.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 152.065,
+     "e": 152.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 152.49,
+     "e": 152.853,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुश्किल",
+     "s": 152.865,
+     "e": 153.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 153.34,
+     "e": 153.578,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 153.603,
+     "e": 153.765,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 153.79,
+     "e": 154.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीनों",
+     "s": 155.09,
+     "e": 155.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 155.415,
+     "e": 155.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 155.59,
+     "e": 155.94,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 155.953,
+     "e": 156.365,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलेगी",
+     "s": 156.378,
+     "e": 156.928,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Models"
+   },
+   "start": 157.211,
+   "end": 158.976,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 157.211,
+     "e": 157.598,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 157.598,
+     "e": 158.011,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 158.086,
+     "e": 158.648,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "MODELS",
+   "v": "list",
+   "d": {
+    "items": [
+     "Claude Code: Opus, Sonnet, Haiku (+ Fable)",
+     "Cursor: Grok models + Composer, बाकी API price पे",
+     "Copilot Pro+: premium models, Opus भी"
+    ]
+   },
+   "start": 158.976,
+   "end": 170.189,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 158.976,
+     "e": 159.222,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 159.247,
+     "e": 159.585,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 159.597,
+     "e": 159.772,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 159.772,
+     "e": 160.147,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 160.16,
+     "e": 160.31,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 160.31,
+     "e": 160.835,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "Cursor",
+     "s": 161.797,
+     "e": 162.247,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 162.247,
+     "e": 162.422,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 162.422,
+     "e": 162.785,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 162.835,
+     "e": 163.01,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Composer",
+     "s": 163.01,
+     "e": 163.747,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाकी",
+     "s": 163.91,
+     "e": 164.335,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "API",
+     "s": 164.41,
+     "e": 164.922,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 164.947,
+     "e": 165.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 165.322,
+     "e": 165.597,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 166.597,
+     "e": 167.16,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 167.16,
+     "e": 167.372,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plus",
+     "s": 167.385,
+     "e": 167.747,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 167.747,
+     "e": 167.96,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Opus",
+     "s": 168.01,
+     "e": 168.422,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 168.422,
+     "e": 168.822,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "premium",
+     "s": 168.835,
+     "e": 169.335,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 169.335,
+     "e": 169.897,
+     "hl": false,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Students"
+   },
+   "start": 170.189,
+   "end": 172.344,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 170.189,
+     "e": 170.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 170.625,
+     "e": 170.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "students",
+     "s": 171.0,
+     "e": 171.563,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 171.563,
+     "e": 171.725,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 171.738,
+     "e": 172.063,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "STUDENT",
+   "v": "versus",
+   "d": {
+    "bad": "Student हो और पैसे नहीं?",
+    "good": "Copilot Student: verified students के लिए free"
+   },
+   "start": 172.344,
+   "end": 185.376,
+   "words": [
+    {
+     "t": "Student",
+     "s": 172.344,
+     "e": 172.78,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 172.78,
+     "e": 173.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Verified",
+     "s": 173.93,
+     "e": 174.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "students",
+     "s": 174.567,
+     "e": 175.13,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 175.142,
+     "e": 175.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 175.33,
+     "e": 175.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 175.58,
+     "e": 176.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Student",
+     "s": 176.23,
+     "e": 176.73,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 176.73,
+     "e": 177.042,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 177.042,
+     "e": 177.392,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 178.717,
+     "e": 178.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "verified",
+     "s": 178.942,
+     "e": 179.592,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "teachers",
+     "s": 179.655,
+     "e": 180.255,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 180.317,
+     "e": 180.505,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़े",
+     "s": 180.53,
+     "e": 180.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "open",
+     "s": 180.942,
+     "e": 181.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 181.305,
+     "e": 181.755,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "maintainers",
+     "s": 181.805,
+     "e": 182.542,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 182.542,
+     "e": 182.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 182.717,
+     "e": 183.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 183.342,
+     "e": 183.605,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 183.617,
+     "e": 183.892,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मिल",
+     "s": 183.905,
+     "e": 184.117,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 184.117,
+     "e": 184.53,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 184.53,
+     "e": 184.83,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "START",
+   "v": "list",
+   "d": {
+    "items": [
+     "सीखना शुरू: Copilot Free / Student",
+     "Project बनाना: कोई एक paid plan",
+     "Team: Business / Teams plans"
+    ]
+   },
+   "start": 185.376,
+   "end": 193.531,
+   "words": [
+    {
+     "t": "मेरी",
+     "s": 185.376,
+     "e": 185.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सलाह",
+     "s": 185.627,
+     "e": 186.14,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "सीखते",
+     "s": 186.315,
+     "e": 186.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वक्त",
+     "s": 186.852,
+     "e": 187.177,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 187.202,
+     "e": 187.777,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 187.777,
+     "e": 188.127,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "project",
+     "s": 188.452,
+     "e": 188.877,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाते",
+     "s": 188.877,
+     "e": 189.402,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वक्त",
+     "s": 189.402,
+     "e": 189.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कोई",
+     "s": 189.727,
+     "e": 189.977,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 190.065,
+     "e": 190.29,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 190.302,
+     "e": 190.64,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 190.652,
+     "e": 191.102,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 191.302,
+     "e": 191.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "team",
+     "s": 191.502,
+     "e": 191.84,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 191.852,
+     "e": 192.027,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 192.077,
+     "e": 192.265,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "business",
+     "s": 192.265,
+     "e": 192.727,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 192.727,
+     "e": 193.24,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "start": 193.531,
+   "end": 197.069,
+   "words": [
+    {
+     "t": "अब",
+     "s": 193.531,
+     "e": 193.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "real",
+     "s": 193.652,
+     "e": 193.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "examples",
+     "s": 194.052,
+     "e": 194.839,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कौनसा",
+     "s": 194.939,
+     "e": 195.439,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 195.439,
+     "e": 195.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसमें",
+     "s": 195.764,
+     "e": 196.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आसान",
+     "s": 196.264,
+     "e": 196.777,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "पूरा feature बनाना",
+    "rows": [
+     [
+      "देखो",
+      "agent: Claude Code / Cloud Agents"
+     ],
+     [
+      "Tip",
+      "पहले plan लिखवाओ"
+     ]
+    ]
+   },
+   "start": 197.069,
+   "end": 208.881,
+   "words": [
+    {
+     "t": "Example",
+     "s": 197.069,
+     "e": 197.613,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "एक",
+     "s": 197.701,
+     "e": 197.963,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 198.038,
+     "e": 198.413,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 198.413,
+     "e": 198.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "feature",
+     "s": 198.738,
+     "e": 199.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाना",
+     "s": 199.213,
+     "e": 199.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 200.738,
+     "e": 201.076,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 201.163,
+     "e": 201.563,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "चाहिए",
+     "s": 201.576,
+     "e": 202.101,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 202.338,
+     "e": 202.713,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 202.726,
+     "e": 203.088,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 203.113,
+     "e": 203.438,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 203.438,
+     "e": 203.626,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 203.663,
+     "e": 204.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 204.138,
+     "e": 204.276,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cloud",
+     "s": 204.276,
+     "e": 204.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agents",
+     "s": 204.726,
+     "e": 205.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 206.188,
+     "e": 206.501,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उससे",
+     "s": 206.601,
+     "e": 206.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 206.938,
+     "e": 207.301,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "लिखवाओ",
+     "s": 207.301,
+     "e": 207.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 207.976,
+     "e": 208.188,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 208.201,
+     "e": 208.576,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "edit",
+    "title": "रोज़ का typing",
+    "rows": [
+     [
+      "देखो",
+      "Tab completions"
+     ],
+     [
+      "Copilot Pro",
+      "unlimited completions"
+     ]
+    ]
+   },
+   "start": 208.881,
+   "end": 218.808,
+   "words": [
+    {
+     "t": "Example",
+     "s": 208.881,
+     "e": 209.481,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "दो",
+     "s": 209.481,
+     "e": 209.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रोज़",
+     "s": 209.844,
+     "e": 210.219,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 210.231,
+     "e": 210.369,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 210.394,
+     "e": 210.669,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "typing",
+     "s": 210.731,
+     "e": 211.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 212.269,
+     "e": 212.631,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "autocomplete",
+     "s": 212.694,
+     "e": 213.506,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 213.506,
+     "e": 213.969,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 213.969,
+     "e": 214.256,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 214.294,
+     "e": 214.481,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 214.481,
+     "e": 214.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 215.069,
+     "e": 215.244,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 215.256,
+     "e": 215.856,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 215.856,
+     "e": 216.094,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 216.106,
+     "e": 216.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "completions",
+     "s": 216.281,
+     "e": 217.044,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "unlimited",
+     "s": 217.106,
+     "e": 217.756,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 217.756,
+     "e": 218.631,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "PR review",
+    "rows": [
+     [
+      "Copilot",
+      "pull request reviews"
+     ],
+     [
+      "Cursor",
+      "Bugbot (Premium+)"
+     ]
+    ]
+   },
+   "start": 218.808,
+   "end": 226.914,
+   "words": [
+    {
+     "t": "Example",
+     "s": 218.808,
+     "e": 219.412,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "तीन",
+     "s": 219.412,
+     "e": 219.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pull",
+     "s": 219.825,
+     "e": 220.087,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "request",
+     "s": 220.087,
+     "e": 220.575,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "review",
+     "s": 220.6,
+     "e": 221.037,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 222.05,
+     "e": 222.625,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 222.625,
+     "e": 222.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 222.875,
+     "e": 223.062,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "PR",
+     "s": 223.062,
+     "e": 223.512,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reviews",
+     "s": 223.512,
+     "e": 224.012,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 224.012,
+     "e": 224.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 224.637,
+     "e": 224.812,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 224.812,
+     "e": 225.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Premium",
+     "s": 225.3,
+     "e": 225.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 225.85,
+     "e": 226.025,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Bugbot",
+     "s": 226.025,
+     "e": 226.65,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "Agent को बिना check merge",
+    "good": "हर change पढ़ो, tests चलाओ"
+   },
+   "start": 226.914,
+   "end": 234.214,
+   "words": [
+    {
+     "t": "और",
+     "s": 226.914,
+     "e": 227.047,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 227.085,
+     "e": 227.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरी",
+     "s": 227.572,
+     "e": 227.997,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 228.16,
+     "e": 228.522,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 228.522,
+     "e": 228.722,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 228.735,
+     "e": 229.035,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बिना",
+     "s": 229.035,
+     "e": 229.36,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़े",
+     "s": 229.36,
+     "e": 229.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "merge",
+     "s": 229.685,
+     "e": 230.085,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मत",
+     "s": 230.097,
+     "e": 230.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 230.347,
+     "e": 230.71,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 231.697,
+     "e": 231.922,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "change",
+     "s": 231.947,
+     "e": 232.372,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़ो",
+     "s": 232.372,
+     "e": 232.797,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 232.797,
+     "e": 233.01,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tests",
+     "s": 233.022,
+     "e": 233.46,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "चलाओ",
+     "s": 233.472,
+     "e": 233.972,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Money tips"
+   },
+   "start": 234.214,
+   "end": 236.284,
+   "words": [
+    {
+     "t": "अब",
+     "s": 234.214,
+     "e": 234.335,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 234.372,
+     "e": 234.81,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "बचाने",
+     "s": 234.81,
+     "e": 235.297,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 235.297,
+     "e": 235.447,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तरीके",
+     "s": 235.46,
+     "e": 236.01,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "पहले free / student plan",
+     "एक tool, एक महीना",
+     "Usage page हर हफ्ते देखो"
+    ]
+   },
+   "start": 236.284,
+   "end": 246.658,
+   "words": [
+    {
+     "t": "पहले",
+     "s": 236.284,
+     "e": 236.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 236.53,
+     "e": 236.867,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 236.867,
+     "e": 237.042,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "student",
+     "s": 237.042,
+     "e": 237.53,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 237.53,
+     "e": 237.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 238.892,
+     "e": 239.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 239.18,
+     "e": 239.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tool",
+     "s": 239.43,
+     "e": 239.767,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 239.842,
+     "e": 240.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महीने",
+     "s": 240.08,
+     "e": 240.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 240.53,
+     "e": 241.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 242.03,
+     "e": 242.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 242.23,
+     "e": 242.492,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हफ्ते",
+     "s": 242.492,
+     "e": 242.942,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 242.942,
+     "e": 243.492,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "page",
+     "s": 243.492,
+     "e": 243.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखो",
+     "s": 243.88,
+     "e": 244.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ताकि",
+     "s": 244.53,
+     "e": 244.955,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अचानक",
+     "s": 244.98,
+     "e": 245.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 245.517,
+     "e": 245.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "न",
+     "s": 245.905,
+     "e": 246.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आए",
+     "s": 246.067,
+     "e": 246.405,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "तीनों के paid plans साथ",
+    "good": "एक paid tool + Copilot Free backup"
+   },
+   "start": 246.658,
+   "end": 254.545,
+   "words": [
+    {
+     "t": "तीनों",
+     "s": 246.658,
+     "e": 246.909,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 246.909,
+     "e": 247.109,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 247.109,
+     "e": 247.459,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 247.472,
+     "e": 247.872,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 247.872,
+     "e": 248.259,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लेने",
+     "s": 248.272,
+     "e": 248.634,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 248.634,
+     "e": 248.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरत",
+     "s": 248.784,
+     "e": 249.247,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 249.247,
+     "e": 249.659,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 250.672,
+     "e": 250.884,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "main",
+     "s": 250.922,
+     "e": 251.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tool",
+     "s": 251.284,
+     "e": 251.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लो",
+     "s": 251.572,
+     "e": 251.859,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 252.022,
+     "e": 252.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 252.222,
+     "e": 252.884,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 252.884,
+     "e": 253.172,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "backup",
+     "s": 253.172,
+     "e": 253.672,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 253.672,
+     "e": 253.834,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रखो",
+     "s": 253.834,
+     "e": 254.284,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "Top plan पहले दिन",
+    "good": "Limit बार-बार खत्म हो तभी upgrade"
+   },
+   "start": 254.545,
+   "end": 262.327,
+   "words": [
+    {
+     "t": "और",
+     "s": 254.545,
+     "e": 254.703,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 254.715,
+     "e": 254.978,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 254.978,
+     "e": 255.228,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 255.228,
+     "e": 255.715,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाला",
+     "s": 255.715,
+     "e": 256.053,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 256.065,
+     "e": 256.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 256.415,
+     "e": 256.815,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दिन",
+     "s": 256.815,
+     "e": 256.99,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मत",
+     "s": 257.015,
+     "e": 257.265,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लो",
+     "s": 257.265,
+     "e": 257.565,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जब",
+     "s": 258.54,
+     "e": 258.853,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 258.853,
+     "e": 259.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 259.215,
+     "e": 259.478,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हफ्ते",
+     "s": 259.478,
+     "e": 259.915,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खत्म",
+     "s": 259.928,
+     "e": 260.303,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होने",
+     "s": 260.303,
+     "e": 260.59,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगे",
+     "s": 260.59,
+     "e": 260.94,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तभी",
+     "s": 261.065,
+     "e": 261.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "upgrade",
+     "s": 261.453,
+     "e": 262.028,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "Free: Copilot सबसे आगे",
+     "Cursor अब X Subscription में",
+     "Claude Code: chat वाली limit",
+     "AI code पढ़ो, tests चलाओ"
+    ]
+   },
+   "start": 262.327,
+   "end": 274.676,
+   "words": [
+    {
+     "t": "जल्दी",
+     "s": 262.327,
+     "e": 262.735,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "recap",
+     "s": 262.735,
+     "e": 263.272,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Free",
+     "s": 263.31,
+     "e": 263.697,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 263.772,
+     "e": 264.422,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबसे",
+     "s": 264.422,
+     "e": 264.897,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आगे",
+     "s": 264.935,
+     "e": 265.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 266.322,
+     "e": 266.81,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अब",
+     "s": 266.91,
+     "e": 267.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 267.185,
+     "e": 267.435,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Subscription",
+     "s": 267.485,
+     "e": 268.21,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 268.21,
+     "e": 268.535,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 269.497,
+     "e": 269.797,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 269.822,
+     "e": 270.172,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 270.26,
+     "e": 270.572,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाली",
+     "s": 270.572,
+     "e": 270.935,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 270.96,
+     "e": 271.272,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 272.247,
+     "e": 272.622,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "code",
+     "s": 272.622,
+     "e": 272.985,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़ो",
+     "s": 272.985,
+     "e": 273.422,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tests",
+     "s": 273.572,
+     "e": 273.922,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलाओ",
+     "s": 273.922,
+     "e": 274.447,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "start": 274.676,
+   "end": 275.982,
+   "words": [
+    {
+     "t": "तो",
+     "s": 274.676,
+     "e": 274.76,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसे",
+     "s": 274.76,
+     "e": 275.11,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कौनसा",
+     "s": 275.11,
+     "e": 275.672,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Copilot",
+      "when": "Students, कम budget, GitHub पे काम"
+     },
+     {
+      "who": "Claude Code",
+      "when": "Terminal agent + Claude chat एक plan में"
+     },
+     {
+      "who": "Cursor",
+      "when": "AI editor चाहिए, Grok/X भी use करते हो"
+     }
+    ]
+   },
+   "start": 275.982,
+   "end": 286.617,
+   "words": [
+    {
+     "t": "कम",
+     "s": 275.982,
+     "e": 276.139,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "budget",
+     "s": 276.139,
+     "e": 276.589,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "या",
+     "s": 276.589,
+     "e": 276.789,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "student",
+     "s": 276.789,
+     "e": 277.301,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Copilot",
+     "s": 277.376,
+     "e": 278.076,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Terminal",
+     "s": 279.014,
+     "e": 279.526,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 279.614,
+     "e": 280.014,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 280.089,
+     "e": 280.301,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 280.301,
+     "e": 280.651,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 280.726,
+     "e": 280.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 280.926,
+     "e": 281.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 281.301,
+     "e": 281.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 281.601,
+     "e": 281.964,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 282.014,
+     "e": 282.339,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Editor",
+     "s": 283.326,
+     "e": 283.839,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 283.839,
+     "e": 284.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 284.001,
+     "e": 284.376,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Grok",
+     "s": 284.414,
+     "e": 284.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 284.851,
+     "e": 285.064,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "X",
+     "s": 285.151,
+     "e": 285.414,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 285.414,
+     "e": 285.689,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Cursor",
+     "s": 285.789,
+     "e": 286.326,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 286.617,
+   "end": 294.976,
+   "words": [
+    {
+     "t": "आप",
+     "s": 286.617,
+     "e": 286.789,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 286.827,
+     "e": 287.302,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "use",
+     "s": 287.302,
+     "e": 287.589,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 287.589,
+     "e": 287.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 287.989,
+     "e": 288.252,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 289.189,
+     "e": 289.577,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 289.589,
+     "e": 289.989,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 290.152,
+     "e": 290.339,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 290.427,
+     "e": 290.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 290.752,
+     "e": 291.614,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 291.614,
+     "e": 291.789,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 291.814,
+     "e": 292.077,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 292.164,
+     "e": 292.739,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 292.789,
+     "e": 293.389,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 293.402,
+     "e": 293.752,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
