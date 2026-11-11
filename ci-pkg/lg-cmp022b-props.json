@@ -1,0 +1,5503 @@
+{
+ "id": "cmp022b",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT Search vs Google AI Mode: Kaun Jeeta?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp022b/voice.wav",
+ "duration": 307.781,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT Search vs AI Mode",
+    "pill": "AI SEARCH",
+    "stat": "2",
+    "sub": "तरीके Google करने के"
+   },
+   "start": 0.0,
+   "end": 6.884,
+   "words": [
+    {
+     "t": "Google",
+     "s": 0.0,
+     "e": 0.357,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 0.357,
+     "e": 0.532,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 0.532,
+     "e": 0.932,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 0.932,
+     "e": 1.232,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 1.232,
+     "e": 1.407,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 1.419,
+     "e": 2.219,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 2.219,
+     "e": 2.407,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछो",
+     "s": 2.407,
+     "e": 2.894,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 3.819,
+     "e": 4.244,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 4.319,
+     "e": 4.632,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 4.632,
+     "e": 5.057,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 5.057,
+     "e": 5.207,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 5.207,
+     "e": 5.519,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आगे",
+     "s": 5.594,
+     "e": 5.944,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "है",
+     "s": 5.944,
+     "e": 6.257,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "AGENDA",
+   "v": "list",
+   "d": {
+    "items": [
+     "कैसे काम करता है",
+     "कहाँ मिलता है",
+     "Sources",
+     "Deep research",
+     "Local काम",
+     "Personal context",
+     "Verdict"
+    ]
+   },
+   "start": 6.884,
+   "end": 15.921,
+   "words": [
+    {
+     "t": "आज",
+     "s": 6.884,
+     "e": 7.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखेंगे",
+     "s": 7.105,
+     "e": 7.743,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 7.855,
+     "e": 8.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 8.08,
+     "e": 8.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कैसे",
+     "s": 8.443,
+     "e": 8.805,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 8.805,
+     "e": 9.205,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 9.218,
+     "e": 9.493,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कहाँ",
+     "s": 9.718,
+     "e": 9.993,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलते",
+     "s": 9.993,
+     "e": 10.393,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 10.405,
+     "e": 10.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sources",
+     "s": 10.955,
+     "e": 11.618,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "deep",
+     "s": 11.718,
+     "e": 12.03,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 12.043,
+     "e": 12.605,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 12.768,
+     "e": 13.18,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 13.193,
+     "e": 13.518,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "personal",
+     "s": 13.63,
+     "e": 14.105,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 14.105,
+     "e": 14.655,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 14.893,
+     "e": 15.068,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "verdict",
+     "s": 15.105,
+     "e": 15.605,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "कैसे काम करता है"
+   },
+   "start": 15.921,
+   "end": 19.85,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 15.921,
+     "e": 16.337,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 16.437,
+     "e": 16.687,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 16.774,
+     "e": 17.2,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अंदर",
+     "s": 17.212,
+     "e": 17.599,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 17.599,
+     "e": 17.774,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 17.787,
+     "e": 18.112,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कैसे",
+     "s": 18.137,
+     "e": 18.499,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करते",
+     "s": 18.499,
+     "e": 18.912,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 18.924,
+     "e": 19.687,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "HOW",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT Search",
+     "rows": [
+      [
+       "Method",
+       "queries बनाकर search"
+      ],
+      [
+       "Sources",
+       "search partners"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "Google AI Mode",
+     "rows": [
+      [
+       "Method",
+       "query fan-out"
+      ],
+      [
+       "Sources",
+       "Google Search"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 19.85,
+   "end": 31.77,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 19.85,
+     "e": 20.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपके",
+     "s": 20.777,
+     "e": 21.165,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 21.165,
+     "e": 21.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 21.627,
+     "e": 21.84,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 21.927,
+     "e": 22.177,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 22.177,
+     "e": 22.402,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 22.402,
+     "e": 22.815,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 22.815,
+     "e": 23.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "queries",
+     "s": 23.202,
+     "e": 23.677,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 23.677,
+     "e": 23.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदलता",
+     "s": 23.852,
+     "e": 24.39,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 24.39,
+     "e": 24.702,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 26.027,
+     "e": 26.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 26.415,
+     "e": 26.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 26.752,
+     "e": 27.24,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 27.252,
+     "e": 27.402,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subtopics",
+     "s": 27.402,
+     "e": 28.077,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 28.077,
+     "e": 28.252,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तोड़कर",
+     "s": 28.252,
+     "e": 28.827,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबको",
+     "s": 28.84,
+     "e": 29.352,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 29.415,
+     "e": 29.652,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 29.652,
+     "e": 30.027,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 30.027,
+     "e": 30.415,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 30.44,
+     "e": 30.852,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 30.852,
+     "e": 31.165,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CGEX",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "आपका सवाल",
+     "छोटी search queries",
+     "search partners",
+     "जवाब + sources"
+    ]
+   },
+   "start": 31.77,
+   "end": 43.146,
+   "words": [
+    {
+     "t": "Example",
+     "s": 31.77,
+     "e": 32.392,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपने",
+     "s": 32.505,
+     "e": 32.917,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबा",
+     "s": 32.917,
+     "e": 33.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 33.292,
+     "e": 33.705,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछा",
+     "s": 33.717,
+     "e": 34.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 34.455,
+     "e": 35.38,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उसे",
+     "s": 35.53,
+     "e": 35.817,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटी",
+     "s": 35.842,
+     "e": 36.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "targeted",
+     "s": 36.255,
+     "e": 36.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "queries",
+     "s": 36.88,
+     "e": 37.405,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 37.405,
+     "e": 37.555,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदलता",
+     "s": 37.555,
+     "e": 38.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 38.08,
+     "e": 38.33,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "results",
+     "s": 38.555,
+     "e": 39.08,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़ता",
+     "s": 39.092,
+     "e": 39.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 39.517,
+     "e": 39.78,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 40.067,
+     "e": 40.217,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sources",
+     "s": 40.217,
+     "e": 40.792,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 40.817,
+     "e": 40.955,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 40.955,
+     "e": 41.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 41.367,
+     "e": 41.855,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देता",
+     "s": 41.855,
+     "e": 42.242,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 42.242,
+     "e": 42.567,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "AMEX",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "आपका सवाल",
+     "subtopics",
+     "एक साथ कई searches",
+     "एक जवाब + links"
+    ]
+   },
+   "start": 43.146,
+   "end": 52.433,
+   "words": [
+    {
+     "t": "AI",
+     "s": 43.146,
+     "e": 43.455,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 43.455,
+     "e": 43.793,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वही",
+     "s": 43.793,
+     "e": 44.093,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 44.093,
+     "e": 44.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subtopics",
+     "s": 44.568,
+     "e": 45.205,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 45.205,
+     "e": 45.38,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाँटता",
+     "s": 45.38,
+     "e": 45.918,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 45.918,
+     "e": 46.18,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 46.593,
+     "e": 46.755,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 46.88,
+     "e": 47.105,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 47.105,
+     "e": 47.293,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 47.293,
+     "e": 47.655,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 47.68,
+     "e": 47.868,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 47.868,
+     "e": 48.218,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करता",
+     "s": 48.243,
+     "e": 48.643,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 48.643,
+     "e": 48.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 49.13,
+     "e": 49.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सबको",
+     "s": 49.305,
+     "e": 49.743,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जोड़कर",
+     "s": 49.768,
+     "e": 50.243,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 50.33,
+     "e": 50.543,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 50.555,
+     "e": 50.993,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनाता",
+     "s": 50.993,
+     "e": 51.493,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 51.518,
+     "e": 51.843,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "MODEL",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "AI Mode models",
+    "rows": [
+     [
+      "Default",
+      "Auto / Fast"
+     ],
+     [
+      "Choose",
+      "Gemini 4 Argon, 4 Carbon"
+     ],
+     [
+      "Limit",
+      "daily limits"
+     ]
+    ]
+   },
+   "start": 52.433,
+   "end": 60.255,
+   "words": [
+    {
+     "t": "AI",
+     "s": 52.433,
+     "e": 52.767,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 52.767,
+     "e": 53.092,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 53.104,
+     "e": 53.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आप",
+     "s": 53.392,
+     "e": 53.654,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "menu",
+     "s": 53.654,
+     "e": 54.054,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 54.054,
+     "e": 54.242,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gemini",
+     "s": 54.242,
+     "e": 54.792,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "4",
+     "s": 54.817,
+     "e": 55.129,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Argon",
+     "s": 55.204,
+     "e": 55.767,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 55.767,
+     "e": 55.967,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Carbon",
+     "s": 56.004,
+     "e": 56.492,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "चुन",
+     "s": 56.517,
+     "e": 56.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 56.754,
+     "e": 57.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 57.167,
+     "e": 57.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 57.617,
+     "e": 57.829,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इनकी",
+     "s": 57.929,
+     "e": 58.229,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "daily",
+     "s": 58.267,
+     "e": 58.629,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 58.679,
+     "e": 58.954,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "होती",
+     "s": 58.954,
+     "e": 59.342,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 59.342,
+     "e": 59.654,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "कहाँ मिलता है"
+   },
+   "start": 60.255,
+   "end": 63.418,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 60.255,
+     "e": 60.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 60.685,
+     "e": 60.96,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कहाँ",
+     "s": 61.023,
+     "e": 61.435,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 61.448,
+     "e": 61.66,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसको",
+     "s": 61.673,
+     "e": 62.073,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलता",
+     "s": 62.073,
+     "e": 62.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 62.485,
+     "e": 62.81,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "ACCESS",
+   "v": "table",
+   "d": {
+    "title": "कहाँ मिलता है",
+    "cols": [
+     "ChatGPT Search",
+     "AI Mode"
+    ],
+    "rows": [
+     {
+      "k": "Free?",
+      "v": [
+       "हाँ, बिना login भी",
+       "हाँ"
+      ]
+     },
+     {
+      "k": "कहाँ",
+      "v": [
+       "chatgpt.com, apps",
+       "google.com/ai, Google app"
+      ]
+     },
+     {
+      "k": "Upload",
+      "v": [
+       "files, images",
+       "images, PDF, files"
+      ]
+     }
+    ]
+   },
+   "start": 63.418,
+   "end": 74.924,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 63.418,
+     "e": 63.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 63.801,
+     "e": 64.139,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "हैं",
+     "s": 64.139,
+     "e": 64.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 65.864,
+     "e": 66.714,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 66.714,
+     "e": 67.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 67.164,
+     "e": 67.351,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बिना",
+     "s": 67.351,
+     "e": 67.689,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "login",
+     "s": 67.689,
+     "e": 68.089,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 68.126,
+     "e": 68.289,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 68.301,
+     "e": 68.464,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 68.476,
+     "e": 68.914,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 68.914,
+     "e": 69.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 70.564,
+     "e": 70.939,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 70.939,
+     "e": 71.276,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "google",
+     "s": 71.276,
+     "e": 71.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dot",
+     "s": 71.726,
+     "e": 72.026,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "com",
+     "s": 72.051,
+     "e": 72.301,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "slash",
+     "s": 72.301,
+     "e": 72.751,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ai",
+     "s": 72.814,
+     "e": 73.164,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 73.176,
+     "e": 73.389,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 73.389,
+     "e": 73.589,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 73.589,
+     "e": 74.014,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "app",
+     "s": 74.076,
+     "e": 74.326,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 74.326,
+     "e": 74.739,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "MANUAL",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT में search",
+    "rows": [
+     [
+      "Auto",
+      "ज़रूरत हो तो खुद search"
+     ],
+     [
+      "Manual",
+      "Tools → Search, या /"
+     ]
+    ]
+   },
+   "start": 74.924,
+   "end": 81.96,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 74.924,
+     "e": 75.779,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरत",
+     "s": 75.779,
+     "e": 76.191,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगे",
+     "s": 76.191,
+     "e": 76.566,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 76.641,
+     "e": 76.829,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 76.829,
+     "e": 77.129,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 77.129,
+     "e": 77.516,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करता",
+     "s": 77.529,
+     "e": 77.929,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 77.929,
+     "e": 78.191,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 78.466,
+     "e": 78.641,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आप",
+     "s": 78.729,
+     "e": 78.966,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tools",
+     "s": 78.966,
+     "e": 79.341,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 79.341,
+     "e": 79.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Search",
+     "s": 79.491,
+     "e": 79.866,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "चुनो",
+     "s": 79.879,
+     "e": 80.229,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 80.354,
+     "e": 80.541,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "slash",
+     "s": 80.541,
+     "e": 80.966,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "type",
+     "s": 80.991,
+     "e": 81.229,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करके",
+     "s": 81.266,
+     "e": 81.704,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "PAGE",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "AI Mode tricks",
+    "rows": [
+     [
+      "URL",
+      "link paste करके सवाल"
+     ],
+     [
+      "Chrome",
+      "tabs जोड़ सकते हो"
+     ]
+    ]
+   },
+   "start": 81.96,
+   "end": 89.97,
+   "words": [
+    {
+     "t": "AI",
+     "s": 81.96,
+     "e": 82.29,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 82.29,
+     "e": 82.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 82.652,
+     "e": 82.84,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसी",
+     "s": 82.84,
+     "e": 83.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "webpage",
+     "s": 83.202,
+     "e": 83.802,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 83.827,
+     "e": 84.015,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "link",
+     "s": 84.015,
+     "e": 84.277,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "paste",
+     "s": 84.29,
+     "e": 84.69,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करके",
+     "s": 84.715,
+     "e": 85.19,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उसके",
+     "s": 85.377,
+     "e": 85.715,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बारे",
+     "s": 85.715,
+     "e": 86.052,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 86.052,
+     "e": 86.202,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछ",
+     "s": 86.202,
+     "e": 86.54,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 86.54,
+     "e": 86.965,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 86.965,
+     "e": 87.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 87.452,
+     "e": 87.602,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Chrome",
+     "s": 87.615,
+     "e": 87.952,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 87.952,
+     "e": 88.127,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tabs",
+     "s": 88.127,
+     "e": 88.552,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 88.552,
+     "e": 88.752,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जोड़",
+     "s": 88.765,
+     "e": 89.04,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 89.04,
+     "e": 89.452,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 89.452,
+     "e": 89.74,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Sources"
+   },
+   "start": 89.97,
+   "end": 92.631,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 89.97,
+     "e": 90.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 90.411,
+     "e": 90.748,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sources",
+     "s": 90.823,
+     "e": 91.486,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 91.523,
+     "e": 91.711,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भरोसा",
+     "s": 91.736,
+     "e": 92.336,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "SRC",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "book",
+     "title": "ChatGPT",
+     "rows": [
+      [
+       "Citations",
+       "जवाब के अंदर"
+      ],
+      [
+       "Sources button",
+       "सारे links"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "book",
+     "title": "AI Mode",
+     "rows": [
+      [
+       "Links",
+       "text के बगल में"
+      ],
+      [
+       "Hover",
+       "site का preview"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 92.631,
+   "end": 103.57,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 92.631,
+     "e": 93.016,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sources",
+     "s": 93.016,
+     "e": 93.604,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "दिखाते",
+     "s": 93.604,
+     "e": 94.141,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 94.154,
+     "e": 94.929,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 95.941,
+     "e": 96.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 96.879,
+     "e": 97.029,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "citations",
+     "s": 97.029,
+     "e": 97.879,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 97.966,
+     "e": 98.141,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Sources",
+     "s": 98.141,
+     "e": 98.779,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "button",
+     "s": 98.779,
+     "e": 99.266,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 99.679,
+     "e": 100.041,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 100.054,
+     "e": 100.366,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 100.379,
+     "e": 100.591,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "text",
+     "s": 100.591,
+     "e": 100.916,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 100.941,
+     "e": 101.116,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बगल",
+     "s": 101.116,
+     "e": 101.454,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 101.454,
+     "e": 101.629,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "links",
+     "s": 101.629,
+     "e": 101.991,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 102.066,
+     "e": 102.254,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "hover",
+     "s": 102.279,
+     "e": 102.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 102.679,
+     "e": 102.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "preview",
+     "s": 102.866,
+     "e": 103.304,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TRUST",
+   "v": "versus",
+   "d": {
+    "bad": "AI का जवाब आँख बंद करके मानना",
+    "good": "ज़रूरी बात हो तो source खोलकर check"
+   },
+   "start": 103.57,
+   "end": 113.428,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 103.57,
+     "e": 103.93,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "companies",
+     "s": 103.93,
+     "e": 104.605,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खुद",
+     "s": 104.63,
+     "e": 104.892,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कहती",
+     "s": 104.93,
+     "e": 105.33,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 105.33,
+     "e": 105.642,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कि",
+     "s": 105.742,
+     "e": 105.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 105.967,
+     "e": 106.317,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गलती",
+     "s": 106.317,
+     "e": 106.692,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 106.692,
+     "e": 106.88,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 106.88,
+     "e": 107.317,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 107.317,
+     "e": 107.63,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरी",
+     "s": 109.005,
+     "e": 109.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 109.417,
+     "e": 109.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 109.717,
+     "e": 110.005,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 110.042,
+     "e": 110.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 110.23,
+     "e": 110.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खोलकर",
+     "s": 110.68,
+     "e": 111.205,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "date",
+     "s": 111.205,
+     "e": 111.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 111.63,
+     "e": 111.83,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 111.83,
+     "e": 112.18,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूर",
+     "s": 112.18,
+     "e": 112.517,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 112.53,
+     "e": 112.805,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 112.805,
+     "e": 113.192,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "PRIV",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "ChatGPT location",
+    "rows": [
+     [
+      "Uses",
+      "IP से approx location"
+     ],
+     [
+      "Shares",
+      "IP address नहीं"
+     ]
+    ]
+   },
+   "start": 113.428,
+   "end": 123.0,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 113.428,
+     "e": 114.28,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 114.33,
+     "e": 114.705,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "results",
+     "s": 114.705,
+     "e": 115.255,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 115.267,
+     "e": 115.442,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 115.467,
+     "e": 115.755,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "IP",
+     "s": 115.83,
+     "e": 116.242,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 116.242,
+     "e": 116.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "approximate",
+     "s": 116.48,
+     "e": 117.292,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "location",
+     "s": 117.317,
+     "e": 117.942,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "लेता",
+     "s": 117.98,
+     "e": 118.317,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 118.317,
+     "e": 118.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 118.805,
+     "e": 118.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपका",
+     "s": 119.092,
+     "e": 119.53,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "IP",
+     "s": 119.592,
+     "e": 120.042,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "address",
+     "s": 120.117,
+     "e": 120.567,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 120.617,
+     "e": 121.005,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "partners",
+     "s": 121.017,
+     "e": 121.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 121.705,
+     "e": 121.817,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 121.817,
+     "e": 122.117,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भेजता",
+     "s": 122.117,
+     "e": 122.705,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Deep research"
+   },
+   "start": 123.0,
+   "end": 125.157,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 123.0,
+     "e": 123.454,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 123.479,
+     "e": 123.804,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गहरी",
+     "s": 123.904,
+     "e": 124.304,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 124.304,
+     "e": 124.879,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "DEEP",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "book",
+     "title": "ChatGPT deep research",
+     "rows": [
+      [
+       "Plan",
+       "पहले plan दिखाता"
+      ],
+      [
+       "Output",
+       "Word, PDF report"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "globe",
+     "title": "AI Mode Deep Search",
+     "rows": [
+      [
+       "Reach",
+       "सैकड़ों sites"
+      ],
+      [
+       "Access",
+       "Pro/Ultra, US"
+      ]
+     ]
+    },
+    "accentB": "#2F6BFF"
+   },
+   "start": 125.157,
+   "end": 137.901,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 125.157,
+     "e": 126.0,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deep",
+     "s": 126.063,
+     "e": 126.363,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 126.375,
+     "e": 126.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 126.9,
+     "e": 127.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 127.3,
+     "e": 127.813,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 127.85,
+     "e": 128.175,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दिखाता",
+     "s": 128.175,
+     "e": 128.725,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 128.725,
+     "e": 128.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 129.3,
+     "e": 129.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Word",
+     "s": 129.5,
+     "e": 129.875,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 129.95,
+     "e": 130.125,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "PDF",
+     "s": 130.163,
+     "e": 130.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "report",
+     "s": 130.763,
+     "e": 131.175,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "देता",
+     "s": 131.2,
+     "e": 131.625,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 131.625,
+     "e": 131.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 133.263,
+     "e": 133.675,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 133.675,
+     "e": 133.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Deep",
+     "s": 133.863,
+     "e": 134.188,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Search",
+     "s": 134.188,
+     "e": 134.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अभी",
+     "s": 134.688,
+     "e": 134.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "US",
+     "s": 134.988,
+     "e": 135.4,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 135.4,
+     "e": 135.588,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 135.588,
+     "e": 135.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 135.988,
+     "e": 136.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Ultra",
+     "s": 136.263,
+     "e": 136.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "users",
+     "s": 136.638,
+     "e": 137.138,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 137.138,
+     "e": 137.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 137.338,
+     "e": 137.613,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "DEEP2",
+   "v": "list",
+   "d": {
+    "items": [
+     "Sources आप चुनो: web, files, apps",
+     "Specific sites तक सीमित कर सकते हो",
+     "बीच में रोककर focus बदलो"
+    ]
+   },
+   "start": 137.901,
+   "end": 147.204,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 137.901,
+     "e": 138.753,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deep",
+     "s": 138.815,
+     "e": 139.115,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 139.128,
+     "e": 139.665,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 139.665,
+     "e": 139.84,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sources",
+     "s": 139.84,
+     "e": 140.453,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "आप",
+     "s": 140.528,
+     "e": 140.778,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चुनते",
+     "s": 140.778,
+     "e": 141.203,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 141.203,
+     "e": 141.465,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "specific",
+     "s": 141.603,
+     "e": 142.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sites",
+     "s": 142.215,
+     "e": 142.678,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तक",
+     "s": 142.69,
+     "e": 142.915,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सीमित",
+     "s": 142.915,
+     "e": 143.328,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 143.365,
+     "e": 143.515,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 143.515,
+     "e": 143.903,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 143.903,
+     "e": 144.153,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 144.328,
+     "e": 144.503,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीच",
+     "s": 144.515,
+     "e": 144.84,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 144.89,
+     "e": 145.04,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रोककर",
+     "s": 145.04,
+     "e": 145.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "focus",
+     "s": 145.49,
+     "e": 145.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बदल",
+     "s": 145.953,
+     "e": 146.303,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 146.303,
+     "e": 146.703,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 146.703,
+     "e": 146.978,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VIS",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "AI Mode visuals",
+    "rows": [
+     [
+      "Ask",
+      "simulation, chart, calculator"
+     ],
+     [
+      "Language",
+      "English, signed-in"
+     ]
+    ]
+   },
+   "start": 147.204,
+   "end": 154.71,
+   "words": [
+    {
+     "t": "AI",
+     "s": 147.204,
+     "e": 147.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 147.55,
+     "e": 147.875,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "interactive",
+     "s": 147.963,
+     "e": 148.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "charts",
+     "s": 148.663,
+     "e": 149.125,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 149.188,
+     "e": 149.363,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "simulations",
+     "s": 149.363,
+     "e": 150.15,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 150.15,
+     "e": 150.35,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 150.363,
+     "e": 150.663,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 150.663,
+     "e": 151.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 151.1,
+     "e": 151.363,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बस",
+     "s": 151.575,
+     "e": 151.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 151.85,
+     "e": 152.25,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 152.25,
+     "e": 152.413,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "simulation",
+     "s": 152.413,
+     "e": 153.113,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 153.113,
+     "e": 153.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calculator",
+     "s": 153.313,
+     "e": 154.038,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिखो",
+     "s": 154.05,
+     "e": 154.45,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Local काम"
+   },
+   "start": 154.71,
+   "end": 157.108,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 154.71,
+     "e": 155.109,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 155.109,
+     "e": 155.509,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रोज़",
+     "s": 155.596,
+     "e": 155.946,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 155.946,
+     "e": 156.109,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 156.109,
+     "e": 156.484,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "काम",
+     "s": 156.484,
+     "e": 156.834,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LOCAL",
+   "v": "list",
+   "d": {
+    "items": [
+     "Appointments, prices, stock check",
+     "ज़रूरत हो तो business को call",
+     "Dining reservations: India में English + Hindi"
+    ]
+   },
+   "start": 157.108,
+   "end": 164.381,
+   "words": [
+    {
+     "t": "AI",
+     "s": 157.108,
+     "e": 157.435,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 157.435,
+     "e": 157.76,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 157.785,
+     "e": 158.21,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 158.21,
+     "e": 158.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 158.485,
+     "e": 158.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तेज़",
+     "s": 158.685,
+     "e": 159.06,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 159.06,
+     "e": 159.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "price",
+     "s": 159.485,
+     "e": 159.873,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "stock",
+     "s": 160.035,
+     "e": 160.435,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "appointment",
+     "s": 160.598,
+     "e": 161.298,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 161.31,
+     "e": 161.66,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 161.898,
+     "e": 162.073,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरत",
+     "s": 162.073,
+     "e": 162.498,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 162.498,
+     "e": 162.71,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 162.71,
+     "e": 162.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "business",
+     "s": 162.898,
+     "e": 163.373,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 163.373,
+     "e": 163.51,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 163.51,
+     "e": 163.798,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "भी",
+     "s": 163.798,
+     "e": 164.11,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CHECK",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "सवाल लिखो",
+     "Check for me",
+     "Looks good",
+     "Results (call: 30 min तक)"
+    ]
+   },
+   "start": 164.381,
+   "end": 174.667,
+   "words": [
+    {
+     "t": "तरीका",
+     "s": 164.381,
+     "e": 164.782,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 164.832,
+     "e": 165.307,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिखो",
+     "s": 165.307,
+     "e": 165.732,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Check",
+     "s": 165.944,
+     "e": 166.132,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "for",
+     "s": 166.132,
+     "e": 166.407,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "me",
+     "s": 166.407,
+     "e": 166.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दबाओ",
+     "s": 166.619,
+     "e": 167.144,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "details",
+     "s": 167.257,
+     "e": 167.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखकर",
+     "s": 167.844,
+     "e": 168.382,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Looks",
+     "s": 168.382,
+     "e": 168.719,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "good",
+     "s": 168.744,
+     "e": 168.969,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 168.969,
+     "e": 169.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Web",
+     "s": 170.307,
+     "e": 170.607,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "results",
+     "s": 170.619,
+     "e": 171.144,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कुछ",
+     "s": 171.169,
+     "e": 171.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिनट",
+     "s": 171.419,
+     "e": 171.757,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 171.757,
+     "e": 172.057,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 172.257,
+     "e": 172.569,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाले",
+     "s": 172.569,
+     "e": 172.894,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "results",
+     "s": 172.894,
+     "e": 173.457,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीस",
+     "s": 173.482,
+     "e": 173.807,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "मिनट",
+     "s": 173.807,
+     "e": 174.119,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 174.119,
+     "e": 174.394,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CGLOCAL",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT local",
+    "rows": [
+     [
+      "Results",
+      "restaurants, news, weather"
+     ],
+     [
+      "Mobile",
+      "map भी"
+     ]
+    ]
+   },
+   "start": 174.667,
+   "end": 181.542,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 174.667,
+     "e": 175.509,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 175.534,
+     "e": 175.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 175.759,
+     "e": 176.171,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "results",
+     "s": 176.171,
+     "e": 176.709,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देता",
+     "s": 176.721,
+     "e": 177.109,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 177.109,
+     "e": 177.346,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "restaurants",
+     "s": 177.534,
+     "e": 178.321,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "news",
+     "s": 178.496,
+     "e": 178.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "weather",
+     "s": 179.059,
+     "e": 179.534,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 179.759,
+     "e": 179.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "mobile",
+     "s": 179.934,
+     "e": 180.459,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 180.459,
+     "e": 180.646,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "map",
+     "s": 180.646,
+     "e": 180.946,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 180.946,
+     "e": 181.271,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Personal context"
+   },
+   "start": 181.542,
+   "end": 184.314,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 181.542,
+     "e": 181.965,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 182.002,
+     "e": 182.352,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपके",
+     "s": 182.49,
+     "e": 182.94,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "हिसाब",
+     "s": 182.94,
+     "e": 183.365,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 183.365,
+     "e": 183.565,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 183.577,
+     "e": 184.015,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "PERSONAL",
+   "v": "versus",
+   "d": {
+    "bad": "हर बार अपनी पूरी बात समझाना",
+    "good": "AI Mode: Gmail, Calendar, Photos connect (optional)"
+   },
+   "start": 184.314,
+   "end": 194.152,
+   "words": [
+    {
+     "t": "AI",
+     "s": 184.314,
+     "e": 184.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 184.65,
+     "e": 184.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 184.988,
+     "e": 185.175,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Gmail",
+     "s": 185.175,
+     "e": 185.8,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Calendar",
+     "s": 185.913,
+     "e": 186.475,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 186.588,
+     "e": 186.75,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Photos",
+     "s": 186.763,
+     "e": 187.325,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 187.325,
+     "e": 187.5,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "connect",
+     "s": 187.525,
+     "e": 187.925,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 187.963,
+     "e": 188.15,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 188.15,
+     "e": 188.563,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 188.563,
+     "e": 188.813,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 189.05,
+     "e": 189.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरी",
+     "s": 189.3,
+     "e": 189.6,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तरह",
+     "s": 189.675,
+     "e": 189.9,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपकी",
+     "s": 190.038,
+     "e": 190.488,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मर्ज़ी",
+     "s": 190.5,
+     "e": 190.888,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 190.913,
+     "e": 191.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 191.1,
+     "e": 191.363,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 191.675,
+     "e": 191.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कभी",
+     "s": 191.863,
+     "e": 192.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 192.25,
+     "e": 192.413,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "disconnect",
+     "s": 192.438,
+     "e": 193.025,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कर",
+     "s": 193.063,
+     "e": 193.25,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 193.25,
+     "e": 193.65,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 193.663,
+     "e": 193.938,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CGCTX",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "ChatGPT context",
+    "rows": [
+     [
+      "Follow-ups",
+      "पूरी chat याद रखकर"
+     ],
+     [
+      "Apps",
+      "connected sources"
+     ]
+    ]
+   },
+   "start": 194.152,
+   "end": 202.38,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 194.152,
+     "e": 194.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 194.983,
+     "e": 195.158,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "follow-up",
+     "s": 195.158,
+     "e": 195.671,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 195.671,
+     "e": 196.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरी",
+     "s": 196.133,
+     "e": 196.433,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 196.458,
+     "e": 196.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 196.796,
+     "e": 196.933,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "context",
+     "s": 196.958,
+     "e": 197.508,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 197.533,
+     "e": 197.696,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 197.696,
+     "e": 198.033,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलते",
+     "s": 198.058,
+     "e": 198.521,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 198.533,
+     "e": 198.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जो",
+     "s": 199.096,
+     "e": 199.308,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबी",
+     "s": 199.308,
+     "e": 199.658,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बातचीत",
+     "s": 199.683,
+     "e": 200.258,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 200.258,
+     "e": 200.446,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 200.446,
+     "e": 200.833,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 200.871,
+     "e": 201.096,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आता",
+     "s": 201.108,
+     "e": 201.483,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 201.496,
+     "e": 201.808,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Real examples"
+   },
+   "start": 202.38,
+   "end": 205.342,
+   "words": [
+    {
+     "t": "अब",
+     "s": 202.38,
+     "e": 202.501,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "real",
+     "s": 202.501,
+     "e": 202.839,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "examples",
+     "s": 202.889,
+     "e": 203.639,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 203.639,
+     "e": 203.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझते",
+     "s": 203.814,
+     "e": 204.389,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 204.401,
+     "e": 205.176,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX1",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Restaurant ढूँढना",
+    "rows": [
+     [
+      "Best",
+      "AI Mode"
+     ],
+     [
+      "क्यों",
+      "local data, reservations"
+     ]
+    ]
+   },
+   "start": 205.342,
+   "end": 215.872,
+   "words": [
+    {
+     "t": "Example",
+     "s": 205.342,
+     "e": 205.921,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "एक",
+     "s": 205.996,
+     "e": 206.259,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आज",
+     "s": 206.384,
+     "e": 206.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रात",
+     "s": 206.721,
+     "e": 207.059,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 207.059,
+     "e": 207.221,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "restaurant",
+     "s": 207.221,
+     "e": 207.821,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "ढूँढना",
+     "s": 207.859,
+     "e": 208.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 209.421,
+     "e": 209.771,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 209.859,
+     "e": 210.246,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 210.246,
+     "e": 210.584,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अच्छा",
+     "s": 210.646,
+     "e": 211.059,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 211.059,
+     "e": 211.321,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्योंकि",
+     "s": 211.546,
+     "e": 211.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 211.959,
+     "e": 212.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 212.396,
+     "e": 212.859,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 212.959,
+     "e": 213.159,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dining",
+     "s": 213.159,
+     "e": 213.634,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reservations",
+     "s": 213.634,
+     "e": 214.509,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वहीं",
+     "s": 214.509,
+     "e": 214.846,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 214.846,
+     "e": 215.684,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX2",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Market research report",
+    "rows": [
+     [
+      "Best",
+      "ChatGPT deep research"
+     ],
+     [
+      "क्यों",
+      "plan + downloadable report"
+     ]
+    ]
+   },
+   "start": 215.872,
+   "end": 228.134,
+   "words": [
+    {
+     "t": "Example",
+     "s": 215.872,
+     "e": 216.443,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "दो",
+     "s": 216.443,
+     "e": 216.718,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसी",
+     "s": 216.755,
+     "e": 217.118,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "business",
+     "s": 217.118,
+     "e": 217.593,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "idea",
+     "s": 217.655,
+     "e": 218.143,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 218.143,
+     "e": 218.33,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "market",
+     "s": 218.33,
+     "e": 218.843,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 218.843,
+     "e": 219.443,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "यहाँ",
+     "s": 220.405,
+     "e": 220.743,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 220.743,
+     "e": 221.643,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "deep",
+     "s": 221.73,
+     "e": 222.005,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "research",
+     "s": 222.018,
+     "e": 222.555,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "अच्छा",
+     "s": 222.605,
+     "e": 223.043,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्योंकि",
+     "s": 223.293,
+     "e": 223.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 223.718,
+     "e": 224.055,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 224.055,
+     "e": 224.23,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दिखाता",
+     "s": 224.243,
+     "e": 224.768,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 224.768,
+     "e": 225.043,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 225.255,
+     "e": 225.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "report",
+     "s": 225.468,
+     "e": 225.968,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "download",
+     "s": 226.018,
+     "e": 226.605,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 226.618,
+     "e": 226.83,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 226.843,
+     "e": 227.205,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 227.205,
+     "e": 227.518,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX3",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "किसी topic को सीखना",
+    "rows": [
+     [
+      "दोनों",
+      "follow-up सवाल"
+     ],
+     [
+      "Plus",
+      "AI Mode visuals"
+     ]
+    ]
+   },
+   "start": 228.134,
+   "end": 238.805,
+   "words": [
+    {
+     "t": "Example",
+     "s": 228.134,
+     "e": 228.736,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "तीन",
+     "s": 228.736,
+     "e": 229.073,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कोई",
+     "s": 229.148,
+     "e": 229.498,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 229.498,
+     "e": 229.823,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "topic",
+     "s": 229.823,
+     "e": 230.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सीखना",
+     "s": 230.198,
+     "e": 230.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 231.811,
+     "e": 232.236,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 232.236,
+     "e": 232.411,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "follow-up",
+     "s": 232.411,
+     "e": 232.911,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 232.911,
+     "e": 233.348,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछ",
+     "s": 233.348,
+     "e": 233.698,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकते",
+     "s": 233.698,
+     "e": 234.111,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 234.111,
+     "e": 234.361,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 234.611,
+     "e": 234.798,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 234.911,
+     "e": 235.248,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 235.261,
+     "e": 235.586,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "interactive",
+     "s": 235.673,
+     "e": 236.398,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "diagrams",
+     "s": 236.398,
+     "e": 237.048,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 237.048,
+     "e": 237.223,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बना",
+     "s": 237.236,
+     "e": 237.523,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देता",
+     "s": 237.523,
+     "e": 237.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 237.898,
+     "e": 238.211,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "EX4",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ एक tool पे भरोसा",
+    "good": "ज़रूरी सवाल दोनों में पूछो, जवाब मिलाओ"
+   },
+   "start": 238.805,
+   "end": 247.092,
+   "words": [
+    {
+     "t": "ज़रूरी",
+     "s": 238.805,
+     "e": 239.113,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 239.113,
+     "e": 239.576,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 239.576,
+     "e": 239.838,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 239.913,
+     "e": 240.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 240.338,
+     "e": 240.776,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 240.776,
+     "e": 241.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "health",
+     "s": 241.001,
+     "e": 241.313,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 241.313,
+     "e": 241.513,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जुड़ा",
+     "s": 241.513,
+     "e": 241.888,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 242.088,
+     "e": 242.301,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 242.301,
+     "e": 242.713,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 242.713,
+     "e": 242.863,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछो",
+     "s": 242.863,
+     "e": 243.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 243.513,
+     "e": 243.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलाओ",
+     "s": 243.988,
+     "e": 244.501,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 244.651,
+     "e": 244.826,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 244.838,
+     "e": 245.151,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 245.151,
+     "e": 245.376,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "official",
+     "s": 245.401,
+     "e": 245.976,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "source",
+     "s": 245.976,
+     "e": 246.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखो",
+     "s": 246.338,
+     "e": 246.826,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Search tips"
+   },
+   "start": 247.092,
+   "end": 249.763,
+   "words": [
+    {
+     "t": "अब",
+     "s": 247.092,
+     "e": 247.213,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 247.226,
+     "e": 247.701,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 247.701,
+     "e": 248.163,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाने",
+     "s": 248.163,
+     "e": 248.538,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 248.538,
+     "e": 248.701,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 248.763,
+     "e": 249.038,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tips",
+     "s": 249.063,
+     "e": 249.451,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "TIP1",
+   "v": "list",
+   "d": {
+    "items": [
+     "सवाल में city, date, budget लिखो",
+     "Follow-up से narrow करो",
+     "Source खोलकर date देखो"
+    ]
+   },
+   "start": 249.763,
+   "end": 259.915,
+   "words": [
+    {
+     "t": "Tip",
+     "s": 249.763,
+     "e": 249.925,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "सवाल",
+     "s": 249.975,
+     "e": 250.45,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 250.45,
+     "e": 250.6,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "city",
+     "s": 250.6,
+     "e": 251.05,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "date",
+     "s": 251.238,
+     "e": 251.588,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 251.638,
+     "e": 251.838,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "budget",
+     "s": 251.838,
+     "e": 252.275,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साफ़",
+     "s": 252.275,
+     "e": 252.638,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिखो",
+     "s": 252.638,
+     "e": 253.075,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 254.088,
+     "e": 254.3,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "follow-up",
+     "s": 254.3,
+     "e": 254.825,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 254.825,
+     "e": 255.025,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 255.025,
+     "e": 255.488,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "narrow",
+     "s": 255.488,
+     "e": 255.838,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 255.838,
+     "e": 256.225,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 257.2,
+     "e": 257.4,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 257.413,
+     "e": 257.85,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खोलकर",
+     "s": 257.85,
+     "e": 258.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "उसकी",
+     "s": 258.4,
+     "e": 258.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "date",
+     "s": 258.75,
+     "e": 259.088,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "देखो",
+     "s": 259.088,
+     "e": 259.6,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP2",
+   "v": "versus",
+   "d": {
+    "bad": "एक शब्द वाली search",
+    "good": "पूरा सवाल, जैसे किसी इंसान से पूछते हो"
+   },
+   "start": 259.915,
+   "end": 269.751,
+   "words": [
+    {
+     "t": "AI",
+     "s": 259.915,
+     "e": 260.246,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "search",
+     "s": 260.246,
+     "e": 260.684,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 260.684,
+     "e": 260.884,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 260.946,
+     "e": 261.171,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शब्द",
+     "s": 261.171,
+     "e": 261.509,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 261.534,
+     "e": 261.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरा",
+     "s": 262.159,
+     "e": 262.496,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सवाल",
+     "s": 262.496,
+     "e": 262.921,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "लिखो",
+     "s": 262.921,
+     "e": 263.359,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जैसे",
+     "s": 263.484,
+     "e": 263.896,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसी",
+     "s": 263.896,
+     "e": 264.246,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जानकार",
+     "s": 264.271,
+     "e": 264.821,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोस्त",
+     "s": 264.821,
+     "e": 265.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 265.221,
+     "e": 265.396,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूछते",
+     "s": 265.409,
+     "e": 265.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 265.921,
+     "e": 266.209,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 267.146,
+     "e": 267.621,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 267.621,
+     "e": 267.996,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बेहतर",
+     "s": 267.996,
+     "e": 268.421,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आता",
+     "s": 268.434,
+     "e": 268.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 268.784,
+     "e": 269.109,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TIP3",
+   "v": "versus",
+   "d": {
+    "bad": "पुराना जवाब बार-बार",
+    "good": "नया सवाल = नया thread"
+   },
+   "start": 269.751,
+   "end": 275.714,
+   "words": [
+    {
+     "t": "और",
+     "s": 269.751,
+     "e": 269.873,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 269.911,
+     "e": 270.248,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "topic",
+     "s": 270.248,
+     "e": 270.636,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 270.636,
+     "e": 270.936,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तो",
+     "s": 270.998,
+     "e": 271.186,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नया",
+     "s": 271.186,
+     "e": 271.536,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "thread",
+     "s": 271.536,
+     "e": 271.886,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "शुरू",
+     "s": 271.886,
+     "e": 272.161,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 272.161,
+     "e": 272.548,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ताकि",
+     "s": 272.748,
+     "e": 273.136,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पुरानी",
+     "s": 273.161,
+     "e": 273.586,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बातें",
+     "s": 273.611,
+     "e": 273.998,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नए",
+     "s": 273.998,
+     "e": 274.273,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जवाब",
+     "s": 274.286,
+     "e": 274.711,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 274.711,
+     "e": 274.898,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "न",
+     "s": 274.898,
+     "e": 275.061,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मिलें",
+     "s": 275.061,
+     "e": 275.536,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "RECAP",
+   "v": "list",
+   "d": {
+    "items": [
+     "दोनों free",
+     "AI Mode: local + Google apps",
+     "ChatGPT: बातचीत + reports",
+     "Source हमेशा check"
+    ]
+   },
+   "start": 275.714,
+   "end": 286.908,
+   "words": [
+    {
+     "t": "जल्दी",
+     "s": 275.714,
+     "e": 276.11,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "recap",
+     "s": 276.11,
+     "e": 276.66,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "दोनों",
+     "s": 276.685,
+     "e": 277.098,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 277.098,
+     "e": 277.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 278.498,
+     "e": 278.885,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 278.885,
+     "e": 279.235,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "local",
+     "s": 279.298,
+     "e": 279.748,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "+",
+     "s": 279.76,
+     "e": 280.085,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 280.085,
+     "e": 280.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "apps",
+     "s": 280.535,
+     "e": 280.935,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 281.873,
+     "e": 282.798,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बातचीत",
+     "s": 282.873,
+     "e": 283.498,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "+",
+     "s": 283.498,
+     "e": 283.848,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reports",
+     "s": 283.848,
+     "e": 284.423,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Source",
+     "s": 285.385,
+     "e": 285.835,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हमेशा",
+     "s": 285.835,
+     "e": 286.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 286.335,
+     "e": 286.698,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Verdict"
+   },
+   "start": 286.908,
+   "end": 288.116,
+   "words": [
+    {
+     "t": "तो",
+     "s": 286.908,
+     "e": 286.979,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कब",
+     "s": 286.979,
+     "e": 287.242,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कौनसा",
+     "s": 287.267,
+     "e": 287.804,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "Google AI Mode",
+      "when": "Local, shopping, Google apps, visuals"
+     },
+     {
+      "who": "ChatGPT Search",
+      "when": "लंबी बातचीत, deep research report"
+     },
+     {
+      "who": "दोनों",
+      "when": "ज़रूरी बात का source check करो"
+     }
+    ]
+   },
+   "start": 288.116,
+   "end": 298.044,
+   "words": [
+    {
+     "t": "Local",
+     "s": 288.116,
+     "e": 288.556,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 288.581,
+     "e": 288.769,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "shopping",
+     "s": 288.769,
+     "e": 289.269,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 289.281,
+     "e": 289.444,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 289.469,
+     "e": 289.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 289.831,
+     "e": 290.156,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Mode",
+     "s": 290.156,
+     "e": 290.506,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "बातचीत",
+     "s": 290.619,
+     "e": 291.306,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 291.356,
+     "e": 291.556,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reports",
+     "s": 291.556,
+     "e": 292.131,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 292.131,
+     "e": 292.319,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 292.356,
+     "e": 292.569,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 292.581,
+     "e": 293.544,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 294.556,
+     "e": 294.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरी",
+     "s": 294.769,
+     "e": 295.219,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 295.219,
+     "e": 295.544,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 295.556,
+     "e": 295.694,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "source",
+     "s": 295.694,
+     "e": 296.144,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "हमेशा",
+     "s": 296.144,
+     "e": 296.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खोलकर",
+     "s": 296.619,
+     "e": 297.119,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "check",
+     "s": 297.131,
+     "e": 297.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 297.419,
+     "e": 297.806,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 298.044,
+   "end": 307.781,
+   "words": [
+    {
+     "t": "आप",
+     "s": 298.044,
+     "e": 298.232,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अब",
+     "s": 298.244,
+     "e": 298.457,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Google",
+     "s": 298.469,
+     "e": 298.882,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़्यादा",
+     "s": 298.882,
+     "e": 299.257,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करते",
+     "s": 299.257,
+     "e": 299.644,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 299.644,
+     "e": 299.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 299.844,
+     "e": 300.044,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 300.044,
+     "e": 300.969,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 301.994,
+     "e": 302.382,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 302.394,
+     "e": 302.794,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 302.957,
+     "e": 303.144,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऐसे",
+     "s": 303.232,
+     "e": 303.557,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "comparisons",
+     "s": 303.557,
+     "e": 304.419,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 304.419,
+     "e": 304.594,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 304.619,
+     "e": 304.882,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 304.969,
+     "e": 305.544,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 305.594,
+     "e": 306.194,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 306.207,
+     "e": 306.557,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
