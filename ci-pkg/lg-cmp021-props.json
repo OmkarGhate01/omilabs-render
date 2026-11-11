@@ -1,0 +1,1409 @@
+{
+ "id": "cmp021",
+ "series": "AI COMPARISON",
+ "title": "ChatGPT vs Claude: Kaam Ke Liye Kaunsa Best?",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "cmp021/voice.wav",
+ "duration": 66.766,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "brand": "ChatGPT vs Claude",
+    "pill": "AI FOR WORK",
+    "stat": "$20",
+    "sub": "दोनों का Pro/Plus"
+   },
+   "start": 0.0,
+   "end": 6.654,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 0.0,
+     "e": 0.776,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 0.776,
+     "e": 0.929,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 0.941,
+     "e": 1.319,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 1.401,
+     "e": 1.684,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 1.684,
+     "e": 1.849,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 1.873,
+     "e": 2.073,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौनसा",
+     "s": 2.073,
+     "e": 2.616,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 3.568,
+     "e": 4.005,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 4.005,
+     "e": 4.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 4.323,
+     "e": 4.795,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 4.924,
+     "e": 5.137,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फर्क",
+     "s": 5.137,
+     "e": 5.455,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "बड़ा",
+     "s": 5.455,
+     "e": 5.809,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 5.809,
+     "e": 6.139,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Plans"
+   },
+   "start": 6.654,
+   "end": 8.195,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 6.654,
+     "e": 7.038,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 7.133,
+     "e": 7.345,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 7.428,
+     "e": 7.864,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "PLANS",
+   "v": "table",
+   "d": {
+    "title": "Price per month (USD)",
+    "cols": [
+     "ChatGPT",
+     "Claude"
+    ],
+    "rows": [
+     {
+      "k": "Main plan",
+      "v": [
+       "Plus: $20",
+       "Pro: $20 ($17 yearly)"
+      ]
+     },
+     {
+      "k": "Heavy use",
+      "v": [
+       "Pro 100: $100",
+       "Max: $100"
+      ]
+     },
+     {
+      "k": "Power user",
+      "v": [
+       "Pro 200: $200",
+       "Ultra: $200"
+      ]
+     },
+     {
+      "k": "Top",
+      "v": [
+       "Pro 500: $500",
+       "Team, Enterprise"
+      ]
+     }
+    ]
+   },
+   "start": 8.195,
+   "end": 13.524,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 8.195,
+     "e": 8.528,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 8.528,
+     "e": 8.717,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "main",
+     "s": 8.717,
+     "e": 8.988,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 9.012,
+     "e": 9.377,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बीस",
+     "s": 9.389,
+     "e": 9.731,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "dollar",
+     "s": 9.731,
+     "e": 10.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 10.498,
+     "e": 10.686,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 10.686,
+     "e": 10.969,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 11.028,
+     "e": 11.229,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 11.229,
+     "e": 11.476,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 11.476,
+     "e": 11.689,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "dollar",
+     "s": 11.689,
+     "e": 12.125,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 12.125,
+     "e": 12.29,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़े",
+     "s": 12.29,
+     "e": 12.549,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plans",
+     "s": 12.549,
+     "e": 12.95,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 12.95,
+     "e": 13.245,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LIMITS",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Claude limits",
+    "rows": [
+     [
+      "Reset",
+      "हर 5 घंटे + हर हफ्ते"
+     ],
+     [
+      "Max",
+      "Pro का 5x"
+     ],
+     [
+      "Ultra",
+      "10x, no 5-hr limit"
+     ]
+    ]
+   },
+   "start": 13.524,
+   "end": 21.407,
+   "words": [
+    {
+     "t": "Claude",
+     "s": 13.524,
+     "e": 13.773,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 13.785,
+     "e": 13.962,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 13.974,
+     "e": 14.269,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "हर",
+     "s": 14.269,
+     "e": 14.481,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 14.481,
+     "e": 14.858,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "घंटे",
+     "s": 14.882,
+     "e": 15.33,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 15.448,
+     "e": 15.637,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 15.66,
+     "e": 15.896,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हफ्ते",
+     "s": 15.896,
+     "e": 16.321,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reset",
+     "s": 16.321,
+     "e": 16.721,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 16.721,
+     "e": 17.063,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 17.063,
+     "e": 17.346,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Max",
+     "s": 18.605,
+     "e": 18.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 18.959,
+     "e": 19.124,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 19.124,
+     "e": 19.478,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "गुना",
+     "s": 19.49,
+     "e": 19.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Ultra",
+     "s": 20.009,
+     "e": 20.362,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 20.362,
+     "e": 20.504,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दस",
+     "s": 20.504,
+     "e": 20.787,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "गुना",
+     "s": 20.787,
+     "e": 21.094,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Models"
+   },
+   "start": 21.407,
+   "end": 23.027,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 21.407,
+     "e": 21.796,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 21.796,
+     "e": 22.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 22.138,
+     "e": 22.704,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "MODELS",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT",
+     "rows": [
+      [
+       "Free",
+       "GPT-6 Luna"
+      ],
+      [
+       "Plus",
+       "GPT-6 Astra, 6.1 Sol"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "star",
+     "title": "Claude",
+     "rows": [
+      [
+       "Free",
+       "Sonnet, Haiku"
+      ],
+      [
+       "Pro",
+       "+ Opus"
+      ],
+      [
+       "Top model",
+       "Fable"
+      ]
+     ]
+    },
+    "accentB": "#C2410C"
+   },
+   "start": 23.027,
+   "end": 31.597,
+   "words": [
+    {
+     "t": "ChatGPT",
+     "s": 23.027,
+     "e": 23.791,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Plus",
+     "s": 23.874,
+     "e": 24.181,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 24.181,
+     "e": 24.346,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "GPT-6",
+     "s": 24.346,
+     "e": 25.478,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Astra",
+     "s": 25.537,
+     "e": 25.997,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 26.973,
+     "e": 27.256,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Pro",
+     "s": 27.256,
+     "e": 27.468,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 27.503,
+     "e": 27.68,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Opus",
+     "s": 27.727,
+     "e": 28.175,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 28.329,
+     "e": 28.529,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "top",
+     "s": 28.541,
+     "e": 28.859,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 28.859,
+     "e": 29.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Fable",
+     "s": 29.284,
+     "e": 29.685,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "Pro",
+     "s": 29.685,
+     "e": 29.921,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 29.956,
+     "e": 30.133,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 30.133,
+     "e": 30.593,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "credits",
+     "s": 30.605,
+     "e": 31.053,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 31.064,
+     "e": 31.347,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Coding"
+   },
+   "start": 31.597,
+   "end": 33.139,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 31.597,
+     "e": 32.001,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 32.001,
+     "e": 32.331,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "coding",
+     "s": 32.402,
+     "e": 32.838,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "CODE",
+   "v": "versus",
+   "d": {
+    "bad": "अलग coding tool का अलग bill",
+    "good": "दोनों में coding agent plan में शामिल"
+   },
+   "start": 33.139,
+   "end": 38.838,
+   "words": [
+    {
+     "t": "अच्छी",
+     "s": 33.139,
+     "e": 33.414,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 33.414,
+     "e": 33.744,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 33.803,
+     "e": 34.699,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 34.711,
+     "e": 34.864,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Codex",
+     "s": 34.864,
+     "e": 35.36,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 35.431,
+     "e": 35.619,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 35.619,
+     "e": 35.985,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 35.985,
+     "e": 36.15,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 36.15,
+     "e": 36.48,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 36.504,
+     "e": 36.822,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "दोनों",
+     "s": 36.987,
+     "e": 37.353,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "paid",
+     "s": 37.353,
+     "e": 37.636,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 37.636,
+     "e": 37.978,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 37.978,
+     "e": 38.131,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "शामिल",
+     "s": 38.131,
+     "e": 38.579,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CODE2",
+   "v": "table",
+   "d": {
+    "title": "Coding agent",
+    "cols": [
+     "ChatGPT",
+     "Claude"
+    ],
+    "rows": [
+     {
+      "k": "Agent",
+      "v": [
+       "Codex",
+       "Claude Code"
+      ]
+     },
+     {
+      "k": "Plan",
+      "v": [
+       "Plus में",
+       "Pro में"
+      ]
+     },
+     {
+      "k": "Limit",
+      "v": [
+       "plan की limit",
+       "chat के साथ same pool"
+      ]
+     }
+    ]
+   },
+   "start": 38.838,
+   "end": 43.417,
+   "words": [
+    {
+     "t": "ध्यान",
+     "s": 38.838,
+     "e": 39.191,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 39.203,
+     "e": 39.439,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 39.474,
+     "e": 39.828,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Code",
+     "s": 39.851,
+     "e": 40.17,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 40.241,
+     "e": 40.417,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "chat",
+     "s": 40.441,
+     "e": 40.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 40.866,
+     "e": 41.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ही",
+     "s": 41.101,
+     "e": 41.231,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "usage",
+     "s": 41.243,
+     "e": 41.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pool",
+     "s": 41.726,
+     "e": 42.033,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "से",
+     "s": 42.033,
+     "e": 42.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलते",
+     "s": 42.222,
+     "e": 42.599,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 42.623,
+     "e": 43.318,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Work tools"
+   },
+   "start": 43.417,
+   "end": 45.441,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 43.417,
+     "e": 43.842,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 43.865,
+     "e": 44.16,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "office",
+     "s": 44.313,
+     "e": 44.702,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "का",
+     "s": 44.714,
+     "e": 44.832,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 44.844,
+     "e": 45.174,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "WORK",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "edit",
+     "title": "ChatGPT Plus",
+     "rows": [
+      [
+       "Office",
+       "Excel, Word, PPT"
+      ],
+      [
+       "Extra",
+       "Deep research"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "book",
+     "title": "Claude Pro",
+     "rows": [
+      [
+       "Office",
+       "Microsoft 365"
+      ],
+      [
+       "Extra",
+       "Research, Chrome"
+      ]
+     ]
+    },
+    "accentB": "#C2410C"
+   },
+   "start": 45.441,
+   "end": 53.063,
+   "words": [
+    {
+     "t": "दोनों",
+     "s": 45.441,
+     "e": 45.784,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "office",
+     "s": 45.807,
+     "e": 46.196,
+     "hl": false,
+     "chip": true
+    },
+    {
+     "t": "में",
+     "s": 46.196,
+     "e": 46.338,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आते",
+     "s": 46.338,
+     "e": 46.645,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 46.656,
+     "e": 46.904,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ChatGPT",
+     "s": 47.104,
+     "e": 47.918,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 47.918,
+     "e": 48.083,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Excel",
+     "s": 48.083,
+     "e": 48.614,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 48.767,
+     "e": 48.932,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Word",
+     "s": 48.956,
+     "e": 49.274,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "extensions",
+     "s": 49.345,
+     "e": 50.1,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Claude",
+     "s": 50.3,
+     "e": 50.583,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "for",
+     "s": 50.583,
+     "e": 50.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Microsoft",
+     "s": 50.854,
+     "e": 51.621,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "365",
+     "s": 51.68,
+     "e": 52.741,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Verdict"
+   },
+   "start": 53.063,
+   "end": 54.43,
+   "words": [
+    {
+     "t": "तो",
+     "s": 53.063,
+     "e": 53.154,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "किसके",
+     "s": 53.154,
+     "e": 53.555,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 53.59,
+     "e": 53.755,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 53.767,
+     "e": 54.074,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "ChatGPT",
+      "when": "Image बनाना, voice, सबसे ज़्यादा features"
+     },
+     {
+      "who": "Claude",
+      "when": "लंबी writing, documents, Claude Code"
+     },
+     {
+      "who": "दोनों",
+      "when": "अपने काम पे free में test करो"
+     }
+    ]
+   },
+   "start": 54.43,
+   "end": 59.953,
+   "words": [
+    {
+     "t": "सबसे",
+     "s": 54.43,
+     "e": 54.812,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ी",
+     "s": 54.812,
+     "e": 55.107,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बात",
+     "s": 55.107,
+     "e": 55.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अपना",
+     "s": 55.496,
+     "e": 55.874,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "असली",
+     "s": 55.921,
+     "e": 56.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 56.286,
+     "e": 56.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दोनों",
+     "s": 56.628,
+     "e": 56.958,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 56.958,
+     "e": 57.135,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "free",
+     "s": 57.147,
+     "e": 57.371,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "plan",
+     "s": 57.454,
+     "e": 57.725,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 57.725,
+     "e": 57.878,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 57.89,
+     "e": 58.173,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 58.185,
+     "e": 58.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 58.739,
+     "e": 58.928,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पैसे",
+     "s": 58.928,
+     "e": 59.305,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लगाओ",
+     "s": 59.305,
+     "e": 59.765,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Comment करो",
+    "follow": "Omilabs"
+   },
+   "start": 59.953,
+   "end": 66.766,
+   "words": [
+    {
+     "t": "आपका",
+     "s": 59.953,
+     "e": 60.287,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "favourite",
+     "s": 60.299,
+     "e": 60.818,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कौन",
+     "s": 60.854,
+     "e": 61.113,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 61.113,
+     "e": 61.431,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Comment",
+     "s": 62.738,
+     "e": 63.138,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करो",
+     "s": 63.162,
+     "e": 63.539,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 63.681,
+     "e": 63.846,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 63.929,
+     "e": 64.506,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 64.554,
+     "e": 65.179,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 65.202,
+     "e": 65.521,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
