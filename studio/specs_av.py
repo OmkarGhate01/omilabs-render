@@ -1801,6 +1801,87 @@ V["av10"] = dict(
     ])
 
 
+# ───────────── av11: AI Agents With Memory and Context ─────────────
+V["av11"] = dict(
+    series="AI VOICE AGENTS", music="ELEVENLABS V4", search_kw="AI Agents",
+    title="AI Agents That Remember Customers (Context)",
+    summary="How to give AI voice agents memory and context, explained in Hinglish: what an agent knows within one call versus across calls, passing customer context with dynamic variables, system variables like caller ID, fetching history from your CRM with tools, overrides, knowledge base for shared facts, post-call data collection and webhooks to save what happened, workflows, and privacy. Based on ElevenAgents docs; the agent does not remember past calls on its own.",
+    tags=["ai agent memory", "ai agents context", "dynamic variables", "ai voice agent crm", "elevenlabs agents", "conversation context", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (dynamic variables, overrides, tools, knowledge base, data collection, post-call webhooks, prompting guide)"],
+    hashtags="#AIAgents #VoiceAI #CRM #Hinglish",
+    thumb=dict(a="AI That Remembers", b="", top="AI VOICE AGENTS", hook="NO MORE REPEATS", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="Har call pe customer sab dobara kyun bataye", brand="Agent Memory", pill="AI VOICE AGENTS", stat="3", sub="ways to give context"),
+      "हर call पे customer को सब कुछ दोबारा क्यों बताना पड़ता है? आज agent को context देना सीखते हैं।", "दोबारा", "context"),
+    b("versus", dict(bad="Agent अपने आप पिछली calls याद रखता है", good="Context आप देते हो: variables, tools, CRM"),
+      "पहले एक सच: agent अपने आप पिछली calls याद नहीं रखता। Context आपको देना पड़ता है।", "सच", "context"),
+    b("duo", dict(a=dict(icon="chat", title="Within one call", rows=[["क्या", "पूरी conversation history"], ["Auto", "yes"]]),
+                  b=dict(icon="key", title="Across calls", rows=[["क्या", "पिछली calls, account"], ["Auto", "no, आप pass करो"]]), accentB="#111111"),
+      "एक call के अंदर agent पूरी बातचीत देखता है। पर अलग-अलग calls के बीच की memory आपको pass करनी होती है।", "अंदर", "pass"),
+    b("flow", dict(nodes=["Before call: variables", "During call: tools", "After call: save data"]),
+      "तीन हिस्से: call से पहले variables, call के दौरान tools, और call के बाद data save।", "variables", "tools"),
+
+    CH(1, "Before the call: dynamic variables", "Chapter एक: call शुरू होने से पहले context दो।", ["पहले"], "पहले"),
+    b("card", dict(icon="star", title="Dynamic variables", rows=[["Syntax", "{{user_name}}, {{last_order}}"], ["Where", "system prompt, first message, tools"]]),
+      "Dynamic variables से runtime पे data जाता है: system prompt, first message और tool parameters में।", "variables", "runtime"),
+    b("card", dict(icon="chat", title="Example first message", rows=[["Line", "Hi {{user_name}}, aapka {{last_order}} order ke baare mein call hai?"]]),
+      "First message: hi user name, क्या आपके last order के बारे में call है? Customer को लगता है agent उसे जानता है।", "first", "जानता"),
+    b("list", dict(items=["system__caller_id", "system__called_number", "system__time", "system__conversation_id"]),
+      "System variables अपने आप मिलते हैं: caller ID, called number, time, और conversation ID।", "System", "caller"),
+    b("card", dict(icon="users", title="Batch calls", rows=[["CSV columns", "user_name, plan, due_date"], ["Become", "variables per call"]]),
+      "Batch calls में CSV के columns हर call के लिए variables बन जाते हैं।", "Batch", "columns"),
+    b("card", dict(icon="key", title="Overrides", rows=[["क्या", "per-conversation settings"], ["Example", "language, first message"]]),
+      "Overrides से हर call के लिए language या first message बदलो, बिना नया agent बनाए।", "Overrides", "language"),
+
+    CH(2, "During the call: fetch with tools", "Chapter दो: call के बीच में history लाओ।", ["history"], "history"),
+    b("flow", dict(nodes=["Caller ID", "CRM lookup tool", "Past orders + tickets", "Agent answers"]),
+      "Caller ID से CRM lookup tool चलाओ, पिछले orders और tickets लाओ, फिर agent जवाब दे।", "CRM", "tickets"),
+    b("card", dict(icon="code", title="Prompt rule (docs style)", rows=[["Line", "Always call the tool before giving order info"], ["Never", "rely on memory or assumptions"]]),
+      "Prompting guide की line याद रखो: order की जानकारी देने से पहले हमेशा tool call करो, memory या अंदाज़े पे भरोसा मत करो।", "tool", "अंदाज़े"),
+    b("versus", dict(bad="पूरी history prompt में भर दो", good="ज़रूरत पे tool से सिर्फ relevant data"),
+      "पूरी customer history prompt में मत भरो। Tokens और latency बढ़ते हैं। ज़रूरत पड़ने पे tool से सिर्फ relevant data।", "tokens", "relevant"),
+    b("card", dict(icon="x", title="Tool fail?", rows=[["Do", "बताओ, guess मत करो"], ["Then", "retry, फिर callback"]]),
+      "Tool fail हो तो agent पुरानी जानकारी का अंदाज़ा न लगाए। बताए, retry करे, फिर callback offer करे।", "guess", "callback"),
+
+    CH(3, "Shared facts: knowledge base", "Chapter तीन: जो सबके लिए same है।", ["same"], "same"),
+    b("duo", dict(a=dict(icon="bookmark", title="Knowledge base", rows=[["क्या", "policies, FAQs, catalog"], ["सबके लिए", "same"]]),
+                  b=dict(icon="key", title="Variables / tools", rows=[["क्या", "इस customer का data"], ["Per caller", "अलग"]]), accentB="#111111"),
+      "Knowledge base सबके लिए same जानकारी है, जैसे policies। Customer-specific data variables और tools से।", "Knowledge", "customer"),
+    b("versus", dict(bad="Customer का personal data knowledge base में", good="Personal data सिर्फ tools / variables से"),
+      "Customer का personal data knowledge base में मत डालो। वो सब agents और callers के लिए एक जैसा source है।", "personal", "source"),
+
+    CH(4, "After the call: save memory", "Chapter चार: अगली call के लिए memory बनाओ।", ["memory"], "memory"),
+    b("card", dict(icon="chart", title="Data collection", rows=[["Extract", "issue, promise, next step"], ["Format", "structured fields"]]),
+      "Data collection से हर call से structured data निकालो: issue क्या था, क्या promise हुआ, next step क्या है।", "Data", "structured"),
+    b("card", dict(icon="bolt", title="Post-call webhook", rows=[["Send", "results to your CRM"], ["Next call", "CRM से वापस variables"]]),
+      "Post-call webhook से ये data CRM में जाता है। अगली call पे वही data variables बनकर वापस आता है। यही असली memory loop है।", "webhook", "loop"),
+    b("flow", dict(nodes=["Call", "Data collection", "Webhook → CRM", "Next call variables"]),
+      "Loop: call, data collection, webhook से CRM, और अगली call में variables।", "Loop", "CRM"),
+    b("card", dict(icon="check", title="Summary field", rows=[["Save", "1-line call summary"], ["Next agent/human", "पढ़कर शुरू करे"]]),
+      "एक line की call summary भी save करो, ताकि अगला agent या human उसी से बात शुरू करे।", "summary", "save"),
+
+    CH(5, "Context in long calls", "Chapter पाँच: लंबी call में भी context न खोए।", ["लंबी"], "लंबी"),
+    b("card", dict(icon="star", title="Focus guardrail", rows=[["काम", "prompt को reinforce"], ["कब", "लंबी, complex calls"]]),
+      "लंबी calls में agent goal भूल सकता है। Focus guardrail system prompt को reinforce करता है।", "Focus", "reinforce"),
+    b("card", dict(icon="chart", title="Workflows", rows=[["क्या", "हर stage का छोटा prompt"], ["Context", "stage-wise focus"]]),
+      "Workflows में हर stage का अपना छोटा prompt होता है, तो हर stage पे context साफ रहता है।", "Workflows", "stage"),
+    b("card", dict(icon="users", title="Agent transfer", rows=[["Pass", "summary"], ["Rule", "info दोबारा मत पूछो"]]),
+      "Agent transfer पे summary पास करो, और जो info मिल चुकी है वो दोबारा मत पूछो। Docs यही कहते हैं।", "transfer", "दोबारा"),
+
+    CH(6, "Privacy", "Chapter छह: memory के साथ ज़िम्मेदारी।", ["ज़िम्मेदारी"], "ज़िम्मेदारी"),
+    b("list", dict(items=["सिर्फ ज़रूरी data save करो", "Retention period तय करो", "Identity verify करके details", "Secrets prompt में नहीं"]),
+      "सिर्फ ज़रूरी data save करो, retention period तय करो, details देने से पहले identity verify, और secrets prompt में नहीं।", "data", "retention"),
+    b("versus", dict(bad="Caller ID मिला = account details बता दो", good="पहले verify, फिर details"),
+      "Caller ID से account ढूँढना ठीक है, पर sensitive details बताने से पहले identity verify करो। Number कोई और भी use कर सकता है।", "verify", "sensitive"),
+
+    CH(7, "Recap", "Recap।", ["Recap"], "Recap"),
+    b("flow", dict(nodes=["Variables (before)", "Tools (during)", "Knowledge (shared)", "Data + webhook (after)", "Privacy"]),
+      "Call से पहले variables, दौरान tools, shared knowledge, बाद में data और webhook, और privacy।", "variables", "webhook"),
+    b("cta", dict(title="Next: Scale to 1000+ calls", follow="Omilabs"),
+      "अगली video: एक AI voice agent को हज़ार से ज़्यादा calls तक scale करना। Omilabs subscribe करो।", "scale", "subscribe"),
+    ])
+
+
 V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 

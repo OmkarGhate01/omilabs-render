@@ -1,0 +1,689 @@
+{
+ "id": "av11",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI Agents",
+ "title": "AI Agents That Remember Customers (Context)",
+ "summary": "How to give AI voice agents memory and context, explained in Hinglish: what an agent knows within one call versus across calls, passing customer context with dynamic variables, system variables like caller ID, fetching history from your CRM with tools, overrides, knowledge base for shared facts, post-call data collection and webhooks to save what happened, workflows, and privacy. Based on ElevenAgents docs; the agent does not remember past calls on its own.",
+ "tags": [
+  "ai agent memory",
+  "ai agents context",
+  "dynamic variables",
+  "ai voice agent crm",
+  "elevenlabs agents",
+  "conversation context",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (dynamic variables, overrides, tools, knowledge base, data collection, post-call webhooks, prompting guide)"
+ ],
+ "hashtags": "#AIAgents #VoiceAI #CRM #Hinglish",
+ "thumb": {
+  "a": "AI That Remembers",
+  "b": "",
+  "top": "AI VOICE AGENTS",
+  "hook": "NO MORE REPEATS",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Har call pe customer sab dobara kyun bataye",
+    "brand": "Agent Memory",
+    "pill": "AI VOICE AGENTS",
+    "stat": "3",
+    "sub": "ways to give context"
+   },
+   "say": "हर call पे customer को सब कुछ दोबारा क्यों बताना पड़ता है? आज agent को context देना सीखते हैं।",
+   "hl": [
+    "दोबारा",
+    "context"
+   ],
+   "chip": "दोबारा"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent अपने आप पिछली calls याद रखता है",
+    "good": "Context आप देते हो: variables, tools, CRM"
+   },
+   "say": "पहले एक सच: agent अपने आप पिछली calls याद नहीं रखता। Context आपको देना पड़ता है।",
+   "hl": [
+    "सच",
+    "context"
+   ],
+   "chip": "सच"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "Within one call",
+     "rows": [
+      [
+       "क्या",
+       "पूरी conversation history"
+      ],
+      [
+       "Auto",
+       "yes"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "Across calls",
+     "rows": [
+      [
+       "क्या",
+       "पिछली calls, account"
+      ],
+      [
+       "Auto",
+       "no, आप pass करो"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "एक call के अंदर agent पूरी बातचीत देखता है। पर अलग-अलग calls के बीच की memory आपको pass करनी होती है।",
+   "hl": [
+    "अंदर",
+    "pass"
+   ],
+   "chip": "अंदर"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Before call: variables",
+     "During call: tools",
+     "After call: save data"
+    ]
+   },
+   "say": "तीन हिस्से: call से पहले variables, call के दौरान tools, और call के बाद data save।",
+   "hl": [
+    "variables",
+    "tools"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Before the call: dynamic variables"
+   },
+   "say": "Chapter एक: call शुरू होने से पहले context दो।",
+   "hl": [
+    "पहले"
+   ],
+   "chip": "पहले"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Dynamic variables",
+    "rows": [
+     [
+      "Syntax",
+      "{{user_name}}, {{last_order}}"
+     ],
+     [
+      "Where",
+      "system prompt, first message, tools"
+     ]
+    ]
+   },
+   "say": "Dynamic variables से runtime पे data जाता है: system prompt, first message और tool parameters में।",
+   "hl": [
+    "variables",
+    "runtime"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Example first message",
+    "rows": [
+     [
+      "Line",
+      "Hi {{user_name}}, aapka {{last_order}} order ke baare mein call hai?"
+     ]
+    ]
+   },
+   "say": "First message: hi user name, क्या आपके last order के बारे में call है? Customer को लगता है agent उसे जानता है।",
+   "hl": [
+    "first",
+    "जानता"
+   ],
+   "chip": "first"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "system__caller_id",
+     "system__called_number",
+     "system__time",
+     "system__conversation_id"
+    ]
+   },
+   "say": "System variables अपने आप मिलते हैं: caller ID, called number, time, और conversation ID।",
+   "hl": [
+    "System",
+    "caller"
+   ],
+   "chip": "System"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Batch calls",
+    "rows": [
+     [
+      "CSV columns",
+      "user_name, plan, due_date"
+     ],
+     [
+      "Become",
+      "variables per call"
+     ]
+    ]
+   },
+   "say": "Batch calls में CSV के columns हर call के लिए variables बन जाते हैं।",
+   "hl": [
+    "Batch",
+    "columns"
+   ],
+   "chip": "Batch"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Overrides",
+    "rows": [
+     [
+      "क्या",
+      "per-conversation settings"
+     ],
+     [
+      "Example",
+      "language, first message"
+     ]
+    ]
+   },
+   "say": "Overrides से हर call के लिए language या first message बदलो, बिना नया agent बनाए।",
+   "hl": [
+    "Overrides",
+    "language"
+   ],
+   "chip": "Overrides"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "During the call: fetch with tools"
+   },
+   "say": "Chapter दो: call के बीच में history लाओ।",
+   "hl": [
+    "history"
+   ],
+   "chip": "history"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Caller ID",
+     "CRM lookup tool",
+     "Past orders + tickets",
+     "Agent answers"
+    ]
+   },
+   "say": "Caller ID से CRM lookup tool चलाओ, पिछले orders और tickets लाओ, फिर agent जवाब दे।",
+   "hl": [
+    "CRM",
+    "tickets"
+   ],
+   "chip": "CRM"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Prompt rule (docs style)",
+    "rows": [
+     [
+      "Line",
+      "Always call the tool before giving order info"
+     ],
+     [
+      "Never",
+      "rely on memory or assumptions"
+     ]
+    ]
+   },
+   "say": "Prompting guide की line याद रखो: order की जानकारी देने से पहले हमेशा tool call करो, memory या अंदाज़े पे भरोसा मत करो।",
+   "hl": [
+    "tool",
+    "अंदाज़े"
+   ],
+   "chip": "tool"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "पूरी history prompt में भर दो",
+    "good": "ज़रूरत पे tool से सिर्फ relevant data"
+   },
+   "say": "पूरी customer history prompt में मत भरो। Tokens और latency बढ़ते हैं। ज़रूरत पड़ने पे tool से सिर्फ relevant data।",
+   "hl": [
+    "tokens",
+    "relevant"
+   ],
+   "chip": "tokens"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Tool fail?",
+    "rows": [
+     [
+      "Do",
+      "बताओ, guess मत करो"
+     ],
+     [
+      "Then",
+      "retry, फिर callback"
+     ]
+    ]
+   },
+   "say": "Tool fail हो तो agent पुरानी जानकारी का अंदाज़ा न लगाए। बताए, retry करे, फिर callback offer करे।",
+   "hl": [
+    "guess",
+    "callback"
+   ],
+   "chip": "guess"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Shared facts: knowledge base"
+   },
+   "say": "Chapter तीन: जो सबके लिए same है।",
+   "hl": [
+    "same"
+   ],
+   "chip": "same"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "bookmark",
+     "title": "Knowledge base",
+     "rows": [
+      [
+       "क्या",
+       "policies, FAQs, catalog"
+      ],
+      [
+       "सबके लिए",
+       "same"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "Variables / tools",
+     "rows": [
+      [
+       "क्या",
+       "इस customer का data"
+      ],
+      [
+       "Per caller",
+       "अलग"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Knowledge base सबके लिए same जानकारी है, जैसे policies। Customer-specific data variables और tools से।",
+   "hl": [
+    "Knowledge",
+    "customer"
+   ],
+   "chip": "Knowledge"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Customer का personal data knowledge base में",
+    "good": "Personal data सिर्फ tools / variables से"
+   },
+   "say": "Customer का personal data knowledge base में मत डालो। वो सब agents और callers के लिए एक जैसा source है।",
+   "hl": [
+    "personal",
+    "source"
+   ],
+   "chip": "personal"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "After the call: save memory"
+   },
+   "say": "Chapter चार: अगली call के लिए memory बनाओ।",
+   "hl": [
+    "memory"
+   ],
+   "chip": "memory"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Data collection",
+    "rows": [
+     [
+      "Extract",
+      "issue, promise, next step"
+     ],
+     [
+      "Format",
+      "structured fields"
+     ]
+    ]
+   },
+   "say": "Data collection से हर call से structured data निकालो: issue क्या था, क्या promise हुआ, next step क्या है।",
+   "hl": [
+    "Data",
+    "structured"
+   ],
+   "chip": "Data"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Post-call webhook",
+    "rows": [
+     [
+      "Send",
+      "results to your CRM"
+     ],
+     [
+      "Next call",
+      "CRM से वापस variables"
+     ]
+    ]
+   },
+   "say": "Post-call webhook से ये data CRM में जाता है। अगली call पे वही data variables बनकर वापस आता है। यही असली memory loop है।",
+   "hl": [
+    "webhook",
+    "loop"
+   ],
+   "chip": "webhook"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Call",
+     "Data collection",
+     "Webhook → CRM",
+     "Next call variables"
+    ]
+   },
+   "say": "Loop: call, data collection, webhook से CRM, और अगली call में variables।",
+   "hl": [
+    "Loop",
+    "CRM"
+   ],
+   "chip": "Loop"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Summary field",
+    "rows": [
+     [
+      "Save",
+      "1-line call summary"
+     ],
+     [
+      "Next agent/human",
+      "पढ़कर शुरू करे"
+     ]
+    ]
+   },
+   "say": "एक line की call summary भी save करो, ताकि अगला agent या human उसी से बात शुरू करे।",
+   "hl": [
+    "summary",
+    "save"
+   ],
+   "chip": "summary"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Context in long calls"
+   },
+   "say": "Chapter पाँच: लंबी call में भी context न खोए।",
+   "hl": [
+    "लंबी"
+   ],
+   "chip": "लंबी"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Focus guardrail",
+    "rows": [
+     [
+      "काम",
+      "prompt को reinforce"
+     ],
+     [
+      "कब",
+      "लंबी, complex calls"
+     ]
+    ]
+   },
+   "say": "लंबी calls में agent goal भूल सकता है। Focus guardrail system prompt को reinforce करता है।",
+   "hl": [
+    "Focus",
+    "reinforce"
+   ],
+   "chip": "Focus"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Workflows",
+    "rows": [
+     [
+      "क्या",
+      "हर stage का छोटा prompt"
+     ],
+     [
+      "Context",
+      "stage-wise focus"
+     ]
+    ]
+   },
+   "say": "Workflows में हर stage का अपना छोटा prompt होता है, तो हर stage पे context साफ रहता है।",
+   "hl": [
+    "Workflows",
+    "stage"
+   ],
+   "chip": "Workflows"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Agent transfer",
+    "rows": [
+     [
+      "Pass",
+      "summary"
+     ],
+     [
+      "Rule",
+      "info दोबारा मत पूछो"
+     ]
+    ]
+   },
+   "say": "Agent transfer पे summary पास करो, और जो info मिल चुकी है वो दोबारा मत पूछो। Docs यही कहते हैं।",
+   "hl": [
+    "transfer",
+    "दोबारा"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Privacy"
+   },
+   "say": "Chapter छह: memory के साथ ज़िम्मेदारी।",
+   "hl": [
+    "ज़िम्मेदारी"
+   ],
+   "chip": "ज़िम्मेदारी"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "सिर्फ ज़रूरी data save करो",
+     "Retention period तय करो",
+     "Identity verify करके details",
+     "Secrets prompt में नहीं"
+    ]
+   },
+   "say": "सिर्फ ज़रूरी data save करो, retention period तय करो, details देने से पहले identity verify, और secrets prompt में नहीं।",
+   "hl": [
+    "data",
+    "retention"
+   ],
+   "chip": "data"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller ID मिला = account details बता दो",
+    "good": "पहले verify, फिर details"
+   },
+   "say": "Caller ID से account ढूँढना ठीक है, पर sensitive details बताने से पहले identity verify करो। Number कोई और भी use कर सकता है।",
+   "hl": [
+    "verify",
+    "sensitive"
+   ],
+   "chip": "verify"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Variables (before)",
+     "Tools (during)",
+     "Knowledge (shared)",
+     "Data + webhook (after)",
+     "Privacy"
+    ]
+   },
+   "say": "Call से पहले variables, दौरान tools, shared knowledge, बाद में data और webhook, और privacy।",
+   "hl": [
+    "variables",
+    "webhook"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Scale to 1000+ calls",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video: एक AI voice agent को हज़ार से ज़्यादा calls तक scale करना। Omilabs subscribe करो।",
+   "hl": [
+    "scale",
+    "subscribe"
+   ],
+   "chip": "scale"
+  }
+ ]
+}
