@@ -1635,7 +1635,7 @@ V["av09"] = dict(
 
     CH(2, "Tone rules in prompt", "Chapter दो: prompt में emotion rules।", ["rules"], "rules"),
     b("card", dict(icon="chat", title="Broad guidance (docs)", rows=[["Frustrated", "calm, reassuring"], ["Good news", "genuine warmth"]]),
-      "Docs का broad guidance: user frustrated या upset हो तो calm और reassuring tone।", "calm", "reassuring"),
+      "Docs की सलाह: caller परेशान हो, तो agent की आवाज़ शांत और भरोसा देने वाली हो।", "calm", "reassuring"),
     b("list", dict(items=["Frustration → calm, empathetic", "Technical steps → clear, measured", "Good news → warmth", "Complaint → composed, solution-oriented"]),
       "Specific triggers: frustration पे empathy, technical steps पे साफ और धीमा, अच्छी खबर पे warmth, complaint पे composed।", "triggers", "composed"),
     b("versus", dict(bad="Tags: [laughs] angry caller के साथ", good="Angry caller पे कोई playful tag नहीं"),
@@ -1737,6 +1737,7 @@ V["av04b"] = V["av04"]   # English thumbnail text (Omkar, 12 Nov)
 
 
 V["av09b"] = V["av09"]   # extended (~6k chars)
+V["av09c"] = V["av09"]   # TTS-safe line fix
 
 
 def write(root):
