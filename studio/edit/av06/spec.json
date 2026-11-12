@@ -1,0 +1,1583 @@
+{
+ "id": "av06",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "PROMPT ENGINEERING",
+ "search_kw": "AI Agents",
+ "title": "Give AI Agents a Human-Like Personality",
+ "summary": "Make AI voice agents sound human, not robotic, in Hinglish: personality and tone sections, emotional delivery rules (broad guidance and specific triggers), expressive mode with Eleven v3 Conversational and the new turn-taking system, expressive tags, voice choice, speed control, pronunciation, natural conversation habits, and testing for warmth. Based on the ElevenAgents prompting guide, expressive mode and voice docs.",
+ "tags": [
+  "ai agent personality",
+  "human like ai voice",
+  "ai voice agent",
+  "expressive mode elevenlabs",
+  "not robotic ai",
+  "conversational ai",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (prompting guide, expressive mode, speed control, pronunciation dictionary, voice)"
+ ],
+ "hashtags": "#AIAgents #VoiceAI #ElevenLabs #Hinglish",
+ "thumb": {
+  "a": "Human-Like AI",
+  "b": "",
+  "top": "AI AGENTS",
+  "hook": "NOT A ROBOT",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "AI agent robot jaisa kyun lagta hai",
+    "brand": "Human-Like AI",
+    "pill": "AI AGENTS",
+    "stat": "3",
+    "sub": "layers: prompt, voice, timing"
+   },
+   "say": "आपका AI agent robot जैसा क्यों लगता है? गलती तीन जगह होती है: prompt, voice, और timing। तीनों ठीक करते हैं।",
+   "hl": [
+    "robot",
+    "timing"
+   ],
+   "chip": "robot"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Personality (prompt)",
+     "Emotion (delivery)",
+     "Voice + speed",
+     "Turn-taking (timing)"
+    ]
+   },
+   "say": "Human-like agent के चार हिस्से: prompt में personality, delivery में emotion, सही voice और speed, और सही timing।",
+   "hl": [
+    "personality",
+    "timing"
+   ],
+   "chip": "personality"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Docs की line",
+    "rows": [
+     [
+      "Prompting",
+      "robotic → lifelike"
+     ],
+     [
+      "Source",
+      "ElevenAgents guide"
+     ]
+    ]
+   },
+   "say": "ElevenLabs का prompting guide खुद कहता है: अच्छा prompting agent को robotic से lifelike बनाता है।",
+   "hl": [
+    "robotic",
+    "lifelike"
+   ],
+   "chip": "robotic"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent जो हर बात एक ही tone में बोले",
+    "good": "Agent जो situation के हिसाब से tone बदले"
+   },
+   "say": "Robot की पहचान: हर बात एक ही tone में। इंसान की पहचान: situation के हिसाब से tone बदलना।",
+   "hl": [
+    "tone",
+    "situation"
+   ],
+   "chip": "tone"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Personality section"
+   },
+   "say": "Chapter एक: agent कौन है, ये साफ लिखो।",
+   "hl": [
+    "कौन"
+   ],
+   "chip": "कौन"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "नाम",
+     "Role",
+     "3 स्वभाव words",
+     "किसके लिए काम करता है"
+    ]
+   },
+   "say": "Personality में चार चीज़ें: नाम, role, तीन स्वभाव वाले words, और किसके लिए काम करता है।",
+   "hl": [
+    "Personality",
+    "स्वभाव"
+   ],
+   "chip": "Personality"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Example",
+    "rows": [
+     [
+      "Name",
+      "Riya"
+     ],
+     [
+      "Role",
+      "clinic receptionist"
+     ],
+     [
+      "Traits",
+      "warm, patient, efficient"
+     ]
+    ]
+   },
+   "say": "जैसे: you are Riya, एक clinic की receptionist। Warm, patient, और efficient।",
+   "hl": [
+    "Riya",
+    "warm"
+   ],
+   "chip": "Riya"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "You are a helpful AI assistant",
+    "good": "You are Riya, the receptionist at Smile Dental"
+   },
+   "say": "You are a helpful AI assistant, ये सबसे generic line है। नाम और role वाली line से agent का character बनता है।",
+   "hl": [
+    "generic",
+    "character"
+   ],
+   "chip": "generic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Traits ज़्यादा नहीं",
+    "rows": [
+     [
+      "Best",
+      "2–3 साफ traits"
+     ],
+     [
+      "Avoid",
+      "10 adjectives"
+     ]
+    ]
+   },
+   "say": "Traits दो-तीन रखो। दस adjectives लिखोगे तो model confuse होगा कि असल में कैसा बनना है।",
+   "hl": [
+    "Traits",
+    "confuse"
+   ],
+   "chip": "Traits"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Honest identity",
+    "rows": [
+     [
+      "Rule",
+      "पूछने पे बताओ: मैं AI assistant हूँ"
+     ],
+     [
+      "Why",
+      "trust"
+     ]
+    ]
+   },
+   "say": "Personality का मतलब झूठ नहीं। कोई पूछे तो agent साफ बताए कि वो AI assistant है। Trust इसी से बनता है।",
+   "hl": [
+    "AI",
+    "Trust"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Tone section"
+   },
+   "say": "Chapter दो: बोलने का तरीका।",
+   "hl": [
+    "तरीका"
+   ],
+   "chip": "तरीका"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "# Tone",
+    "rows": [
+     [
+      "Style",
+      "friendly, conversational, professional"
+     ],
+     [
+      "Length",
+      "1–2 sentences"
+     ]
+    ]
+   },
+   "say": "Tone section छोटा और साफ: friendly, conversational, पर professional। जवाब एक-दो sentences के।",
+   "hl": [
+    "Tone",
+    "sentences"
+   ],
+   "chip": "Tone"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tone की बातें पूरे prompt में बिखरी",
+    "good": "Tone सिर्फ # Tone या # Personality में"
+   },
+   "say": "Docs की सलाह: tone guidance पूरे prompt में repeat मत करो, एक ही section में साफ लिखो।",
+   "hl": [
+    "repeat",
+    "section"
+   ],
+   "chip": "repeat"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "छोटे sentences",
+     "Contractions: I'll, you're",
+     "Simple words",
+     "एक बार में एक सवाल"
+    ]
+   },
+   "say": "इंसान जैसी बात के छोटे rules: छोटे sentences, I'll और you're जैसे contractions, simple words, और एक बार में एक सवाल।",
+   "hl": [
+    "sentences",
+    "सवाल"
+   ],
+   "chip": "sentences"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Thank you for contacting us. Your request has been processed.",
+    "good": "Done! Your appointment is booked for 5 PM."
+   },
+   "say": "Robot बोलता है: your request has been processed। इंसान बोलता है: done, आपका appointment पाँच बजे का book है।",
+   "hl": [
+    "Robot",
+    "इंसान"
+   ],
+   "chip": "Robot"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Emotion rules"
+   },
+   "say": "Chapter तीन: कब कौनसा emotion।",
+   "hl": [
+    "emotion"
+   ],
+   "chip": "emotion"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Broad guidance (docs)",
+    "rows": [
+     [
+      "Frustrated user",
+      "calm, reassuring"
+     ],
+     [
+      "Good news",
+      "genuine warmth"
+     ],
+     [
+      "Always",
+      "professional, approachable"
+     ]
+    ]
+   },
+   "say": "Docs का broad guidance example: user frustrated हो तो calm और reassuring, अच्छी खबर हो तो warmth।",
+   "hl": [
+    "calm",
+    "warmth"
+   ],
+   "chip": "calm"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Frustration → calm, empathetic",
+     "Technical steps → clear, measured pace",
+     "Good news → warmth, enthusiasm",
+     "Complaint → composed, solution-oriented"
+    ]
+   },
+   "say": "और specific triggers: frustration पे empathy, technical steps पे धीमा और साफ, अच्छी खबर पे enthusiasm, complaint पे composed।",
+   "hl": [
+    "triggers",
+    "empathy"
+   ],
+   "chip": "triggers"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Angry caller को cheerful जवाब",
+    "good": "Angry caller को calm, solution वाला जवाब"
+   },
+   "say": "सबसे बड़ी गलती: नाराज़ caller को cheerful tone में जवाब। ये सुनकर caller और गुस्सा होता है।",
+   "hl": [
+    "नाराज़",
+    "cheerful"
+   ],
+   "chip": "नाराज़"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Empathy line",
+    "rows": [
+     [
+      "Example",
+      "I understand, that's frustrating."
+     ],
+     [
+      "Then",
+      "तुरंत solution"
+     ]
+    ]
+   },
+   "say": "Empathy line छोटी रखो, जैसे: I understand, that's frustrating। फिर तुरंत solution पे आओ। लंबी sorry नहीं।",
+   "hl": [
+    "Empathy",
+    "solution"
+   ],
+   "chip": "Empathy"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Expressive mode"
+   },
+   "say": "Chapter चार: platform की तरफ से human-like delivery।",
+   "hl": [
+    "delivery"
+   ],
+   "chip": "delivery"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Expressive mode",
+    "rows": [
+     [
+      "Model",
+      "Eleven v3 Conversational"
+     ],
+     [
+      "Plus",
+      "नया turn-taking system"
+     ],
+     [
+      "On",
+      "v3 Conversational चुनते ही"
+     ]
+    ]
+   },
+   "say": "Expressive mode दो चीज़ों पे बना है: Eleven v3 Conversational TTS model, और नया turn-taking system। Model चुनते ही on।",
+   "hl": [
+    "Expressive",
+    "Conversational"
+   ],
+   "chip": "Expressive"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Context-aware delivery",
+     "Prompt से emotional control",
+     "70+ languages",
+     "Expressive tags"
+    ]
+   },
+   "say": "इसमें context के हिसाब से delivery, prompt से emotion control, सत्तर से ज़्यादा languages, और expressive tags।",
+   "hl": [
+    "context",
+    "tags"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Turn-taking signals",
+    "rows": [
+     [
+      "Source",
+      "Scribe v2 Realtime"
+     ],
+     [
+      "Uses",
+      "emotional cues, speech patterns"
+     ]
+    ]
+   },
+   "say": "नया turn-taking Scribe v2 Realtime के signals use करता है, जैसे emotional cues और बोलने का pattern।",
+   "hl": [
+    "Scribe",
+    "cues"
+   ],
+   "chip": "Scribe"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller ने yeah बोला → agent तुरंत बोल पड़ा",
+    "good": "Yeah कैसे बोला, उससे समझे: बात खत्म या जारी"
+   },
+   "say": "Docs का example: yeah पूरा जवाब भी हो सकता है, या आगे बोलने की शुरुआत भी। System ये बोलने के तरीके से समझता है।",
+   "hl": [
+    "yeah",
+    "तरीके"
+   ],
+   "chip": "yeah"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Tune it",
+    "rows": [
+     [
+      "Setting",
+      "turn eagerness"
+     ],
+     [
+      "Where",
+      "conversation flow"
+     ]
+    ]
+   },
+   "say": "Timing और tune करनी है, तो conversation flow में turn eagerness setting है।",
+   "hl": [
+    "eagerness",
+    "Timing"
+   ],
+   "chip": "eagerness"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Expressive tags"
+   },
+   "say": "Chapter पाँच: छोटे moments को control करो।",
+   "hl": [
+    "moments"
+   ],
+   "chip": "moments"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "[laughs]",
+     "[whispers]",
+     "[sighs]",
+     "[slow]",
+     "[excited]"
+    ]
+   },
+   "say": "Common expressive tags: laughs, whispers, sighs, slow, और excited।",
+   "hl": [
+    "tags",
+    "laughs"
+   ],
+   "chip": "tags"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "4–5",
+    "label": "words affected per tag (docs)"
+   },
+   "say": "Docs के मुताबिक हर tag अगले लगभग चार-पाँच words पे असर करता है, फिर delivery normal हो जाती है।",
+   "hl": [
+    "चार",
+    "पाँच"
+   ],
+   "chip": "चार"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Prompt में rules",
+    "rows": [
+     [
+      "[laughs]",
+      "humor के moment पे"
+     ],
+     [
+      "[whispers]",
+      "confidential बात"
+     ],
+     [
+      "[sighs]",
+      "relief या resignation"
+     ]
+    ]
+   },
+   "say": "Prompt में बताओ कौनसा tag कब: humor पे laughs, confidential बात पे whispers, relief पे sighs।",
+   "hl": [
+    "humor",
+    "relief"
+   ],
+   "chip": "humor"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर sentence में [laughs]",
+    "good": "कभी-कभी, सही moment पे"
+   },
+   "say": "Tags ज़्यादा use करोगे तो agent drama करने वाला लगेगा। कम और सही moment पे।",
+   "hl": [
+    "drama",
+    "moment"
+   ],
+   "chip": "drama"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Voice, speed, pronunciation"
+   },
+   "say": "Chapter छह: आवाज़ ही personality है।",
+   "hl": [
+    "आवाज़"
+   ],
+   "chip": "आवाज़"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Voice choice",
+    "rows": [
+     [
+      "Match",
+      "brand और audience"
+     ],
+     [
+      "Test",
+      "phone पे सुनो"
+     ]
+    ]
+   },
+   "say": "Voice brand और audience से match करो: bank के लिए calm और भरोसेमंद, youth brand के लिए energetic।",
+   "hl": [
+    "Voice",
+    "brand"
+   ],
+   "chip": "Voice"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Speed control",
+    "rows": [
+     [
+      "1.0",
+      "normal"
+     ],
+     [
+      "< 1.0",
+      "slow"
+     ],
+     [
+      "> 1.0",
+      "fast"
+     ]
+    ]
+   },
+   "say": "Speed control में एक point zero normal, उससे कम slow, ज़्यादा fast।",
+   "hl": [
+    "Speed",
+    "normal"
+   ],
+   "chip": "Speed"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "1.0 से शुरू करो",
+     "User feedback से adjust",
+     "Audience को ध्यान में रखो",
+     "Extreme values पे quality check"
+    ]
+   },
+   "say": "Docs के best practices: एक point zero से शुरू, feedback से adjust, audience का ध्यान, और extreme values पे quality check।",
+   "hl": [
+    "feedback",
+    "audience"
+   ],
+   "chip": "feedback"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Pronunciation dictionary",
+    "rows": [
+     [
+      "Fix",
+      "names, places, terms"
+     ],
+     [
+      "Effect",
+      "brand नाम सही"
+     ]
+    ]
+   },
+   "say": "Brand या customer का नाम गलत बोला, तो सारी personality खत्म। Pronunciation dictionary से ठीक करो।",
+   "hl": [
+    "Pronunciation",
+    "नाम"
+   ],
+   "chip": "Pronunciation"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Caller की language",
+    "rows": [
+     [
+      "Tool",
+      "language detection"
+     ],
+     [
+      "Prompt",
+      "caller की language में बोलो"
+     ]
+    ]
+   },
+   "say": "Caller Hindi में बोले और agent English में ही जवाब दे, तो robot लगता है। Language detection on करो।",
+   "hl": [
+    "language",
+    "detection"
+   ],
+   "chip": "language"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Natural conversation habits"
+   },
+   "say": "Chapter सात: छोटी आदतें जो बड़ा फर्क लाती हैं।",
+   "hl": [
+    "आदतें"
+   ],
+   "chip": "आदतें"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "नाम से बुलाओ ({{user_name}})",
+     "Confirm करके दोहराओ",
+     "Acknowledge: got it, sure",
+     "Tool wait पे filler line"
+    ]
+   },
+   "say": "चार आदतें: caller को नाम से बुलाओ, details confirm करके दोहराओ, got it जैसे acknowledgment, और tool wait पे एक छोटी line।",
+   "hl": [
+    "नाम",
+    "acknowledgment"
+   ],
+   "chip": "नाम"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Dynamic variables",
+    "rows": [
+     [
+      "Greeting",
+      "Hi {{user_name}}!"
+     ],
+     [
+      "Context",
+      "last order, plan"
+     ]
+    ]
+   },
+   "say": "Dynamic variables से greeting personal बनाओ: hi और caller का नाम, और उसका context।",
+   "hl": [
+    "variables",
+    "personal"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tool चल रहा है, 3 second खामोशी",
+    "good": "One sec, let me check that for you."
+   },
+   "say": "Tool चलते वक्त खामोशी robot जैसी लगती है। छोटी line बोलो: one second, let me check। या tool call sounds on करो।",
+   "hl": [
+    "खामोशी",
+    "check"
+   ],
+   "chip": "खामोशी"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर जवाब में पूरा summary दोहराना",
+    "good": "सिर्फ ज़रूरी बात confirm"
+   },
+   "say": "पर हर जवाब में सब दोहराना भी robotic है। सिर्फ date, time, number जैसी ज़रूरी बात confirm करो।",
+   "hl": [
+    "दोहराना",
+    "confirm"
+   ],
+   "chip": "दोहराना"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Interruptions on",
+    "rows": [
+     [
+      "Why",
+      "इंसान बीच में बोलते हैं"
+     ],
+     [
+      "Agent",
+      "रुके और सुने"
+     ]
+    ]
+   },
+   "say": "इंसान बातचीत में बीच में बोलते हैं। Interruptions on रखो, ताकि agent रुके और सुने।",
+   "hl": [
+    "Interruptions",
+    "सुने"
+   ],
+   "chip": "Interruptions"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Before / after"
+   },
+   "say": "Chapter आठ: एक robotic agent को human-like बनाते हैं।",
+   "hl": [
+    "robotic"
+   ],
+   "chip": "robotic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Before",
+    "rows": [
+     [
+      "Prompt",
+      "You are an AI assistant. Answer customer questions."
+     ],
+     [
+      "Voice",
+      "random default"
+     ],
+     [
+      "Speed",
+      "1.2"
+     ]
+    ]
+   },
+   "say": "Before: you are an AI assistant, answer customer questions। Random voice, और speed एक point दो, बहुत तेज़।",
+   "hl": [
+    "Before",
+    "तेज़"
+   ],
+   "chip": "Before"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "After: personality",
+    "rows": [
+     [
+      "Name",
+      "Arjun, support for an electronics store"
+     ],
+     [
+      "Traits",
+      "calm, clear, solution-focused"
+     ]
+    ]
+   },
+   "say": "After: Arjun, एक electronics store का support। Calm, clear, solution-focused।",
+   "hl": [
+    "Arjun",
+    "calm"
+   ],
+   "chip": "Arjun"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "After: tone + emotion",
+    "rows": [
+     [
+      "Tone",
+      "1–2 sentences, conversational"
+     ],
+     [
+      "Frustration",
+      "calm, empathetic"
+     ],
+     [
+      "Good news",
+      "warm"
+     ]
+    ]
+   },
+   "say": "Tone: एक-दो sentences, conversational। Frustration पे calm और empathetic, अच्छी खबर पे warm।",
+   "hl": [
+    "Tone",
+    "empathetic"
+   ],
+   "chip": "Tone"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "After: platform",
+    "rows": [
+     [
+      "Model",
+      "v3 Conversational (expressive)"
+     ],
+     [
+      "Speed",
+      "1.0"
+     ],
+     [
+      "Language",
+      "detection on"
+     ]
+    ]
+   },
+   "say": "Platform: v3 Conversational के साथ expressive mode, speed एक point zero, और language detection on।",
+   "hl": [
+    "expressive",
+    "detection"
+   ],
+   "chip": "expressive"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Before: सुनते ही पता चले machine है",
+    "good": "After: बात करने में आसान, भरोसेमंद"
+   },
+   "say": "Result: before में सुनते ही machine लगती थी। After में बात करना आसान और भरोसेमंद लगता है।",
+   "hl": [
+    "Result",
+    "भरोसेमंद"
+   ],
+   "chip": "Result"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Testing for warmth"
+   },
+   "say": "Chapter नौ: human-like है या नहीं, कैसे test करें।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Angry caller scenario",
+     "Confused caller",
+     "Good news moment",
+     "Language switch",
+     "Long silence"
+    ]
+   },
+   "say": "Simulation scenarios: angry caller, confused caller, अच्छी खबर, language switch, और लंबी खामोशी।",
+   "hl": [
+    "scenarios",
+    "angry"
+   ],
+   "chip": "scenarios"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Success condition",
+    "rows": [
+     [
+      "Example",
+      "Agent acknowledges frustration before solving"
+     ],
+     [
+      "Check",
+      "tone + सही जवाब"
+     ]
+    ]
+   },
+   "say": "Success condition लिखो, जैसे: agent पहले frustration acknowledge करे, फिर solution दे।",
+   "hl": [
+    "Success",
+    "acknowledge"
+   ],
+   "chip": "Success"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Human test",
+    "rows": [
+     [
+      "कौन",
+      "3–5 लोग"
+     ],
+     [
+      "पूछो",
+      "Natural लगा? भरोसा हुआ?"
+     ]
+    ]
+   },
+   "say": "और असली लोगों से सुनवाओ। तीन से पाँच लोग, एक सवाल: natural लगा? भरोसा हुआ?",
+   "hl": [
+    "लोग",
+    "natural"
+   ],
+   "chip": "लोग"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Sentiment analysis",
+    "rows": [
+     [
+      "Live के बाद",
+      "conversation sentiment"
+     ],
+     [
+      "Watch",
+      "negative calls पढ़ो"
+     ]
+    ]
+   },
+   "say": "Live के बाद sentiment analysis देखो, और negative calls के transcripts पढ़ो। वहीं robotic moments दिखेंगे।",
+   "hl": [
+    "sentiment",
+    "transcripts"
+   ],
+   "chip": "sentiment"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "Industry personalities"
+   },
+   "say": "Chapter: हर business की अलग personality।",
+   "hl": [
+    "business"
+   ],
+   "chip": "business"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Personality by industry",
+    "cols": [
+     "Traits",
+     "Tone"
+    ],
+    "rows": [
+     {
+      "k": "Support",
+      "v": [
+       "calm, patient",
+       "reassuring"
+      ]
+     },
+     {
+      "k": "Sales",
+      "v": [
+       "energetic, curious",
+       "friendly, short"
+      ]
+     },
+     {
+      "k": "Healthcare",
+      "v": [
+       "gentle, careful",
+       "slow, clear"
+      ]
+     },
+     {
+      "k": "Banking",
+      "v": [
+       "precise, trustworthy",
+       "formal-warm"
+      ]
+     }
+    ]
+   },
+   "say": "Support में calm और patient, sales में energetic, healthcare में gentle और धीमा, banking में precise और भरोसेमंद।",
+   "hl": [
+    "Support",
+    "banking"
+   ],
+   "chip": "Support"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Sales agent",
+    "rows": [
+     [
+      "Opening",
+      "नाम + reason, 1 line"
+     ],
+     [
+      "Style",
+      "सवाल ज़्यादा, बोलना कम"
+     ],
+     [
+      "Never",
+      "pushy, fake urgency"
+     ]
+    ]
+   },
+   "say": "Sales agent में opening एक line की, सवाल ज़्यादा पूछे, खुद कम बोले, और कभी pushy या fake urgency नहीं।",
+   "hl": [
+    "Sales",
+    "pushy"
+   ],
+   "chip": "Sales"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Healthcare agent",
+    "rows": [
+     [
+      "Pace",
+      "slow, clear"
+     ],
+     [
+      "Tone",
+      "gentle"
+     ],
+     [
+      "Guardrail",
+      "no medical advice"
+     ]
+    ]
+   },
+   "say": "Healthcare agent धीमा और साफ बोले, tone gentle हो, और guardrail: कोई medical advice नहीं।",
+   "hl": [
+    "Healthcare",
+    "gentle"
+   ],
+   "chip": "Healthcare"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "India के लिए personality"
+   },
+   "say": "Chapter: Indian callers के लिए खास बातें।",
+   "hl": [
+    "Indian"
+   ],
+   "chip": "Indian"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Respectful: आप, जी",
+     "Hinglish code-mixing allowed",
+     "नाम सही बोलना",
+     "Local time से बात"
+    ]
+   },
+   "say": "Indian callers के लिए: आप और जी जैसे respectful words, Hinglish mix allowed, नाम सही बोलना, और local time के हिसाब से बात।",
+   "hl": [
+    "respectful",
+    "Hinglish"
+   ],
+   "chip": "respectful"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Pure formal Hindi, किताबी शब्द",
+    "good": "रोज़ की Hinglish, जैसे लोग बोलते हैं"
+   },
+   "say": "किताबी Hindi robot जैसी लगती है। वैसी Hinglish जो लोग रोज़ बोलते हैं, ज़्यादा natural लगती है।",
+   "hl": [
+    "किताबी",
+    "natural"
+   ],
+   "chip": "किताबी"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Prompt line",
+    "rows": [
+     [
+      "Rule",
+      "If the caller mixes Hindi and English, reply the same way."
+     ],
+     [
+      "Plus",
+      "Use respectful forms like aap."
+     ]
+    ]
+   },
+   "say": "Prompt में line: अगर caller Hindi और English mix करे, तो वैसे ही जवाब दो, और respectful forms use करो।",
+   "hl": [
+    "mix",
+    "respectful"
+   ],
+   "chip": "mix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Names",
+    "rows": [
+     [
+      "Problem",
+      "Indian names गलत बोलना"
+     ],
+     [
+      "Fix",
+      "pronunciation dictionary + test"
+     ]
+    ]
+   },
+   "say": "Indian नाम अक्सर गलत बोले जाते हैं। Common नामों और brand words की pronunciation dictionary बनाओ और test करो।",
+   "hl": [
+    "नाम",
+    "dictionary"
+   ],
+   "chip": "नाम"
+  },
+  {
+   "tag": "CH12",
+   "v": "chapter",
+   "d": {
+    "num": 12,
+    "title": "Multi-voice personas"
+   },
+   "say": "Chapter: एक agent, कई आवाज़ें।",
+   "hl": [
+    "आवाज़ें"
+   ],
+   "chip": "आवाज़ें"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Multi-voice support",
+    "rows": [
+     [
+      "क्या",
+      "एक conversation में कई voices"
+     ],
+     [
+      "कैसे",
+      "XML-style markup"
+     ],
+     [
+      "Default",
+      "बाकी समय default voice"
+     ]
+    ]
+   },
+   "say": "Multi-voice support से agent एक ही conversation में अलग voices पे switch कर सकता है, और बाकी समय default voice पे लौटता है।",
+   "hl": [
+    "Multi-voice",
+    "switch"
+   ],
+   "chip": "Multi-voice"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Storytelling characters",
+     "Language tutoring",
+     "Emotional context",
+     "Role-play training"
+    ]
+   },
+   "say": "Docs के use cases: storytelling characters, language tutoring, emotional context, और role-play।",
+   "hl": [
+    "storytelling",
+    "role-play"
+   ],
+   "chip": "storytelling"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Example",
+    "rows": [
+     [
+      "Sales training",
+      "agent customer बनकर role-play"
+     ],
+     [
+      "Voice",
+      "customer के लिए अलग voice"
+     ]
+    ]
+   },
+   "say": "जैसे sales team की training: agent customer बनकर role-play करे, और customer के लिए अलग voice हो।",
+   "hl": [
+    "training",
+    "role-play"
+   ],
+   "chip": "training"
+  },
+  {
+   "tag": "CH13",
+   "v": "chapter",
+   "d": {
+    "num": 13,
+    "title": "Sample dialogue"
+   },
+   "say": "Chapter: एक sample बातचीत सुनो।",
+   "hl": [
+    "बातचीत"
+   ],
+   "chip": "बातचीत"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Caller (frustrated)",
+    "rows": [
+     [
+      "Line",
+      "Main teen din se wait kar raha hoon!"
+     ]
+    ]
+   },
+   "say": "Caller गुस्से में: मैं तीन दिन से wait कर रहा हूँ!",
+   "hl": [
+    "गुस्से",
+    "wait"
+   ],
+   "chip": "गुस्से"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Robot reply",
+    "rows": [
+     [
+      "Line",
+      "Your complaint has been registered. Please wait."
+     ]
+    ]
+   },
+   "say": "Robot जवाब: your complaint has been registered, please wait। ये सुनकर गुस्सा और बढ़ता है।",
+   "hl": [
+    "Robot",
+    "गुस्सा"
+   ],
+   "chip": "Robot"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Human-like reply",
+    "rows": [
+     [
+      "Line",
+      "Samajh sakta hoon, teen din bahut hai. Abhi check karta hoon."
+     ]
+    ]
+   },
+   "say": "Human-like जवाब: समझ सकता हूँ, तीन दिन बहुत होते हैं। मैं अभी check करता हूँ।",
+   "hl": [
+    "समझ",
+    "check"
+   ],
+   "chip": "समझ"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "क्या फर्क पड़ा",
+    "rows": [
+     [
+      "1",
+      "Feeling acknowledge"
+     ],
+     [
+      "2",
+      "Short"
+     ],
+     [
+      "3",
+      "तुरंत action"
+     ]
+    ]
+   },
+   "say": "फर्क: feeling acknowledge की, जवाब छोटा रखा, और तुरंत action लिया। यही तीन चीज़ें human-like बनाती हैं।",
+   "hl": [
+    "acknowledge",
+    "action"
+   ],
+   "chip": "acknowledge"
+  },
+  {
+   "tag": "CH14",
+   "v": "chapter",
+   "d": {
+    "num": 14,
+    "title": "5 mistakes"
+   },
+   "say": "Bonus: पाँच गलतियाँ।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Generic AI assistant identity",
+     "हर situation में same tone",
+     "Tags का ज़्यादा use",
+     "बहुत तेज़ speed",
+     "लंबे, formal जवाब"
+    ]
+   },
+   "say": "Generic identity, हर situation में same tone, tags का ज़्यादा use, बहुत तेज़ speed, और लंबे formal जवाब।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Human जैसा बनाकर इंसान होने का दावा",
+    "good": "Human जैसा, पर honest: मैं AI हूँ"
+   },
+   "say": "और याद रखो: human-like बनाना है, इंसान होने का दावा नहीं। पूछने पे agent साफ बताए कि वो AI है।",
+   "hl": [
+    "honest",
+    "AI"
+   ],
+   "chip": "honest"
+  },
+  {
+   "tag": "CH15",
+   "v": "chapter",
+   "d": {
+    "num": 15,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Personality: नाम, role, 2–3 traits",
+     "Tone एक जगह",
+     "Emotion triggers",
+     "Expressive mode",
+     "Voice + speed + pronunciation",
+     "Natural habits",
+     "Test for warmth"
+    ]
+   },
+   "say": "Personality, tone, emotion triggers, expressive mode, voice और speed, natural habits, और testing।",
+   "hl": [
+    "Personality",
+    "testing"
+   ],
+   "chip": "Personality"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Stop hallucinations",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में AI hallucinations रोकना सीखेंगे। Omilabs subscribe करो।",
+   "hl": [
+    "hallucinations",
+    "subscribe"
+   ],
+   "chip": "hallucinations"
+  }
+ ]
+}
