@@ -1,0 +1,40 @@
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b0.mp3 -af atrim=start=0.171:end=9.624,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b0_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b1.mp3 -af atrim=start=0.175:end=8.809,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b1_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b2.mp3 -af atrim=start=0.167:end=6.955,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b2_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b3.mp3 -af atrim=start=0.160:end=3.984,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b3_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b4.mp3 -af atrim=start=0.161:end=8.664,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b4_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b5.mp3 -af atrim=start=0.136:end=7.993,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b5_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b6.mp3 -af atrim=start=0.167:end=8.366,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b6_t.mp3
+> ffmpeg -y -loglevel error -i /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b7.mp3 -af atrim=start=0.156:end=2.734,asetpts=PTS-STARTPTS /home/runner/work/omilabs-render/omilabs-render/studio/edit/av09b/tts/b7_t.mp3
+TTS retry 1 for: Docs का broad guidance: user frustrated या upset हो तो calm  (NoAudioReceived)
+TTS retry 2 for: Docs का broad guidance: user frustrated या upset हो तो calm  (NoAudioReceived)
+TTS retry 3 for: Docs का broad guidance: user frustrated या upset हो तो calm  (NoAudioReceived)
+TTS retry 4 for: Docs का broad guidance: user frustrated या upset हो तो calm  (NoAudioReceived)
+TTS retry 5 for: Docs का broad guidance: user frustrated या upset हो तो calm  (NoAudioReceived)
+Traceback (most recent call last):
+  File "/home/runner/work/omilabs-render/omilabs-render/studio/scripts/make_short.py", line 182, in <module>
+    main()
+  File "/home/runner/work/omilabs-render/omilabs-render/studio/scripts/make_short.py", line 96, in main
+    words = tts_retry(b["say"], spec["voice"], spec.get("rate", "+0%"), mp3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/omilabs-render/omilabs-render/studio/scripts/make_short.py", line 61, in tts_retry
+    raise last
+  File "/home/runner/work/omilabs-render/omilabs-render/studio/scripts/make_short.py", line 58, in tts_retry
+    return asyncio.run(tts(t, voice, rate, mp3))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/omilabs-render/omilabs-render/studio/scripts/make_short.py", line 42, in tts
+    async for ch in com.stream():
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
