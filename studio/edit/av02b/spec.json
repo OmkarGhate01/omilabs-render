@@ -1,0 +1,2620 @@
+{
+ "id": "av02b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI Phone Calls",
+ "title": "How AI Agents Make AI Phone Calls (Architecture)",
+ "summary": "The full journey of an automated AI phone call in Hinglish: phone numbers, Twilio and SIP trunking, inbound and outbound flows, batch calling, what happens inside one conversational turn (speech-to-text, LLM, text-to-speech, turn-taking), latency, tools, voicemail detection, post-call analysis and scaling. Based on ElevenAgents docs.",
+ "tags": [
+  "ai phone calls",
+  "ai calling agent",
+  "how ai voice agents work",
+  "voice ai architecture",
+  "sip trunk ai",
+  "twilio ai agent",
+  "batch calling ai",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (phone numbers: Twilio, SIP trunking, batch calls; voicemail detection; conversation flow; analysis; burst pricing)",
+  "elevenlabs.io/docs/eleven-api latency optimization"
+ ],
+ "hashtags": "#AIPhoneCalls #VoiceAI #AIAgent #Hinglish",
+ "thumb": {
+  "a": "AI Phone Calls",
+  "b": "",
+  "top": "ARCHITECTURE",
+  "hook": "ANDAR KYA HOTA HAI",
+  "accent": "#2F6BFF",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "AI agent call kaise karta hai",
+    "brand": "AI Phone Calls",
+    "pill": "ARCHITECTURE",
+    "stat": "4",
+    "sub": "core components हर call में"
+   },
+   "say": "AI agent खुद phone call कैसे करता है? Number dial होने से call खत्म होने तक, पूरा system देखते हैं।",
+   "hl": [
+    "AI",
+    "call"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Phone number",
+     "Telephony",
+     "AI agent",
+     "Tools",
+     "Analysis"
+    ]
+   },
+   "say": "Big picture: phone number, telephony, AI agent, tools, और call के बाद analysis।",
+   "hl": [
+    "Big",
+    "picture"
+   ],
+   "chip": "Big"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Telephony: Twilio vs SIP",
+     "Inbound और outbound",
+     "Batch calls",
+     "एक turn के अंदर",
+     "Voicemail, tools, analysis",
+     "Scale"
+    ]
+   },
+   "say": "इस video में: telephony, inbound outbound, batch calls, एक turn के अंदर क्या होता है, और scale कैसे होता है।",
+   "hl": [
+    "telephony",
+    "scale"
+   ],
+   "chip": "telephony"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Base",
+    "rows": [
+     [
+      "Platform",
+      "ElevenAgents"
+     ],
+     [
+      "Source",
+      "official docs"
+     ],
+     [
+      "Format",
+      "documented walkthrough"
+     ]
+    ]
+   },
+   "say": "Example ElevenAgents का है, और सब कुछ official docs से।",
+   "hl": [
+    "ElevenAgents",
+    "docs"
+   ],
+   "chip": "ElevenAgents"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Phone number और telephony"
+   },
+   "say": "Chapter एक: agent तक call पहुँचती कैसे है।",
+   "hl": [
+    "call"
+   ],
+   "chip": "call"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "AI agent अपने आप phone line नहीं है",
+    "good": "Telephony layer call को agent तक लाती है"
+   },
+   "say": "AI agent खुद phone line नहीं है। बीच में telephony layer होती है जो call को agent तक लाती है।",
+   "hl": [
+    "telephony",
+    "layer"
+   ],
+   "chip": "telephony"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "mobile",
+     "title": "Twilio native",
+     "rows": [
+      [
+       "Setup",
+       "number import करो"
+      ],
+      [
+       "Calls",
+       "inbound + outbound"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "SIP trunk",
+     "rows": [
+      [
+       "Setup",
+       "अपना PBX / phone system"
+      ],
+      [
+       "Calls",
+       "inbound + outbound"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Docs में दो main रास्ते हैं: Twilio native integration, या अपना SIP trunk।",
+   "hl": [
+    "Twilio",
+    "SIP"
+   ],
+   "chip": "Twilio"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Twilio number types",
+    "cols": [
+     "Purchased number",
+     "Verified caller ID"
+    ],
+    "rows": [
+     {
+      "k": "Inbound",
+      "v": [
+       "yes",
+       "no"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Outbound",
+      "v": [
+       "yes",
+       "yes"
+      ]
+     }
+    ]
+   },
+   "say": "Twilio में purchased number inbound और outbound दोनों करता है। Verified caller ID सिर्फ outbound।",
+   "hl": [
+    "purchased",
+    "outbound"
+   ],
+   "chip": "purchased"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Verified caller ID पे inbound agent लगाना",
+    "good": "Inbound के लिए purchased number"
+   },
+   "say": "आम गलती: verified caller ID पे inbound agent लगाना। वो calls receive ही नहीं कर सकता।",
+   "hl": [
+    "गलती",
+    "receive"
+   ],
+   "chip": "गलती"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "SIP trunking",
+    "rows": [
+     [
+      "क्या",
+      "existing PBX को जोड़ो"
+     ],
+     [
+      "फायदा",
+      "phone system बदले बिना"
+     ],
+     [
+      "Security",
+      "TLS + media encryption"
+     ]
+    ]
+   },
+   "say": "SIP trunking से आपका existing PBX सीधे agent से जुड़ जाता है, बिना phone system बदले।",
+   "hl": [
+    "SIP",
+    "PBX"
+   ],
+   "chip": "SIP"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Inbound: SIP INVITE address पे",
+     "Outbound: आपके hostname से",
+     "Auth: digest या ACL",
+     "Signaling: TLS supported"
+    ]
+   },
+   "say": "SIP में inbound calls INVITE address पे आती हैं, outbound आपके hostname से जाती हैं, और authentication digest या ACL से।",
+   "hl": [
+    "INVITE",
+    "ACL"
+   ],
+   "chip": "INVITE"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Security",
+    "rows": [
+     [
+      "Signaling",
+      "TLS"
+     ],
+     [
+      "Audio",
+      "media encryption"
+     ]
+    ]
+   },
+   "say": "Security के लिए signaling TLS पे, और audio के लिए media encryption।",
+   "hl": [
+    "TLS",
+    "encryption"
+   ],
+   "chip": "TLS"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Inbound call: step by step"
+   },
+   "say": "Chapter दो: जब कोई customer आपके number पे call करता है।",
+   "hl": [
+    "customer"
+   ],
+   "chip": "customer"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Customer dials",
+     "Number",
+     "Agent picks",
+     "First message",
+     "Conversation"
+    ]
+   },
+   "say": "Customer number dial करता है, call agent तक route होती है, और agent first message बोलता है।",
+   "hl": [
+    "dial",
+    "first"
+   ],
+   "chip": "dial"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "First message",
+    "rows": [
+     [
+      "कब",
+      "call उठते ही"
+     ],
+     [
+      "Tip",
+      "छोटा, नाम के साथ"
+     ]
+    ]
+   },
+   "say": "First message छोटा रखो। लंबा intro सुनकर लोग call काट देते हैं।",
+   "hl": [
+    "छोटा",
+    "काट"
+   ],
+   "chip": "छोटा"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Caller info",
+    "rows": [
+     [
+      "system__caller_id",
+      "caller का number"
+     ],
+     [
+      "system__called_number",
+      "आपका number"
+     ]
+    ]
+   },
+   "say": "Voice calls में system variables मिलते हैं, जैसे caller का number और आपका called number।",
+   "hl": [
+    "caller",
+    "number"
+   ],
+   "chip": "caller"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर caller से phone number दोबारा पूछना",
+    "good": "caller_id से account पहले से ढूँढो"
+   },
+   "say": "Caller ID से आप account पहले से ढूँढ सकते हो, ताकि number दोबारा पूछना न पड़े।",
+   "hl": [
+    "Caller",
+    "account"
+   ],
+   "chip": "Caller"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Support line",
+     "Appointment booking",
+     "Order status",
+     "After-hours receptionist"
+    ]
+   },
+   "say": "Inbound use cases: support line, appointment, order status, और office बंद होने के बाद receptionist।",
+   "hl": [
+    "Inbound"
+   ],
+   "chip": "Inbound"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Outbound और batch calls"
+   },
+   "say": "Chapter तीन: जब agent खुद call करता है।",
+   "hl": [
+    "खुद"
+   ],
+   "chip": "खुद"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Batch calling",
+    "rows": [
+     [
+      "List",
+      "CSV या XLS"
+     ],
+     [
+      "Personal",
+      "dynamic variables columns"
+     ],
+     [
+      "Timing",
+      "अभी या schedule"
+     ]
+    ]
+   },
+   "say": "Batch calling में recipient list CSV या XLS में upload करते हो, और columns से हर call personal बनती है।",
+   "hl": [
+    "Batch",
+    "CSV"
+   ],
+   "chip": "Batch"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Batch name",
+     "Phone number",
+     "Agent",
+     "Upload list",
+     "Timing",
+     "Submit"
+    ]
+   },
+   "say": "Steps: batch का नाम, phone number, agent, list upload, timing, और submit।",
+   "hl": [
+    "Steps",
+    "submit"
+   ],
+   "chip": "Steps"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "पहले test call",
+    "rows": [
+     [
+      "क्या",
+      "एक recipient पे"
+     ],
+     [
+      "क्यों",
+      "पूरी list से पहले"
+     ]
+    ]
+   },
+   "say": "पूरी list भेजने से पहले एक recipient पे test call करो। Docs में यही option है।",
+   "hl": [
+    "test",
+    "call"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Monitoring",
+    "rows": [
+     [
+      "Real-time",
+      "batch status"
+     ],
+     [
+      "Per call",
+      "individual status"
+     ],
+     [
+      "Report",
+      "completed details"
+     ]
+    ]
+   },
+   "say": "Batch चलने पे real-time status, हर call का status, और बाद में detailed report मिलती है।",
+   "hl": [
+    "status",
+    "report"
+   ],
+   "chip": "status"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Consent के बिना cold calling list",
+    "good": "जिन्होंने number दिया, उन्हीं को call"
+   },
+   "say": "और याद रखो: सिर्फ उन्हीं को call करो जिन्होंने permission दी है। India में calling rules follow करना ज़रूरी है।",
+   "hl": [
+    "permission",
+    "rules"
+   ],
+   "chip": "permission"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "एक turn के अंदर"
+   },
+   "say": "Chapter चार: जब caller बोलता है, उस एक second में क्या होता है।",
+   "hl": [
+    "second"
+   ],
+   "chip": "second"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Caller बोलता है",
+     "Speech to Text",
+     "LLM सोचता है",
+     "Text to Speech",
+     "Agent बोलता है"
+    ]
+   },
+   "say": "Caller बोलता है, speech to text, LLM सोचता है, text to speech, और agent बोलता है।",
+   "hl": [
+    "speech",
+    "LLM"
+   ],
+   "chip": "speech"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Turn-taking model",
+    "rows": [
+     [
+      "काम",
+      "caller चुप हुआ या रुका?"
+     ],
+     [
+      "क्यों ज़रूरी",
+      "बीच में न काटे"
+     ]
+    ]
+   },
+   "say": "बीच में turn-taking model तय करता है कि caller बात पूरी कर चुका है, या सिर्फ सोचने के लिए रुका है।",
+   "hl": [
+    "turn-taking",
+    "रुका"
+   ],
+   "chip": "turn-taking"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Flash models",
+     "Streaming",
+     "Geographic proximity",
+     "सही voice type"
+    ]
+   },
+   "say": "Latency कम करने के चार principles docs में हैं: Flash models, streaming, server की दूरी, और सही voice।",
+   "hl": [
+    "Latency",
+    "चार"
+   ],
+   "chip": "Latency"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "bookmark",
+     "title": "Regular",
+     "rows": [
+      [
+       "Audio",
+       "पूरी file एक बार"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "Streaming / WebSocket",
+     "rows": [
+      [
+       "Audio",
+       "chunks में, तुरंत"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Regular endpoint पूरी audio एक बार देता है। Streaming और websocket chunks में, तो agent जल्दी बोलना शुरू करता है।",
+   "hl": [
+    "Streaming",
+    "chunks"
+   ],
+   "chip": "Streaming"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Voice type और latency",
+    "rows": [
+     [
+      "तेज़",
+      "default, synthetic, instant clone"
+     ],
+     [
+      "धीमे",
+      "professional clone"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक default, synthetic और instant clone voices professional clone से तेज़ होती हैं।",
+   "hl": [
+    "तेज़",
+    "professional"
+   ],
+   "chip": "तेज़"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Silence, interruptions, timeouts"
+   },
+   "say": "Chapter पाँच: जब caller चुप हो जाए या बीच में बोले।",
+   "hl": [
+    "चुप"
+   ],
+   "chip": "चुप"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Take turn after silence",
+     "Soft timeout",
+     "Interruptions",
+     "Turn eagerness",
+     "Max duration"
+    ]
+   },
+   "say": "Conversation flow में silence के बाद turn, soft timeout, interruptions, turn eagerness, और max duration settings हैं।",
+   "hl": [
+    "settings"
+   ],
+   "chip": "settings"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller चुप → agent भी चुप, call अटकी",
+    "good": "Silence के बाद agent नरमी से पूछे"
+   },
+   "say": "Caller चुप हो जाए तो agent भी चुप न रहे। Silence setting से agent नरमी से पूछता है: क्या आप वहाँ हैं?",
+   "hl": [
+    "Silence",
+    "पूछता"
+   ],
+   "chip": "Silence"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "600s",
+    "label": "default max conversation (60–7,200 s)"
+   },
+   "say": "Max conversation default दस minute है, और साठ से सात हज़ार दो सौ seconds तक बदल सकते हो।",
+   "hl": [
+    "दस",
+    "minute"
+   ],
+   "chip": "दस"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Call के बीच tools"
+   },
+   "say": "Chapter छह: call चलते-चलते agent काम कैसे करता है।",
+   "hl": [
+    "काम"
+   ],
+   "chip": "काम"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Caller: slot चाहिए",
+     "Agent: tool call",
+     "Your API",
+     "Result",
+     "Agent बताता है"
+    ]
+   },
+   "say": "Caller slot माँगता है, agent tool call करता है, आपकी API result देती है, और agent बताता है।",
+   "hl": [
+    "tool",
+    "API"
+   ],
+   "chip": "tool"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Tool call sounds",
+    "rows": [
+     [
+      "क्यों",
+      "wait में खामोशी नहीं"
+     ],
+     [
+      "Docs",
+      "tool configuration"
+     ]
+    ]
+   },
+   "say": "Tool चलते वक्त खामोशी न हो, इसके लिए docs में tool call sounds का option है।",
+   "hl": [
+    "sounds",
+    "खामोशी"
+   ],
+   "chip": "sounds"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "End call",
+     "Transfer to number",
+     "Agent transfer",
+     "Voicemail detection",
+     "Language detection"
+    ]
+   },
+   "say": "System tools: call end, number पे transfer, दूसरे agent पे transfer, voicemail detection, और language detection।",
+   "hl": [
+    "System",
+    "tools"
+   ],
+   "chip": "System"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Voicemail detection"
+   },
+   "say": "Chapter सात: जब call machine उठाए।",
+   "hl": [
+    "machine"
+   ],
+   "chip": "machine"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "mail",
+    "title": "Voicemail detection",
+    "rows": [
+     [
+      "कैसे",
+      "LLM automated greeting पहचानता है"
+     ],
+     [
+      "Option",
+      "message छोड़ो या call end"
+     ]
+    ]
+   },
+   "say": "Voicemail detection में LLM automated greeting पहचानता है, और आप चुनते हो: message छोड़ो या call end करो।",
+   "hl": [
+    "Voicemail",
+    "greeting"
+   ],
+   "chip": "Voicemail"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent voicemail से 2 minute बात करे",
+    "good": "Detect → छोटा message → end"
+   },
+   "say": "बिना इसके agent voicemail से बात करता रहता है, और आपके minutes बर्बाद होते हैं।",
+   "hl": [
+    "बर्बाद",
+    "minutes"
+   ],
+   "chip": "बर्बाद"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Tracking",
+    "rows": [
+     [
+      "कहाँ",
+      "conversation history"
+     ],
+     [
+      "Batch",
+      "batch call results"
+     ]
+    ]
+   },
+   "say": "Voicemail events conversation history और batch results में दिखते हैं।",
+   "hl": [
+    "history",
+    "batch"
+   ],
+   "chip": "history"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Call के बाद"
+   },
+   "say": "Chapter आठ: call कटने के बाद क्या होता है।",
+   "hl": [
+    "बाद"
+   ],
+   "chip": "बाद"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Success evaluation",
+     "Data collection",
+     "Sentiment analysis",
+     "Post-call webhook"
+    ]
+   },
+   "say": "Call के बाद success evaluation, data collection, sentiment, और post-call webhook।",
+   "hl": [
+    "Success",
+    "webhook"
+   ],
+   "chip": "Success"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Call ends",
+     "Analysis",
+     "Webhook",
+     "CRM / Sheet",
+     "Follow-up"
+    ]
+   },
+   "say": "Call खत्म, analysis, webhook, आपका CRM या sheet, और फिर follow-up, जैसे WhatsApp।",
+   "hl": [
+    "CRM",
+    "follow-up"
+   ],
+   "chip": "CRM"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Call status = disconnected को success मानना",
+    "good": "Success criteria से असली नतीजा"
+   },
+   "say": "सिर्फ call disconnect हुई, इसका मतलब काम हुआ नहीं। Success criteria से असली नतीजा देखो।",
+   "hl": [
+    "disconnect",
+    "नतीजा"
+   ],
+   "chip": "disconnect"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "पूरा architecture"
+   },
+   "say": "Chapter नौ: सब जोड़ के पूरा architecture।",
+   "hl": [
+    "architecture"
+   ],
+   "chip": "architecture"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Telephony",
+     "ASR",
+     "LLM + prompt + knowledge",
+     "Tools",
+     "TTS",
+     "Turn-taking",
+     "Analysis"
+    ]
+   },
+   "say": "Telephony, ASR, LLM जिसमें prompt और knowledge है, tools, TTS, turn-taking, और analysis।",
+   "hl": [
+    "LLM",
+    "knowledge"
+   ],
+   "chip": "LLM"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "LLM layer के अंदर",
+    "rows": [
+     [
+      "System prompt",
+      "behaviour"
+     ],
+     [
+      "Knowledge base",
+      "facts"
+     ],
+     [
+      "Dynamic variables",
+      "caller data"
+     ]
+    ]
+   },
+   "say": "LLM layer के अंदर तीन चीज़ें मिलती हैं: system prompt से behaviour, knowledge से facts, variables से caller data।",
+   "hl": [
+    "behaviour",
+    "facts"
+   ],
+   "chip": "behaviour"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Enterprise pattern",
+    "rows": [
+     [
+      "Orchestrator",
+      "intent से route"
+     ],
+     [
+      "Specialists",
+      "billing, scheduling"
+     ],
+     [
+      "Human",
+      "escalation"
+     ]
+    ]
+   },
+   "say": "बड़े systems में orchestrator agent route करता है, specialist agents काम करते हैं, और human escalation साफ होता है।",
+   "hl": [
+    "orchestrator",
+    "specialist"
+   ],
+   "chip": "orchestrator"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक बड़ा agent, लंबा prompt",
+    "good": "छोटे specialists, छोटे prompts"
+   },
+   "say": "Docs कहते हैं specialists के छोटे prompts से latency कम होती है और update करना आसान।",
+   "hl": [
+    "specialists",
+    "latency"
+   ],
+   "chip": "specialists"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "Scale: हज़ारों calls"
+   },
+   "say": "Chapter दस: एक साथ बहुत calls।",
+   "hl": [
+    "calls"
+   ],
+   "chip": "calls"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Concurrency",
+    "rows": [
+     [
+      "क्या",
+      "एक साथ कितनी calls"
+     ],
+     [
+      "Limit",
+      "subscription के हिसाब से"
+     ]
+    ]
+   },
+   "say": "Concurrency मतलब एक साथ कितनी calls चल सकती हैं। ये subscription के हिसाब से होती है।",
+   "hl": [
+    "Concurrency",
+    "subscription"
+   ],
+   "chip": "Concurrency"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Burst pricing",
+    "cols": [
+     "Normal",
+     "Burst max"
+    ],
+    "rows": [
+     {
+      "k": "10 calls",
+      "v": [
+       "10",
+       "30"
+      ]
+     },
+     {
+      "k": "50 calls",
+      "v": [
+       "50",
+       "150"
+      ]
+     },
+     {
+      "k": "200 calls",
+      "v": [
+       "200",
+       "300 (cap)"
+      ]
+     }
+    ]
+   },
+   "say": "Burst pricing से spike में तीन गुना concurrency मिलती है, maximum तीन सौ।",
+   "hl": [
+    "Burst",
+    "तीन"
+   ],
+   "chip": "Burst"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Burst cost",
+    "rows": [
+     [
+      "Burst calls",
+      "2x rate"
+     ],
+     [
+      "Priority",
+      "कम"
+     ],
+     [
+      "Limit के बाद",
+      "reject या queue"
+     ]
+    ]
+   },
+   "say": "पर burst calls दो गुना rate पे हैं, और limit के ऊपर calls reject होती हैं, या queueing on हो तो queue में।",
+   "hl": [
+    "दो",
+    "queue"
+   ],
+   "chip": "दो"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "Example: Reminder campaign"
+   },
+   "say": "अब एक पूरा example: appointment reminder calls।",
+   "hl": [
+    "example"
+   ],
+   "chip": "example"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Use case",
+    "rows": [
+     [
+      "Business",
+      "clinic"
+     ],
+     [
+      "Calls",
+      "कल के appointments"
+     ],
+     [
+      "Goal",
+      "confirm या reschedule"
+     ]
+    ]
+   },
+   "say": "Clinic को हर शाम कल के patients को reminder call करनी है: confirm या reschedule।",
+   "hl": [
+    "reminder",
+    "confirm"
+   ],
+   "chip": "reminder"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Recipient list (CSV)",
+    "cols": [
+     "phone_number",
+     "user_name"
+    ],
+    "rows": [
+     {
+      "k": "Row 1",
+      "v": [
+       "+9198xxxxxx01",
+       "Rahul"
+      ]
+     },
+     {
+      "k": "Row 2",
+      "v": [
+       "+9198xxxxxx02",
+       "Priya"
+      ]
+     },
+     {
+      "k": "+ column",
+      "v": [
+       "slot_time",
+       "5:30 PM"
+      ]
+     }
+    ]
+   },
+   "say": "CSV में phone number, नाम, और slot time के columns। ये dynamic variables बनकर हर call में जाते हैं।",
+   "hl": [
+    "CSV",
+    "variables"
+   ],
+   "chip": "CSV"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "First message",
+    "rows": [
+     [
+      "Line",
+      "Namaste {{user_name}}, clinic se Riya"
+     ],
+     [
+      "Next",
+      "kal {{slot_time}} ka appointment"
+     ]
+    ]
+   },
+   "say": "First message: नमस्ते user name, clinic से Riya। आपका कल slot time पे appointment है।",
+   "hl": [
+    "user_name",
+    "slot_time"
+   ],
+   "chip": "user_name"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Confirm?",
+     "Yes → done",
+     "No → reschedule tool",
+     "Voicemail → short msg"
+    ]
+   },
+   "say": "Caller confirm करे तो done, न करे तो reschedule tool, और voicemail मिले तो छोटा message।",
+   "hl": [
+    "confirm",
+    "reschedule"
+   ],
+   "chip": "confirm"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Success criteria",
+    "rows": [
+     [
+      "Confirmed",
+      "yes / no"
+     ],
+     [
+      "Rescheduled",
+      "new slot"
+     ],
+     [
+      "Data",
+      "status per patient"
+     ]
+    ]
+   },
+   "say": "Success criteria: confirmed या नहीं, नया slot क्या। Data collection हर patient का status निकालता है।",
+   "hl": [
+    "criteria",
+    "status"
+   ],
+   "chip": "criteria"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Next morning",
+    "rows": [
+     [
+      "Report",
+      "batch call results"
+     ],
+     [
+      "Webhook",
+      "clinic sheet update"
+     ],
+     [
+      "Staff",
+      "सिर्फ exceptions देखे"
+     ]
+    ]
+   },
+   "say": "अगली सुबह staff सिर्फ exceptions देखता है। बाकी sheet अपने आप update हो चुकी होती है।",
+   "hl": [
+    "exceptions",
+    "sheet"
+   ],
+   "chip": "exceptions"
+  },
+  {
+   "tag": "CH12",
+   "v": "chapter",
+   "d": {
+    "num": 12,
+    "title": "Failed calls: symptom → fix"
+   },
+   "say": "Chapter: calls fail हों तो क्या check करें।",
+   "hl": [
+    "fail"
+   ],
+   "chip": "fail"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Symptom → fix",
+    "cols": [
+     "Symptom",
+     "Check"
+    ],
+    "rows": [
+     {
+      "k": "1",
+      "v": [
+       "Inbound आती ही नहीं",
+       "number type (verified ID?)"
+      ]
+     },
+     {
+      "k": "2",
+      "v": [
+       "Call बीच में कटे",
+       "max duration"
+      ]
+     },
+     {
+      "k": "3",
+      "v": [
+       "Agent voicemail से बात करे",
+       "voicemail detection"
+      ]
+     },
+     {
+      "k": "4",
+      "v": [
+       "Peak पे calls reject",
+       "concurrency / burst"
+      ]
+     }
+    ]
+   },
+   "say": "Inbound नहीं आती तो number type, बीच में कटे तो max duration, voicemail से बात करे तो detection, peak पे reject तो concurrency।",
+   "hl": [
+    "Inbound",
+    "concurrency"
+   ],
+   "chip": "Inbound"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Symptom → fix (2)",
+    "cols": [
+     "Symptom",
+     "Check"
+    ],
+    "rows": [
+     {
+      "k": "5",
+      "v": [
+       "Agent caller को काटे",
+       "interruptions, turn eagerness"
+      ]
+     },
+     {
+      "k": "6",
+      "v": [
+       "लंबी खामोशी",
+       "streaming, model, tool sounds"
+      ]
+     },
+     {
+      "k": "7",
+      "v": [
+       "Batch में गलत नाम",
+       "CSV column names"
+      ]
+     }
+    ]
+   },
+   "say": "Agent caller को काटे तो interruption settings, लंबी खामोशी तो streaming और tool sounds, गलत नाम तो CSV columns।",
+   "hl": [
+    "interruption",
+    "CSV"
+   ],
+   "chip": "interruption"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Guess करके prompt बदलते रहना",
+    "good": "Conversation history देखकर fix"
+   },
+   "say": "Guess मत करो। Conversation history खोलो, transcript पढ़ो, फिर fix करो।",
+   "hl": [
+    "history",
+    "transcript"
+   ],
+   "chip": "history"
+  },
+  {
+   "tag": "CH13",
+   "v": "chapter",
+   "d": {
+    "num": 13,
+    "title": "Human handoff: call transfer"
+   },
+   "say": "Chapter: जब agent को call इंसान को देनी हो।",
+   "hl": [
+    "इंसान"
+   ],
+   "chip": "इंसान"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "transfer_to_number",
+    "rows": [
+     [
+      "क्या",
+      "call को number या SIP URI पे"
+     ],
+     [
+      "Works with",
+      "Twilio, SIP trunk"
+     ]
+    ]
+   },
+   "say": "transfer to number system tool call को किसी phone number या SIP URI पे भेजता है। Twilio और SIP दोनों पे चलता है।",
+   "hl": [
+    "transfer",
+    "SIP"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Complex issue, human judgment",
+     "Caller ने human माँगा",
+     "AI की limit आ गई",
+     "Escalation rule trigger"
+    ]
+   },
+   "say": "Docs के मुताबिक transfer तब होना चाहिए: complex issue, caller human माँगे, AI की limit, या escalation rule।",
+   "hl": [
+    "transfer",
+    "human"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "users",
+     "title": "Conference transfer",
+     "rows": [
+      [
+       "Default",
+       "yes"
+      ],
+      [
+       "कैसे",
+       "conference में जोड़ो, फिर AI हटे"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "SIP REFER",
+     "rows": [
+      [
+       "कैसे",
+       "सीधा transfer"
+      ],
+      [
+       "कब",
+       "SIP call में ही"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "दो main तरीके: conference transfer, जो default है, और SIP REFER, जो सिर्फ SIP call में मिलता है।",
+   "hl": [
+    "conference",
+    "REFER"
+   ],
+   "chip": "conference"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "दो messages",
+    "rows": [
+     [
+      "Caller के लिए",
+      "रुकिए, connect कर रहे हैं"
+     ],
+     [
+      "Human के लिए",
+      "situation का summary"
+     ]
+    ]
+   },
+   "say": "Transfer पे agent दो messages दे सकता है: caller को wait का message, और human को situation का summary।",
+   "hl": [
+    "summary",
+    "messages"
+   ],
+   "chip": "summary"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Human को फिर से सब पूछना पड़े",
+    "good": "Summary मिले, caller को repeat न करना पड़े"
+   },
+   "say": "सबसे बुरा experience: human फिर से सब पूछे। Summary भेजो ताकि caller को कुछ repeat न करना पड़े।",
+   "hl": [
+    "repeat",
+    "Summary"
+   ],
+   "chip": "repeat"
+  },
+  {
+   "tag": "CH14",
+   "v": "chapter",
+   "d": {
+    "num": 14,
+    "title": "End call और language switch"
+   },
+   "say": "Chapter: call कब खत्म करें, और language कब बदलें।",
+   "hl": [
+    "खत्म"
+   ],
+   "chip": "खत्म"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Task पूरा, user satisfied",
+     "बात natural तरीके से खत्म",
+     "User खुद end करना चाहे"
+    ]
+   },
+   "say": "End call tool तब चले: task पूरा और user satisfied, बात natural तरीके से खत्म, या user खुद end करना चाहे।",
+   "hl": [
+    "End",
+    "call"
+   ],
+   "chip": "End"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Custom condition",
+    "rows": [
+     [
+      "Example 1",
+      "user goodbye बोले"
+     ],
+     [
+      "Example 2",
+      "booking confirm हो जाए"
+     ]
+    ]
+   },
+   "say": "Custom conditions भी लिख सकते हो, जैसे user goodbye बोले, या booking confirm हो जाए तो call end।",
+   "hl": [
+    "Custom",
+    "goodbye"
+   ],
+   "chip": "Custom"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent call खत्म ही न करे, minutes चलते रहें",
+    "good": "साफ end conditions"
+   },
+   "say": "बिना end conditions agent बात खींचता रहता है और minutes बढ़ते रहते हैं।",
+   "hl": [
+    "minutes",
+    "end"
+   ],
+   "chip": "minutes"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Language detection",
+    "rows": [
+     [
+      "Default",
+      "off, खुद enable करो"
+     ],
+     [
+      "Trigger 1",
+      "user दूसरी language बोले"
+     ],
+     [
+      "Trigger 2",
+      "user language बदलने को कहे"
+     ]
+    ]
+   },
+   "say": "Language detection tool default off होता है। Enable करने पे ये दो cases में switch करता है: user दूसरी language बोले, या खुद कहे।",
+   "hl": [
+    "detection",
+    "switch"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller Hindi बोले, agent English में ही",
+    "good": "Language detection on"
+   },
+   "say": "India में ये बहुत ज़रूरी है। Caller Hindi में बोले और agent English में ही जवाब दे, तो call वहीं खत्म।",
+   "hl": [
+    "Hindi",
+    "English"
+   ],
+   "chip": "Hindi"
+  },
+  {
+   "tag": "CH15",
+   "v": "chapter",
+   "d": {
+    "num": 15,
+    "title": "Example 2: Inbound support line"
+   },
+   "say": "दूसरा example: एक inbound support line।",
+   "hl": [
+    "support"
+   ],
+   "chip": "support"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Use case",
+    "rows": [
+     [
+      "Business",
+      "online store"
+     ],
+     [
+      "Calls",
+      "order कहाँ है?"
+     ],
+     [
+      "Hours",
+      "24x7"
+     ]
+    ]
+   },
+   "say": "Online store की support line: सबसे ज़्यादा सवाल, मेरा order कहाँ है? और ये चौबीसों घंटे चलनी चाहिए।",
+   "hl": [
+    "order",
+    "चौबीसों"
+   ],
+   "chip": "order"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Call आती है",
+     "caller_id से customer",
+     "getOrderStatus",
+     "जवाब",
+     "End / transfer"
+    ]
+   },
+   "say": "Call आई, caller ID से customer ढूँढा, order status tool चलाया, जवाब दिया, और end या transfer।",
+   "hl": [
+    "caller",
+    "status"
+   ],
+   "chip": "caller"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Tool: getOrderStatus",
+    "rows": [
+     [
+      "Trigger",
+      "where is my order?"
+     ],
+     [
+      "Param",
+      "order_id, e.g. ORD123456"
+     ]
+    ]
+   },
+   "say": "Prompting guide का example यही है: get order status tool, जब customer पूछे where is my order।",
+   "hl": [
+    "getOrderStatus",
+    "order"
+   ],
+   "chip": "getOrderStatus"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Tool error पे",
+    "rows": [
+     [
+      "Line",
+      "अभी system से नहीं मिल रहा"
+     ],
+     [
+      "Retry",
+      "एक बार"
+     ],
+     [
+      "फिर",
+      "callback या specialist"
+     ]
+    ]
+   },
+   "say": "Tool fail हो तो agent बोले: अभी system से नहीं मिल रहा। एक बार retry, फिर callback या specialist का option।",
+   "hl": [
+    "callback",
+    "specialist"
+   ],
+   "chip": "callback"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Refund rule",
+    "rows": [
+     [
+      "पहले",
+      "identity confirm"
+     ],
+     [
+      "Condition",
+      "30 दिन के अंदर"
+     ],
+     [
+      "$500 से ऊपर",
+      "supervisor"
+     ]
+    ]
+   },
+   "say": "Refund जैसे sensitive काम में guide के rules हैं: पहले identity confirm, तीस दिन के अंदर, और बड़ी amount पे supervisor।",
+   "hl": [
+    "identity",
+    "supervisor"
+   ],
+   "chip": "identity"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Measure",
+    "rows": [
+     [
+      "Success",
+      "order status बताया?"
+     ],
+     [
+      "Transfer rate",
+      "कितनी calls human को"
+     ],
+     [
+      "Sentiment",
+      "caller खुश?"
+     ]
+    ]
+   },
+   "say": "Measure करो: कितनी calls में status बताया, कितनी transfer हुईं, और caller का sentiment कैसा रहा।",
+   "hl": [
+    "Measure",
+    "sentiment"
+   ],
+   "chip": "Measure"
+  },
+  {
+   "tag": "CH16",
+   "v": "chapter",
+   "d": {
+    "num": 16,
+    "title": "Live से पहले testing"
+   },
+   "say": "Chapter: phone agent को कैसे test करें।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Simulation: पूरी call",
+     "Next reply: एक जवाब",
+     "Tool call: सही tool, सही params"
+    ]
+   },
+   "say": "तीन tests: simulation में पूरी call, next reply में एक जवाब, और tool call test में सही tool और सही parameters।",
+   "hl": [
+    "tests"
+   ],
+   "chip": "tests"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Phone-specific scenarios",
+    "rows": [
+     [
+      "1",
+      "caller चुप हो जाए"
+     ],
+     [
+      "2",
+      "caller बीच में बोले"
+     ],
+     [
+      "3",
+      "voicemail उठे"
+     ],
+     [
+      "4",
+      "human माँगे"
+     ]
+    ]
+   },
+   "say": "Phone के लिए खास scenarios बनाओ: caller चुप, बीच में बोले, voicemail उठे, और human माँगे।",
+   "hl": [
+    "scenarios",
+    "voicemail"
+   ],
+   "chip": "scenarios"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Tool mocking",
+    "rows": [
+     [
+      "Why",
+      "असली booking न हो"
+     ],
+     [
+      "Mock all",
+      "test में safe"
+     ]
+    ]
+   },
+   "say": "Tool mocking से test में असली booking या refund नहीं होता। Mock all tools रखो।",
+   "hl": [
+    "mocking",
+    "safe"
+   ],
+   "chip": "mocking"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "एक नंबर पे live test",
+    "rows": [
+     [
+      "Batch",
+      "पहले test call"
+     ],
+     [
+      "Inbound",
+      "अपने phone से call"
+     ]
+    ]
+   },
+   "say": "आखिर में असली phone से खुद call करके सुनो। कई problems सिर्फ असली phone line पे दिखती हैं।",
+   "hl": [
+    "phone",
+    "असली"
+   ],
+   "chip": "phone"
+  },
+  {
+   "tag": "CH17",
+   "v": "chapter",
+   "d": {
+    "num": 17,
+    "title": "हर call personal"
+   },
+   "say": "Chapter: हर caller के लिए अलग बात।",
+   "hl": [
+    "अलग"
+   ],
+   "chip": "अलग"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "System prompt में",
+     "First message में",
+     "Tool parameters + headers में"
+    ]
+   },
+   "say": "Dynamic variables तीन जगह लगते हैं: system prompt, first message, और tool parameters या headers।",
+   "hl": [
+    "Dynamic",
+    "variables"
+   ],
+   "chip": "Dynamic"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "system__caller_id",
+     "system__called_number",
+     "system__call_duration_secs",
+     "system__time_utc",
+     "system__conversation_id"
+    ]
+   },
+   "say": "System variables अपने आप मिलते हैं: caller ID, called number, call duration, time, और conversation ID।",
+   "hl": [
+    "system",
+    "variables"
+   ],
+   "chip": "system"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Example",
+    "rows": [
+     [
+      "Batch column",
+      "user_name, slot_time"
+     ],
+     [
+      "Prompt",
+      "Address the user as {{user_name}}"
+     ]
+    ]
+   },
+   "say": "Batch call के columns ही variables बन जाते हैं। Prompt में लिखो: user को उसके नाम से बुलाओ।",
+   "hl": [
+    "columns",
+    "नाम"
+   ],
+   "chip": "columns"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Overrides",
+    "rows": [
+     [
+      "क्या",
+      "per call settings बदलो"
+     ],
+     [
+      "Example",
+      "language, first message, voice"
+     ]
+    ]
+   },
+   "say": "Overrides से हर call के लिए language या first message बदल सकते हो, बिना नया agent बनाए।",
+   "hl": [
+    "Overrides",
+    "language"
+   ],
+   "chip": "Overrides"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Sabko same script",
+    "good": "नाम, slot, history के साथ बात"
+   },
+   "say": "Same script सबको सुनाओगे तो robot लगेगा। नाम और details के साथ बात करो तो caller ध्यान देता है।",
+   "hl": [
+    "robot",
+    "नाम"
+   ],
+   "chip": "robot"
+  },
+  {
+   "tag": "CH18",
+   "v": "chapter",
+   "d": {
+    "num": 18,
+    "title": "Latency deep dive"
+   },
+   "say": "Chapter: delay कहाँ से आता है, और कैसे कम करें।",
+   "hl": [
+    "delay"
+   ],
+   "chip": "delay"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "ASR time",
+     "LLM time",
+     "Tool time",
+     "TTS time",
+     "Network"
+    ]
+   },
+   "say": "हर जवाब में delay पाँच जगह से आता है: ASR, LLM, tool call, TTS, और network।",
+   "hl": [
+    "delay",
+    "पाँच"
+   ],
+   "chip": "delay"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "LLM time कम करो",
+    "rows": [
+     [
+      "Prompt",
+      "छोटा, focused"
+     ],
+     [
+      "Model",
+      "right-size"
+     ],
+     [
+      "Agents",
+      "specialists"
+     ]
+    ]
+   },
+   "say": "LLM का time कम करने के लिए छोटा prompt, सही size का model, और बड़े काम को specialist agents में बाँटो।",
+   "hl": [
+    "LLM",
+    "specialist"
+   ],
+   "chip": "LLM"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "TTS time कम करो",
+    "rows": [
+     [
+      "Model",
+      "Flash"
+     ],
+     [
+      "Endpoint",
+      "streaming / websocket"
+     ],
+     [
+      "Voice",
+      "default / instant clone"
+     ]
+    ]
+   },
+   "say": "TTS का time: Flash model, streaming या websocket, और तेज़ voice type।",
+   "hl": [
+    "Flash",
+    "streaming"
+   ],
+   "chip": "Flash"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Network",
+    "rows": [
+     [
+      "Principle",
+      "geographic proximity"
+     ],
+     [
+      "Meaning",
+      "user के पास server"
+     ]
+    ]
+   },
+   "say": "Docs का एक principle geographic proximity है: server जितना पास, delay उतना कम।",
+   "hl": [
+    "proximity",
+    "पास"
+   ],
+   "chip": "proximity"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Tool time छुपाओ",
+    "rows": [
+     [
+      "Tool call sounds",
+      "wait में आवाज़"
+     ],
+     [
+      "Filler line",
+      "एक second, देखता हूँ"
+     ]
+    ]
+   },
+   "say": "Tool का time पूरी तरह नहीं हटता, पर tool call sound या एक छोटी filler line से खामोशी नहीं लगती।",
+   "hl": [
+    "sound",
+    "filler"
+   ],
+   "chip": "sound"
+  },
+  {
+   "tag": "CH19",
+   "v": "chapter",
+   "d": {
+    "num": 19,
+    "title": "Calling rules और trust"
+   },
+   "say": "Chapter: लोगों का भरोसा कैसे न टूटे।",
+   "hl": [
+    "भरोसा"
+   ],
+   "chip": "भरोसा"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "सिर्फ consent वाले numbers",
+     "सही calling hours",
+     "AI है, ये साफ बताओ",
+     "Human का option दो"
+    ]
+   },
+   "say": "Consent वाले numbers, सही calling hours, साफ बताना कि ये AI है, और human का option।",
+   "hl": [
+    "consent",
+    "hours"
+   ],
+   "chip": "consent"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "रात 11 बजे AI call",
+    "good": "Business hours में, local time से"
+   },
+   "say": "रात ग्यारह बजे AI call से customer नाराज़ होता है। Calls business hours में, caller के local time के हिसाब से।",
+   "hl": [
+    "रात",
+    "hours"
+   ],
+   "chip": "रात"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Local rules",
+    "rows": [
+     [
+      "India",
+      "telecom rules follow करो"
+     ],
+     [
+      "Tip",
+      "अपने provider से confirm"
+     ]
+    ]
+   },
+   "say": "हर देश के अपने calling rules हैं। India में अपने telecom provider से requirements confirm करो।",
+   "hl": [
+    "rules",
+    "provider"
+   ],
+   "chip": "rules"
+  },
+  {
+   "tag": "CH20",
+   "v": "chapter",
+   "d": {
+    "num": 20,
+    "title": "Cost per call"
+   },
+   "say": "Chapter: एक call का खर्च कैसे सोचें।",
+   "hl": [
+    "खर्च"
+   ],
+   "chip": "खर्च"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Call minutes",
+     "LLM tokens + model",
+     "Telephony provider",
+     "Burst calls 2x"
+    ]
+   },
+   "say": "एक call का खर्च: call minutes, LLM tokens और model, telephony provider, और burst में दो गुना rate।",
+   "hl": [
+    "minutes",
+    "tokens"
+   ],
+   "chip": "minutes"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Voicemail detection → minutes बचते",
+     "End call conditions → लंबी calls नहीं",
+     "RAG → कम input tokens",
+     "Small model → कम cost"
+    ]
+   },
+   "say": "बचत के चार तरीके: voicemail detection, साफ end conditions, RAG, और छोटा model।",
+   "hl": [
+    "बचत",
+    "voicemail"
+   ],
+   "chip": "बचत"
+  },
+  {
+   "tag": "CH21",
+   "v": "chapter",
+   "d": {
+    "num": 21,
+    "title": "Multi-step calls: workflows"
+   },
+   "say": "Chapter: जब call में कई stages हों।",
+   "hl": [
+    "stages"
+   ],
+   "chip": "stages"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Agent Workflows",
+    "rows": [
+     [
+      "क्या",
+      "visual graph: nodes + edges"
+     ],
+     [
+      "Node",
+      "subagent with additional prompt"
+     ],
+     [
+      "Edge",
+      "LLM condition"
+     ]
+    ]
+   },
+   "say": "Workflows में call को nodes और edges में तोड़ते हो। हर node का अपना prompt, और हर edge पे एक condition।",
+   "hl": [
+    "nodes",
+    "edges"
+   ],
+   "chip": "nodes"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Start",
+     "Verify identity",
+     "Main task",
+     "Transfer / End"
+    ]
+   },
+   "say": "जैसे: start, फिर identity verify, फिर main काम, फिर transfer या end।",
+   "hl": [
+    "verify",
+    "transfer"
+   ],
+   "chip": "verify"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक लंबा prompt जिसमें सब stages",
+    "good": "हर stage का छोटा prompt"
+   },
+   "say": "एक लंबे prompt में सब stages डालने से agent steps skip करता है। छोटे stages ज़्यादा reliable हैं।",
+   "hl": [
+    "skip",
+    "reliable"
+   ],
+   "chip": "skip"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Agent transfer",
+    "rows": [
+     [
+      "क्या",
+      "एक agent से दूसरे agent पे"
+     ],
+     [
+      "Use",
+      "billing → scheduling"
+     ]
+    ]
+   },
+   "say": "Agent transfer से call एक specialist agent से दूसरे पे जाती है, जैसे billing से scheduling।",
+   "hl": [
+    "Agent",
+    "transfer"
+   ],
+   "chip": "Agent"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "ID बदलता है",
+    "rows": [
+     [
+      "system__agent_id",
+      "शुरू वाला agent"
+     ],
+     [
+      "system__current_agent_id",
+      "अभी वाला agent"
+     ]
+    ]
+   },
+   "say": "Transfer के बाद current agent ID बदल जाता है, पर शुरू वाला agent ID same रहता है। Reports में ये काम आता है।",
+   "hl": [
+    "current",
+    "agent"
+   ],
+   "chip": "current"
+  },
+  {
+   "tag": "CH22",
+   "v": "chapter",
+   "d": {
+    "num": 22,
+    "title": "FAQ"
+   },
+   "say": "कुछ common सवाल।",
+   "hl": [
+    "सवाल"
+   ],
+   "chip": "सवाल"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: पुराना phone system बदलना पड़ेगा?",
+    "rows": [
+     [
+      "Answer",
+      "नहीं, SIP trunk से जोड़ो"
+     ]
+    ]
+   },
+   "say": "क्या पुराना phone system बदलना पड़ेगा? नहीं, SIP trunking से existing PBX जुड़ जाता है।",
+   "hl": [
+    "PBX",
+    "SIP"
+   ],
+   "chip": "PBX"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: एक साथ कितनी calls?",
+    "rows": [
+     [
+      "Answer",
+      "subscription concurrency"
+     ],
+     [
+      "Spike",
+      "burst, 3x तक (max 300)"
+     ]
+    ]
+   },
+   "say": "एक साथ कितनी calls? आपकी subscription concurrency जितनी, और spike में burst से तीन गुना तक।",
+   "hl": [
+    "concurrency",
+    "burst"
+   ],
+   "chip": "concurrency"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: Call recording / data?",
+    "rows": [
+     [
+      "Answer",
+      "conversation history"
+     ],
+     [
+      "Control",
+      "retention settings"
+     ]
+    ]
+   },
+   "say": "Calls का data conversation history में रहता है, और privacy settings से तय करते हो कितने दिन।",
+   "hl": [
+    "history",
+    "privacy"
+   ],
+   "chip": "history"
+  },
+  {
+   "tag": "CH23",
+   "v": "chapter",
+   "d": {
+    "num": 23,
+    "title": "5 गलतियाँ"
+   },
+   "say": "Bonus: phone agents की पाँच गलतियाँ।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "गलत number type",
+     "लंबा first message",
+     "Voicemail detection off",
+     "Disconnected = success",
+     "Test call के बिना batch"
+    ]
+   },
+   "say": "गलत number type, लंबा first message, voicemail detection off, disconnected को success मानना, और बिना test batch।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "CH24",
+   "v": "chapter",
+   "d": {
+    "num": 24,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Number",
+     "Telephony",
+     "Turn: ASR→LLM→TTS",
+     "Tools",
+     "Voicemail",
+     "Analysis",
+     "Scale"
+    ]
+   },
+   "say": "Number, telephony, हर turn में ASR से LLM से TTS, tools, voicemail, analysis, और scale।",
+   "hl": [
+    "ASR",
+    "TTS"
+   ],
+   "chip": "ASR"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: पहला agent बनाओ",
+    "follow": "Omilabs"
+   },
+   "say": "अब पहला agent बनाना है तो इस playlist की पहली video देखो। Omilabs subscribe करो।",
+   "hl": [
+    "playlist",
+    "subscribe"
+   ],
+   "chip": "playlist"
+  }
+ ]
+}
