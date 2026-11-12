@@ -1,0 +1,827 @@
+{
+ "id": "av08",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "Multilingual AI Agents",
+ "title": "Build Multilingual AI Agents (Hindi + English)",
+ "summary": "Build multilingual AI voice agents in Hinglish: supported languages (31+ for agents, 70+ with Eleven v3 Conversational), the language detection system tool (detection and content triggers), language-specific voices, pronunciation dictionaries (IPA/CMU), speed control (0.7x–1.2x), multi-voice support, prompt rules for code-mixed Hindi-English callers, knowledge in multiple languages, and testing. Based on ElevenAgents docs.",
+ "tags": [
+  "multilingual ai agent",
+  "hindi ai voice agent",
+  "ai agent multiple languages",
+  "language detection",
+  "elevenlabs agents",
+  "voice ai india",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (language detection tool, voice customization, language-specific voices, pronunciation dictionary, speed control, multi-voice, expressive mode)"
+ ],
+ "hashtags": "#MultilingualAI #VoiceAI #AIVoiceAgent #Hinglish",
+ "thumb": {
+  "a": "Multilingual AI",
+  "b": "",
+  "top": "VOICE AGENTS",
+  "hook": "ONE AGENT, 8 LANGUAGES",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Caller Hindi bole, agent English kyun",
+    "brand": "Multilingual AI",
+    "pill": "VOICE AGENTS",
+    "stat": "70+",
+    "sub": "languages (v3 Conversational)"
+   },
+   "say": "Caller Hindi में बोले और agent English में जवाब दे? आज एक ऐसा agent बनाएँगे जो caller की language में बात करे।",
+   "hl": [
+    "Hindi",
+    "language"
+   ],
+   "chip": "Hindi"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Languages कितनी",
+     "Language detection tool",
+     "हर language की voice",
+     "Pronunciation + speed",
+     "Hinglish callers",
+     "Testing"
+    ]
+   },
+   "say": "इस video में: कितनी languages, language detection, हर language की voice, pronunciation और speed, Hinglish callers, और testing।",
+   "hl": [
+    "detection",
+    "testing"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर language के लिए अलग agent",
+    "good": "एक agent, कई languages"
+   },
+   "say": "हर language के लिए अलग agent बनाने की ज़रूरत नहीं। एक agent कई languages में बात कर सकता है।",
+   "hl": [
+    "एक",
+    "languages"
+   ],
+   "chip": "एक"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "कितनी languages"
+   },
+   "say": "Chapter एक: कितनी languages support हैं।",
+   "hl": [
+    "languages"
+   ],
+   "chip": "languages"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "31+",
+    "label": "languages for agents (build docs)"
+   },
+   "say": "Agents build docs के मुताबिक agents इकतीस से ज़्यादा languages में deploy हो सकते हैं।",
+   "hl": [
+    "इकतीस",
+    "languages"
+   ],
+   "chip": "इकतीस"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "70+",
+    "label": "with Eleven v3 Conversational"
+   },
+   "say": "और Eleven v3 Conversational के साथ सत्तर से ज़्यादा languages, जो Flash models की करीब बत्तीस languages से ज़्यादा है।",
+   "hl": [
+    "सत्तर",
+    "Conversational"
+   ],
+   "chip": "सत्तर"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Expressive in more languages",
+    "rows": [
+     [
+      "v3 Conversational",
+      "better expressiveness"
+     ],
+     [
+      "Example (docs)",
+      "Japanese"
+     ]
+    ]
+   },
+   "say": "Docs कहते हैं v3 Conversational उन languages में भी ज़्यादा expressive है जहाँ पहले nuance कम था, जैसे Japanese।",
+   "hl": [
+    "expressive",
+    "nuance"
+   ],
+   "chip": "expressive"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Model choose किए बिना languages जोड़ना",
+    "good": "पहले TTS model देखो, फिर languages"
+   },
+   "say": "इसलिए पहले TTS model देखो, फिर decide करो कितनी languages चाहिए।",
+   "hl": [
+    "model",
+    "languages"
+   ],
+   "chip": "model"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Language detection tool"
+   },
+   "say": "Chapter दो: agent को language बदलना सिखाओ।",
+   "hl": [
+    "बदलना"
+   ],
+   "chip": "बदलना"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "language detection",
+    "rows": [
+     [
+      "Type",
+      "system tool"
+     ],
+     [
+      "Default",
+      "off, enable करो"
+     ],
+     [
+      "Description",
+      "customize कर सकते हो"
+     ]
+    ]
+   },
+   "say": "Language detection एक system tool है। ये अपने आप on नहीं होता, आपको enable करना पड़ता है, और इसका description customize कर सकते हो।",
+   "hl": [
+    "system",
+    "enable"
+   ],
+   "chip": "system"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "detection",
+     "rows": [
+      [
+       "कब",
+       "user दूसरी language बोले"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "chat",
+     "title": "content",
+     "rows": [
+      [
+       "कब",
+       "user कहे: Hindi में बात करो"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "दो triggers: detection, जब user दूसरी language बोले, और content, जब user खुद कहे कि language बदलो।",
+   "hl": [
+    "detection",
+    "content"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Parameter",
+    "rows": [
+     [
+      "reason",
+      "switch का कारण (required)"
+     ],
+     [
+      "Example",
+      "user switched to Hindi"
+     ]
+    ]
+   },
+   "say": "Tool का एक required parameter है reason, यानि switch क्यों हुआ।",
+   "hl": [
+    "reason",
+    "switch"
+   ],
+   "chip": "reason"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tool off → caller की language ignore",
+    "good": "Tool on → agent caller के साथ switch"
+   },
+   "say": "Tool off है तो agent caller की language ignore करता रहेगा। On करो, तो agent caller के साथ switch करता है।",
+   "hl": [
+    "off",
+    "switch"
+   ],
+   "chip": "off"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Supported list",
+    "rows": [
+     [
+      "Rule",
+      "agent सिर्फ वही languages switch करे"
+     ],
+     [
+      "जो",
+      "आपने agent में add कीं"
+     ]
+    ]
+   },
+   "say": "ध्यान रखो: agent उन्हीं languages पे switch करता है जो agent support करता है। जो चाहिए, वो agent settings में जोड़ो।",
+   "hl": [
+    "support",
+    "settings"
+   ],
+   "chip": "support"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "हर language की अपनी voice"
+   },
+   "say": "Chapter तीन: language के हिसाब से voice।",
+   "hl": [
+    "voice"
+   ],
+   "chip": "voice"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Language-specific voices",
+    "rows": [
+     [
+      "क्या",
+      "हर language के लिए अलग voice"
+     ],
+     [
+      "क्यों",
+      "natural pronunciation"
+     ]
+    ]
+   },
+   "say": "Docs में language-specific voices हैं: हर supported language के लिए अलग voice, ताकि pronunciation natural रहे।",
+   "hl": [
+    "language-specific",
+    "natural"
+   ],
+   "chip": "language-specific"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Voice selection tip",
+    "rows": [
+     [
+      "Choose",
+      "target language + region वाली"
+     ],
+     [
+      "Test",
+      "multiple voices"
+     ]
+    ]
+   },
+   "say": "Best practice: target language और region से match करने वाली voice चुनो, और कई voices test करो।",
+   "hl": [
+    "region",
+    "test"
+   ],
+   "chip": "region"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "English voice से Hindi बुलवाना",
+    "good": "Hindi के लिए Hindi-native voice"
+   },
+   "say": "English voice से Hindi बुलवाओगे तो accent अजीब लगेगा। Hindi के लिए Hindi-native voice चुनो।",
+   "hl": [
+    "accent",
+    "native"
+   ],
+   "chip": "accent"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Multi-voice support",
+    "rows": [
+     [
+      "Use",
+      "language tutoring"
+     ],
+     [
+      "कैसे",
+      "XML-style markup से switch"
+     ]
+    ]
+   },
+   "say": "Multi-voice support से एक ही conversation में अलग voices, जैसे language tutoring में हर language के लिए native voice।",
+   "hl": [
+    "Multi-voice",
+    "tutoring"
+   ],
+   "chip": "Multi-voice"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Pronunciation और speed"
+   },
+   "say": "Chapter चार: सही उच्चारण और रफ़्तार।",
+   "hl": [
+    "उच्चारण"
+   ],
+   "chip": "उच्चारण"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Pronunciation dictionary",
+    "rows": [
+     [
+      "Notation",
+      "IPA या CMU"
+     ],
+     [
+      "Focus",
+      "business-specific terms"
+     ]
+    ]
+   },
+   "say": "Pronunciation dictionary में IPA या CMU notation से words का उच्चारण तय करो, खासकर business-specific terms।",
+   "hl": [
+    "IPA",
+    "business"
+   ],
+   "chip": "IPA"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Brand नाम",
+     "शहर और जगह",
+     "Product codes",
+     "Common Indian names"
+    ]
+   },
+   "say": "Multilingual agent में ये सबसे ज़्यादा गड़बड़ होते हैं: brand नाम, शहर, product codes, और Indian names।",
+   "hl": [
+    "brand",
+    "names"
+   ],
+   "chip": "brand"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Speed control",
+    "rows": [
+     [
+      "Range",
+      "0.7x – 1.2x"
+     ],
+     [
+      "Start",
+      "1.0"
+     ]
+    ]
+   },
+   "say": "Speed control की range शून्य दशमलव सात से एक दशमलव दो तक है। एक से शुरू करो।",
+   "hl": [
+    "Speed",
+    "range"
+   ],
+   "chip": "Speed"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "सब languages के लिए तेज़ speed",
+    "good": "Clarity के लिए test करके speed"
+   },
+   "say": "कुछ languages में तेज़ speed से clarity कम होती है। हर language के content पे test करके speed तय करो।",
+   "hl": [
+    "clarity",
+    "test"
+   ],
+   "chip": "clarity"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Hinglish callers"
+   },
+   "say": "Chapter पाँच: India की असली challenge, code-mixing।",
+   "hl": [
+    "code-mixing"
+   ],
+   "chip": "code-mixing"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller: Mera order kab aayega? → agent pure Hindi या pure English",
+    "good": "Agent भी उसी mix में जवाब"
+   },
+   "say": "India में लोग Hindi और English mix करके बोलते हैं। Agent pure Hindi या pure English में जवाब दे, तो अजीब लगता है।",
+   "hl": [
+    "mix",
+    "अजीब"
+   ],
+   "chip": "mix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Prompt rule",
+    "rows": [
+     [
+      "Line 1",
+      "Reply in the caller's language."
+     ],
+     [
+      "Line 2",
+      "If they mix Hindi and English, mix the same way."
+     ]
+    ]
+   },
+   "say": "Prompt में rule: caller की language में जवाब दो, और अगर वो Hindi English mix करे, तो वैसे ही mix करो।",
+   "hl": [
+    "rule",
+    "mix"
+   ],
+   "chip": "rule"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Simple words",
+    "rows": [
+     [
+      "Avoid",
+      "किताबी Hindi"
+     ],
+     [
+      "Use",
+      "रोज़ की बोलचाल"
+     ]
+    ]
+   },
+   "say": "किताबी Hindi की जगह रोज़ की बोलचाल वाले words use करवाओ। Prompt में साफ लिखो: simple, everyday Hindi।",
+   "hl": [
+    "किताबी",
+    "everyday"
+   ],
+   "chip": "किताबी"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Numbers",
+    "rows": [
+     [
+      "Prices",
+      "जिस language में caller"
+     ],
+     [
+      "Confirm",
+      "digits दोहराओ"
+     ]
+    ]
+   },
+   "say": "Numbers और prices caller की language में बोलो, और phone जैसे numbers digit by digit confirm करो।",
+   "hl": [
+    "Numbers",
+    "confirm"
+   ],
+   "chip": "Numbers"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Knowledge in many languages"
+   },
+   "say": "Chapter छह: knowledge base और languages।",
+   "hl": [
+    "knowledge"
+   ],
+   "chip": "knowledge"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Knowledge सिर्फ English में, caller Hindi में",
+    "good": "Agent knowledge पढ़कर caller की language में बोले"
+   },
+   "say": "Knowledge English में हो सकता है, पर agent को caller की language में जवाब देना है। Prompt में ये साफ लिखो।",
+   "hl": [
+    "Knowledge",
+    "language"
+   ],
+   "chip": "Knowledge"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bookmark",
+    "title": "Important terms",
+    "rows": [
+     [
+      "Add",
+      "Hindi में common सवाल भी FAQ में"
+     ],
+     [
+      "Why",
+      "retrieval बेहतर"
+     ]
+    ]
+   },
+   "say": "Common सवाल Hindi में भी FAQ में डालो, ताकि Hindi में पूछे गए सवाल का सही passage मिले।",
+   "hl": [
+    "FAQ",
+    "passage"
+   ],
+   "chip": "FAQ"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Dynamic variables",
+    "rows": [
+     [
+      "Pass",
+      "{{preferred_language}}"
+     ],
+     [
+      "Use",
+      "first message उसी language में"
+     ]
+    ]
+   },
+   "say": "अगर customer की preferred language पहले से पता है, तो dynamic variable से भेजो और first message उसी language में रखो।",
+   "hl": [
+    "preferred",
+    "first"
+   ],
+   "chip": "preferred"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Testing"
+   },
+   "say": "Chapter सात: हर language test करो।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Caller सिर्फ Hindi",
+     "Caller Hindi-English mix",
+     "बीच call में switch",
+     "User कहे: English please",
+     "Unsupported language"
+    ]
+   },
+   "say": "Test scenarios: सिर्फ Hindi, Hindi-English mix, बीच call में switch, user खुद English माँगे, और unsupported language।",
+   "hl": [
+    "scenarios",
+    "switch"
+   ],
+   "chip": "scenarios"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Success condition",
+    "rows": [
+     [
+      "Pass",
+      "agent same language में जवाब दे"
+     ],
+     [
+      "Unsupported",
+      "politely available language offer करे"
+     ]
+    ]
+   },
+   "say": "Success condition: agent उसी language में जवाब दे। Unsupported language पे politely बताए कौनसी languages available हैं।",
+   "hl": [
+    "Success",
+    "politely"
+   ],
+   "chip": "Success"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Native speakers",
+    "rows": [
+     [
+      "कौन",
+      "हर language के 2–3 लोग"
+     ],
+     [
+      "पूछो",
+      "natural लगा?"
+     ]
+    ]
+   },
+   "say": "हर language के दो-तीन native speakers से सुनवाओ। आपको शायद accent की गलती पता न चले, उन्हें तुरंत चलेगी।",
+   "hl": [
+    "native",
+    "accent"
+   ],
+   "chip": "native"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Mistakes"
+   },
+   "say": "Bonus: पाँच गलतियाँ।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Language detection off",
+     "एक ही voice सब languages में",
+     "Pronunciation test नहीं",
+     "Hinglish rule नहीं",
+     "Native speaker test नहीं"
+    ]
+   },
+   "say": "Detection off, एक ही voice सब languages में, pronunciation test नहीं, Hinglish rule नहीं, और native speakers से test नहीं।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Languages + model",
+     "Detection tool on",
+     "Voice per language",
+     "Pronunciation + speed",
+     "Prompt rules",
+     "Test"
+    ]
+   },
+   "say": "Languages और model, detection tool on, हर language की voice, pronunciation और speed, prompt rules, और testing।",
+   "hl": [
+    "detection",
+    "testing"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Emotions",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में customer की emotions समझने वाला agent। Omilabs subscribe करो।",
+   "hl": [
+    "emotions",
+    "subscribe"
+   ],
+   "chip": "emotions"
+  }
+ ]
+}

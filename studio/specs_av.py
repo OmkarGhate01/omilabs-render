@@ -1510,6 +1510,104 @@ V["av07"] = dict(
     ])
 
 
+# ───────────── av08: Build Multilingual AI Agents ─────────────
+V["av08"] = dict(
+    series="AI VOICE AGENTS", music="ELEVENLABS V4", search_kw="Multilingual AI Agents",
+    title="Build Multilingual AI Agents (Hindi + English)",
+    summary="Build multilingual AI voice agents in Hinglish: supported languages (31+ for agents, 70+ with Eleven v3 Conversational), the language detection system tool (detection and content triggers), language-specific voices, pronunciation dictionaries (IPA/CMU), speed control (0.7x–1.2x), multi-voice support, prompt rules for code-mixed Hindi-English callers, knowledge in multiple languages, and testing. Based on ElevenAgents docs.",
+    tags=["multilingual ai agent", "hindi ai voice agent", "ai agent multiple languages", "language detection", "elevenlabs agents", "voice ai india", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (language detection tool, voice customization, language-specific voices, pronunciation dictionary, speed control, multi-voice, expressive mode)"],
+    hashtags="#MultilingualAI #VoiceAI #AIVoiceAgent #Hinglish",
+    thumb=dict(a="Multilingual AI", b="", top="VOICE AGENTS", hook="ONE AGENT, 8 LANGUAGES", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="Caller Hindi bole, agent English kyun", brand="Multilingual AI", pill="VOICE AGENTS", stat="70+", sub="languages (v3 Conversational)"),
+      "Caller Hindi में बोले और agent English में जवाब दे? आज एक ऐसा agent बनाएँगे जो caller की language में बात करे।", "Hindi", "language"),
+    b("list", dict(items=["Languages कितनी", "Language detection tool", "हर language की voice", "Pronunciation + speed", "Hinglish callers", "Testing"]),
+      "इस video में: कितनी languages, language detection, हर language की voice, pronunciation और speed, Hinglish callers, और testing।", "detection", "testing"),
+    b("versus", dict(bad="हर language के लिए अलग agent", good="एक agent, कई languages"),
+      "हर language के लिए अलग agent बनाने की ज़रूरत नहीं। एक agent कई languages में बात कर सकता है।", "एक", "languages"),
+
+    CH(1, "कितनी languages", "Chapter एक: कितनी languages support हैं।", ["languages"], "languages"),
+    b("stat", dict(value="31+", label="languages for agents (build docs)"),
+      "Agents build docs के मुताबिक agents इकतीस से ज़्यादा languages में deploy हो सकते हैं।", "इकतीस", "languages"),
+    b("stat", dict(value="70+", label="with Eleven v3 Conversational"),
+      "और Eleven v3 Conversational के साथ सत्तर से ज़्यादा languages, जो Flash models की करीब बत्तीस languages से ज़्यादा है।", "सत्तर", "Conversational"),
+    b("card", dict(icon="star", title="Expressive in more languages", rows=[["v3 Conversational", "better expressiveness"], ["Example (docs)", "Japanese"]]),
+      "Docs कहते हैं v3 Conversational उन languages में भी ज़्यादा expressive है जहाँ पहले nuance कम था, जैसे Japanese।", "expressive", "nuance"),
+    b("versus", dict(bad="Model choose किए बिना languages जोड़ना", good="पहले TTS model देखो, फिर languages"),
+      "इसलिए पहले TTS model देखो, फिर decide करो कितनी languages चाहिए।", "model", "languages"),
+
+    CH(2, "Language detection tool", "Chapter दो: agent को language बदलना सिखाओ।", ["बदलना"], "बदलना"),
+    b("card", dict(icon="globe", title="language detection", rows=[["Type", "system tool"], ["Default", "off, enable करो"], ["Description", "customize कर सकते हो"]]),
+      "Language detection एक system tool है। ये अपने आप on नहीं होता, आपको enable करना पड़ता है, और इसका description customize कर सकते हो।", "system", "enable"),
+    b("duo", dict(a=dict(icon="chat", title="detection", rows=[["कब", "user दूसरी language बोले"]]),
+                  b=dict(icon="chat", title="content", rows=[["कब", "user कहे: Hindi में बात करो"]]), accentB="#111111"),
+      "दो triggers: detection, जब user दूसरी language बोले, और content, जब user खुद कहे कि language बदलो।", "detection", "content"),
+    b("card", dict(icon="key", title="Parameter", rows=[["reason", "switch का कारण (required)"], ["Example", "user switched to Hindi"]]),
+      "Tool का एक required parameter है reason, यानि switch क्यों हुआ।", "reason", "switch"),
+    b("versus", dict(bad="Tool off → caller की language ignore", good="Tool on → agent caller के साथ switch"),
+      "Tool off है तो agent caller की language ignore करता रहेगा। On करो, तो agent caller के साथ switch करता है।", "off", "switch"),
+    b("card", dict(icon="users", title="Supported list", rows=[["Rule", "agent सिर्फ वही languages switch करे"], ["जो", "आपने agent में add कीं"]]),
+      "ध्यान रखो: agent उन्हीं languages पे switch करता है जो agent support करता है। जो चाहिए, वो agent settings में जोड़ो।", "support", "settings"),
+
+    CH(3, "हर language की अपनी voice", "Chapter तीन: language के हिसाब से voice।", ["voice"], "voice"),
+    b("card", dict(icon="users", title="Language-specific voices", rows=[["क्या", "हर language के लिए अलग voice"], ["क्यों", "natural pronunciation"]]),
+      "Docs में language-specific voices हैं: हर supported language के लिए अलग voice, ताकि pronunciation natural रहे।", "language-specific", "natural"),
+    b("card", dict(icon="star", title="Voice selection tip", rows=[["Choose", "target language + region वाली"], ["Test", "multiple voices"]]),
+      "Best practice: target language और region से match करने वाली voice चुनो, और कई voices test करो।", "region", "test"),
+    b("versus", dict(bad="English voice से Hindi बुलवाना", good="Hindi के लिए Hindi-native voice"),
+      "English voice से Hindi बुलवाओगे तो accent अजीब लगेगा। Hindi के लिए Hindi-native voice चुनो।", "accent", "native"),
+    b("card", dict(icon="users", title="Multi-voice support", rows=[["Use", "language tutoring"], ["कैसे", "XML-style markup से switch"]]),
+      "Multi-voice support से एक ही conversation में अलग voices, जैसे language tutoring में हर language के लिए native voice।", "Multi-voice", "tutoring"),
+
+    CH(4, "Pronunciation और speed", "Chapter चार: सही उच्चारण और रफ़्तार।", ["उच्चारण"], "उच्चारण"),
+    b("card", dict(icon="key", title="Pronunciation dictionary", rows=[["Notation", "IPA या CMU"], ["Focus", "business-specific terms"]]),
+      "Pronunciation dictionary में IPA या CMU notation से words का उच्चारण तय करो, खासकर business-specific terms।", "IPA", "business"),
+    b("list", dict(items=["Brand नाम", "शहर और जगह", "Product codes", "Common Indian names"]),
+      "Multilingual agent में ये सबसे ज़्यादा गड़बड़ होते हैं: brand नाम, शहर, product codes, और Indian names।", "brand", "names"),
+    b("card", dict(icon="bolt", title="Speed control", rows=[["Range", "0.7x – 1.2x"], ["Start", "1.0"]]),
+      "Speed control की range शून्य दशमलव सात से एक दशमलव दो तक है। एक से शुरू करो।", "Speed", "range"),
+    b("versus", dict(bad="सब languages के लिए तेज़ speed", good="Clarity के लिए test करके speed"),
+      "कुछ languages में तेज़ speed से clarity कम होती है। हर language के content पे test करके speed तय करो।", "clarity", "test"),
+
+    CH(5, "Hinglish callers", "Chapter पाँच: India की असली challenge, code-mixing।", ["code-mixing"], "code-mixing"),
+    b("versus", dict(bad="Caller: Mera order kab aayega? → agent pure Hindi या pure English", good="Agent भी उसी mix में जवाब"),
+      "India में लोग Hindi और English mix करके बोलते हैं। Agent pure Hindi या pure English में जवाब दे, तो अजीब लगता है।", "mix", "अजीब"),
+    b("card", dict(icon="chat", title="Prompt rule", rows=[["Line 1", "Reply in the caller's language."], ["Line 2", "If they mix Hindi and English, mix the same way."]]),
+      "Prompt में rule: caller की language में जवाब दो, और अगर वो Hindi English mix करे, तो वैसे ही mix करो।", "rule", "mix"),
+    b("card", dict(icon="star", title="Simple words", rows=[["Avoid", "किताबी Hindi"], ["Use", "रोज़ की बोलचाल"]]),
+      "किताबी Hindi की जगह रोज़ की बोलचाल वाले words use करवाओ। Prompt में साफ लिखो: simple, everyday Hindi।", "किताबी", "everyday"),
+    b("card", dict(icon="key", title="Numbers", rows=[["Prices", "जिस language में caller"], ["Confirm", "digits दोहराओ"]]),
+      "Numbers और prices caller की language में बोलो, और phone जैसे numbers digit by digit confirm करो।", "Numbers", "confirm"),
+
+    CH(6, "Knowledge in many languages", "Chapter छह: knowledge base और languages।", ["knowledge"], "knowledge"),
+    b("versus", dict(bad="Knowledge सिर्फ English में, caller Hindi में", good="Agent knowledge पढ़कर caller की language में बोले"),
+      "Knowledge English में हो सकता है, पर agent को caller की language में जवाब देना है। Prompt में ये साफ लिखो।", "Knowledge", "language"),
+    b("card", dict(icon="bookmark", title="Important terms", rows=[["Add", "Hindi में common सवाल भी FAQ में"], ["Why", "retrieval बेहतर"]]),
+      "Common सवाल Hindi में भी FAQ में डालो, ताकि Hindi में पूछे गए सवाल का सही passage मिले।", "FAQ", "passage"),
+    b("card", dict(icon="star", title="Dynamic variables", rows=[["Pass", "{{preferred_language}}"], ["Use", "first message उसी language में"]]),
+      "अगर customer की preferred language पहले से पता है, तो dynamic variable से भेजो और first message उसी language में रखो।", "preferred", "first"),
+
+    CH(7, "Testing", "Chapter सात: हर language test करो।", ["test"], "test"),
+    b("list", dict(items=["Caller सिर्फ Hindi", "Caller Hindi-English mix", "बीच call में switch", "User कहे: English please", "Unsupported language"]),
+      "Test scenarios: सिर्फ Hindi, Hindi-English mix, बीच call में switch, user खुद English माँगे, और unsupported language।", "scenarios", "switch"),
+    b("card", dict(icon="check", title="Success condition", rows=[["Pass", "agent same language में जवाब दे"], ["Unsupported", "politely available language offer करे"]]),
+      "Success condition: agent उसी language में जवाब दे। Unsupported language पे politely बताए कौनसी languages available हैं।", "Success", "politely"),
+    b("card", dict(icon="users", title="Native speakers", rows=[["कौन", "हर language के 2–3 लोग"], ["पूछो", "natural लगा?"]]),
+      "हर language के दो-तीन native speakers से सुनवाओ। आपको शायद accent की गलती पता न चले, उन्हें तुरंत चलेगी।", "native", "accent"),
+
+    CH(8, "Mistakes", "Bonus: पाँच गलतियाँ।", ["गलतियाँ"], "गलतियाँ"),
+    b("list", dict(items=["Language detection off", "एक ही voice सब languages में", "Pronunciation test नहीं", "Hinglish rule नहीं", "Native speaker test नहीं"]),
+      "Detection off, एक ही voice सब languages में, pronunciation test नहीं, Hinglish rule नहीं, और native speakers से test नहीं।", "गलतियाँ"),
+
+    CH(9, "Recap", "Recap।", ["Recap"], "Recap"),
+    b("flow", dict(nodes=["Languages + model", "Detection tool on", "Voice per language", "Pronunciation + speed", "Prompt rules", "Test"]),
+      "Languages और model, detection tool on, हर language की voice, pronunciation और speed, prompt rules, और testing।", "detection", "testing"),
+    b("cta", dict(title="Next: Emotions", follow="Omilabs"),
+      "अगली video में customer की emotions समझने वाला agent। Omilabs subscribe करो।", "emotions", "subscribe"),
+    ])
+
+
 V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 
