@@ -20,7 +20,7 @@ V["av01"] = dict(
     tags=["ai voice agent", "build ai voice agent", "elevenlabs agents", "ai calling agent", "voice ai tutorial hindi", "elevenagents", "omilabs"],
     sources=["elevenlabs.io/docs/eleven-agents (overview, build, prompting guide, conversation flow, knowledge base, tools, testing, analysis)"],
     hashtags="#AIVoiceAgent #ElevenLabs #VoiceAI #Hinglish",
-    thumb=dict(a="AI Voice Agent", b="", top="FULL GUIDE 2026", hook="ZERO SE LIVE", accent="#F2542D", colorA="#111111"),
+    thumb=dict(a="AI Voice Agent", b="", top="FULL GUIDE 2026", hook="ZERO TO LIVE", accent="#F2542D", colorA="#111111"),
     beats=[
     b("hook", dict(problem="Pehla AI voice agent kaise banaye", brand="AI Voice Agent", pill="FULL GUIDE", stat="9", sub="steps, zero से live"),
       "AI voice agent बनाना है, पर समझ नहीं आता कहाँ से शुरू करें? आज zero से live तक बनाएँगे।", "AI", "voice", "agent"),
@@ -277,7 +277,7 @@ V["av02"] = dict(
     tags=["ai phone calls", "ai calling agent", "how ai voice agents work", "voice ai architecture", "sip trunk ai", "twilio ai agent", "batch calling ai", "omilabs"],
     sources=["elevenlabs.io/docs/eleven-agents (phone numbers: Twilio, SIP trunking, batch calls; voicemail detection; conversation flow; analysis; burst pricing)", "elevenlabs.io/docs/eleven-api latency optimization"],
     hashtags="#AIPhoneCalls #VoiceAI #AIAgent #Hinglish",
-    thumb=dict(a="AI Phone Calls", b="", top="ARCHITECTURE", hook="ANDAR KYA HOTA HAI", accent="#2F6BFF", colorA="#111111"),
+    thumb=dict(a="AI Phone Calls", b="", top="ARCHITECTURE", hook="HOW IT WORKS", accent="#2F6BFF", colorA="#111111"),
     beats=[
     b("hook", dict(problem="AI agent call kaise karta hai", brand="AI Phone Calls", pill="ARCHITECTURE", stat="4", sub="core components हर call में"),
       "AI agent खुद phone call कैसे करता है? Number dial होने से call खत्म होने तक, पूरा system देखते हैं।", "AI", "call"),
@@ -540,7 +540,7 @@ V["av03"] = dict(
     tags=["create ai voice", "elevenlabs voice clone", "voice design elevenlabs", "instant voice clone", "professional voice clone", "ai voice hindi", "omilabs"],
     sources=["elevenlabs.io/docs (voice design, instant voice cloning, professional voice cloning, voice library, latency optimization, Eleven v4)"],
     hashtags="#ElevenLabs #AIVoice #VoiceClone #Hinglish",
-    thumb=dict(a="Apni AI Voice", b="", top="ELEVENLABS 2026", hook="3 TARIKE", accent="#F2542D", colorA="#111111"),
+    thumb=dict(a="Your Own AI Voice", b="", top="ELEVENLABS 2026", hook="3 WAYS", accent="#F2542D", colorA="#111111"),
     beats=[
     b("hook", dict(problem="Apni AI voice kaise banaye", brand="AI Voice", pill="ELEVENLABS", stat="3", sub="तरीके, अपनी AI voice"),
       "अपनी खुद की AI voice चाहिए, जो सिर्फ आपकी हो? ElevenLabs में इसके तीन तरीके हैं। तीनों step by step।", "AI", "voice"),
@@ -786,7 +786,7 @@ V["av04"] = dict(
     tags=["system prompt", "ai agent system prompt", "prompt engineering", "voice agent prompt", "elevenlabs agents prompt", "production prompt", "omilabs"],
     sources=["elevenlabs.io/docs/eleven-agents/best-practices/prompting-guide", "elevenlabs.io/docs/eleven-agents/best-practices/guardrails"],
     hashtags="#PromptEngineering #AIAgents #SystemPrompt #Hinglish",
-    thumb=dict(a="System Prompt", b="", top="PRO TEMPLATE", hook="ROBOT SE INSAAN", accent="#F2542D", colorA="#111111"),
+    thumb=dict(a="System Prompt", b="", top="PRO TEMPLATE", hook="ROBOT TO HUMAN", accent="#F2542D", colorA="#111111"),
     beats=[
     b("hook", dict(problem="Agent ka prompt kaam kyun nahi karta", brand="System Prompts", pill="PRO TEMPLATE", stat="5", sub="sections, हर professional prompt में"),
       "आपका AI agent instructions follow क्यों नहीं करता? गलती agent की नहीं, prompt की होती है। आज professional prompt लिखना सीखते हैं।", "prompt", "professional"),

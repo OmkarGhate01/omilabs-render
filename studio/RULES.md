@@ -28,7 +28,7 @@
 3. The CTA comes at the end only, with one line and the channel promise.
 
 ## Packaging (all videos)
-- **Title:** ≤50 characters. Write it in Roman script and put the English search keyword in it (`search_kw`). Lead with the result or the curiosity, avoid internal jargon, and keep the keyword early.
+- **Title and thumbnail text:** English only (Omkar, 12 Nov; international audience). Title ≤50 characters. Write it and put the English search keyword in it (`search_kw`). Lead with the result or the curiosity, avoid internal jargon, and keep the keyword early.
 - **Thumbnail hook:** ≤4 words, high contrast, and complementary to the title. It must not repeat the title's words.
 - **Facts:** only from official docs. No fake urgency.
 

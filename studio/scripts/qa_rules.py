@@ -17,7 +17,12 @@ def check(spec):
     title = spec.get("title", "")
     if title and len(title) > 50:
         errs.append("title %d chars > 50: %s" % (len(title), title))
+    HIN = re.compile(r"[\u0900-\u097F]|\b(kya|kaise|kaun|kaunsa|hai|ke|ki|ko|se|mein|liye|karein|karo|banao|lein|sach|farak|badla|apni|aur|nahi|kab|tarike|andar|hota|insaan|pehla)\b", re.I)
+    if title and HIN.search(title):
+        errs.append("title must be English (international audience, Omkar 12 Nov): " + title)
     th = spec.get("thumb")
+    if th and HIN.search(th.get("hook", "") + " " + th.get("a", "") + " " + th.get("top", "")):
+        errs.append("thumbnail text must be English")
     if th:
         hw = words(th.get("hook", ""))
         if len(hw) > 4:
