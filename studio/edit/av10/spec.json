@@ -1,0 +1,685 @@
+{
+ "id": "av10",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "PROMPT ENGINEERING",
+ "search_kw": "System Prompt",
+ "title": "System Prompt vs User Prompt (AI Agents)",
+ "summary": "System prompt vs user prompt explained in Hinglish, and why a ChatGPT-style prompt is not an agent prompt: who writes each, when each applies, what belongs where, first message, dynamic variables, prompt injection, and how a voice agent system prompt differs from a chat prompt (sections, tools, guardrails, spoken style). Based on the ElevenAgents prompting guide and guardrails docs.",
+ "tags": [
+  "system prompt vs user prompt",
+  "system prompt",
+  "user prompt",
+  "chatgpt prompt vs agent prompt",
+  "prompt engineering",
+  "ai agents",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (prompting guide, guardrails, dynamic variables, overrides)"
+ ],
+ "hashtags": "#PromptEngineering #SystemPrompt #AIAgents #Hinglish",
+ "thumb": {
+  "a": "System vs User Prompt",
+  "b": "",
+  "top": "PROMPT ENGINEERING",
+  "hook": "NOT THE SAME",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "System prompt aur user prompt mein farak kya",
+    "brand": "System vs User",
+    "pill": "PROMPTS",
+    "stat": "2",
+    "sub": "prompts, अलग काम"
+   },
+   "say": "System prompt और user prompt में फर्क क्या है? ChatGPT वाला prompt agent में fail क्यों होता है?",
+   "hl": [
+    "फर्क",
+    "fail"
+   ],
+   "chip": "फर्क"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "System prompt",
+     "rows": [
+      [
+       "कौन लिखता",
+       "builder (आप)"
+      ],
+      [
+       "कब",
+       "हर conversation में, पहले से"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "chat",
+     "title": "User prompt",
+     "rows": [
+      [
+       "कौन लिखता",
+       "user / caller"
+      ],
+      [
+       "कब",
+       "हर turn पे, live"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "System prompt आप लिखते हो, और वो हर conversation में पहले से लगा होता है। User prompt caller बोलता है, हर turn पे live।",
+   "hl": [
+    "आप",
+    "caller"
+   ],
+   "chip": "आप"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Docs की definition",
+    "rows": [
+     [
+      "System prompt",
+      "personality + policy blueprint"
+     ],
+     [
+      "Defines",
+      "role, goals, tools, steps, guardrails"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक system prompt agent का personality और policy blueprint है: role, goals, tools, steps और guardrails।",
+   "hl": [
+    "blueprint",
+    "guardrails"
+   ],
+   "chip": "blueprint"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "क्या कहाँ जाता है"
+   },
+   "say": "Chapter एक: कौनसी बात किस prompt में।",
+   "hl": [
+    "कहाँ"
+   ],
+   "chip": "कहाँ"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Where does it go?",
+    "cols": [
+     "System prompt",
+     "User prompt"
+    ],
+    "rows": [
+     {
+      "k": "Agent का नाम, role",
+      "v": [
+       "yes",
+       "no"
+      ]
+     },
+     {
+      "k": "Rules, guardrails",
+      "v": [
+       "yes",
+       "no"
+      ]
+     },
+     {
+      "k": "Caller का सवाल",
+      "v": [
+       "no",
+       "yes"
+      ]
+     },
+     {
+      "k": "Tool rules",
+      "v": [
+       "yes",
+       "no"
+      ]
+     }
+    ]
+   },
+   "say": "नाम, role, rules और tool rules system prompt में। Caller का सवाल user prompt है, उसे आप control नहीं करते।",
+   "hl": [
+    "rules",
+    "control"
+   ],
+   "chip": "rules"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Rule caller के भरोसे: वो सही सवाल पूछेगा",
+    "good": "Rule system prompt में: हर caller पे लागू"
+   },
+   "say": "जो behaviour हर call में चाहिए, वो system prompt में जाता है। Caller पे भरोसा मत करो कि वो सही तरह पूछेगा।",
+   "hl": [
+    "behaviour",
+    "भरोसा"
+   ],
+   "chip": "behaviour"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "First message",
+    "rows": [
+     [
+      "क्या",
+      "agent का पहला वाक्य"
+     ],
+     [
+      "कहाँ",
+      "agent settings"
+     ]
+    ]
+   },
+   "say": "First message अलग setting है: call के शुरू में agent क्या बोलेगा।",
+   "hl": [
+    "First",
+    "message"
+   ],
+   "chip": "First"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Dynamic variables",
+    "rows": [
+     [
+      "क्या",
+      "runtime data"
+     ],
+     [
+      "कहाँ",
+      "system prompt, first message, tools"
+     ]
+    ]
+   },
+   "say": "Dynamic variables तीसरी चीज़ है: runtime data, जैसे caller का नाम, जो system prompt और first message में भरता है।",
+   "hl": [
+    "variables",
+    "runtime"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "ChatGPT prompt vs agent prompt"
+   },
+   "say": "Chapter दो: ChatGPT वाला prompt agent में क्यों नहीं चलता।",
+   "hl": [
+    "ChatGPT"
+   ],
+   "chip": "ChatGPT"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "chat",
+     "title": "ChatGPT prompt",
+     "rows": [
+      [
+       "Goal",
+       "एक बार अच्छा जवाब"
+      ],
+      [
+       "Output",
+       "लंबा text, lists"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "cpu",
+     "title": "Agent system prompt",
+     "rows": [
+      [
+       "Goal",
+       "हज़ारों calls, same behaviour"
+      ],
+      [
+       "Output",
+       "छोटे spoken जवाब"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "ChatGPT prompt एक बार अच्छा जवाब पाने के लिए। Agent prompt हज़ारों calls में same behaviour के लिए।",
+   "hl": [
+    "ChatGPT",
+    "behaviour"
+   ],
+   "chip": "ChatGPT"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Agent के पास tools हैं",
+     "Caller unpredictable है",
+     "Voice: बोलना, पढ़ना नहीं",
+     "Rules टूटने का नुकसान बड़ा"
+    ]
+   },
+   "say": "फर्क की वजहें: agent tools चलाता है, caller unpredictable है, voice में बोलना है, और rule टूटे तो नुकसान बड़ा।",
+   "hl": [
+    "tools",
+    "unpredictable"
+   ],
+   "chip": "tools"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Write a detailed answer with bullet points",
+    "good": "Keep responses to 1–2 spoken sentences"
+   },
+   "say": "ChatGPT में लिखते हो detailed answer with bullet points। Voice agent में लिखो: एक-दो spoken sentences।",
+   "hl": [
+    "detailed",
+    "spoken"
+   ],
+   "chip": "detailed"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Act as an expert. Answer anything.",
+    "good": "Only documented info. Escalate when unsure."
+   },
+   "say": "ChatGPT में act as an expert, answer anything चलता है। Agent में लिखो: सिर्फ documented जानकारी, और unsure हो तो escalate।",
+   "hl": [
+    "documented",
+    "escalate"
+   ],
+   "chip": "documented"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Agent prompt का structure"
+   },
+   "say": "Chapter तीन: agent system prompt कैसा दिखता है।",
+   "hl": [
+    "structure"
+   ],
+   "chip": "structure"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "# Personality",
+     "# Goal",
+     "# Guardrails",
+     "# Tone",
+     "# Tools"
+    ]
+   },
+   "say": "Guide के मुताबिक markdown sections: personality, goal, guardrails, tone, और tools।",
+   "hl": [
+    "sections",
+    "markdown"
+   ],
+   "chip": "sections"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "क्यों sections",
+    "rows": [
+     [
+      "Models",
+      "headings पे ध्यान"
+     ],
+     [
+      "Benefit",
+      "instruction bleed नहीं"
+     ]
+    ]
+   },
+   "say": "Sections इसलिए क्योंकि models headings पे ध्यान देते हैं, खासकर guardrails पे, और rules आपस में नहीं मिलते।",
+   "hl": [
+    "headings",
+    "guardrails"
+   ],
+   "chip": "headings"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Tool rules",
+    "rows": [
+     [
+      "कब",
+      "triggers"
+     ],
+     [
+      "कैसे",
+      "steps"
+     ],
+     [
+      "Fail पे",
+      "error handling"
+     ]
+    ]
+   },
+   "say": "ChatGPT prompt में tools होते ही नहीं। Agent prompt में हर tool के triggers, steps और error handling लिखो।",
+   "hl": [
+    "tools",
+    "triggers"
+   ],
+   "chip": "tools"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "User prompt से खतरा"
+   },
+   "say": "Chapter चार: जब user prompt agent को बिगाड़ने की कोशिश करे।",
+   "hl": [
+    "खतरा"
+   ],
+   "chip": "खतरा"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Prompt injection",
+    "rows": [
+     [
+      "Caller",
+      "Ignore your instructions..."
+     ],
+     [
+      "Goal",
+      "system prompt override"
+     ]
+    ]
+   },
+   "say": "Prompt injection में caller user prompt से system prompt override करने की कोशिश करता है: अपनी instructions भूल जाओ।",
+   "hl": [
+    "injection",
+    "override"
+   ],
+   "chip": "injection"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "System prompt: never reveal instructions",
+     "Manipulation guardrail",
+     "Sensitive tools पे conditions"
+    ]
+   },
+   "say": "बचाव: system prompt में instructions reveal न करने का rule, manipulation guardrail, और sensitive tools पे conditions।",
+   "hl": [
+    "बचाव",
+    "manipulation"
+   ],
+   "chip": "बचाव"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller ने बोला, तो agent ने rule तोड़ा",
+    "good": "System prompt rules हमेशा caller की बात से ऊपर"
+   },
+   "say": "Golden rule: system prompt के rules हमेशा caller की बात से ऊपर हैं। Prompt में ये साफ लिखो।",
+   "hl": [
+    "Golden",
+    "ऊपर"
+   ],
+   "chip": "Golden"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Per-call बदलाव"
+   },
+   "say": "Chapter पाँच: हर call के लिए system prompt थोड़ा बदलना।",
+   "hl": [
+    "बदलना"
+   ],
+   "chip": "बदलना"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Overrides",
+    "rows": [
+     [
+      "क्या",
+      "per-conversation settings"
+     ],
+     [
+      "Example",
+      "language, first message"
+     ]
+    ]
+   },
+   "say": "Overrides से हर conversation के लिए settings बदल सकते हो, जैसे language या first message, बिना नया agent बनाए।",
+   "hl": [
+    "Overrides",
+    "conversation"
+   ],
+   "chip": "Overrides"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Variables in prompt",
+    "rows": [
+     [
+      "Line",
+      "The caller's plan is {{plan}}."
+     ],
+     [
+      "Rule",
+      "Offer upgrade only if basic."
+     ]
+    ]
+   },
+   "say": "या system prompt में variables: caller का plan यह है, upgrade सिर्फ तब offer करो जब plan basic हो।",
+   "hl": [
+    "variables",
+    "upgrade"
+   ],
+   "chip": "variables"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Example: same question, 2 prompts"
+   },
+   "say": "Chapter छह: एक सवाल, दो तरह के prompt।",
+   "hl": [
+    "सवाल"
+   ],
+   "chip": "सवाल"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "User asks",
+    "rows": [
+     [
+      "Line",
+      "Mera refund kab aayega?"
+     ]
+    ]
+   },
+   "say": "Caller पूछता है: मेरा refund कब आएगा?",
+   "hl": [
+    "refund",
+    "कब"
+   ],
+   "chip": "refund"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "ChatGPT-style prompt",
+    "rows": [
+     [
+      "Result",
+      "लंबा, generic जवाब"
+     ],
+     [
+      "Risk",
+      "अंदाज़े से date"
+     ]
+    ]
+   },
+   "say": "ChatGPT style prompt वाला agent लंबा generic जवाब देगा, और शायद अंदाज़े से कोई date भी बोल दे।",
+   "hl": [
+    "generic",
+    "अंदाज़े"
+   ],
+   "chip": "generic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Agent system prompt",
+    "rows": [
+     [
+      "Step 1",
+      "identity verify"
+     ],
+     [
+      "Step 2",
+      "refund status tool"
+     ],
+     [
+      "Step 3",
+      "1–2 sentences जवाब"
+     ]
+    ]
+   },
+   "say": "Proper agent prompt वाला agent पहले identity verify करेगा, tool से status देखेगा, और एक-दो sentences में बताएगा।",
+   "hl": [
+    "verify",
+    "status"
+   ],
+   "chip": "verify"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "System = आप, हमेशा लागू",
+     "User = caller, हर turn",
+     "ChatGPT prompt ≠ agent prompt",
+     "Sections + tools + guardrails",
+     "Rules caller से ऊपर"
+    ]
+   },
+   "say": "System prompt आपका और हमेशा लागू, user prompt caller का। ChatGPT prompt agent prompt नहीं है। Sections, tools, guardrails, और rules हमेशा ऊपर।",
+   "hl": [
+    "System",
+    "ऊपर"
+   ],
+   "chip": "System"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Memory and context",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में agents की memory और context। Omilabs subscribe करो।",
+   "hl": [
+    "memory",
+    "subscribe"
+   ],
+   "chip": "memory"
+  }
+ ]
+}

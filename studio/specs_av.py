@@ -1724,6 +1724,83 @@ V["av09"] = dict(
     ])
 
 
+# ───────────── av10: System Prompt vs User Prompt ─────────────
+V["av10"] = dict(
+    series="PROMPT ENGINEERING", music="ELEVENLABS V4", search_kw="System Prompt",
+    title="System Prompt vs User Prompt (AI Agents)",
+    summary="System prompt vs user prompt explained in Hinglish, and why a ChatGPT-style prompt is not an agent prompt: who writes each, when each applies, what belongs where, first message, dynamic variables, prompt injection, and how a voice agent system prompt differs from a chat prompt (sections, tools, guardrails, spoken style). Based on the ElevenAgents prompting guide and guardrails docs.",
+    tags=["system prompt vs user prompt", "system prompt", "user prompt", "chatgpt prompt vs agent prompt", "prompt engineering", "ai agents", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (prompting guide, guardrails, dynamic variables, overrides)"],
+    hashtags="#PromptEngineering #SystemPrompt #AIAgents #Hinglish",
+    thumb=dict(a="System vs User Prompt", b="", top="PROMPT ENGINEERING", hook="NOT THE SAME", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="System prompt aur user prompt mein farak kya", brand="System vs User", pill="PROMPTS", stat="2", sub="prompts, अलग काम"),
+      "System prompt और user prompt में फर्क क्या है? ChatGPT वाला prompt agent में fail क्यों होता है?", "फर्क", "fail"),
+    b("duo", dict(a=dict(icon="cpu", title="System prompt", rows=[["कौन लिखता", "builder (आप)"], ["कब", "हर conversation में, पहले से"]]),
+                  b=dict(icon="chat", title="User prompt", rows=[["कौन लिखता", "user / caller"], ["कब", "हर turn पे, live"]]), accentB="#111111"),
+      "System prompt आप लिखते हो, और वो हर conversation में पहले से लगा होता है। User prompt caller बोलता है, हर turn पे live।", "आप", "caller"),
+    b("card", dict(icon="star", title="Docs की definition", rows=[["System prompt", "personality + policy blueprint"], ["Defines", "role, goals, tools, steps, guardrails"]]),
+      "Docs के मुताबिक system prompt agent का personality और policy blueprint है: role, goals, tools, steps और guardrails।", "blueprint", "guardrails"),
+
+    CH(1, "क्या कहाँ जाता है", "Chapter एक: कौनसी बात किस prompt में।", ["कहाँ"], "कहाँ"),
+    b("table", dict(title="Where does it go?", cols=["System prompt", "User prompt"], rows=[dict(k="Agent का नाम, role", v=["yes", "no"]), dict(k="Rules, guardrails", v=["yes", "no"]), dict(k="Caller का सवाल", v=["no", "yes"]), dict(k="Tool rules", v=["yes", "no"])]),
+      "नाम, role, rules और tool rules system prompt में। Caller का सवाल user prompt है, उसे आप control नहीं करते।", "rules", "control"),
+    b("versus", dict(bad="Rule caller के भरोसे: वो सही सवाल पूछेगा", good="Rule system prompt में: हर caller पे लागू"),
+      "जो behaviour हर call में चाहिए, वो system prompt में जाता है। Caller पे भरोसा मत करो कि वो सही तरह पूछेगा।", "behaviour", "भरोसा"),
+    b("card", dict(icon="chat", title="First message", rows=[["क्या", "agent का पहला वाक्य"], ["कहाँ", "agent settings"]]),
+      "First message अलग setting है: call के शुरू में agent क्या बोलेगा।", "First", "message"),
+    b("card", dict(icon="key", title="Dynamic variables", rows=[["क्या", "runtime data"], ["कहाँ", "system prompt, first message, tools"]]),
+      "Dynamic variables तीसरी चीज़ है: runtime data, जैसे caller का नाम, जो system prompt और first message में भरता है।", "variables", "runtime"),
+
+    CH(2, "ChatGPT prompt vs agent prompt", "Chapter दो: ChatGPT वाला prompt agent में क्यों नहीं चलता।", ["ChatGPT"], "ChatGPT"),
+    b("duo", dict(a=dict(icon="chat", title="ChatGPT prompt", rows=[["Goal", "एक बार अच्छा जवाब"], ["Output", "लंबा text, lists"]]),
+                  b=dict(icon="cpu", title="Agent system prompt", rows=[["Goal", "हज़ारों calls, same behaviour"], ["Output", "छोटे spoken जवाब"]]), accentB="#111111"),
+      "ChatGPT prompt एक बार अच्छा जवाब पाने के लिए। Agent prompt हज़ारों calls में same behaviour के लिए।", "ChatGPT", "behaviour"),
+    b("list", dict(items=["Agent के पास tools हैं", "Caller unpredictable है", "Voice: बोलना, पढ़ना नहीं", "Rules टूटने का नुकसान बड़ा"]),
+      "फर्क की वजहें: agent tools चलाता है, caller unpredictable है, voice में बोलना है, और rule टूटे तो नुकसान बड़ा।", "tools", "unpredictable"),
+    b("versus", dict(bad="Write a detailed answer with bullet points", good="Keep responses to 1–2 spoken sentences"),
+      "ChatGPT में लिखते हो detailed answer with bullet points। Voice agent में लिखो: एक-दो spoken sentences।", "detailed", "spoken"),
+    b("versus", dict(bad="Act as an expert. Answer anything.", good="Only documented info. Escalate when unsure."),
+      "ChatGPT में act as an expert, answer anything चलता है। Agent में लिखो: सिर्फ documented जानकारी, और unsure हो तो escalate।", "documented", "escalate"),
+
+    CH(3, "Agent prompt का structure", "Chapter तीन: agent system prompt कैसा दिखता है।", ["structure"], "structure"),
+    b("list", dict(items=["# Personality", "# Goal", "# Guardrails", "# Tone", "# Tools"]),
+      "Guide के मुताबिक markdown sections: personality, goal, guardrails, tone, और tools।", "sections", "markdown"),
+    b("card", dict(icon="bolt", title="क्यों sections", rows=[["Models", "headings पे ध्यान"], ["Benefit", "instruction bleed नहीं"]]),
+      "Sections इसलिए क्योंकि models headings पे ध्यान देते हैं, खासकर guardrails पे, और rules आपस में नहीं मिलते।", "headings", "guardrails"),
+    b("card", dict(icon="code", title="Tool rules", rows=[["कब", "triggers"], ["कैसे", "steps"], ["Fail पे", "error handling"]]),
+      "ChatGPT prompt में tools होते ही नहीं। Agent prompt में हर tool के triggers, steps और error handling लिखो।", "tools", "triggers"),
+
+    CH(4, "User prompt से खतरा", "Chapter चार: जब user prompt agent को बिगाड़ने की कोशिश करे।", ["खतरा"], "खतरा"),
+    b("card", dict(icon="x", title="Prompt injection", rows=[["Caller", "Ignore your instructions..."], ["Goal", "system prompt override"]]),
+      "Prompt injection में caller user prompt से system prompt override करने की कोशिश करता है: अपनी instructions भूल जाओ।", "injection", "override"),
+    b("list", dict(items=["System prompt: never reveal instructions", "Manipulation guardrail", "Sensitive tools पे conditions"]),
+      "बचाव: system prompt में instructions reveal न करने का rule, manipulation guardrail, और sensitive tools पे conditions।", "बचाव", "manipulation"),
+    b("versus", dict(bad="Caller ने बोला, तो agent ने rule तोड़ा", good="System prompt rules हमेशा caller की बात से ऊपर"),
+      "Golden rule: system prompt के rules हमेशा caller की बात से ऊपर हैं। Prompt में ये साफ लिखो।", "Golden", "ऊपर"),
+
+    CH(5, "Per-call बदलाव", "Chapter पाँच: हर call के लिए system prompt थोड़ा बदलना।", ["बदलना"], "बदलना"),
+    b("card", dict(icon="key", title="Overrides", rows=[["क्या", "per-conversation settings"], ["Example", "language, first message"]]),
+      "Overrides से हर conversation के लिए settings बदल सकते हो, जैसे language या first message, बिना नया agent बनाए।", "Overrides", "conversation"),
+    b("card", dict(icon="star", title="Variables in prompt", rows=[["Line", "The caller's plan is {{plan}}."], ["Rule", "Offer upgrade only if basic."]]),
+      "या system prompt में variables: caller का plan यह है, upgrade सिर्फ तब offer करो जब plan basic हो।", "variables", "upgrade"),
+
+    CH(6, "Example: same question, 2 prompts", "Chapter छह: एक सवाल, दो तरह के prompt।", ["सवाल"], "सवाल"),
+    b("card", dict(icon="chat", title="User asks", rows=[["Line", "Mera refund kab aayega?"]]),
+      "Caller पूछता है: मेरा refund कब आएगा?", "refund", "कब"),
+    b("card", dict(icon="x", title="ChatGPT-style prompt", rows=[["Result", "लंबा, generic जवाब"], ["Risk", "अंदाज़े से date"]]),
+      "ChatGPT style prompt वाला agent लंबा generic जवाब देगा, और शायद अंदाज़े से कोई date भी बोल दे।", "generic", "अंदाज़े"),
+    b("card", dict(icon="check", title="Agent system prompt", rows=[["Step 1", "identity verify"], ["Step 2", "refund status tool"], ["Step 3", "1–2 sentences जवाब"]]),
+      "Proper agent prompt वाला agent पहले identity verify करेगा, tool से status देखेगा, और एक-दो sentences में बताएगा।", "verify", "status"),
+
+    CH(7, "Recap", "Recap।", ["Recap"], "Recap"),
+    b("list", dict(items=["System = आप, हमेशा लागू", "User = caller, हर turn", "ChatGPT prompt ≠ agent prompt", "Sections + tools + guardrails", "Rules caller से ऊपर"]),
+      "System prompt आपका और हमेशा लागू, user prompt caller का। ChatGPT prompt agent prompt नहीं है। Sections, tools, guardrails, और rules हमेशा ऊपर।", "System", "ऊपर"),
+    b("cta", dict(title="Next: Memory and context", follow="Omilabs"),
+      "अगली video में agents की memory और context। Omilabs subscribe करो।", "memory", "subscribe"),
+    ])
+
+
 V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 
