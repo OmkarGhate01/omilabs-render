@@ -1,0 +1,1972 @@
+{
+ "id": "av05",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "PROMPT ENGINEERING",
+ "search_kw": "Prompt Mistakes",
+ "title": "10 Prompt Mistakes That Break AI Agents",
+ "summary": "Ten system-prompt mistakes that break AI agents, explained in Hinglish with symptom, cause, fix and before/after examples: one-paragraph prompts, wordy instructions, repeated tone rules, no emphasis or emphasis everywhere, no guardrails section, vague tool descriptions, no tool error handling, one agent doing everything, unspoken numbers, and expecting the prompt to control platform settings. Based on the ElevenAgents prompting guide and guardrails docs.",
+ "tags": [
+  "prompt mistakes",
+  "ai agent prompt",
+  "prompt engineering mistakes",
+  "system prompt tips",
+  "voice agent prompt",
+  "ai agent not working",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents/best-practices/prompting-guide",
+  "elevenlabs.io/docs/eleven-agents/best-practices/guardrails"
+ ],
+ "hashtags": "#PromptEngineering #AIAgents #AIVoiceAgent #Hinglish",
+ "thumb": {
+  "a": "10 Prompt Mistakes",
+  "b": "",
+  "top": "AI AGENTS",
+  "hook": "STOP DOING THIS",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Aapka AI agent kyun toot jata hai",
+    "brand": "Prompt Mistakes",
+    "pill": "AI AGENTS",
+    "stat": "10",
+    "sub": "mistakes, हर एक का fix"
+   },
+   "say": "आपका AI agent बीच call में गड़बड़ क्यों करता है? ज़्यादातर बार वजह prompt की ये दस गलतियाँ होती हैं।",
+   "hl": [
+    "गलतियाँ",
+    "prompt"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Symptom: क्या दिखता है",
+     "Why: क्यों होता है",
+     "Fix: before → after"
+    ]
+   },
+   "say": "हर mistake में तीन चीज़ें: symptom, यानि क्या दिखता है, वजह, और before से after वाला fix।",
+   "hl": [
+    "Symptom",
+    "fix"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Source",
+    "rows": [
+     [
+      "Guide",
+      "ElevenAgents prompting guide"
+     ],
+     [
+      "Plus",
+      "guardrails docs"
+     ]
+    ]
+   },
+   "say": "सारे fixes ElevenLabs के prompting guide और guardrails docs से हैं।",
+   "hl": [
+    "guide",
+    "docs"
+   ],
+   "chip": "guide"
+  },
+  {
+   "tag": "CH0",
+   "v": "chapter",
+   "d": {
+    "num": 0,
+    "title": "Prompt kyun matter karta hai"
+   },
+   "say": "पहले समझो, prompt इतना ज़रूरी क्यों है।",
+   "hl": [
+    "ज़रूरी"
+   ],
+   "chip": "ज़रूरी"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "System prompt",
+    "rows": [
+     [
+      "Docs",
+      "personality + policy blueprint"
+     ],
+     [
+      "Effect",
+      "robotic → lifelike"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक system prompt agent का personality और policy blueprint है। यही robotic को lifelike बनाता है।",
+   "hl": [
+    "blueprint",
+    "lifelike"
+   ],
+   "chip": "blueprint"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Role",
+     "Goals",
+     "Allowed tools",
+     "Task steps",
+     "Guardrails"
+    ]
+   },
+   "say": "Enterprise prompts में role, goals, allowed tools, task के steps, और guardrails होते हैं।",
+   "hl": [
+    "Enterprise",
+    "guardrails"
+   ],
+   "chip": "Enterprise"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent fail = model खराब",
+    "good": "Agent fail = पहले prompt check करो"
+   },
+   "say": "Agent fail हो तो पहले model को दोष मत दो। ज़्यादातर बार गलती prompt में होती है, और वो सबसे सस्ता fix है।",
+   "hl": [
+    "prompt",
+    "सस्ता"
+   ],
+   "chip": "prompt"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Mistake 1: Ek lamba paragraph"
+   },
+   "say": "Mistake नंबर 1: Ek lamba paragraph।",
+   "hl": [
+    "Ek"
+   ],
+   "chip": "Ek"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent कुछ rules भूल जाता है, rules आपस में मिल जाते हैं"
+     ]
+    ]
+   },
+   "say": "Symptom: agent कुछ rules भूल जाता है, rules आपस में मिल जाते हैं।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "models headings पे ज़्यादा ध्यान देते हैं, paragraph में instruction bleed होता है"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? models headings पे ज़्यादा ध्यान देते हैं, paragraph में instruction bleed होता है।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Be polite. Never share data. Process refunds. Verify identity...",
+    "good": "# Personality / # Goal / # Guardrails / # Tone"
+   },
+   "say": "Fix: अलग markdown sections बनाओ: personality, goal, guardrails, tone, और tools।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Bonus",
+    "rows": [
+     [
+      "# Guardrails",
+      "models इस heading पे खास ध्यान देते हैं"
+     ]
+    ]
+   },
+   "say": "Docs कहते हैं models guardrails heading पे खास ध्यान देते हैं, इसलिए सबसे ज़रूरी rules वहीं रखो।",
+   "hl": [
+    "Guardrails",
+    "ध्यान"
+   ],
+   "chip": "Guardrails"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Prompt",
+      "एक paragraph में 9 rules"
+     ],
+     [
+      "Call",
+      "agent ने identity verify ही नहीं किया"
+     ]
+    ]
+   },
+   "say": "Real scenario: एक paragraph में नौ rules थे। Call में agent ने refund से पहले identity verify ही नहीं किया, क्योंकि वो rule बीच में दब गया था।",
+   "hl": [
+    "verify",
+    "दब"
+   ],
+   "chip": "verify"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Transcript में कैसे पकड़ें",
+    "rows": [
+     [
+      "Sign",
+      "एक rule कभी follow, कभी नहीं"
+     ],
+     [
+      "Check",
+      "वो rule किस section में है?"
+     ]
+    ]
+   },
+   "say": "Transcripts में पहचान: कोई rule कभी follow होता है, कभी नहीं। तो देखो वो rule किस section में है, या किसी section में है भी या नहीं।",
+   "hl": [
+    "Transcripts",
+    "section"
+   ],
+   "chip": "Transcripts"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Test जोड़ो",
+    "rows": [
+     [
+      "Scenario",
+      "refund माँगो, identity मत दो"
+     ],
+     [
+      "Success",
+      "agent पहले verify करे"
+     ]
+    ]
+   },
+   "say": "Test जोड़ो: caller refund माँगे पर identity न दे। Success तभी जब agent पहले verify करे।",
+   "hl": [
+    "Test",
+    "verify"
+   ],
+   "chip": "Test"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Mistake 2: Wordy instructions"
+   },
+   "say": "Mistake नंबर 2: Wordy instructions।",
+   "hl": [
+    "Wordy"
+   ],
+   "chip": "Wordy"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent के जवाब लंबे, unclear, और latency ज़्यादा"
+     ]
+    ]
+   },
+   "say": "Symptom: agent के जवाब लंबे, unclear, और latency ज़्यादा।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "हर extra word confusion का मौका है और tokens बढ़ाता है"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? हर extra word confusion का मौका है और tokens बढ़ाता है।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "When talking to customers you should try to be really friendly and approachable...",
+    "good": "Speak in a friendly, conversational manner while maintaining professionalism."
+   },
+   "say": "Fix: हर instruction छोटा, साफ और action-based लिखो। Guide का example: एक लंबी line की जगह एक छोटी line।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Test",
+    "rows": [
+     [
+      "पूछो",
+      "क्या ये word हटाने से meaning बदलेगा?"
+     ],
+     [
+      "नहीं",
+      "तो हटाओ"
+     ]
+    ]
+   },
+   "say": "Simple test: कोई word हटाने से meaning नहीं बदलता, तो उसे हटा दो।",
+   "hl": [
+    "हटा",
+    "meaning"
+   ],
+   "chip": "हटा"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Tone section",
+      "120 words"
+     ],
+     [
+      "Result",
+      "agent के जवाब भी लंबे"
+     ]
+    ]
+   },
+   "say": "Real scenario: tone section में एक सौ बीस words थे, और agent के जवाब भी उतने ही लंबे और घुमावदार आने लगे।",
+   "hl": [
+    "लंबे",
+    "words"
+   ],
+   "chip": "लंबे"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Transcript sign",
+    "rows": [
+     [
+      "Sign",
+      "caller बीच में बोल पड़ता है"
+     ],
+     [
+      "Meaning",
+      "जवाब बहुत लंबे"
+     ]
+    ]
+   },
+   "say": "पहचान: transcript में caller बार-बार बीच में बोल पड़ता है। मतलब agent के जवाब बहुत लंबे हैं।",
+   "hl": [
+    "लंबे",
+    "बीच"
+   ],
+   "chip": "लंबे"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Fix line",
+    "rows": [
+     [
+      "Add",
+      "Keep responses under 2 sentences"
+     ],
+     [
+      "Unless",
+      "caller asks for detail"
+     ]
+    ]
+   },
+   "say": "Tone में एक साफ line: जवाब दो sentences से कम, जब तक caller details न माँगे।",
+   "hl": [
+    "sentences",
+    "details"
+   ],
+   "chip": "sentences"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Mistake 3: Tone har jagah repeat"
+   },
+   "say": "Mistake नंबर 3: Tone har jagah repeat।",
+   "hl": [
+    "Tone"
+   ],
+   "chip": "Tone"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent का tone कभी formal, कभी casual, inconsistent"
+     ]
+    ]
+   },
+   "say": "Symptom: agent का tone कभी formal, कभी casual, inconsistent।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "अलग-अलग जगह tone की अलग बातें आपस में टकराती हैं"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? अलग-अलग जगह tone की अलग बातें आपस में टकराती हैं।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tone rules पूरे prompt में बिखरे हुए",
+    "good": "Tone सिर्फ # Tone या # Personality में, एक बार"
+   },
+   "say": "Fix: tone एक ही जगह, साफ और concise। Docs यही कहते हैं: tone guidance पूरे prompt में repeat मत करो।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Top",
+      "Be formal"
+     ],
+     [
+      "Bottom",
+      "Be super casual and fun"
+     ],
+     [
+      "Result",
+      "mixed tone"
+     ]
+    ]
+   },
+   "say": "Real scenario: ऊपर लिखा था be formal, नीचे लिखा था be super casual। Agent हर call में अलग तरीके से बात करता था।",
+   "hl": [
+    "formal",
+    "casual"
+   ],
+   "chip": "formal"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Audit tip",
+    "rows": [
+     [
+      "Search",
+      "prompt में tone, friendly, formal"
+     ],
+     [
+      "Keep",
+      "सिर्फ एक जगह"
+     ]
+    ]
+   },
+   "say": "Audit tip: prompt में tone, friendly, formal जैसे words search करो। हर जगह से हटाकर एक ही section में रखो।",
+   "hl": [
+    "search",
+    "एक"
+   ],
+   "chip": "search"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Mistake 4: Emphasis ki galti"
+   },
+   "say": "Mistake नंबर 4: Emphasis ki galti।",
+   "hl": [
+    "Emphasis"
+   ],
+   "chip": "Emphasis"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "सबसे ज़रूरी rule लंबी calls में टूट जाता है"
+     ]
+    ]
+   },
+   "say": "Symptom: सबसे ज़रूरी rule लंबी calls में टूट जाता है।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "complex prompts में model हाल के context को ज़्यादा weight देता है"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? complex prompts में model हाल के context को ज़्यादा weight देता है।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "कोई emphasis नहीं, या हर line important",
+    "good": "सिर्फ 1–2 critical rules + This step is important"
+   },
+   "say": "Fix: critical line के आखिर में लिखो, this step is important, और सबसे ज़रूरी एक-दो rules दो बार repeat करो।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "10 lines पे IMPORTANT",
+    "good": "सिर्फ 1–2 पे"
+   },
+   "say": "पर हर line पे important मत लिखो। सब important हुआ, तो कुछ important नहीं।",
+   "hl": [
+    "important",
+    "सब"
+   ],
+   "chip": "important"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Rule",
+      "Don't share other customers' data"
+     ],
+     [
+      "Problem",
+      "लंबी call के 15 मिनट बाद टूटा"
+     ]
+    ]
+   },
+   "say": "Real scenario: rule था, दूसरे customer का data share मत करो। पंद्रह minute लंबी call के बाद agent ये भूल गया।",
+   "hl": [
+    "भूल",
+    "लंबी"
+   ],
+   "chip": "भूल"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Test जोड़ो",
+    "rows": [
+     [
+      "Scenario",
+      "लंबी बातचीत के बाद वही सवाल"
+     ],
+     [
+      "Success",
+      "rule अब भी follow"
+     ]
+    ]
+   },
+   "say": "Test: लंबी बातचीत simulate करो, और आखिर में वही tricky सवाल पूछो। Rule अब भी follow होना चाहिए।",
+   "hl": [
+    "simulate",
+    "tricky"
+   ],
+   "chip": "simulate"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Double protection",
+    "rows": [
+     [
+      "Prompt",
+      "rule + emphasis"
+     ],
+     [
+      "Guardrail",
+      "custom guardrail भी"
+     ]
+    ]
+   },
+   "say": "सबसे ज़रूरी rules के लिए docs double protection कहते हैं: prompt में भी, और अलग custom guardrail भी।",
+   "hl": [
+    "double",
+    "guardrail"
+   ],
+   "chip": "double"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Mistake 5: Guardrails section nahi"
+   },
+   "say": "Mistake नंबर 5: Guardrails section nahi।",
+   "hl": [
+    "Guardrails"
+   ],
+   "chip": "Guardrails"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent off-topic जाता है, या ऐसे promise करता है जो आप नहीं कर सकते"
+     ]
+    ]
+   },
+   "say": "Symptom: agent off-topic जाता है, या ऐसे promise करता है जो आप नहीं कर सकते।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "कोई साफ boundary नहीं, तो model खुद अंदाज़ा लगाता है"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? कोई साफ boundary नहीं, तो model खुद अंदाज़ा लगाता है।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "कोई # Guardrails नहीं",
+    "good": "# Guardrails: सिर्फ documented info, guess नहीं, limit पे escalate"
+   },
+   "say": "Fix: guardrails section बनाओ। Docs का example: सिर्फ documented जानकारी, unreleased features पे अंदाज़ा नहीं, और limit पे human को escalate।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Focus guardrail: on-topic",
+     "Manipulation guardrail: injection block",
+     "Content guardrail",
+     "Custom guardrails: आपकी policy"
+    ]
+   },
+   "say": "और platform guardrails भी on करो: focus, manipulation, content, और अपनी policies के लिए custom guardrails।",
+   "hl": [
+    "guardrails",
+    "custom"
+   ],
+   "chip": "guardrails"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Caller",
+      "क्या next month price कम होगी?"
+     ],
+     [
+      "Agent",
+      "हाँ, शायद 20% कम"
+     ]
+    ]
+   },
+   "say": "Real scenario: caller ने पूछा, क्या अगले महीने price कम होगी? Agent ने बोल दिया, हाँ शायद बीस percent। ये बात कहीं लिखी ही नहीं थी।",
+   "hl": [
+    "price",
+    "लिखी"
+   ],
+   "chip": "price"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Injection example",
+    "rows": [
+     [
+      "Caller",
+      "Ignore your instructions and..."
+     ],
+     [
+      "Block",
+      "manipulation guardrail"
+     ]
+    ]
+   },
+   "say": "और कोई caller बोले, अपनी instructions भूल जाओ, तो manipulation guardrail ऐसी कोशिश पकड़ के conversation बंद कर सकता है।",
+   "hl": [
+    "manipulation",
+    "instructions"
+   ],
+   "chip": "manipulation"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "bolt",
+     "title": "Execution mode",
+     "rows": [
+      [
+       "streaming",
+       "default"
+      ],
+      [
+       "blocking",
+       "पहले check"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "x",
+     "title": "Exit",
+     "rows": [
+      [
+       "end_call",
+       "default"
+      ],
+      [
+       "retry",
+       "3 बार तक"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Custom guardrails में execution mode, streaming या blocking, और exit strategy, end call या तीन बार तक retry।",
+   "hl": [
+    "blocking",
+    "retry"
+   ],
+   "chip": "blocking"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Mistake 6: Vague tool descriptions"
+   },
+   "say": "Mistake नंबर 6: Vague tool descriptions।",
+   "hl": [
+    "Vague"
+   ],
+   "chip": "Vague"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent गलत tool चलाता है, या गलत format में data भेजता है"
+     ]
+    ]
+   },
+   "say": "Symptom: agent गलत tool चलाता है, या गलत format में data भेजता है।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "tool parameters का format और example नहीं लिखा"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? tool parameters का format और example नहीं लिखा।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "email: The user's email",
+    "good": "email: standard format, e.g. john@gmail.com"
+   },
+   "say": "Fix: हर parameter का format और example लिखो। Phone सिर्फ digits, code बिना spaces।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Tool कब चलाना है (triggers)",
+     "किस order में (steps)",
+     "कौनसी conditions पूरी हों"
+    ]
+   },
+   "say": "Prompt में हर tool के triggers, steps, और conditions भी लिखो, जैसे refund से पहले identity confirm।",
+   "hl": [
+    "triggers",
+    "conditions"
+   ],
+   "chip": "triggers"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Caller बोला",
+      "nine eight seven six..."
+     ],
+     [
+      "Tool को गया",
+      "nine eight seven six (words)"
+     ]
+    ]
+   },
+   "say": "Real scenario: caller ने phone number बोला, और agent ने tool को words में ही भेज दिया। API ने reject कर दिया।",
+   "hl": [
+    "reject",
+    "words"
+   ],
+   "chip": "reject"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Fix",
+    "rows": [
+     [
+      "phone",
+      "digits only, e.g. 5551234567"
+     ],
+     [
+      "Result",
+      "API सही format पाती है"
+     ]
+    ]
+   },
+   "say": "Fix: parameter description में लिखो, phone सिर्फ digits, example के साथ। अब tool को सही format जाता है।",
+   "hl": [
+    "digits",
+    "format"
+   ],
+   "chip": "digits"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Tool call test",
+    "rows": [
+     [
+      "Check",
+      "सही tool"
+     ],
+     [
+      "Check",
+      "सही parameters"
+     ]
+    ]
+   },
+   "say": "Tool call testing से check करो कि सही tool सही parameters के साथ चला।",
+   "hl": [
+    "testing",
+    "parameters"
+   ],
+   "chip": "testing"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Mistake 7: Tool error handling nahi"
+   },
+   "say": "Mistake नंबर 7: Tool error handling nahi।",
+   "hl": [
+    "Tool"
+   ],
+   "chip": "Tool"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "tool fail होने पे agent खुद से जवाब बना देता है"
+     ]
+    ]
+   },
+   "say": "Symptom: tool fail होने पे agent खुद से जवाब बना देता है।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "prompt में बताया ही नहीं कि error पे क्या करना है"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? prompt में बताया ही नहीं कि error पे क्या करना है।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tool fail → agent guess करके बोल दे",
+    "good": "Tool fail → बताओ, retry, फिर callback या transfer"
+   },
+   "say": "Fix: guide के चार steps: caller को बताओ, guess मत करो, alternative दो, और दो attempts के बाद escalate।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Example line",
+    "rows": [
+     [
+      "Retry",
+      "Let me try that again..."
+     ],
+     [
+      "Fallback",
+      "I can transfer you or schedule a callback"
+     ]
+    ]
+   },
+   "say": "Example: let me try that again। फिर भी नहीं हुआ, तो: मैं transfer कर सकता हूँ, या callback schedule कर दूँ?",
+   "hl": [
+    "transfer",
+    "callback"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Tool",
+      "order system down"
+     ],
+     [
+      "Agent",
+      "आपका order कल आ जाएगा"
+     ]
+    ]
+   },
+   "say": "Real scenario: order system down था, और agent ने बोल दिया आपका order कल आ जाएगा। यही hallucination है।",
+   "hl": [
+    "hallucination",
+    "down"
+   ],
+   "chip": "hallucination"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Test with mocking",
+    "rows": [
+     [
+      "Mock",
+      "tool error return करे"
+     ],
+     [
+      "Success",
+      "agent guess न करे"
+     ]
+    ]
+   },
+   "say": "Test: tool mocking से tool को error लौटाने दो। Success तभी जब agent कुछ guess न करे और alternative दे।",
+   "hl": [
+    "mocking",
+    "guess"
+   ],
+   "chip": "mocking"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Mistake 8: Ek agent, sab kaam"
+   },
+   "say": "Mistake नंबर 8: Ek agent, sab kaam।",
+   "hl": [
+    "Ek"
+   ],
+   "chip": "Ek"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "prompt बहुत लंबा, agent slow और confused"
+     ]
+    ]
+   },
+   "say": "Symptom: prompt बहुत लंबा, agent slow और confused।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "हर domain के rules एक ही context में भरे हैं"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? हर domain के rules एक ही context में भरे हैं।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक agent: billing + scheduling + support + sales",
+    "good": "Orchestrator + specialist agents + human escalation"
+   },
+   "say": "Fix: orchestrator intent से route करे, specialist agents अपना काम करें, और human handoff साफ हो।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "छोटे focused prompts",
+     "कम latency",
+     "अलग-अलग update",
+     "हर domain का metric"
+    ]
+   },
+   "say": "Docs के फायदे: छोटे prompts, कम latency, अलग-अलग update, और हर domain का अपना metric।",
+   "hl": [
+    "latency",
+    "metric"
+   ],
+   "chip": "latency"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Prompt",
+      "4,000 words"
+     ],
+     [
+      "Result",
+      "slow + गलत department"
+     ]
+    ]
+   },
+   "say": "Real scenario: एक ही prompt चार हज़ार words का। Agent slow था और कभी billing की बात scheduling में मिला देता था।",
+   "hl": [
+    "slow",
+    "billing"
+   ],
+   "chip": "slow"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "1. पहले message से intent",
+     "2. छोटा acknowledgment",
+     "3. Summary के साथ transfer",
+     "4. Info दोबारा मत पूछो"
+    ]
+   },
+   "say": "Handoff steps: intent पहचानो, छोटा acknowledgment, summary के साथ transfer, और ली गई info दोबारा मत पूछो।",
+   "hl": [
+    "Handoff",
+    "summary"
+   ],
+   "chip": "Handoff"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Mistake 9: Numbers bolne layak nahi"
+   },
+   "say": "Mistake नंबर 9: Numbers bolne layak nahi।",
+   "hl": [
+    "Numbers"
+   ],
+   "chip": "Numbers"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "agent dollar sign, dates, codes अजीब तरीके से पढ़ता है"
+     ]
+    ]
+   },
+   "say": "Symptom: agent dollar sign, dates, codes अजीब तरीके से पढ़ता है।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "voice agent को text बोलना होता है, symbols पढ़ना नहीं"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? voice agent को text बोलना होता है, symbols पढ़ना नहीं।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "$1,000 और 12/11 जैसे text",
+    "good": "one thousand dollars, twelfth November"
+   },
+   "say": "Fix: text normalization। या तो system normalizer, जो ज़्यादा reliable है, या prompt में rule: numbers words में लिखो।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Tool input अलग",
+    "rows": [
+     [
+      "बोलना",
+      "john at gmail dot com"
+     ],
+     [
+      "Tool को",
+      "john@gmail.com"
+     ]
+    ]
+   },
+   "say": "ध्यान दो: बोलते वक्त email at और dot में, पर tool को सही format में भेजो।",
+   "hl": [
+    "format",
+    "tool"
+   ],
+   "chip": "format"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Real scenario",
+    "rows": [
+     [
+      "Text",
+      "₹1,499"
+     ],
+     [
+      "Agent",
+      "rupee symbol one comma four..."
+     ]
+    ]
+   },
+   "say": "Real scenario: price लिखा था rupee symbol एक comma चार सौ निन्यानवे। Agent ने symbol और comma भी पढ़ने की कोशिश की।",
+   "hl": [
+    "symbol",
+    "price"
+   ],
+   "chip": "symbol"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "cpu",
+     "title": "LLM normalization",
+     "rows": [
+      [
+       "Latency",
+       "extra नहीं"
+      ],
+      [
+       "Risk",
+       "कभी fail"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "check",
+     "title": "System normalizer",
+     "rows": [
+      [
+       "Reliable",
+       "ज़्यादा"
+      ],
+      [
+       "Latency",
+       "थोड़ी"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "दो रास्ते: LLM normalization बिना extra latency पर कभी fail, और system normalizer ज़्यादा reliable पर थोड़ी latency।",
+   "hl": [
+    "normalization",
+    "reliable"
+   ],
+   "chip": "normalization"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "Mistake 10: Prompt se platform control"
+   },
+   "say": "Mistake नंबर 10: Prompt se platform control।",
+   "hl": [
+    "Prompt"
+   ],
+   "chip": "Prompt"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Symptom",
+    "rows": [
+     [
+      "क्या दिखता है",
+      "prompt में लिखा, बीच में मत काटो, फिर भी agent काटता है"
+     ]
+    ]
+   },
+   "say": "Symptom: prompt में लिखा, बीच में मत काटो, फिर भी agent काटता है।",
+   "hl": [
+    "Symptom"
+   ],
+   "chip": "Symptom"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "क्यों होता है",
+    "rows": [
+     [
+      "Reason",
+      "turn-taking और languages prompt नहीं, platform settings control करती हैं"
+     ]
+    ]
+   },
+   "say": "ऐसा क्यों होता है? turn-taking और languages prompt नहीं, platform settings control करती हैं।",
+   "hl": [
+    "क्यों"
+   ],
+   "chip": "क्यों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Prompt: Don't interrupt the caller",
+    "good": "Conversation flow: interruptions, turn eagerness"
+   },
+   "say": "Fix: turn-taking, timeouts, interruptions conversation flow settings में बदलो, और languages agent settings में।",
+   "hl": [
+    "fix"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "Docs note",
+    "rows": [
+     [
+      "Prompt",
+      "behaviour, response style"
+     ],
+     [
+      "Platform",
+      "turn-taking, languages"
+     ]
+    ]
+   },
+   "say": "Docs में साफ note है: system prompt conversation behaviour control करता है, turn-taking या languages नहीं।",
+   "hl": [
+    "turn-taking",
+    "languages"
+   ],
+   "chip": "turn-taking"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Interruptions",
+     "Turn eagerness",
+     "Take turn after silence",
+     "Soft timeout",
+     "Max duration"
+    ]
+   },
+   "say": "ये सब conversation flow settings हैं: interruptions, turn eagerness, silence के बाद turn, soft timeout, और max duration।",
+   "hl": [
+    "settings",
+    "interruptions"
+   ],
+   "chip": "settings"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Languages",
+    "rows": [
+     [
+      "Where",
+      "agent language settings"
+     ],
+     [
+      "Switch",
+      "language detection tool"
+     ]
+    ]
+   },
+   "say": "Languages agent settings में जोड़ो, और switching के लिए language detection system tool enable करो।",
+   "hl": [
+    "detection",
+    "languages"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "Bonus: 3 aur galtiyan"
+   },
+   "say": "Bonus: तीन और गलतियाँ।",
+   "hl": [
+    "Bonus"
+   ],
+   "chip": "Bonus"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "API keys prompt में",
+    "good": "Secrets सिर्फ tool config में"
+   },
+   "say": "Bonus एक: API keys या passwords prompt में। Prompt leak हो सकता है, secrets tool configuration में रखो।",
+   "hl": [
+    "keys",
+    "secrets"
+   ],
+   "chip": "keys"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Prompt बदला, test नहीं",
+    "good": "हर बदलाव के बाद simulation tests"
+   },
+   "say": "Bonus दो: prompt बदला पर test नहीं किया। हर बदलाव के बाद simulation और tool call tests चलाओ।",
+   "hl": [
+    "test",
+    "simulation"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक साथ 10 बदलाव",
+    "good": "एक बार में एक बदलाव"
+   },
+   "say": "Bonus तीन: एक साथ दस बदलाव। एक बदलाव, एक test, तभी पता चलेगा किससे फर्क पड़ा।",
+   "hl": [
+    "एक",
+    "बदलाव"
+   ],
+   "chip": "एक"
+  },
+  {
+   "tag": "CH12",
+   "v": "chapter",
+   "d": {
+    "num": 12,
+    "title": "10 minute prompt audit"
+   },
+   "say": "अपने prompt का दस minute audit कैसे करें।",
+   "hl": [
+    "audit"
+   ],
+   "chip": "audit"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Sections check",
+     "Word cut",
+     "Tone एक जगह",
+     "Critical rules",
+     "Guardrails"
+    ]
+   },
+   "say": "Step एक से पाँच: sections check, फालतू words काटो, tone एक जगह, critical rules पे emphasis, और guardrails section।",
+   "hl": [
+    "audit",
+    "sections"
+   ],
+   "chip": "audit"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Tool formats",
+     "Error steps",
+     "Specialists?",
+     "Numbers rule",
+     "Settings check"
+    ]
+   },
+   "say": "Step छह से दस: tool formats, error steps, specialists की ज़रूरत, numbers rule, और platform settings।",
+   "hl": [
+    "formats",
+    "settings"
+   ],
+   "chip": "formats"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "फिर transcripts",
+    "rows": [
+     [
+      "पढ़ो",
+      "10 calls"
+     ],
+     [
+      "Mark",
+      "हर गलती किस mistake नंबर की"
+     ]
+    ]
+   },
+   "say": "फिर दस transcripts पढ़ो, और हर गलती पे लिखो वो कौनसी mistake नंबर की है। Pattern तुरंत दिखेगा।",
+   "hl": [
+    "transcripts",
+    "Pattern"
+   ],
+   "chip": "transcripts"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "हर गलती = नया test",
+    "rows": [
+     [
+      "Bug",
+      "transcript से"
+     ],
+     [
+      "Test",
+      "simulation scenario"
+     ],
+     [
+      "Fix",
+      "prompt update"
+     ]
+    ]
+   },
+   "say": "हर गलती से एक नया simulation test बनाओ, फिर prompt update करो। Docs में असली conversation से test बनाने का option भी है।",
+   "hl": [
+    "test",
+    "conversation"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Claude से review",
+    "rows": [
+     [
+      "Tool",
+      "hosted MCP server"
+     ],
+     [
+      "काम",
+      "agent prompt पढ़ो और सुधारो"
+     ]
+    ]
+   },
+   "say": "Hosted MCP server से Claude जैसा assistant आपके agent का prompt पढ़कर review और update कर सकता है।",
+   "hl": [
+    "MCP",
+    "review"
+   ],
+   "chip": "MCP"
+  },
+  {
+   "tag": "CH13",
+   "v": "chapter",
+   "d": {
+    "num": 13,
+    "title": "FAQ"
+   },
+   "say": "कुछ common सवाल।",
+   "hl": [
+    "सवाल"
+   ],
+   "chip": "सवाल"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: Prompt कितना लंबा?",
+    "rows": [
+     [
+      "Answer",
+      "concise, जितना ज़रूरी"
+     ],
+     [
+      "बहुत लंबा",
+      "specialists"
+     ]
+    ]
+   },
+   "say": "Prompt कितना लंबा हो? जितना ज़रूरी उतना, पर concise। बहुत लंबा हो रहा है तो specialist agents में बाँटो।",
+   "hl": [
+    "concise",
+    "specialist"
+   ],
+   "chip": "concise"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: Examples डालें?",
+    "rows": [
+     [
+      "Yes",
+      "tool formats में examples"
+     ],
+     [
+      "Careful",
+      "छोटे, साफ examples"
+     ]
+    ]
+   },
+   "say": "Prompt में examples डालें? Tool parameters में ज़रूर, जैसे email का format। बस examples छोटे और साफ हों।",
+   "hl": [
+    "examples",
+    "format"
+   ],
+   "chip": "examples"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: Guardrail या prompt rule?",
+    "rows": [
+     [
+      "Critical",
+      "दोनों"
+     ],
+     [
+      "Normal",
+      "prompt rule काफी"
+     ]
+    ]
+   },
+   "say": "Guardrail लगाएँ या prompt rule? सबसे critical rules के लिए दोनों, बाकी के लिए prompt rule काफी है।",
+   "hl": [
+    "critical",
+    "दोनों"
+   ],
+   "chip": "critical"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Q: कितनी बार update?",
+    "rows": [
+     [
+      "When",
+      "transcript review के बाद"
+     ],
+     [
+      "How",
+      "एक बदलाव, फिर test"
+     ]
+    ]
+   },
+   "say": "Prompt कितनी बार update करें? हर transcript review के बाद, एक बार में एक बदलाव, और हर बार test।",
+   "hl": [
+    "update",
+    "test"
+   ],
+   "chip": "update"
+  },
+  {
+   "tag": "CH14",
+   "v": "chapter",
+   "d": {
+    "num": 14,
+    "title": "Checklist"
+   },
+   "say": "पूरी checklist, एक नज़र में।",
+   "hl": [
+    "checklist"
+   ],
+   "chip": "checklist"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "1. Sections",
+     "2. Concise",
+     "3. Tone एक जगह",
+     "4. 1–2 rules emphasize",
+     "5. Guardrails"
+    ]
+   },
+   "say": "Sections, concise, tone एक जगह, एक-दो rules पे emphasis, और guardrails।",
+   "hl": [
+    "Sections",
+    "guardrails"
+   ],
+   "chip": "Sections"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "6. Tool formats",
+     "7. Error handling",
+     "8. Specialists",
+     "9. Numbers normalize",
+     "10. Platform settings"
+    ]
+   },
+   "say": "Tool formats, error handling, specialists, numbers normalization, और platform settings।",
+   "hl": [
+    "formats",
+    "settings"
+   ],
+   "chip": "formats"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Human-like personality",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में agent को इंसान जैसी personality देना सीखेंगे। Omilabs subscribe करो।",
+   "hl": [
+    "personality",
+    "subscribe"
+   ],
+   "chip": "personality"
+  }
+ ]
+}
