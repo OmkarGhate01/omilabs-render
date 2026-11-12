@@ -58,6 +58,14 @@ def tts_retry(text, voice, rate, mp3, tries=5):
             return asyncio.run(tts(t, voice, rate, mp3))
         except Exception as e:
             last = e; print("TTS retry %d for: %s (%s)" % (i + 1, text[:60], type(e).__name__)); time.sleep(3 * (i + 1))
+    # last resort: speak the line in two halves and join them (Edge refuses some exact strings)
+    parts = text.split(" "); h = len(parts) // 2
+    if h >= 2:
+        a, b = " ".join(parts[:h]), " ".join(parts[h:])
+        wa = tts_retry(a, voice, rate, mp3 + ".a.mp3", tries=2); wb = tts_retry(b, voice, rate, mp3 + ".b.mp3", tries=2)
+        off = dur(mp3 + ".a.mp3")
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3 + ".a.mp3", "-i", mp3 + ".b.mp3", "-filter_complex", "[0][1]concat=n=2:v=0:a=1", mp3])
+        return wa + [dict(w, s=w["s"] + off, e=w["e"] + off) for w in wb]
     raise last
 
 
