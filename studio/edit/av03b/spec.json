@@ -1,0 +1,2438 @@
+{
+ "id": "av03b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE",
+ "search_kw": "AI Voice",
+ "title": "Create Your Own AI Voice with ElevenLabs",
+ "summary": "Create your own AI voice in ElevenLabs, explained in Hinglish: Voice Library, Voice Design prompts (recommended format, pitfalls, quality descriptors), Instant Voice Clone (1–2 minutes of clean audio), Professional Voice Clone (an hour or more of training audio), consent, consistency, and using your voice in Eleven v4 and voice agents.",
+ "tags": [
+  "create ai voice",
+  "elevenlabs voice clone",
+  "voice design elevenlabs",
+  "instant voice clone",
+  "professional voice clone",
+  "ai voice hindi",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs (voice design, instant voice cloning, professional voice cloning, voice library, latency optimization, Eleven v4)"
+ ],
+ "hashtags": "#ElevenLabs #AIVoice #VoiceClone #Hinglish",
+ "thumb": {
+  "a": "Apni AI Voice",
+  "b": "",
+  "top": "ELEVENLABS 2026",
+  "hook": "3 TARIKE",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Apni AI voice kaise banaye",
+    "brand": "AI Voice",
+    "pill": "ELEVENLABS",
+    "stat": "3",
+    "sub": "तरीके, अपनी AI voice"
+   },
+   "say": "अपनी खुद की AI voice चाहिए, जो सिर्फ आपकी हो? ElevenLabs में इसके तीन तरीके हैं। तीनों step by step।",
+   "hl": [
+    "AI",
+    "voice"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Voice Library से चुनो",
+     "Voice Design: text से नई voice",
+     "Voice Clone: अपनी आवाज़"
+    ]
+   },
+   "say": "पहला, voice library से चुनो। दूसरा, text description से नई voice बनाओ। तीसरा, अपनी आवाज़ clone करो।",
+   "hl": [
+    "library",
+    "design",
+    "clone"
+   ],
+   "chip": "library"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "इस video में",
+    "rows": [
+     [
+      "Design",
+      "prompt format + गलतियाँ"
+     ],
+     [
+      "Clone",
+      "instant vs professional"
+     ],
+     [
+      "Use",
+      "v4 और voice agents में"
+     ]
+    ]
+   },
+   "say": "Voice design का prompt format, cloning के best practices, और voice को agents में कैसे use करें, सब।",
+   "hl": [
+    "prompt",
+    "cloning"
+   ],
+   "chip": "prompt"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Voice Library"
+   },
+   "say": "Chapter एक: पहले देखो, शायद voice पहले से है।",
+   "hl": [
+    "पहले"
+   ],
+   "chip": "पहले"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Voice Library",
+    "rows": [
+     [
+      "क्या",
+      "community + default voices"
+     ],
+     [
+      "Agents के लिए",
+      "5k+ voices"
+     ]
+    ]
+   },
+   "say": "Voice library में हज़ारों voices हैं। Agents के लिए docs पाँच हज़ार से ज़्यादा बताते हैं।",
+   "hl": [
+    "library",
+    "हज़ारों"
+   ],
+   "chip": "library"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "सीधे clone करने बैठ जाना",
+    "good": "पहले library में search करो"
+   },
+   "say": "सीधे clone मत करो। पहले library में language, accent और use case से search करो।",
+   "hl": [
+    "search",
+    "library"
+   ],
+   "chip": "search"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Speed tip",
+    "rows": [
+     [
+      "तेज़",
+      "default, synthetic, instant clone"
+     ],
+     [
+      "धीमी",
+      "professional clone"
+     ]
+    ]
+   },
+   "say": "Voice agent के लिए speed ज़रूरी है। Docs कहते हैं default और instant clone voices professional clone से तेज़ हैं।",
+   "hl": [
+    "speed",
+    "तेज़"
+   ],
+   "chip": "speed"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Voice Design"
+   },
+   "say": "Chapter दो: text लिखो, नई voice बन जाती है।",
+   "hl": [
+    "text"
+   ],
+   "chip": "text"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Voice Design क्या है",
+    "rows": [
+     [
+      "Input",
+      "voice का description"
+     ],
+     [
+      "Output",
+      "3 options"
+     ],
+     [
+      "Save",
+      "एक voice slot लेती है"
+     ]
+    ]
+   },
+   "say": "Voice design में आप voice describe करते हो, और ElevenLabs तीन options generate करता है। जो पसंद आए, save करो।",
+   "hl": [
+    "describe",
+    "तीन"
+   ],
+   "chip": "describe"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Cost",
+    "rows": [
+     [
+      "Charge",
+      "preview text के credits"
+     ],
+     [
+      "कितनी बार",
+      "एक बार, 3 voices के लिए"
+     ]
+    ]
+   },
+   "say": "Charge सिर्फ preview text के credits का है, और तीनों options के लिए एक ही बार।",
+   "hl": [
+    "credits",
+    "एक"
+   ],
+   "chip": "credits"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Language + dialect (पहला वाक्य)",
+     "Gender, age",
+     "Audio quality",
+     "Persona",
+     "Emotion"
+    ]
+   },
+   "say": "Recommended format: पहले language और dialect, फिर gender और age, quality, persona, और emotion।",
+   "hl": [
+    "format",
+    "language"
+   ],
+   "chip": "format"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Example prompt",
+    "rows": [
+     [
+      "1",
+      "Native Hindi, Indian, Mumbai"
+     ],
+     [
+      "2",
+      "Male, 30–35. Studio quality"
+     ],
+     [
+      "3",
+      "Persona: friendly support agent"
+     ],
+     [
+      "4",
+      "Emotion: warm, confident"
+     ]
+    ]
+   },
+   "say": "जैसे: Native Hindi, Mumbai। Male, तीस से पैंतीस। Studio quality। Persona: friendly support agent। Emotion: warm और confident।",
+   "hl": [
+    "Native",
+    "Persona"
+   ],
+   "chip": "Native"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ: a nice voice",
+    "good": "Language, age, persona, emotion सब"
+   },
+   "say": "Prompt जितना specific, voice उतनी consistent। सिर्फ a nice voice लिखोगे तो random result आएगा।",
+   "hl": [
+    "specific",
+    "consistent"
+   ],
+   "chip": "specific"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Short prompt भी चलता है",
+    "rows": [
+     [
+      "Example",
+      "A calm male narrator"
+     ],
+     [
+      "कब",
+      "neutral voice चाहिए"
+     ]
+    ]
+   },
+   "say": "हालाँकि neutral voice के लिए छोटा prompt भी चल जाता है, जैसे a calm male narrator।",
+   "hl": [
+    "छोटा",
+    "neutral"
+   ],
+   "chip": "छोटा"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Voice Design की 3 गलतियाँ"
+   },
+   "say": "Chapter तीन: docs की तीन warnings।",
+   "hl": [
+    "warnings"
+   ],
+   "chip": "warnings"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Accent लिखना जब मतलब intonation हो",
+    "good": "Intonation, emphasis, delivery describe करो"
+   },
+   "say": "पहली: accent शब्द तब मत लिखो जब मतलब intonation हो। इससे dialect बदल सकता है।",
+   "hl": [
+    "accent",
+    "intonation"
+   ],
+   "chip": "accent"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "reverb, echo, phone, tape जैसे FX words",
+    "good": "Clean description, बिना FX words"
+   },
+   "say": "दूसरी: reverb, echo, phone, tape जैसे FX words मत लिखो। Quality खराब होती है।",
+   "hl": [
+    "FX",
+    "words"
+   ],
+   "chip": "FX"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Language बाद में या नहीं लिखी",
+    "good": "पहले वाक्य में language + region"
+   },
+   "say": "तीसरी: language और region हमेशा पहले वाक्य में लिखो, वरना voice drift करती है।",
+   "hl": [
+    "language",
+    "पहले"
+   ],
+   "chip": "language"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Ok quality",
+     "Good quality",
+     "Very good quality",
+     "Excellent quality",
+     "Studio quality",
+     "Broadcast quality"
+    ]
+   },
+   "say": "Quality descriptors भी हैं: ok से लेकर studio और broadcast quality तक।",
+   "hl": [
+    "quality",
+    "studio"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Warning",
+    "rows": [
+     [
+      "कभी-कभी",
+      "बहुत niche voice में accuracy कम"
+     ],
+     [
+      "Phone effect चाहिए",
+      "low-fidelity लिखो"
+     ]
+    ]
+   },
+   "say": "Docs warning देते हैं: बहुत niche voice में quality phrase से accuracy कम हो सकती है।",
+   "hl": [
+    "warning",
+    "accuracy"
+   ],
+   "chip": "warning"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Instant Voice Clone"
+   },
+   "say": "Chapter चार: अपनी आवाज़ एक-दो minute में।",
+   "hl": [
+    "आवाज़"
+   ],
+   "chip": "आवाज़"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Voices",
+     "+ Instant Voice Clone",
+     "Upload / record",
+     "Consent confirm",
+     "Save voice"
+    ]
+   },
+   "say": "Voices section, plus icon, instant voice clone, audio upload या record, consent confirm, और save।",
+   "hl": [
+    "Instant",
+    "consent"
+   ],
+   "chip": "Instant"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "1–2 min",
+    "label": "clear audio recommended"
+   },
+   "say": "Docs के मुताबिक करीब एक से दो minute का साफ audio सबसे अच्छा है।",
+   "hl": [
+    "एक",
+    "दो"
+   ],
+   "chip": "एक"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "10 minute noisy audio",
+    "good": "1–2 minute साफ audio"
+   },
+   "say": "तीन minute से ज़्यादा देने से खास फर्क नहीं पड़ता, कभी नुकसान भी। Length से ज़्यादा quality ज़रूरी है।",
+   "hl": [
+    "quality",
+    "ज़्यादा"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "कोई reverb नहीं",
+     "कोई background noise नहीं",
+     "Consistent tone",
+     "Volume balance"
+    ]
+   },
+   "say": "Reverb नहीं, background noise नहीं, tone consistent, और volume balanced।",
+   "hl": [
+    "noise",
+    "consistent"
+   ],
+   "chip": "noise"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "AI सब copy करता है",
+    "rows": [
+     [
+      "Speed",
+      "copy"
+     ],
+     [
+      "Breathing",
+      "copy"
+     ],
+     [
+      "Noise",
+      "भी copy"
+     ]
+    ]
+   },
+   "say": "AI वो सब copy करता है जो सुनता है: speed, inflection, breathing, और noise भी।",
+   "hl": [
+    "copy",
+    "noise"
+   ],
+   "chip": "copy"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Monotone recording → monotone clone",
+    "good": "जैसी performance चाहिए, वैसे बोलो"
+   },
+   "say": "आप slow और monotone बोलोगे, तो clone भी वैसा ही बनेगा। जैसी voice चाहिए, वैसी performance दो।",
+   "hl": [
+    "performance",
+    "monotone"
+   ],
+   "chip": "performance"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Professional Voice Clone"
+   },
+   "say": "Chapter पाँच: सबसे असली clone।",
+   "hl": [
+    "असली"
+   ],
+   "chip": "असली"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Voices",
+     "Create Voice",
+     "Professional Voice Clone",
+     "Upload samples",
+     "Process",
+     "Verify"
+    ]
+   },
+   "say": "Voices, create voice, professional voice clone, samples upload, process, और verify।",
+   "hl": [
+    "Professional",
+    "samples"
+   ],
+   "chip": "Professional"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "1 hr+",
+    "label": "training audio (ideal ~3 hours)"
+   },
+   "say": "Professional clone के लिए कम से कम एक घंटा audio, और ideally तीन घंटे के करीब।",
+   "hl": [
+    "घंटा",
+    "तीन"
+   ],
+   "chip": "घंटा"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Record yourself",
+    "rows": [
+     [
+      "Scripts",
+      "narrative, conversational..."
+     ],
+     [
+      "Process",
+      "noise removal, speaker separation"
+     ]
+    ]
+   },
+   "say": "Recording नहीं है तो interface में record yourself है, sample scripts के साथ। Upload के बाद noise हटाओ और speakers अलग करो।",
+   "hl": [
+    "record",
+    "noise"
+   ],
+   "chip": "record"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Instant vs Professional",
+    "cols": [
+     "Instant",
+     "Professional"
+    ],
+    "rows": [
+     {
+      "k": "Audio",
+      "v": [
+       "1–2 min",
+       "1–3 hours"
+      ]
+     },
+     {
+      "k": "Effort",
+      "v": [
+       "कम",
+       "ज़्यादा"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Likeness",
+      "v": [
+       "अच्छी",
+       "सबसे करीब"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Latency",
+      "v": [
+       "तेज़",
+       "धीमी"
+      ],
+      "win": 0
+     }
+    ]
+   },
+   "say": "Instant में कम audio, कम effort, तेज़। Professional में ज़्यादा audio, पर आवाज़ सबसे करीब।",
+   "hl": [
+    "Instant",
+    "Professional"
+   ],
+   "chip": "Instant"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Consent और safety"
+   },
+   "say": "Chapter छह: किसकी आवाज़ clone कर सकते हो।",
+   "hl": [
+    "किसकी"
+   ],
+   "chip": "किसकी"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "किसी celebrity या दोस्त की आवाज़ बिना पूछे",
+    "good": "सिर्फ अपनी, या permission वाली आवाज़"
+   },
+   "say": "Clone करते वक्त आपको confirm करना पड़ता है कि आपके पास right और consent है। सिर्फ अपनी या permission वाली आवाज़।",
+   "hl": [
+    "consent",
+    "permission"
+   ],
+   "chip": "consent"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Rule",
+    "rows": [
+     [
+      "Own voice",
+      "OK"
+     ],
+     [
+      "Permission से",
+      "OK"
+     ],
+     [
+      "बिना consent",
+      "नहीं"
+     ]
+    ]
+   },
+   "say": "Rule simple है: अपनी आवाज़ ठीक, permission वाली ठीक, बिना consent बिलकुल नहीं।",
+   "hl": [
+    "Rule",
+    "consent"
+   ],
+   "chip": "Rule"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Voice को use करो"
+   },
+   "say": "Chapter सात: बनी हुई voice कहाँ use करें।",
+   "hl": [
+    "use"
+   ],
+   "chip": "use"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "My Voices",
+     "Use voice",
+     "TTS / Agent / Dubbing"
+    ]
+   },
+   "say": "My Voices में जाओ, use voice दबाओ, और text to speech, agent या dubbing में लगाओ।",
+   "hl": [
+    "Voices",
+    "agent"
+   ],
+   "chip": "Voices"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Eleven v4 settings",
+    "rows": [
+     [
+      "Stability",
+      "yes"
+     ],
+     [
+      "Similarity",
+      "yes"
+     ],
+     [
+      "Style / Speed / SSML",
+      "नहीं"
+     ]
+    ]
+   },
+   "say": "Eleven v4 में सिर्फ Stability और Similarity settings हैं। Style, speed slider और SSML नहीं।",
+   "hl": [
+    "Stability",
+    "Similarity"
+   ],
+   "chip": "Stability"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "[whispering]",
+     "[laughing]",
+     "[shouting]",
+     "Natural language direction"
+    ]
+   },
+   "say": "Expression के लिए audio tags use करो, जैसे whispering, laughing, shouting।",
+   "hl": [
+    "tags",
+    "whispering"
+   ],
+   "chip": "tags"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Native accent (v4)",
+    "rows": [
+     [
+      "Other language",
+      "fluent, native accent"
+     ],
+     [
+      "Same language",
+      "accent वही"
+     ]
+    ]
+   },
+   "say": "v4 में आपकी voice दूसरी language में भी native accent में बोलती है।",
+   "hl": [
+    "native",
+    "accent"
+   ],
+   "chip": "native"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Voice agents में",
+    "rows": [
+     [
+      "Speed",
+      "instant clone बेहतर"
+     ],
+     [
+      "Brand",
+      "एक consistent voice"
+     ]
+    ]
+   },
+   "say": "Voice agent में अपनी brand voice लगाओ, और speed के लिए instant clone बेहतर रहता है।",
+   "hl": [
+    "brand",
+    "instant"
+   ],
+   "chip": "brand"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Agents में conversational voice"
+   },
+   "say": "Chapter आठ: बातचीत के लिए voice कैसे tune करें।",
+   "hl": [
+    "बातचीत"
+   ],
+   "chip": "बातचीत"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Expressive mode",
+    "rows": [
+     [
+      "Model",
+      "Eleven v3 Conversational"
+     ],
+     [
+      "Plus",
+      "नया turn-taking system"
+     ],
+     [
+      "Default",
+      "v3 Conversational चुनो तो on"
+     ]
+    ]
+   },
+   "say": "Agents में expressive mode है: Eleven v3 Conversational model और नया turn-taking system। ये model चुनते ही on हो जाता है।",
+   "hl": [
+    "expressive",
+    "Conversational"
+   ],
+   "chip": "expressive"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Context-aware delivery",
+     "Prompt से emotion control",
+     "70+ languages",
+     "[laughs] [whispers] [sighs] tags"
+    ]
+   },
+   "say": "इसमें context के हिसाब से tone, prompt से emotion control, सत्तर से ज़्यादा languages, और expressive tags हैं।",
+   "hl": [
+    "context",
+    "tags"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Worried caller को भी same tone",
+    "good": "Worried caller → calm delivery"
+   },
+   "say": "Docs का example: user worried लगे तो agent calmly बोलता है, और clarity चाहिए तो direct।",
+   "hl": [
+    "calmly",
+    "worried"
+   ],
+   "chip": "calmly"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Multi-voice support",
+    "rows": [
+     [
+      "क्या",
+      "एक call में कई voices"
+     ],
+     [
+      "कैसे",
+      "XML-style markup"
+     ],
+     [
+      "Use",
+      "storytelling, tutoring"
+     ]
+    ]
+   },
+   "say": "Multi-voice support से एक ही conversation में कई voices, जैसे storytelling या language tutoring।",
+   "hl": [
+    "Multi-voice",
+    "storytelling"
+   ],
+   "chip": "Multi-voice"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Pronunciation dictionary",
+    "rows": [
+     [
+      "Fix",
+      "names, places, terms"
+     ],
+     [
+      "कहाँ",
+      "Voice Settings"
+     ]
+    ]
+   },
+   "say": "Pronunciation dictionary से नाम, जगह और technical terms सही बुलवाओ। Agent की voice settings में जुड़ता है।",
+   "hl": [
+    "Pronunciation",
+    "dictionary"
+   ],
+   "chip": "Pronunciation"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Voice remix और voice changer"
+   },
+   "say": "Chapter नौ: बनी हुई voice को बदलो।",
+   "hl": [
+    "बदलो"
+   ],
+   "chip": "बदलो"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Voice remixing",
+    "rows": [
+     [
+      "क्या",
+      "voice के attributes बदलो"
+     ],
+     [
+      "कैसे",
+      "natural language prompt"
+     ],
+     [
+      "किसकी",
+      "अपनी voices"
+     ]
+    ]
+   },
+   "say": "Voice remixing से अपनी voice के attributes, जैसे accent या style, natural language prompt से बदल सकते हो।",
+   "hl": [
+    "remixing",
+    "prompt"
+   ],
+   "chip": "remixing"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Voice changer (speech to speech)",
+    "rows": [
+     [
+      "Input",
+      "आपकी recording"
+     ],
+     [
+      "Output",
+      "दूसरी voice, same emotion"
+     ],
+     [
+      "Use",
+      "words fix, characters"
+     ]
+    ]
+   },
+   "say": "Voice changer आपकी recording को दूसरी voice में बदलता है, पर emotion और delivery वही रहती है।",
+   "hl": [
+    "changer",
+    "emotion"
+   ],
+   "chip": "changer"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "पूरी recording दोबारा",
+    "good": "Voice changer से सिर्फ गलत word fix"
+   },
+   "say": "पूरी recording दोबारा करने की जगह, सिर्फ गलत words या phrases fix कर सकते हो।",
+   "hl": [
+    "fix",
+    "words"
+   ],
+   "chip": "fix"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "अपनी voice से कमाई और reach"
+   },
+   "say": "Chapter दस: voice को share करो।",
+   "hl": [
+    "share"
+   ],
+   "chip": "share"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Payouts",
+    "rows": [
+     [
+      "कैसे",
+      "Voice Library में share"
+     ],
+     [
+      "Payment",
+      "Stripe Connect"
+     ],
+     [
+      "Paid plan",
+      "ज़रूरी नहीं"
+     ]
+    ]
+   },
+   "say": "Voice library में voice share करके payouts से rewards मिलते हैं। Docs कहते हैं paid subscription ज़रूरी नहीं, payment Stripe Connect से।",
+   "hl": [
+    "payouts",
+    "Stripe"
+   ],
+   "chip": "payouts"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Tracking",
+    "rows": [
+     [
+      "Usage",
+      "My Voices → View → sharing"
+     ],
+     [
+      "Earnings",
+      "Payouts page"
+     ]
+    ]
+   },
+   "say": "Usage My Voices में, और कमाई Payouts page पे दिखती है। Rewards आपके sharing options पे depend करते हैं।",
+   "hl": [
+    "Usage",
+    "Payouts"
+   ],
+   "chip": "Usage"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Dubbing",
+    "rows": [
+     [
+      "Languages",
+      "90+"
+     ],
+     [
+      "App limit",
+      "1 GB, 180 min"
+     ],
+     [
+      "Keeps",
+      "emotion, timing, tone"
+     ]
+    ]
+   },
+   "say": "Dubbing से आपकी video नब्बे से ज़्यादा languages में जाती है, speaker की आवाज़ का character रखते हुए।",
+   "hl": [
+    "Dubbing",
+    "नब्बे"
+   ],
+   "chip": "Dubbing"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "Example: Brand voice बनाना"
+   },
+   "say": "Example: एक clinic के लिए brand voice।",
+   "hl": [
+    "brand"
+   ],
+   "chip": "brand"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Try 1",
+    "rows": [
+     [
+      "Prompt",
+      "A friendly woman"
+     ],
+     [
+      "Result",
+      "random, generic"
+     ]
+    ]
+   },
+   "say": "पहली try: a friendly woman। Result generic आया, क्योंकि language और persona नहीं था।",
+   "hl": [
+    "generic",
+    "persona"
+   ],
+   "chip": "generic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Try 2",
+    "rows": [
+     [
+      "1",
+      "Native Hindi, Indian, Pune"
+     ],
+     [
+      "2",
+      "Female, 28–32. Studio quality"
+     ],
+     [
+      "3",
+      "Persona: clinic receptionist"
+     ],
+     [
+      "4",
+      "Emotion: warm, patient"
+     ]
+    ]
+   },
+   "say": "दूसरी try: Native Hindi, Pune। Female, अट्ठाईस से बत्तीस। Studio quality। Clinic receptionist, warm और patient।",
+   "hl": [
+    "Native",
+    "receptionist"
+   ],
+   "chip": "Native"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "3 options",
+     "Agent में test",
+     "Pronunciation fix",
+     "Save + use"
+    ]
+   },
+   "say": "तीन options में से एक चुनो, agent में test करो, नाम की pronunciation fix करो, फिर save करो।",
+   "hl": [
+    "options",
+    "test"
+   ],
+   "chip": "options"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Studio में सुनकर final",
+    "good": "असली phone call पे सुनकर final"
+   },
+   "say": "Final decision असली phone call पे सुनकर लो। Speaker पे अच्छी लगने वाली voice phone पे अलग लग सकती है।",
+   "hl": [
+    "phone",
+    "call"
+   ],
+   "chip": "phone"
+  },
+  {
+   "tag": "CH12",
+   "v": "chapter",
+   "d": {
+    "num": 12,
+    "title": "Voice Library deep dive"
+   },
+   "say": "Chapter: library में सही voice जल्दी कैसे ढूँढें।",
+   "hl": [
+    "library"
+   ],
+   "chip": "library"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Voice Library क्या है",
+    "rows": [
+     [
+      "क्या",
+      "community marketplace"
+     ],
+     [
+      "Share",
+      "सिर्फ Professional Voice Clones"
+     ],
+     [
+      "कहाँ",
+      "Voices → Explore"
+     ]
+    ]
+   },
+   "say": "Voice library एक marketplace है जहाँ community voices share करती है। अभी सिर्फ professional voice clones share हो सकते हैं।",
+   "hl": [
+    "marketplace",
+    "professional"
+   ],
+   "chip": "marketplace"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Handpicked collections",
+     "Search: नाम, keyword, voice ID",
+     "Audio upload से search",
+     "Sort: trending, latest, most users"
+    ]
+   },
+   "say": "ढूँढने के तरीके: handpicked collections, नाम या keyword से search, audio upload करके similar voice, और trending से sort।",
+   "hl": [
+    "search",
+    "audio"
+   ],
+   "chip": "search"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Language",
+     "Accent",
+     "Category",
+     "Gender",
+     "Age",
+     "Notice period"
+    ]
+   },
+   "say": "Filters: language, accent, category, gender, age, और notice period।",
+   "hl": [
+    "Filters",
+    "notice"
+   ],
+   "chip": "Filters"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Conversational",
+     "Narration",
+     "Characters",
+     "Social media",
+     "Educational",
+     "Advertisement"
+    ]
+   },
+   "say": "Category filter use case बताता है: conversational, narration, characters, social media, educational, advertisement।",
+   "hl": [
+    "Category",
+    "conversational"
+   ],
+   "chip": "Category"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Language tag",
+    "rows": [
+     [
+      "सब voices",
+      "हर supported language में चलती हैं"
+     ],
+     [
+      "Best",
+      "जिस language पे train हुई"
+     ]
+    ]
+   },
+   "say": "हर voice हर supported language में चल सकती है, पर जिस language पे train हुई, उसमें सबसे अच्छी लगती है।",
+   "hl": [
+    "language",
+    "train"
+   ],
+   "chip": "language"
+  },
+  {
+   "tag": "CH13",
+   "v": "chapter",
+   "d": {
+    "num": 13,
+    "title": "Notice period"
+   },
+   "say": "Chapter: एक छुपी हुई risk, notice period।",
+   "hl": [
+    "notice"
+   ],
+   "chip": "notice"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Notice period क्या है",
+    "rows": [
+     [
+      "क्या",
+      "owner voice हटाए तो कितने दिन access"
+     ],
+     [
+      "Max",
+      "2 साल"
+     ]
+    ]
+   },
+   "say": "Notice period मतलब: अगर voice का owner उसे library से हटा दे, तो आपको कितने समय तक access मिलता रहेगा। Maximum दो साल।",
+   "hl": [
+    "Notice",
+    "दो"
+   ],
+   "chip": "Notice"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "बिना notice period वाली voice पे brand बनाना",
+    "good": "Long notice period वाली voice चुनो"
+   },
+   "say": "अगर पूरा brand या agent किसी library voice पे बना रहे हो, तो notice period ज़रूर check करो।",
+   "hl": [
+    "brand",
+    "check"
+   ],
+   "chip": "brand"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Use करते ही save",
+    "rows": [
+     [
+      "क्या",
+      "use करते ही notice period account में save"
+     ],
+     [
+      "My Voices",
+      "save करना optional"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक voice use करते ही उसका notice period आपके account में save हो जाता है।",
+   "hl": [
+    "save",
+    "account"
+   ],
+   "chip": "save"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Library voice हमेशा के लिए पक्की",
+    "good": "अपनी clone या design voice सबसे safe"
+   },
+   "say": "सबसे safe रास्ता: अपनी clone की हुई या design की हुई voice, जो सिर्फ आपकी है।",
+   "hl": [
+    "safe",
+    "आपकी"
+   ],
+   "chip": "safe"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Share link",
+    "rows": [
+     [
+      "क्या",
+      "अपनी voice का link"
+     ],
+     [
+      "Effect",
+      "दूसरे के My Voices में add"
+     ]
+    ]
+   },
+   "say": "अपनी voice का share link भी बना सकते हो। कोई link use करे तो voice उसके My Voices में आ जाती है।",
+   "hl": [
+    "share",
+    "link"
+   ],
+   "chip": "share"
+  },
+  {
+   "tag": "CH14",
+   "v": "chapter",
+   "d": {
+    "num": 14,
+    "title": "Voice से natural बुलवाना"
+   },
+   "say": "Chapter: बनी हुई voice से natural speech कैसे लें।",
+   "hl": [
+    "natural"
+   ],
+   "chip": "natural"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "v4 में SSML break tags",
+    "good": "v4 prompting techniques"
+   },
+   "say": "पहली बात: Eleven v4 और v3 SSML break tags support नहीं करते। Pause के लिए prompting techniques use करो।",
+   "hl": [
+    "SSML",
+    "prompting"
+   ],
+   "chip": "SSML"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Pauses के विकल्प",
+    "rows": [
+     [
+      "Dash",
+      "Wait — what's that?"
+     ],
+     [
+      "Ellipsis",
+      "It… well, it might work"
+     ],
+     [
+      "Note",
+      "कम consistent"
+     ]
+    ]
+   },
+   "say": "छोटे pause के लिए dash, और hesitation के लिए ellipsis। Docs कहते हैं ये थोड़े कम consistent हैं।",
+   "hl": [
+    "dash",
+    "ellipsis"
+   ],
+   "chip": "dash"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Emotion",
+    "rows": [
+     [
+      "कैसे",
+      "narrative context"
+     ],
+     [
+      "Example",
+      "her voice trembling with sadness"
+     ]
+    ]
+   },
+   "say": "Emotion के लिए context लिखो, जैसे: उसकी आवाज़ दुख से काँप रही थी। Model उसी tone में बोलता है।",
+   "hl": [
+    "Emotion",
+    "context"
+   ],
+   "chip": "Emotion"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Dialogue tags voice में बोल दिए",
+    "good": "Post-production में tag वाले हिस्से हटाओ"
+   },
+   "say": "ध्यान दो: model कभी emotional guide वाले words भी बोल देता है। उन्हें बाद में audio editor में हटाओ।",
+   "hl": [
+    "editor",
+    "हटाओ"
+   ],
+   "chip": "editor"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Pronunciation",
+    "rows": [
+     [
+      "v4",
+      "IPA support"
+     ],
+     [
+      "Agents",
+      "pronunciation dictionary"
+     ],
+     [
+      "Alias",
+      "alias tags"
+     ]
+    ]
+   },
+   "say": "Pronunciation के लिए v4 में IPA, agents में pronunciation dictionary, और alias tags जैसे options docs में हैं।",
+   "hl": [
+    "IPA",
+    "alias"
+   ],
+   "chip": "IPA"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Text normalization",
+    "rows": [
+     [
+      "Problem",
+      "numbers, dates अलग पढ़ना"
+     ],
+     [
+      "Fix",
+      "words में लिखो या LLM से normalize"
+     ]
+    ]
+   },
+   "say": "Numbers और dates को model अलग तरीके से पढ़ सकता है। इन्हें words में लिखो, या LLM prompt में normalization करवाओ।",
+   "hl": [
+    "Numbers",
+    "normalization"
+   ],
+   "chip": "Numbers"
+  },
+  {
+   "tag": "CH15",
+   "v": "chapter",
+   "d": {
+    "num": 15,
+    "title": "Voice testing checklist"
+   },
+   "say": "Chapter: voice final करने से पहले test।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Brand नाम",
+     "Numbers और dates",
+     "Hindi + English mix",
+     "Question वाला tone",
+     "लंबा paragraph"
+    ]
+   },
+   "say": "पाँच चीज़ें test करो: brand का नाम, numbers और dates, Hindi English mix, सवाल का tone, और एक लंबा paragraph।",
+   "hl": [
+    "test",
+    "brand"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "mobile",
+    "title": "Phone test",
+    "rows": [
+     [
+      "क्यों",
+      "phone audio अलग लगता है"
+     ],
+     [
+      "कैसे",
+      "agent से खुद call"
+     ]
+    ]
+   },
+   "say": "Agent वाली voice को phone पे ज़रूर सुनो। Phone की audio quality अलग होती है।",
+   "hl": [
+    "phone",
+    "सुनो"
+   ],
+   "chip": "phone"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "दूसरों से सुनवाओ",
+    "rows": [
+     [
+      "कितने",
+      "3–5 लोग"
+     ],
+     [
+      "पूछो",
+      "भरोसा लगा? natural लगा?"
+     ]
+    ]
+   },
+   "say": "तीन से पाँच लोगों को सुनाओ और पूछो: भरोसेमंद लगी? natural लगी? अपनी राय पे अकेले भरोसा मत करो।",
+   "hl": [
+    "लोगों",
+    "natural"
+   ],
+   "chip": "लोगों"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "पहली generation ही final",
+    "good": "Feedback iteration: बार-बार सुधारो"
+   },
+   "say": "Docs भी feedback iteration की बात करते हैं: पहली generation को final मत मानो, सुनो और सुधारो।",
+   "hl": [
+    "iteration",
+    "सुधारो"
+   ],
+   "chip": "iteration"
+  },
+  {
+   "tag": "CH16",
+   "v": "chapter",
+   "d": {
+    "num": 16,
+    "title": "Eleven v4 और आपकी voice"
+   },
+   "say": "Chapter: नया model आपकी voice के साथ क्या बदलता है।",
+   "hl": [
+    "model"
+   ],
+   "chip": "model"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "90+",
+    "label": "languages in Eleven v4"
+   },
+   "say": "Eleven v4 नब्बे से ज़्यादा languages support करता है, यानि आपकी एक voice कई languages में।",
+   "hl": [
+    "नब्बे",
+    "languages"
+   ],
+   "chip": "नब्बे"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "star",
+     "title": "Eleven v4",
+     "rows": [
+      [
+       "Best",
+       "content, audiobooks"
+      ],
+      [
+       "Quality",
+       "highest"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "bolt",
+     "title": "Eleven v4 Turbo",
+     "rows": [
+      [
+       "Best",
+       "voice agents"
+      ],
+      [
+       "Latency",
+       "~100 ms"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Content और audiobooks के लिए full v4, और live voice agents के लिए v4 Turbo, जिसकी latency करीब सौ milliseconds है।",
+   "hl": [
+    "Turbo",
+    "audiobooks"
+   ],
+   "chip": "Turbo"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "v4 cloning",
+    "rows": [
+     [
+      "Instant clone",
+      "ज़्यादा accurate"
+     ],
+     [
+      "Professional",
+      "rolling out"
+     ],
+     [
+      "Source audio",
+      "और ज़रूरी"
+     ]
+    ]
+   },
+   "say": "v4 में instant clone ज़्यादा accurate है, इसलिए source audio की quality पहले से भी ज़्यादा ज़रूरी हो गई है।",
+   "hl": [
+    "accurate",
+    "quality"
+   ],
+   "chip": "accurate"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "v3 वाली voice v4 में बिना सुने",
+    "good": "दोनों models पे सुनकर decide"
+   },
+   "say": "Docs कहते हैं v4 v3 से अलग sound कर सकता है। अपनी voice को दोनों पे सुनकर decide करो।",
+   "hl": [
+    "अलग",
+    "सुनकर"
+   ],
+   "chip": "अलग"
+  },
+  {
+   "tag": "CH17",
+   "v": "chapter",
+   "d": {
+    "num": 17,
+    "title": "Instant या Professional: कब क्या"
+   },
+   "say": "Chapter: आपके काम के लिए कौनसा clone।",
+   "hl": [
+    "clone"
+   ],
+   "chip": "clone"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "कौनसा clone?",
+    "cols": [
+     "Instant",
+     "Professional"
+    ],
+    "rows": [
+     {
+      "k": "YouTube voiceover",
+      "v": [
+       "शुरुआत के लिए",
+       "long-term brand"
+      ]
+     },
+     {
+      "k": "Voice agent",
+      "v": [
+       "better (speed)",
+       "धीमा"
+      ],
+      "win": 0
+     },
+     {
+      "k": "Audiobook",
+      "v": [
+       "ठीक",
+       "best"
+      ],
+      "win": 1
+     },
+     {
+      "k": "Library में share",
+      "v": [
+       "नहीं",
+       "हाँ"
+      ],
+      "win": 1
+     }
+    ]
+   },
+   "say": "Voice agent के लिए instant clone, speed की वजह से। Audiobook और library share के लिए professional।",
+   "hl": [
+    "agent",
+    "audiobook"
+   ],
+   "chip": "agent"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Library से कमाई",
+    "rows": [
+     [
+      "Condition",
+      "Professional clone"
+     ],
+     [
+      "कैसे",
+      "share in Voice Library"
+     ]
+    ]
+   },
+   "say": "Library में share करके कमाने के लिए professional clone चाहिए, क्योंकि सिर्फ वही share हो सकता है।",
+   "hl": [
+    "professional",
+    "share"
+   ],
+   "chip": "professional"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Team या client के लिए",
+    "rows": [
+     [
+      "Consent",
+      "लिखित permission रखो"
+     ],
+     [
+      "Use",
+      "सिर्फ agreed काम में"
+     ]
+    ]
+   },
+   "say": "Client या team member की voice clone कर रहे हो, तो उनकी permission साफ रखो, और सिर्फ agreed काम में use करो।",
+   "hl": [
+    "permission",
+    "agreed"
+   ],
+   "chip": "permission"
+  },
+  {
+   "tag": "CH18",
+   "v": "chapter",
+   "d": {
+    "num": 18,
+    "title": "Common problems और fixes"
+   },
+   "say": "Chapter: voice ठीक न लगे तो क्या करें।",
+   "hl": [
+    "fixes"
+   ],
+   "chip": "fixes"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Problem → fix",
+    "cols": [
+     "Problem",
+     "Fix"
+    ],
+    "rows": [
+     {
+      "k": "1",
+      "v": [
+       "Clone में noise",
+       "साफ recording, reverb नहीं"
+      ]
+     },
+     {
+      "k": "2",
+      "v": [
+       "Clone बहुत slow",
+       "जिस pace में चाहिए वैसे record"
+      ]
+     },
+     {
+      "k": "3",
+      "v": [
+       "Accent बदल गया",
+       "language पहले वाक्य में"
+      ]
+     }
+    ]
+   },
+   "say": "Clone में noise, तो साफ recording। बहुत slow, तो सही pace में record। Accent बदल गया, तो language पहले वाक्य में।",
+   "hl": [
+    "noise",
+    "accent"
+   ],
+   "chip": "noise"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Problem → fix (2)",
+    "cols": [
+     "Problem",
+     "Fix"
+    ],
+    "rows": [
+     {
+      "k": "4",
+      "v": [
+       "Design voice खराब quality",
+       "quality descriptor जोड़ो"
+      ]
+     },
+     {
+      "k": "5",
+      "v": [
+       "Weird echo",
+       "FX words हटाओ"
+      ]
+     },
+     {
+      "k": "6",
+      "v": [
+       "Brand नाम गलत",
+       "pronunciation dictionary"
+      ]
+     }
+    ]
+   },
+   "say": "Design voice की quality कम, तो quality descriptor। Echo, तो FX words हटाओ। Brand नाम गलत, तो pronunciation dictionary।",
+   "hl": [
+    "quality",
+    "dictionary"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Problem → fix (3)",
+    "cols": [
+     "Problem",
+     "Fix"
+    ],
+    "rows": [
+     {
+      "k": "7",
+      "v": [
+       "Monotone",
+       "emotional performance record"
+      ]
+     },
+     {
+      "k": "8",
+      "v": [
+       "Pause नहीं",
+       "dash, ellipsis, context"
+      ]
+     },
+     {
+      "k": "9",
+      "v": [
+       "Agent में delay",
+       "instant clone + Turbo"
+      ]
+     }
+    ]
+   },
+   "say": "Monotone, तो भावना के साथ record। Pause नहीं, तो dash या ellipsis। Agent में delay, तो instant clone और Turbo model।",
+   "hl": [
+    "Monotone",
+    "Turbo"
+   ],
+   "chip": "Monotone"
+  },
+  {
+   "tag": "CH19",
+   "v": "chapter",
+   "d": {
+    "num": 19,
+    "title": "AI voice disclosure"
+   },
+   "say": "Chapter: AI voice use कर रहे हो तो ईमानदारी।",
+   "hl": [
+    "ईमानदारी"
+   ],
+   "chip": "ईमानदारी"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "AI voice को इंसान बताकर बेचना",
+    "good": "साफ बताओ: ये synthetic voice है"
+   },
+   "say": "AI voice use करो, पर उसे इंसान की असली recording बताकर मत बेचो। साफ बताओ कि voice synthetic है।",
+   "hl": [
+    "synthetic",
+    "साफ"
+   ],
+   "chip": "synthetic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "इस channel पे",
+    "rows": [
+     [
+      "Narration",
+      "synthetic AI voice"
+     ],
+     [
+      "Disclosure",
+      "हर video में"
+     ]
+    ]
+   },
+   "say": "इस channel पे भी narration synthetic AI voice में है, और हर video में ये लिखा होता है।",
+   "hl": [
+    "synthetic",
+    "हर"
+   ],
+   "chip": "synthetic"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Platform rules",
+    "rows": [
+     [
+      "YouTube",
+      "realistic altered content disclose"
+     ],
+     [
+      "Agents",
+      "caller को बताओ ये AI है"
+     ]
+    ]
+   },
+   "say": "YouTube पे realistic altered content disclose करना होता है, और phone agent में caller को बताओ कि वो AI से बात कर रहा है।",
+   "hl": [
+    "disclose",
+    "AI"
+   ],
+   "chip": "disclose"
+  },
+  {
+   "tag": "CH20",
+   "v": "chapter",
+   "d": {
+    "num": 20,
+    "title": "Text to Dialogue: दो voices की बातचीत"
+   },
+   "say": "Chapter: अपनी voice से पूरी conversation।",
+   "hl": [
+    "conversation"
+   ],
+   "chip": "conversation"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Text to Dialogue",
+    "rows": [
+     [
+      "Model",
+      "Eleven v4"
+     ],
+     [
+      "Output",
+      "expressive multi-speaker dialogue"
+     ]
+    ]
+   },
+   "say": "Text to Dialogue API Eleven v4 से कई speakers की expressive बातचीत बनाता है।",
+   "hl": [
+    "Dialogue",
+    "speakers"
+   ],
+   "chip": "Dialogue"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Video game conversations",
+     "Podcasts",
+     "Audiobooks with characters"
+    ]
+   },
+   "say": "Docs के use cases: video games की बातचीत, podcasts, और characters वाली audiobooks।",
+   "hl": [
+    "podcasts",
+    "audiobooks"
+   ],
+   "chip": "podcasts"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Scene effects",
+    "rows": [
+     [
+      "Param",
+      "audio_effects"
+     ],
+     [
+      "Example",
+      "phone call, café, बड़ा hall"
+     ]
+    ]
+   },
+   "say": "Audio effects parameter से बातचीत को scene में रख सकते हो, जैसे phone call, café, या बड़ा hall।",
+   "hl": [
+    "effects",
+    "scene"
+   ],
+   "chip": "effects"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक generation = final",
+    "good": "कई generations, best चुनो"
+   },
+   "say": "Docs खुद कहते हैं कई generations बनाओ और best चुनो। एक बार में perfect की उम्मीद मत रखो।",
+   "hl": [
+    "generations",
+    "best"
+   ],
+   "chip": "generations"
+  },
+  {
+   "tag": "CH21",
+   "v": "chapter",
+   "d": {
+    "num": 21,
+    "title": "Example: Creator workflow"
+   },
+   "say": "Example: एक YouTube creator अपनी voice कैसे use करे।",
+   "hl": [
+    "creator"
+   ],
+   "chip": "creator"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Script",
+     "Own voice (clone)",
+     "Eleven v4",
+     "Edit + music",
+     "Upload + disclose"
+    ]
+   },
+   "say": "Script लिखो, अपनी clone voice चुनो, Eleven v4 से audio बनाओ, edit और music जोड़ो, फिर upload और disclose।",
+   "hl": [
+    "clone",
+    "disclose"
+   ],
+   "chip": "clone"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "video",
+    "title": "Script tips",
+    "rows": [
+     [
+      "Lines",
+      "छोटी, बोलने लायक"
+     ],
+     [
+      "Numbers",
+      "words में"
+     ],
+     [
+      "Brand",
+      "dictionary"
+     ]
+    ]
+   },
+   "say": "Script में छोटी lines, numbers words में, और brand नामों के लिए dictionary।",
+   "hl": [
+    "Script",
+    "छोटी"
+   ],
+   "chip": "Script"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "Dubbing से reach",
+    "rows": [
+     [
+      "Languages",
+      "90+"
+     ],
+     [
+      "Keep",
+      "same speaker character"
+     ]
+    ]
+   },
+   "say": "फिर dubbing से वही video नब्बे से ज़्यादा languages में, अपनी आवाज़ के character के साथ।",
+   "hl": [
+    "dubbing",
+    "नब्बे"
+   ],
+   "chip": "dubbing"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Fix एक word",
+    "rows": [
+     [
+      "Tool",
+      "voice changer"
+     ],
+     [
+      "Benefit",
+      "दोबारा record नहीं"
+     ]
+    ]
+   },
+   "say": "एक word गलत हो, तो पूरा दोबारा मत बनाओ। Voice changer से सिर्फ वो हिस्सा fix करो।",
+   "hl": [
+    "word",
+    "changer"
+   ],
+   "chip": "word"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर video में अलग voice",
+    "good": "एक consistent brand voice"
+   },
+   "say": "हर video में अलग voice से viewer को channel की पहचान नहीं बनती। एक consistent voice रखो।",
+   "hl": [
+    "consistent",
+    "पहचान"
+   ],
+   "chip": "consistent"
+  },
+  {
+   "tag": "CH22",
+   "v": "chapter",
+   "d": {
+    "num": 22,
+    "title": "Checklist"
+   },
+   "say": "Final checklist।",
+   "hl": [
+    "checklist"
+   ],
+   "chip": "checklist"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Library पहले देखो",
+     "Design prompt: language पहले",
+     "FX words नहीं",
+     "Clone: 1–2 min साफ audio",
+     "Consent ज़रूरी",
+     "Agent में test करो"
+    ]
+   },
+   "say": "Library पहले, design prompt में language पहले, FX words नहीं, साफ audio, consent, और agent में test।",
+   "hl": [
+    "checklist"
+   ],
+   "chip": "checklist"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Omkar की voice",
+    "rows": [
+     [
+      "क्या",
+      "ElevenLabs पे shared voice"
+     ],
+     [
+      "Link",
+      "description में"
+     ]
+    ]
+   },
+   "say": "Omkar की अपनी ElevenLabs voice भी shared है, उसका link description में है।",
+   "hl": [
+    "Omkar",
+    "link"
+   ],
+   "chip": "Omkar"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: Voice agent बनाओ",
+    "follow": "Omilabs"
+   },
+   "say": "अब अपनी voice से voice agent बनाना है, तो playlist की पहली video देखो, और Omilabs subscribe करो।",
+   "hl": [
+    "agent",
+    "subscribe"
+   ],
+   "chip": "agent"
+  }
+ ]
+}
