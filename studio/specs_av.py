@@ -1608,6 +1608,94 @@ V["av08"] = dict(
     ])
 
 
+# ───────────── av09: AI Agents That Understand Customer Emotions ─────────────
+V["av09"] = dict(
+    series="AI VOICE AGENTS", music="ELEVENLABS V4", search_kw="AI Agents",
+    title="AI Agents That Handle Angry Customers",
+    summary="Build AI voice agents that understand customer emotions and handle angry callers, in Hinglish: emotion-aware tone rules (broad guidance and specific triggers), expressive mode with Eleven v3 Conversational and emotion-aware turn-taking, de-escalation steps, when to transfer to a human (transfer_to_number, conference vs SIP REFER, summaries), guardrails, sentiment analysis and Spotlight, and testing angry-caller scenarios. Based on ElevenAgents docs.",
+    tags=["angry customer ai", "ai agent emotions", "customer emotion ai", "ai voice agent", "de-escalation ai", "sentiment analysis", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (expressive mode, prompting guide, transfer to number, conversation analysis, guardrails, testing)"],
+    hashtags="#AIAgents #CustomerService #VoiceAI #Hinglish",
+    thumb=dict(a="Angry Customer?", b="", top="AI VOICE AGENTS", hook="CALM IT DOWN", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="Gusse wale customer pe AI fail kyun", brand="Emotion AI", pill="AI VOICE AGENTS", stat="5", sub="step de-escalation"),
+      "गुस्से वाला customer आते ही AI agent fail क्यों हो जाता है? आज agent को emotions समझना सिखाते हैं।", "गुस्से", "emotions"),
+    b("versus", dict(bad="Angry caller, cheerful robot जवाब", good="Calm, empathetic, solution-focused जवाब"),
+      "सबसे बुरा: नाराज़ caller को cheerful robot जवाब। सही: calm, empathy के साथ, और solution पे focus।", "cheerful", "empathy"),
+    b("flow", dict(nodes=["Detect emotion", "Adapt tone", "De-escalate", "Solve or transfer", "Measure"]),
+      "पाँच steps: emotion पहचानो, tone बदलो, शांत करो, solve करो या transfer, और measure।", "emotion", "transfer"),
+
+    CH(1, "Emotion कैसे पहचानें", "Chapter एक: agent emotion कैसे समझता है।", ["समझता"], "समझता"),
+    b("card", dict(icon="bolt", title="Expressive mode", rows=[["Model", "Eleven v3 Conversational"], ["Turn-taking", "emotional cues, speech patterns"]]),
+      "Expressive mode में नया turn-taking system Scribe v2 Realtime के emotional cues और speech patterns use करता है।", "emotional", "cues"),
+    b("card", dict(icon="chat", title="Context-aware delivery", rows=[["Worried user", "calmer response"], ["Clarity needed", "more direct"]]),
+      "Docs के मुताबिक agent context से tone बदलता है: user worried लगे तो calm, और clarity चाहिए तो direct।", "context", "calm"),
+    b("list", dict(items=["Words: बहुत बुरा, तीसरी बार", "बार-बार interrupt", "Volume और pace", "Repeat complaints"]),
+      "Emotion के signs: गुस्से वाले words, बार-बार interrupt करना, आवाज़ और रफ़्तार, और वही complaint दोहराना।", "signs", "interrupt"),
+
+    CH(2, "Tone rules in prompt", "Chapter दो: prompt में emotion rules।", ["rules"], "rules"),
+    b("card", dict(icon="chat", title="Broad guidance (docs)", rows=[["Frustrated", "calm, reassuring"], ["Good news", "genuine warmth"]]),
+      "Docs का broad guidance: user frustrated या upset हो तो calm और reassuring tone।", "calm", "reassuring"),
+    b("list", dict(items=["Frustration → calm, empathetic", "Technical steps → clear, measured", "Good news → warmth", "Complaint → composed, solution-oriented"]),
+      "Specific triggers: frustration पे empathy, technical steps पे साफ और धीमा, अच्छी खबर पे warmth, complaint पे composed।", "triggers", "composed"),
+    b("versus", dict(bad="Tags: [laughs] angry caller के साथ", good="Angry caller पे कोई playful tag नहीं"),
+      "Angry caller के साथ laughs जैसा कोई playful tag बिलकुल नहीं। Prompt में ये साफ लिखो।", "playful", "angry"),
+
+    CH(3, "De-escalation: 5 steps", "Chapter तीन: गुस्सा शांत करने के पाँच steps।", ["शांत"], "शांत"),
+    b("card", dict(icon="users", title="1. Acknowledge", rows=[["Line", "I understand, that's frustrating."], ["Short", "एक line"]]),
+      "Step एक: acknowledge करो। I understand, that's frustrating। बस एक line, लंबी sorry नहीं।", "acknowledge", "frustrating"),
+    b("card", dict(icon="chat", title="2. Listen", rows=[["Do", "caller को पूरा बोलने दो"], ["Setting", "interruptions on"]]),
+      "Step दो: सुनो। Caller को पूरा बोलने दो। Interruptions on रखो ताकि वो बीच में बोले तो agent रुके।", "सुनो", "Interruptions"),
+    b("card", dict(icon="check", title="3. Confirm the problem", rows=[["Line", "So your order hasn't arrived in 3 days, right?"]]),
+      "Step तीन: problem confirm करो। तो आपका order तीन दिन से नहीं आया, सही? इससे caller को लगता है कि सुना गया।", "confirm", "सुना"),
+    b("card", dict(icon="bolt", title="4. Act fast", rows=[["Do", "tool call, real status"], ["Avoid", "generic promises"]]),
+      "Step चार: तुरंत action। Tool से असली status देखो। Generic promise मत करो।", "action", "promise"),
+    b("card", dict(icon="users", title="5. Offer a path", rows=[["Options", "solution, callback, human"], ["Let caller choose", "control वापस दो"]]),
+      "Step पाँच: रास्ता दो। Solution, callback, या human। Caller को चुनने दो, इससे उसे control वापस मिलता है।", "रास्ता", "control"),
+
+    CH(4, "कब human को transfer", "Chapter चार: agent की limit कहाँ है।", ["limit"], "limit"),
+    b("list", dict(items=["Complex issue, human judgment", "User human माँगे", "AI की limit", "Escalation protocol"]),
+      "Docs के transfer triggers: complex issue, user खुद human माँगे, AI की limit, या escalation protocol।", "transfer", "human"),
+    b("card", dict(icon="users", title="transfer_to_number", rows=[["To", "number या SIP URI"], ["Messages", "caller के लिए + human के लिए summary"]]),
+      "Transfer to number tool caller को wait का message और human agent को situation का summary दे सकता है।", "summary", "wait"),
+    b("duo", dict(a=dict(icon="users", title="Conference", rows=[["Default", "yes"], ["Flow", "human जुड़ता, AI हटता"]]),
+                  b=dict(icon="key", title="SIP REFER", rows=[["Flow", "direct transfer"], ["Needs", "SIP call"]]), accentB="#111111"),
+      "Conference transfer default है: human जुड़ता है और AI हट जाता है। SIP REFER सीधा transfer है, SIP calls में।", "Conference", "REFER"),
+    b("versus", dict(bad="Human फिर से सब पूछे", good="Human को summary, caller repeat न करे"),
+      "Angry caller को सबसे ज़्यादा गुस्सा तब आता है जब human फिर से सब पूछे। Summary भेजो।", "गुस्सा", "Summary"),
+    b("versus", dict(bad="Transfer से पहले बहस", good="माँगते ही transfer"),
+      "Caller human माँगे, तो बहस मत करो। तुरंत transfer, नहीं तो छोटी समस्या बड़ी बन जाती है।", "बहस", "transfer"),
+
+    CH(5, "Guardrails for emotional calls", "Chapter पाँच: गुस्से में भी rules न टूटें।", ["rules"], "rules"),
+    b("versus", dict(bad="गुस्सा शांत करने के लिए झूठा refund promise", good="सिर्फ वही offer जो policy में है"),
+      "गुस्सा शांत करने के चक्कर में agent झूठा promise कर दे, ये सबसे बड़ा खतरा है। सिर्फ policy वाला offer।", "promise", "policy"),
+    b("card", dict(icon="lock", title="Custom guardrail", rows=[["Name", "No unverified compensation"], ["Mode", "blocking"]]),
+      "Custom guardrail लगाओ: no unverified compensation, blocking mode में, ताकि बोलने से पहले check हो।", "guardrail", "blocking"),
+    b("card", dict(icon="x", title="Abuse", rows=[["Rule", "politely set boundary"], ["Then", "end call या human"]]),
+      "अगर caller गाली-गलौज करे, तो agent politely boundary बताए, और ज़रूरत हो तो call end या human को दे।", "boundary", "politely"),
+
+    CH(6, "Measure: sentiment", "Chapter छह: कितने callers खुश, कितने नाराज़।", ["नाराज़"], "नाराज़"),
+    b("card", dict(icon="chart", title="Sentiment analysis", rows=[["Result", "positive, neutral, negative"], ["Where", "completed conversations"]]),
+      "Sentiment analysis से पता चलता है conversations positive, neutral या negative थीं।", "Sentiment", "negative"),
+    b("card", dict(icon="star", title="Spotlight", rows=[["Shows", "insights, sentiment, topics"], ["Use", "patterns ढूँढो"]]),
+      "Spotlight में real-time insights, sentiment, और topics दिखते हैं। गुस्से के common कारण यहीं मिलते हैं।", "Spotlight", "कारण"),
+    b("card", dict(icon="check", title="Success evaluation", rows=[["Criteria", "frustration acknowledged?"], ["Criteria", "transfer when asked?"]]),
+      "Success criteria लिखो: frustration acknowledge हुआ? Human माँगने पे transfer हुआ?", "criteria", "transfer"),
+
+    CH(7, "Testing angry callers", "Chapter सात: गुस्से वाली calls का test।", ["test"], "test"),
+    b("list", dict(items=["तीसरी बार call करने वाला", "Refund माँगने वाला", "Human माँगने वाला", "Interrupt करने वाला"]),
+      "Simulation scenarios: तीसरी बार call करने वाला, refund वाला, human माँगने वाला, और बार-बार interrupt करने वाला।", "scenarios", "interrupt"),
+    b("card", dict(icon="check", title="Pass", rows=[["1", "calm tone"], ["2", "no false promise"], ["3", "transfer on request"]]),
+      "Pass तभी: calm tone, कोई झूठा promise नहीं, और माँगने पे transfer।", "Pass", "promise"),
+
+    CH(8, "Recap", "Recap।", ["Recap"], "Recap"),
+    b("flow", dict(nodes=["Expressive mode", "Tone triggers", "5-step de-escalation", "Transfer + summary", "Guardrails", "Sentiment"]),
+      "Expressive mode, tone triggers, पाँच step de-escalation, summary के साथ transfer, guardrails, और sentiment।", "de-escalation", "sentiment"),
+    b("cta", dict(title="Next: System vs user prompt", follow="Omilabs"),
+      "अगली video: system prompt और user prompt में फर्क। Omilabs subscribe करो।", "prompt", "subscribe"),
+    ])
+
+
 V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 
