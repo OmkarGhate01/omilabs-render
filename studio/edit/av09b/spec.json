@@ -1,0 +1,1045 @@
+{
+ "id": "av09b",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI Agents",
+ "title": "AI Agents That Handle Angry Customers",
+ "summary": "Build AI voice agents that understand customer emotions and handle angry callers, in Hinglish: emotion-aware tone rules (broad guidance and specific triggers), expressive mode with Eleven v3 Conversational and emotion-aware turn-taking, de-escalation steps, when to transfer to a human (transfer_to_number, conference vs SIP REFER, summaries), guardrails, sentiment analysis and Spotlight, and testing angry-caller scenarios. Based on ElevenAgents docs.",
+ "tags": [
+  "angry customer ai",
+  "ai agent emotions",
+  "customer emotion ai",
+  "ai voice agent",
+  "de-escalation ai",
+  "sentiment analysis",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (expressive mode, prompting guide, transfer to number, conversation analysis, guardrails, testing)"
+ ],
+ "hashtags": "#AIAgents #CustomerService #VoiceAI #Hinglish",
+ "thumb": {
+  "a": "Angry Customer?",
+  "b": "",
+  "top": "AI VOICE AGENTS",
+  "hook": "CALM IT DOWN",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Gusse wale customer pe AI fail kyun",
+    "brand": "Emotion AI",
+    "pill": "AI VOICE AGENTS",
+    "stat": "5",
+    "sub": "step de-escalation"
+   },
+   "say": "गुस्से वाला customer आते ही AI agent fail क्यों हो जाता है? आज agent को emotions समझना सिखाते हैं।",
+   "hl": [
+    "गुस्से",
+    "emotions"
+   ],
+   "chip": "गुस्से"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Angry caller, cheerful robot जवाब",
+    "good": "Calm, empathetic, solution-focused जवाब"
+   },
+   "say": "सबसे बुरा: नाराज़ caller को cheerful robot जवाब। सही: calm, empathy के साथ, और solution पे focus।",
+   "hl": [
+    "cheerful",
+    "empathy"
+   ],
+   "chip": "cheerful"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Detect emotion",
+     "Adapt tone",
+     "De-escalate",
+     "Solve or transfer",
+     "Measure"
+    ]
+   },
+   "say": "पाँच steps: emotion पहचानो, tone बदलो, शांत करो, solve करो या transfer, और measure।",
+   "hl": [
+    "emotion",
+    "transfer"
+   ],
+   "chip": "emotion"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Emotion कैसे पहचानें"
+   },
+   "say": "Chapter एक: agent emotion कैसे समझता है।",
+   "hl": [
+    "समझता"
+   ],
+   "chip": "समझता"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Expressive mode",
+    "rows": [
+     [
+      "Model",
+      "Eleven v3 Conversational"
+     ],
+     [
+      "Turn-taking",
+      "emotional cues, speech patterns"
+     ]
+    ]
+   },
+   "say": "Expressive mode में नया turn-taking system Scribe v2 Realtime के emotional cues और speech patterns use करता है।",
+   "hl": [
+    "emotional",
+    "cues"
+   ],
+   "chip": "emotional"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Context-aware delivery",
+    "rows": [
+     [
+      "Worried user",
+      "calmer response"
+     ],
+     [
+      "Clarity needed",
+      "more direct"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक agent context से tone बदलता है: user worried लगे तो calm, और clarity चाहिए तो direct।",
+   "hl": [
+    "context",
+    "calm"
+   ],
+   "chip": "context"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Words: बहुत बुरा, तीसरी बार",
+     "बार-बार interrupt",
+     "Volume और pace",
+     "Repeat complaints"
+    ]
+   },
+   "say": "Emotion के signs: गुस्से वाले words, बार-बार interrupt करना, आवाज़ और रफ़्तार, और वही complaint दोहराना।",
+   "hl": [
+    "signs",
+    "interrupt"
+   ],
+   "chip": "signs"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Tone rules in prompt"
+   },
+   "say": "Chapter दो: prompt में emotion rules।",
+   "hl": [
+    "rules"
+   ],
+   "chip": "rules"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Broad guidance (docs)",
+    "rows": [
+     [
+      "Frustrated",
+      "calm, reassuring"
+     ],
+     [
+      "Good news",
+      "genuine warmth"
+     ]
+    ]
+   },
+   "say": "Docs का broad guidance: user frustrated या upset हो तो calm और reassuring tone।",
+   "hl": [
+    "calm",
+    "reassuring"
+   ],
+   "chip": "calm"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Frustration → calm, empathetic",
+     "Technical steps → clear, measured",
+     "Good news → warmth",
+     "Complaint → composed, solution-oriented"
+    ]
+   },
+   "say": "Specific triggers: frustration पे empathy, technical steps पे साफ और धीमा, अच्छी खबर पे warmth, complaint पे composed।",
+   "hl": [
+    "triggers",
+    "composed"
+   ],
+   "chip": "triggers"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Tags: [laughs] angry caller के साथ",
+    "good": "Angry caller पे कोई playful tag नहीं"
+   },
+   "say": "Angry caller के साथ laughs जैसा कोई playful tag बिलकुल नहीं। Prompt में ये साफ लिखो।",
+   "hl": [
+    "playful",
+    "angry"
+   ],
+   "chip": "playful"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "De-escalation: 5 steps"
+   },
+   "say": "Chapter तीन: गुस्सा शांत करने के पाँच steps।",
+   "hl": [
+    "शांत"
+   ],
+   "chip": "शांत"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "1. Acknowledge",
+    "rows": [
+     [
+      "Line",
+      "I understand, that's frustrating."
+     ],
+     [
+      "Short",
+      "एक line"
+     ]
+    ]
+   },
+   "say": "Step एक: acknowledge करो। I understand, that's frustrating। बस एक line, लंबी sorry नहीं।",
+   "hl": [
+    "acknowledge",
+    "frustrating"
+   ],
+   "chip": "acknowledge"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "2. Listen",
+    "rows": [
+     [
+      "Do",
+      "caller को पूरा बोलने दो"
+     ],
+     [
+      "Setting",
+      "interruptions on"
+     ]
+    ]
+   },
+   "say": "Step दो: सुनो। Caller को पूरा बोलने दो। Interruptions on रखो ताकि वो बीच में बोले तो agent रुके।",
+   "hl": [
+    "सुनो",
+    "Interruptions"
+   ],
+   "chip": "सुनो"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "3. Confirm the problem",
+    "rows": [
+     [
+      "Line",
+      "So your order hasn't arrived in 3 days, right?"
+     ]
+    ]
+   },
+   "say": "Step तीन: problem confirm करो। तो आपका order तीन दिन से नहीं आया, सही? इससे caller को लगता है कि सुना गया।",
+   "hl": [
+    "confirm",
+    "सुना"
+   ],
+   "chip": "confirm"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "4. Act fast",
+    "rows": [
+     [
+      "Do",
+      "tool call, real status"
+     ],
+     [
+      "Avoid",
+      "generic promises"
+     ]
+    ]
+   },
+   "say": "Step चार: तुरंत action। Tool से असली status देखो। Generic promise मत करो।",
+   "hl": [
+    "action",
+    "promise"
+   ],
+   "chip": "action"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "5. Offer a path",
+    "rows": [
+     [
+      "Options",
+      "solution, callback, human"
+     ],
+     [
+      "Let caller choose",
+      "control वापस दो"
+     ]
+    ]
+   },
+   "say": "Step पाँच: रास्ता दो। Solution, callback, या human। Caller को चुनने दो, इससे उसे control वापस मिलता है।",
+   "hl": [
+    "रास्ता",
+    "control"
+   ],
+   "chip": "रास्ता"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "कब human को transfer"
+   },
+   "say": "Chapter चार: agent की limit कहाँ है।",
+   "hl": [
+    "limit"
+   ],
+   "chip": "limit"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Complex issue, human judgment",
+     "User human माँगे",
+     "AI की limit",
+     "Escalation protocol"
+    ]
+   },
+   "say": "Docs के transfer triggers: complex issue, user खुद human माँगे, AI की limit, या escalation protocol।",
+   "hl": [
+    "transfer",
+    "human"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "transfer_to_number",
+    "rows": [
+     [
+      "To",
+      "number या SIP URI"
+     ],
+     [
+      "Messages",
+      "caller के लिए + human के लिए summary"
+     ]
+    ]
+   },
+   "say": "Transfer to number tool caller को wait का message और human agent को situation का summary दे सकता है।",
+   "hl": [
+    "summary",
+    "wait"
+   ],
+   "chip": "summary"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "users",
+     "title": "Conference",
+     "rows": [
+      [
+       "Default",
+       "yes"
+      ],
+      [
+       "Flow",
+       "human जुड़ता, AI हटता"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "SIP REFER",
+     "rows": [
+      [
+       "Flow",
+       "direct transfer"
+      ],
+      [
+       "Needs",
+       "SIP call"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Conference transfer default है: human जुड़ता है और AI हट जाता है। SIP REFER सीधा transfer है, SIP calls में।",
+   "hl": [
+    "Conference",
+    "REFER"
+   ],
+   "chip": "Conference"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Human फिर से सब पूछे",
+    "good": "Human को summary, caller repeat न करे"
+   },
+   "say": "Angry caller को सबसे ज़्यादा गुस्सा तब आता है जब human फिर से सब पूछे। Summary भेजो।",
+   "hl": [
+    "गुस्सा",
+    "Summary"
+   ],
+   "chip": "गुस्सा"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Transfer से पहले बहस",
+    "good": "माँगते ही transfer"
+   },
+   "say": "Caller human माँगे, तो बहस मत करो। तुरंत transfer, नहीं तो छोटी समस्या बड़ी बन जाती है।",
+   "hl": [
+    "बहस",
+    "transfer"
+   ],
+   "chip": "बहस"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Guardrails for emotional calls"
+   },
+   "say": "Chapter पाँच: गुस्से में भी rules न टूटें।",
+   "hl": [
+    "rules"
+   ],
+   "chip": "rules"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "गुस्सा शांत करने के लिए झूठा refund promise",
+    "good": "सिर्फ वही offer जो policy में है"
+   },
+   "say": "गुस्सा शांत करने के चक्कर में agent झूठा promise कर दे, ये सबसे बड़ा खतरा है। सिर्फ policy वाला offer।",
+   "hl": [
+    "promise",
+    "policy"
+   ],
+   "chip": "promise"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Custom guardrail",
+    "rows": [
+     [
+      "Name",
+      "No unverified compensation"
+     ],
+     [
+      "Mode",
+      "blocking"
+     ]
+    ]
+   },
+   "say": "Custom guardrail लगाओ: no unverified compensation, blocking mode में, ताकि बोलने से पहले check हो।",
+   "hl": [
+    "guardrail",
+    "blocking"
+   ],
+   "chip": "guardrail"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Abuse",
+    "rows": [
+     [
+      "Rule",
+      "politely set boundary"
+     ],
+     [
+      "Then",
+      "end call या human"
+     ]
+    ]
+   },
+   "say": "अगर caller गाली-गलौज करे, तो agent politely boundary बताए, और ज़रूरत हो तो call end या human को दे।",
+   "hl": [
+    "boundary",
+    "politely"
+   ],
+   "chip": "boundary"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Measure: sentiment"
+   },
+   "say": "Chapter छह: कितने callers खुश, कितने नाराज़।",
+   "hl": [
+    "नाराज़"
+   ],
+   "chip": "नाराज़"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Sentiment analysis",
+    "rows": [
+     [
+      "Result",
+      "positive, neutral, negative"
+     ],
+     [
+      "Where",
+      "completed conversations"
+     ]
+    ]
+   },
+   "say": "Sentiment analysis से पता चलता है conversations positive, neutral या negative थीं।",
+   "hl": [
+    "Sentiment",
+    "negative"
+   ],
+   "chip": "Sentiment"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Spotlight",
+    "rows": [
+     [
+      "Shows",
+      "insights, sentiment, topics"
+     ],
+     [
+      "Use",
+      "patterns ढूँढो"
+     ]
+    ]
+   },
+   "say": "Spotlight में real-time insights, sentiment, और topics दिखते हैं। गुस्से के common कारण यहीं मिलते हैं।",
+   "hl": [
+    "Spotlight",
+    "कारण"
+   ],
+   "chip": "Spotlight"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Success evaluation",
+    "rows": [
+     [
+      "Criteria",
+      "frustration acknowledged?"
+     ],
+     [
+      "Criteria",
+      "transfer when asked?"
+     ]
+    ]
+   },
+   "say": "Success criteria लिखो: frustration acknowledge हुआ? Human माँगने पे transfer हुआ?",
+   "hl": [
+    "criteria",
+    "transfer"
+   ],
+   "chip": "criteria"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Testing angry callers"
+   },
+   "say": "Chapter सात: गुस्से वाली calls का test।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "तीसरी बार call करने वाला",
+     "Refund माँगने वाला",
+     "Human माँगने वाला",
+     "Interrupt करने वाला"
+    ]
+   },
+   "say": "Simulation scenarios: तीसरी बार call करने वाला, refund वाला, human माँगने वाला, और बार-बार interrupt करने वाला।",
+   "hl": [
+    "scenarios",
+    "interrupt"
+   ],
+   "chip": "scenarios"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Pass",
+    "rows": [
+     [
+      "1",
+      "calm tone"
+     ],
+     [
+      "2",
+      "no false promise"
+     ],
+     [
+      "3",
+      "transfer on request"
+     ]
+    ]
+   },
+   "say": "Pass तभी: calm tone, कोई झूठा promise नहीं, और माँगने पे transfer।",
+   "hl": [
+    "Pass",
+    "promise"
+   ],
+   "chip": "Pass"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Sample call: before / after"
+   },
+   "say": "Chapter: एक असली जैसी call।",
+   "hl": [
+    "call"
+   ],
+   "chip": "call"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Caller",
+    "rows": [
+     [
+      "Line",
+      "Teesri baar call kar raha hoon, refund kab milega?"
+     ]
+    ]
+   },
+   "say": "Caller: मैं तीसरी बार call कर रहा हूँ, refund कब मिलेगा?",
+   "hl": [
+    "तीसरी",
+    "refund"
+   ],
+   "chip": "तीसरी"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Robot agent",
+    "rows": [
+     [
+      "Line",
+      "Please provide your order ID to proceed."
+     ]
+    ]
+   },
+   "say": "Robot agent: please provide your order ID to proceed। कोई acknowledgment नहीं, caller और गुस्सा।",
+   "hl": [
+    "Robot",
+    "गुस्सा"
+   ],
+   "chip": "Robot"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Human-like agent",
+    "rows": [
+     [
+      "1",
+      "Teen baar call karna sach mein frustrating hai."
+     ],
+     [
+      "2",
+      "Main abhi status dekhta hoon."
+     ],
+     [
+      "3",
+      "Order ID bata denge?"
+     ]
+    ]
+   },
+   "say": "Human-like agent: तीन बार call करना सच में frustrating है। मैं अभी status देखता हूँ। Order ID बता देंगे?",
+   "hl": [
+    "frustrating",
+    "status"
+   ],
+   "chip": "frustrating"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Tool result",
+    "rows": [
+     [
+      "Status",
+      "refund approved, 2 days"
+     ],
+     [
+      "Agent",
+      "Refund approve ho gaya hai, 2 din mein aayega."
+     ]
+    ]
+   },
+   "say": "Tool से असली status मिला: refund approved। Agent वही बताता है जो system में है, कोई अंदाज़ा नहीं।",
+   "hl": [
+    "status",
+    "अंदाज़ा"
+   ],
+   "chip": "status"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Close",
+    "rows": [
+     [
+      "Offer",
+      "SMS confirmation?"
+     ],
+     [
+      "End",
+      "warm, short"
+     ]
+    ]
+   },
+   "say": "आखिर में: क्या मैं confirmation SMS भेज दूँ? छोटा, warm close। Caller शांत होकर call खत्म करता है।",
+   "hl": [
+    "confirmation",
+    "शांत"
+   ],
+   "chip": "confirmation"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Prompt template"
+   },
+   "say": "Chapter: emotion-ready prompt template।",
+   "hl": [
+    "template"
+   ],
+   "chip": "template"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "# Personality",
+    "rows": [
+     [
+      "Line",
+      "You are Neha, a calm support agent."
+     ],
+     [
+      "Traits",
+      "patient, empathetic, solution-focused"
+     ]
+    ]
+   },
+   "say": "Personality: you are Neha, एक calm support agent। Patient, empathetic, solution-focused।",
+   "hl": [
+    "Neha",
+    "empathetic"
+   ],
+   "chip": "Neha"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "# Tone",
+    "rows": [
+     [
+      "Frustrated",
+      "calm, acknowledge first"
+     ],
+     [
+      "Good news",
+      "warm"
+     ],
+     [
+      "Always",
+      "1–2 sentences"
+     ]
+    ]
+   },
+   "say": "Tone: frustrated caller पे पहले acknowledge, फिर calm। अच्छी खबर पे warm। हमेशा एक-दो sentences।",
+   "hl": [
+    "acknowledge",
+    "warm"
+   ],
+   "chip": "acknowledge"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "# Guardrails",
+    "rows": [
+     [
+      "1",
+      "No compensation not in policy"
+     ],
+     [
+      "2",
+      "Human on request → transfer"
+     ],
+     [
+      "3",
+      "Abuse → boundary, then end"
+     ]
+    ]
+   },
+   "say": "Guardrails: policy के बाहर कोई compensation नहीं, human माँगे तो transfer, और abuse पे पहले boundary फिर end।",
+   "hl": [
+    "compensation",
+    "transfer"
+   ],
+   "chip": "compensation"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "# Tools",
+    "rows": [
+     [
+      "getOrderStatus",
+      "real status before any promise"
+     ],
+     [
+      "transfer_to_number",
+      "with summary"
+     ]
+    ]
+   },
+   "say": "Tools: कोई भी promise करने से पहले get order status, और transfer हमेशा summary के साथ।",
+   "hl": [
+    "status",
+    "summary"
+   ],
+   "chip": "status"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "Mistakes"
+   },
+   "say": "Bonus: पाँच गलतियाँ।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "लंबी sorry, कोई action नहीं",
+     "Cheerful tone गुस्से पे",
+     "Human माँगने पे बहस",
+     "झूठा compensation",
+     "Transfer पे फिर से सवाल"
+    ]
+   },
+   "say": "लंबी sorry पर action नहीं, गुस्से पे cheerful tone, human माँगने पे बहस, झूठा compensation, और transfer के बाद फिर से सवाल।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Sorry, sorry, sorry...",
+    "good": "एक acknowledgment + तुरंत action"
+   },
+   "say": "याद रखो: बार-बार sorry से गुस्सा कम नहीं होता। एक acknowledgment और तुरंत action से होता है।",
+   "hl": [
+    "sorry",
+    "action"
+   ],
+   "chip": "sorry"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Expressive mode",
+     "Tone triggers",
+     "5-step de-escalation",
+     "Transfer + summary",
+     "Guardrails",
+     "Sentiment"
+    ]
+   },
+   "say": "Expressive mode, tone triggers, पाँच step de-escalation, summary के साथ transfer, guardrails, और sentiment।",
+   "hl": [
+    "de-escalation",
+    "sentiment"
+   ],
+   "chip": "de-escalation"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: System vs user prompt",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video: system prompt और user prompt में फर्क। Omilabs subscribe करो।",
+   "hl": [
+    "prompt",
+    "subscribe"
+   ],
+   "chip": "prompt"
+  }
+ ]
+}

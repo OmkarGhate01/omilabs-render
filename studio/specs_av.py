@@ -1688,7 +1688,35 @@ V["av09"] = dict(
     b("card", dict(icon="check", title="Pass", rows=[["1", "calm tone"], ["2", "no false promise"], ["3", "transfer on request"]]),
       "Pass तभी: calm tone, कोई झूठा promise नहीं, और माँगने पे transfer।", "Pass", "promise"),
 
-    CH(8, "Recap", "Recap।", ["Recap"], "Recap"),
+    CH(8, "Sample call: before / after", "Chapter: एक असली जैसी call।", ["call"], "call"),
+    b("card", dict(icon="x", title="Caller", rows=[["Line", "Teesri baar call kar raha hoon, refund kab milega?"]]),
+      "Caller: मैं तीसरी बार call कर रहा हूँ, refund कब मिलेगा?", "तीसरी", "refund"),
+    b("card", dict(icon="x", title="Robot agent", rows=[["Line", "Please provide your order ID to proceed."]]),
+      "Robot agent: please provide your order ID to proceed। कोई acknowledgment नहीं, caller और गुस्सा।", "Robot", "गुस्सा"),
+    b("card", dict(icon="check", title="Human-like agent", rows=[["1", "Teen baar call karna sach mein frustrating hai."], ["2", "Main abhi status dekhta hoon."], ["3", "Order ID bata denge?"]]),
+      "Human-like agent: तीन बार call करना सच में frustrating है। मैं अभी status देखता हूँ। Order ID बता देंगे?", "frustrating", "status"),
+    b("card", dict(icon="bolt", title="Tool result", rows=[["Status", "refund approved, 2 days"], ["Agent", "Refund approve ho gaya hai, 2 din mein aayega."]]),
+      "Tool से असली status मिला: refund approved। Agent वही बताता है जो system में है, कोई अंदाज़ा नहीं।", "status", "अंदाज़ा"),
+    b("card", dict(icon="users", title="Close", rows=[["Offer", "SMS confirmation?"], ["End", "warm, short"]]),
+      "आखिर में: क्या मैं confirmation SMS भेज दूँ? छोटा, warm close। Caller शांत होकर call खत्म करता है।", "confirmation", "शांत"),
+
+    CH(9, "Prompt template", "Chapter: emotion-ready prompt template।", ["template"], "template"),
+    b("card", dict(icon="users", title="# Personality", rows=[["Line", "You are Neha, a calm support agent."], ["Traits", "patient, empathetic, solution-focused"]]),
+      "Personality: you are Neha, एक calm support agent। Patient, empathetic, solution-focused।", "Neha", "empathetic"),
+    b("card", dict(icon="chat", title="# Tone", rows=[["Frustrated", "calm, acknowledge first"], ["Good news", "warm"], ["Always", "1–2 sentences"]]),
+      "Tone: frustrated caller पे पहले acknowledge, फिर calm। अच्छी खबर पे warm। हमेशा एक-दो sentences।", "acknowledge", "warm"),
+    b("card", dict(icon="lock", title="# Guardrails", rows=[["1", "No compensation not in policy"], ["2", "Human on request → transfer"], ["3", "Abuse → boundary, then end"]]),
+      "Guardrails: policy के बाहर कोई compensation नहीं, human माँगे तो transfer, और abuse पे पहले boundary फिर end।", "compensation", "transfer"),
+    b("card", dict(icon="code", title="# Tools", rows=[["getOrderStatus", "real status before any promise"], ["transfer_to_number", "with summary"]]),
+      "Tools: कोई भी promise करने से पहले get order status, और transfer हमेशा summary के साथ।", "status", "summary"),
+
+    CH(10, "Mistakes", "Bonus: पाँच गलतियाँ।", ["गलतियाँ"], "गलतियाँ"),
+    b("list", dict(items=["लंबी sorry, कोई action नहीं", "Cheerful tone गुस्से पे", "Human माँगने पे बहस", "झूठा compensation", "Transfer पे फिर से सवाल"]),
+      "लंबी sorry पर action नहीं, गुस्से पे cheerful tone, human माँगने पे बहस, झूठा compensation, और transfer के बाद फिर से सवाल।", "गलतियाँ"),
+    b("versus", dict(bad="Sorry, sorry, sorry...", good="एक acknowledgment + तुरंत action"),
+      "याद रखो: बार-बार sorry से गुस्सा कम नहीं होता। एक acknowledgment और तुरंत action से होता है।", "sorry", "action"),
+
+    CH(11, "Recap", "Recap।", ["Recap"], "Recap"),
     b("flow", dict(nodes=["Expressive mode", "Tone triggers", "5-step de-escalation", "Transfer + summary", "Guardrails", "Sentiment"]),
       "Expressive mode, tone triggers, पाँच step de-escalation, summary के साथ transfer, guardrails, और sentiment।", "de-escalation", "sentiment"),
     b("cta", dict(title="Next: System vs user prompt", follow="Omilabs"),
@@ -1706,6 +1734,9 @@ V["av03b"] = V["av03"]   # 15+ min version
 
 
 V["av04b"] = V["av04"]   # English thumbnail text (Omkar, 12 Nov)
+
+
+V["av09b"] = V["av09"]   # extended (~6k chars)
 
 
 def write(root):
