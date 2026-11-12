@@ -1,0 +1,2028 @@
+{
+ "id": "av01",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI Voice Agent",
+ "title": "Build Your First AI Voice Agent (Full Guide)",
+ "summary": "Step-by-step Hinglish guide: build your first AI voice agent with ElevenAgents. Components (speech-to-text, LLM, text-to-speech, turn-taking), system prompt sections, voice and language, knowledge base and RAG, tools, conversation flow, testing, deploying to web and phone, and monitoring.",
+ "tags": [
+  "ai voice agent",
+  "build ai voice agent",
+  "elevenlabs agents",
+  "ai calling agent",
+  "voice ai tutorial hindi",
+  "elevenagents",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (overview, build, prompting guide, conversation flow, knowledge base, tools, testing, analysis)"
+ ],
+ "hashtags": "#AIVoiceAgent #ElevenLabs #VoiceAI #Hinglish",
+ "thumb": {
+  "a": "Zero",
+  "b": "AI Agent",
+  "top": "FULL GUIDE 2026",
+  "hook": "PEHLA AGENT BANAO",
+  "accent": "#F2542D",
+  "colorA": "#3B3B3B",
+  "colorB": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Pehla AI voice agent kaise banaye",
+    "brand": "AI Voice Agent",
+    "pill": "FULL GUIDE",
+    "stat": "9",
+    "sub": "steps, zero से live"
+   },
+   "say": "AI voice agent बनाना है, पर समझ नहीं आता कहाँ से शुरू करें? आज zero से live तक बनाएँगे।",
+   "hl": [
+    "AI",
+    "voice",
+    "agent"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Agent कैसे काम करता है",
+     "System prompt",
+     "Voice + language",
+     "Knowledge + tools",
+     "Test, deploy, monitor"
+    ]
+   },
+   "say": "इस video में पूरा process है: agent कैसे काम करता है, prompt, voice, knowledge, tools, testing और deploy।",
+   "hl": [
+    "process"
+   ],
+   "chip": "process"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "इस guide का base",
+    "rows": [
+     [
+      "Platform",
+      "ElevenAgents (ElevenLabs)"
+     ],
+     [
+      "Source",
+      "official docs"
+     ],
+     [
+      "Level",
+      "beginner"
+     ]
+    ]
+   },
+   "say": "हम ElevenLabs के ElevenAgents platform पे बनाएँगे, और हर बात official docs से है।",
+   "hl": [
+    "ElevenAgents",
+    "docs"
+   ],
+   "chip": "ElevenAgents"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "सिर्फ chatbot जो text पढ़े",
+    "good": "Voice agent: सुनता, सोचता, बोलता"
+   },
+   "say": "Voice agent सिर्फ chatbot नहीं है। ये सुनता है, सोचता है, बोलता है, और काम भी करता है।",
+   "hl": [
+    "सुनता",
+    "बोलता"
+   ],
+   "chip": "सुनता"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Voice agent के 4 हिस्से"
+   },
+   "say": "Chapter एक: एक voice agent अंदर से कैसे काम करता है।",
+   "hl": [
+    "अंदर"
+   ],
+   "chip": "अंदर"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Speech to Text",
+     "LLM",
+     "Text to Speech",
+     "Turn-taking"
+    ]
+   },
+   "say": "Docs के मुताबिक ElevenAgents चार core components को coordinate करता है।",
+   "hl": [
+    "चार",
+    "components"
+   ],
+   "chip": "चार"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "1. Speech to Text (ASR)",
+    "rows": [
+     [
+      "काम",
+      "caller की आवाज़ → text"
+     ],
+     [
+      "Model",
+      "fine-tuned ASR"
+     ]
+    ]
+   },
+   "say": "पहला, speech to text। Caller जो बोलता है, वो text बनता है। इसे ASR भी कहते हैं।",
+   "hl": [
+    "speech",
+    "text"
+   ],
+   "chip": "speech"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "cpu",
+    "title": "2. Language model (LLM)",
+    "rows": [
+     [
+      "काम",
+      "सोचना, जवाब तय करना"
+     ],
+     [
+      "Choice",
+      "supported LLM या custom"
+     ]
+    ]
+   },
+   "say": "दूसरा, LLM, यानि दिमाग़। ये तय करता है क्या जवाब देना है। आप अपना custom LLM भी लगा सकते हो।",
+   "hl": [
+    "LLM",
+    "दिमाग़"
+   ],
+   "chip": "LLM"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "3. Text to Speech (TTS)",
+    "rows": [
+     [
+      "काम",
+      "जवाब → आवाज़"
+     ],
+     [
+      "Voices",
+      "5k+"
+     ],
+     [
+      "Languages",
+      "70+"
+     ]
+    ]
+   },
+   "say": "तीसरा, text to speech। जवाब वापस आवाज़ बनता है। Docs में पाँच हज़ार से ज़्यादा voices हैं।",
+   "hl": [
+    "voices",
+    "आवाज़"
+   ],
+   "chip": "voices"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "4. Turn-taking model",
+    "rows": [
+     [
+      "काम",
+      "कब बोलना, कब रुकना"
+     ],
+     [
+      "क्यों",
+      "natural बातचीत"
+     ]
+    ]
+   },
+   "say": "चौथा, turn-taking model। ये तय करता है agent कब बोले और कब रुके। यही बातचीत को natural बनाता है।",
+   "hl": [
+    "turn-taking",
+    "natural"
+   ],
+   "chip": "turn-taking"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Turn-taking खराब = बीच में काटना",
+    "good": "Turn-taking सही = इंसान जैसी बात"
+   },
+   "say": "अगर turn-taking खराब हो, तो agent caller को बीच में काटता है। सबसे बड़ी शिकायत यही होती है।",
+   "hl": [
+    "काटता",
+    "शिकायत"
+   ],
+   "chip": "काटता"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Configure",
+     "Deploy",
+     "Monitor"
+    ]
+   },
+   "say": "Platform तीन stage में काम करता है: configure, deploy, और monitor। हम इसी order में चलेंगे।",
+   "hl": [
+    "configure",
+    "deploy",
+    "monitor"
+   ],
+   "chip": "configure"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Step 1: Agent बनाओ"
+   },
+   "say": "Step एक: agent create करो।",
+   "hl": [
+    "create"
+   ],
+   "chip": "create"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Dashboard",
+     "Visual workflow builder",
+     "Developer toolkit / CLI",
+     "Claude जैसे MCP client से"
+    ]
+   },
+   "say": "Agent चार तरीकों से बन सकता है: dashboard, visual workflow builder, developer toolkit, या MCP client से।",
+   "hl": [
+    "चार",
+    "dashboard"
+   ],
+   "chip": "चार"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Hosted MCP",
+    "rows": [
+     [
+      "क्या",
+      "agent को chat से बनाओ"
+     ],
+     [
+      "कहाँ से",
+      "Claude या कोई MCP client"
+     ]
+    ]
+   },
+   "say": "Docs में hosted MCP server भी है, जिससे आप Claude से बात करके agent बना और update कर सकते हो।",
+   "hl": [
+    "MCP",
+    "Claude"
+   ],
+   "chip": "MCP"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Beginner के लिए",
+    "rows": [
+     [
+      "शुरू करो",
+      "dashboard से"
+     ],
+     [
+      "Quickstart",
+      "पहला agent ~5 min"
+     ]
+    ]
+   },
+   "say": "Beginner हो तो dashboard से शुरू करो। Docs का quickstart कहता है पहला agent पाँच minute में बन जाता है।",
+   "hl": [
+    "dashboard",
+    "पाँच"
+   ],
+   "chip": "dashboard"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "पहले दिन ही सब features",
+    "good": "पहले एक simple use case"
+   },
+   "say": "सबसे बड़ी गलती: पहले दिन ही सब कुछ जोड़ना। पहले एक simple use case चुनो।",
+   "hl": [
+    "गलती",
+    "simple"
+   ],
+   "chip": "गलती"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Clinic appointment booking",
+     "Order status बताना",
+     "Lead qualify करना",
+     "FAQ जवाब देना"
+    ]
+   },
+   "say": "जैसे clinic appointment, order status, lead qualification, या FAQ। एक काम, अच्छे से।",
+   "hl": [
+    "एक",
+    "काम"
+   ],
+   "chip": "एक"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Step 2: System prompt"
+   },
+   "say": "Step दो: system prompt, जो agent का दिमाग़ सेट करता है।",
+   "hl": [
+    "prompt"
+   ],
+   "chip": "prompt"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "System prompt क्या है",
+    "rows": [
+     [
+      "Defines",
+      "personality, tone, capabilities"
+     ],
+     [
+      "हर call पे",
+      "agent यही follow करता है"
+     ]
+    ]
+   },
+   "say": "System prompt agent की personality, tone और capabilities define करता है। हर call में agent इसे follow करता है।",
+   "hl": [
+    "personality",
+    "tone"
+   ],
+   "chip": "personality"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "# Personality",
+     "# Goal",
+     "# Guardrails",
+     "# Tone"
+    ]
+   },
+   "say": "ElevenLabs का prompting guide कहता है: instructions को साफ sections में बाँटो, जैसे personality, goal, guardrails, tone।",
+   "hl": [
+    "sections"
+   ],
+   "chip": "sections"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "# Personality",
+    "rows": [
+     [
+      "कौन है",
+      "नाम, role"
+     ],
+     [
+      "Example",
+      "Riya, clinic की receptionist"
+     ]
+    ]
+   },
+   "say": "Personality में बताओ agent कौन है। जैसे: आप Riya हो, एक clinic की friendly receptionist।",
+   "hl": [
+    "Personality",
+    "Riya"
+   ],
+   "chip": "Personality"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "# Goal",
+    "rows": [
+     [
+      "क्या करना है",
+      "steps में"
+     ],
+     [
+      "Example",
+      "नाम → तारीख → slot confirm"
+     ]
+    ]
+   },
+   "say": "Goal में साफ steps लिखो: पहले नाम लो, फिर तारीख, फिर slot confirm करो।",
+   "hl": [
+    "Goal",
+    "steps"
+   ],
+   "chip": "Goal"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "# Guardrails",
+    "rows": [
+     [
+      "क्या नहीं करना",
+      "medical advice नहीं"
+     ],
+     [
+      "Unknown",
+      "guess मत करो"
+     ]
+    ]
+   },
+   "say": "Guardrails में लिखो क्या नहीं करना। जैसे medical advice नहीं देना, और जो पता नहीं वो guess नहीं करना।",
+   "hl": [
+    "Guardrails",
+    "guess"
+   ],
+   "chip": "Guardrails"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "# Tone",
+    "rows": [
+     [
+      "Style",
+      "warm, छोटे जवाब"
+     ],
+     [
+      "Voice",
+      "phone पे natural"
+     ]
+    ]
+   },
+   "say": "Tone में बताओ कैसे बोलना है: warm, छोटे जवाब, phone पे natural।",
+   "hl": [
+    "Tone",
+    "छोटे"
+   ],
+   "chip": "Tone"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "लंबा, घुमावदार prompt",
+    "good": "जितना हो सके उतना concise"
+   },
+   "say": "Docs कहते हैं: prompt जितना हो सके उतना concise रखो। लंबा prompt मतलब ज़्यादा confusion।",
+   "hl": [
+    "concise"
+   ],
+   "chip": "concise"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Critical instruction",
+    "rows": [
+     [
+      "कैसे",
+      "साफ़ और emphasize करके"
+     ],
+     [
+      "Example",
+      "This step is important"
+     ]
+    ]
+   },
+   "say": "जो बात सबसे ज़रूरी है, उसे emphasize करो। Guide में लिखा है: important steps को साफ highlight करो।",
+   "hl": [
+    "emphasize",
+    "important"
+   ],
+   "chip": "emphasize"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Text normalization",
+    "rows": [
+     [
+      "Problem",
+      "$1,000 को कैसे बोले?"
+     ],
+     [
+      "Fix",
+      "words में बोलना"
+     ]
+    ]
+   },
+   "say": "एक छुपी हुई problem: numbers और symbols। एक हज़ार dollar को agent सही से बोले, इसके लिए text normalization है।",
+   "hl": [
+    "normalization",
+    "numbers"
+   ],
+   "chip": "normalization"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "LLM खुद normalize करे (कभी fail)",
+    "good": "System normalizer (ज़्यादा reliable)"
+   },
+   "say": "Docs के मुताबिक LLM वाला normalization कभी-कभी fail होता है, और system वाला ज़्यादा reliable है, थोड़ी latency के साथ।",
+   "hl": [
+    "reliable",
+    "fail"
+   ],
+   "chip": "reliable"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "First message",
+    "rows": [
+     [
+      "क्या",
+      "call का पहला वाक्य"
+     ],
+     [
+      "Tip",
+      "नाम + मदद का offer"
+     ]
+    ]
+   },
+   "say": "First message भी set करो: agent call के शुरू में क्या बोलेगा। नाम बताओ और मदद offer करो।",
+   "hl": [
+    "First",
+    "message"
+   ],
+   "chip": "First"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Step 3: Voice और language"
+   },
+   "say": "Step तीन: voice और language।",
+   "hl": [
+    "voice"
+   ],
+   "chip": "voice"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "5k+",
+    "label": "voices (ElevenAgents docs)"
+   },
+   "say": "Docs के मुताबिक agents के लिए पाँच हज़ार से ज़्यादा professional voices हैं।",
+   "hl": [
+    "पाँच",
+    "हज़ार"
+   ],
+   "chip": "पाँच"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "31+",
+    "label": "languages for agents"
+   },
+   "say": "और agents इकतीस से ज़्यादा languages में deploy हो सकते हैं।",
+   "hl": [
+    "इकतीस",
+    "languages"
+   ],
+   "chip": "इकतीस"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Voice selection",
+     "Multi-voice support",
+     "Voice design (text से)",
+     "Pronunciation dictionary"
+    ]
+   },
+   "say": "Voice options: voice चुनो, एक conversation में कई voices, text description से नई voice, और pronunciation dictionary।",
+   "hl": [
+    "Voice",
+    "design"
+   ],
+   "chip": "Voice"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "globe",
+    "title": "India के लिए tip",
+    "rows": [
+     [
+      "Language detection",
+      "system tool"
+     ],
+     [
+      "काम",
+      "caller की language पे switch"
+     ]
+    ]
+   },
+   "say": "India में caller Hindi या English कुछ भी बोल सकता है। इसके लिए language detection system tool है।",
+   "hl": [
+    "language",
+    "detection"
+   ],
+   "chip": "language"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Brand नाम गलत बोलना",
+    "good": "Pronunciation dictionary से fix"
+   },
+   "say": "अगर agent आपके brand का नाम गलत बोलता है, तो pronunciation dictionary से ठीक करो।",
+   "hl": [
+    "pronunciation",
+    "dictionary"
+   ],
+   "chip": "pronunciation"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Step 4: Knowledge base"
+   },
+   "say": "Step चार: agent को आपके business की जानकारी दो।",
+   "hl": [
+    "जानकारी"
+   ],
+   "chip": "जानकारी"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Product catalog, pricing",
+     "Policies (returns, onboarding)",
+     "Technical docs",
+     "Customer FAQs"
+    ]
+   },
+   "say": "Knowledge base में डालो: product catalog, policies, technical docs, और FAQs।",
+   "hl": [
+    "Knowledge",
+    "base"
+   ],
+   "chip": "Knowledge"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "bookmark",
+     "title": "Full context",
+     "rows": [
+      [
+       "कैसे",
+       "पूरा document prompt में"
+      ],
+      [
+       "Limit",
+       "~300,000 characters"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "key",
+     "title": "RAG",
+     "rows": [
+      [
+       "कैसे",
+       "सिर्फ relevant हिस्सा"
+      ],
+      [
+       "कब",
+       "बड़े documents"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "दो तरीके हैं: full context, जिसमें पूरा document prompt में जाता है, और RAG, जिसमें सिर्फ relevant हिस्सा।",
+   "hl": [
+    "full",
+    "RAG"
+   ],
+   "chip": "full"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "20MB",
+    "label": "per uploaded file"
+   },
+   "say": "File upload बीस MB तक होती है, और document file, URL या text से बन सकता है।",
+   "hl": [
+    "बीस",
+    "MB"
+   ],
+   "chip": "बीस"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "पुरानी price list पड़ी रहे",
+    "good": "Knowledge regularly update करो"
+   },
+   "say": "Best practice: knowledge regularly update करो। वरना agent पुरानी price बोलेगा।",
+   "hl": [
+    "update",
+    "पुरानी"
+   ],
+   "chip": "update"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Step 5: Tools"
+   },
+   "say": "Step पाँच: tools, जिससे agent सिर्फ बोलता नहीं, काम भी करता है।",
+   "hl": [
+    "tools"
+   ],
+   "chip": "tools"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Webhook tools",
+     "Client tools",
+     "Code tools",
+     "MCP tools",
+     "System tools"
+    ]
+   },
+   "say": "Docs में पाँच तरह के tools हैं: webhook, client, code, MCP, और system tools।",
+   "hl": [
+    "पाँच",
+    "tools"
+   ],
+   "chip": "पाँच"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Webhook tool",
+    "rows": [
+     [
+      "काम",
+      "आपकी API call करना"
+     ],
+     [
+      "Example",
+      "slot book, order status"
+     ]
+    ]
+   },
+   "say": "Webhook tool आपकी API call करता है, जैसे slot book करना या order status देखना।",
+   "hl": [
+    "Webhook",
+    "API"
+   ],
+   "chip": "Webhook"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "End call",
+     "Transfer to number",
+     "Voicemail detection",
+     "Language detection"
+    ]
+   },
+   "say": "System tools पहले से बने हैं: call end करना, number पे transfer, voicemail detect करना, language detect करना।",
+   "hl": [
+    "System",
+    "tools"
+   ],
+   "chip": "System"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Prompt में tool rules",
+    "rows": [
+     [
+      "कब call करो",
+      "trigger लिखो"
+     ],
+     [
+      "कैसे",
+      "1, 2, 3 steps"
+     ]
+    ]
+   },
+   "say": "Prompt में हर tool के लिए लिखो कि कब call करना है और किस order में। Guide यही सिखाता है।",
+   "hl": [
+    "कब",
+    "order"
+   ],
+   "chip": "कब"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "email: The user's email",
+    "good": "email: john@gmail.com जैसा format"
+   },
+   "say": "Tool parameters में format साफ लिखो। सिर्फ email नहीं, बल्कि example के साथ, जैसे john at gmail dot com।",
+   "hl": [
+    "format",
+    "example"
+   ],
+   "chip": "format"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "Tool fail हो तो",
+    "rows": [
+     [
+      "1",
+      "caller को बताओ"
+     ],
+     [
+      "2",
+      "guess मत करो"
+     ],
+     [
+      "3",
+      "2 बार के बाद escalate"
+     ]
+    ]
+   },
+   "say": "Tool fail हो तो: caller को बताओ, कुछ भी guess मत करो, और दो बार के बाद escalate करो।",
+   "hl": [
+    "fail",
+    "escalate"
+   ],
+   "chip": "fail"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Step 6: Conversation flow"
+   },
+   "say": "Step छह: conversation flow settings।",
+   "hl": [
+    "flow"
+   ],
+   "chip": "flow"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Max conversation duration",
+     "Take turn after silence",
+     "Soft timeout",
+     "Interruptions",
+     "Turn eagerness"
+    ]
+   },
+   "say": "Conversation flow में पाँच settings हैं: max duration, silence के बाद turn, soft timeout, interruptions, और turn eagerness।",
+   "hl": [
+    "settings"
+   ],
+   "chip": "settings"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "600s",
+    "label": "default max duration (10 min)"
+   },
+   "say": "Max conversation duration default छह सौ seconds है, यानि दस minute। इसे साठ से सात हज़ार दो सौ seconds तक set कर सकते हो।",
+   "hl": [
+    "छह",
+    "सौ"
+   ],
+   "chip": "छह"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "लंबी sales call 10 min पे कटे",
+    "good": "Use case के हिसाब से duration"
+   },
+   "say": "अगर आपकी call लंबी होती है, तो ये limit बढ़ाना मत भूलो, वरना call बीच में कट जाएगी।",
+   "hl": [
+    "limit",
+    "कट"
+   ],
+   "chip": "limit"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Interruptions",
+    "rows": [
+     [
+      "On",
+      "caller बीच में बोल सके"
+     ],
+     [
+      "कब off",
+      "legal disclaimer पढ़ते वक्त"
+     ]
+    ]
+   },
+   "say": "Interruptions on रखो ताकि caller बीच में बोल सके। Disclaimer जैसी जगह पे सोच समझ के।",
+   "hl": [
+    "Interruptions",
+    "बीच"
+   ],
+   "chip": "Interruptions"
+  },
+  {
+   "tag": "CH8",
+   "v": "chapter",
+   "d": {
+    "num": 8,
+    "title": "Step 7: Testing"
+   },
+   "say": "Step सात: live करने से पहले test करो।",
+   "hl": [
+    "test"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Simulation testing",
+     "Next reply (scenario) testing",
+     "Tool call testing"
+    ]
+   },
+   "say": "Docs में तीन तरह के tests हैं: simulation, next reply scenario, और tool call testing।",
+   "hl": [
+    "तीन",
+    "tests"
+   ],
+   "chip": "तीन"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Simulation test",
+    "rows": [
+     [
+      "क्या",
+      "simulated user से पूरी बात"
+     ],
+     [
+      "Set",
+      "scenario, success condition, max turns"
+     ]
+    ]
+   },
+   "say": "Simulation test में एक नकली user पूरी बातचीत करता है। आप scenario, success condition और max turns set करते हो।",
+   "hl": [
+    "Simulation",
+    "नकली"
+   ],
+   "chip": "Simulation"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Tool mocking",
+    "rows": [
+     [
+      "Mock none",
+      "असली tools"
+     ],
+     [
+      "Mock all",
+      "सब mock response"
+     ]
+    ]
+   },
+   "say": "Tool mocking से असली API को छुए बिना test कर सकते हो।",
+   "hl": [
+    "mocking"
+   ],
+   "chip": "mocking"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "एक बार चला = ready",
+    "good": "हर बदलाव के बाद tests"
+   },
+   "say": "एक बार agent सही चला, इसका मतलब ready नहीं। हर prompt बदलाव के बाद tests चलाओ।",
+   "hl": [
+    "हर",
+    "tests"
+   ],
+   "chip": "हर"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Real calls से tests",
+    "rows": [
+     [
+      "कैसे",
+      "conversation से test बनाओ"
+     ],
+     [
+      "फायदा",
+      "असली गलतियाँ पकड़ो"
+     ]
+    ]
+   },
+   "say": "Docs में ये भी है कि असली conversation से test बनाओ, ताकि वही गलती दोबारा न हो।",
+   "hl": [
+    "असली",
+    "conversation"
+   ],
+   "chip": "असली"
+  },
+  {
+   "tag": "CH9",
+   "v": "chapter",
+   "d": {
+    "num": 9,
+    "title": "Step 8: Deploy"
+   },
+   "say": "Step आठ: agent को live करो।",
+   "hl": [
+    "live"
+   ],
+   "chip": "live"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Website widget",
+     "React / JS / Python SDK",
+     "iOS, Android, React Native",
+     "Twilio native",
+     "SIP trunk",
+     "Batch outbound calls"
+    ]
+   },
+   "say": "Deploy के रास्ते: website widget, SDKs, mobile apps, Twilio, SIP trunk, और batch outbound calls।",
+   "hl": [
+    "Deploy",
+    "रास्ते"
+   ],
+   "chip": "Deploy"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "globe",
+     "title": "Website",
+     "rows": [
+      [
+       "Widget",
+       "copy-paste embed"
+      ],
+      [
+       "Use",
+       "support, sales"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "mobile",
+     "title": "Phone",
+     "rows": [
+      [
+       "Twilio",
+       "native integration"
+      ],
+      [
+       "SIP",
+       "existing telephony"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "Website के लिए widget embed करो। Phone के लिए Twilio native integration या अपना SIP trunk।",
+   "hl": [
+    "widget",
+    "Twilio"
+   ],
+   "chip": "widget"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Batch calls",
+    "rows": [
+     [
+      "क्या",
+      "कई outbound calls"
+     ],
+     [
+      "कैसे",
+      "programmatically trigger"
+     ]
+    ]
+   },
+   "say": "बहुत सारी outbound calls करनी हैं, तो batch calls से programmatically trigger करो।",
+   "hl": [
+    "batch",
+    "outbound"
+   ],
+   "chip": "batch"
+  },
+  {
+   "tag": "CH10",
+   "v": "chapter",
+   "d": {
+    "num": 10,
+    "title": "Step 9: Monitor"
+   },
+   "say": "Step नौ: live के बाद monitor करो।",
+   "hl": [
+    "monitor"
+   ],
+   "chip": "monitor"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Success evaluation",
+     "Data collection",
+     "Sentiment analysis",
+     "Search conversations"
+    ]
+   },
+   "say": "Conversation analysis में चार चीज़ें हैं: success evaluation, data collection, sentiment, और conversation search।",
+   "hl": [
+    "analysis"
+   ],
+   "chip": "analysis"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Success evaluation",
+    "rows": [
+     [
+      "क्या",
+      "अपने criteria"
+     ],
+     [
+      "Example",
+      "appointment book हुआ?"
+     ]
+    ]
+   },
+   "say": "Success evaluation में अपने criteria लिखो, जैसे क्या appointment book हुआ।",
+   "hl": [
+    "Success",
+    "criteria"
+   ],
+   "chip": "Success"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Data collection",
+    "rows": [
+     [
+      "क्या",
+      "structured data निकालो"
+     ],
+     [
+      "Example",
+      "नाम, phone, issue"
+     ]
+    ]
+   },
+   "say": "Data collection से हर call से नाम, phone, issue जैसा structured data अपने आप निकलता है।",
+   "hl": [
+    "Data",
+    "structured"
+   ],
+   "chip": "Data"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Post-call webhook",
+    "rows": [
+     [
+      "क्या",
+      "results आपके system में"
+     ],
+     [
+      "Use",
+      "CRM, sheet, WhatsApp"
+     ]
+    ]
+   },
+   "say": "Post-call webhooks से ये results सीधे आपके CRM या system में भेज सकते हो।",
+   "hl": [
+    "webhooks",
+    "CRM"
+   ],
+   "chip": "webhooks"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Experiments",
+    "rows": [
+     [
+      "क्या",
+      "A/B test"
+     ],
+     [
+      "कैसे",
+      "live traffic पे"
+     ]
+    ]
+   },
+   "say": "और experiments से live traffic पे A/B test कर सकते हो, कि कौनसा prompt बेहतर है।",
+   "hl": [
+    "A/B",
+    "test"
+   ],
+   "chip": "A/B"
+  },
+  {
+   "tag": "CH11",
+   "v": "chapter",
+   "d": {
+    "num": 11,
+    "title": "Live example: Clinic agent"
+   },
+   "say": "अब पूरा example बनाते हैं: एक clinic का appointment agent।",
+   "hl": [
+    "example"
+   ],
+   "chip": "example"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Use case",
+    "rows": [
+     [
+      "Business",
+      "छोटा dental clinic"
+     ],
+     [
+      "काम",
+      "appointment book करना"
+     ],
+     [
+      "Channel",
+      "phone + website"
+     ]
+    ]
+   },
+   "say": "मान लो एक छोटा dental clinic है। Agent का एक ही काम: appointment book करना, phone और website दोनों पे।",
+   "hl": [
+    "dental",
+    "appointment"
+   ],
+   "chip": "dental"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "# Personality",
+    "rows": [
+     [
+      "Line",
+      "You are Riya, the receptionist"
+     ],
+     [
+      "Style",
+      "friendly, patient"
+     ]
+    ]
+   },
+   "say": "Personality section: you are Riya, the receptionist of the clinic। Friendly और patient।",
+   "hl": [
+    "Riya",
+    "friendly"
+   ],
+   "chip": "Riya"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "1. नाम पूछो",
+     "2. Problem पूछो (checkup / pain)",
+     "3. Date और time पूछो",
+     "4. Slot check tool call",
+     "5. Confirm करके दोहराओ"
+    ]
+   },
+   "say": "Goal section में पाँच steps: नाम, problem, date-time, slot check tool, और आखिर में confirm करके दोहराना।",
+   "hl": [
+    "पाँच",
+    "steps"
+   ],
+   "chip": "पाँच"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "# Guardrails",
+    "rows": [
+     [
+      "No",
+      "medical advice"
+     ],
+     [
+      "No",
+      "price का guess"
+     ],
+     [
+      "Emergency",
+      "human को transfer"
+     ]
+    ]
+   },
+   "say": "Guardrails: कोई medical advice नहीं, price का guess नहीं, और emergency हो तो तुरंत human को transfer।",
+   "hl": [
+    "medical",
+    "transfer"
+   ],
+   "chip": "medical"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "code",
+    "title": "Tools",
+    "rows": [
+     [
+      "check_slots",
+      "webhook: free slots"
+     ],
+     [
+      "book_slot",
+      "webhook: booking"
+     ],
+     [
+      "transfer_to_number",
+      "system tool"
+     ]
+    ]
+   },
+   "say": "Tools: check slots और book slot दो webhooks, और transfer to number system tool।",
+   "hl": [
+    "webhooks",
+    "transfer"
+   ],
+   "chip": "webhooks"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Tool parameter format",
+    "rows": [
+     [
+      "date",
+      "YYYY-MM-DD, e.g. 2026-11-20"
+     ],
+     [
+      "phone",
+      "digits only, e.g. 9876543210"
+     ]
+    ]
+   },
+   "say": "Parameters का format साफ लिखो: date year month day में, और phone सिर्फ digits में।",
+   "hl": [
+    "format",
+    "digits"
+   ],
+   "chip": "format"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Caller: कल शाम को → agent confused",
+    "good": "Agent: कल यानि 20 November, शाम 5 बजे?"
+   },
+   "say": "Caller बोलेगा कल शाम को। Agent को उसे साफ date और time में बदलकर confirm करना चाहिए।",
+   "hl": [
+    "कल",
+    "confirm"
+   ],
+   "chip": "कल"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chat",
+    "title": "Sample call",
+    "rows": [
+     [
+      "Riya",
+      "Namaste, main Riya, clinic se"
+     ],
+     [
+      "Caller",
+      "Kal ka appointment chahiye"
+     ],
+     [
+      "Riya",
+      "Zaroor, aapka naam?"
+     ]
+    ]
+   },
+   "say": "Sample call ऐसे शुरू होगी: नमस्ते, मैं Riya, clinic से। Caller बोलता है कल का appointment चाहिए। Riya नाम पूछती है।",
+   "hl": [
+    "Riya",
+    "नमस्ते"
+   ],
+   "chip": "Riya"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Call के बाद",
+    "rows": [
+     [
+      "Success",
+      "booking हुई?"
+     ],
+     [
+      "Data",
+      "नाम, phone, slot"
+     ],
+     [
+      "Webhook",
+      "clinic की sheet में"
+     ]
+    ]
+   },
+   "say": "Call के बाद success evaluation देखता है booking हुई या नहीं, और data collection नाम, phone, slot निकालता है।",
+   "hl": [
+    "success",
+    "data"
+   ],
+   "chip": "success"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Call",
+     "Agent",
+     "check_slots",
+     "book_slot",
+     "Sheet / CRM"
+    ]
+   },
+   "say": "पूरा flow: call आई, agent ने slots check किए, booking की, और data clinic की sheet में चला गया।",
+   "hl": [
+    "flow",
+    "booking"
+   ],
+   "chip": "flow"
+  },
+  {
+   "tag": "CH12",
+   "v": "chapter",
+   "d": {
+    "num": 12,
+    "title": "Personalization"
+   },
+   "say": "Bonus chapter: हर caller के लिए personal agent।",
+   "hl": [
+    "personal"
+   ],
+   "chip": "personal"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "star",
+    "title": "Dynamic variables",
+    "rows": [
+     [
+      "कहाँ",
+      "prompt, first message, tools"
+     ],
+     [
+      "Example",
+      "{{user_name}}"
+     ]
+    ]
+   },
+   "say": "Dynamic variables से runtime पे data डालते हो: system prompt, first message, और tool parameters में।",
+   "hl": [
+    "Dynamic",
+    "variables"
+   ],
+   "chip": "Dynamic"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "system__caller_id",
+     "system__called_number",
+     "system__call_duration_secs",
+     "system__time"
+    ]
+   },
+   "say": "कुछ system variables पहले से मिलते हैं, जैसे caller का number, call duration, और current time।",
+   "hl": [
+    "system",
+    "variables"
+   ],
+   "chip": "system"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Hello, how can I help?",
+    "good": "Hello Rahul, आपका order कल आएगा"
+   },
+   "say": "Generic greeting की जगह नाम और account details से बात करो। Caller को लगता है agent उसे जानता है।",
+   "hl": [
+    "नाम",
+    "जानता"
+   ],
+   "chip": "नाम"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "key",
+    "title": "Overrides",
+    "rows": [
+     [
+      "क्या",
+      "per-conversation बदलाव"
+     ],
+     [
+      "Example",
+      "language, first message"
+     ]
+    ]
+   },
+   "say": "Overrides से हर conversation के लिए settings बदल सकते हो, बिना नया agent बनाए।",
+   "hl": [
+    "Overrides"
+   ],
+   "chip": "Overrides"
+  },
+  {
+   "tag": "CH13",
+   "v": "chapter",
+   "d": {
+    "num": 13,
+    "title": "Cost और scale"
+   },
+   "say": "Chapter: cost कैसे कम रखें और scale कैसे करें।",
+   "hl": [
+    "cost"
+   ],
+   "chip": "cost"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Input tokens",
+     "Output tokens",
+     "Model choice"
+    ]
+   },
+   "say": "Docs के मुताबिक LLM cost तीन चीज़ों पे depend करती है: input tokens, output tokens, और model choice।",
+   "hl": [
+    "tokens",
+    "model"
+   ],
+   "chip": "tokens"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर काम के लिए सबसे महंगा model",
+    "good": "Right-sizing: काम लायक सबसे छोटा model"
+   },
+   "say": "Right-sizing करो: जो सबसे छोटा model काम reliably कर दे, वही लो। Simple काम के लिए महंगा model मत लगाओ।",
+   "hl": [
+    "Right-sizing",
+    "छोटा"
+   ],
+   "chip": "Right-sizing"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "bookmark",
+    "title": "RAG = कम tokens",
+    "rows": [
+     [
+      "क्यों",
+      "सिर्फ relevant हिस्सा"
+     ],
+     [
+      "Tune",
+      "chunk size, overlap"
+     ]
+    ]
+   },
+   "say": "RAG भी cost कम करता है, क्योंकि LLM को सिर्फ relevant हिस्सा मिलता है।",
+   "hl": [
+    "RAG",
+    "cost"
+   ],
+   "chip": "RAG"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Burst pricing",
+    "cols": [
+     "Normal limit",
+     "Burst max"
+    ],
+    "rows": [
+     {
+      "k": "10 calls",
+      "v": [
+       "10",
+       "30"
+      ]
+     },
+     {
+      "k": "100 calls",
+      "v": [
+       "100",
+       "300"
+      ]
+     },
+     {
+      "k": "200 calls",
+      "v": [
+       "200",
+       "300 (cap)"
+      ]
+     }
+    ]
+   },
+   "say": "Traffic spike के लिए burst pricing: concurrency तीन गुना तक, maximum तीन सौ calls।",
+   "hl": [
+    "burst",
+    "तीन"
+   ],
+   "chip": "burst"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Burst का charge",
+    "rows": [
+     [
+      "Normal calls",
+      "standard rate"
+     ],
+     [
+      "Burst calls",
+      "2x rate"
+     ],
+     [
+      "Priority",
+      "कम"
+     ]
+    ]
+   },
+   "say": "पर burst calls दो गुना rate पे charge होती हैं, और उनकी priority कम होती है।",
+   "hl": [
+    "दो",
+    "गुना"
+   ],
+   "chip": "दो"
+  },
+  {
+   "tag": "CH14",
+   "v": "chapter",
+   "d": {
+    "num": 14,
+    "title": "5 गलतियाँ"
+   },
+   "say": "Bonus: पाँच गलतियाँ जो beginners करते हैं।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "एक agent से सब काम",
+     "Guardrails नहीं",
+     "Tool rules prompt में नहीं",
+     "बिना test live",
+     "Monitor नहीं"
+    ]
+   },
+   "say": "एक agent से सब काम, guardrails नहीं, tool rules नहीं, बिना test live, और monitor नहीं।",
+   "hl": [
+    "गलतियाँ"
+   ],
+   "chip": "गलतियाँ"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Specialist agents",
+    "rows": [
+     [
+      "Orchestrator",
+      "intent से route"
+     ],
+     [
+      "Specialist",
+      "billing, scheduling..."
+     ],
+     [
+      "Human",
+      "साफ handoff"
+     ]
+    ]
+   },
+   "say": "Docs भी कहते हैं: agents specialized रखो। एक orchestrator route करे, specialists काम करें, और human handoff साफ हो।",
+   "hl": [
+    "specialized",
+    "orchestrator"
+   ],
+   "chip": "specialized"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Agent जो सब जानने का दावा करे",
+    "good": "Agent जो बोले: मैं transfer करता हूँ"
+   },
+   "say": "अच्छा agent सब जानने का दावा नहीं करता। जो नहीं आता, वहाँ human को transfer करता है।",
+   "hl": [
+    "transfer",
+    "human"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "CH15",
+   "v": "chapter",
+   "d": {
+    "num": 15,
+    "title": "Recap"
+   },
+   "say": "पूरा recap, एक नज़र में।",
+   "hl": [
+    "recap"
+   ],
+   "chip": "recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Use case",
+     "Prompt",
+     "Voice",
+     "Knowledge",
+     "Tools",
+     "Flow",
+     "Test",
+     "Deploy",
+     "Monitor"
+    ]
+   },
+   "say": "Use case, prompt, voice, knowledge, tools, flow, test, deploy, monitor। यही नौ steps।",
+   "hl": [
+    "नौ",
+    "steps"
+   ],
+   "chip": "नौ"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "आज",
+      "when": "एक simple use case चुनो"
+     },
+     {
+      "who": "इस हफ्ते",
+      "when": "prompt + tools + tests"
+     },
+     {
+      "who": "फिर",
+      "when": "live, monitor, improve"
+     }
+    ]
+   },
+   "say": "आज एक use case चुनो, इस हफ्ते prompt, tools और tests बनाओ, फिर live करके improve करते रहो।",
+   "hl": [
+    "आज",
+    "improve"
+   ],
+   "chip": "आज"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: System prompts",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में professional system prompts लिखना सीखेंगे। Omilabs subscribe करो, ताकि miss न हो।",
+   "hl": [
+    "subscribe",
+    "Omilabs"
+   ],
+   "chip": "subscribe"
+  }
+ ]
+}
