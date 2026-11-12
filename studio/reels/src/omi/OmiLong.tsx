@@ -100,7 +100,9 @@ const LongBeat: React.FC<{ b: Beat; accent: string; len: number }> = ({ b, accen
   const f = useCurrentFrame();
   const out = interpolate(f, [len - 8, len], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const nRows = ((b.d as any)?.rows?.length ?? (b.d as any)?.items?.length ?? 0) as number;
-  const big = b.v === "cta" ? 0.95 : ["card", "list"].includes(b.v) ? (nRows >= 4 ? 1.0 : 1.2) : ["versus", "hook", "browser"].includes(b.v) ? 1.25 : ["table", "verdict", "duo"].includes(b.v) ? 1.05 : 1;   // cards read well on a phone
+  const nNodes = ((b.d as any)?.nodes?.length ?? 0) as number;
+  const big = b.v === "flow" ? (nNodes >= 7 ? 0.55 : nNodes >= 6 ? 0.62 : nNodes >= 5 ? 0.72 : 0.9)   // vertical flow must fit 140–800
+    : b.v === "cta" ? 0.95 : ["card", "list"].includes(b.v) ? (nRows >= 6 ? 0.85 : nRows >= 4 ? 1.0 : 1.2) : ["versus", "hook", "browser"].includes(b.v) ? 1.25 : ["table", "verdict", "duo"].includes(b.v) ? 1.05 : 1;   // cards read well on a phone
   const zoom = big * (1 + 0.03 * interpolate(f, [0, len], [0, 1], { extrapolateRight: "clamp" }));   // slow push-in
   return (
     <AbsoluteFill style={{ opacity: out }}>
@@ -169,7 +171,13 @@ export const OmiThumb: React.FC<ThumbProps> = ({ a, b, top, hook, accent, colorA
           fontSize: 70, fontWeight: 800, border: "10px solid #fff", boxShadow: "0 20px 50px rgba(0,0,0,.35)" }}>VS</div>
       </>
     ) : (
-      <div style={{ position: "absolute", left: 70, top: 120, fontSize: 130, fontWeight: 800, color: "#111", letterSpacing: -3 }}>{a}</div>
+      <>
+        {/* single-topic thumbnail (no VS): dark base, accent spotlight, one big subject */}
+        <div style={{ position: "absolute", inset: 0, background: colorA || "#111" }} />
+        <div style={{ position: "absolute", left: 340, top: -260, width: 900, height: 900, borderRadius: 450, background: `radial-gradient(circle, ${accent}88 0%, ${accent}00 70%)` }} />
+        <div style={{ position: "absolute", left: 60, right: 60, top: 150, textAlign: "center", color: "#fff", fontSize: a.length <= 10 ? 150 : a.length <= 16 ? 118 : 92,
+          fontWeight: 800, letterSpacing: -3, lineHeight: 1.0 }}>{a}</div>
+      </>
     )}
     <div style={{ position: "absolute", left: 50, right: 50, bottom: 70, display: "flex", justifyContent: "center" }}>
       <div style={{ background: "#FFE14D", color: "#111", padding: "18px 40px", borderRadius: 22, fontSize: 84, fontWeight: 800, transform: "rotate(-2deg)",

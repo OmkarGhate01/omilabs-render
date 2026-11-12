@@ -27,13 +27,12 @@
  ],
  "hashtags": "#AIPhoneCalls #VoiceAI #AIAgent #Hinglish",
  "thumb": {
-  "a": "Phone",
-  "b": "AI Agent",
+  "a": "AI Phone Calls",
+  "b": "",
   "top": "ARCHITECTURE",
-  "hook": "CALL KAISE HOTI HAI",
-  "accent": "#F2542D",
-  "colorA": "#2F6BFF",
-  "colorB": "#111111"
+  "hook": "ANDAR KYA HOTA HAI",
+  "accent": "#2F6BFF",
+  "colorA": "#111111"
  },
  "beats": [
   {

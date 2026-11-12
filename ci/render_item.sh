@@ -35,6 +35,13 @@ push_pkg() {  # push_pkg NAME  (contents of $PKG)
   git push -q -f origin "$c:refs/heads/pkg/$1"
   echo "pushed pkg/$1"
 }
+push_log() {  # push_log ITEM LOGFILE -> refs/heads/log/<item> (debug only; not read by the plan)
+  local T="$RUNNER_TEMP/logpush"; rm -rf "$T"; mkdir -p "$T"; tail -c 200000 "$2" > "$T/log.txt" || true
+  export GIT_INDEX_FILE="$RUNNER_TEMP/idx-log"; rm -f "$GIT_INDEX_FILE"
+  b=$(git hash-object -w "$T/log.txt"); git update-index --add --cacheinfo 100644,$b,log.txt
+  local c; c=$(echo "log $1" | git commit-tree "$(git write-tree)"); unset GIT_INDEX_FILE
+  git push -q -f origin "$c:refs/heads/log/$1" || true
+}
 approve_auto() {  # no human on the runner: visual review = automatic visual + render checks
   python3 - "$1" <<'PY'
 import json, sys
@@ -126,7 +133,9 @@ PY
     ID="${ITEM#lg-}"
     pip install -q edge-tts==7.* >/dev/null 2>&1 || pip install -q edge-tts
     (cd "$W/studio/reels" && npm ci --no-audit --no-fund >/dev/null)
-    (cd "$W/studio" && RENDER_CONC=100% python3 scripts/make_short.py "$ID")
+    if ! (cd "$W/studio" && RENDER_CONC=100% python3 scripts/make_short.py "$ID" 2>&1 | tee "$RUNNER_TEMP/mk.log"); then
+      push_log "$ITEM" "$RUNNER_TEMP/mk.log"; exit 1; fi
+    [ -f "$W/export/$ID.mp4" ] || { ls -la "$W/export" >> "$RUNNER_TEMP/mk.log" 2>&1; push_log "$ITEM" "$RUNNER_TEMP/mk.log"; exit 1; }
     push_media "$W/export/$ID.mp4" "lg$ID.mp4"
     [ -f "$W/export/$ID.jpg" ] && push_media "$W/export/$ID.jpg" "lg$ID.jpg"
     mkdir -p "$PKG/ci-pkg"; cp "$W/studio/edit/$ID/props.json" "$PKG/ci-pkg/lg-$ID-props.json"

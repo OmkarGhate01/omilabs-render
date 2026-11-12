@@ -20,7 +20,7 @@ V["av01"] = dict(
     tags=["ai voice agent", "build ai voice agent", "elevenlabs agents", "ai calling agent", "voice ai tutorial hindi", "elevenagents", "omilabs"],
     sources=["elevenlabs.io/docs/eleven-agents (overview, build, prompting guide, conversation flow, knowledge base, tools, testing, analysis)"],
     hashtags="#AIVoiceAgent #ElevenLabs #VoiceAI #Hinglish",
-    thumb=dict(a="Zero", b="AI Agent", top="FULL GUIDE 2026", hook="PEHLA AGENT BANAO", accent="#F2542D", colorA="#3B3B3B", colorB="#111111"),
+    thumb=dict(a="AI Voice Agent", b="", top="FULL GUIDE 2026", hook="ZERO SE LIVE", accent="#F2542D", colorA="#111111"),
     beats=[
     b("hook", dict(problem="Pehla AI voice agent kaise banaye", brand="AI Voice Agent", pill="FULL GUIDE", stat="9", sub="steps, zero से live"),
       "AI voice agent बनाना है, पर समझ नहीं आता कहाँ से शुरू करें? आज zero से live तक बनाएँगे।", "AI", "voice", "agent"),
@@ -207,7 +207,51 @@ V["av01"] = dict(
     b("card", dict(icon="wallet", title="Burst का charge", rows=[["Normal calls", "standard rate"], ["Burst calls", "2x rate"], ["Priority", "कम"]]),
       "पर burst calls दो गुना rate पे charge होती हैं, और उनकी priority कम होती है।", "दो", "गुना"),
 
-    CH(14, "5 गलतियाँ", "Bonus: पाँच गलतियाँ जो beginners करते हैं।", ["गलतियाँ"], "गलतियाँ"),
+    CH(14, "Workflows: complex flows", "Bonus chapter: जब एक prompt काफी नहीं होता।", ["prompt"], "prompt"),
+    b("card", dict(icon="chart", title="Agent Workflows", rows=[["क्या", "visual graph editor"], ["कहाँ", "agent का Workflow tab"], ["Stored", "workflow field (JSON)"]]),
+      "Agent workflows एक visual editor है। Agent के workflow tab में nodes और edges से complex flow बनाते हो।", "workflows", "visual"),
+    b("flow", dict(nodes=["Start", "Support subagent", "End"]),
+      "Docs का सबसे छोटा example: start node, फिर support subagent, फिर end node।", "start", "end"),
+    b("card", dict(icon="key", title="Edge condition", rows=[["Type", "LLM condition"], ["Example", "request resolved?"]]),
+      "Edge पे LLM condition लगती है, जैसे: support request resolve हो गई? तभी end node पे जाओ।", "condition", "resolve"),
+    b("card", dict(icon="chat", title="Subagent node", rows=[["क्या", "override agent"], ["Add", "additional prompt"]]),
+      "हर subagent node अपना additional prompt ले सकता है, यानि हर step का अपना छोटा focused prompt।", "subagent", "focused"),
+    b("versus", dict(bad="Dashboard में बदलाव, कोई history नहीं", good="Dashboard में design, JSON git में"),
+      "Docs कहते हैं ज़्यादातर teams dashboard में design करती हैं, फिर JSON को version control में commit करती हैं।", "version", "control"),
+    b("card", dict(icon="code", title="CLI", rows=[["Pull", "elevenlabs agents pull"], ["Push", "elevenlabs agents push"]]),
+      "CLI से agent pull करो, config edit करो, और push करो। Agents as code।", "CLI", "code"),
+
+    CH(15, "Security और privacy", "Chapter: data safe कैसे रखें।", ["safe"], "safe"),
+    b("list", dict(items=["Authentication", "Data retention policy", "SIP: TLS + media encryption", "Webhook secrets"]),
+      "Security के लिए authentication, data retention policy, encrypted SIP, और अपने webhooks secure रखो।", "Security", "retention"),
+    b("card", dict(icon="lock", title="Authentication", rows=[["क्यों", "सिर्फ सही users agent use करें"], ["Docs", "custom auth flows"]]),
+      "Authentication से सिर्फ authorized users ही agent से बात कर सकते हैं।", "Authentication", "authorized"),
+    b("card", dict(icon="lock", title="Data retention", rows=[["क्या", "conversations और audio कब तक रखें"], ["कहाँ", "privacy settings"]]),
+      "Privacy settings में तय करो कि conversations और audio कितने दिन रखने हैं।", "Privacy", "retention"),
+    b("versus", dict(bad="Prompt में API keys या passwords", good="Secrets सिर्फ tool config में"),
+      "कभी भी API keys या passwords system prompt में मत लिखो। वो सिर्फ tool configuration में होने चाहिए।", "keys", "prompt"),
+
+    CH(16, "Launch checklist", "Live से पहले की checklist।", ["checklist"], "checklist"),
+    b("list", dict(items=["Prompt: 4 sections", "First message छोटा", "Knowledge updated", "Tools + error handling", "Max duration सही"]),
+      "Prompt में चार sections, छोटा first message, updated knowledge, tools की error handling, और सही max duration।", "sections", "error"),
+    b("list", dict(items=["Simulation tests pass", "Tool call tests pass", "Voicemail detection on", "Success criteria set", "Webhook connected"]),
+      "Simulation और tool tests pass, voicemail detection on, success criteria set, और webhook connected।", "tests", "webhook"),
+    b("card", dict(icon="users", title="पहला हफ्ता", rows=[["रोज़", "10 transcripts पढ़ो"], ["हर गलती", "एक नया test"], ["फिर", "prompt update"]]),
+      "पहले हफ्ते रोज़ दस transcripts पढ़ो। हर गलती से एक नया test बनाओ, फिर prompt update करो।", "transcripts", "test"),
+
+    CH(17, "FAQ", "अब वो सवाल जो हर beginner पूछता है।", ["सवाल"], "सवाल"),
+    b("card", dict(icon="chat", title="Q: Coding आनी ज़रूरी है?", rows=[["Answer", "नहीं, dashboard से बनता है"], ["Developers", "SDK, CLI, API"]]),
+      "पहला सवाल: coding आनी चाहिए? नहीं। Dashboard से बन जाता है। Developers के लिए SDK, CLI और API भी हैं।", "coding", "dashboard"),
+    b("card", dict(icon="globe", title="Q: Hindi में बात करेगा?", rows=[["Agents", "31+ languages"], ["Switch", "language detection tool"]]),
+      "दूसरा: Hindi में बात करेगा? Agents इकतीस से ज़्यादा languages support करते हैं, और language detection से switch होता है।", "Hindi", "languages"),
+    b("card", dict(icon="mobile", title="Q: India number लगेगा?", rows=[["Option 1", "Twilio number import"], ["Option 2", "अपना SIP trunk"]]),
+      "तीसरा: phone number कैसे? Twilio number import करो, या अपने provider का SIP trunk जोड़ो।", "number", "SIP"),
+    b("card", dict(icon="wallet", title="Q: Cost किस पे depend?", rows=[["LLM", "tokens + model"], ["Calls", "minutes, concurrency"]]),
+      "चौथा: cost किस पे depend करती है? LLM tokens और model पे, और calls के minutes और concurrency पे।", "cost", "tokens"),
+    b("card", dict(icon="users", title="Q: Human की जगह ले लेगा?", rows=[["Best", "repeat वाले काम"], ["Human", "complex, sensitive cases"]]),
+      "पाँचवाँ: क्या ये इंसान की जगह ले लेगा? Repeat वाले काम agent, और complex या sensitive cases human, यही सही mix है।", "human", "mix"),
+
+    CH(18, "5 गलतियाँ", "Bonus: पाँच गलतियाँ जो beginners करते हैं।", ["गलतियाँ"], "गलतियाँ"),
     b("list", dict(items=["एक agent से सब काम", "Guardrails नहीं", "Tool rules prompt में नहीं", "बिना test live", "Monitor नहीं"]),
       "एक agent से सब काम, guardrails नहीं, tool rules नहीं, बिना test live, और monitor नहीं।", "गलतियाँ"),
     b("card", dict(icon="users", title="Specialist agents", rows=[["Orchestrator", "intent से route"], ["Specialist", "billing, scheduling..."], ["Human", "साफ handoff"]]),
@@ -215,7 +259,7 @@ V["av01"] = dict(
     b("versus", dict(bad="Agent जो सब जानने का दावा करे", good="Agent जो बोले: मैं transfer करता हूँ"),
       "अच्छा agent सब जानने का दावा नहीं करता। जो नहीं आता, वहाँ human को transfer करता है।", "transfer", "human"),
 
-    CH(15, "Recap", "पूरा recap, एक नज़र में।", ["recap"], "recap"),
+    CH(19, "Recap", "पूरा recap, एक नज़र में।", ["recap"], "recap"),
     b("flow", dict(nodes=["Use case", "Prompt", "Voice", "Knowledge", "Tools", "Flow", "Test", "Deploy", "Monitor"]),
       "Use case, prompt, voice, knowledge, tools, flow, test, deploy, monitor। यही नौ steps।", "नौ", "steps"),
     b("verdict", dict(items=[dict(who="आज", when="एक simple use case चुनो"), dict(who="इस हफ्ते", when="prompt + tools + tests"), dict(who="फिर", when="live, monitor, improve")]),
@@ -233,7 +277,7 @@ V["av02"] = dict(
     tags=["ai phone calls", "ai calling agent", "how ai voice agents work", "voice ai architecture", "sip trunk ai", "twilio ai agent", "batch calling ai", "omilabs"],
     sources=["elevenlabs.io/docs/eleven-agents (phone numbers: Twilio, SIP trunking, batch calls; voicemail detection; conversation flow; analysis; burst pricing)", "elevenlabs.io/docs/eleven-api latency optimization"],
     hashtags="#AIPhoneCalls #VoiceAI #AIAgent #Hinglish",
-    thumb=dict(a="Phone", b="AI Agent", top="ARCHITECTURE", hook="CALL KAISE HOTI HAI", accent="#F2542D", colorA="#2F6BFF", colorB="#111111"),
+    thumb=dict(a="AI Phone Calls", b="", top="ARCHITECTURE", hook="ANDAR KYA HOTA HAI", accent="#2F6BFF", colorA="#111111"),
     beats=[
     b("hook", dict(problem="AI agent call kaise karta hai", brand="AI Phone Calls", pill="ARCHITECTURE", stat="4", sub="core components हर call में"),
       "AI agent खुद phone call कैसे करता है? Number dial होने से call खत्म होने तक, पूरा system देखते हैं।", "AI", "call"),
@@ -389,7 +433,7 @@ V["av03"] = dict(
     tags=["create ai voice", "elevenlabs voice clone", "voice design elevenlabs", "instant voice clone", "professional voice clone", "ai voice hindi", "omilabs"],
     sources=["elevenlabs.io/docs (voice design, instant voice cloning, professional voice cloning, voice library, latency optimization, Eleven v4)"],
     hashtags="#ElevenLabs #AIVoice #VoiceClone #Hinglish",
-    thumb=dict(a="Your Voice", b="AI Voice", top="ELEVENLABS 2026", hook="APNI AWAAZ BANAO", accent="#F2542D", colorA="#3B3B3B", colorB="#111111"),
+    thumb=dict(a="Apni AI Voice", b="", top="ELEVENLABS 2026", hook="3 TARIKE", accent="#F2542D", colorA="#111111"),
     beats=[
     b("hook", dict(problem="Apni AI voice kaise banaye", brand="AI Voice", pill="ELEVENLABS", stat="3", sub="तरीके, अपनी AI voice"),
       "अपनी खुद की AI voice चाहिए, जो सिर्फ आपकी हो? ElevenLabs में इसके तीन तरीके हैं। तीनों step by step।", "AI", "voice"),
@@ -520,6 +564,9 @@ V["av03"] = dict(
     b("cta", dict(title="Next: Voice agent बनाओ", follow="Omilabs"),
       "अब अपनी voice से voice agent बनाना है, तो playlist की पहली video देखो, और Omilabs subscribe करो।", "agent", "subscribe"),
     ])
+
+
+V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 
 def write(root):
