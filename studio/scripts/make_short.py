@@ -47,6 +47,20 @@ async def tts(text, voice, rate, mp3):
     return words
 
 
+def tts_retry(text, voice, rate, mp3, tries=5):
+    """Edge TTS sometimes returns NoAudioReceived (service hiccup, or text it can't speak). Retry with backoff,
+    then retry once with symbols stripped."""
+    import time
+    last = None
+    for i in range(tries):
+        t = text if i < tries - 1 else re.sub(r"[{}\[\]<>|*_#~`]", " ", text)
+        try:
+            return asyncio.run(tts(t, voice, rate, mp3))
+        except Exception as e:
+            last = e; print("TTS retry %d for: %s (%s)" % (i + 1, text[:60], type(e).__name__)); time.sleep(3 * (i + 1))
+    raise last
+
+
 def norm(w):
     return re.sub(r"[^\wऀ-ॿ]", "", w).lower()
 
@@ -79,7 +93,7 @@ def main():
     beats, parts, t = [], [], 0.0
     for i, b in enumerate(spec["beats"]):
         mp3 = os.path.join(tmp, f"b{i}.mp3")
-        words = asyncio.run(tts(b["say"], spec["voice"], spec.get("rate", "+0%"), mp3))
+        words = tts_retry(b["say"], spec["voice"], spec.get("rate", "+0%"), mp3)
         lead, trail = edge_silence(mp3)
         if lead + trail > 0.02:   # cut TTS dead air at both ends of every line
             cut = mp3[:-4] + "_t.mp3"; full = dur(mp3)
