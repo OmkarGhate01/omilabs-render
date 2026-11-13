@@ -1882,6 +1882,130 @@ V["av11"] = dict(
     ])
 
 
+# ───────────── av12: Scale an AI Voice Agent to 1000+ Calls ─────────────
+V["av12"] = dict(
+    series="AI VOICE AGENTS", music="ELEVENLABS V4", search_kw="AI Voice Agent",
+    title="Scale an AI Voice Agent to 1000+ Calls",
+    summary="How to scale an AI voice agent to thousands of calls, in Hinglish: concurrency limits, burst pricing (up to 3x concurrency, max 300, burst calls at 2x rate), batch calling with CSV/XLS lists and test calls, specialist agents to keep prompts small, latency principles, voicemail detection and end-call conditions to save minutes, monitoring and success evaluation. Based on ElevenAgents docs. No first-person claims.",
+    tags=["scale ai voice agent", "ai calling at scale", "batch calling ai", "concurrency", "burst pricing", "elevenlabs agents", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (batch calls, burst pricing, concurrency, prompting guide, voicemail detection, conversation flow, analysis)", "elevenlabs.io/docs latency optimization"],
+    hashtags="#AIVoiceAgent #VoiceAI #Automation #Hinglish",
+    thumb=dict(a="1000+ AI Calls", b="", top="AI VOICE AGENTS", hook="SCALE WITHOUT BREAKING", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="10 calls theek, 1000 pe sab toot jata hai", brand="Scale AI Calls", pill="AI VOICE AGENTS", stat="5", sub="limits to plan for"),
+      "दस calls पे agent ठीक चलता है, पर हज़ार calls पे सब टूट जाता है? Scale करने के पाँच हिस्से समझो।", "हज़ार", "Scale"),
+    b("flow", dict(nodes=["Concurrency", "Batch calling", "Small prompts", "Latency", "Cost + monitoring"]),
+      "पाँच हिस्से: concurrency, batch calling, छोटे prompts, latency, और cost के साथ monitoring।", "concurrency", "monitoring"),
+
+    CH(1, "Concurrency", "Chapter एक: एक साथ कितनी calls।", ["साथ"], "साथ"),
+    b("card", dict(icon="users", title="Concurrency", rows=[["क्या", "एक साथ चल रही calls"], ["Limit", "subscription के हिसाब से"]]),
+      "Concurrency मतलब एक साथ कितनी calls चल सकती हैं। ये limit आपकी subscription से तय होती है।", "Concurrency", "subscription"),
+    b("versus", dict(bad="हज़ार calls एक साथ = हज़ार concurrency चाहिए", good="Calls को समय में फैलाओ"),
+      "हज़ार calls का मतलब ये नहीं कि हज़ार एक साथ चलें। Calls को समय में फैलाओ, तो कम concurrency में भी हो जाता है।", "फैलाओ", "concurrency"),
+    b("table", dict(title="Burst pricing", cols=["Normal", "Burst max"], rows=[dict(k="10", v=["10", "30"]), dict(k="50", v=["50", "150"]), dict(k="200", v=["200", "300 (cap)"])]),
+      "Spike के लिए burst pricing: concurrency तीन गुना तक, maximum तीन सौ calls।", "burst", "तीन"),
+    b("card", dict(icon="wallet", title="Burst trade-offs", rows=[["Burst calls", "2x rate"], ["Priority", "कम"], ["Limit के ऊपर", "reject या queue"]]),
+      "पर burst calls दो गुना rate पे हैं, priority कम है, और limit के ऊपर calls reject होती हैं या queue में।", "दो", "queue"),
+
+    CH(2, "Batch calling", "Chapter दो: बहुत सारी outbound calls।", ["outbound"], "outbound"),
+    b("flow", dict(nodes=["CSV / XLS upload", "Columns = variables", "Test call", "Schedule", "Monitor"]),
+      "Batch calling: CSV या XLS upload, columns बनते हैं variables, पहले test call, फिर schedule, और monitor।", "Batch", "test"),
+    b("card", dict(icon="check", title="Test call first", rows=[["क्यों", "पूरी list से पहले"], ["Check", "नाम, timing, flow"]]),
+      "पूरी list से पहले एक test call ज़रूर करो। हज़ार calls में एक छोटी गलती हज़ार बार होती है।", "test", "हज़ार"),
+    b("card", dict(icon="chart", title="Monitoring", rows=[["Real-time", "batch status"], ["Per call", "status"], ["Report", "details"]]),
+      "Batch में real-time status, हर call का status, और बाद में detailed report मिलती है।", "status", "report"),
+    b("versus", dict(bad="Permission के बिना cold list", good="Consent वाले numbers, सही calling hours"),
+      "Scale का मतलब spam नहीं। सिर्फ consent वाले numbers, और सही calling hours में।", "consent", "hours"),
+
+    CH(3, "Prompt को scale के लिए छोटा रखो", "Chapter तीन: बड़ा prompt scale पे महंगा।", ["महंगा"], "महंगा"),
+    b("flow", dict(nodes=["Orchestrator", "Specialist A", "Specialist B", "Human"]),
+      "Docs का pattern: orchestrator route करे, specialists काम करें, और human escalation।", "orchestrator", "specialists"),
+    b("list", dict(items=["छोटे prompts = कम tokens", "कम latency", "अलग update", "हर domain का metric"]),
+      "छोटे prompts से tokens कम, latency कम, और हर specialist अलग से update होता है।", "tokens", "latency"),
+    b("card", dict(icon="wallet", title="LLM cost", rows=[["Depends", "input tokens, output tokens, model"], ["Lever", "right-size model"]]),
+      "Docs के मुताबिक LLM cost input tokens, output tokens और model पे depend करती है। Scale पे ये बहुत फर्क डालता है।", "cost", "tokens"),
+
+    CH(4, "Latency at scale", "Chapter चार: हर call fast रहे।", ["fast"], "fast"),
+    b("list", dict(items=["Flash / Turbo models", "Streaming", "Geographic proximity", "Fast voice types"]),
+      "Latency के principles: तेज़ models, streaming, server की दूरी कम, और तेज़ voice types।", "Latency", "streaming"),
+    b("stat", dict(value="~250ms", label="RAG adds (docs)"),
+      "RAG करीब ढाई सौ milliseconds जोड़ता है। Scale पे देखो कि हर call में इसकी ज़रूरत है या नहीं।", "RAG", "ढाई"),
+
+    CH(5, "Minutes बचाओ", "Chapter पाँच: हज़ार calls पे हर second मायने रखता है।", ["second"], "second"),
+    b("card", dict(icon="mail", title="Voicemail detection", rows=[["क्या", "machine पहचानो"], ["Action", "छोटा message या end"]]),
+      "Voicemail detection से machine पे minutes बर्बाद नहीं होते: छोटा message या call end।", "Voicemail", "minutes"),
+    b("card", dict(icon="x", title="End call conditions", rows=[["When", "task done, goodbye"], ["Max duration", "use case के हिसाब से"]]),
+      "साफ end call conditions और सही max duration, ताकि calls बिना वजह लंबी न खिंचें।", "end", "duration"),
+
+    CH(6, "Monitoring", "Chapter छह: scale पे quality कैसे देखें।", ["quality"], "quality"),
+    b("list", dict(items=["Success evaluation", "Data collection", "Sentiment", "Transfer rate"]),
+      "हर call पे success evaluation, data collection, sentiment, और कितनी calls human को गईं।", "Success", "sentiment"),
+    b("versus", dict(bad="हर transcript पढ़ना", good="Failures और negative sentiment पढ़ो"),
+      "हज़ार transcripts कोई नहीं पढ़ सकता। सिर्फ failed और negative sentiment वाली calls पढ़ो।", "failed", "negative"),
+
+    CH(7, "Recap", "Recap।", ["Recap"], "Recap"),
+    b("flow", dict(nodes=["Concurrency + burst", "Batch + test call", "Specialists", "Latency", "Save minutes", "Monitor"]),
+      "Concurrency और burst, batch और test call, specialists, latency, minutes बचाओ, और monitor।", "batch", "monitor"),
+    b("cta", dict(title="Next: AI vs calling team", follow="Omilabs"),
+      "अगली video: क्या AI आपकी पूरी calling team की जगह ले सकता है? Omilabs subscribe करो।", "AI", "subscribe"),
+    ])
+
+# ───────────── av13: Can AI Replace Your Entire Calling Team? ─────────────
+V["av13"] = dict(
+    series="AI VOICE AGENTS", music="ELEVENLABS V4", search_kw="AI",
+    title="Can AI Replace Your Entire Calling Team?",
+    summary="A balanced, no-hype look at whether AI voice agents can replace a calling team, in Hinglish: what AI handles well (repeat calls, after-hours, scale, consistency), where humans stay (complex judgement, sensitive cases, escalation), transfer to human with summaries, guardrails, measuring with success evaluation and transfer rate, and a phased rollout plan. Based on ElevenAgents docs.",
+    tags=["ai replace call center", "ai calling team", "ai voice agent vs human", "ai call center", "human handoff", "omilabs"],
+    sources=["elevenlabs.io/docs/eleven-agents (transfer to number, prompting guide, guardrails, analysis, batch calls)"],
+    hashtags="#AICallCenter #VoiceAI #AIAgents #Hinglish",
+    thumb=dict(a="AI vs Calling Team", b="", top="HONEST ANSWER", hook="NOT FULLY", accent="#F2542D", colorA="#111111"),
+    beats=[
+    b("hook", dict(problem="Kya AI poori calling team hata dega", brand="AI vs Humans", pill="HONEST ANSWER", stat="2", sub="sides, साफ जवाब"),
+      "क्या AI आपकी पूरी calling team की जगह ले सकता है? सीधा जवाब: पूरी तरह नहीं। पर बहुत काम ले सकता है।", "AI", "काम"),
+    b("duo", dict(a=dict(icon="bolt", title="AI अच्छा है", rows=[["Repeat calls", "yes"], ["24x7 scale", "yes"]]),
+                  b=dict(icon="users", title="Human ज़रूरी", rows=[["Complex judgement", "yes"], ["Sensitive cases", "yes"]]), accentB="#111111"),
+      "AI repeat वाले काम और scale में अच्छा है। Complex judgement और sensitive cases में इंसान ज़रूरी है।", "repeat", "judgement"),
+
+    CH(1, "AI क्या अच्छे से करता है", "Chapter एक: जहाँ AI सच में मदद करता है।", ["मदद"], "मदद"),
+    b("list", dict(items=["Appointment booking, reminders", "Order status, FAQs", "Lead qualification questions", "After-hours calls"]),
+      "Appointment और reminders, order status और FAQs, lead qualification के सवाल, और office बंद होने के बाद की calls।", "Appointment", "FAQs"),
+    b("card", dict(icon="check", title="Consistency", rows=[["हर call", "same script, same rules"], ["Thakan", "नहीं"]]),
+      "AI हर call में same rules follow करता है और थकता नहीं। Repeat काम में ये बड़ा फायदा है।", "same", "थकता"),
+    b("card", dict(icon="users", title="Scale", rows=[["Batch calls", "हज़ारों outbound"], ["Burst", "spike में ज़्यादा concurrency"]]),
+      "Batch calls और burst concurrency से spike में भी calls संभलती हैं, बिना नए लोग hire किए।", "Batch", "spike"),
+
+    CH(2, "Human कहाँ ज़रूरी है", "Chapter दो: जहाँ AI को रुकना चाहिए।", ["रुकना"], "रुकना"),
+    b("list", dict(items=["Complex issue, human judgment", "Caller human माँगे", "AI की limit", "Escalation protocol"]),
+      "Docs के transfer triggers खुद बताते हैं: complex issue, caller human माँगे, AI की limit, या escalation rule।", "transfer", "human"),
+    b("list", dict(items=["Medical, legal, financial advice", "बड़े refunds, disputes", "बहुत नाराज़ या परेशान caller", "Negotiation"]),
+      "Medical, legal या financial advice, बड़े refunds, बहुत परेशान caller, और negotiation, ये human के काम हैं।", "advice", "negotiation"),
+    b("versus", dict(bad="AI सब करेगा, कोई human नहीं", good="AI पहली line, human backup"),
+      "सही model: AI पहली line पे, और human साफ backup के साथ।", "पहली", "backup"),
+
+    CH(3, "Human handoff", "Chapter तीन: AI से human तक smooth transfer।", ["transfer"], "transfer"),
+    b("card", dict(icon="users", title="transfer_to_number", rows=[["To", "number / SIP URI"], ["Messages", "caller wait + human summary"]]),
+      "Transfer tool caller को wait का message और human को situation का summary देता है।", "Transfer", "summary"),
+    b("versus", dict(bad="Human फिर से सब पूछे", good="Summary से सीधे solution"),
+      "Human को summary मिले, तो caller को कुछ दोहराना नहीं पड़ता। यही AI और human की असली teamwork है।", "summary", "teamwork"),
+
+    CH(4, "Team का नया काम", "Chapter चार: team बदलती है, गायब नहीं होती।", ["team"], "team"),
+    b("list", dict(items=["Escalations संभालना", "Transcripts review", "Prompt और tests सुधारना", "High-value calls"]),
+      "Team का नया काम: escalations, transcripts review, prompts और tests सुधारना, और high-value calls।", "escalations", "review"),
+
+    CH(5, "Measure करो", "Chapter पाँच: फैसला data से।", ["data"], "data"),
+    b("list", dict(items=["Success evaluation rate", "Transfer rate", "Sentiment", "Cost per resolved call"]),
+      "Measure: success rate, कितनी calls transfer हुईं, sentiment, और हर solve हुई call का cost।", "success", "Transfer"),
+
+    CH(6, "Rollout plan", "Chapter छह: धीरे-धीरे AI लाओ।", ["धीरे"], "धीरे"),
+    b("flow", dict(nodes=["1 use case", "Small % of calls", "Review + fix", "Expand", "Human backup always"]),
+      "एक use case, थोड़ी calls, review और fix, फिर बढ़ाओ, और human backup हमेशा।", "use", "backup"),
+    b("verdict", dict(items=[dict(who="AI", when="repeat, high-volume, after-hours"), dict(who="Human", when="judgement, sensitive, escalations")]),
+      "Final: AI repeat और high-volume काम, human judgement और sensitive cases। मिलकर सबसे अच्छा।", "AI", "Human"),
+    b("cta", dict(title="Next: AI sales agent", follow="Omilabs"),
+      "अगली video में AI sales agent। Omilabs subscribe करो।", "sales", "subscribe"),
+    ])
+
+
 V["av01b"] = V["av01"]   # re-render (first av01 CI run was cancelled by the next push)
 
 

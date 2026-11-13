@@ -1,0 +1,417 @@
+{
+ "id": "av13",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI",
+ "title": "Can AI Replace Your Entire Calling Team?",
+ "summary": "A balanced, no-hype look at whether AI voice agents can replace a calling team, in Hinglish: what AI handles well (repeat calls, after-hours, scale, consistency), where humans stay (complex judgement, sensitive cases, escalation), transfer to human with summaries, guardrails, measuring with success evaluation and transfer rate, and a phased rollout plan. Based on ElevenAgents docs.",
+ "tags": [
+  "ai replace call center",
+  "ai calling team",
+  "ai voice agent vs human",
+  "ai call center",
+  "human handoff",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (transfer to number, prompting guide, guardrails, analysis, batch calls)"
+ ],
+ "hashtags": "#AICallCenter #VoiceAI #AIAgents #Hinglish",
+ "thumb": {
+  "a": "AI vs Calling Team",
+  "b": "",
+  "top": "HONEST ANSWER",
+  "hook": "NOT FULLY",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "Kya AI poori calling team hata dega",
+    "brand": "AI vs Humans",
+    "pill": "HONEST ANSWER",
+    "stat": "2",
+    "sub": "sides, साफ जवाब"
+   },
+   "say": "क्या AI आपकी पूरी calling team की जगह ले सकता है? सीधा जवाब: पूरी तरह नहीं। पर बहुत काम ले सकता है।",
+   "hl": [
+    "AI",
+    "काम"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "DUO",
+   "v": "duo",
+   "d": {
+    "a": {
+     "icon": "bolt",
+     "title": "AI अच्छा है",
+     "rows": [
+      [
+       "Repeat calls",
+       "yes"
+      ],
+      [
+       "24x7 scale",
+       "yes"
+      ]
+     ]
+    },
+    "b": {
+     "icon": "users",
+     "title": "Human ज़रूरी",
+     "rows": [
+      [
+       "Complex judgement",
+       "yes"
+      ],
+      [
+       "Sensitive cases",
+       "yes"
+      ]
+     ]
+    },
+    "accentB": "#111111"
+   },
+   "say": "AI repeat वाले काम और scale में अच्छा है। Complex judgement और sensitive cases में इंसान ज़रूरी है।",
+   "hl": [
+    "repeat",
+    "judgement"
+   ],
+   "chip": "repeat"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "AI क्या अच्छे से करता है"
+   },
+   "say": "Chapter एक: जहाँ AI सच में मदद करता है।",
+   "hl": [
+    "मदद"
+   ],
+   "chip": "मदद"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Appointment booking, reminders",
+     "Order status, FAQs",
+     "Lead qualification questions",
+     "After-hours calls"
+    ]
+   },
+   "say": "Appointment और reminders, order status और FAQs, lead qualification के सवाल, और office बंद होने के बाद की calls।",
+   "hl": [
+    "Appointment",
+    "FAQs"
+   ],
+   "chip": "Appointment"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Consistency",
+    "rows": [
+     [
+      "हर call",
+      "same script, same rules"
+     ],
+     [
+      "Thakan",
+      "नहीं"
+     ]
+    ]
+   },
+   "say": "AI हर call में same rules follow करता है और थकता नहीं। Repeat काम में ये बड़ा फायदा है।",
+   "hl": [
+    "same",
+    "थकता"
+   ],
+   "chip": "same"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Scale",
+    "rows": [
+     [
+      "Batch calls",
+      "हज़ारों outbound"
+     ],
+     [
+      "Burst",
+      "spike में ज़्यादा concurrency"
+     ]
+    ]
+   },
+   "say": "Batch calls और burst concurrency से spike में भी calls संभलती हैं, बिना नए लोग hire किए।",
+   "hl": [
+    "Batch",
+    "spike"
+   ],
+   "chip": "Batch"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Human कहाँ ज़रूरी है"
+   },
+   "say": "Chapter दो: जहाँ AI को रुकना चाहिए।",
+   "hl": [
+    "रुकना"
+   ],
+   "chip": "रुकना"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Complex issue, human judgment",
+     "Caller human माँगे",
+     "AI की limit",
+     "Escalation protocol"
+    ]
+   },
+   "say": "Docs के transfer triggers खुद बताते हैं: complex issue, caller human माँगे, AI की limit, या escalation rule।",
+   "hl": [
+    "transfer",
+    "human"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Medical, legal, financial advice",
+     "बड़े refunds, disputes",
+     "बहुत नाराज़ या परेशान caller",
+     "Negotiation"
+    ]
+   },
+   "say": "Medical, legal या financial advice, बड़े refunds, बहुत परेशान caller, और negotiation, ये human के काम हैं।",
+   "hl": [
+    "advice",
+    "negotiation"
+   ],
+   "chip": "advice"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "AI सब करेगा, कोई human नहीं",
+    "good": "AI पहली line, human backup"
+   },
+   "say": "सही model: AI पहली line पे, और human साफ backup के साथ।",
+   "hl": [
+    "पहली",
+    "backup"
+   ],
+   "chip": "पहली"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Human handoff"
+   },
+   "say": "Chapter तीन: AI से human तक smooth transfer।",
+   "hl": [
+    "transfer"
+   ],
+   "chip": "transfer"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "transfer_to_number",
+    "rows": [
+     [
+      "To",
+      "number / SIP URI"
+     ],
+     [
+      "Messages",
+      "caller wait + human summary"
+     ]
+    ]
+   },
+   "say": "Transfer tool caller को wait का message और human को situation का summary देता है।",
+   "hl": [
+    "Transfer",
+    "summary"
+   ],
+   "chip": "Transfer"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Human फिर से सब पूछे",
+    "good": "Summary से सीधे solution"
+   },
+   "say": "Human को summary मिले, तो caller को कुछ दोहराना नहीं पड़ता। यही AI और human की असली teamwork है।",
+   "hl": [
+    "summary",
+    "teamwork"
+   ],
+   "chip": "summary"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Team का नया काम"
+   },
+   "say": "Chapter चार: team बदलती है, गायब नहीं होती।",
+   "hl": [
+    "team"
+   ],
+   "chip": "team"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Escalations संभालना",
+     "Transcripts review",
+     "Prompt और tests सुधारना",
+     "High-value calls"
+    ]
+   },
+   "say": "Team का नया काम: escalations, transcripts review, prompts और tests सुधारना, और high-value calls।",
+   "hl": [
+    "escalations",
+    "review"
+   ],
+   "chip": "escalations"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Measure करो"
+   },
+   "say": "Chapter पाँच: फैसला data से।",
+   "hl": [
+    "data"
+   ],
+   "chip": "data"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Success evaluation rate",
+     "Transfer rate",
+     "Sentiment",
+     "Cost per resolved call"
+    ]
+   },
+   "say": "Measure: success rate, कितनी calls transfer हुईं, sentiment, और हर solve हुई call का cost।",
+   "hl": [
+    "success",
+    "Transfer"
+   ],
+   "chip": "success"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Rollout plan"
+   },
+   "say": "Chapter छह: धीरे-धीरे AI लाओ।",
+   "hl": [
+    "धीरे"
+   ],
+   "chip": "धीरे"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "1 use case",
+     "Small % of calls",
+     "Review + fix",
+     "Expand",
+     "Human backup always"
+    ]
+   },
+   "say": "एक use case, थोड़ी calls, review और fix, फिर बढ़ाओ, और human backup हमेशा।",
+   "hl": [
+    "use",
+    "backup"
+   ],
+   "chip": "use"
+  },
+  {
+   "tag": "VERDICT",
+   "v": "verdict",
+   "d": {
+    "items": [
+     {
+      "who": "AI",
+      "when": "repeat, high-volume, after-hours"
+     },
+     {
+      "who": "Human",
+      "when": "judgement, sensitive, escalations"
+     }
+    ]
+   },
+   "say": "Final: AI repeat और high-volume काम, human judgement और sensitive cases। मिलकर सबसे अच्छा।",
+   "hl": [
+    "AI",
+    "Human"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: AI sales agent",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video में AI sales agent। Omilabs subscribe करो।",
+   "hl": [
+    "sales",
+    "subscribe"
+   ],
+   "chip": "sales"
+  }
+ ]
+}

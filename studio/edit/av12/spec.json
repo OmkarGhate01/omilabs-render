@@ -1,0 +1,562 @@
+{
+ "id": "av12",
+ "format": "long",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "-3%",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "series": "AI VOICE AGENTS",
+ "search_kw": "AI Voice Agent",
+ "title": "Scale an AI Voice Agent to 1000+ Calls",
+ "summary": "How to scale an AI voice agent to thousands of calls, in Hinglish: concurrency limits, burst pricing (up to 3x concurrency, max 300, burst calls at 2x rate), batch calling with CSV/XLS lists and test calls, specialist agents to keep prompts small, latency principles, voicemail detection and end-call conditions to save minutes, monitoring and success evaluation. Based on ElevenAgents docs. No first-person claims.",
+ "tags": [
+  "scale ai voice agent",
+  "ai calling at scale",
+  "batch calling ai",
+  "concurrency",
+  "burst pricing",
+  "elevenlabs agents",
+  "omilabs"
+ ],
+ "sources": [
+  "elevenlabs.io/docs/eleven-agents (batch calls, burst pricing, concurrency, prompting guide, voicemail detection, conversation flow, analysis)",
+  "elevenlabs.io/docs latency optimization"
+ ],
+ "hashtags": "#AIVoiceAgent #VoiceAI #Automation #Hinglish",
+ "thumb": {
+  "a": "1000+ AI Calls",
+  "b": "",
+  "top": "AI VOICE AGENTS",
+  "hook": "SCALE WITHOUT BREAKING",
+  "accent": "#F2542D",
+  "colorA": "#111111"
+ },
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "10 calls theek, 1000 pe sab toot jata hai",
+    "brand": "Scale AI Calls",
+    "pill": "AI VOICE AGENTS",
+    "stat": "5",
+    "sub": "limits to plan for"
+   },
+   "say": "दस calls पे agent ठीक चलता है, पर हज़ार calls पे सब टूट जाता है? Scale करने के पाँच हिस्से समझो।",
+   "hl": [
+    "हज़ार",
+    "Scale"
+   ],
+   "chip": "हज़ार"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Concurrency",
+     "Batch calling",
+     "Small prompts",
+     "Latency",
+     "Cost + monitoring"
+    ]
+   },
+   "say": "पाँच हिस्से: concurrency, batch calling, छोटे prompts, latency, और cost के साथ monitoring।",
+   "hl": [
+    "concurrency",
+    "monitoring"
+   ],
+   "chip": "concurrency"
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Concurrency"
+   },
+   "say": "Chapter एक: एक साथ कितनी calls।",
+   "hl": [
+    "साथ"
+   ],
+   "chip": "साथ"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Concurrency",
+    "rows": [
+     [
+      "क्या",
+      "एक साथ चल रही calls"
+     ],
+     [
+      "Limit",
+      "subscription के हिसाब से"
+     ]
+    ]
+   },
+   "say": "Concurrency मतलब एक साथ कितनी calls चल सकती हैं। ये limit आपकी subscription से तय होती है।",
+   "hl": [
+    "Concurrency",
+    "subscription"
+   ],
+   "chip": "Concurrency"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हज़ार calls एक साथ = हज़ार concurrency चाहिए",
+    "good": "Calls को समय में फैलाओ"
+   },
+   "say": "हज़ार calls का मतलब ये नहीं कि हज़ार एक साथ चलें। Calls को समय में फैलाओ, तो कम concurrency में भी हो जाता है।",
+   "hl": [
+    "फैलाओ",
+    "concurrency"
+   ],
+   "chip": "फैलाओ"
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Burst pricing",
+    "cols": [
+     "Normal",
+     "Burst max"
+    ],
+    "rows": [
+     {
+      "k": "10",
+      "v": [
+       "10",
+       "30"
+      ]
+     },
+     {
+      "k": "50",
+      "v": [
+       "50",
+       "150"
+      ]
+     },
+     {
+      "k": "200",
+      "v": [
+       "200",
+       "300 (cap)"
+      ]
+     }
+    ]
+   },
+   "say": "Spike के लिए burst pricing: concurrency तीन गुना तक, maximum तीन सौ calls।",
+   "hl": [
+    "burst",
+    "तीन"
+   ],
+   "chip": "burst"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Burst trade-offs",
+    "rows": [
+     [
+      "Burst calls",
+      "2x rate"
+     ],
+     [
+      "Priority",
+      "कम"
+     ],
+     [
+      "Limit के ऊपर",
+      "reject या queue"
+     ]
+    ]
+   },
+   "say": "पर burst calls दो गुना rate पे हैं, priority कम है, और limit के ऊपर calls reject होती हैं या queue में।",
+   "hl": [
+    "दो",
+    "queue"
+   ],
+   "chip": "दो"
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Batch calling"
+   },
+   "say": "Chapter दो: बहुत सारी outbound calls।",
+   "hl": [
+    "outbound"
+   ],
+   "chip": "outbound"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "CSV / XLS upload",
+     "Columns = variables",
+     "Test call",
+     "Schedule",
+     "Monitor"
+    ]
+   },
+   "say": "Batch calling: CSV या XLS upload, columns बनते हैं variables, पहले test call, फिर schedule, और monitor।",
+   "hl": [
+    "Batch",
+    "test"
+   ],
+   "chip": "Batch"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Test call first",
+    "rows": [
+     [
+      "क्यों",
+      "पूरी list से पहले"
+     ],
+     [
+      "Check",
+      "नाम, timing, flow"
+     ]
+    ]
+   },
+   "say": "पूरी list से पहले एक test call ज़रूर करो। हज़ार calls में एक छोटी गलती हज़ार बार होती है।",
+   "hl": [
+    "test",
+    "हज़ार"
+   ],
+   "chip": "test"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Monitoring",
+    "rows": [
+     [
+      "Real-time",
+      "batch status"
+     ],
+     [
+      "Per call",
+      "status"
+     ],
+     [
+      "Report",
+      "details"
+     ]
+    ]
+   },
+   "say": "Batch में real-time status, हर call का status, और बाद में detailed report मिलती है।",
+   "hl": [
+    "status",
+    "report"
+   ],
+   "chip": "status"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Permission के बिना cold list",
+    "good": "Consent वाले numbers, सही calling hours"
+   },
+   "say": "Scale का मतलब spam नहीं। सिर्फ consent वाले numbers, और सही calling hours में।",
+   "hl": [
+    "consent",
+    "hours"
+   ],
+   "chip": "consent"
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Prompt को scale के लिए छोटा रखो"
+   },
+   "say": "Chapter तीन: बड़ा prompt scale पे महंगा।",
+   "hl": [
+    "महंगा"
+   ],
+   "chip": "महंगा"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Orchestrator",
+     "Specialist A",
+     "Specialist B",
+     "Human"
+    ]
+   },
+   "say": "Docs का pattern: orchestrator route करे, specialists काम करें, और human escalation।",
+   "hl": [
+    "orchestrator",
+    "specialists"
+   ],
+   "chip": "orchestrator"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "छोटे prompts = कम tokens",
+     "कम latency",
+     "अलग update",
+     "हर domain का metric"
+    ]
+   },
+   "say": "छोटे prompts से tokens कम, latency कम, और हर specialist अलग से update होता है।",
+   "hl": [
+    "tokens",
+    "latency"
+   ],
+   "chip": "tokens"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "LLM cost",
+    "rows": [
+     [
+      "Depends",
+      "input tokens, output tokens, model"
+     ],
+     [
+      "Lever",
+      "right-size model"
+     ]
+    ]
+   },
+   "say": "Docs के मुताबिक LLM cost input tokens, output tokens और model पे depend करती है। Scale पे ये बहुत फर्क डालता है।",
+   "hl": [
+    "cost",
+    "tokens"
+   ],
+   "chip": "cost"
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Latency at scale"
+   },
+   "say": "Chapter चार: हर call fast रहे।",
+   "hl": [
+    "fast"
+   ],
+   "chip": "fast"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Flash / Turbo models",
+     "Streaming",
+     "Geographic proximity",
+     "Fast voice types"
+    ]
+   },
+   "say": "Latency के principles: तेज़ models, streaming, server की दूरी कम, और तेज़ voice types।",
+   "hl": [
+    "Latency",
+    "streaming"
+   ],
+   "chip": "Latency"
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "~250ms",
+    "label": "RAG adds (docs)"
+   },
+   "say": "RAG करीब ढाई सौ milliseconds जोड़ता है। Scale पे देखो कि हर call में इसकी ज़रूरत है या नहीं।",
+   "hl": [
+    "RAG",
+    "ढाई"
+   ],
+   "chip": "RAG"
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Minutes बचाओ"
+   },
+   "say": "Chapter पाँच: हज़ार calls पे हर second मायने रखता है।",
+   "hl": [
+    "second"
+   ],
+   "chip": "second"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "mail",
+    "title": "Voicemail detection",
+    "rows": [
+     [
+      "क्या",
+      "machine पहचानो"
+     ],
+     [
+      "Action",
+      "छोटा message या end"
+     ]
+    ]
+   },
+   "say": "Voicemail detection से machine पे minutes बर्बाद नहीं होते: छोटा message या call end।",
+   "hl": [
+    "Voicemail",
+    "minutes"
+   ],
+   "chip": "Voicemail"
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "End call conditions",
+    "rows": [
+     [
+      "When",
+      "task done, goodbye"
+     ],
+     [
+      "Max duration",
+      "use case के हिसाब से"
+     ]
+    ]
+   },
+   "say": "साफ end call conditions और सही max duration, ताकि calls बिना वजह लंबी न खिंचें।",
+   "hl": [
+    "end",
+    "duration"
+   ],
+   "chip": "end"
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Monitoring"
+   },
+   "say": "Chapter छह: scale पे quality कैसे देखें।",
+   "hl": [
+    "quality"
+   ],
+   "chip": "quality"
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Success evaluation",
+     "Data collection",
+     "Sentiment",
+     "Transfer rate"
+    ]
+   },
+   "say": "हर call पे success evaluation, data collection, sentiment, और कितनी calls human को गईं।",
+   "hl": [
+    "Success",
+    "sentiment"
+   ],
+   "chip": "Success"
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर transcript पढ़ना",
+    "good": "Failures और negative sentiment पढ़ो"
+   },
+   "say": "हज़ार transcripts कोई नहीं पढ़ सकता। सिर्फ failed और negative sentiment वाली calls पढ़ो।",
+   "hl": [
+    "failed",
+    "negative"
+   ],
+   "chip": "failed"
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Recap"
+   },
+   "say": "Recap।",
+   "hl": [
+    "Recap"
+   ],
+   "chip": "Recap"
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Concurrency + burst",
+     "Batch + test call",
+     "Specialists",
+     "Latency",
+     "Save minutes",
+     "Monitor"
+    ]
+   },
+   "say": "Concurrency और burst, batch और test call, specialists, latency, minutes बचाओ, और monitor।",
+   "hl": [
+    "batch",
+    "monitor"
+   ],
+   "chip": "batch"
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: AI vs calling team",
+    "follow": "Omilabs"
+   },
+   "say": "अगली video: क्या AI आपकी पूरी calling team की जगह ले सकता है? Omilabs subscribe करो।",
+   "hl": [
+    "AI",
+    "subscribe"
+   ],
+   "chip": "AI"
+  }
+ ]
+}
