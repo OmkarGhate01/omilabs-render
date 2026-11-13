@@ -1,0 +1,3188 @@
+{
+ "id": "av12",
+ "series": "AI VOICE AGENTS",
+ "title": "Scale an AI Voice Agent to 1000+ Calls",
+ "accent": "#F2542D",
+ "watermark": "omilabs",
+ "audio": "av12/voice.wav",
+ "duration": 183.917,
+ "beats": [
+  {
+   "tag": "HOOK",
+   "v": "hook",
+   "d": {
+    "problem": "10 calls theek, 1000 pe sab toot jata hai",
+    "brand": "Scale AI Calls",
+    "pill": "AI VOICE AGENTS",
+    "stat": "5",
+    "sub": "limits to plan for"
+   },
+   "start": 0.0,
+   "end": 9.246,
+   "words": [
+    {
+     "t": "दस",
+     "s": 0.0,
+     "e": 0.241,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 0.254,
+     "e": 0.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 0.64,
+     "e": 0.821,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "agent",
+     "s": 0.911,
+     "e": 1.362,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ठीक",
+     "s": 1.414,
+     "e": 1.762,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलता",
+     "s": 1.775,
+     "e": 2.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 2.226,
+     "e": 2.483,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पर",
+     "s": 2.702,
+     "e": 2.883,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 2.883,
+     "e": 3.282,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "calls",
+     "s": 3.282,
+     "e": 3.695,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 3.695,
+     "e": 3.901,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सब",
+     "s": 3.901,
+     "e": 4.21,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "टूट",
+     "s": 4.21,
+     "e": 4.519,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाता",
+     "s": 4.519,
+     "e": 4.893,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 4.893,
+     "e": 5.215,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Scale",
+     "s": 6.596,
+     "e": 6.995,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करने",
+     "s": 7.008,
+     "e": 7.382,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 7.382,
+     "e": 7.549,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 7.549,
+     "e": 7.962,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्से",
+     "s": 7.962,
+     "e": 8.361,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समझो",
+     "s": 8.361,
+     "e": 8.928,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Concurrency",
+     "Batch calling",
+     "Small prompts",
+     "Latency",
+     "Cost + monitoring"
+    ]
+   },
+   "start": 9.246,
+   "end": 16.185,
+   "words": [
+    {
+     "t": "पाँच",
+     "s": 9.246,
+     "e": 9.541,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हिस्से",
+     "s": 9.541,
+     "e": 9.979,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "concurrency",
+     "s": 10.056,
+     "e": 10.894,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "batch",
+     "s": 11.062,
+     "e": 11.448,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calling",
+     "s": 11.448,
+     "e": 11.938,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटे",
+     "s": 12.157,
+     "e": 12.505,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prompts",
+     "s": 12.518,
+     "e": 13.02,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 13.175,
+     "e": 13.948,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 14.193,
+     "e": 14.386,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cost",
+     "s": 14.386,
+     "e": 14.786,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 14.799,
+     "e": 14.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 14.953,
+     "e": 15.263,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "monitoring",
+     "s": 15.288,
+     "e": 15.92,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH1",
+   "v": "chapter",
+   "d": {
+    "num": 1,
+    "title": "Concurrency"
+   },
+   "start": 16.185,
+   "end": 18.972,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 16.185,
+     "e": 16.594,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 16.697,
+     "e": 16.942,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 17.084,
+     "e": 17.316,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 17.342,
+     "e": 17.728,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कितनी",
+     "s": 17.754,
+     "e": 18.154,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 18.179,
+     "e": 18.656,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "users",
+    "title": "Concurrency",
+    "rows": [
+     [
+      "क्या",
+      "एक साथ चल रही calls"
+     ],
+     [
+      "Limit",
+      "subscription के हिसाब से"
+     ]
+    ]
+   },
+   "start": 18.972,
+   "end": 28.002,
+   "words": [
+    {
+     "t": "Concurrency",
+     "s": 18.972,
+     "e": 19.702,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मतलब",
+     "s": 19.702,
+     "e": 20.179,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 20.256,
+     "e": 20.501,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 20.514,
+     "e": 20.914,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कितनी",
+     "s": 20.952,
+     "e": 21.352,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 21.365,
+     "e": 21.777,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चल",
+     "s": 21.777,
+     "e": 22.009,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकती",
+     "s": 22.009,
+     "e": 22.421,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 22.421,
+     "e": 23.285,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 24.24,
+     "e": 24.485,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 24.498,
+     "e": 24.858,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "आपकी",
+     "s": 24.936,
+     "e": 25.348,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscription",
+     "s": 25.348,
+     "e": 26.173,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 26.173,
+     "e": 26.366,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तय",
+     "s": 26.392,
+     "e": 26.637,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 26.65,
+     "e": 27.023,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 27.023,
+     "e": 27.345,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हज़ार calls एक साथ = हज़ार concurrency चाहिए",
+    "good": "Calls को समय में फैलाओ"
+   },
+   "start": 28.002,
+   "end": 37.728,
+   "words": [
+    {
+     "t": "हज़ार",
+     "s": 28.002,
+     "e": 28.309,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 28.309,
+     "e": 28.76,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 28.773,
+     "e": 28.928,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मतलब",
+     "s": 28.928,
+     "e": 29.405,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 29.405,
+     "e": 29.585,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 29.585,
+     "e": 29.959,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कि",
+     "s": 29.984,
+     "e": 30.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 30.139,
+     "e": 30.551,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 30.642,
+     "e": 30.874,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "साथ",
+     "s": 30.886,
+     "e": 31.234,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चलें",
+     "s": 31.247,
+     "e": 31.801,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Calls",
+     "s": 32.795,
+     "e": 33.195,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 33.195,
+     "e": 33.337,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "समय",
+     "s": 33.337,
+     "e": 33.697,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 33.723,
+     "e": 33.891,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फैलाओ",
+     "s": 33.891,
+     "e": 34.483,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "तो",
+     "s": 34.587,
+     "e": 34.806,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कम",
+     "s": 34.806,
+     "e": 35.063,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "concurrency",
+     "s": 35.115,
+     "e": 35.824,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 35.837,
+     "e": 36.03,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "भी",
+     "s": 36.03,
+     "e": 36.236,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हो",
+     "s": 36.236,
+     "e": 36.404,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जाता",
+     "s": 36.416,
+     "e": 36.79,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 36.79,
+     "e": 37.112,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "TABLE",
+   "v": "table",
+   "d": {
+    "title": "Burst pricing",
+    "cols": [
+     "Normal",
+     "Burst max"
+    ],
+    "rows": [
+     {
+      "k": "10",
+      "v": [
+       "10",
+       "30"
+      ]
+     },
+     {
+      "k": "50",
+      "v": [
+       "50",
+       "150"
+      ]
+     },
+     {
+      "k": "200",
+      "v": [
+       "200",
+       "300 (cap)"
+      ]
+     }
+    ]
+   },
+   "start": 37.728,
+   "end": 43.69,
+   "words": [
+    {
+     "t": "Spike",
+     "s": 37.728,
+     "e": 38.099,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 38.112,
+     "e": 38.318,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लिए",
+     "s": 38.357,
+     "e": 38.563,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "burst",
+     "s": 38.563,
+     "e": 38.924,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "pricing",
+     "s": 38.95,
+     "e": 39.555,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "concurrency",
+     "s": 39.761,
+     "e": 40.535,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 40.612,
+     "e": 40.857,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "गुना",
+     "s": 40.921,
+     "e": 41.243,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तक",
+     "s": 41.243,
+     "e": 41.514,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "maximum",
+     "s": 41.604,
+     "e": 42.326,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 42.339,
+     "e": 42.648,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 42.648,
+     "e": 42.854,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 42.854,
+     "e": 43.395,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "Burst trade-offs",
+    "rows": [
+     [
+      "Burst calls",
+      "2x rate"
+     ],
+     [
+      "Priority",
+      "कम"
+     ],
+     [
+      "Limit के ऊपर",
+      "reject या queue"
+     ]
+    ]
+   },
+   "start": 43.69,
+   "end": 51.668,
+   "words": [
+    {
+     "t": "पर",
+     "s": 43.69,
+     "e": 43.805,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "burst",
+     "s": 43.817,
+     "e": 44.204,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 44.23,
+     "e": 44.668,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 44.668,
+     "e": 44.9,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "गुना",
+     "s": 44.9,
+     "e": 45.222,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "rate",
+     "s": 45.222,
+     "e": 45.519,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 45.519,
+     "e": 45.738,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 45.738,
+     "e": 46.034,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "priority",
+     "s": 46.369,
+     "e": 46.975,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कम",
+     "s": 46.975,
+     "e": 47.245,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 47.245,
+     "e": 47.542,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 47.903,
+     "e": 48.07,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "limit",
+     "s": 48.07,
+     "e": 48.418,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 48.431,
+     "e": 48.611,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ऊपर",
+     "s": 48.611,
+     "e": 48.972,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 48.972,
+     "e": 49.397,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "reject",
+     "s": 49.436,
+     "e": 49.861,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 49.861,
+     "e": 50.248,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 50.248,
+     "e": 50.531,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 50.647,
+     "e": 50.815,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "queue",
+     "s": 50.815,
+     "e": 51.06,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 51.06,
+     "e": 51.433,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH2",
+   "v": "chapter",
+   "d": {
+    "num": 2,
+    "title": "Batch calling"
+   },
+   "start": 51.668,
+   "end": 54.778,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 51.668,
+     "e": 52.09,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दो",
+     "s": 52.09,
+     "e": 52.4,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 52.503,
+     "e": 52.902,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सारी",
+     "s": 52.902,
+     "e": 53.314,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "outbound",
+     "s": 53.353,
+     "e": 53.959,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "calls",
+     "s": 53.959,
+     "e": 54.474,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "CSV / XLS upload",
+     "Columns = variables",
+     "Test call",
+     "Schedule",
+     "Monitor"
+    ]
+   },
+   "start": 54.778,
+   "end": 63.932,
+   "words": [
+    {
+     "t": "Batch",
+     "s": 54.778,
+     "e": 55.091,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "calling",
+     "s": 55.091,
+     "e": 55.581,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "CSV",
+     "s": 55.632,
+     "e": 56.47,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 56.47,
+     "e": 56.676,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "XLS",
+     "s": 56.779,
+     "e": 57.694,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "upload",
+     "s": 57.759,
+     "e": 58.261,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "columns",
+     "s": 58.493,
+     "e": 58.918,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बनते",
+     "s": 58.918,
+     "e": 59.344,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हैं",
+     "s": 59.344,
+     "e": 59.64,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "variables",
+     "s": 59.808,
+     "e": 60.568,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 60.645,
+     "e": 61.019,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 61.058,
+     "e": 61.328,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 61.328,
+     "e": 61.741,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फिर",
+     "s": 61.921,
+     "e": 62.101,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "schedule",
+     "s": 62.101,
+     "e": 62.746,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 62.887,
+     "e": 63.068,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "monitor",
+     "s": 63.081,
+     "e": 63.635,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Test call first",
+    "rows": [
+     [
+      "क्यों",
+      "पूरी list से पहले"
+     ],
+     [
+      "Check",
+      "नाम, timing, flow"
+     ]
+    ]
+   },
+   "start": 63.932,
+   "end": 72.104,
+   "words": [
+    {
+     "t": "पूरी",
+     "s": 63.932,
+     "e": 64.167,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "list",
+     "s": 64.18,
+     "e": 64.425,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 64.464,
+     "e": 64.644,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पहले",
+     "s": 64.644,
+     "e": 65.082,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 65.172,
+     "e": 65.43,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 65.43,
+     "e": 65.778,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "call",
+     "s": 65.791,
+     "e": 66.126,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूर",
+     "s": 66.126,
+     "e": 66.422,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 66.422,
+     "e": 66.822,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 67.828,
+     "e": 68.228,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 68.228,
+     "e": 68.679,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 68.679,
+     "e": 68.911,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "एक",
+     "s": 68.975,
+     "e": 69.22,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटी",
+     "s": 69.246,
+     "e": 69.645,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गलती",
+     "s": 69.645,
+     "e": 70.045,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 70.045,
+     "e": 70.47,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "बार",
+     "s": 70.47,
+     "e": 70.741,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होती",
+     "s": 70.741,
+     "e": 71.115,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 71.115,
+     "e": 71.45,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Monitoring",
+    "rows": [
+     [
+      "Real-time",
+      "batch status"
+     ],
+     [
+      "Per call",
+      "status"
+     ],
+     [
+      "Report",
+      "details"
+     ]
+    ]
+   },
+   "start": 72.104,
+   "end": 78.825,
+   "words": [
+    {
+     "t": "Batch",
+     "s": 72.104,
+     "e": 72.428,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 72.428,
+     "e": 72.621,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "real-time",
+     "s": 72.621,
+     "e": 73.24,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "status",
+     "s": 73.24,
+     "e": 73.82,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "हर",
+     "s": 74.129,
+     "e": 74.322,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 74.322,
+     "e": 74.632,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 74.632,
+     "e": 74.812,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "status",
+     "s": 74.812,
+     "e": 75.379,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 75.714,
+     "e": 75.907,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बाद",
+     "s": 75.92,
+     "e": 76.281,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 76.281,
+     "e": 76.474,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "detailed",
+     "s": 76.474,
+     "e": 76.99,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "report",
+     "s": 76.99,
+     "e": 77.454,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "मिलती",
+     "s": 77.454,
+     "e": 77.892,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 77.892,
+     "e": 78.214,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "Permission के बिना cold list",
+    "good": "Consent वाले numbers, सही calling hours"
+   },
+   "start": 78.825,
+   "end": 86.031,
+   "words": [
+    {
+     "t": "Scale",
+     "s": 78.825,
+     "e": 79.192,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 79.231,
+     "e": 79.399,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मतलब",
+     "s": 79.399,
+     "e": 79.875,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "spam",
+     "s": 79.875,
+     "e": 80.314,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 80.314,
+     "e": 80.739,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 81.784,
+     "e": 82.197,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "consent",
+     "s": 82.197,
+     "e": 82.725,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "वाले",
+     "s": 82.738,
+     "e": 83.086,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "numbers",
+     "s": 83.086,
+     "e": 83.756,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 84.014,
+     "e": 84.194,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सही",
+     "s": 84.194,
+     "e": 84.529,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calling",
+     "s": 84.529,
+     "e": 85.019,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "hours",
+     "s": 85.07,
+     "e": 85.405,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 85.405,
+     "e": 85.792,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH3",
+   "v": "chapter",
+   "d": {
+    "num": 3,
+    "title": "Prompt को scale के लिए छोटा रखो"
+   },
+   "start": 86.031,
+   "end": 89.111,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 86.031,
+     "e": 86.491,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तीन",
+     "s": 86.491,
+     "e": 86.865,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बड़ा",
+     "s": 86.93,
+     "e": 87.278,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prompt",
+     "s": 87.278,
+     "e": 87.626,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scale",
+     "s": 87.664,
+     "e": 88.077,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 88.102,
+     "e": 88.283,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "महंगा",
+     "s": 88.296,
+     "e": 88.798,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Orchestrator",
+     "Specialist A",
+     "Specialist B",
+     "Human"
+    ]
+   },
+   "start": 89.111,
+   "end": 95.627,
+   "words": [
+    {
+     "t": "Docs",
+     "s": 89.111,
+     "e": 89.42,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "का",
+     "s": 89.446,
+     "e": 89.575,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "pattern",
+     "s": 89.588,
+     "e": 90.155,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "orchestrator",
+     "s": 90.31,
+     "e": 91.186,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "route",
+     "s": 91.186,
+     "e": 91.508,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करे",
+     "s": 91.521,
+     "e": 91.882,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "specialists",
+     "s": 92.152,
+     "e": 92.938,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "काम",
+     "s": 92.964,
+     "e": 93.196,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करें",
+     "s": 93.222,
+     "e": 93.686,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 93.879,
+     "e": 94.072,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "human",
+     "s": 94.072,
+     "e": 94.511,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "escalation",
+     "s": 94.588,
+     "e": 95.348,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "छोटे prompts = कम tokens",
+     "कम latency",
+     "अलग update",
+     "हर domain का metric"
+    ]
+   },
+   "start": 95.627,
+   "end": 102.502,
+   "words": [
+    {
+     "t": "छोटे",
+     "s": 95.627,
+     "e": 95.95,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "prompts",
+     "s": 95.963,
+     "e": 96.466,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 96.479,
+     "e": 96.685,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 96.698,
+     "e": 97.239,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कम",
+     "s": 97.265,
+     "e": 97.497,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 97.69,
+     "e": 98.36,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "कम",
+     "s": 98.386,
+     "e": 98.682,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 99.004,
+     "e": 99.198,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 99.211,
+     "e": 99.443,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "specialist",
+     "s": 99.443,
+     "e": 100.087,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "अलग",
+     "s": 100.126,
+     "e": 100.409,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 100.409,
+     "e": 100.602,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "update",
+     "s": 100.641,
+     "e": 101.157,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होता",
+     "s": 101.157,
+     "e": 101.569,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 101.569,
+     "e": 101.878,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "wallet",
+    "title": "LLM cost",
+    "rows": [
+     [
+      "Depends",
+      "input tokens, output tokens, model"
+     ],
+     [
+      "Lever",
+      "right-size model"
+     ]
+    ]
+   },
+   "start": 102.502,
+   "end": 113.726,
+   "words": [
+    {
+     "t": "Docs",
+     "s": 102.502,
+     "e": 102.816,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "के",
+     "s": 102.816,
+     "e": 102.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "मुताबिक",
+     "s": 102.983,
+     "e": 103.55,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "LLM",
+     "s": 103.615,
+     "e": 104.401,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "cost",
+     "s": 104.439,
+     "e": 104.774,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "input",
+     "s": 104.852,
+     "e": 105.251,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 105.277,
+     "e": 105.857,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "output",
+     "s": 106.037,
+     "e": 106.54,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "tokens",
+     "s": 106.566,
+     "e": 107.12,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 107.249,
+     "e": 107.442,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "model",
+     "s": 107.442,
+     "e": 107.867,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 107.867,
+     "e": 108.048,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "depend",
+     "s": 108.048,
+     "e": 108.46,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "करती",
+     "s": 108.486,
+     "e": 108.911,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 108.911,
+     "e": 109.233,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Scale",
+     "s": 110.652,
+     "e": 111.065,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 111.078,
+     "e": 111.284,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ये",
+     "s": 111.284,
+     "e": 111.49,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बहुत",
+     "s": 111.49,
+     "e": 111.877,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "फर्क",
+     "s": 111.877,
+     "e": 112.212,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "डालता",
+     "s": 112.212,
+     "e": 112.714,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 112.714,
+     "e": 113.023,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH4",
+   "v": "chapter",
+   "d": {
+    "num": 4,
+    "title": "Latency at scale"
+   },
+   "start": 113.726,
+   "end": 116.218,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 113.726,
+     "e": 114.174,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "चार",
+     "s": 114.199,
+     "e": 114.522,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 114.637,
+     "e": 114.844,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 114.844,
+     "e": 115.166,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "fast",
+     "s": 115.166,
+     "e": 115.552,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "रहे",
+     "s": 115.552,
+     "e": 115.926,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Flash / Turbo models",
+     "Streaming",
+     "Geographic proximity",
+     "Fast voice types"
+    ]
+   },
+   "start": 116.218,
+   "end": 123.06,
+   "words": [
+    {
+     "t": "Latency",
+     "s": 116.218,
+     "e": 116.873,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "के",
+     "s": 116.886,
+     "e": 117.054,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "principles",
+     "s": 117.092,
+     "e": 117.853,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तेज़",
+     "s": 117.969,
+     "e": 118.316,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "models",
+     "s": 118.316,
+     "e": 118.909,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "streaming",
+     "s": 119.025,
+     "e": 119.631,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "server",
+     "s": 119.798,
+     "e": 120.34,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 120.34,
+     "e": 120.507,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "दूरी",
+     "s": 120.533,
+     "e": 120.868,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कम",
+     "s": 120.868,
+     "e": 121.19,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 121.332,
+     "e": 121.538,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "तेज़",
+     "s": 121.538,
+     "e": 121.925,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "voice",
+     "s": 121.925,
+     "e": 122.26,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "types",
+     "s": 122.26,
+     "e": 122.762,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "STAT",
+   "v": "stat",
+   "d": {
+    "value": "~250ms",
+    "label": "RAG adds (docs)"
+   },
+   "start": 123.06,
+   "end": 131.969,
+   "words": [
+    {
+     "t": "RAG",
+     "s": 123.06,
+     "e": 123.338,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "करीब",
+     "s": 123.351,
+     "e": 123.802,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ढाई",
+     "s": 123.802,
+     "e": 124.15,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "सौ",
+     "s": 124.15,
+     "e": 124.434,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "milliseconds",
+     "s": 124.434,
+     "e": 125.477,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जोड़ता",
+     "s": 125.477,
+     "e": 125.98,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 125.98,
+     "e": 126.302,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Scale",
+     "s": 127.721,
+     "e": 128.146,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 128.159,
+     "e": 128.327,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखो",
+     "s": 128.34,
+     "e": 128.778,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कि",
+     "s": 128.778,
+     "e": 128.971,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 128.971,
+     "e": 129.229,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 129.242,
+     "e": 129.564,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "में",
+     "s": 129.564,
+     "e": 129.796,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "इसकी",
+     "s": 129.848,
+     "e": 130.183,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ज़रूरत",
+     "s": 130.183,
+     "e": 130.647,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 130.647,
+     "e": 130.866,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 131.02,
+     "e": 131.226,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 131.226,
+     "e": 131.716,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH5",
+   "v": "chapter",
+   "d": {
+    "num": 5,
+    "title": "Minutes बचाओ"
+   },
+   "start": 131.969,
+   "end": 136.429,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 131.969,
+     "e": 132.391,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पाँच",
+     "s": 132.391,
+     "e": 132.855,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हज़ार",
+     "s": 132.933,
+     "e": 133.306,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 133.306,
+     "e": 133.732,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 133.732,
+     "e": 133.951,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "हर",
+     "s": 133.951,
+     "e": 134.196,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "second",
+     "s": 134.208,
+     "e": 134.659,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "मायने",
+     "s": 134.659,
+     "e": 135.072,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "रखता",
+     "s": 135.072,
+     "e": 135.523,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 135.523,
+     "e": 135.845,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "mail",
+    "title": "Voicemail detection",
+    "rows": [
+     [
+      "क्या",
+      "machine पहचानो"
+     ],
+     [
+      "Action",
+      "छोटा message या end"
+     ]
+    ]
+   },
+   "start": 136.429,
+   "end": 142.555,
+   "words": [
+    {
+     "t": "Voicemail",
+     "s": 136.429,
+     "e": 137.06,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "detection",
+     "s": 137.06,
+     "e": 137.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "से",
+     "s": 137.627,
+     "e": 137.82,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "machine",
+     "s": 137.82,
+     "e": 138.323,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 138.323,
+     "e": 138.529,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "minutes",
+     "s": 138.529,
+     "e": 138.941,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "बर्बाद",
+     "s": 138.941,
+     "e": 139.521,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 139.521,
+     "e": 139.869,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "होते",
+     "s": 139.869,
+     "e": 140.269,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छोटा",
+     "s": 140.526,
+     "e": 140.926,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "message",
+     "s": 140.926,
+     "e": 141.377,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "या",
+     "s": 141.441,
+     "e": 141.635,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 141.635,
+     "e": 141.983,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "end",
+     "s": 142.06,
+     "e": 142.318,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CARD",
+   "v": "card",
+   "d": {
+    "icon": "x",
+    "title": "End call conditions",
+    "rows": [
+     [
+      "When",
+      "task done, goodbye"
+     ],
+     [
+      "Max duration",
+      "use case के हिसाब से"
+     ]
+    ]
+   },
+   "start": 142.555,
+   "end": 149.225,
+   "words": [
+    {
+     "t": "साफ",
+     "s": 142.555,
+     "e": 142.891,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "end",
+     "s": 142.968,
+     "e": 143.187,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "call",
+     "s": 143.187,
+     "e": 143.484,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "conditions",
+     "s": 143.484,
+     "e": 144.231,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 144.321,
+     "e": 144.502,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सही",
+     "s": 144.502,
+     "e": 144.862,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "max",
+     "s": 144.875,
+     "e": 145.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "duration",
+     "s": 145.288,
+     "e": 145.932,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "ताकि",
+     "s": 146.228,
+     "e": 146.602,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 146.615,
+     "e": 147.066,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बिना",
+     "s": 147.066,
+     "e": 147.427,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वजह",
+     "s": 147.427,
+     "e": 147.826,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "लंबी",
+     "s": 147.826,
+     "e": 148.187,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "न",
+     "s": 148.2,
+     "e": 148.355,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "खिंचें",
+     "s": 148.381,
+     "e": 148.986,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH6",
+   "v": "chapter",
+   "d": {
+    "num": 6,
+    "title": "Monitoring"
+   },
+   "start": 149.225,
+   "end": 152.505,
+   "words": [
+    {
+     "t": "Chapter",
+     "s": 149.225,
+     "e": 149.657,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "छह",
+     "s": 149.682,
+     "e": 150.043,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "scale",
+     "s": 150.12,
+     "e": 150.559,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 150.571,
+     "e": 150.726,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "quality",
+     "s": 150.726,
+     "e": 151.293,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "कैसे",
+     "s": 151.293,
+     "e": 151.667,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "देखें",
+     "s": 151.68,
+     "e": 152.26,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "LIST",
+   "v": "list",
+   "d": {
+    "items": [
+     "Success evaluation",
+     "Data collection",
+     "Sentiment",
+     "Transfer rate"
+    ]
+   },
+   "start": 152.505,
+   "end": 159.326,
+   "words": [
+    {
+     "t": "हर",
+     "s": 152.505,
+     "e": 152.617,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 152.617,
+     "e": 152.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पे",
+     "s": 152.953,
+     "e": 153.146,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "success",
+     "s": 153.146,
+     "e": 153.7,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "evaluation",
+     "s": 153.764,
+     "e": 154.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "data",
+     "s": 154.86,
+     "e": 155.272,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "collection",
+     "s": 155.311,
+     "e": 155.904,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "sentiment",
+     "s": 156.084,
+     "e": 156.741,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 157.025,
+     "e": 157.218,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कितनी",
+     "s": 157.218,
+     "e": 157.617,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 157.643,
+     "e": 158.068,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "human",
+     "s": 158.068,
+     "e": 158.455,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "को",
+     "s": 158.481,
+     "e": 158.648,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "गईं",
+     "s": 158.648,
+     "e": 159.087,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "VERSUS",
+   "v": "versus",
+   "d": {
+    "bad": "हर transcript पढ़ना",
+    "good": "Failures और negative sentiment पढ़ो"
+   },
+   "start": 159.326,
+   "end": 166.632,
+   "words": [
+    {
+     "t": "हज़ार",
+     "s": 159.326,
+     "e": 159.649,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "transcripts",
+     "s": 159.649,
+     "e": 160.474,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "कोई",
+     "s": 160.474,
+     "e": 160.783,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "नहीं",
+     "s": 160.783,
+     "e": 161.067,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़",
+     "s": 161.067,
+     "e": 161.299,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 161.299,
+     "e": 161.814,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सिर्फ",
+     "s": 162.885,
+     "e": 163.285,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "failed",
+     "s": 163.285,
+     "e": 163.723,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 163.749,
+     "e": 163.994,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "negative",
+     "s": 163.994,
+     "e": 164.509,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "sentiment",
+     "s": 164.509,
+     "e": 165.166,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "वाली",
+     "s": 165.179,
+     "e": 165.527,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calls",
+     "s": 165.527,
+     "e": 165.914,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पढ़ो",
+     "s": 165.914,
+     "e": 166.339,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CH7",
+   "v": "chapter",
+   "d": {
+    "num": 7,
+    "title": "Recap"
+   },
+   "start": 166.632,
+   "end": 167.595,
+   "words": [
+    {
+     "t": "Recap",
+     "s": 166.632,
+     "e": 167.139,
+     "hl": true,
+     "chip": true
+    }
+   ]
+  },
+  {
+   "tag": "FLOW",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Concurrency + burst",
+     "Batch + test call",
+     "Specialists",
+     "Latency",
+     "Save minutes",
+     "Monitor"
+    ]
+   },
+   "start": 167.595,
+   "end": 174.884,
+   "words": [
+    {
+     "t": "Concurrency",
+     "s": 167.595,
+     "e": 168.371,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 168.384,
+     "e": 168.603,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "burst",
+     "s": 168.603,
+     "e": 169.029,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "batch",
+     "s": 169.196,
+     "e": 169.634,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "और",
+     "s": 169.673,
+     "e": 169.879,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "test",
+     "s": 169.892,
+     "e": 170.227,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "call",
+     "s": 170.227,
+     "e": 170.627,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "specialists",
+     "s": 170.755,
+     "e": 171.593,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "latency",
+     "s": 171.761,
+     "e": 172.534,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "minutes",
+     "s": 172.714,
+     "e": 173.139,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "बचाओ",
+     "s": 173.139,
+     "e": 173.681,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "और",
+     "s": 173.822,
+     "e": 174.003,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "monitor",
+     "s": 174.016,
+     "e": 174.596,
+     "hl": true,
+     "chip": false
+    }
+   ]
+  },
+  {
+   "tag": "CTA",
+   "v": "cta",
+   "d": {
+    "title": "Next: AI vs calling team",
+    "follow": "Omilabs"
+   },
+   "start": 174.884,
+   "end": 183.917,
+   "words": [
+    {
+     "t": "अगली",
+     "s": 174.884,
+     "e": 175.123,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "video",
+     "s": 175.149,
+     "e": 175.6,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "क्या",
+     "s": 175.69,
+     "e": 175.948,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "AI",
+     "s": 176.025,
+     "e": 176.45,
+     "hl": true,
+     "chip": true
+    },
+    {
+     "t": "आपकी",
+     "s": 176.54,
+     "e": 176.953,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "पूरी",
+     "s": 176.991,
+     "e": 177.288,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "calling",
+     "s": 177.301,
+     "e": 177.739,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "team",
+     "s": 177.752,
+     "e": 178.074,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "की",
+     "s": 178.087,
+     "e": 178.228,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "जगह",
+     "s": 178.254,
+     "e": 178.628,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "ले",
+     "s": 178.628,
+     "e": 178.77,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "सकता",
+     "s": 178.77,
+     "e": 179.208,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "है",
+     "s": 179.208,
+     "e": 179.53,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "Omilabs",
+     "s": 180.91,
+     "e": 181.516,
+     "hl": false,
+     "chip": false
+    },
+    {
+     "t": "subscribe",
+     "s": 181.568,
+     "e": 182.263,
+     "hl": true,
+     "chip": false
+    },
+    {
+     "t": "करो",
+     "s": 182.289,
+     "e": 182.65,
+     "hl": false,
+     "chip": false
+    }
+   ]
+  }
+ ]
+}
