@@ -1,0 +1,96 @@
+{
+ "id": "va007",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Stuck in English? Language Detection",
+ "search_kw": "language detection",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Hindi bolo, English mein jawab?",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "2",
+    "sub": "switch triggers"
+   },
+   "say": "Customer Hindi बोलता है, पर AI agent English में ही जवाब देता है?",
+   "hl": [
+    "Hindi",
+    "English",
+    "agent"
+   ],
+   "chip": "Hindi"
+  },
+  {
+   "tag": "WHY",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "Language detection",
+    "rows": [
+     [
+      "Default",
+      "on नहीं होता"
+     ],
+     [
+      "Fix",
+      "system tool enable करो"
+     ]
+    ]
+   },
+   "say": "Language detection tool अपने आप on नहीं होता, खुद enable करो।",
+   "hl": [
+    "detection",
+    "enable"
+   ],
+   "chip": "detection"
+  },
+  {
+   "tag": "HOW",
+   "v": "list",
+   "d": {
+    "items": [
+     "Caller दूसरी language में बोले",
+     "या language बदलने को बोले"
+    ]
+   },
+   "say": "ये दो case में switch करता है: caller दूसरी भाषा बोले, या बदलने को कहे।",
+   "hl": [
+    "switch",
+    "भाषा"
+   ],
+   "chip": "switch"
+  },
+  {
+   "tag": "TIP",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "ElevenLabs tip",
+    "rows": [
+     [
+      "सारी languages",
+      "enable करो"
+     ],
+     [
+      "साथ में",
+      "detection tool"
+     ]
+    ]
+   },
+   "say": "Docs की सलाह: सारी languages enable करो, साथ में ये tool।",
+   "hl": [
+    "languages",
+    "tool"
+   ],
+   "chip": "languages"
+  }
+ ]
+}

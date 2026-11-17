@@ -1,0 +1,88 @@
+{
+ "id": "va004",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Says the Wrong Name? Dynamic Variables",
+ "search_kw": "dynamic variables",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Customer ka naam galat?",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "{{ }}",
+    "sub": "dynamic variables"
+   },
+   "say": "आपका AI agent हर customer को एक ही नाम से बुलाता है?",
+   "hl": [
+    "AI",
+    "agent",
+    "नाम"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "WHY",
+   "v": "versus",
+   "d": {
+    "bad": "नाम prompt में hardcoded",
+    "good": "नाम हर call पर runtime से"
+   },
+   "say": "क्योंकि नाम prompt में hardcode है। Dynamic variables use करो।",
+   "hl": [
+    "hardcode",
+    "Dynamic"
+   ],
+   "chip": "hardcode"
+  },
+  {
+   "tag": "WHERE",
+   "v": "list",
+   "d": {
+    "items": [
+     "System prompt",
+     "First message",
+     "Tool parameters"
+    ]
+   },
+   "say": "ये system prompt, first message और tools, तीनों में चलते हैं।",
+   "hl": [
+    "prompt",
+    "first",
+    "tools"
+   ],
+   "chip": "prompt"
+  },
+  {
+   "tag": "EXAMPLE",
+   "v": "card",
+   "d": {
+    "icon": "mobile",
+    "title": "First message",
+    "rows": [
+     [
+      "लिखो",
+      "Hi {{customer_name}}"
+     ],
+     [
+      "Call पर",
+      "Hi Rahul"
+     ]
+    ]
+   },
+   "say": "First message में customer name का variable डालो, हर call अपना नाम लेगी।",
+   "hl": [
+    "variable",
+    "नाम"
+   ],
+   "chip": "variable"
+  }
+ ]
+}

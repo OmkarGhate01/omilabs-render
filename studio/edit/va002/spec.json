@@ -1,0 +1,88 @@
+{
+ "id": "va002",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Won't Hang Up? Use the End Call Tool",
+ "search_kw": "end call",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Call khatam hi nahi hoti?",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "1",
+    "sub": "system tool"
+   },
+   "say": "बात खत्म, फिर भी आपका AI agent call नहीं काटता?",
+   "hl": [
+    "AI",
+    "agent",
+    "नहीं"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "WHY",
+   "v": "card",
+   "d": {
+    "icon": "lock",
+    "title": "End Call tool",
+    "rows": [
+     [
+      "Dashboard agent",
+      "default में on"
+     ],
+     [
+      "API या SDK agent",
+      "खुद add करना पड़ता है"
+     ]
+    ]
+   },
+   "say": "End Call tool dashboard वाले agents में default है, API वाले में खुद add करना पड़ता है।",
+   "hl": [
+    "End",
+    "Call",
+    "API"
+   ],
+   "chip": "End"
+  },
+  {
+   "tag": "FIX",
+   "v": "list",
+   "d": {
+    "items": [
+     "Goodbye बोले तो call end",
+     "Task पूरा हो तो end",
+     "Prompt में condition लिखो"
+    ]
+   },
+   "say": "Prompt में लिखो: goodbye या काम पूरा होते ही call end करो।",
+   "hl": [
+    "goodbye",
+    "end"
+   ],
+   "chip": "goodbye"
+  },
+  {
+   "tag": "RESULT",
+   "v": "versus",
+   "d": {
+    "bad": "Line पर silence, minutes waste",
+    "good": "Natural goodbye, call end"
+   },
+   "say": "इससे खाली minutes waste नहीं होते।",
+   "hl": [
+    "minutes",
+    "waste"
+   ],
+   "chip": "minutes"
+  }
+ ]
+}
