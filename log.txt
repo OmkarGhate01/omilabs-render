@@ -1,0 +1,15 @@
+> /opt/hostedtoolcache/Python/3.12.16/x64/bin/python -m yt_dlp --js-runtimes node --remote-components ejs:github --no-warnings -J --skip-download https://www.youtube.com/watch?v=eQp4cDRghMA
+STDERR: ERROR: [youtube] eQp4cDRghMA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+
+Traceback (most recent call last):
+  File "/home/runner/work/omilabs-render/omilabs-render/gta6/run.py", line 223, in <module>
+    main()
+  File "/home/runner/work/omilabs-render/omilabs-render/gta6/run.py", line 185, in main
+    meta = info(job["url"])
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/omilabs-render/omilabs-render/gta6/run.py", line 39, in info
+    r = sh(YTDLP + ["-J", "--skip-download", url], capture_output=True, text=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/omilabs-render/omilabs-render/gta6/run.py", line 34, in sh
+    raise subprocess.CalledProcessError(r.returncode, cmd)
+subprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-m', 'yt_dlp', '--js-runtimes', 'node', '--remote-components', 'ejs:github', '--no-warnings', '-J', '--skip-download', 'https://www.youtube.com/watch?v=eQp4cDRghMA']' returned non-zero exit status 1.
