@@ -38,13 +38,13 @@ jobs:
       - name: Talking head (crop, natural head motion)
         continue-on-error: true
         run: |
-          cd st && python inference.py --driven_audio ../voice.wav --source_image ../ci/avatar/presenter.png --result_dir ../out_crop --preprocess crop --expression_scale 1.3 --cpu 2>&1 | tail -20
+          cd st && python inference.py --driven_audio ../voice.wav --source_image ../ci/avatar/presenter.png --result_dir ../out_crop --preprocess crop --expression_scale 1.3 --cpu > ../log_crop.txt 2>&1; tail -30 ../log_crop.txt
       - name: Talking head (full image, still body)
         continue-on-error: true
         run: |
-          cd st && python inference.py --driven_audio ../voice.wav --source_image ../ci/avatar/presenter.png --result_dir ../out_full --preprocess full --still --expression_scale 1.2 --cpu 2>&1 | tail -20
+          cd st && python inference.py --driven_audio ../voice.wav --source_image ../ci/avatar/presenter.png --result_dir ../out_full --preprocess full --still --expression_scale 1.2 --cpu > ../log_full.txt 2>&1; tail -30 ../log_full.txt
       - name: Push results
         if: always()
         run: |
-          mkdir -p res && find out_crop out_full -name "*.mp4" 2>/dev/null | while read f; do cp "$f" "res/$(echo $f | cut -d/ -f1)_$(basename $f)"; done; cp voice.mp3 res/ || true; ls -la res
+          mkdir -p res && find out_crop out_full -name "*.mp4" 2>/dev/null | while read f; do cp "$f" "res/$(echo $f | cut -d/ -f1)_$(basename $f)"; done; cp voice.mp3 log_*.txt res/ || true; pip freeze > res/pip.txt; ls -la res
           cd res && git init -q && git config user.name bot && git config user.email bot@users.noreply.github.com && git add -A && git commit -q -m avatar && git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:refs/heads/avatar-out
