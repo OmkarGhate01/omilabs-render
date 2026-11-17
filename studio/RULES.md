@@ -35,3 +35,10 @@
 ## Manual steps (Omkar, in YouTube Studio; the API can't do these)
 - **Related video:** on every top Short, set the "Related video" to its long video.
 - **Pinned comment:** pin one question as a comment on each new video, and reply to comments in the first hour.
+
+## v4 additions (Omkar, 16 Nov 2026)
+- Niche: AI voice agents only (Bolna, ElevenLabs Agents, calling agents). Kling / Muse / Claude Motion / ChatGPT-vs comparisons are held.
+- Cadence: 1 long a day (19:00 IST) + up to 4 Shorts (09:00, 13:00, 17:30, 21:00 IST).
+- Thumbnails: hook-first, 2-4 huge words naming the problem ("AGENT CUTS OFF?", "STOP THIS MISTAKE"), one face/object, high contrast. Honest: the video must deliver what the thumbnail says.
+- Long videos: 6-8 min, retention-first. Open with the problem in 5 s, a new hook or payoff every 20-30 s, show the fix live, no padding.
+- Shorts: problem on frame 0, Hinglish narration, English title with the search keyword.
