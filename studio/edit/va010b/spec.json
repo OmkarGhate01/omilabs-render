@@ -1,0 +1,84 @@
+{
+ "id": "va010b",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Calls Running Forever? Set Max Duration",
+ "search_kw": "max duration",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Ek call 30 min chal gayi",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "600s",
+    "sub": "default limit"
+   },
+   "say": "आपकी एक AI call आधे घंटे चल गई, और बिल बढ़ गया?",
+   "hl": [
+    "AI",
+    "call",
+    "बिल"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "FIX",
+   "v": "stat",
+   "d": {
+    "value": "10 min",
+    "label": "Default max conversation duration"
+   },
+   "say": "Max conversation duration default दस minute है।",
+   "hl": [
+    "Max",
+    "दस"
+   ],
+   "chip": "Max"
+  },
+  {
+   "tag": "RANGE",
+   "v": "card",
+   "d": {
+    "icon": "clock",
+    "title": "Set your limit",
+    "rows": [
+     [
+      "Minimum",
+      "60 seconds"
+     ],
+     [
+      "Maximum",
+      "7,200 seconds"
+     ]
+    ]
+   },
+   "say": "आप इसे साठ seconds से दो घंटे तक set कर सकते हो।",
+   "hl": [
+    "साठ",
+    "घंटे"
+   ],
+   "chip": "साठ"
+  },
+  {
+   "tag": "TIP",
+   "v": "versus",
+   "d": {
+    "bad": "Limit नहीं: खर्चा control नहीं",
+    "good": "Limit सही: minutes बचें"
+   },
+   "say": "Use case के हिसाब से limit रखो, minutes बचेंगे।",
+   "hl": [
+    "limit",
+    "minutes"
+   ],
+   "chip": "limit"
+  }
+ ]
+}

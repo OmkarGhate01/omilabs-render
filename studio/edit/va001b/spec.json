@@ -1,0 +1,115 @@
+{
+ "id": "va001b",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Interrupts Callers? Fix Turn Eagerness",
+ "search_kw": "AI agent interrupts",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Agent beech mein bolta hai",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "3",
+    "sub": "turn modes"
+   },
+   "say": "आपका AI agent caller की बात पूरी होने से पहले बोल पड़ता है?",
+   "hl": [
+    "AI",
+    "agent",
+    "पहले"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "WHY",
+   "v": "card",
+   "d": {
+    "icon": "bolt",
+    "title": "Turn eagerness",
+    "rows": [
+     [
+      "Eager",
+      "जल्दी बोलता है"
+     ],
+     [
+      "Normal",
+      "default balance"
+     ],
+     [
+      "Patient",
+      "रुक कर सुनता है"
+     ]
+    ]
+   },
+   "say": "ये turn eagerness setting है: eager, normal या patient।",
+   "hl": [
+    "eagerness",
+    "patient"
+   ],
+   "chip": "eagerness"
+  },
+  {
+   "tag": "FIX",
+   "v": "versus",
+   "d": {
+    "bad": "Eager: caller कटता है",
+    "good": "Patient: पूरा सुनकर जवाब"
+   },
+   "say": "Caller सोच-सोच कर बोलते हैं तो patient रखो।",
+   "hl": [
+    "patient"
+   ],
+   "chip": "patient"
+  },
+  {
+   "tag": "WHERE",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Agent settings",
+     "Turn eagerness",
+     "Patient",
+     "Save"
+    ]
+   },
+   "say": "Dashboard में Agent settings खोलो, patient चुनो, save करो।",
+   "hl": [
+    "patient",
+    "save"
+   ],
+   "chip": "patient"
+  },
+  {
+   "tag": "BONUS",
+   "v": "card",
+   "d": {
+    "icon": "clock",
+    "title": "Take turn after silence",
+    "rows": [
+     [
+      "Range",
+      "1 से 30 seconds"
+     ],
+     [
+      "Casual call",
+      "5 से 10 seconds"
+     ]
+    ]
+   },
+   "say": "Silence के बाद turn लेने का time एक से तीस seconds तक set होता है।",
+   "hl": [
+    "silence",
+    "तीस"
+   ],
+   "chip": "silence"
+  }
+ ]
+}

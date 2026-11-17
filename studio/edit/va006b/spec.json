@@ -1,0 +1,78 @@
+{
+ "id": "va006b",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Talks Too Fast? Set the Speed Right",
+ "search_kw": "talks too fast",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Agent bahut fast bolta hai",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "0.7–1.2",
+    "sub": "speed range"
+   },
+   "say": "आपका AI agent इतना fast बोलता है कि customer समझ नहीं पाता?",
+   "hl": [
+    "AI",
+    "fast",
+    "समझ"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "FIX",
+   "v": "stat",
+   "d": {
+    "value": "1.0",
+    "label": "Default speed, range 0.7 से 1.2"
+   },
+   "say": "Speed setting default एक है, range zero point seven से one point two।",
+   "hl": [
+    "Speed",
+    "range"
+   ],
+   "chip": "Speed"
+  },
+  {
+   "tag": "WHEN",
+   "v": "versus",
+   "d": {
+    "bad": "Fast: support calls में confusion",
+    "good": "Slow: explain वाले calls साफ"
+   },
+   "say": "Explain वाले calls में speed थोड़ी कम रखो।",
+   "hl": [
+    "speed",
+    "कम"
+   ],
+   "chip": "speed"
+  },
+  {
+   "tag": "WHERE",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Agent",
+     "Voice tab",
+     "Speed",
+     "Save"
+    ]
+   },
+   "say": "Voice tab में speed बदलो और save करो।",
+   "hl": [
+    "Voice",
+    "save"
+   ],
+   "chip": "Voice"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "va003b",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Calls Hitting Voicemail? Turn On Detection",
+ "search_kw": "voicemail",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Voicemail pe minutes waste",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "1",
+    "sub": "system tool"
+   },
+   "say": "आपके AI calls voicemail पर जाकर minutes waste करते हैं?",
+   "hl": [
+    "AI",
+    "voicemail",
+    "waste"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "FIX",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "Voicemail Detection",
+    "rows": [
+     [
+      "पहचानता है",
+      "automated greeting"
+     ],
+     [
+      "फिर",
+      "message या call end"
+     ]
+    ]
+   },
+   "say": "Voicemail Detection tool on करो, ये automated greeting पहचान लेता है।",
+   "hl": [
+    "Voicemail",
+    "Detection"
+   ],
+   "chip": "Voicemail"
+  },
+  {
+   "tag": "CHOOSE",
+   "v": "versus",
+   "d": {
+    "bad": "Message छोड़ो",
+    "good": "या तुरंत call end"
+   },
+   "say": "फिर चुनो: छोटा message छोड़ो, या call तुरंत end करो।",
+   "hl": [
+    "message",
+    "end"
+   ],
+   "chip": "message"
+  },
+  {
+   "tag": "TRACK",
+   "v": "card",
+   "d": {
+    "icon": "chart",
+    "title": "Logs",
+    "rows": [
+     [
+      "कहाँ",
+      "conversation history"
+     ],
+     [
+      "Batch calls",
+      "results में भी"
+     ]
+    ]
+   },
+   "say": "हर detection conversation history और batch call results में दिखता है।",
+   "hl": [
+    "history",
+    "batch"
+   ],
+   "chip": "history"
+  }
+ ]
+}

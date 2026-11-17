@@ -14,7 +14,7 @@
    "tag": "PROBLEM",
    "v": "hook",
    "d": {
-    "problem": "Customer ka naam galat?",
+    "problem": "Customer ka naam galat",
     "brand": "ElevenLabs Agents",
     "pill": "FIX",
     "stat": "{{ }}",

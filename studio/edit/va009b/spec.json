@@ -1,0 +1,87 @@
+{
+ "id": "va009b",
+ "series": "AI VOICE AGENTS",
+ "title": "Awkward Silence on AI Calls? Use Soft Timeout",
+ "search_kw": "soft timeout",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Call pe awkward silence",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "Hmm...",
+    "sub": "filler phrase"
+   },
+   "say": "जवाब सोचते वक्त AI agent चुप हो जाता है, और caller सोचता है call कट गई?",
+   "hl": [
+    "चुप",
+    "call",
+    "कट"
+   ],
+   "chip": "चुप"
+  },
+  {
+   "tag": "FIX",
+   "v": "card",
+   "d": {
+    "icon": "clock",
+    "title": "Soft timeout",
+    "rows": [
+     [
+      "बोलता है",
+      "Hmm... एक second"
+     ],
+     [
+      "Default",
+      "off रहता है"
+     ]
+    ]
+   },
+   "say": "Soft timeout on करो। Agent hmm या let me think बोलेगा।",
+   "hl": [
+    "Soft",
+    "timeout"
+   ],
+   "chip": "Soft"
+  },
+  {
+   "tag": "WHY",
+   "v": "versus",
+   "d": {
+    "bad": "Silence: caller hang up",
+    "good": "Filler: बात natural लगती है"
+   },
+   "say": "इससे बातचीत natural लगती है।",
+   "hl": [
+    "natural"
+   ],
+   "chip": "natural"
+  },
+  {
+   "tag": "SET",
+   "v": "flow",
+   "d": {
+    "nodes": [
+     "Agent settings",
+     "Soft timeout",
+     "Seconds set",
+     "Save"
+    ]
+   },
+   "say": "Seconds set करो, उसके बाद filler बोलेगा।",
+   "hl": [
+    "Seconds",
+    "filler"
+   ],
+   "chip": "Seconds"
+  }
+ ]
+}

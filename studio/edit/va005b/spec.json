@@ -1,0 +1,95 @@
+{
+ "id": "va005b",
+ "series": "AI VOICE AGENTS",
+ "title": "AI Agent Mispronounces Names? Fix in 2 Minutes",
+ "search_kw": "mispronounces",
+ "voice": "hi-IN-MadhurNeural",
+ "rate": "+8%",
+ "accent": "#2D7FF9",
+ "watermark": "omilabs",
+ "music": "ELEVENLABS V4",
+ "rules": "v3",
+ "beats": [
+  {
+   "tag": "PROBLEM",
+   "v": "hook",
+   "d": {
+    "problem": "Brand name galat bolta hai",
+    "brand": "ElevenLabs Agents",
+    "pill": "FIX",
+    "stat": "1",
+    "sub": "dictionary"
+   },
+   "say": "आपका AI agent brand या शहर का नाम गलत बोलता है?",
+   "hl": [
+    "AI",
+    "agent",
+    "गलत"
+   ],
+   "chip": "AI"
+  },
+  {
+   "tag": "FIX",
+   "v": "card",
+   "d": {
+    "icon": "book",
+    "title": "Pronunciation dictionary",
+    "rows": [
+     [
+      "कहाँ",
+      "Voice settings"
+     ],
+     [
+      "क्या",
+      "नाम, जगह, technical words"
+     ]
+    ]
+   },
+   "say": "Voice settings में pronunciation dictionary add करो।",
+   "hl": [
+    "pronunciation",
+    "dictionary"
+   ],
+   "chip": "pronunciation"
+  },
+  {
+   "tag": "MODEL",
+   "v": "versus",
+   "d": {
+    "bad": "Phoneme tags हर model में नहीं",
+    "good": "v4, v3, Flash v2 में चलते हैं"
+   },
+   "say": "Phoneme tags सिर्फ v4, v3 और Flash v2 models में चलते हैं।",
+   "hl": [
+    "v4",
+    "v3",
+    "Flash"
+   ],
+   "chip": "v4"
+  },
+  {
+   "tag": "ELSE",
+   "v": "card",
+   "d": {
+    "icon": "check",
+    "title": "बाकी models",
+    "rows": [
+     [
+      "Use",
+      "alias tags"
+     ],
+     [
+      "मतलब",
+      "spelling बदलकर लिखो"
+     ]
+    ]
+   },
+   "say": "बाकी models में alias tags से spelling बदलकर सही आवाज़ लो।",
+   "hl": [
+    "alias",
+    "spelling"
+   ],
+   "chip": "alias"
+  }
+ ]
+}
