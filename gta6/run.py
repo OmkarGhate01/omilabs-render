@@ -7,7 +7,8 @@ A job:
   {"id": "speed-zelda", "url": "...", "streamer": "IShowSpeed", "channel": "https://youtube.com/@IShowSpeed",
    "lang": "en" | "hi",                  # en -> word captions, hi -> no captions
    "cam": "0,330,450,272" | null,         # facecam box in 1920x1080 source; null -> blurred full-frame layout
-   "game": "450,0,1215,1080" | null,      # gameplay crop for split layout
+   "gamebox": "450,0,1215,1080" | null,   # gameplay crop for split layout
+   "game": "GTA 6",                       # publisher uploads only "GTA 6"
    "max": 10,                             # clips to cut (auto mode)
    "clips": [{"start": 7132, "len": 58, "title": "...", "score": 9}]   # optional: hand-picked moments
   }
@@ -163,7 +164,7 @@ def make_ass(words, L, path, wm="GTA 6 MOMENTS"):
 def render(src, off, L, job, ass, dst):
     if job.get("cam"):
         cx, cy, cw, ch = map(int, job["cam"].split(","))
-        gx, gy, gw, gh = map(int, (job.get("game") or "352,0,1215,1080").split(","))
+        gx, gy, gw, gh = map(int, (job.get("gamebox") or "352,0,1215,1080").split(","))
         fc = ("[0:v]scale=1920:1080,split[s1][s2];"
               "[s1]crop=%d:%d:%d:%d,scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[cam];"
               "[s2]crop=%d:%d:%d:%d,scale=1080:960:force_original_aspect_ratio=increase,crop=1080:960,setsar=1[game];"
@@ -196,7 +197,7 @@ def main():
             except Exception as e:  # noqa
                 print("loudness fallback failed:", e)
         clips = pick(words, dur, int(job.get("max", 10)), L, loud)
-    pkg = {"id": jid, "url": job["url"], "streamer": job.get("streamer") or meta.get("channel"),
+    pkg = {"id": jid, "game": job.get("game"), "url": job["url"], "streamer": job.get("streamer") or meta.get("channel"),
            "channel": job.get("channel") or meta.get("channel_url"), "source_title": meta.get("title"), "clips": []}
     for n, c in enumerate(clips, 1):
         name = "gta-%s-c%02d.mp4" % (jid, n)
