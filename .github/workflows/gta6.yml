@@ -1,0 +1,74 @@
+name: GTA 6 Moments clips
+# Cuts Shorts from streams listed in gta6/queue.json on GitHub's free runners (no PC, no Claude).
+# Each job -> media/gta-<id>-cNN.mp4 (<=45 MB parts) + pkg/gta-<id> (clip list for the private publisher).
+on:
+  push:
+    paths: ["gta6/queue.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      items: ${{ steps.q.outputs.items }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: q
+        run: |
+          git ls-remote origin 'refs/heads/pkg/gta-*' | sed 's#.*refs/heads/pkg/gta-##' > done.txt
+          python3 -c "import json;d=set(open('done.txt').read().split());t=[j['id'] for j in json.load(open('gta6/queue.json')) if j['id'] not in d];print('items='+json.dumps(t))" >> "$GITHUB_OUTPUT"
+          cat "$GITHUB_OUTPUT"
+  clip:
+    needs: plan
+    if: needs.plan.outputs.items != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        item: ${{ fromJSON(needs.plan.outputs.items) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: gta6/requirements.txt
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install -q -r gta6/requirements.txt
+          mkdir -p gta6/fonts
+          curl -sSL -o gta6/fonts/Anton-Regular.ttf https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf
+      - name: Whisper model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+      - name: Cut clips
+        run: python gta6/run.py "${{ matrix.item }}" 2>&1 | tee "$RUNNER_TEMP/log.txt"
+      - name: Push clips + package
+        if: always()
+        run: |
+          git config user.name "gta6-bot"; git config user.email "gta6-bot@users.noreply.github.com"
+          push_tree() {  # push_tree DIR BRANCH
+            export GIT_INDEX_FILE="$RUNNER_TEMP/idx"; rm -f "$GIT_INDEX_FILE"
+            (cd "$1" && find . -type f | sed 's#^\./##') | while read -r rel; do
+              b=$(git hash-object -w "$1/$rel"); git update-index --add --cacheinfo 100644,$b,"$rel"; done
+            c=$(echo "$2" | git commit-tree "$(git write-tree)"); unset GIT_INDEX_FILE
+            git push -q -f origin "$c:refs/heads/$2" && echo "pushed $2"
+          }
+          for f in out/gta-*.mp4; do
+            [ -f "$f" ] || continue
+            n=$(basename "$f"); T="$RUNNER_TEMP/split-$n"; mkdir -p "$T"
+            split -b 45m -d -a 2 "$f" "$T/$n.part"
+            push_tree "$T" "media/$n"
+          done
+          L="$RUNNER_TEMP/logtree"; mkdir -p "$L"; tail -c 200000 "$RUNNER_TEMP/log.txt" > "$L/log.txt" || true
+          push_tree "$L" "log/gta-${{ matrix.item }}"
+          [ -d out/pkg ] && ls out/gta-*.mp4 >/dev/null 2>&1 && push_tree out/pkg "pkg/gta-${{ matrix.item }}" || echo "no clips, pkg not pushed"
