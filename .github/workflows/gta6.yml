@@ -51,7 +51,7 @@ jobs:
           path: ~/.cache/huggingface
           key: whisper-small-v1
       - name: Cut clips
-        run: python gta6/run.py "${{ matrix.item }}" 2>&1 | tee "$RUNNER_TEMP/log.txt"
+        run: set -o pipefail; python gta6/run.py "${{ matrix.item }}" 2>&1 | tee "$RUNNER_TEMP/log.txt"
       - name: Push clips + package
         if: always()
         run: |

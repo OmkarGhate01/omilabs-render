@@ -28,7 +28,11 @@ HYPE_HI = ["अरे", "भाई", "क्या", "नहीं", "मर", "
 
 def sh(cmd, **kw):
     print(">", " ".join(map(str, cmd))[:200], flush=True)
-    return subprocess.run(cmd, check=True, **kw)
+    r = subprocess.run(cmd, **kw)
+    if r.returncode:
+        print("STDERR:", (r.stderr or "")[-1500:] if isinstance(r.stderr, str) else "", flush=True)
+        raise subprocess.CalledProcessError(r.returncode, cmd)
+    return r
 
 
 def info(url):
