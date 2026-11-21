@@ -1,0 +1,33 @@
+{
+ "id": "speed-end",
+ "url": "https://www.youtube.com/watch?v=OIeLbmyraRQ",
+ "streamer": "IShowSpeed",
+ "channel": "https://www.youtube.com/@IShowSpeed",
+ "game": "GTA 6",
+ "clips": [
+  {
+   "file": "gta-speed-end-c01.mp4",
+   "start": 18849,
+   "len": 58,
+   "score": 10,
+   "title": "IShowSpeed Played GTA 6 for 52 Hours... Then This Happened 😭 #shorts",
+   "pri": 3
+  },
+  {
+   "file": "gta-speed-end-c02.mp4",
+   "start": 19481,
+   "len": 52,
+   "score": 10,
+   "title": "IShowSpeed Got the BAD Ending in GTA 6 💔 #shorts",
+   "pri": 2
+  },
+  {
+   "file": "gta-speed-end-c03.mp4",
+   "start": 13745,
+   "len": 48,
+   "score": 10,
+   "title": "IShowSpeed Finally Beat GTA 6's Final Mission 🔥 #shorts",
+   "pri": 1
+  }
+ ]
+}
