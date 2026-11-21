@@ -35,8 +35,8 @@ def scan(vid, top=140):
             words[i] += len(s.split()); lo = s.lower(); hooks[i] += sum(lo.count(h) for h in HOOK)
     def roll(v, w): c = np.concatenate([[0], np.cumsum(v)]); return np.array([(c[min(n, i + w)] - c[i]) / w for i in range(n)])
     l20, base = roll(L, 20), roll(L, 600)
-    base = np.concatenate([base[:300] * 0 + base[0], base])[:n] if n > 300 else base
-    sc = (l20 - base) + 2.0 * roll(hooks, 20) * 20 / 20 + 0.05 * roll(words, 20) * 20
+    base = np.concatenate([np.full(min(300, n), base[0]), base])[:n]  # centre the 10-min baseline
+    sc = (l20 - base) + 2.0 * roll(hooks, 20) * 20 + 0.05 * roll(words, 20) * 20
     order = np.argsort(-sc); picks = []
     for i in order:
         if i < 120: continue
