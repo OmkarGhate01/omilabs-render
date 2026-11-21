@@ -1,0 +1,41 @@
+name: GTA6 subs
+on:
+  push:
+    paths: ["gta6/subs/ids.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  subs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: pip install -q -U "yt-dlp[default]" youtube-transcript-api
+      - name: fetch
+        run: |
+          mkdir -p out
+          for id in $(cat gta6/subs/ids.txt); do
+            python3 - "$id" <<'PY' || true
+          import sys, json
+          from youtube_transcript_api import YouTubeTranscriptApi
+          i = sys.argv[1]
+          try:
+              t = YouTubeTranscriptApi().fetch(i, languages=["en", "en-US"])
+              json.dump([{"t": s.start, "d": s.duration, "x": s.text} for s in t], open(f"out/{i}.json", "w"))
+              print(i, "api OK", len(t))
+          except Exception as e:
+              print(i, "api FAIL", str(e)[:300])
+          PY
+            [ -s out/$id.json ] || yt-dlp --js-runtimes node --remote-components ejs:github --skip-download --write-auto-subs --sub-langs "en.*,en" --sub-format json3 -o "out/%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$id" 2>&1 | tail -5 || true
+          done
+          ls -la out
+      - name: push
+        run: |
+          cd out && [ "$(ls | wc -l)" -gt 0 ] || exit 0
+          git init -q && git checkout -q -b subs/gta6 && git add -A
+          git -c user.name=bot -c user.email=bot@x commit -qm subs && git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" subs/gta6
