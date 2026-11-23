@@ -1,0 +1,36 @@
+{
+ "id": "carry-fp",
+ "url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
+ "streamer": "CarryisLive",
+ "channel": "https://www.youtube.com/@CarryisLive",
+ "game": "GTA 6",
+ "clips": [
+  {
+   "file": "gta-carry-fp-c01.mp4",
+   "start": 960,
+   "len": 40,
+   "score": 9,
+   "title": "GTA 6 Plot Twist: Jason Is a FATHER?! CarryMinati Reacts 😱 #shorts",
+   "pri": 3,
+   "hook": "JASON IS A FATHER?!"
+  },
+  {
+   "file": "gta-carry-fp-c02.mp4",
+   "start": 30,
+   "len": 40,
+   "score": 8,
+   "title": "CarryMinati's First Seconds of GTA 6 🔥 #shorts",
+   "pri": 3,
+   "hook": "6... 5... 4... GTA 6 IS HERE"
+  },
+  {
+   "file": "gta-carry-fp-c03.mp4",
+   "start": 118,
+   "len": 40,
+   "score": 7,
+   "title": "Lucia Roasts Jason's Driving in GTA 6 😂 #shorts",
+   "pri": 3,
+   "hook": "HIS DRIVING IS SO BAD 😂"
+  }
+ ]
+}
